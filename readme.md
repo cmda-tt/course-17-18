@@ -28,6 +28,29 @@ See the below infographic on where FE 3 is placed in Information Design.
 
 ![][infographic]
 
+## Goals
+
+The 3 main goals in this course are:
+
+*   Learning how to use a library
+*   Making a datavisualisation from external data
+*   Learning **D3.js**
+
+In practice, you’ll learn to:
+
+*   Read documentation
+*   Write documentation (for code and projects)
+*   Debug code (such as adapting **D3.js** v3 code to v4)
+*   Rewrite code in your own style
+*   Read in external data
+*   Use dataformats (like JSON, CSV, TSV, and more.)
+*   Transform and clean external data
+*   Understand the **D3.js** update loop (enter, update, exit)
+*   Create multiple graphs on the same page
+*   Create interactive visualisations (think filter, sort, and zoom)
+*   Use axes, scales, labels
+*   Understand SVG, canvas
+
 ## Bugs
 
 <!--TODO: note about raising issues, contacting people?-->
