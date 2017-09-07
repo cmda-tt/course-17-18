@@ -53,11 +53,14 @@ In practice, you’ll learn to:
 
 ## Bugs
 
-<!--TODO: note about raising issues, contacting people?-->
+Feel free to [open an issue][issue] if you have questions, or see [“Author”][authors]
+to contact instructors directly.
 
 ## Tips
 
-<!--TODO: RTFM, stackoverflow, etc-->
+*   [Read the manual][manual]
+*   Search [StackOverflow][]
+*   Use a search engine like [DuckDuckGo][]
 
 ## Author
 
@@ -96,3 +99,13 @@ In practice, you’ll learn to:
 [moodle-id]: https://moodle.cmd.hva.nl/course/view.php?id=408
 
 [infographic]: images/information-design.png
+
+[issue]: https://github.com/cmda-fe3/course-17-18/issues/new
+
+[stackoverflow]: https://stackoverflow.com/questions/tagged/d3.js
+
+[duckduckgo]: https://duckduckgo.com
+
+[manual]: https://github.com/d3/d3/wiki
+
+[authors]: #author
