@@ -4,8 +4,8 @@
 
 ## Synopsis
 
-The course **Front End Dev 3** is given at [**@CMDA**][cmda] in 2017-2018
-between 25 September and 20 October.
+The course **Front End Dev 3** is given at [**@CMDA**][cmda] in 2017 between
+25 September and 20 October.
 
 <!--TODO: Add link to Moodle-->
 
