@@ -66,7 +66,9 @@ In practice, you’ll learn to:
 
 ## See also
 
-<!--TODO: List of links-->
+*   [`d3js.org`](https://d3js.org)
+*   [`bl.ocks.org`](https://bl.ocks.org)
+*   [`github.com/d3/d3`](https://github.com/d3/d3)
 
 ## License
 
