@@ -17,7 +17,7 @@ FE 3 builds further on the knowledge acquired in **Internetstandaarden** and
 
 In this course you’ll learn:
 
-1.  If you prefer design, to use **D3.js** to actually make what you envision
+1.  If you prefer design, to use d3 to actually make what you envision
 2.  If you prefer development, to advance your web dev skills and to adopt
     frameworks and libraries
 3.  …or both!
@@ -33,18 +33,18 @@ The 3 main goals in this course are:
 
 *   Learning how to use a library
 *   Making a datavisualisation from external data
-*   Learning **D3.js**
+*   Learning d3
 
 In practice, you’ll learn to:
 
 *   Read documentation
 *   Write documentation (for code and projects)
-*   Debug code (such as adapting **D3.js** v3 code to v4)
+*   Debug code (such as adapting d3 v3 code to v4)
 *   Rewrite code in your own style
 *   Read in external data
 *   Use dataformats (like JSON, CSV, TSV, and more.)
 *   Transform and clean external data
-*   Understand the **D3.js** update loop (enter, update, exit)
+*   Understand the d3 update loop (enter, update, exit)
 *   Create multiple graphs on the same page
 *   Create interactive visualisations (think filter, sort, and zoom)
 *   Use axes, scales, labels
