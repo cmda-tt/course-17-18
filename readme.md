@@ -27,7 +27,8 @@ between 25 September and 20 October.
 
 ## Author
 
-[Titus Wormer][wooorm-uni], [Laurens Aarnoudse][razpudding-uni]
+*   [Titus Wormer][wooorm-uni] ([**@wooorm**][wooorm-gh])
+*   [Laurens Aarnoudse][razpudding-uni] ([**@razpudding**][razpudding-gh])
 
 ## See also
 
@@ -47,6 +48,10 @@ between 25 September and 20 October.
 
 [wooorm-uni]: t.e.wormer@hva.nl
 
+[wooorm-gh]: https://github.com/wooorm
+
 [razpudding-uni]: l.n.aarnoudse@hva.nl
+
+[razpudding-gh]: https://github.com/Razpudding
 
 [cmda]: https://github.com/cmda
