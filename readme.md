@@ -46,11 +46,11 @@ between 25 September and 20 October.
 
 [author]: http://wooorm.com
 
-[wooorm-uni]: t.e.wormer@hva.nl
+[wooorm-uni]: mailto:t.e.wormer@hva.nl?subject=front-end-3:%20
 
 [wooorm-gh]: https://github.com/wooorm
 
-[razpudding-uni]: l.n.aarnoudse@hva.nl
+[razpudding-uni]: mailto:l.n.aarnoudse@hva.nl?subject=front-end-3:%20
 
 [razpudding-gh]: https://github.com/Razpudding
 
