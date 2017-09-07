@@ -13,21 +13,6 @@ The course **Front End Dev 3** is given at [**@CMDA**][cmda] in 2017 between
 
 <!--TODO: Add detailed description-->
 
-## Environment
-
-FE 3 is a course given in the optional [Information Design][moodle-id] semester
-(quarter 1 and 2), a semester all about data visualisation and infographics.
-
-In 6 courses and 3 projects you’ll learn how to visualise data and complex
-information. In this course you’ll learn how to build that.
-
-This semester, including this course, is quite technical. However, we’ll also
-test your creativity and research & concepting capabilities.
-
-See the below infographic on where FE 3 is placed in Information Design.
-
-![][infographic]
-
 ## Goals
 
 The 3 main goals in this course are:
@@ -50,6 +35,21 @@ In practice, you’ll learn to:
 *   Create interactive visualisations (think filter, sort, and zoom)
 *   Use axes, scales, labels
 *   Understand SVG, canvas
+
+## Environment
+
+FE 3 is a course given in the optional [Information Design][moodle-id] semester
+(quarter 1 and 2), a semester all about data visualisation and infographics.
+
+In 6 courses and 3 projects you’ll learn how to visualise data and complex
+information. In this course you’ll learn how to build that.
+
+This semester, including this course, is quite technical. However, we’ll also
+test your creativity and research & concepting capabilities.
+
+See the below infographic on where FE 3 is placed in Information Design.
+
+![][infographic]
 
 ## Bugs
 
