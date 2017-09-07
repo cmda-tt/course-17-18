@@ -2,6 +2,37 @@
 
 ## [![fe(3)][logo]][home]
 
+## Synopsis
+
+The course **Front End Dev 3** is given at [**@CMDA**][cmda] in 2017-2018
+between 25 September and 20 October.
+
+<!--TODO: Add link to Moodle-->
+
+## Description
+
+<!--TODO: Add detailed description-->
+
+## Environment
+
+<!--TODO: Describe place in curriculum-->
+
+## Bugs
+
+<!--TODO: note about raising issues, contacting people?-->
+
+## Tips
+
+<!--TODO: RTFM, stackoverflow, etc-->
+
+## Author
+
+[Titus Wormer][wooorm-uni], [Laurens Aarnoudse][razpudding-uni]
+
+## See also
+
+<!--TODO: List of links-->
+
 ## License
 
 [MIT][] © [Titus Wormer][author]
@@ -13,3 +44,9 @@
 [mit]: LICENSE
 
 [author]: http://wooorm.com
+
+[wooorm-uni]: t.e.wormer@hva.nl
+
+[razpudding-uni]: l.n.aarnoudse@hva.nl
+
+[cmda]: https://github.com/cmda
