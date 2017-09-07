@@ -11,7 +11,21 @@ The course **Front End Dev 3** is given at [**@CMDA**][cmda] in 2017 between
 
 ## Description
 
-<!--TODO: Add detailed description-->
+FE 3 builds further on the knowledge acquired in **Internetstandaarden** and
+**Inleiding Programmeren** (year 1), **FE 1** (year 2), and **FE 2** and
+**Backend** (year 2, optional but recommended), amongst others.
+
+In this course you’ll learn:
+
+1.  If you prefer design, to use **D3.js** to actually make what you envision
+2.  If you prefer development, to advance your web dev skills and to adopt
+    frameworks and libraries
+3.  …or both!
+
+If you’d like to go even further with web development, do check out the
+[Minor Web Development][minor]. Both [**@wooorm**][wooorm-gh] and
+[**@razpudding**][razpudding-gh] lecture in the minor, so feel free to ask
+them for more information.
 
 ## Goals
 
@@ -109,3 +123,5 @@ to contact instructors directly.
 [manual]: https://github.com/d3/d3/wiki
 
 [authors]: #author
+
+[minor]: https://moodle.cmd.hva.nl/course/index.php?categoryid=41
