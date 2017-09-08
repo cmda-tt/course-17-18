@@ -1,3 +1,9 @@
+<!--
+  TODO:
+  * Set-up Moodle
+  * Send email out containing invite to Slack
+-->
+
 # fe(3) - Course 2017-2018
 
 ## [![fe(3)][logo]][home]
