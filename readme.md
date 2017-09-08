@@ -135,7 +135,7 @@ date, time, and place.
 | Assessment 2 (remote) |  Test |           |           |                 |
 | [Class 5][c5]         | Class |   12-10   |   13-10   |      11-10      |
 | [Class 6][c6]         | Class |   16-10   |   17-10   |      16-10      |
-| Assessment 3 (oral)   |  Test |   16-10   |   20-10   | 18-10 and 20-10 |
+| Assessment 3 (oral)   |  Test |   19-10   |   20-10   | 18-10 and 20-10 |
 | Resit                 |  Test |   01-02   |   31-01   |      02-02      |
 
 ## Prerequisites
