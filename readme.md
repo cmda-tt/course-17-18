@@ -3,7 +3,6 @@
   * Set-up Moodle
   * Send email out containing invite to Slack
   * Link grade tasks to separate pages
-  * Link calendar to separate pages
 -->
 
 # fe(3) - Course 2017-2018
