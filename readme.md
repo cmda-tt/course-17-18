@@ -16,6 +16,7 @@
 *   [Goals](#goals)
 *   [Materials](#materials)
 *   [Grade](#grade)
+*   [Calendar](#calendar)
 *   [Environment](#environment)
 *   [Bugs](#bugs)
 *   [Tips](#tips)
@@ -103,6 +104,24 @@ Checked materials are required.  Unchecked materials are optional.
 | Assessment 2        | 30%        |
 | Assessment 3 (Oral) | 40%        |
 | **Total**           | 100%       |
+
+## Calendar
+
+Dates may be out of date.  Check [`rooster.hva.nl`][rooster] for info on actual
+date, time, and place.
+
+| Class                 | Type  | Date ID 1 | Date ID 2 | Date ID 3       |
+| --------------------- | ----- | --------- | --------- | --------------- |
+| 1                     | Class | 25-09     | 26-09     | 25-09           |
+| 2                     | Class | 02-10     | 04-10     | 02-10           |
+| Assessment 1 (remote) | Test  |           |           |                 |
+| 3                     | Class | 05-10     | 06-10     | 04-10           |
+| 4                     | Class | 09-10     | 11-10     | 09-10           |
+| Assessment 2 (remote) | Test  |           |           |                 |
+| 5                     | Class | 12-10     | 13-10     | 11-10           |
+| 6                     | Class | 16-10     | 17-10     | 16-10           |
+| Assessment 3 (oral)   | Test  | 16-10     | 20-10     | 18-10 and 20-10 |
+| Resit                 | Test  | 01-02     | 31-01     | 02-02           |
 
 ## Environment
 
@@ -201,3 +220,5 @@ Feel free to [open an issue][issue] if you have questions, or see
 [d3ia]: https://github.com/emeeks/d3_in_action_2
 
 [mastering-d3]: https://github.com/pnavarrc/mastering-d3
+
+[rooster]: https://rooster.hva.nl
