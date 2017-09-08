@@ -76,29 +76,29 @@ In practice you’ll learn to:
 
 <!--lint disable no-html-->
 
-*   <a name="subgoal-1"></a> Understand SVG and canvas
+1.  <a name="subgoal-1"></a> Understand SVG and canvas
     ([**class 1**][c1])
-*   <a name="subgoal-2"></a> Parse data formats, like JSON, CSV, TSV, and more
+2.  <a name="subgoal-2"></a> Parse data formats, like JSON, CSV, TSV, and more
     ([**class 1**][c1] and [**class 3**][c3])
-*   <a name="subgoal-3"></a> Debug code, such as adapting d3 v3 code to v4
+3.  <a name="subgoal-3"></a> Debug code, such as adapting d3 v3 code to v4
     ([**class 1**][c1] and [**class 2**][c2])
-*   <a name="subgoal-4"></a> Rewrite code in your own style
+4.  <a name="subgoal-4"></a> Rewrite code in your own style
     ([**class 1**][c1] and [**class 2**][c2])
-*   <a name="subgoal-5"></a> Read documentation
+5.  <a name="subgoal-5"></a> Read documentation
     ([**class 1**][c1], [**class 2**][c2], and [**class 4**][c4])
-*   <a name="subgoal-6"></a> Write documentation for code and projects
+6.  <a name="subgoal-6"></a> Write documentation for code and projects
     ([**class 1**][c1], [**class 2**][c2], and [**class 4**][c4])
-*   <a name="subgoal-7"></a> Use axes, domains, labels, ranges, and scales
+7.  <a name="subgoal-7"></a> Use axes, domains, labels, ranges, and scales
     ([**class 2**][c2] and [**class 4**][c4])
-*   <a name="subgoal-8"></a> Read in external data
+8.  <a name="subgoal-8"></a> Read in external data
     ([**class 3**][c3] and [**class 4**][c4])
-*   <a name="subgoal-9"></a> Transform and clean external data
+9.  <a name="subgoal-9"></a> Transform and clean external data
     ([**class 3**][c3] and [**class 4**][c4])
-*   <a name="subgoal-10"></a> Understand the d3 loop
+10. <a name="subgoal-10"></a> Understand the d3 loop
     ([**class 3**][c3] and [**class 4**][c4])
-*   <a name="subgoal-11"></a> Create interactive visualisations
+11. <a name="subgoal-11"></a> Create interactive visualisations
     ([**class 3**][c3] and [**class 5**][c5])
-*   <a name="subgoal-12"></a> Create multiple graphs on the same page
+12. <a name="subgoal-12"></a> Create multiple graphs on the same page
     ([**class 6**][c6])
 
 <!--lint enable no-html-->
