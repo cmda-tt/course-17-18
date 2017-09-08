@@ -39,8 +39,11 @@ The course **Frontend 3** is given at [**@CMDA**][cmda] in 2017 between
 *   **Programme**: Communication and Multimedia Design (bachelor, full time)
 *   **Language of instruction**: Dutch, English resources
 *   **Entry requirements**: N/A
-*   **Course coordinator**: Titus Wormer
-*   **Lecturers**: Titus Wormer, Laurens Aarnoudse
+*   **Semester coordinators**: [Frank Kloos][frank-mail],
+    [Maaike van Cruchten][maaike-mail]
+*   **Course coordinator**: [Titus Wormer][wooorm-mail]
+*   **Course Lecturers**: [Titus Wormer][wooorm-mail],
+    [Laurens Aarnoudse][razpudding-mail]
 
 ## Description
 
@@ -233,8 +236,8 @@ Feel free to [open an issue][issue] if you have questions, or see
 
 ## Lecturers
 
-*   [Titus Wormer][wooorm-uni] ([**@wooorm**][wooorm-gh])
-*   [Laurens Aarnoudse][razpudding-uni] ([**@razpudding**][razpudding-gh])
+*   [Titus Wormer][wooorm-mail] ([**@wooorm**][wooorm-gh])
+*   [Laurens Aarnoudse][razpudding-mail] ([**@razpudding**][razpudding-gh])
 
 ## See also
 
@@ -256,11 +259,15 @@ Feel free to [open an issue][issue] if you have questions, or see
 
 [author]: http://wooorm.com
 
-[wooorm-uni]: mailto:t.e.wormer@hva.nl?subject=frontend-3:%20
+[wooorm-mail]: mailto:t.e.wormer@hva.nl?subject=frontend-3:%20
 
 [wooorm-gh]: https://github.com/wooorm
 
-[razpudding-uni]: mailto:l.n.aarnoudse@hva.nl?subject=frontend-3:%20
+[razpudding-mail]: mailto:l.n.aarnoudse@hva.nl?subject=frontend-3:%20
+
+[frank-mail]: mailto:f.kloos@hva.nl?subject=frontend-3:%20
+
+[maaike-mail]: mailto:m.van.cruchten@hva.nl?subject=frontend-3:%20
 
 [razpudding-gh]: https://github.com/Razpudding
 
