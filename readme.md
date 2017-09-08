@@ -44,7 +44,7 @@ The course **Frontend 3** is given at [**@CMDA**][cmda] in 2017 between
 *   **Academic year**: 2017-2018
 *   **Period**: Quarter 1
 *   **Programme**: Communication and Multimedia Design (bachelor, full time)
-*   **Language**: Dutch, English resources
+*   **Language**: Dutch instructions, English resources
 *   **Entry requirements**: N/A
 
 ## Description
