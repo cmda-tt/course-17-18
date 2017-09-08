@@ -131,13 +131,13 @@ Communication between students and lecturers happens on:
 
 ## Grade
 
-| Task                  | Percentage |
-| --------------------- | ---------: |
-| Participation         |        10% |
-| Assessment 1 (remote) |        20% |
-| Assessment 2 (remote) |        30% |
-| Assessment 3 (oral)   |        40% |
-| **Total**             |       100% |
+| Task                  | Weight |
+| --------------------- | -----: |
+| Participation         |    10% |
+| Assessment 1 (remote) |    20% |
+| Assessment 2 (remote) |    30% |
+| Assessment 3 (oral)   |    40% |
+| **Total**             |   100% |
 
 ## Calendar
 
