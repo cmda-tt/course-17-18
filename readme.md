@@ -53,12 +53,10 @@ FE 3 builds further on the knowledge acquired in **Internetstandaarden** and
 **Inleiding Programmeren** (year 1), **Frontend 1** (year 2), and **Frontend 2**
 and **Backend** (year 2, optional but recommended), amongst others.
 
-In this course you’ll learn:
-
-1.  If you prefer design, to use d3 to actually make what you envision
-2.  If you prefer development, to advance your web dev skills and to adopt
-    frameworks and libraries
-3.  …or both!
+In this course you’ll learn to use d3 to actually make what you design, to
+advance your web dev skills, and to adopt frameworks and libraries.  In
+Project 1 (individual) and Project 2 (team) of Information Design you’ll apply
+your newfound skills.
 
 If you’d like to go even further with web development, do check out the
 [Minor Web Development][minor].  Both [**@wooorm**][wooorm-gh] and
