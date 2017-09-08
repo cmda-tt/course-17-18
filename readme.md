@@ -32,18 +32,20 @@
 The course **Frontend 3** is given at [**@CMDA**][cmda] in 2017 between
 25 September and 20 October.
 
-*   **Academic year**: 2017-2018
-*   **SIS**: Frontend 3 Data
-*   **Credit (ECTS)**: 3
-*   **Period**: Quarter 1
-*   **Programme**: Communication and Multimedia Design (bachelor, full time)
-*   **Language of instruction**: Dutch, English resources
-*   **Entry requirements**: N/A
+*   **Course**: Fronend 3
+*   **Course coordinator**: [Titus Wormer][wooorm-mail]
+*   **Course lecturers**: [Titus Wormer][wooorm-mail],
+    [Laurens Aarnoudse][razpudding-mail]
+*   **Semester**: [Information Design][moodle-id]
 *   **Semester coordinators**: [Frank Kloos][frank-mail],
     [Maaike van Cruchten][maaike-mail]
-*   **Course coordinator**: [Titus Wormer][wooorm-mail]
-*   **Course Lecturers**: [Titus Wormer][wooorm-mail],
-    [Laurens Aarnoudse][razpudding-mail]
+*   **SIS**: Frontend 3 Data
+*   **Credit**: 3 ECTS
+*   **Academic year**: 2017-2018
+*   **Period**: Quarter 1
+*   **Programme**: Communication and Multimedia Design (bachelor, full time)
+*   **Language**: Dutch, English resources
+*   **Entry requirements**: N/A
 
 ## Description
 
