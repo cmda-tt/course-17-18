@@ -130,8 +130,8 @@ Feel free to [open an issue][issue] if you have questions, or see
 *   [Browse the gallery][gallery]
 *   [Follow tutorials][tutorials]
 *   [Ask questions on Slack][slack]
-*   Search [StackOverflow][]
-*   Use a search engine like [DuckDuckGo][]
+*   [Search StackOverflow][stackoverflow]
+*   Use a search engine (like [DuckDuckGo][])
 
 ## Instructors
 
