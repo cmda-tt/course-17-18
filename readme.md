@@ -97,17 +97,11 @@ Checked materials are required.  Unchecked materials are optional.
     — [Sign Up][gh-signup]
 *   [x] Text Editor
     — [Sublime][] or [Atom][]
-*   [ ] King, Ritchie S.
-    _Visual Storytelling with D3_.
-    Addison-Wesley, 2015.
+*   [ ] King, Ritchie S.  _Visual Storytelling with D3_.  Addison-Wesley, 2015
     — [Read on GitHub][vs]
-*   [ ] Meeks, Elijah.
-    _D3.js in Action: Data Visualization with Javascript_.
-    O’Reilly Media, 2017.
+*   [ ] Meeks, Elijah.  _D3.js in Action_.  O’Reilly Media, 2017
     — [Read on GitHub][d3ia]
-*   [ ] Castillo, Pablo Navarro.
-    _Mastering D3.js_.
-    Packt Pub., 2014.
+*   [ ] Castillo, Pablo Navarro.  _Mastering D3.js_.  Packt Publishing, 2014
     — [Read on GitHub][mastering-d3]
 
 ## Environment
