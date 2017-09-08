@@ -76,7 +76,7 @@ In practice, you’ll learn to:
 *   Understand the d3 update loop (enter, update, exit)
 *   Create multiple graphs on the same page
 *   Create interactive visualisations (think filter, sort, and zoom)
-*   Use axes, scales, labels
+*   Use axes, domains, labels, ranges, and scales
 *   Understand SVG, canvas
 
 ## Grade
