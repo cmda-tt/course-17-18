@@ -9,6 +9,19 @@
 
 ## [![fe(3)][logo]][home]
 
+## Table of Contents
+
+*   [Synopsis](#synopsis)
+*   [Description](#description)
+*   [Goals](#goals)
+*   [Grade](#grade)
+*   [Environment](#environment)
+*   [Bugs](#bugs)
+*   [Tips](#tips)
+*   [Author](#author)
+*   [See also](#see-also)
+*   [License](#license)
+
 ## Synopsis
 
 The course **Frontend 3** is given at [**@CMDA**][cmda] in 2017 between
