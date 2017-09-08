@@ -14,8 +14,8 @@
 *   [Synopsis](#synopsis)
 *   [Description](#description)
 *   [Goals](#goals)
-*   [Grade](#grade)
 *   [Materials](#materials)
+*   [Grade](#grade)
 *   [Environment](#environment)
 *   [Bugs](#bugs)
 *   [Tips](#tips)
@@ -79,16 +79,6 @@ In practice, you’ll learn to:
 *   Use axes, domains, labels, ranges, and scales
 *   Understand SVG, canvas
 
-## Grade
-
-| Task              | Percentage |
-| ----------------- | ---------- |
-| Participation     | 10%        |
-| Oral assessment 1 | 20%        |
-| Oral assessment 2 | 30%        |
-| Oral assessment 3 | 40%        |
-| **Total**         | 100%       |
-
 ## Materials
 
 Checked materials are required.  Unchecked materials are optional.
@@ -103,6 +93,16 @@ Checked materials are required.  Unchecked materials are optional.
     — [Read on GitHub][d3ia]
 *   [ ] Castillo, Pablo Navarro.  _Mastering D3.js_.  Packt Publishing, 2014
     — [Read on GitHub][mastering-d3]
+
+## Grade
+
+| Task              | Percentage |
+| ----------------- | ---------- |
+| Participation     | 10%        |
+| Oral assessment 1 | 20%        |
+| Oral assessment 2 | 30%        |
+| Oral assessment 3 | 40%        |
+| **Total**         | 100%       |
 
 ## Environment
 
