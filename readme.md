@@ -13,7 +13,15 @@
 The course **Frontend 3** is given at [**@CMDA**][cmda] in 2017 between
 25 September and 20 October.
 
-<!--TODO: Add link to Moodle-->
+*   **Academic year**: 2017-2018
+*   **SIS**: Frontend 3 Data
+*   **Credit (ECTS)**: 3
+*   **Period**: Quarter 1
+*   **Programme**: Communication and Multimedia Design (bachelor, full time)
+*   **Language of instruction**: Dutch, English resources
+*   **Entry requirements**: N/A
+*   **Course coordinator**: Titus Wormer
+*   **Lecturers**: Titus Wormer, Laurens Aarnoudse
 
 ## Description
 
