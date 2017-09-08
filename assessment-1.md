@@ -19,13 +19,13 @@ In **Assessment 1** you’ll make a [“Basic”][basic] chart based on given da
 
 **Assessment 1** tests that you’ve attained the following knowledge:
 
-*   [SVG and canvas][sg-1]
-*   [Data formats][sg-2]
-*   [Debug code][sg-3]
-*   [Refactor code][sg-4]
-*   [Read documentation][sg-5]
-*   [Write documentation][sg-6]
-*   [Scales, domains, ranges, and labels][sg-7]
+*   [SVG and canvas][s1]
+*   [Data formats][s2]
+*   [Debug code][s3]
+*   [Refactor code][s4]
+*   [Read documentation][s5]
+*   [Write documentation][s6]
+*   [Scales, domains, ranges, and labels][s7]
 
 [basic]: https://github.com/d3/d3/wiki/Gallery#basic-charts
 
@@ -33,16 +33,16 @@ In **Assessment 1** you’ll make a [“Basic”][basic] chart based on given da
 
 [c3]: class-3.md
 
-[sg-1]: https://github.com/cmda-fe3/course-17-18#subgoal-1
+[s1]: https://github.com/cmda-fe3/course-17-18#subgoal-1
 
-[sg-2]: https://github.com/cmda-fe3/course-17-18#subgoal-2
+[s2]: https://github.com/cmda-fe3/course-17-18#subgoal-2
 
-[sg-3]: https://github.com/cmda-fe3/course-17-18#subgoal-3
+[s3]: https://github.com/cmda-fe3/course-17-18#subgoal-3
 
-[sg-4]: https://github.com/cmda-fe3/course-17-18#subgoal-4
+[s4]: https://github.com/cmda-fe3/course-17-18#subgoal-4
 
-[sg-5]: https://github.com/cmda-fe3/course-17-18#subgoal-5
+[s5]: https://github.com/cmda-fe3/course-17-18#subgoal-5
 
-[sg-6]: https://github.com/cmda-fe3/course-17-18#subgoal-6
+[s6]: https://github.com/cmda-fe3/course-17-18#subgoal-6
 
-[sg-7]: https://github.com/cmda-fe3/course-17-18#subgoal-7
+[s7]: https://github.com/cmda-fe3/course-17-18#subgoal-7

@@ -3,9 +3,9 @@
 ## Schedule
 
 *   Introduction to loading and cleaning external data
-    ([**subgoal 2**][sg-2], [**subgoal 8**][sg-8], and [**subgoal 9**][sg-9])
+    ([**subgoal 2**][s2], [**subgoal 8**][s8], and [**subgoal 9**][s9])
 *   Core d3: the enter / update / exit loop
-    ([**subgoal 10**][sg-10] and [**subgoal 11**][sg-11])
+    ([**subgoal 10**][s10] and [**subgoal 11**][s11])
 
 ## Assignments
 
@@ -20,12 +20,12 @@ See [class 2][c2] for assignments due before this class.
 
 [c4]: class-4.md
 
-[sg-2]: https://github.com/cmda-fe3/course-17-18#subgoal-2
+[s2]: https://github.com/cmda-fe3/course-17-18#subgoal-2
 
-[sg-8]: https://github.com/cmda-fe3/course-17-18#subgoal-8
+[s8]: https://github.com/cmda-fe3/course-17-18#subgoal-8
 
-[sg-9]: https://github.com/cmda-fe3/course-17-18#subgoal-9
+[s9]: https://github.com/cmda-fe3/course-17-18#subgoal-9
 
-[sg-10]: https://github.com/cmda-fe3/course-17-18#subgoal-10
+[s10]: https://github.com/cmda-fe3/course-17-18#subgoal-10
 
-[sg-11]: https://github.com/cmda-fe3/course-17-18#subgoal-11
+[s11]: https://github.com/cmda-fe3/course-17-18#subgoal-11

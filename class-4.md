@@ -3,10 +3,10 @@
 ## Schedule
 
 *   Advanced loading and cleaning of external data
-    ([**subgoal 5**][sg-5], [**subgoal 6**][sg-6], and [**subgoal 7**][sg-7])
+    ([**subgoal 5**][s5], [**subgoal 6**][s6], and [**subgoal 7**][s7])
 *   Advanced d3: the enter / update / exit loop
-    ([**subgoal 8**][sg-8] and [**subgoal 10**][sg-10])
-*   Introduction to non-trivial charts ([**subgoal 9**][sg-9])
+    ([**subgoal 8**][s8] and [**subgoal 10**][s10])
+*   Introduction to non-trivial charts ([**subgoal 9**][s9])
 
 ## Assignments
 
@@ -23,14 +23,14 @@ See [class 3][c3] for assignments due before this class.
 
 [c5]: class-5.md
 
-[sg-5]: https://github.com/cmda-fe3/course-17-18#subgoal-5
+[s5]: https://github.com/cmda-fe3/course-17-18#subgoal-5
 
-[sg-6]: https://github.com/cmda-fe3/course-17-18#subgoal-6
+[s6]: https://github.com/cmda-fe3/course-17-18#subgoal-6
 
-[sg-7]: https://github.com/cmda-fe3/course-17-18#subgoal-7
+[s7]: https://github.com/cmda-fe3/course-17-18#subgoal-7
 
-[sg-8]: https://github.com/cmda-fe3/course-17-18#subgoal-8
+[s8]: https://github.com/cmda-fe3/course-17-18#subgoal-8
 
-[sg-9]: https://github.com/cmda-fe3/course-17-18#subgoal-9
+[s9]: https://github.com/cmda-fe3/course-17-18#subgoal-9
 
-[sg-10]: https://github.com/cmda-fe3/course-17-18#subgoal-10
+[s10]: https://github.com/cmda-fe3/course-17-18#subgoal-10
