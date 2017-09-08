@@ -96,13 +96,13 @@ Checked materials are required.  Unchecked materials are optional.
 
 ## Grade
 
-| Task              | Percentage |
-| ----------------- | ---------- |
-| Participation     | 10%        |
-| Oral assessment 1 | 20%        |
-| Oral assessment 2 | 30%        |
-| Oral assessment 3 | 40%        |
-| **Total**         | 100%       |
+| Task                | Percentage |
+| ------------------- | ---------- |
+| Participation       | 10%        |
+| Assessment 1        | 20%        |
+| Assessment 2        | 30%        |
+| Assessment 3 (Oral) | 40%        |
+| **Total**           | 100%       |
 
 ## Environment
 
