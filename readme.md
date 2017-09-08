@@ -19,7 +19,7 @@
 *   [Environment](#environment)
 *   [Bugs](#bugs)
 *   [Tips](#tips)
-*   [Author](#author)
+*   [Instructors](#instructors)
 *   [See also](#see-also)
 *   [License](#license)
 
@@ -128,7 +128,7 @@ See the below infographic on where FE 3 is placed in Information Design.
 ## Bugs
 
 Feel free to [open an issue][issue] if you have questions, or see
-[“Author”][authors] to contact instructors directly.
+[“Instructors”][instructors] to contact instructors directly.
 
 ## Tips
 
@@ -139,7 +139,7 @@ Feel free to [open an issue][issue] if you have questions, or see
 *   Search [StackOverflow][]
 *   Use a search engine like [DuckDuckGo][]
 
-## Author
+## Instructors
 
 *   [Titus Wormer][wooorm-uni] ([**@wooorm**][wooorm-gh])
 *   [Laurens Aarnoudse][razpudding-uni] ([**@razpudding**][razpudding-gh])
@@ -192,7 +192,7 @@ Feel free to [open an issue][issue] if you have questions, or see
 
 [slack]: https://cmdinformationdesign.slack.com
 
-[authors]: #author
+[instructors]: #instructors
 
 [minor]: https://moodle.cmd.hva.nl/course/index.php?categoryid=41
 
