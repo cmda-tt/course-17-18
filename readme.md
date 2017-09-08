@@ -38,7 +38,7 @@ In this course you’ll learn:
 3.  …or both!
 
 If you’d like to go even further with web development, do check out the
-[Minor Web Development][minor]. Both [**@wooorm**][wooorm-gh] and
+[Minor Web Development][minor].  Both [**@wooorm**][wooorm-gh] and
 [**@razpudding**][razpudding-gh] lecture in the minor, so feel free to ask
 them for more information.
 
@@ -81,9 +81,9 @@ FE 3 is a course given in the optional [Information Design][moodle-id] semester
 (quarter 1 and 2), a semester all about data visualisation and infographics.
 
 In 6 courses and 3 projects you’ll learn how to visualise data and complex
-information. In this course you’ll learn how to build that.
+information.  In this course you’ll learn how to build that.
 
-This semester, including this course, is quite technical. However, we’ll also
+This semester, including this course, is quite technical.  However, we’ll also
 test your creativity and research & concepting capabilities.
 
 See the below infographic on where FE 3 is placed in Information Design.
@@ -92,8 +92,8 @@ See the below infographic on where FE 3 is placed in Information Design.
 
 ## Bugs
 
-Feel free to [open an issue][issue] if you have questions, or see [“Author”][authors]
-to contact instructors directly.
+Feel free to [open an issue][issue] if you have questions, or see
+[“Author”][authors] to contact instructors directly.
 
 ## Tips
 
