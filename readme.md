@@ -15,6 +15,7 @@
 *   [Description](#description)
 *   [Goals](#goals)
 *   [Grade](#grade)
+*   [Materials](#materials)
 *   [Environment](#environment)
 *   [Bugs](#bugs)
 *   [Tips](#tips)
@@ -87,6 +88,27 @@ In practice, you’ll learn to:
 | Oral assessment 2 | 30%        |
 | Oral assessment 3 | 40%        |
 | **Total**         | 100%       |
+
+## Materials
+
+Checked materials are required.  Unchecked materials are optional.
+
+*   [x] [GitHub][gh] account
+    — [Sign Up][gh-signup]
+*   [x] Text Editor
+    — [Sublime][] or [Atom][]
+*   [ ] King, Ritchie S.
+    _Visual Storytelling with D3_.
+    Addison-Wesley, 2015.
+    — [Read on GitHub][vs]
+*   [ ] Meeks, Elijah.
+    _D3.js in Action: Data Visualization with Javascript_.
+    O’Reilly Media, 2017.
+    — [Read on GitHub][d3ia]
+*   [ ] Castillo, Pablo Navarro.
+    _Mastering D3.js_.
+    Packt Pub., 2014.
+    — [Read on GitHub][mastering-d3]
 
 ## Environment
 
@@ -164,3 +186,17 @@ Feel free to [open an issue][issue] if you have questions, or see
 [authors]: #author
 
 [minor]: https://moodle.cmd.hva.nl/course/index.php?categoryid=41
+
+[gh]: https://github.com
+
+[gh-signup]: https://help.github.com/articles/signing-up-for-a-new-github-account/
+
+[sublime]: http://www.sublimetext.com
+
+[atom]: https://atom.io
+
+[vs]: https://github.com/ritchieking/d3-book
+
+[d3ia]: https://github.com/emeeks/d3_in_action_2
+
+[mastering-d3]: https://github.com/pnavarrc/mastering-d3
