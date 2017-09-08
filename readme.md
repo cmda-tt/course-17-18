@@ -106,8 +106,11 @@ Checked materials are required.  Unchecked materials are optional.
 Communication between students and lecturers happens on:
 
 *   [GitHub][home]
+    — Main source of information, assignments, important dates, and more
 *   [Slack][]
+    — General chatter and Q&A
 *   Moodle
+    — Schedulers and links to other places
 
 ## Grade
 
