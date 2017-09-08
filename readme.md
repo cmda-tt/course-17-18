@@ -49,9 +49,9 @@ The course **Frontend 3** is given at [**@CMDA**][cmda] in 2017 between
 
 ## Description
 
-FE 3 builds further on the knowledge acquired in **Internetstandaarden** and
-**Inleiding Programmeren** (year 1), **Frontend 1** (year 2), and **Frontend 2**
-and **Backend** (year 2, optional but recommended), amongst others.
+FE 3 builds further on the knowledge acquired in **Internetstandaarden**,
+**Inleiding Programmeren**, **Frontend 1**, **Frontend 2** and **Backend**
+(the last two are optional but recommended), amongst others.
 
 In this course you’ll learn to use d3 to actually make what you design, to
 advance your web dev skills, and to adopt frameworks and libraries.  In
