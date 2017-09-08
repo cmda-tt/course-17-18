@@ -71,18 +71,22 @@ The 3 main goals in this course are:
 
 In practice you’ll learn to:
 
-*   Read documentation
-*   Write documentation (for code and projects)
-*   Debug code (such as adapting d3 v3 code to v4)
-*   Rewrite code in your own style
-*   Read in external data
-*   Use dataformats (like JSON, CSV, TSV, and more)
-*   Transform and clean external data
-*   Understand the d3 update loop (enter, update, and exit)
-*   Create multiple graphs on the same page
-*   Create interactive visualisations (think filter, sort, and zoom)
-*   Use axes, domains, labels, ranges, and scales
-*   Understand SVG and canvas
+<!--lint disable no-html-->
+
+*   <a name="subgoal-1"></a> Understand SVG and canvas
+*   <a name="subgoal-2"></a> Parse data formats (like JSON, CSV, TSV, and more)
+*   <a name="subgoal-3"></a> Debug code (such as adapting d3 v3 code to v4)
+*   <a name="subgoal-4"></a> Rewrite code in your own style
+*   <a name="subgoal-5"></a> Read documentation
+*   <a name="subgoal-6"></a> Write documentation (for code and projects)
+*   <a name="subgoal-7"></a> Use axes, domains, labels, ranges, and scales
+*   <a name="subgoal-8"></a> Read in external data
+*   <a name="subgoal-9"></a> Transform and clean external data
+*   <a name="subgoal-10"></a> Understand the d3 loop (enter, update, and exit)
+*   <a name="subgoal-11"></a> Create interactive visualisations
+*   <a name="subgoal-12"></a> Create multiple graphs on the same page
+
+<!--lint enable no-html-->
 
 ## Materials
 
