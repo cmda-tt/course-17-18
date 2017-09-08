@@ -18,6 +18,7 @@
 *   [Materials](#materials)
 *   [Grade](#grade)
 *   [Calendar](#calendar)
+*   [Prerequisites](#prerequisites)
 *   [Environment](#environment)
 *   [Bugs](#bugs)
 *   [Tips](#tips)
@@ -43,8 +44,8 @@ The course **Frontend 3** is given at [**@CMDA**][cmda] in 2017 between
 ## Description
 
 FE 3 builds further on the knowledge acquired in **Internetstandaarden** and
-**Inleiding Programmeren** (year 1), **FE 1** (year 2), and **FE 2** and
-**Backend** (year 2, optional but recommended), amongst others.
+**Inleiding Programmeren** (year 1), **Frontend 1** (year 2), and **Frontend 2**
+and **Backend** (year 2, optional but recommended), amongst others.
 
 In this course you’ll learn:
 
@@ -86,15 +87,15 @@ In practice, you’ll learn to:
 Checked materials are required.  Unchecked materials are optional.
 
 *   [x] GitHub account
-    — [Sign Up][gh-signup]
+    — [Sign Up](https://help.github.com/articles/signing-up-for-a-new-github-account/)
 *   [x] Text Editor
-    — [Sublime][] or [Atom][]
+    — [Sublime](http://www.sublimetext.com) or [Atom](https://atom.io)
 *   [ ] King, Ritchie S.  _Visual Storytelling with D3_.  Addison-Wesley, 2015
-    — [Read on GitHub][vs]
+    — [Read on GitHub](https://github.com/ritchieking/d3-book)
 *   [ ] Meeks, Elijah.  _D3.js in Action_.  O’Reilly Media, 2017
-    — [Read on GitHub][d3ia]
+    — [Read on GitHub](https://github.com/emeeks/d3_in_action_2)
 *   [ ] Castillo, Pablo Navarro.  _Mastering D3.js_.  Packt Publishing, 2014
-    — [Read on GitHub][mastering-d3]
+    — [Read on GitHub](https://github.com/pnavarrc/mastering-d3)
 
 ## Grade
 
@@ -123,6 +124,67 @@ date, time, and place.
 | Class 6               | Class |   16-10   |   17-10   |      16-10      |
 | Assessment 3 (oral)   |  Test |   16-10   |   20-10   | 18-10 and 20-10 |
 | Resit                 |  Test |   01-02   |   31-01   |      02-02      |
+
+## Prerequisites
+
+FE 3 is the most technical course, except for the Minor Web Development, given
+at [**@CMDA**][cmda].  You will need your knowledge acquired in previous
+technical courses.  To refresh your memory, use the following sources.
+
+##### Resources to refresh your memory
+
+*   🆓 [Codecademy](https://www.codecademy.com/learn/introduction-to-javascript)
+    (**course**) — Introduction to JavaScript: Learn to code, interactively,
+    for free
+*   🆓 [Re-introduction to JavaScript](https://developer.mozilla.org/Web/JavaScript/A_re-introduction_to_JavaScript)
+    (**article**) — Short re-introduction to JavaScript
+*   🆓 [JavaScript For Cats](http://jsforcats.com)
+    (**book**) — Introduction to JavaScript for new programmers
+*   🆓 [JavaScript 30](https://javascript30.com)
+    (**course**) — 30 day vanilla JavaScript coding challenge
+*   🆓 [Eloquent JavaScript](http://eloquentjavascript.net)
+    (**book**) — Modern introduction to programming
+*   🆓 [Mastering Markdown](https://masteringmarkdown.com)
+    (**course**) — Mini series that will change how you write documentation
+*   🆓 [node-handbook](https://github.com/bcomnes/node-handbook)
+    (**article**) — Learn Node the Node way
+*   🆓 [NodeSchool](https://nodeschool.io/amsterdam/)
+    (**meetup**) — Open source workshops that teach web software skills
+*   🆓 [Lynda](https://www.lynda.com/)
+    (**course**) — Lynda offers lots of handy courses available for free to HvA
+    students through our [portal](https://lyndaportal.ict.hva.nl)
+*   💸 [Learn Node](https://learnnode.com)
+    (**course**) — Learn to build apps with Node, Express, and more (offers
+    student discount)
+*   💸 [Tutoring](http://piratepad.net/HeB4FUsI0t)
+    — Match up with another CMD student
+
+##### Resources used in previous courses
+
+###### Internetstandaarden
+
+*   [ ] Duckett, Jon.  _HTML & CSS_.  John Wiley & Sons, 2015
+*   [ ] Howe, Shay.  _Learn to Code HTML & CSS_.  New Riders, 2014
+    — [Read online](http://learn.shayhowe.com/html-css/)
+
+###### Inleiding Programmeren
+
+*   [ ] Duckett, Jon.  _JavaScript & jQuery_.  John Wiley & Sons, 2015
+
+###### Frontend 2
+
+*   [ ] Simpson, Kyle.  _YDKJS: Up & Going_.  O’Reilly Media, 2015
+    — [Read on GitHub][ydkjs-1]
+*   [ ] Simpson, Kyle.  _YDKJS: Scope & Closures_.  O’Reilly Media, 2015
+    — [Read on GitHub][ydkjs-2]
+*   [ ] Simpson, Kyle.  _YDKJS: this & Object Prototypes_.  O’Reilly Media, 2015
+    — [Read on GitHub][ydkjs-3]
+*   [ ] Simpson, Kyle.  _YDKJS: Types & Grammar_.  O’Reilly Media, 2015
+    — [Read on GitHub][ydkjs-4]
+*   [ ] Simpson, Kyle.  _YDKJS: Async & Performance_.  O’Reilly Media, 2015
+    — [Read on GitHub][ydkjs-5]
+*   [ ] Simpson, Kyle.  _YDKJS: ES6 & Beyond_.  O’Reilly Media, 2016
+    — [Read on GitHub][ydkjs-6]
 
 ## Environment
 
@@ -210,16 +272,16 @@ Feel free to [open an issue][issue] if you have questions, or see
 
 [minor]: https://moodle.cmd.hva.nl/course/index.php?categoryid=41
 
-[gh-signup]: https://help.github.com/articles/signing-up-for-a-new-github-account/
-
-[sublime]: http://www.sublimetext.com
-
-[atom]: https://atom.io
-
-[vs]: https://github.com/ritchieking/d3-book
-
-[d3ia]: https://github.com/emeeks/d3_in_action_2
-
-[mastering-d3]: https://github.com/pnavarrc/mastering-d3
-
 [rooster]: https://rooster.hva.nl
+
+[ydkjs-1]: https://github.com/getify/You-Dont-Know-JS/blob/master/up%20&%20going/README.md#you-dont-know-js-up--going
+
+[ydkjs-2]: https://github.com/getify/You-Dont-Know-JS/blob/master/scope%20&%20closures/README.md#you-dont-know-js-scope--closures
+
+[ydkjs-3]: https://github.com/getify/You-Dont-Know-JS/blob/master/this%20&%20object%20prototypes/README.md#you-dont-know-js-this--object-prototypes
+
+[ydkjs-4]: https://github.com/getify/You-Dont-Know-JS/blob/master/types%20&%20grammar/README.md#you-dont-know-js-types--grammar
+
+[ydkjs-5]: https://github.com/getify/You-Dont-Know-JS/blob/master/async%20&%20performance/README.md#you-dont-know-js-async--performance
+
+[ydkjs-6]: https://github.com/getify/You-Dont-Know-JS/blob/master/es6%20&%20beyond/README.md#you-dont-know-js-es6--beyond
