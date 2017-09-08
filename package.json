@@ -14,6 +14,16 @@
     "Laurens Aarnoudse <l.n.aarnoudse@hva.nl>"
   ],
   "dependencies": {},
-  "devDependencies": {},
-  "scripts": {}
+  "devDependencies": {
+    "remark-cli": "^4.0.0",
+    "remark-preset-wooorm": "^3.0.0"
+  },
+  "scripts": {
+    "test": "remark . -qfo"
+  },
+  "remarkConfig": {
+    "plugins": [
+      "preset-wooorm"
+    ]
+  }
 }
