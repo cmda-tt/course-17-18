@@ -32,7 +32,7 @@
 The course **Frontend 3** is given at [**@CMDA**][cmda] in 2017 between
 25 September and 20 October.
 
-*   **Course**: Fronend 3
+*   **Course**: Frontend 3
 *   **Course coordinator**: [Titus Wormer][wooorm-mail]
 *   **Course lecturers**: [Titus Wormer][wooorm-mail],
     [Laurens Aarnoudse][razpudding-mail]
@@ -49,7 +49,7 @@ The course **Frontend 3** is given at [**@CMDA**][cmda] in 2017 between
 
 ## Description
 
-FE 3 builds further on the knowledge acquired in **Internetstandaarden**,
+Frontend 3 builds further on the knowledge acquired in **Internetstandaarden**,
 **Inleiding Programmeren**, **Frontend 1**, **Frontend 2** and **Backend**
 (the last two are optional but recommended), amongst others.
 
@@ -142,8 +142,8 @@ date, time, and place.
 
 ## Prerequisites
 
-FE 3 is the most technical course, except for the Minor Web Development, given
-at [**@CMDA**][cmda].  You will need your knowledge acquired in previous
+Frontend 3 is the most technical course, except for the Minor Web Development,
+given at [**@CMDA**][cmda].  You will need your knowledge acquired in previous
 technical courses.  To refresh your memory, use the following sources.
 
 #### Resources to refresh your memory
@@ -210,8 +210,9 @@ technical courses.  To refresh your memory, use the following sources.
 
 ## Environment
 
-FE 3 is a course given in the optional [Information Design][moodle-id] semester
-(quarter 1 and 2), a semester all about data visualisation and infographics.
+Frontend 3 is a course given in the optional [Information Design][moodle-id]
+semester (quarter 1 and 2), a semester all about data visualisation and
+infographics.
 
 In 6 courses and 3 projects you’ll learn how to visualise data and complex
 information.  In this course you’ll learn how to build that.
@@ -219,7 +220,7 @@ information.  In this course you’ll learn how to build that.
 This semester, including this course, is quite technical.  However, we’ll also
 test your creativity and research & concepting capabilities.
 
-See the below infographic on where FE 3 is placed in Information Design.
+See the below infographic on where Frontend 3 is placed in Information Design.
 
 ![][infographic]
 
