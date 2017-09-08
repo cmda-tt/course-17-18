@@ -131,7 +131,7 @@ FE 3 is the most technical course, except for the Minor Web Development, given
 at [**@CMDA**][cmda].  You will need your knowledge acquired in previous
 technical courses.  To refresh your memory, use the following sources.
 
-##### Resources to refresh your memory
+#### Resources to refresh your memory
 
 *   🆓 [Codecademy](https://www.codecademy.com/learn/introduction-to-javascript)
     (**course**) — Introduction to JavaScript: Learn to code, interactively,
@@ -165,31 +165,32 @@ technical courses.  To refresh your memory, use the following sources.
 *   💸 [Tutoring](http://piratepad.net/HeB4FUsI0t)
     — Match up with another CMD student
 
-##### Resources used in previous courses
+#### Resources used in previous courses
 
-###### Internetstandaarden
-
-*   [ ] Duckett, Jon.  _HTML & CSS_.  John Wiley & Sons, 2015
-*   [ ] Howe, Shay.  _Learn to Code HTML & CSS_.  New Riders, 2014
+*   [ ] **Internetstandaarden**:
+    Duckett, Jon.  _HTML & CSS_.  John Wiley & Sons, 2015
+*   [ ] **Internetstandaarden**:
+    Howe, Shay.  _Learn to Code HTML & CSS_.  New Riders, 2014
     — [Read online](http://learn.shayhowe.com/html-css/)
-
-###### Inleiding Programmeren
-
-*   [ ] Duckett, Jon.  _JavaScript & jQuery_.  John Wiley & Sons, 2015
-
-###### Frontend 2
-
-*   [ ] Simpson, Kyle.  _YDKJS: Up & Going_.  O’Reilly Media, 2015
+*   [ ] **Inleiding Programmeren**:
+    Duckett, Jon.  _JavaScript & jQuery_.  John Wiley & Sons, 2015
+*   [ ] **Frontend 2**:
+    Simpson, Kyle.  _YDKJS: Up & Going_.  O’Reilly Media, 2015
     — [Read on GitHub][ydkjs-1]
-*   [ ] Simpson, Kyle.  _YDKJS: Scope & Closures_.  O’Reilly Media, 2015
+*   [ ] **Frontend 2**:
+    Simpson, Kyle.  _YDKJS: Scope & Closures_.  O’Reilly Media, 2015
     — [Read on GitHub][ydkjs-2]
-*   [ ] Simpson, Kyle.  _YDKJS: this & Object Prototypes_.  O’Reilly Media, 2015
+*   [ ] **Frontend 2**:
+    Simpson, Kyle.  _YDKJS: this & Object Prototypes_.  O’Reilly Media, 2015
     — [Read on GitHub][ydkjs-3]
-*   [ ] Simpson, Kyle.  _YDKJS: Types & Grammar_.  O’Reilly Media, 2015
+*   [ ] **Frontend 2**:
+    Simpson, Kyle.  _YDKJS: Types & Grammar_.  O’Reilly Media, 2015
     — [Read on GitHub][ydkjs-4]
-*   [ ] Simpson, Kyle.  _YDKJS: Async & Performance_.  O’Reilly Media, 2015
+*   [ ] **Frontend 2**:
+    Simpson, Kyle.  _YDKJS: Async & Performance_.  O’Reilly Media, 2015
     — [Read on GitHub][ydkjs-5]
-*   [ ] Simpson, Kyle.  _YDKJS: ES6 & Beyond_.  O’Reilly Media, 2016
+*   [ ] **Frontend 2**:
+    Simpson, Kyle.  _YDKJS: ES6 & Beyond_.  O’Reilly Media, 2016
     — [Read on GitHub][ydkjs-6]
 
 ## Environment
