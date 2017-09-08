@@ -2,7 +2,7 @@
 
 ## Schedule
 
-*   Multiple graphs (subgoal [**12**][sg-12])
+*   Multiple graphs ([**subgoal 12**][sg-12])
 *   Work on final assessment
 
 ## Assignments

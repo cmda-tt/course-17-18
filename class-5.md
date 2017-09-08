@@ -3,7 +3,7 @@
 ## Schedule
 
 *   Introduction to interactivity: changing styles, filter, sort, zoom, and more
-    (subgoal [**11**][sg-11])
+    ([**subgoal 11**][sg-11])
 *   Concepting your final assessment
 
 ## Assignments

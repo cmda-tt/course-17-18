@@ -3,10 +3,10 @@
 ## Schedule
 
 *   Advanced loading and cleaning of external data
-    (subgoal [**5**][sg-5], [**6**][sg-6], and [**7**][sg-7])
+    ([**subgoal 5**][sg-5], [**subgoal 6**][sg-6], and [**subgoal 7**][sg-7])
 *   Advanced d3: the enter / update / exit loop
-    (subgoal [**8**][sg-8] and [**10**][sg-10])
-*   Introduction to non-trivial charts (subgoal [**9**][sg-9])
+    ([**subgoal 8**][sg-8] and [**subgoal 10**][sg-10])
+*   Introduction to non-trivial charts ([**subgoal 9**][sg-9])
 
 ## Assignments
 
