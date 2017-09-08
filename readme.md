@@ -133,6 +133,9 @@ Feel free to [open an issue][issue] if you have questions, or see
 ## Tips
 
 *   [Read the manual][manual]
+*   [Browse the gallery][gallery]
+*   [Follow tutorials][tutorials]
+*   [Ask questions on Slack][slack]
 *   Search [StackOverflow][]
 *   Use a search engine like [DuckDuckGo][]
 
@@ -182,6 +185,12 @@ Feel free to [open an issue][issue] if you have questions, or see
 [duckduckgo]: https://duckduckgo.com
 
 [manual]: https://github.com/d3/d3/wiki
+
+[gallery]: https://github.com/d3/d3/wiki/Gallery
+
+[tutorials]: https://github.com/d3/d3/wiki/Tutorials
+
+[slack]: https://cmdinformationdesign.slack.com
 
 [authors]: #author
 
