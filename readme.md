@@ -10,7 +10,7 @@
 
 ## Synopsis
 
-The course **Front End Dev 3** is given at [**@CMDA**][cmda] in 2017 between
+The course **Frontend 3** is given at [**@CMDA**][cmda] in 2017 between
 25 September and 20 October.
 
 <!--TODO: Add link to Moodle-->
@@ -106,11 +106,11 @@ to contact instructors directly.
 
 [author]: http://wooorm.com
 
-[wooorm-uni]: mailto:t.e.wormer@hva.nl?subject=front-end-3:%20
+[wooorm-uni]: mailto:t.e.wormer@hva.nl?subject=frontend-3:%20
 
 [wooorm-gh]: https://github.com/wooorm
 
-[razpudding-uni]: mailto:l.n.aarnoudse@hva.nl?subject=front-end-3:%20
+[razpudding-uni]: mailto:l.n.aarnoudse@hva.nl?subject=frontend-3:%20
 
 [razpudding-gh]: https://github.com/Razpudding
 
