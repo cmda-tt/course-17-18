@@ -93,7 +93,7 @@ In practice, you’ll learn to:
 
 Checked materials are required.  Unchecked materials are optional.
 
-*   [x] [GitHub][gh] account
+*   [x] GitHub account
     — [Sign Up][gh-signup]
 *   [x] Text Editor
     — [Sublime][] or [Atom][]
@@ -189,8 +189,6 @@ Feel free to [open an issue][issue] if you have questions, or see
 [instructors]: #instructors
 
 [minor]: https://moodle.cmd.hva.nl/course/index.php?categoryid=41
-
-[gh]: https://github.com
 
 [gh-signup]: https://help.github.com/articles/signing-up-for-a-new-github-account/
 
