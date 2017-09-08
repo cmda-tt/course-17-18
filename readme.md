@@ -22,7 +22,6 @@
 *   [Prerequisites](#prerequisites)
 *   [Environment](#environment)
 *   [Bugs](#bugs)
-*   [Tips](#tips)
 *   [Lecturers](#lecturers)
 *   [See also](#see-also)
 *   [License](#license)
@@ -43,14 +42,14 @@ The course **Frontend 3** is given at [**@CMDA**][cmda] in 2017 between
 *   **Credit**: 3 ECTS
 *   **Academic year**: 2017-2018
 *   **Period**: Quarter 1
-*   **Programme**: Communication and Multimedia Design (bachelor, full time)
-*   **Language**: Dutch instructions, English resources
+*   **Programme**: Communication and Multimedia Design (full time bachelor)
+*   **Language**: Dutch instructions and English resources
 *   **Entry requirements**: N/A
 
 ## Description
 
 Frontend 3 builds further on the knowledge acquired in **Internetstandaarden**,
-**Inleiding Programmeren**, **Frontend 1**, **Frontend 2** and **Backend**
+**Inleiding Programmeren**, **Frontend 1**, **Frontend 2**, and **Backend**
 (the last two are optional but recommended), amongst others.
 
 In this course you’ll learn to use d3 to actually make what you design, to
@@ -58,10 +57,9 @@ advance your web dev skills, and to adopt frameworks and libraries.  In
 Project 1 (individual) and Project 2 (team) of Information Design you’ll apply
 your newfound skills.
 
-If you’d like to go even further with web development, do check out the
-[Minor Web Development][minor].  Both [**@wooorm**][wooorm-gh] and
-[**@razpudding**][razpudding-gh] lecture in the minor, so feel free to ask
-them for more information.
+If you’d like to go even further with web development check out the
+[Minor Web Development][minor].  Feel free to ask your [lecturer][lecturers]
+for more info as they both lecture in the minor.
 
 ## Goals
 
@@ -71,7 +69,7 @@ The 3 main goals in this course are:
 *   Making a datavisualisation from external data
 *   Learning d3
 
-In practice, you’ll learn to:
+In practice you’ll learn to:
 
 *   Read documentation
 *   Write documentation (for code and projects)
@@ -80,11 +78,11 @@ In practice, you’ll learn to:
 *   Read in external data
 *   Use dataformats (like JSON, CSV, TSV, and more)
 *   Transform and clean external data
-*   Understand the d3 update loop (enter, update, exit)
+*   Understand the d3 update loop (enter, update, and exit)
 *   Create multiple graphs on the same page
 *   Create interactive visualisations (think filter, sort, and zoom)
 *   Use axes, domains, labels, ranges, and scales
-*   Understand SVG, canvas
+*   Understand SVG and canvas
 
 ## Materials
 
@@ -142,9 +140,9 @@ date, time, and place.
 
 ## Prerequisites
 
-Frontend 3 is the most technical course, except for the Minor Web Development,
+Frontend 3 is the most technical course (except for the Minor Web Development)
 given at [**@CMDA**][cmda].  You will need your knowledge acquired in previous
-technical courses.  To refresh your memory, use the following sources.
+technical courses.  Use the following sources to refresh your memory.
 
 #### Resources to refresh your memory
 
@@ -211,14 +209,14 @@ technical courses.  To refresh your memory, use the following sources.
 ## Environment
 
 Frontend 3 is a course given in the optional [Information Design][moodle-id]
-semester (quarter 1 and 2), a semester all about data visualisation and
-infographics.
+semester (given quarter 1 and 2).  Information Design is all about data
+visualisation and infographics.
 
 In 6 courses and 3 projects you’ll learn how to visualise data and complex
 information.  In this course you’ll learn how to build that.
 
-This semester, including this course, is quite technical.  However, we’ll also
-test your creativity and research & concepting capabilities.
+This semester (including this course) is quite technical.  However, we’ll also
+test your creativity, research, and concepting capabilities.
 
 See the below infographic on where Frontend 3 is placed in Information Design.
 
@@ -226,17 +224,16 @@ See the below infographic on where Frontend 3 is placed in Information Design.
 
 ## Bugs
 
-Feel free to [open an issue][issue] if you have questions, or see
-[“Lecturers”][lecturers] to contact lecturers directly.
+If you have questions:
 
-## Tips
-
+*   [Ask questions on Slack][slack]
+*   [Contact a lecturer][lecturers]
 *   [Read the manual][manual]
 *   [Browse the gallery][gallery]
 *   [Follow tutorials][tutorials]
-*   [Ask questions on Slack][slack]
 *   [Search StackOverflow][stackoverflow]
 *   Use a search engine (like [DuckDuckGo][])
+*   [Open an issue][issue]
 
 ## Lecturers
 
