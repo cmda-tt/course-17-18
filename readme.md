@@ -131,31 +131,31 @@ Communication between students and lecturers happens on:
 
 ## Grade
 
-| Task                  | Weight |
-| --------------------- | -----: |
-| Participation         |    10% |
-| Assessment 1 (remote) |    20% |
-| Assessment 2 (remote) |    30% |
-| Assessment 3 (oral)   |    40% |
-| **Total**             |   100% |
+| Task                        | Weight |
+| --------------------------- | -----: |
+| Participation               |    10% |
+| [Assessment 1 (remote)][a1] |    20% |
+| [Assessment 2 (remote)][a2] |    30% |
+| [Assessment 3 (oral)][a3]   |    40% |
+| **Total**                   |   100% |
 
 ## Calendar
 
 Dates may be out of date.  Check [`rooster.hva.nl`][rooster] for info on actual
 date, time, and place.
 
-| Class                 |  Type | Date ID 1 | Date ID 2 |    Date ID 3    |
-| --------------------- | :---: | :-------: | :-------: | :-------------: |
-| [Class 1][c1]         | Class |   25-09   |   26-09   |      25-09      |
-| [Class 2][c2]         | Class |   02-10   |   04-10   |      02-10      |
-| Assessment 1 (remote) |  Test |   04-10※  |   05-10※  |      03-10※     |
-| [Class 3][c3]         | Class |   05-10   |   06-10   |      04-10      |
-| [Class 4][c4]         | Class |   09-10   |   11-10   |      09-10      |
-| Assessment 2 (remote) |  Test |   11-10※  |   12-10※  |      10-10※     |
-| [Class 5][c5]         | Class |   12-10   |   13-10   |      11-10      |
-| [Class 6][c6]         | Class |   16-10   |   17-10   |      16-10      |
-| Assessment 3 (oral)   |  Test |   19-10   |   20-10   | 18-10 and 20-10 |
-| Resit                 |  Test |   01-02   |   31-01   |      02-02      |
+| Class                       |  Type | Date ID 1 | Date ID 2 |    Date ID 3    |
+| --------------------------- | :---: | :-------: | :-------: | :-------------: |
+| [Class 1][c1]               | Class |   25-09   |   26-09   |      25-09      |
+| [Class 2][c2]               | Class |   02-10   |   04-10   |      02-10      |
+| [Assessment 1 (remote)][a1] |  Test |   04-10※  |   05-10※  |      03-10※     |
+| [Class 3][c3]               | Class |   05-10   |   06-10   |      04-10      |
+| [Class 4][c4]               | Class |   09-10   |   11-10   |      09-10      |
+| [Assessment 2 (remote)][a2] |  Test |   11-10※  |   12-10※  |      10-10※     |
+| [Class 5][c5]               | Class |   12-10   |   13-10   |      11-10      |
+| [Class 6][c6]               | Class |   16-10   |   17-10   |      16-10      |
+| [Assessment 3 (oral)][a3]   |  Test |   19-10   |   20-10   | 18-10 and 20-10 |
+| Resit                       |  Test |   01-02   |   31-01   |      02-02      |
 
 > ※ — Assessments 1 and 2 are to be handed in 24 hours before the start of the
 > next class.
@@ -343,3 +343,9 @@ If you have questions:
 [c5]: class-5.md
 
 [c6]: class-6.md
+
+[a1]: assessment-1.md
+
+[a2]: assessment-2.md
+
+[a3]: assessment-3.md
