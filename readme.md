@@ -57,7 +57,7 @@ In practice, you’ll learn to:
 *   Debug code (such as adapting d3 v3 code to v4)
 *   Rewrite code in your own style
 *   Read in external data
-*   Use dataformats (like JSON, CSV, TSV, and more.)
+*   Use dataformats (like JSON, CSV, TSV, and more)
 *   Transform and clean external data
 *   Understand the d3 update loop (enter, update, exit)
 *   Create multiple graphs on the same page
