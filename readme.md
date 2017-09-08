@@ -146,6 +146,12 @@ technical courses.  To refresh your memory, use the following sources.
     (**book**) — Modern introduction to programming
 *   🆓 [Mastering Markdown](https://masteringmarkdown.com)
     (**course**) — Mini series that will change how you write documentation
+*   🆓 [Markdown Tutorial](https://www.markdowntutorial.com)
+    (**tutorial**) — Learn how to use Markdown
+*   🆓 [Basics of HTML & CSS](http://webdive.ktam.org/web/basics)
+    (**tutorial**) — Learn how to use HTML & CSS
+*   🆓 [Command-line bootcamp](http://rik.smith-unna.com/command_line_bootcamp/)
+    (**tutorial**) — Learn how to work at the command-line
 *   🆓 [node-handbook](https://github.com/bcomnes/node-handbook)
     (**article**) — Learn Node the Node way
 *   🆓 [NodeSchool](https://nodeschool.io/amsterdam/)
