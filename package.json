@@ -1,0 +1,19 @@
+{
+  "private": true,
+  "name": "fe-3",
+  "version": "0.0.0",
+  "description": "Documentation for Frontend 3",
+  "license": "MIT",
+  "keywords": [],
+  "homepage": "https://github.com/cmda-fe3",
+  "repository": "cmda-fe3/course-17-18",
+  "bugs": "https://github.com/cmda-fe3/course-17-18/issues",
+  "author": "Titus Wormer <tituswormer@gmail.com> (wooorm.com)",
+  "contributors": [
+    "Titus Wormer <tituswormer@gmail.com> (http://wooorm.com)",
+    "Laurens Aarnoudse <l.n.aarnoudse@hva.nl>"
+  ],
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {}
+}
