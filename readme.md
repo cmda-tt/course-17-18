@@ -2,6 +2,7 @@
   TODO:
   * Set-up Moodle
   * Send email out containing invite to Slack
+  * Link grade tasks to separate pages
 -->
 
 # fe(3) - Course 2017-2018
@@ -63,6 +64,16 @@ In practice, you’ll learn to:
 *   Create interactive visualisations (think filter, sort, and zoom)
 *   Use axes, scales, labels
 *   Understand SVG, canvas
+
+## Grade
+
+| Task              | Percentage |
+| ----------------- | ---------- |
+| Participation     | 10%        |
+| Oral assessment 1 | 20%        |
+| Oral assessment 2 | 30%        |
+| Oral assessment 3 | 40%        |
+| **Total**         | 100%       |
 
 ## Environment
 
