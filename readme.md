@@ -176,29 +176,29 @@ technical courses.  To refresh your memory, use the following sources.
 
 #### Resources used in previous courses
 
-*   [ ] **Internetstandaarden**:
+*   **Internetstandaarden**:
     Duckett, Jon.  _HTML & CSS_.  John Wiley & Sons, 2015
-*   [ ] **Internetstandaarden**:
+*   **Internetstandaarden**:
     Howe, Shay.  _Learn to Code HTML & CSS_.  New Riders, 2014
     — [Read online](http://learn.shayhowe.com/html-css/)
-*   [ ] **Inleiding Programmeren**:
+*   **Inleiding Programmeren**:
     Duckett, Jon.  _JavaScript & jQuery_.  John Wiley & Sons, 2015
-*   [ ] **Frontend 2**:
+*   **Frontend 2**:
     Simpson, Kyle.  _YDKJS: Up & Going_.  O’Reilly Media, 2015
     — [Read on GitHub][ydkjs-1]
-*   [ ] **Frontend 2**:
+*   **Frontend 2**:
     Simpson, Kyle.  _YDKJS: Scope & Closures_.  O’Reilly Media, 2015
     — [Read on GitHub][ydkjs-2]
-*   [ ] **Frontend 2**:
+*   **Frontend 2**:
     Simpson, Kyle.  _YDKJS: this & Object Prototypes_.  O’Reilly Media, 2015
     — [Read on GitHub][ydkjs-3]
-*   [ ] **Frontend 2**:
+*   **Frontend 2**:
     Simpson, Kyle.  _YDKJS: Types & Grammar_.  O’Reilly Media, 2015
     — [Read on GitHub][ydkjs-4]
-*   [ ] **Frontend 2**:
+*   **Frontend 2**:
     Simpson, Kyle.  _YDKJS: Async & Performance_.  O’Reilly Media, 2015
     — [Read on GitHub][ydkjs-5]
-*   [ ] **Frontend 2**:
+*   **Frontend 2**:
     Simpson, Kyle.  _YDKJS: ES6 & Beyond_.  O’Reilly Media, 2016
     — [Read on GitHub][ydkjs-6]
 
