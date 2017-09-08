@@ -133,14 +133,17 @@ date, time, and place.
 | --------------------- | :---: | :-------: | :-------: | :-------------: |
 | [Class 1][c1]         | Class |   25-09   |   26-09   |      25-09      |
 | [Class 2][c2]         | Class |   02-10   |   04-10   |      02-10      |
-| Assessment 1 (remote) |  Test |           |           |                 |
+| Assessment 1 (remote) |  Test |   04-10※  |   05-10※  |      03-10※     |
 | [Class 3][c3]         | Class |   05-10   |   06-10   |      04-10      |
 | [Class 4][c4]         | Class |   09-10   |   11-10   |      09-10      |
-| Assessment 2 (remote) |  Test |           |           |                 |
+| Assessment 2 (remote) |  Test |   11-10※  |   12-10※  |      10-10※     |
 | [Class 5][c5]         | Class |   12-10   |   13-10   |      11-10      |
 | [Class 6][c6]         | Class |   16-10   |   17-10   |      16-10      |
 | Assessment 3 (oral)   |  Test |   19-10   |   20-10   | 18-10 and 20-10 |
 | Resit                 |  Test |   01-02   |   31-01   |      02-02      |
+
+> ※ — Assessments 1 and 2 are to be handed in 24 hours before the start of the
+> next class.
 
 ## Prerequisites
 
