@@ -16,6 +16,7 @@
 *   [Description](#description)
 *   [Goals](#goals)
 *   [Materials](#materials)
+*   [Communication](#communication)
 *   [Grade](#grade)
 *   [Calendar](#calendar)
 *   [Prerequisites](#prerequisites)
@@ -96,6 +97,14 @@ Checked materials are required.  Unchecked materials are optional.
     — [Read on GitHub](https://github.com/emeeks/d3_in_action_2)
 *   [ ] Castillo, Pablo Navarro.  _Mastering D3.js_.  Packt Publishing, 2014
     — [Read on GitHub](https://github.com/pnavarrc/mastering-d3)
+
+## Communication
+
+Communication between students and instructors happens on:
+
+*   [GitHub][home]
+*   [Slack][]
+*   Moodle
 
 ## Grade
 
