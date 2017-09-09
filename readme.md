@@ -202,31 +202,42 @@ technical courses.  Use the following sources to refresh your memory.
 
 #### Resources used in previous courses
 
-*   **Internetstandaarden**:
-    Duckett, Jon.  _HTML & CSS_.  John Wiley & Sons, 2015
-*   **Internetstandaarden**:
-    Howe, Shay.  _Learn to Code HTML & CSS_.  New Riders, 2014
-    — [Read online](http://learn.shayhowe.com/html-css/)
-*   **Inleiding Programmeren**:
-    Duckett, Jon.  _JavaScript & jQuery_.  John Wiley & Sons, 2015
-*   **Frontend 2**:
-    Simpson, Kyle.  _YDKJS: Up & Going_.  O’Reilly Media, 2015
-    — [Read on GitHub][ydkjs-1]
-*   **Frontend 2**:
-    Simpson, Kyle.  _YDKJS: Scope & Closures_.  O’Reilly Media, 2015
-    — [Read on GitHub][ydkjs-2]
-*   **Frontend 2**:
-    Simpson, Kyle.  _YDKJS: this & Object Prototypes_.  O’Reilly Media, 2015
-    — [Read on GitHub][ydkjs-3]
-*   **Frontend 2**:
-    Simpson, Kyle.  _YDKJS: Types & Grammar_.  O’Reilly Media, 2015
-    — [Read on GitHub][ydkjs-4]
-*   **Frontend 2**:
-    Simpson, Kyle.  _YDKJS: Async & Performance_.  O’Reilly Media, 2015
-    — [Read on GitHub][ydkjs-5]
-*   **Frontend 2**:
-    Simpson, Kyle.  _YDKJS: ES6 & Beyond_.  O’Reilly Media, 2016
-    — [Read on GitHub][ydkjs-6]
+*   Duckett, Jon.
+    _HTML & CSS_.
+    John Wiley & Sons, 2015
+    (**internetstandaarden**)
+*   [Howe, Shay.
+    _Learn to Code HTML & CSS_.
+    New Riders, 2014][html-css]
+    (**internetstandaarden**)
+*   Duckett, Jon.
+    _JavaScript & jQuery_.
+    John Wiley & Sons, 2015
+    (**inleiding programmeren**)
+*   [Simpson, Kyle.
+    _YDKJS: Up & Going_.
+    O’Reilly Media, 2015][ydkjs-1]
+    (**frontend 2**)
+*   [Simpson, Kyle.
+    _YDKJS: Scope & Closures_.
+    O’Reilly Media, 2015][ydkjs-2]
+    (**frontend 2**)
+*   [Simpson, Kyle.
+    _YDKJS: this & Object Prototypes_.
+    O’Reilly Media, 2015][ydkjs-3]
+    (**frontend 2**)
+*   [Simpson, Kyle.
+    _YDKJS: Types & Grammar_.
+    O’Reilly Media, 2015][ydkjs-4]
+    (**frontend 2**)
+*   [Simpson, Kyle.
+    _YDKJS: Async & Performance_.
+    O’Reilly Media, 2015][ydkjs-5]
+    (**frontend 2**)
+*   [Simpson, Kyle.
+    _YDKJS: ES6 & Beyond_.
+    O’Reilly Media, 2016][ydkjs-6]
+    (**frontend 2**)
 
 ## Environment
 
@@ -319,6 +330,8 @@ If you have questions:
 [minor]: https://moodle.cmd.hva.nl/course/index.php?categoryid=41
 
 [rooster]: https://rooster.hva.nl
+
+[html-css]: http://learn.shayhowe.com/html-css/
 
 [ydkjs-1]: https://github.com/getify/You-Dont-Know-JS/blob/master/up%20&%20going/README.md#you-dont-know-js-up--going
 
