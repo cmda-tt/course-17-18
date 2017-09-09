@@ -4,9 +4,9 @@
 
 ## Schedule
 
-*   Bootcamp _HTML_, _CSS_, and _JS_
-*   Introduction to _SVG_ and _Canvas_ ([**subgoal 1**][s1])
-*   Dataformats ([**subgoal 2**][s2])
+*   Bootcamp HTML, CSS, and JS
+*   Introduction to SVG and Canvas ([**subgoal 1**][s1])
+*   Data formats ([**subgoal 2**][s2])
 *   Hello d3 ([**subgoal 3**][s3] and [**subgoal 4**][s4])
 *   Introduction to GitHub ([**subgoal 5**][s5] and [**subgoal 6**][s6])
 
