@@ -112,11 +112,13 @@ Checked materials are required.  Unchecked materials are optional.
 *   [x] Text Editor
     — [Sublime](http://www.sublimetext.com) or [Atom](https://atom.io)
 *   [ ] King, Ritchie S.  _Visual Storytelling with D3_.  Addison-Wesley, 2015
-    — [Read on GitHub](https://github.com/ritchieking/d3-book)
 *   [ ] Meeks, Elijah.  _D3.js in Action_.  O’Reilly Media, 2017
-    — [Read on GitHub](https://github.com/emeeks/d3_in_action_2)
-*   [ ] Castillo, Pablo Navarro.  _Mastering D3.js_.  Packt Publishing, 2014
-    — [Read on GitHub](https://github.com/pnavarrc/mastering-d3)
+*   [ ] [Castillo, Pablo Navarro.
+    _Mastering D3.js_.
+    Packt Publishing, 2014](https://github.com/pnavarrc/mastering-d3)
+
+Note that the three optional books are available for free to HvA
+students through our [Safari Bookshelves][bookshelves].
 
 ## Communication
 
@@ -332,6 +334,8 @@ If you have questions:
 [rooster]: https://rooster.hva.nl
 
 [html-css]: http://learn.shayhowe.com/html-css/
+
+[bookshelves]: http://rps.hva.nl:2048/login?url=http://proquest.safaribooksonline.com/?uicode=hva
 
 [ydkjs-1]: https://github.com/getify/You-Dont-Know-JS/blob/master/up%20&%20going/README.md#you-dont-know-js-up--going
 
