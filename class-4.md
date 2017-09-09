@@ -12,10 +12,8 @@
 
 Assignments due before [class 5][c5]:
 
-*   **Test** — Assessment 2 (remote)
-    <!--TODO: link to assessment 2-->
-*   **Homework** — Find a good data source for your final assessment
-    <!--TODO: link to assessment 3-->
+*   **Test** — [Assessment 2][a2] (remote)
+*   **Homework** — Find a good data source for your [assessment 3][a3]
 
 See [class 3][c3] for assignments due before this class.
 
@@ -34,3 +32,7 @@ See [class 3][c3] for assignments due before this class.
 [s9]: https://github.com/cmda-fe3/course-17-18#subgoal-9
 
 [s10]: https://github.com/cmda-fe3/course-17-18#subgoal-10
+
+[a2]: assessment-2.md
+
+[a3]: assessment-3.md

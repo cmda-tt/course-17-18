@@ -15,8 +15,7 @@
 
 Assignments due before [class 3][c3]:
 
-*   **Test** — Assessment 1 (remote)
-    <!--TODO: link to assessment 1-->
+*   **Test** — [Assessment 1][a1] (remote)
 *   **Homework** — Port v3 to v4 & your own style
 
 See [class 1][c1] for assignments due before this class.
@@ -34,3 +33,5 @@ See [class 1][c1] for assignments due before this class.
 [s6]: https://github.com/cmda-fe3/course-17-18#subgoal-6
 
 [s7]: https://github.com/cmda-fe3/course-17-18#subgoal-7
+
+[a1]: assessment-1.md
