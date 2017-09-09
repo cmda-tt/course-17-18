@@ -113,7 +113,7 @@ Checked materials are required.  Unchecked materials are optional.
     — [Sublime](http://www.sublimetext.com) or [Atom](https://atom.io)
 *   [ ] King, Ritchie S.  _Visual Storytelling with D3_.  Addison-Wesley, 2015
 *   [ ] Meeks, Elijah.  _D3.js in Action_.  O’Reilly Media, 2017
-*   [ ] [Castillo, Pablo Navarro.
+*   [ ] [Navarro Castillo, Pablo.
     _Mastering D3.js_.
     Packt Publishing, 2014](https://github.com/pnavarrc/mastering-d3)
 
