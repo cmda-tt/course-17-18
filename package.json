@@ -17,10 +17,22 @@
   "devDependencies": {
     "remark-cli": "^4.0.0",
     "remark-lint-no-dead-urls": "^0.3.0",
-    "remark-preset-wooorm": "^3.0.0"
+    "remark-preset-wooorm": "^3.0.0",
+    "stylelint": "^8.0.0",
+    "stylelint-config-standard": "^17.0.0",
+    "xo": "^0.18.0"
   },
   "scripts": {
-    "test": "remark . -qfo"
+    "build": "remark . -qfo",
+    "lint": "xo && stylelint **/*.css",
+    "test": "npm run build && npm run lint"
+  },
+  "xo": {
+    "space": true,
+    "esnext": false
+  },
+  "stylelint": {
+    "extends": "stylelint-config-standard"
   },
   "remarkConfig": {
     "plugins": [
