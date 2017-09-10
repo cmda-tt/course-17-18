@@ -12,7 +12,7 @@
 *   [Grade](#grade)
 *   [Calendar](#calendar)
 *   [Prerequisites](#prerequisites)
-*   [Environment](#environment)
+*   [Semester](#semester)
 *   [Bugs](#bugs)
 *   [Lecturers](#lecturers)
 *   [See also](#see-also)
@@ -233,7 +233,7 @@ technical courses.  Use the following sources to refresh your memory.
     O’Reilly Media, 2016][ydkjs-6]
     (**frontend 2**)
 
-## Environment
+## Semester
 
 Frontend 3 is a course given in the optional [Information Design][moodle-id]
 semester (given quarter 1 and 2).  Information Design is all about data
