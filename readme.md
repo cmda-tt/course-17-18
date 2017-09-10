@@ -7,9 +7,9 @@
 *   [Synopsis](#synopsis)
 *   [Description](#description)
 *   [Lecturers](#lecturers)
+*   [Communication](#communication)
 *   [Goals](#goals)
 *   [Materials](#materials)
-*   [Communication](#communication)
 *   [Grade](#grade)
 *   [Calendar](#calendar)
 *   [Prerequisites](#prerequisites)
@@ -57,6 +57,17 @@ for more info about the minor.
 
 *   [Titus Wormer][wooorm-mail] ([**@wooorm**][wooorm-gh])
 *   [Laurens Aarnoudse][razpudding-mail] ([**@razpudding**][razpudding-gh])
+
+## Communication
+
+Communication happens on:
+
+*   [GitHub][home]
+    — Main source of information, assignments, important dates, and more
+*   [Slack][]
+    — General chatter and Q&A
+*   [Moodle][moodle-fe3]
+    — Schedulers and links to other places
 
 ## Goals
 
@@ -117,17 +128,6 @@ In practice you’ll learn to:
 
 Note that the three optional books are available for free to HvA students
 through [Safari Bookshelves][bookshelves].
-
-## Communication
-
-Communication happens on:
-
-*   [GitHub][home]
-    — Main source of information, assignments, important dates, and more
-*   [Slack][]
-    — General chatter and Q&A
-*   [Moodle][moodle-fe3]
-    — Schedulers and links to other places
 
 ## Grade
 
