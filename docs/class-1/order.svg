@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+  <style>
+    text {text-anchor: middle; fill: black}
+    rect {fill: goldenrod; opacity: 0.75}
+  </style>
+  <text x="85" y="45">On bottom</text>
+  <rect x="10" y="10" width="150" height="60" />
+  <rect x="170" y="10" width="150" height="60" />
+  <text x="245" y="45">On top</text>
+</svg>

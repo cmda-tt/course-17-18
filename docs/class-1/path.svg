@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+  <path
+    d="M 100 100 L 300 100 L 200 300 z"
+    fill="orange"
+    stroke="black"
+    stroke-width="3"
+  />
+</svg>
