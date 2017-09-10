@@ -120,7 +120,7 @@ through [Safari Bookshelves][bookshelves].
 
 ## Communication
 
-Communication between students and lecturers happens on:
+Communication happens on:
 
 *   [GitHub][home]
     — Main source of information, assignments, important dates, and more
