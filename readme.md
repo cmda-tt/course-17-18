@@ -25,10 +25,10 @@ The course **Frontend 3** is given at [**@CMDA**][cmda] in 2017 between
 
 *   **Course**: Frontend 3
 *   **Course coordinator**: [Titus Wormer][wooorm-mail]
-*   **Course lecturers**: [Titus Wormer][wooorm-mail],
+*   **Course lecturers**: [Titus Wormer][wooorm-mail] and
     [Laurens Aarnoudse][razpudding-mail]
 *   **Semester**: [Information Design][moodle-id]
-*   **Semester coordinators**: [Frank Kloos][frank-mail],
+*   **Semester coordinators**: [Frank Kloos][frank-mail] and
     [Maaike van Cruchten][maaike-mail]
 *   **SIS**: Frontend 3 Data
 *   **Credit**: 3 ECTS
@@ -71,7 +71,7 @@ In practice you’ll learn to:
 
 1.  <a name="subgoal-1"></a> Understand SVG and canvas
     ([**class 1**][c1])
-2.  <a name="subgoal-2"></a> Parse data formats, like JSON, CSV, TSV, and more
+2.  <a name="subgoal-2"></a> Parse data formats, like JSON, CSV, and TSV
     ([**class 1**][c1] and [**class 3**][c3])
 3.  <a name="subgoal-3"></a> Debug code, such as adapting d3 v3 code to v4
     ([**class 1**][c1] and [**class 2**][c2])
@@ -164,8 +164,7 @@ technical courses.  Use the following sources to refresh your memory.
 #### Resources to refresh your memory
 
 *   🆓 [Codecademy](https://www.codecademy.com/learn/introduction-to-javascript)
-    (**course**) — Introduction to JavaScript: Learn to code, interactively,
-    for free
+    (**course**) — Introduction to JavaScript: Learn to code interactively
 *   🆓 [Re-introduction to JavaScript](https://developer.mozilla.org/Web/JavaScript/A_re-introduction_to_JavaScript)
     (**article**) — Short re-introduction to JavaScript
 *   🆓 [JavaScript For Cats](http://jsforcats.com)
