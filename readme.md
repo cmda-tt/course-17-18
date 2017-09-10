@@ -98,20 +98,20 @@ In practice you’ll learn to:
 
 ## Materials
 
-Checked materials are required.  Unchecked materials are optional.
-
-*   [x] GitHub account
+*   🆓 GitHub account※
     — [Sign Up](https://help.github.com/articles/signing-up-for-a-new-github-account/)
-*   [x] Text Editor
+*   🆓 Text Editor※
     — [Sublime](http://www.sublimetext.com) or [Atom](https://atom.io)
-*   [ ] King, Ritchie S.  _Visual Storytelling with D3_.  Addison-Wesley, 2015
-*   [ ] Meeks, Elijah.  _D3.js in Action_.  O’Reilly Media, 2017
-*   [ ] [Navarro Castillo, Pablo.
+*   💸 King, Ritchie S.  _Visual Storytelling with D3_.  Addison-Wesley, 2015
+*   💸 Meeks, Elijah.  _D3.js in Action_.  O’Reilly Media, 2017
+*   🆓 [Navarro Castillo, Pablo.
     _Mastering D3.js_.
     Packt Publishing, 2014](https://github.com/pnavarrc/mastering-d3)
 
-Note that the three optional books are available for free to HvA
-students through our [Safari Bookshelves][bookshelves].
+Note that the three optional books are available for free to HvA students
+through [Safari Bookshelves][bookshelves].
+
+> ※ — Required materials
 
 ## Communication
 
