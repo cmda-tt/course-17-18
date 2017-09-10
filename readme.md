@@ -255,13 +255,13 @@ Information Design.
 
 If you have questions:
 
-*   [Ask questions on Slack][slack]
-*   [Contact a lecturer][lecturers]
 *   [Read the manual][manual]
 *   [Browse the gallery][gallery]
 *   [Follow tutorials][tutorials]
 *   [Search StackOverflow][stackoverflow]
 *   Use a search engine (like [DuckDuckGo][])
+*   [Ask questions on Slack][slack]
+*   [Contact a lecturer][lecturers]
 *   [Open an issue][issue]
 
 ## See also
