@@ -6,6 +6,7 @@
 
 *   [Synopsis](#synopsis)
 *   [Description](#description)
+*   [Lecturers](#lecturers)
 *   [Goals](#goals)
 *   [Materials](#materials)
 *   [Communication](#communication)
@@ -14,7 +15,6 @@
 *   [Prerequisites](#prerequisites)
 *   [Semester](#semester)
 *   [Bugs](#bugs)
-*   [Lecturers](#lecturers)
 *   [See also](#see-also)
 *   [License](#license)
 
@@ -52,6 +52,11 @@ your newfound skills.
 If you’d like to go even further with web development check out the
 [Minor Web Development][minor].  Feel free to ask your [lecturer][lecturers]
 for more info as they both lecture in the minor.
+
+## Lecturers
+
+*   [Titus Wormer][wooorm-mail] ([**@wooorm**][wooorm-gh])
+*   [Laurens Aarnoudse][razpudding-mail] ([**@razpudding**][razpudding-gh])
 
 ## Goals
 
@@ -261,11 +266,6 @@ If you have questions:
 *   [Search StackOverflow][stackoverflow]
 *   Use a search engine (like [DuckDuckGo][])
 *   [Open an issue][issue]
-
-## Lecturers
-
-*   [Titus Wormer][wooorm-mail] ([**@wooorm**][wooorm-gh])
-*   [Laurens Aarnoudse][razpudding-mail] ([**@razpudding**][razpudding-gh])
 
 ## See also
 
