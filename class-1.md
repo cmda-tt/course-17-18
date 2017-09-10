@@ -2,6 +2,14 @@
 
 > 🤔 How did we get here and where are we going
 
+## Synopsis
+
+*   **Date ID 1**: 25-09
+*   **Date ID 2**: 26-09
+*   **Date ID 3**: 25-09
+*   [**Slides**][slides]
+*   [**Examples**][examples]
+
 ## Schedule
 
 *   Bootcamp HTML, CSS, and JS
@@ -26,3 +34,7 @@ memory][refresh].
 [s2]: https://github.com/cmda-fe3/course-17-18#subgoal-2
 
 [refresh]: readme.md#resources-to-refresh-your-memory
+
+[slides]: https://docs.google.com/presentation/d/1xuF1DS8ts7KcvhR-UCJfL0gGiUqXOlfscv9cFCL_3Fk
+
+[examples]: https://cmda-fe3.github.io/course-17-18/class-1/
