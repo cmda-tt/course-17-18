@@ -204,6 +204,11 @@ footer img {
     overflow: hidden;
   }
 
+  .github-corner svg {
+    width: 150px;
+    height: 150px;
+  }
+
   header div {
     padding: 4em;
   }
