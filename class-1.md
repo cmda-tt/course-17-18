@@ -22,7 +22,7 @@
 
 Assignments due before [class 2][c2]:
 
-*   **Homework** — Create a couple of Basic Charts
+*   **Homework** — Create a couple of basic visualisations
 
 Although not required, check out the list of [Resources to refresh your
 memory][refresh].

@@ -7,7 +7,8 @@
 
 # Assessment 1
 
-In **Assessment 1** you’ll make a [“Basic”][basic] chart based on given data.
+In **Assessment 1** you’ll make a [“Basic”][basic] visualisation based on given
+data.
 
 ## Synopsis
 

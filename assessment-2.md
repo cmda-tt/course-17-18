@@ -7,7 +7,7 @@
 
 # Assessment 2
 
-In **Assessment 2** you’ll make a real-time chart based on given data.
+In **Assessment 2** you’ll make a real-time visualisation based on given data.
 
 ## Synopsis
 

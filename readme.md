@@ -96,7 +96,7 @@ In practice you’ll learn to:
     ([**class 3**][c3] and [**class 4**][c4])
 11. <a name="subgoal-11"></a> Create interactive visualisations
     ([**class 3**][c3] and [**class 5**][c5])
-12. <a name="subgoal-12"></a> Create multiple graphs on the same page
+12. <a name="subgoal-12"></a> Create multiple visualisations on the same page
     ([**class 6**][c6])
 
 <!--lint enable no-html-->

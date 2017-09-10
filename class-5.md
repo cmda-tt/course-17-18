@@ -10,7 +10,7 @@
 
 Assignments due before [class 6][c6]:
 
-*   **Homework** — Add interaction to a graph
+*   **Homework** — Add interaction to a visualisation
 
 See [class 4][c4] for assignments due before this class.
 
