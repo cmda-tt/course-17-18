@@ -1,10 +1,3 @@
-<!--
-  TODO:
-  * Set-up Moodle
-  * Send email out containing invite to Slack
-  * Link grade tasks to separate pages
--->
-
 # fe(3) - Course 2017-2018
 
 ## [![fe(3)][logo]][home]
@@ -128,7 +121,7 @@ Communication between students and lecturers happens on:
     — Main source of information, assignments, important dates, and more
 *   [Slack][]
     — General chatter and Q&A
-*   Moodle
+*   [Moodle][moodle-fe3]
     — Schedulers and links to other places
 
 ## Grade
@@ -310,6 +303,8 @@ If you have questions:
 [cmda]: https://github.com/cmda
 
 [moodle-id]: https://moodle.cmd.hva.nl/course/view.php?id=408
+
+[moodle-fe3]: https://moodle.cmd.hva.nl/course/view.php?id=419
 
 [infographic]: images/information-design.png
 
