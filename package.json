@@ -16,6 +16,7 @@
   "dependencies": {},
   "devDependencies": {
     "remark-cli": "^4.0.0",
+    "remark-lint-no-dead-urls": "^0.3.0",
     "remark-preset-wooorm": "^3.0.0"
   },
   "scripts": {
@@ -23,7 +24,8 @@
   },
   "remarkConfig": {
     "plugins": [
-      "preset-wooorm"
+      "preset-wooorm",
+      "lint-no-dead-urls"
     ]
   }
 }
