@@ -49,9 +49,9 @@ advance your web dev skills, and to adopt frameworks and libraries.  In
 Project 1 (individual) and Project 2 (team) of Information Design you’ll apply
 your newfound skills.
 
-If you’d like to go even further with web development check out the
+If you’d like to continue with web development after this course check out the
 [Minor Web Development][minor].  Feel free to ask your [lecturer][lecturers]
-for more info as they both lecture in the minor.
+for more info about the minor.
 
 ## Lecturers
 
