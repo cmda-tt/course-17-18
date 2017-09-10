@@ -74,13 +74,13 @@ In practice you’ll learn to:
 2.  <a name="subgoal-2"></a> Parse data formats, like JSON, CSV, and TSV
     ([**class 1**][c1] and [**class 3**][c3])
 3.  <a name="subgoal-3"></a> Debug code, such as adapting d3 v3 code to v4
-    ([**class 1**][c1] and [**class 2**][c2])
+    ([**class 2**][c2])
 4.  <a name="subgoal-4"></a> Rewrite code in your own style
-    ([**class 1**][c1] and [**class 2**][c2])
+    ([**class 2**][c2])
 5.  <a name="subgoal-5"></a> Read documentation
-    ([**class 1**][c1], [**class 2**][c2], and [**class 4**][c4])
+    ([**class 2**][c2] and [**class 4**][c4])
 6.  <a name="subgoal-6"></a> Write documentation for code and projects
-    ([**class 1**][c1], [**class 2**][c2], and [**class 4**][c4])
+    ([**class 2**][c2] and [**class 4**][c4])
 7.  <a name="subgoal-7"></a> Use axes, domains, labels, ranges, and scales
     ([**class 2**][c2] and [**class 4**][c4])
 8.  <a name="subgoal-8"></a> Read in external data
