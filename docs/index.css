@@ -125,11 +125,6 @@ main {
   margin: 0 auto;
 }
 
-main ol,
-main ul {
-  padding-left: 0;
-}
-
 .figure-link {
   color: inherit;
   display: block;
