@@ -143,7 +143,7 @@ through [Safari Bookshelves][bookshelves].
 
 ## Calendar
 
-Dates may be out of date.  Check [`rooster.hva.nl`][rooster] for info on actual
+Dates are indicative.  Check [`rooster.hva.nl`][rooster] for info on actual
 date, time, and place.
 
 | Class                       |  Type | Date ID 1 | Date ID 2 |    Date ID 3    |
