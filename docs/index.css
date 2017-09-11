@@ -137,6 +137,8 @@ figure {
   box-shadow: 0 0 0 3px transparent;
   transition: background-color 200ms, box-shadow 200ms;
   margin-bottom: 2em;
+  overflow: scroll;
+  -webkit-overflow-scrolling: touch;
 }
 
 figure img,
