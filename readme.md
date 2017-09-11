@@ -64,6 +64,8 @@ Communication happens on:
 
 *   [GitHub][home]
     — Main source of information, assignments, important dates, and more
+*   [Website][]
+    — Examples
 *   [Slack][]
     — General chatter and Q&A
 *   [Moodle][moodle-fe3]
@@ -278,15 +280,17 @@ If you have questions:
 
 [logo]: https://cdn.rawgit.com/cmda-fe3/logo/56ebc971/logo.svg
 
-[home]: https://github.com/cmda-fe3
-
 [mit]: LICENSE
 
 [author]: http://wooorm.com
 
-[wooorm-mail]: mailto:t.e.wormer@hva.nl?subject=frontend-3:%20
+[home]: https://github.com/cmda-fe3
 
 [wooorm-gh]: https://github.com/wooorm
+
+[razpudding-gh]: https://github.com/Razpudding
+
+[wooorm-mail]: mailto:t.e.wormer@hva.nl?subject=frontend-3:%20
 
 [razpudding-mail]: mailto:l.n.aarnoudse@hva.nl?subject=frontend-3:%20
 
@@ -294,7 +298,7 @@ If you have questions:
 
 [maaike-mail]: mailto:m.van.cruchten@hva.nl?subject=frontend-3:%20
 
-[razpudding-gh]: https://github.com/Razpudding
+[website]: https://cmda-fe3.github.io/course-17-18/
 
 [cmda]: https://github.com/cmda
 
