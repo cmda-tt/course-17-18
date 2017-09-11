@@ -48,19 +48,24 @@ figcaption code {
   font-weight: bold;
 }
 
-header {
+header,
+footer {
   background-color: #feca2f;
   box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.04);
   height: 20em;
-  display: flex;
   padding: 2em;
+}
+
+header {
+  display: flex;
 }
 
 header h1 {
   margin: 0;
 }
 
-header a {
+header a,
+footer a {
   color: white;
 }
 
@@ -170,9 +175,18 @@ figcaption {
 }
 
 footer {
-  margin: 2em 0;
-  padding: 2em 0;
   text-align: center;
+}
+
+footer img {
+  display: block;
+  width: 100%;
+}
+
+footer .image-link {
+  display: block;
+  width: 32px;
+  margin: 0 auto;
 }
 
 .image-link {
@@ -181,10 +195,6 @@ footer {
 
 .image-link:hover {
   opacity: 0.75;
-}
-
-footer img {
-  width: 32px;
 }
 
 @media (min-width: 30em) {
