@@ -1,10 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg">
   <line
     x1="20"
-    y1="100"
-    x2="100"
+    y1="120"
+    x2="120"
     y2="20"
-    stroke-width="2"
+    stroke-width="20"
     stroke="black"
   />
 </svg>

@@ -1,3 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg">
-  <ellipse cx="60" cy="60" rx="50" ry="25" />
+  <ellipse
+    cx="120"
+    cy="70"
+    rx="100"
+    ry="50"
+  />
 </svg>

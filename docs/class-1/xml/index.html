@@ -1,21 +1,22 @@
 <!doctype html>
 <html lang=en>
 <meta charset=utf8>
-<title>JSON Example - Frontend 3: Class 1</title>
+<title>XML Example - Frontend 3: Class 1</title>
 <meta content=width=device-width,initial-scale=1 name=viewport>
 <link rel="shortcut icon" type=image/x-icon href=data:image/x-icon;,>
+<h1>XML</h1>
 <script src=https://d3js.org/d3.v4.min.js></script>
 <script>
-d3.json('./index.json', function (err, questions) {
+d3.xml('./index.xml', function (err, doc) {
   if (err) throw err;
 
-  questions.forEach(function (q) {
+  doc.querySelectorAll('question').forEach(function (q) {
     var details = document.createElement('details');
     var summary = document.createElement('summary');
     var paragraph = document.createElement('p');
 
-    details.appendChild(summary).textContent = q.question;
-    details.appendChild(paragraph).textContent = q.answer;
+    details.appendChild(summary).textContent = q.textContent.trim();
+    details.appendChild(paragraph).textContent = q.getAttribute('answer');
 
     document.body.appendChild(details);
   })

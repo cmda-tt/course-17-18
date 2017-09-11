@@ -1,8 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg">
-  <g stroke="green" stroke-width="5">
-    <circle cx="25" cy="25" r="15"/>
-    <circle cx="40" cy="25" r="15"/>
-    <circle cx="55" cy="25" r="15"/>
-    <circle cx="70" cy="25" r="15"/>
+  <g fill="#feca2f" stroke="black" stroke-width="10">
+    <circle cx="60" cy="60" r="40" />
+    <circle cx="90" cy="60" r="40" />
+    <circle cx="120" cy="60" r="40" />
+    <circle cx="150" cy="60" r="40" />
   </g>
 </svg>
