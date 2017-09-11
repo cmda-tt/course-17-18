@@ -149,7 +149,7 @@ figure iframe {
   display: block;
   min-height: 16em;
   width: 100%;
-  background-image: url(bg.gif)
+  background-image: url(bg.gif);
 }
 
 figure iframe {
