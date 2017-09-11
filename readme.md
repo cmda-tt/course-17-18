@@ -242,7 +242,7 @@ technical courses.  Use the following sources to refresh your memory.
 
 ## Semester
 
-Frontend 3 is a given in the [Information Design][moodle-id] semester (quarter
+Frontend 3 is given in the [Information Design][moodle-id] semester (quarter
 1 and 2).  Information Design is all about data visualisation and infographics.
 In 6 courses and 3 projects you’ll learn how to visualise data and complex
 information.  In Frontend 3 you’ll learn how to build that.
