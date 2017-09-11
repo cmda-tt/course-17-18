@@ -149,8 +149,7 @@ figure iframe {
   display: block;
   min-height: 16em;
   width: 100%;
-  background-color: white;
-  transition: background-color 200ms;
+  background-image: url(bg.gif)
 }
 
 figure iframe {
@@ -167,11 +166,6 @@ figcaption {
 .figure-link:hover figure {
   background-color: #feca2f;
   box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.04);
-}
-
-.figure-link:hover img,
-.figure-link:hover figcaption {
-  background-color: transparent;
 }
 
 footer {
