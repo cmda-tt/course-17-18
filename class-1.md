@@ -1,3 +1,5 @@
+<!--lint disable no-html-->
+
 # Class 1
 
 > 🤔 How did we get here and where are we going
@@ -42,7 +44,7 @@ Assignments due before [class 2][c2]:
 
 ### Playing with SVG
 
-In this assignment you’ll learn to understand SVG.
+In this assignment you’ll learn the basics of SVG.
 
 #### Tips
 
@@ -61,8 +63,6 @@ Create a file, `handle.svg` (where `handle` is your GitHub handle, so in my
 case it would be `wooorm.svg`), and copy-paste the following document into it.
 
 > 💁 Update the `<title>` element in the file with your handle too.
-
-<!--lint disable no-html-->
 
 <details>
 <summary><code>handle.svg</code></summary>
@@ -163,12 +163,10 @@ case it would be `wooorm.svg`), and copy-paste the following document into it.
 
 </details>
 
-<!--lint enable no-html-->
-
 #### Step 3
 
 Let’s make art!  Open the file created in the previous step in your text
-editor **and** browser.  Now, perform the following steps.
+editor **and** browser.  Now, perform the following substeps.
 
 > 💁 The code checks itself if it’s complete.  Open your console to see how
 > you’re progressing.
@@ -193,7 +191,7 @@ editor **and** browser.  Now, perform the following steps.
 
 #### Step 4
 
-Done with step 3?  Awesome!  You’re a true SVG artist 👩‍🎨
+Done with **step 3**?  Awesome!  You’re a true SVG artist 👩‍🎨
 
 For this step, we’re now going to add your [work to the website][play-examples].
 
@@ -224,6 +222,146 @@ All done!  Congratulations.  One of our lecturers will review your pull request
 and include it on the website later.
 
 ### Loading data
+
+In this assignment you’ll learn the basics of different commonly used
+data formats.  We’ll cover JSON and CSV.
+
+#### Tips
+
+*   [`d3-request`](https://github.com/d3/d3/blob/master/API.md#requests-d3-request)
+*   [Examples found in the slides](https://cmda-fe3.github.io/course-17-18/class-1/)
+*   [Bugs?](readme.md#bugs)
+
+#### Step 1
+
+Before touching any code, let’s create a dataset.  It’ll be about food, great!
+🥖🧀
+
+Create a directory, named after your GitHub handle (for me that would be
+`wooorm`).
+
+Try and remember what you had for dinner the last three days.  For me, that’s:
+
+| Day                  | Dinner            |
+| -------------------- | ----------------- |
+| Today                | Paneng Nua        |
+| Yesterday            | Goat Cheese Salad |
+| Day before yesterday | Nua Pad Ped       |
+
+Write your dinners down in a file, `dinners.txt`, to your directory.
+
+> 💁 Feel free to add Dutch, English, or any language of your choosing.
+> Also: any labels are fine, this is just for you.
+
+Words like today and yesterday make a lot of sense for humans.  For computers,
+it makes more sense to use absolute dates in a standardised format like
+YYYY-MM-DD.  Reformat your data to include absolute dates.  For me, that’s:
+
+| Day        | Dinner            |
+| ---------- | ----------------- |
+| 2017-09-12 | Paneng Nua        |
+| 2017-09-11 | Goat Cheese Salad |
+| 2017-09-10 | Nua Pad Ped       |
+
+#### Step 2
+
+From your dinners, create a [CSV][] file containing the same information:
+an absolute date of the dinner and what you had for dinner.  Save the file as
+`index.csv` in your directory.
+
+#### Step 3
+
+Now, do the same for [JSON][].  Save the file as `index.json` in your directory.
+
+#### Step 4
+
+Create a file, `index.html`, in your directory, the following content:
+
+> 💁 Update the `<title>` element in the file with your handle.
+
+<details>
+<summary><code>index.html</code></summary>
+
+```html
+<!doctype html>
+<meta charset=utf8>
+<!--Update the title with your handle-->
+<title>@handle</title>
+<meta content=width=device-width,initial-scale=1 name=viewport>
+<script src=https://d3js.org/d3.v4.min.js></script>
+<script>
+  // Add stuff here.
+</script>
+<script>
+// NOTHING TO SEE HERE... MOVE ALONG!!!
+var h1 = document.createElement('h1')
+h1.style.fontFamily = 'Comic Sans MS'
+if (window.location.hostname !== 'localhost') {
+  h1.style.color = 'red'
+  h1.textContent = 'Make sure to follow step 5!'
+} else if (!(8002 in localStorage)) {
+  h1.style.color = 'green'
+  h1.textContent = 'It works! 🎉'
+  localStorage[8002] = true
+}
+if (h1.textContent) document.body.appendChild(h1)
+</script>
+```
+
+</details>
+
+#### Step 5
+
+Open up your terminal and go to the directory created in **step 1**.  On macOS,
+you can type `cd·` (where `·` is a space) and drag the directory in question to
+your terminal and finally press enter, to go there.
+
+Then, create a [simple server][server] from your directory.  You can probably
+do that with:
+
+```sh
+python -m SimpleHTTPServer 8000
+```
+
+This exposes your files to your computer on `localhost:8000`.
+
+If that doesn’t work, see the aforementioned link on how to run a simple server
+on your system.
+
+When done open up your browser and navigate to `localhost:8000`.  This should
+show a green message that things are working.
+
+> 💁 Done with the server?  Enter <kbd>CTRL+C</kbd> in your terminal to cancel
+> your server.
+
+#### Step 6
+
+In this step we’re going to load the JSON and CSV created in **step 2** and
+**step 3**.  Use `d3.json` and `d3.csv` to load those files, respectively.
+
+See [tips][] for more info.
+
+In `d3.json` and `d3.csv`, print the loaded data to the console with
+`console.log`.
+
+Make sure both are printed before continuing to **step 7**.
+
+#### Step 7
+
+Instead of just logging stuff to the console, let’s add your data to the DOM.
+
+For example, I rendered `<h1>` elements with the origin of the data (JSON or
+CSV), and then `<h2>` elements with each date, followed by `<p>` elements with
+the name of each dinner.
+
+Feel free to use any other **semantic** markup.  You could use
+[`<table>`][table]s, [`<details>`][details], or something else?
+
+> 💁 You probably need [`document.createElement`][dce] and [`textContent`][tc].
+> Feel free to dig into d3, use jQuery, or something else to render stuff to
+> the DOM.
+
+#### Complete
 
 <!-- TODO -->
 
@@ -258,3 +396,19 @@ and include it on the website later.
 [fork]: https://help.github.com/articles/fork-a-repo/
 
 [pr]: https://help.github.com/articles/creating-a-pull-request/#creating-the-pull-request
+
+[csv]: https://en.wikipedia.org/wiki/Comma-separated_values
+
+[json]: http://json.org
+
+[server]: https://gist.github.com/willurd/5720255
+
+[tips]: #tips-1
+
+[table]: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table
+
+[details]: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/details
+
+[dce]: https://developer.mozilla.org/en-US/docs/Web/API/Document/createElement
+
+[tc]: https://developer.mozilla.org/en-US/docs/Web/API/Node/textContent
