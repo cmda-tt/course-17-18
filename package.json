@@ -33,8 +33,12 @@
     "stylelint": "^8.0.0",
     "stylelint-config-standard": "^17.0.0",
     "title-case": "^2.1.1",
+    "to-vfile": "^2.1.2",
     "trough": "^1.0.1",
     "unified": "^6.1.5",
+    "unified-lint-rule": "^1.0.2",
+    "vfile-reporter": "^4.0.0",
+    "vfile-statistics": "^1.1.0",
     "xo": "^0.18.0",
     "xtend": "^4.0.1"
   },
@@ -43,7 +47,8 @@
     "build-md": "remark . -qfo",
     "build": "npm run build-pages && npm run build-md",
     "lint": "xo && stylelint **/*.css",
-    "test": "npm run build && npm run lint"
+    "test-api": "node test",
+    "test": "npm run build && npm run lint && npm run test-api"
   },
   "xo": {
     "space": true,
