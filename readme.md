@@ -9,10 +9,9 @@
 *   [Lecturers](#lecturers)
 *   [Communication](#communication)
 *   [Goals](#goals)
-*   [Materials](#materials)
 *   [Grade](#grade)
 *   [Calendar](#calendar)
-*   [Prerequisites](#prerequisites)
+*   [Materials](#materials)
 *   [Semester](#semester)
 *   [Bugs](#bugs)
 *   [See also](#see-also)
@@ -114,23 +113,6 @@ In practice you’ll learn to:
 
 <!--lint enable no-html-->
 
-## Materials
-
-*   🆓 GitHub account (**required**)
-    — [Sign Up](https://help.github.com/articles/signing-up-for-a-new-github-account/)
-*   🆓 Text Editor (**required**)
-    — [Atom](https://atom.io) or [Sublime](http://www.sublimetext.com)
-*   🆓 King, Ritchie S.  _Visual Storytelling with D3_.  Addison-Wesley, 2015
-    (**optional**)
-*   🆓 Meeks, Elijah.  _D3.js in Action_.  O’Reilly Media, 2017 (**optional**)
-*   🆓 [Navarro Castillo, Pablo.
-    _Mastering D3.js_.
-    Packt Publishing, 2014](https://github.com/pnavarrc/mastering-d3)
-    (**optional**)
-
-> 💁 The three optional books are free to HvA students through
-> [Safari Bookshelves][bookshelves].
-
 ## Grade
 
 | Task                        | Weight |
@@ -162,7 +144,22 @@ date, time, and place.
 > ※ — Assessments 1 and 2 are to be handed in 24 hours before the start of the
 > next class.
 
-## Prerequisites
+## Materials
+
+*   🆓 GitHub account (**required**)
+    — [Sign Up](https://help.github.com/articles/signing-up-for-a-new-github-account/)
+*   🆓 Text Editor (**required**)
+    — [Atom](https://atom.io) or [Sublime](http://www.sublimetext.com)
+*   🆓 King, Ritchie S.  _Visual Storytelling with D3_.  Addison-Wesley, 2015
+    (**optional**)
+*   🆓 Meeks, Elijah.  _D3.js in Action_.  O’Reilly Media, 2017 (**optional**)
+*   🆓 [Navarro Castillo, Pablo.
+    _Mastering D3.js_.
+    Packt Publishing, 2014](https://github.com/pnavarrc/mastering-d3)
+    (**optional**)
+
+> 💁 The three optional books are free to HvA students through
+> [Safari Bookshelves][bookshelves].
 
 Frontend 3 is the most technical course (except for the Minor Web Development)
 given at [**@CMDA**][cmda].  You will need your knowledge acquired in previous
