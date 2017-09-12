@@ -193,7 +193,35 @@ editor and browser.  Now, perform the following steps.
 
 #### Step 4
 
-<!-- TODO -->
+Done with step 3?  Awesome!  You’re a true SVG artist 👩‍🎨
+
+For this step, we’re now going to add your [work to the website][play-examples].
+
+1.  First, from your SVG file, remove the `<script>` element.  We don’t need it
+    anymore
+2.  To make changes, you need to [Fork a repo][fork].  Navigate to our course
+    repository on GitHub,
+    [`cmda-fe3/course-17-18`][repo], and in the top-right corner of the page
+    click **Fork**
+3.  On your newly forked project, still on the GitHub website, browse to the
+    `docs/class-1-play` directory, and click **Upload Files** in the top-right
+4.  Now, upload the SVG file you made in **step 2**.
+    For the commit message, use `Add @handle` (where `handle` is your GitHub
+    handle, so in my case it would be `Add @wooorm`).
+    Leave the commit description empty and keep `Commit directly to the master
+    branch` turned on.
+    When ready, click **Commit changes**
+5.  Your changes are now on your fork and not yet on our website.  To suggest
+    that your changes be applied to our website, create a [Pull Request][pr].
+    On your forked repository, click **New pull request** on the left just
+    above your files pane.
+    Then, click the big green **Create pull request** button.
+    Leave the comment empty and click **Create pull request** again
+
+#### Complete
+
+All done!  Congratulations.  One of our lecturers will review your pull request
+and include it on the website later.
 
 ### Loading data
 
@@ -222,3 +250,11 @@ editor and browser.  Now, perform the following steps.
 [basic]: #basic-visualisations
 
 [materials]: readme.md#materials
+
+[play-examples]: https://cmda-fe3.github.io/course-17-18/class-1-play/
+
+[repo]: https://github.com/cmda-fe3/course-17-18
+
+[fork]: https://help.github.com/articles/fork-a-repo/
+
+[pr]: https://help.github.com/articles/creating-a-pull-request/#creating-the-pull-request
