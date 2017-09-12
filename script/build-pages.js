@@ -97,9 +97,10 @@ var example = trough()
     }
   })
   .use(function (config) {
+    var base = config.page.path.split(path.sep).join('/') + '/';
     var example = config.example;
-    example.url = '/' + example.path.split(path.sep).slice(1).join('/');
-    example.href = '/' + example.filePath.split(path.sep).slice(1).join('/');
+    example.url = example.path.split(path.sep).join('/').slice(base.length);
+    example.href = example.filePath.split(path.sep).join('/').slice(base.length);
     example.source = example.path.split(path.sep).join('/');
   });
 
