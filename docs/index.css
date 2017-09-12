@@ -202,6 +202,10 @@ figcaption > :first-child {
   margin-top: 0;
 }
 
+figcaption > :last-child {
+  margin-bottom: 0;
+}
+
 footer {
   text-align: center;
 }
