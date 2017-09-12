@@ -26,9 +26,9 @@
     <a class=figure-link href="<%= example.url %>">
       <figure>
         <% if (example.type === 'iframe') {
-        %><iframe tabindex=-1 src="<%= example.href %>"></iframe><%
+        %><iframe role=presentation tabindex=-1 src="<%= example.href %>"></iframe><%
         } else { %><img alt src="<%= example.href %>"><% } %>
-        <figcaption><%- example.name %></figcaption>
+        <figcaption><%- example.description %></figcaption>
       </figure>
     </a>
     <a

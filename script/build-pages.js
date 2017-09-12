@@ -91,7 +91,7 @@ var example = trough()
       if (err) {
         next(err);
       } else {
-        config.example.name = file.toString();
+        config.example.description = file.toString();
         next();
       }
     }
