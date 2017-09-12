@@ -175,6 +175,10 @@ figure {
   color: #feca2f !important;
 }
 
+.figure-link:focus + .github-corner:hover .octo-bg {
+  fill: white;
+}
+
 figure img,
 figure iframe {
   display: block;
