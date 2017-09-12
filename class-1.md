@@ -179,7 +179,7 @@ editor and browser.  Now, perform the following steps.
 10. Add `color`, `fill`, `font-family`, `font-size`, and `opacity` attributes
     to any of the elements inside `<svg>`
 
-> 💁 feel free to add more elements and attributes.  The above are the minimum.
+> 💁 Feel free to add more elements and attributes.  The above are the minimum.
 
 #### Step 4
 
