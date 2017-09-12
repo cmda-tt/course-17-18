@@ -106,7 +106,7 @@ trough()
   .use(function (paths, next) {
     return async.map(paths, check.run, next);
   })
-  .run('docs/class-1-play/*.svg', function (err, files) {
+  .run('site/class-1-play/*.svg', function (err, files) {
     var stats = statistics(files);
 
     console.error(report(files));

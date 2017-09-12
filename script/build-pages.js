@@ -195,4 +195,4 @@ trough()
   .use(function (paths, next) {
     return async.map(paths, page.run, next);
   })
-  .run('docs/*', bail);
+  .run('site/*', bail);

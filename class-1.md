@@ -204,7 +204,7 @@ For this step, we’re now going to add your [work to the website][play-examples
     [`cmda-fe3/course-17-18`][repo], and in the top-right corner of the page
     click **Fork**
 3.  On your newly forked project, still on the GitHub website, browse to the
-    `docs/class-1-play` directory, and click **Upload Files** in the top-right
+    `site/class-1-play` directory, and click **Upload Files** in the top-right
 4.  Now, upload the SVG file you made in **step 2**.
     For the commit message, use `Add @handle` (where `handle` is your GitHub
     handle, so in my case it would be `Add @wooorm`).
