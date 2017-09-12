@@ -16,7 +16,7 @@ var xtend = require('xtend');
 var not = require('not');
 var bail = require('bail');
 var hidden = require('is-hidden');
-var humanize = require('humanize-component');
+var titleCase = require('title-case');
 var trough = require('trough');
 
 var pack = JSON.parse(fs.readFileSync('package.json'));
@@ -35,7 +35,7 @@ var example = trough()
     var fp = config.page.path + '/' + example.basename;
 
     example.type = 'image';
-    example.name = humanize(example.basename.slice(0, example.basename.indexOf('.')));
+    example.name = titleCase(example.basename.slice(0, example.basename.indexOf('.')));
     example.path = fp;
     example.filePath = fp;
 
@@ -107,7 +107,7 @@ var example = trough()
 var page = trough()
   /* Process the page. */
   .use(function (fp) {
-    var name = humanize(path.basename(fp));
+    var name = titleCase(path.basename(fp));
     var type = name.split(/\s/, 1)[0].toLowerCase();
     var num = Number(name.split(/\s/, 2)[1]);
 
