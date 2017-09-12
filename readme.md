@@ -128,8 +128,8 @@ In practice you’ll learn to:
     Packt Publishing, 2014](https://github.com/pnavarrc/mastering-d3)
     (**optional**)
 
-Note that the three optional books are available for free to HvA students
-through [Safari Bookshelves][bookshelves].
+> 💁 The three optional books are free to HvA students through
+> [Safari Bookshelves][bookshelves].
 
 ## Grade
 
