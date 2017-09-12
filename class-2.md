@@ -2,7 +2,7 @@
 
 ## Schedule
 
-*   Introduction to debugging and refactoring
+*   Intro to debugging and refactoring
     ([**subgoal 3**][s3] and [**subgoal 4**][s4])
 *   Core d3: from v3 to v4
     ([**subgoal 3**][s3])

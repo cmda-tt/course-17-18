@@ -171,15 +171,15 @@ technical courses.  Use the following sources to refresh your memory.
 #### Resources to refresh your memory
 
 *   🆓 [Codecademy](https://www.codecademy.com/learn/introduction-to-javascript)
-    (**course**) — Introduction to JavaScript: Learn to code interactively
+    (**course**) — Intro to JavaScript: Learn to code interactively
 *   🆓 [Re-introduction to JavaScript](https://developer.mozilla.org/Web/JavaScript/A_re-introduction_to_JavaScript)
     (**article**) — Short re-introduction to JavaScript
 *   🆓 [JavaScript For Cats](http://jsforcats.com)
-    (**book**) — Introduction to JavaScript for new programmers
+    (**book**) — Intro to JavaScript for new programmers
 *   🆓 [JavaScript 30](https://javascript30.com)
     (**course**) — 30 day vanilla JavaScript coding challenge
 *   🆓 [Eloquent JavaScript](http://eloquentjavascript.net)
-    (**book**) — Modern introduction to programming
+    (**book**) — Modern intro to programming
 *   🆓 [Mastering Markdown](https://masteringmarkdown.com)
     (**course**) — Mini series that will change how you write documentation
 *   🆓 [Markdown Tutorial](https://www.markdowntutorial.com)

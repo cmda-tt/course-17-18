@@ -13,10 +13,10 @@
 ## Schedule
 
 *   Bootcamp HTML, CSS, and JS
-*   Introduction to SVG and Canvas ([**subgoal 1**][s1])
+*   Intro to SVG and Canvas ([**subgoal 1**][s1])
 *   Data formats ([**subgoal 2**][s2])
 *   Hello d3
-*   Introduction to GitHub
+*   Intro to GitHub
 
 ## Assignments
 

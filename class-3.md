@@ -2,7 +2,7 @@
 
 ## Schedule
 
-*   Introduction to loading and cleaning external data
+*   Intro to loading and cleaning external data
     ([**subgoal 2**][s2], [**subgoal 8**][s8], and [**subgoal 9**][s9])
 *   Core d3: the enter / update / exit loop
     ([**subgoal 10**][s10] and [**subgoal 11**][s11])

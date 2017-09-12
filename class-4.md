@@ -6,7 +6,7 @@
     ([**subgoal 5**][s5], [**subgoal 6**][s6], and [**subgoal 7**][s7])
 *   Advanced d3: the enter / update / exit loop
     ([**subgoal 8**][s8] and [**subgoal 10**][s10])
-*   Introduction to non-trivial visualisations ([**subgoal 9**][s9])
+*   Intro to non-trivial visualisations ([**subgoal 9**][s9])
 
 ## Assignments
 
