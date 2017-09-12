@@ -1,4 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg">
+  <title>SVG element order</title>
   <style>
     text {text-anchor: middle}
     rect {fill: #feca2f; opacity: 0.75}
