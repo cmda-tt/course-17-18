@@ -168,7 +168,7 @@ case it would be `wooorm.svg`), and copy-paste the following document into it.
 #### Step 3
 
 Let’s make art!  Open the file created in the previous step in your text
-editor and browser.  Now, perform the following steps.
+editor **and** browser.  Now, perform the following steps.
 
 > 💁 The code checks itself if it’s complete.  Open your console to see how
 > you’re progressing.
