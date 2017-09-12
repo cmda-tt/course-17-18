@@ -57,8 +57,10 @@ editor][materials].
 
 #### Step 2
 
-Create a `handle.svg` (where `handle` is your GitHub handle, so in my case it
-would be `wooorm.svg`) file with the following contents:
+Create a file, `handle.svg` (where `handle` is your GitHub handle, so in my
+case it would be `wooorm.svg`), and copy-paste the following document into it.
+
+> 💁 Update the `<title>` element in the file with your handle too.
 
 <!--lint disable no-html-->
 
@@ -67,15 +69,19 @@ would be `wooorm.svg`) file with the following contents:
 
 ```xml
 <svg xmlns="http://www.w3.org/2000/svg">
+  <!--Update the title with your handle-->
+  <title>@handle</title>
+
   <!--Add stuff here-->
 
   <!-- NOTHING TO SEE HERE... MOVE ALONG!!! -->
   <script>// <![CDATA[
   var p = window.location.pathname
   var h = p.slice(p.lastIndexOf('/') + 1, p.lastIndexOf('.'))
-  if (h === 'handle') throw new Error('Rename this file to `your-github-handle.svg`!')
   console.log('Hi @%s 👋', h)
   if (!document.querySelector('circle')) bug()
+  if (h === 'handle') throw new Error('Rename this file to `your-github-handle.svg`!')
+  if (document.querySelector('title').textContent === '@handle') throw new Error('Update your `<title>`!')
   var ok = ![
     ['circle', '1.0. `<circle>` element'],
     ['circle[cx]', '1.1. `cx` attribute on `<circle>`'],
@@ -92,6 +98,8 @@ would be `wooorm.svg`) file with the following contents:
     ['line[y1]', '4.2. `y1` attribute on `<line>`'],
     ['line[x2]', '4.3. `x2` attribute on `<line>`'],
     ['line[y2]', '4.4. `y2` attribute on `<line>`'],
+    ['line[stroke-width]', '4.5. `stroke-width` attribute on `<line>`'],
+    ['line[stroke]', '4.6. `stroke` attribute on `<line>`'],
     ['polygon', '5.0. `<polygon>` element'],
     ['polygon[points]', '5.1. `points` attribute on `<polygon>`'],
     ['path', '6.0. `<path>` element'],
@@ -99,18 +107,18 @@ would be `wooorm.svg`) file with the following contents:
     ['text', '7.0. `<text>` element'],
     ['text[x]', '7.1. `x` attribute on `<text>`'],
     ['text[y]', '7.2. `y` attribute on `<text>`'],
+    ['text:not(:empty)', '7.3. Content in `<text>` element'],
     ['g', '8.0. `<g>` element'],
     ['g[stroke]', '8.1. `stroke` attribute on `<g>`'],
     ['g[stroke-width]', '8.2. `stroke-width` attribute on `<g>`'],
     ['g > :nth-child(n+2)', '8.3. `<g>` element with at least two children'],
-    [':root[width]', '9.0. `width` attribute on `<svg>`'],
-    [':root[height]', '9.1. `height` attribute on `<svg>`'],
-    [':root[viewBox]', '9.2. `viewBox` attribute on `<svg>`'],
-    ['[color]', '10.0. `color` attribute on any element'],
-    ['[fill]', '10.1. `fill` attribute on any element'],
-    ['[font-family]', '10.2. `font-family` attribute on any element'],
-    ['[font-size]', '10.3. `font-size` attribute on any element'],
-    ['[opacity]', '10.4. `opacity` attribute on any element']
+    [':root[viewBox]', '9.0. `viewBox` attribute on `<svg>`'],
+    [':root[width]', '9.1. `width` attribute on `<svg>`'],
+    [':root[height]', '9.2. `height` attribute on `<svg>`'],
+    ['[fill]', '10.0. `fill` attribute on any element'],
+    ['[font-family]', '10.1. `font-family` attribute on any element'],
+    ['[font-size]', '10.2. `font-size` attribute on any element'],
+    ['[opacity]', '10.3. `opacity` attribute on any element']
   ].some(assert)
   if (ok) {
     console.log([
@@ -124,8 +132,9 @@ would be `wooorm.svg`) file with the following contents:
       if (!(key in localStorage)) {
         console.info(check[1])
         localStorage[key] = true
+        return true
       }
-      return true;
+      return false
     }
     var exists = Boolean(document.querySelector(check[0]))
     console.assert(exists, check[1])
@@ -165,18 +174,19 @@ editor and browser.  Now, perform the following steps.
 > you’re progressing.
 
 1.  Add a `<circle>` element with `cx`, `cy`, and `r` attributes
-2.  Open your console’s **elements tab** and inspect your `<circle>`.
-    Use the **tree pane and style pane** to edit the values for the `cy`,
-    `cx`, and `r` attributes
+2.  Open your console’s **elements tab** and inspect your `<circle>`.  Use the
+    **tree pane** to edit the values for the `cy`, `cx`, and `r` attributes
 3.  Add a `<rect>` element with `x`, `y`, `width`, and `height` attributes
-4.  Add a `<line>` element with `x1`, `y1`, `x2`, and `x2` attributes
+4.  Add a `<line>` element with `x1`, `y1`, `x2`, `x2`, `stroke-width`, and
+    `stroke` attributes
 5.  Add a `<polygon>` element with a `points` attribute
 6.  Add a `<path>` element with a `d` attribute
-7.  Add a `<text>` element with `x` and `y` attributes
+7.  Add a `<text>` element with `x` and `y` attributes, and add actual text
+    to the element
 8.  Add a `<g>` element with a `stroke` and `stroke-width` attribute around at
     least two of your previously added elements
-9.  Add `width`, `height`, and `viewBox` attributes to your `<svg>` element
-10. Add `color`, `fill`, `font-family`, `font-size`, and `opacity` attributes
+9.  Add `viewBox`, `width`, and `height` attributes to your `<svg>` element
+10. Add `fill`, `font-family`, `font-size`, and `opacity` attributes
     to any of the elements inside `<svg>`
 
 > 💁 Feel free to add more elements and attributes.  The above are the minimum.
