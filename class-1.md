@@ -40,7 +40,7 @@ Assignments due before [class 2][c2]:
 *   [Resources to refresh your memory][refresh]
     — Browse the list and pick anything of interest, choose your own adventure
     style
-*   [Basic visualisations][basic]
+*   [Basic visualisations][basic] (**homework**)
 
 ### Playing with SVG
 
