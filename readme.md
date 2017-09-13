@@ -59,16 +59,14 @@ for more info about the minor.
 
 ## Communication
 
-Communication happens on:
-
 *   [GitHub][home]
     — Main source of information, assignments, important dates, and more
 *   [Website][]
-    — Examples
+    — Examples and assignments
 *   [Slack][]
     — General chatter and Q&A
 *   [Moodle][moodle-fe3]
-    — Schedulers and links to other places
+    — Schedulers
 
 ## Goals
 
