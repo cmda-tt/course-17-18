@@ -168,8 +168,8 @@ case it would be `wooorm.svg`), and copy-paste the following document into it.
 Let’s make art!  Open the file created in the previous step in your text
 editor **and** browser.  Now, perform the following substeps.
 
-> 💁 The code checks itself if it’s complete.  Open your console to see how
-> you’re progressing.
+> 💁 The code contains a script to check how you’re doing.  Open your console
+> to see how you’re progressing.
 
 1.  Add a `<circle>` element with `cx`, `cy`, and `r` attributes
 2.  Open your console’s **elements tab** and inspect your `<circle>`.  Use the
@@ -193,7 +193,7 @@ editor **and** browser.  Now, perform the following substeps.
 
 Done with **step 3**?  Awesome!  You’re a true SVG artist 👩‍🎨
 
-For this step, we’re now going to add your [work to the website][play-examples].
+For this step, we’re now going to add your [work to the website][g-play].
 
 1.  First, from your SVG file, remove the `<script>` element.  We don’t need it
     anymore
@@ -218,8 +218,9 @@ For this step, we’re now going to add your [work to the website][play-examples
 
 #### Complete
 
-All done!  Congratulations.  One of our lecturers will review your pull request
-and include it on the website later.
+All done!  Our [Continues Integration][ci] and one of our lecturers will review
+your code.  We’ll request changes if your code is not yet complete, or [merge][]
+your PR and include it in the [gallery][g-play].
 
 ### Loading data
 
@@ -252,9 +253,11 @@ Try and remember what you had for dinner the last three days.  For me, that’s:
 | Yesterday            | Goat Cheese Salad |
 | Day before yesterday | Nua Pad Ped       |
 
+> 💁 Add more data if you feel like it and can remember that far back!
+
 Write your dinners down in a file, `dinners.txt`, to your directory.
 
-> 💁 Feel free to add Dutch, English, or any language of your choosing.
+> 💁 Feel free to use Dutch, English, or any language of your choosing.
 > Also: any labels are fine, this is just for you.
 
 Words like today and yesterday make a lot of sense for humans.  For computers,
@@ -275,11 +278,11 @@ an absolute date of the dinner and what you had for dinner.  Save the file as
 
 #### Step 3
 
-Now, do the same for [JSON][].  Save the file as `index.json` in your directory.
+Now do the same for [JSON][].  Save the file as `index.json` in your directory.
 
 #### Step 4
 
-Create a file, `index.html`, in your directory, the following content:
+Create an `index.html` file in your directory with the following content:
 
 > 💁 Update the `<title>` element in the file with your handle.
 
@@ -289,27 +292,19 @@ Create a file, `index.html`, in your directory, the following content:
 ```html
 <!doctype html>
 <meta charset=utf8>
-<!--Update the title with your handle-->
+<!--Update the title with your handle:-->
 <title>@handle</title>
 <meta content=width=device-width,initial-scale=1 name=viewport>
-<script src=https://d3js.org/d3.v4.min.js></script>
-<script>
-  // Add stuff here.
-</script>
-<script>
-// NOTHING TO SEE HERE... MOVE ALONG!!!
-var h1 = document.createElement('h1')
-h1.style.fontFamily = 'Comic Sans MS'
-if (window.location.hostname !== 'localhost') {
-  h1.style.color = 'red'
-  h1.textContent = 'Make sure to follow step 5!'
-} else if (!(8002 in localStorage)) {
-  h1.style.color = 'green'
-  h1.textContent = 'It works! 🎉'
-  localStorage[8002] = true
-}
-if (h1.textContent) document.body.appendChild(h1)
-</script>
+
+<!--Link to d3 here:-->
+
+<!--Keep this script here for now:-->
+<script src=https://cmda-fe3.github.io/course-17-18/check-class-1-load.js></script>
+
+<h1>Dinners</h1>
+
+<!--Add your code in this script:-->
+<script></script>
 ```
 
 </details>
@@ -327,39 +322,49 @@ do that with:
 python -m SimpleHTTPServer 8000
 ```
 
-This exposes your files to your computer on `localhost:8000`.
+This exposes your files to your browser on `localhost:8000`.  Open this URL
+in your browser.
 
 If that doesn’t work, see the aforementioned link on how to run a simple server
 on your system.
 
 When done open up your browser and navigate to `localhost:8000`.  This should
-show a green message that things are working.
+show a message suggesting you to open your console.
 
-> 💁 Done with the server?  Enter <kbd>CTRL+C</kbd> in your terminal to cancel
-> your server.
+> 💁 Done with the server?  Enter <kbd>CTRL+C</kbd> in your terminal to shut it
+> down.
 
 #### Step 6
 
-In this step we’re going to load the JSON and CSV created in **step 2** and
-**step 3**.  Use `d3.json` and `d3.csv` to load those files, respectively.
+Now, we’re going to add d3 to the HTML.  Add a `<script>` element pointing
+to d3’s servers: `d3js.org`.  See [`d3js.org`][d3] on how to link directly
+to the latest release.
 
-See [tips][] for more info.
-
-In `d3.json` and `d3.csv`, print the loaded data to the console with
-`console.log`.
-
-Make sure both are printed before continuing to **step 7**.
+> 💁 The code contains a script to check how you’re doing.  Open your console
+> to see how you’re progressing.
 
 #### Step 7
 
-Instead of just logging stuff to the console, let’s add your data to the DOM.
+In this step we’re going to load the JSON and CSV created in **step 2** and
+**step 3**.  Use `d3.json` and `d3.csv` to load those files respectively.
 
-For example, I rendered `<h1>` elements with the origin of the data (JSON or
-CSV), and then `<h2>` elements with each date, followed by `<p>` elements with
-the name of each dinner.
+See [tips][] for more info.
+
+In callback functions passed to `d3.json` and `d3.csv`, print the loaded data
+to the console with `console.log`.
+
+Make sure both are printed before continuing to **step 8**.
+
+#### Step 8
+
+Instead of just logging stuff to the console let’s render your data to the DOM.
+
+I rendered `<h2>` elements with the origin of the data (JSON or CSV), then
+`<h3>` elements with each date, followed by `<p>` elements with the name of
+each dinner.
 
 Feel free to use any other **semantic** markup.  You could use
-[`<table>`][table]s, [`<details>`][details], or something else?
+[`<table>`][table]s, [`<details>`][details], [`<dl>`][dl], or something else?
 
 > 💁 You probably need [`document.createElement`][dce] and [`textContent`][tc].
 > Feel free to dig into d3, use jQuery, or something else to render stuff to
@@ -393,13 +398,17 @@ Feel free to use any other **semantic** markup.  You could use
 
 [materials]: readme.md#materials
 
-[play-examples]: https://cmda-fe3.github.io/course-17-18/class-1-play/
+[g-play]: https://cmda-fe3.github.io/course-17-18/class-1-play/
+
+[ci]: https://travis-ci.org
 
 [repo]: https://github.com/cmda-fe3/course-17-18
 
 [fork]: https://help.github.com/articles/fork-a-repo/
 
 [pr]: https://help.github.com/articles/creating-a-pull-request/#creating-the-pull-request
+
+[merge]: https://help.github.com/articles/merging-a-pull-request/
 
 [csv]: https://en.wikipedia.org/wiki/Comma-separated_values
 
@@ -409,9 +418,13 @@ Feel free to use any other **semantic** markup.  You could use
 
 [tips]: #tips-1
 
+[d3]: https://d3js.org
+
 [table]: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table
 
 [details]: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/details
+
+[dl]: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dl
 
 [dce]: https://developer.mozilla.org/en-US/docs/Web/API/Document/createElement
 
