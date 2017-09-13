@@ -12,9 +12,9 @@
 *   [Grade](#grade)
 *   [Calendar](#calendar)
 *   [Materials](#materials)
-*   [Semester](#semester)
 *   [Bugs](#bugs)
 *   [See also](#see-also)
+*   [Semester](#semester)
 *   [License](#license)
 
 ## Synopsis
@@ -233,19 +233,6 @@ date, time, and place.
     O’Reilly Media, 2016][ydkjs-6]
     (**frontend 2**)
 
-## Semester
-
-Frontend 3 is given in the [Information Design][moodle-id] semester (quarter
-1 and 2).  Information Design is all about data visualisation and infographics.
-In 6 courses and 3 projects you’ll learn how to visualise data and complex
-information.  In Frontend 3 you’ll learn how to build that.
-
-This semester (including this course) is quite technical.  However, we’ll also
-test your creativity.  See the below infographic about Frontend 3’s place in
-Information Design.
-
-![][infographic]
-
 ## Bugs
 
 If you have questions:
@@ -265,6 +252,19 @@ If you have questions:
 *   [`bl.ocks.org`](https://bl.ocks.org)
 *   [`github.com/d3/d3`](https://github.com/d3/d3)
 *   [`lynda.com`](https://www.lynda.com/D3-js-tutorials/Welcome/504428/549380-4.html)
+
+## Semester
+
+Frontend 3 is given in the [Information Design][moodle-id] semester (quarter
+1 and 2).  Information Design is all about data visualisation and infographics.
+In 6 courses and 3 projects you’ll learn how to visualise data and complex
+information.  In Frontend 3 you’ll learn how to build that.
+
+This semester (including this course) is quite technical.  However, we’ll also
+test your creativity.  See the below infographic about Frontend 3’s place in
+Information Design.
+
+![][infographic]
 
 ## License
 
