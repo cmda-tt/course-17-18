@@ -113,11 +113,14 @@ In practice you’ll learn to:
 
 | Task                        | Weight |
 | --------------------------- | -----: |
-| Participation               |    10% |
+| Participation※              |    10% |
 | [Assessment 1 (remote)][a1] |    20% |
 | [Assessment 2 (remote)][a2] |    30% |
 | [Assessment 3 (oral)][a3]   |    40% |
 | **Total**                   |   100% |
+
+> ※ Participation is calculated based on attendance, participation in class,
+> and whether you partake in assignments.
 
 ## Calendar
 
