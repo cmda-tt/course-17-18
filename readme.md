@@ -144,6 +144,8 @@ date, time, and place.
 
 ## Materials
 
+#### Resources used in this course
+
 *   🆓 GitHub account (**required**)
     — [Sign Up](https://help.github.com/articles/signing-up-for-a-new-github-account/)
 *   🆓 Text Editor (**required**)
@@ -158,10 +160,6 @@ date, time, and place.
 
 > 💁 The three optional books are free to HvA students through
 > [Safari Bookshelves][bookshelves].
-
-Frontend 3 is the most technical course (except for the Minor Web Development)
-given at [**@CMDA**][cmda].  You will need your knowledge acquired in previous
-technical courses.  Use the following sources to refresh your memory.
 
 #### Resources to refresh your memory
 
