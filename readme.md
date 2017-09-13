@@ -88,7 +88,7 @@ In practice you’ll learn to:
 
 1.  <a name="subgoal-1"></a> Understand SVG and canvas
     ([**class 1**][c1])
-2.  <a name="subgoal-2"></a> Parse data formats, like JSON, CSV, and TSV
+2.  <a name="subgoal-2"></a> Parse data formats such as JSON and CSV
     ([**class 1**][c1] and [**class 3**][c3])
 3.  <a name="subgoal-3"></a> Debug code, such as adapting d3 v3 code to v4
     ([**class 2**][c2])
