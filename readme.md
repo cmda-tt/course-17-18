@@ -137,7 +137,7 @@ date, time, and place.
 | [Assessment 3 (oral)][a3]   |  Test |   19-10   |   20-10   | 18-10 and 20-10 |
 | Resit                       |  Test |   01-02   |   31-01   |      02-02      |
 
-> ※ — Assessments 1 and 2 are to be handed in 24 hours before the start of the
+> ※ Assessments 1 and 2 are to be handed in 24 hours before the start of the
 > next class.
 
 ## Materials
