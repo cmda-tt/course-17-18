@@ -265,7 +265,6 @@ If you have questions:
 *   [`bl.ocks.org`](https://bl.ocks.org)
 *   [`github.com/d3/d3`](https://github.com/d3/d3)
 *   [`lynda.com`](https://www.lynda.com/D3-js-tutorials/Welcome/504428/549380-4.html)
-*   [`studiegids.hva.nl`](https://studiegids.hva.nl/studiegids?edu=cmd-vt&phase=Leerjaar%203&path=https%3A%2F%2Fstudiedelen.mijnhva.nl%2Fmetadata%2Fdmci%2FLists%2FDraftMetadata%2FDispForm.aspx%3FID%3D4049)
 
 ## License
 
