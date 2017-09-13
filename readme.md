@@ -1,6 +1,4 @@
-# fe(3) - Course 2017-2018
-
-## [![fe(3)][logo]][home]
+# [![Frontend 3 - Course 2017-2018][logo]][home]
 
 ## Table of Contents
 
