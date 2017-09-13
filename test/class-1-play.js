@@ -48,8 +48,9 @@ var processor = unified()
     ['g[stroke-width]', '8.2. `stroke-width` attribute on `<g>`'],
     ['g > :nth-child(n+2)', '8.3. `<g>` element with at least two children'],
     [':root[viewBox]', '9.0. `viewBox` attribute on `<svg>`'],
-    [':root[width]', '9.1. `width` attribute on `<svg>`'],
-    [':root[height]', '9.2. `height` attribute on `<svg>`'],
+    /* These two are not bugged about so people can hand in responsive stuff.
+     * [':root[width]', '9.1. `width` attribute on `<svg>`'],
+     * [':root[height]', '9.2. `height` attribute on `<svg>`'], */
     ['[fill]', '10.0. `fill` attribute on any element'],
     ['[font-family]', '10.1. `font-family` attribute on any element'],
     ['[font-size]', '10.2. `font-size` attribute on any element'],
