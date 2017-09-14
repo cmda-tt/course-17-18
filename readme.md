@@ -281,7 +281,7 @@ part of the [Faculty of Digital Media and Creative Industries][faculty] at the
 ## Conduct
 
 This project has a [Code of Conduct][coc].  Anyone interacting with this
-repository or organisation is bound by it.
+repository, organisation, or community is bound by it.
 
 Staff and students of the Amsterdam University of Applied Sciences (Hogeschool
 van Amsterdam) are additionally bound by the [Regulation Undesirable
