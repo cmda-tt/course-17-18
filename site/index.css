@@ -113,10 +113,14 @@ nav a {
   color: white;
 }
 
+nav .assignment {
+  background-color: white;
+  color: black;
+}
+
 nav a:hover,
 nav a:focus {
   background-color: #feca2f;
-  color: white;
 }
 
 nav small {
