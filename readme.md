@@ -13,7 +13,8 @@
 *   [Bugs](#bugs)
 *   [See also](#see-also)
 *   [Semester](#semester)
-*   [Conduct](#code-of-conduct)
+*   [Programme](#programme)
+*   [Conduct](#conduct)
 *   [License](#license)
 
 ## Synopsis
@@ -266,7 +267,16 @@ This semester (including this course) is quite technical.  However, we’ll also
 test your creativity.  See the below infographic about Frontend 3’s place in
 Information Design.
 
-![][infographic]
+[![][infographic]][moodle-id]
+
+## Programme
+
+**Frontend 3** is given at [Communication and Multimedia Design][bachelor], a
+design bachelor focused on interactive digital products and services.  CMD is
+part of the [Faculty of Digital Media and Creative Industries][faculty] at the
+[Amsterdam University of Applied Sciences][university].
+
+[![][cmd-logo]][bachelor]
 
 ## Conduct
 
@@ -364,6 +374,14 @@ Conduct][ruc] ([Regeling Ongewenst Gedrag][rog]).
 [a2]: assessment-2.md
 
 [a3]: assessment-3.md
+
+[bachelor]: https://www.cmd-amsterdam.nl/english/
+
+[faculty]: http://www.amsterdamuas.com/faculty/fdmci/faculty-of-digital-media-and-creative-industries.html?origin=wK2pE2mITji6ZHGwFD65pw
+
+[university]: http://www.amsterdamuas.com
+
+[cmd-logo]: images/cmd.jpg
 
 [coc]: code-of-conduct.md
 
