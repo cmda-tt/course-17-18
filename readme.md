@@ -119,8 +119,8 @@ In practice you’ll learn to:
 | [Assessment 3 (oral)][a3]   |    40% |
 | **Total**                   |   100% |
 
-> ※ Participation is calculated based on attendance, participation in class,
-> and whether you partake in assignments.
+> ※ Participation is calculated based on participation in class and whether
+> you partake in assignments.
 
 ## Calendar
 
