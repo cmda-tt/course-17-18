@@ -10,3 +10,4 @@ deploy:
   name: Titus Wormer
   on:
     branch: master
+    repo: cmda-fe3/course-17-18
