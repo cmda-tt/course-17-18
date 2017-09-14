@@ -1,4 +1,4 @@
-# [![Frontend 3 - Course 2017-2018][logo]][home]
+# [![Frontend 3 - Course 2017-2018][logo]][website]
 
 ## Table of Contents
 
