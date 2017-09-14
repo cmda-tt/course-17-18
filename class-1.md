@@ -6,12 +6,20 @@
 
 ## Table of Contents
 
+*   [Inspiration](#inspiration)
 *   [Synopsis](#synopsis)
 *   [Schedule](#schedule)
 *   [Assignments](#assignments)
     *   [Playing with SVG](#playing-with-svg)
     *   [Loading data](#loading-data)
     *   [Basic visualisations](#basic-visualisations)
+
+## Inspiration
+
+[![][inspiration-cover]][inspiration-link]
+
+> All 9,866,539 buildings in the Netherlands shaded according to year of
+> construction by [**@bertspaan**][inspiration-author].
 
 ## Synopsis
 
@@ -381,6 +389,12 @@ Feel free to use any other **semantic** markup.  You could use
 ### Basic visualisations
 
 <!-- TODO -->
+
+[inspiration-cover]: https://raw.githubusercontent.com/bertspaan/buildings/gh-pages/high-res/smaller/amsterdam.png
+
+[inspiration-link]: http://code.waag.org/buildings/
+
+[inspiration-author]: http://bertspaan.nl
 
 [c2]: class-2.md
 
