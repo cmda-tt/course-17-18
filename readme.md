@@ -13,6 +13,7 @@
 *   [Bugs](#bugs)
 *   [See also](#see-also)
 *   [Semester](#semester)
+*   [Conduct](#code-of-conduct)
 *   [License](#license)
 
 ## Synopsis
@@ -267,6 +268,15 @@ Information Design.
 
 ![][infographic]
 
+## Conduct
+
+This project has a [Code of Conduct][coc].  Anyone interacting with this
+repository or organisation is bound by it.
+
+Staff and students of the Amsterdam University of Applied Sciences (Hogeschool
+van Amsterdam) are additionally bound by the [Regulation Undesirable
+Conduct][ruc] ([Regeling Ongewenst Gedrag][rog]).
+
 ## License
 
 [MIT][] © [Titus Wormer][author]
@@ -354,3 +364,9 @@ Information Design.
 [a2]: assessment-2.md
 
 [a3]: assessment-3.md
+
+[coc]: code-of-conduct.md
+
+[ruc]: http://www.amsterdamuas.com/practical-matters/algemeen/hva-breed/juridische-zaken/legal-affairs/regulation-undesirable-conduct/regulation-undesirable-conduct.html#anker-3-complaints-authority
+
+[rog]: http://www.hva.nl/praktisch/algemeen/hva-breed/juridische-zaken/loket-beroep-bezwaar-en-klacht/regeling-ongewenst-gedrag/regeling-ongewenst-gedrag.html?origin=gbS4rg%2FDTZuxQ6lGVF%2BN1A
