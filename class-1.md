@@ -218,7 +218,7 @@ For this step, we’re now going to add your [work to the website][g-play].
 
 #### Complete
 
-All done!  Our [Continues Integration][ci] and one of our lecturers will review
+All done!  Our [Continuous Integration][ci] and one of our lecturers will review
 your code.  We’ll request changes if your code is not yet complete, or [merge][]
 your PR and include it in the [gallery][g-play].
 
