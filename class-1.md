@@ -44,6 +44,10 @@ Assignments due before [class 2][c2]:
 
 ### Playing with SVG
 
+[![][play-cover]][play-link]
+
+> Example outcome of this assignment by [**@ju5tu5**](https://github.com/ju5tu5).
+
 In this assignment you’ll learn the basics of SVG.
 
 #### Tips
@@ -429,3 +433,7 @@ Feel free to use any other **semantic** markup.  You could use
 [dce]: https://developer.mozilla.org/en-US/docs/Web/API/Document/createElement
 
 [tc]: https://developer.mozilla.org/en-US/docs/Web/API/Node/textContent
+
+[play-cover]: https://cmda-fe3.github.io/course-17-18/class-1-play/ju5tu5.svg
+
+[play-link]: https://cmda-fe3.github.io/course-17-18/class-1-play/
