@@ -289,11 +289,14 @@ Conduct][ruc] ([Regeling Ongewenst Gedrag][rog]).
 
 ## License
 
-[MIT][] © [Titus Wormer][author]
+Software: [MIT][] © [Titus Wormer][author].
+Docs and images: [CC-BY-NC-SA-4.0][].
 
 [logo]: https://cdn.rawgit.com/cmda-fe3/logo/56ebc971/logo.svg
 
-[mit]: LICENSE
+[mit]: license.md#software
+
+[cc-by-nc-sa-4.0]: license.md#documentation-and-images
 
 [author]: http://wooorm.com
 
