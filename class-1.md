@@ -33,18 +33,18 @@
 
 *   Bootcamp HTML, CSS, and JS
 *   Intro to SVG and Canvas ([**subgoal 1**][s1])
-*   [Playing with SVG][playing] (**practice**)
+*   [Playing with SVG][play] (**practice**)
 *   Data formats ([**subgoal 2**][s2])
 *   Hello d3
 *   Intro to GitHub
-*   [Loading data][loading] (**practice**)
+*   [Loading data][load] (**practice**)
 
 ## Assignments
 
 Assignments due before [class 2][c2]:
 
-*   [Playing with SVG][playing] (**practice**)
-*   [Loading Data][loading] (**practice**)
+*   [Playing with SVG][play] (**practice**)
+*   [Loading Data][load] (**practice**)
 *   [Resources to refresh your memory][refresh]
     — Browse the list and pick anything of interest, choose your own adventure
     style
@@ -217,14 +217,16 @@ the website][play-link].
     Navigate to our course repository on GitHub,
     [`cmda-fe3/course-17-18`][repo], and in the top-right corner of the page
     click **Fork**
-3.  Follow the guide [Adding a file to a repository][upload] to upload the SVG
+3.  <a name="class-1-play-d-3"></a>
+    Follow the guide [Adding a file to a repository][upload] to upload the SVG
     file you made in [**step B**][c1pb].
     For the commit message, use `Add @handle` (where `handle` is your GitHub
     handle, so in my case it would be `Add @wooorm`).
     Leave the commit description empty.
     Select **Create a new branch** and use the name `play`.
     When ready, click **Commit changes**
-4.  Your changes are now on your fork and not yet handed in.
+4.  <a name="class-1-play-d-4"></a>
+    Your changes are now on your fork and not yet handed in.
     To suggest that your changes be applied to our website, create a
     [Pull Request][pr].
     On your forked repository, click **New pull request** on the left just
@@ -240,8 +242,8 @@ your PR and include it in the [gallery][play-link].
 
 ### Loading data
 
-In this assignment you’ll learn the basics of different commonly used
-data formats.  We’ll cover JSON and CSV.
+In this assignment you’ll learn about JSON and CSV, two commonly used data
+formats.  Additionally, you’ll learn to use d3 to request files.
 
 #### Tips
 
@@ -255,13 +257,15 @@ data formats.  We’ll cover JSON and CSV.
 
 #### <a name="class-1-load-a"></a> Step A
 
-Before touching any code, let’s create a dataset.  It’ll be about food, great!
-🥖🧀
-
-Create a directory, named after your GitHub handle (for me that would be
+Create a directory named after your GitHub handle (for me that would be
 `wooorm`).
 
-Try and remember what you had for dinner the last three days.  For me, that’s:
+Create a text file `dinners.txt` in your directory and open it.
+
+As you may have guessed, this assignment is about food!  Great!  🥖🧀
+
+Let’s create a dataset.  Add what you had for dinner the last three days to
+`dinner.txt`.  For me, that’s:
 
 | Day                  | Dinner            |
 | -------------------- | ----------------- |
@@ -270,9 +274,7 @@ Try and remember what you had for dinner the last three days.  For me, that’s:
 | Day before yesterday | Nua Pad Ped       |
 
 > 💁 Add more data if you feel like it and can remember that far back!
-
-Write your dinners down in a file, `dinners.txt`, to your directory.
-
+>
 > 💁 Feel free to use Dutch, English, or any language of your choosing.
 > Also: any labels are fine, this is just for you.
 
@@ -288,17 +290,17 @@ YYYY-MM-DD.  Reformat your data to include absolute dates.  For me, that’s:
 
 #### <a name="class-1-load-b"></a> Step B
 
-From your dinners, create a [CSV][] file containing the same information:
-an absolute date of the dinner and what you had for dinner.  Save the file as
-`index.csv` in your directory.
+Create a file, `index.csv`, in your directory and open it.
+Fill it with the same data as `dinners.txt` but now structured in the [CSV][]
+format: an absolute date of the dinner and what you had for dinner.
 
 #### <a name="class-1-load-c"></a> Step C
 
-Now do the same for [JSON][].  Save the file as `index.json` in your directory.
+Do the same with `index.json` in the [JSON][] format.
 
 #### <a name="class-1-load-d"></a> Step D
 
-Create an `index.html` file in your directory with the following content:
+Create a file, `index.html`, and copy-paste the following document into it.
 
 > 💁 Update the `<title>` element in the file with your handle.
 
@@ -387,9 +389,26 @@ Feel free to use any other **semantic** markup.  You could use
 > Feel free to dig into d3, use jQuery, or something else to render stuff to
 > the DOM.
 
+#### <a name="class-1-load-i"></a> Step I
+
+In this step, we’re going to hand your work in.  This will [add your work to
+the website][play-link].
+
+1.  First remove the `<script>` element referencing `check-class-1-load.js`
+    from your HTML file.
+    We don’t need it anymore
+2.  Go to your fork of `course-17-18` and make sure to switch to your
+    `master` branch in the **Branch** select (just above your files to the left)
+    if it’s not already selected
+3.  Follow [**substep 3**][c1pd3] and [**substep 4**][c1pd4] from [step D][c1pd]
+    of the [Playing with SVG][play] assignment to upload your files again.
+    Use `load` for the branch name
+
 #### Complete
 
-<!-- TODO -->
+All done!  Our [Continuous Integration][ci] and one of our lecturers will review
+your code.  We’ll request changes if your code is not yet complete, or [merge][]
+your PR and include it in the gallery.
 
 ### Basic visualisations
 
@@ -413,9 +432,9 @@ Feel free to use any other **semantic** markup.  You could use
 
 [examples]: https://cmda-fe3.github.io/course-17-18/class-1/
 
-[playing]: #playing-with-svg
+[play]: #playing-with-svg
 
-[loading]: #loading-data
+[load]: #loading-data
 
 [basic]: #basic-visualisations
 
@@ -460,6 +479,12 @@ Feel free to use any other **semantic** markup.  You could use
 [c1pb]: #class-1-play-b
 
 [c1pc]: #class-1-play-c
+
+[c1pd]: #class-1-play-d
+
+[c1pd3]: #class-1-play-d-3
+
+[c1pd4]: #class-1-play-d-4
 
 [c1la]: #class-1-load-a
 
