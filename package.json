@@ -49,7 +49,7 @@
     "build-pages": "node script/build-pages",
     "build-md": "remark . -qfo",
     "build": "npm run build-pages && npm run build-md",
-    "lint": "xo && stylelint **/*.css",
+    "lint": "xo && stylelint site/*.css",
     "test-api": "node test",
     "test": "npm run build && npm run lint && npm run test-api"
   },
@@ -58,7 +58,10 @@
     "esnext": false,
     "rules": {
       "unicorn/prefer-type-error": "off"
-    }
+    },
+    "ignores": [
+      "site/*/**/*.js"
+    ]
   },
   "stylelint": {
     "extends": "stylelint-config-standard"
