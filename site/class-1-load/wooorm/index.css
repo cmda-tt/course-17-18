@@ -1,0 +1,12 @@
+html {
+  font-family: Roboto, -apple-system, BlinkMacSystemFont, Helvetica Neue, Segoe UI, Oxygen, Ubuntu, Cantarell, Open Sans, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-align: center;
+  color: white;
+  background-color: black;
+}
+
+* {
+  line-height: calc(1em + 1ex);
+  font-weight: 500;
+}
