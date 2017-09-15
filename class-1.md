@@ -394,9 +394,9 @@ Feel free to use any other **semantic** markup.  You could use
 In this step, we’re going to hand your work in.  This will [add your work to
 the website][play-link].
 
-1.  First remove the `<script>` element referencing `check-class-1-load.js`
-    from your HTML file.
-    We don’t need it anymore
+1.  First remove the `<script>` element referencing `check-class-1-load.js`,
+    all `console.log` calls, and your HTML comments from `index.html`.
+    We don’t need them anymore
 2.  Go to your fork of `course-17-18` and make sure to switch to your
     `master` branch in the **Branch** select (just above your files to the left)
     if it’s not already selected
