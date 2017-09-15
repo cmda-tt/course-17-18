@@ -45,10 +45,11 @@ Assignments due before [class 2][c2]:
 
 *   [Playing with SVG][play] (**practice**)
 *   [Loading Data][load] (**practice**)
-*   [Resources to refresh your memory][refresh]
-    — Browse the list and pick anything of interest, choose your own adventure
-    style
 *   [Basic visualisations][basic] (**homework**)
+*   [Resources to refresh your memory][refresh]※ (**extra**)
+
+> ※ Although not required we expect students who lack in knowledge of HTML,
+> CSS, JS, and Node to catch up on their own.
 
 ## Playing with SVG
 
