@@ -31,7 +31,7 @@ function onload() {
 
   /* Check location. */
   if (window.location.hostname !== 'localhost') {
-    return warn('Make sure to follow step 5!');
+    return warn('Make sure to follow step E!');
   }
 
   /* Check title. */
@@ -89,7 +89,7 @@ function xhrs() {
   }
 
   console.info([
-    'Now, remove this script. When that’s done, you can continue with step 8.',
+    'Now, remove this script. When that’s done, you can continue with step H.',
     'There won’t be any more assertions though. You’re on your own! Good luck! 👍'
   ].join('\n'));
 }
