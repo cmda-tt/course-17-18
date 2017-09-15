@@ -205,24 +205,28 @@ Let’s make art!  Open the file created in [**step B**][c1pb] in your text edit
 
 Done with [**step C**][c1pc]?  Awesome!  You’re a true SVG artist 👩‍🎨
 
-For this step, we’re now going to add your [work to the website][play-link].
+For this step, we’re going to hand your work in.  This will [add your work to
+the website][play-link].
 
-1.  First, from your SVG file, remove the `<script>` element.  We don’t need it
-    anymore
-2.  To make changes, you need to [Fork a repo][fork].  Navigate to our course
-    repository on GitHub,
+1.  First remove the `<script>` element from your SVG file.
+    We don’t need it anymore
+2.  You can’t just change our website.
+    You have to propose changes.
+    On GitHub, that’s called a Pull Request.
+    First, we’re going to [Fork a repo][fork].
+    Navigate to our course repository on GitHub,
     [`cmda-fe3/course-17-18`][repo], and in the top-right corner of the page
     click **Fork**
-3.  On your newly forked project, still on the GitHub website, browse to the
-    `site/class-1-play` directory, and click **Upload Files** in the top-right
-4.  Now, upload the SVG file you made in [**step B**][c1pb].
+3.  Follow the guide [Adding a file to a repository][upload] to upload the SVG
+    file you made in [**step B**][c1pb].
     For the commit message, use `Add @handle` (where `handle` is your GitHub
     handle, so in my case it would be `Add @wooorm`).
-    Leave the commit description empty and keep `Commit directly to the master
-    branch` turned on.
+    Leave the commit description empty.
+    Select **Create a new branch** and use the name `play`.
     When ready, click **Commit changes**
-5.  Your changes are now on your fork and not yet on our website.  To suggest
-    that your changes be applied to our website, create a [Pull Request][pr].
+4.  Your changes are now on your fork and not yet handed in.
+    To suggest that your changes be applied to our website, create a
+    [Pull Request][pr].
     On your forked repository, click **New pull request** on the left just
     above your files pane.
     Then, click the big green **Create pull request** button.
@@ -422,6 +426,8 @@ Feel free to use any other **semantic** markup.  You could use
 [repo]: https://github.com/cmda-fe3/course-17-18
 
 [fork]: https://help.github.com/articles/fork-a-repo/
+
+[upload]: https://help.github.com/articles/adding-a-file-to-a-repository/
 
 [pr]: https://help.github.com/articles/creating-a-pull-request/#creating-the-pull-request
 
