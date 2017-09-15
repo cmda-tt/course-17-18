@@ -41,7 +41,7 @@
 
 ## Assignments
 
-Assignments due before [class 2][c2]:
+Submit your assignments by 7am the day of [class 2][c2].
 
 *   [Playing with SVG][play] (**practice**)
 *   [Loading Data][load] (**practice**)
