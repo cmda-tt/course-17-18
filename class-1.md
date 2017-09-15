@@ -218,6 +218,7 @@ the website][play-link].
     [`cmda-fe3/course-17-18`][repo], and in the top-right corner of the page
     click **Fork**
 3.  <a name="class-1-play-d-3"></a>
+    Navigate to the directory `site/class-1-play`.
     Follow the guide [Adding a file to a repository][upload] to upload the SVG
     file you made in [**step B**][c1pb].
     For the commit message, use `Add @handle` (where `handle` is your GitHub
@@ -225,14 +226,14 @@ the website][play-link].
     Leave the commit description empty.
     Select **Create a new branch** and use the name `play`.
     When ready, click **Commit changes**
-4.  <a name="class-1-play-d-4"></a>
-    Your changes are now on your fork and not yet handed in.
+4.  Your changes are now on your fork and not yet handed in.
     To suggest that your changes be applied to our website, create a
     [Pull Request][pr].
-    On your forked repository, click **New pull request** on the left just
-    above your files pane.
-    Then, click the big green **Create pull request** button.
-    Leave the comment empty and click **Create pull request** again
+    You will probably see a notification with a big green button,
+    **Compare & pull request**.
+    Otherwise, click **New pull request** on the left just above your files
+    pane and make sure that the **compare** select is on **play**.
+    Leave the comment empty and click **Create pull request**.
 
 #### Complete
 
@@ -399,12 +400,28 @@ the website][play-link].
 1.  First remove the `<script>` element referencing `check-class-1-load.js`,
     all `console.log` calls, and your HTML comments from `index.html`.
     We don’t need them anymore
-2.  Go to your fork of `course-17-18` and make sure to switch to your
-    `master` branch in the **Branch** select (just above your files to the left)
-    if it’s not already selected
-3.  Follow [**substep 3**][c1pd3] and [**substep 4**][c1pd4] from [step D][c1pd]
-    of the [Playing with SVG][play] assignment to upload your files again.
-    Use `load` for the branch name
+2.  Go to your fork of `course-17-18` and create a new branch.
+    First, make sure to switch to your `master` branch in the **Branch**
+    select (just above your files to the left) if it’s not already selected.
+    Then, click the **Branch** select again, and type in `load`.
+    Finally, click **Create branch: load**
+3.  Navigate to the directory `site/class-1-load`
+4.  Create a new file by clicking on **Create new file**.
+    In the **Name your file…** input, type `handle/readme.md` (where `handle`
+    is your GitHub handle, so in my case it would be `wooorm/readme.md`).
+    In the **Edit your file…** area, write `# Hello World`.  What you’re writing
+    is called markdown and we’ll cover it in [**class 2**][c2].
+    In the commit message at the bottom, use `Add readme.md for @handle` (in my
+    case `Add readme.md for @wooorm`).
+    Keep **Commit directly to the load branch** selected
+5.  Now, follow [**substep 3**][c1pd3] from [step D][c1pd] of the [Playing with
+    SVG][play] assignment to upload the **files in your directory** on the
+    `load` branch to the newly created directory on GitHub.
+    In the commit message at the bottom, use `Add files for @handle` (in my case
+    `Add files for @wooorm`).
+    Keep **Commit directly to the load branch** selected
+6.  Create a pull request and use `Add @handle` (in my case `Add @wooorm`) for
+    the title
 
 #### Complete
 
@@ -485,8 +502,6 @@ your PR and include it in the gallery.
 [c1pd]: #class-1-play-d
 
 [c1pd3]: #class-1-play-d-3
-
-[c1pd4]: #class-1-play-d-4
 
 [c1la]: #class-1-load-a
 
