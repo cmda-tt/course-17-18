@@ -1,10 +1,11 @@
+<!--lint disable no-html-->
+
 # [![Frontend 3 - Course 2017-2018][logo]][website]
 
 ## Table of Contents
 
 *   [Synopsis](#synopsis)
 *   [Description](#description)
-*   [Lecturers](#lecturers)
 *   [Communication](#communication)
 *   [Goals](#goals)
 *   [Grade](#grade)
@@ -24,8 +25,8 @@ The course **Frontend 3** is given at [**@CMDA**][cmda] in 2017 between
 
 *   **Course**: Frontend 3
 *   **Course coordinator**: [Titus Wormer][wooorm-mail]
-*   **Course lecturers**: [Titus Wormer][wooorm-mail] and
-    [Laurens Aarnoudse][razpudding-mail]
+*   **Course lecturers**: [Titus Wormer][wooorm-mail] ([**@wooorm**][wooorm-gh])
+    and [Laurens Aarnoudse][razpudding-mail] ([**@razpudding**][razpudding-gh])
 *   **Semester**: [Information Design][moodle-id]
 *   **Semester coordinators**: [Frank Kloos][frank-mail] and
     [Maaike van Cruchten][maaike-mail]
@@ -49,13 +50,8 @@ Project 1 (individual) and Project 2 (team) of Information Design you’ll apply
 your newfound skills.
 
 If you’d like to continue with web development after this course check out the
-[Minor Web Development][minor].  Feel free to ask your [lecturer][lecturers]
+[Minor Web Development][minor].  Feel free to ask your [lecturer][synopsis]
 for more info about the minor.
-
-## Lecturers
-
-*   [Titus Wormer][wooorm-mail] ([**@wooorm**][wooorm-gh])
-*   [Laurens Aarnoudse][razpudding-mail] ([**@razpudding**][razpudding-gh])
 
 ## Communication
 
@@ -82,8 +78,6 @@ The 3 main goals in this course are:
 
 In practice you’ll learn to:
 
-<!--lint disable no-html-->
-
 1.  <a name="subgoal-1"></a> Understand SVG and canvas
     ([**class 1**][c1])
 2.  <a name="subgoal-2"></a> Parse data formats such as JSON and CSV
@@ -108,8 +102,6 @@ In practice you’ll learn to:
     ([**class 3**][c3] and [**class 5**][c5])
 12. <a name="subgoal-12"></a> Create multiple visualisations on the same page
     ([**class 6**][c6])
-
-<!--lint enable no-html-->
 
 ## Grade
 
@@ -246,7 +238,7 @@ If you have questions:
 *   [Search StackOverflow][stackoverflow]
 *   Use a search engine (like [DuckDuckGo][])
 *   [Ask questions on Slack][slack]
-*   [Contact a lecturer][lecturers]
+*   [Contact a lecturer][synopsis]
 *   [Open an issue][issue]
 
 ## See also
@@ -338,7 +330,7 @@ Docs and images: [CC-BY-NC-SA-4.0][].
 
 [slack]: https://cmdinformationdesign.slack.com
 
-[lecturers]: #lecturers
+[synopsis]: #synopsis
 
 [minor]: https://moodle.cmd.hva.nl/course/index.php?categoryid=41
 
