@@ -71,6 +71,12 @@
       "preset-wooorm",
       "lint-no-dead-urls",
       [
+        "toc",
+        {
+          "maxDepth": 2
+        }
+      ],
+      [
         "validate-links",
         false
       ]
