@@ -243,6 +243,11 @@ your PR and include it in the [gallery][play-link].
 
 ### Loading data
 
+[![][load-cover]][load-link]
+
+> Data visualisation references food a lot.  In the future we’ll reference
+> donuts too.  Photo by [**Annie Spratt**][load-cover-source] on Unsplash.
+
 In this assignment you’ll learn about JSON and CSV, two commonly used data
 formats.  Additionally, you’ll learn to use d3 to request files.
 
@@ -395,7 +400,7 @@ You may create a file, `index.css`, to style your HTML.
 #### <a name="class-1-load-i"></a> Step I
 
 In this step, we’re going to hand your work in.  This will [add your work to
-the website][play-link].
+the website][load-link].
 
 1.  First remove the `<script>` element referencing `check-class-1-load.js`,
     all `console.log` calls, and your HTML comments from `index.html`.
@@ -427,7 +432,7 @@ the website][play-link].
 
 All done!  Our [Continuous Integration][ci] and one of our lecturers will review
 your code.  We’ll request changes if your code is not yet complete, or [merge][]
-your PR and include it in the gallery.
+your PR and include it in the [gallery][load-link].
 
 ### Basic visualisations
 
@@ -494,6 +499,12 @@ your PR and include it in the gallery.
 [play-cover]: https://cmda-fe3.github.io/course-17-18/class-1-play/ju5tu5.svg
 
 [play-link]: https://cmda-fe3.github.io/course-17-18/class-1-play/
+
+[load-cover]: images/pie.jpg
+
+[load-cover-source]: https://unsplash.com/photos/5XZ2SyTOyvQ
+
+[load-link]: https://cmda-fe3.github.io/course-17-18/class-1-load/
 
 [c1pb]: #class-1-play-b
 
