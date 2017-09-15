@@ -385,6 +385,8 @@ each dinner.
 Feel free to use any other **semantic** markup.  You could use
 [`<table>`][table]s, [`<details>`][details], [`<dl>`][dl], or something else?
 
+You may create a file, `index.css`, to style your HTML.
+
 > 💁 You probably need [`document.createElement`][dce] and [`textContent`][tc].
 > Feel free to dig into d3, use jQuery, or something else to render stuff to
 > the DOM.
