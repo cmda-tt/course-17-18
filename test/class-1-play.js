@@ -107,15 +107,13 @@ trough()
   .use(function (paths, next) {
     return async.map(paths, check.run, next);
   })
-  .run('site/class-1-play/*.svg', function (err, files) {
-    var stats = statistics(files);
-
+  .use(function (files) {
     console.error(report(files));
-
-    if (!err && (stats.fatal || stats.warn)) {
-      err = new Error('Problems!');
+  })
+  .use(function (files) {
+    var stats = statistics(files);
+    if (stats.fatal || stats.warn) {
+      throw new Error('There were warnings!');
     }
-
-    bail(err);
-  }
-);
+  })
+  .run('site/class-1-play/*.svg', bail);
