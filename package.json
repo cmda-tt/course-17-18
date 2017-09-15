@@ -60,7 +60,11 @@
   "remarkConfig": {
     "plugins": [
       "preset-wooorm",
-      "lint-no-dead-urls"
+      "lint-no-dead-urls",
+      [
+        "validate-links",
+        false
+      ]
     ]
   }
 }
