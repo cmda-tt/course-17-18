@@ -10,9 +10,9 @@
 *   [Synopsis](#synopsis)
 *   [Schedule](#schedule)
 *   [Assignments](#assignments)
-    *   [Playing with SVG](#playing-with-svg)
-    *   [Loading data](#loading-data)
-    *   [Basic visualisations](#basic-visualisations)
+*   [Playing with SVG](#playing-with-svg)
+*   [Loading data](#loading-data)
+*   [Basic visualisations](#basic-visualisations)
 
 ## Inspiration
 
@@ -50,7 +50,7 @@ Assignments due before [class 2][c2]:
     style
 *   [Basic visualisations][basic] (**homework**)
 
-### Playing with SVG
+## Playing with SVG
 
 [![][play-cover]][play-link]
 
@@ -58,18 +58,18 @@ Assignments due before [class 2][c2]:
 
 In this assignment you’ll learn the basics of SVG.
 
-#### Tips
+### Tips
 
 *   [MDN’s SVG documentation](https://developer.mozilla.org/en-US/docs/Web/SVG)
 *   [Examples found in the slides](https://cmda-fe3.github.io/course-17-18/class-1/)
 *   [Bugs?](readme.md#bugs)
 
-#### <a name="class-1-play-a"></a> Step A
+### <a name="class-1-play-a"></a> Step A
 
 If you haven’t already, [sign up for GitHub and install a text
 editor][materials].
 
-#### <a name="class-1-play-b"></a> Step B
+### <a name="class-1-play-b"></a> Step B
 
 Create a file, `handle.svg` (where `handle` is your GitHub handle, so in my
 case it would be `wooorm.svg`), and copy-paste the following document into it.
@@ -175,7 +175,7 @@ case it would be `wooorm.svg`), and copy-paste the following document into it.
 
 </details>
 
-#### <a name="class-1-play-c"></a> Step C
+### <a name="class-1-play-c"></a> Step C
 
 Let’s make art!  Open the file created in [**step B**][c1pb] in your text editor
 **and** browser.  Now, perform the following substeps.
@@ -201,7 +201,7 @@ Let’s make art!  Open the file created in [**step B**][c1pb] in your text edit
 
 > 💁 Feel free to add more elements and attributes.  The above are the minimum.
 
-#### <a name="class-1-play-d"></a> Step D
+### <a name="class-1-play-d"></a> Step D
 
 Done with [**step C**][c1pc]?  Awesome!  You’re a true SVG artist 👩‍🎨
 
@@ -235,13 +235,13 @@ the website][play-link].
     pane and make sure that the **compare** select is on **play**.
     Leave the comment empty and click **Create pull request**.
 
-#### Complete
+### Complete
 
 All done!  Our [Continuous Integration][ci] and one of our lecturers will review
 your code.  We’ll request changes if your code is not yet complete, or [merge][]
 your PR and include it in the [gallery][play-link].
 
-### Loading data
+## Loading data
 
 [![][load-cover]][load-link]
 
@@ -251,7 +251,7 @@ your PR and include it in the [gallery][play-link].
 In this assignment you’ll learn about JSON and CSV, two commonly used data
 formats.  Additionally, you’ll learn to use d3 to request files.
 
-#### Tips
+### Tips
 
 *   [`d3-request`](https://github.com/d3/d3/blob/master/API.md#requests-d3-request)
 *   [RFC 4180](https://tools.ietf.org/html/rfc4180)
@@ -261,7 +261,7 @@ formats.  Additionally, you’ll learn to use d3 to request files.
 *   [Examples found in the slides](https://cmda-fe3.github.io/course-17-18/class-1/)
 *   [Bugs?](readme.md#bugs)
 
-#### <a name="class-1-load-a"></a> Step A
+### <a name="class-1-load-a"></a> Step A
 
 Create a directory named after your GitHub handle (for me that would be
 `wooorm`).
@@ -294,17 +294,17 @@ YYYY-MM-DD.  Reformat your data to include absolute dates.  For me, that’s:
 | 2017-09-11 | Goat Cheese Salad |
 | 2017-09-10 | Nua Pad Ped       |
 
-#### <a name="class-1-load-b"></a> Step B
+### <a name="class-1-load-b"></a> Step B
 
 Create a file, `index.csv`, in your directory and open it.
 Fill it with the same data as `dinners.txt` but now structured in the [CSV][]
 format: an absolute date of the dinner and what you had for dinner.
 
-#### <a name="class-1-load-c"></a> Step C
+### <a name="class-1-load-c"></a> Step C
 
 Do the same with `index.json` in the [JSON][] format.
 
-#### <a name="class-1-load-d"></a> Step D
+### <a name="class-1-load-d"></a> Step D
 
 Create a file, `index.html`, and copy-paste the following document into it.
 
@@ -333,7 +333,7 @@ Create a file, `index.html`, and copy-paste the following document into it.
 
 </details>
 
-#### <a name="class-1-load-e"></a> Step E
+### <a name="class-1-load-e"></a> Step E
 
 Open up your terminal and go to the directory created in [**step A**][c1la].
 On macOS, you can type `cd·` (where `·` is a space) and drag the directory in
@@ -358,7 +358,7 @@ show a message suggesting you to open your console.
 > 💁 Done with the server?  Enter <kbd>CTRL+C</kbd> in your terminal to shut it
 > down.
 
-#### <a name="class-1-load-f"></a> Step F
+### <a name="class-1-load-f"></a> Step F
 
 Now, we’re going to add d3 to the HTML.  Add a `<script>` element pointing
 to d3’s servers: `d3js.org`.  See [`d3js.org`][d3] on how to link directly
@@ -367,7 +367,7 @@ to the latest release.
 > 💁 The code contains a script to check how you’re doing.  Open your console
 > to see how you’re progressing.
 
-#### <a name="class-1-load-g"></a> Step G
+### <a name="class-1-load-g"></a> Step G
 
 In this step we’re going to load the JSON and CSV created in [**step B**][c1lb]
 and [**step C**][c1lc].  Use `d3.json` and `d3.csv` to load those files
@@ -380,7 +380,7 @@ to the console with `console.log`.
 
 Make sure both are printed before continuing to [**step H**][c1lh].
 
-#### <a name="class-1-load-h"></a> Step H
+### <a name="class-1-load-h"></a> Step H
 
 Instead of just logging stuff to the console let’s render your data to the DOM.
 
@@ -397,7 +397,7 @@ You may create a file, `index.css`, to style your HTML.
 > Feel free to dig into d3, use jQuery, or something else to render stuff to
 > the DOM.
 
-#### <a name="class-1-load-i"></a> Step I
+### <a name="class-1-load-i"></a> Step I
 
 In this step, we’re going to hand your work in.  This will [add your work to
 the website][load-link].
@@ -428,13 +428,13 @@ the website][load-link].
 6.  Create a pull request and use `Add @handle` (in my case `Add @wooorm`) for
     the title
 
-#### Complete
+### Complete
 
 All done!  Our [Continuous Integration][ci] and one of our lecturers will review
 your code.  We’ll request changes if your code is not yet complete, or [merge][]
 your PR and include it in the [gallery][load-link].
 
-### Basic visualisations
+## Basic visualisations
 
 <!-- TODO -->
 
