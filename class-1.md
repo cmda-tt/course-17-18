@@ -12,7 +12,7 @@
 *   [Assignments](#assignments)
 *   [Playing with SVG](#playing-with-svg)
 *   [Loading data](#loading-data)
-*   [Basic visualisations](#basic-visualisations)
+*   [Bar chart](#bar-chart)
 
 ## Inspiration
 
@@ -45,7 +45,7 @@ Assignments due before [class 2][c2]:
 
 *   [Playing with SVG][play] (**practice**)
 *   [Loading Data][load] (**practice**)
-*   [Basic visualisations][basic] (**homework**)
+*   [Bar chart][bar] (**homework**)
 *   [Resources to refresh your memory][refresh]※ (**extra**)
 
 > ※ Although not required we expect students who lack in knowledge of HTML,
@@ -239,7 +239,7 @@ the website][play-link].
 ### Complete
 
 All done!  Our [Continuous Integration][ci] and one of our lecturers will review
-your code.  We’ll request changes if your code is not yet complete, or [merge][]
+your code.  We’ll request changes if your code is not yet complete or [merge][]
 your PR and include it in the [gallery][play-link].
 
 ## Loading data
@@ -412,7 +412,8 @@ the website][load-link].
     Then, click the **Branch** select again, and type in `load`.
     Finally, click **Create branch: load**
 3.  Navigate to the directory `site/class-1-load`
-4.  Create a new file by clicking on **Create new file**.
+4.  <a name="class-1-load-i-4"></a>
+    Create a new file by clicking on **Create new file**.
     In the **Name your file…** input, type `handle/readme.md` (where `handle`
     is your GitHub handle, so in my case it would be `wooorm/readme.md`).
     In the **Edit your file…** area, write `# Hello World`.  What you’re writing
@@ -426,18 +427,53 @@ the website][load-link].
     In the commit message at the bottom, use `Add files for @handle` (in my case
     `Add files for @wooorm`).
     Keep **Commit directly to the load branch** selected
-6.  Create a pull request and use `Add @handle` (in my case `Add @wooorm`) for
+6.  <a name="class-1-load-i-6"></a>
+    Create a pull request and use `Add @handle` (in my case `Add @wooorm`) for
     the title
 
 ### Complete
 
 All done!  Our [Continuous Integration][ci] and one of our lecturers will review
-your code.  We’ll request changes if your code is not yet complete, or [merge][]
+your code.  We’ll request changes if your code is not yet complete or [merge][]
 your PR and include it in the [gallery][load-link].
 
-## Basic visualisations
+## Bar chart
 
-<!-- TODO -->
+[![][bar-cover]][bar-link]
+
+> Example outcome of this assignment by [**@wooorm**](https://github.com/wooorm).
+
+In this assignment you’ll learn how charts made with d3 work by inspecting and
+modifying an existing bar chart.
+
+The project you’ll hand in will be similar to the one from [Loading data][load]
+but this time will render a bar chart in SVG.
+
+1.  Pick a bar chart from [d3’s example gallery][d3-examples] (tip: see the
+    [Basic charts][basic-charts] section)
+2.  Copy-paste the files over to your own computer and get the chart working
+    (tip: you may need to start a server, see [step E][c1le] of [Loading
+    data][load] on how to do that)
+3.  Add a `<title>` element, or replace the one already there, with your GitHub
+    handle: `@handle` (in my case `@wooorm`)
+4.  Move the CSS and JS from the HTML into their own files
+5.  Add citations to the work your chart is based on in the HTML and JS
+6.  Try and change all values to get to understand the code (refreshing often
+    to see if things break, in which case <kbd>CMD+Z</kbd> is your best friend)
+7.  Make something pretty.  Add your own CSS, swap in new data, use different
+    labels.  Make this graph your own
+8.  Translate the JavaScript to Dutch or English in inline comments.  Link to
+    the d3 docs where needed.  Document everything of importance in your own
+    words
+9.  Upload your files to `site/class-1-bar` (tip: see [**substep 4**][c1li4]
+    through [**substep 6**][c1li6] from [step I][c1li] of the
+    [Loading data][play] assignment)
+
+### Complete
+
+All done!  Our [Continuous Integration][ci] and one of our lecturers will review
+your code.  We’ll request changes if your code is not yet complete or [merge][]
+your PR and include it in the [gallery][bar-link].
 
 [inspiration-cover]: https://raw.githubusercontent.com/bertspaan/buildings/gh-pages/high-res/smaller/amsterdam.png
 
@@ -461,7 +497,7 @@ your PR and include it in the [gallery][load-link].
 
 [load]: #loading-data
 
-[basic]: #basic-visualisations
+[bar]: #bar-chart
 
 [materials]: readme.md#materials
 
@@ -521,4 +557,20 @@ your PR and include it in the [gallery][load-link].
 
 [c1lc]: #class-1-load-c
 
+[c1le]: #class-1-load-e
+
 [c1lh]: #class-1-load-h
+
+[c1li]: #class-1-load-i
+
+[c1li4]: #class-1-load-i-4
+
+[c1li6]: #class-1-load-i-6
+
+[bar-cover]: https://cmda-fe3.github.io/course-17-18/class-1-bar/wooorm/preview.png
+
+[bar-link]: https://cmda-fe3.github.io/course-17-18/class-1-bar/
+
+[d3-examples]: https://github.com/d3/d3/wiki/Gallery
+
+[basic-charts]: https://github.com/d3/d3/wiki/Gallery#basic-charts

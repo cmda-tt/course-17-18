@@ -4,3 +4,4 @@
 
 require('./class-1-play');
 require('./class-1-load');
+require('./class-1-bar');
