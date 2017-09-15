@@ -64,12 +64,12 @@ In this assignment you’ll learn the basics of SVG.
 *   [Examples found in the slides](https://cmda-fe3.github.io/course-17-18/class-1/)
 *   [Bugs?](readme.md#bugs)
 
-#### Step A
+#### <a name="class-1-play-a"></a> Step A
 
 If you haven’t already, [sign up for GitHub and install a text
 editor][materials].
 
-#### Step B
+#### <a name="class-1-play-b"></a> Step B
 
 Create a file, `handle.svg` (where `handle` is your GitHub handle, so in my
 case it would be `wooorm.svg`), and copy-paste the following document into it.
@@ -175,10 +175,10 @@ case it would be `wooorm.svg`), and copy-paste the following document into it.
 
 </details>
 
-#### Step C
+#### <a name="class-1-play-c"></a> Step C
 
-Let’s make art!  Open the file created in **step B** in your text editor **and**
-browser.  Now, perform the following substeps.
+Let’s make art!  Open the file created in [**step B**][c1pb] in your text editor
+**and** browser.  Now, perform the following substeps.
 
 > 💁 The code contains a script to check how you’re doing.  Open your console
 > to see how you’re progressing.
@@ -201,11 +201,11 @@ browser.  Now, perform the following substeps.
 
 > 💁 Feel free to add more elements and attributes.  The above are the minimum.
 
-#### Step D
+#### <a name="class-1-play-d"></a> Step D
 
-Done with **step C**?  Awesome!  You’re a true SVG artist 👩‍🎨
+Done with [**step C**][c1pc]?  Awesome!  You’re a true SVG artist 👩‍🎨
 
-For this step, we’re now going to add your [work to the website][g-play].
+For this step, we’re now going to add your [work to the website][play-link].
 
 1.  First, from your SVG file, remove the `<script>` element.  We don’t need it
     anymore
@@ -215,7 +215,7 @@ For this step, we’re now going to add your [work to the website][g-play].
     click **Fork**
 3.  On your newly forked project, still on the GitHub website, browse to the
     `site/class-1-play` directory, and click **Upload Files** in the top-right
-4.  Now, upload the SVG file you made in **step B**.
+4.  Now, upload the SVG file you made in [**step B**][c1pb].
     For the commit message, use `Add @handle` (where `handle` is your GitHub
     handle, so in my case it would be `Add @wooorm`).
     Leave the commit description empty and keep `Commit directly to the master
@@ -232,7 +232,7 @@ For this step, we’re now going to add your [work to the website][g-play].
 
 All done!  Our [Continuous Integration][ci] and one of our lecturers will review
 your code.  We’ll request changes if your code is not yet complete, or [merge][]
-your PR and include it in the [gallery][g-play].
+your PR and include it in the [gallery][play-link].
 
 ### Loading data
 
@@ -249,7 +249,7 @@ data formats.  We’ll cover JSON and CSV.
 *   [Examples found in the slides](https://cmda-fe3.github.io/course-17-18/class-1/)
 *   [Bugs?](readme.md#bugs)
 
-#### Step A
+#### <a name="class-1-load-a"></a> Step A
 
 Before touching any code, let’s create a dataset.  It’ll be about food, great!
 🥖🧀
@@ -282,17 +282,17 @@ YYYY-MM-DD.  Reformat your data to include absolute dates.  For me, that’s:
 | 2017-09-11 | Goat Cheese Salad |
 | 2017-09-10 | Nua Pad Ped       |
 
-#### Step B
+#### <a name="class-1-load-b"></a> Step B
 
 From your dinners, create a [CSV][] file containing the same information:
 an absolute date of the dinner and what you had for dinner.  Save the file as
 `index.csv` in your directory.
 
-#### Step C
+#### <a name="class-1-load-c"></a> Step C
 
 Now do the same for [JSON][].  Save the file as `index.json` in your directory.
 
-#### Step D
+#### <a name="class-1-load-d"></a> Step D
 
 Create an `index.html` file in your directory with the following content:
 
@@ -321,11 +321,11 @@ Create an `index.html` file in your directory with the following content:
 
 </details>
 
-#### Step E
+#### <a name="class-1-load-e"></a> Step E
 
-Open up your terminal and go to the directory created in **step A**.  On macOS,
-you can type `cd·` (where `·` is a space) and drag the directory in question to
-your terminal and finally press enter, to go there.
+Open up your terminal and go to the directory created in [**step A**][c1la].
+On macOS, you can type `cd·` (where `·` is a space) and drag the directory in
+question to your terminal and finally press enter, to go there.
 
 Then, create a [simple server][server] from your directory.  You can probably
 do that with:
@@ -346,7 +346,7 @@ show a message suggesting you to open your console.
 > 💁 Done with the server?  Enter <kbd>CTRL+C</kbd> in your terminal to shut it
 > down.
 
-#### Step F
+#### <a name="class-1-load-f"></a> Step F
 
 Now, we’re going to add d3 to the HTML.  Add a `<script>` element pointing
 to d3’s servers: `d3js.org`.  See [`d3js.org`][d3] on how to link directly
@@ -355,19 +355,20 @@ to the latest release.
 > 💁 The code contains a script to check how you’re doing.  Open your console
 > to see how you’re progressing.
 
-#### Step G
+#### <a name="class-1-load-g"></a> Step G
 
-In this step we’re going to load the JSON and CSV created in **step B** and
-**step C**.  Use `d3.json` and `d3.csv` to load those files respectively.
+In this step we’re going to load the JSON and CSV created in [**step B**][c1lb]
+and [**step C**][c1lc].  Use `d3.json` and `d3.csv` to load those files
+respectively.
 
 See [tips][] for more info.
 
 In callback functions passed to `d3.json` and `d3.csv`, print the loaded data
 to the console with `console.log`.
 
-Make sure both are printed before continuing to **step H**.
+Make sure both are printed before continuing to [**step H**][c1lh].
 
-#### Step H
+#### <a name="class-1-load-h"></a> Step H
 
 Instead of just logging stuff to the console let’s render your data to the DOM.
 
@@ -398,9 +399,9 @@ Feel free to use any other **semantic** markup.  You could use
 
 [c2]: class-2.md
 
-[s1]: https://github.com/cmda-fe3/course-17-18#subgoal-1
+[s1]: readme.md#subgoal-1
 
-[s2]: https://github.com/cmda-fe3/course-17-18#subgoal-2
+[s2]: readme.md#subgoal-2
 
 [refresh]: readme.md#resources-to-refresh-your-memory
 
@@ -415,8 +416,6 @@ Feel free to use any other **semantic** markup.  You could use
 [basic]: #basic-visualisations
 
 [materials]: readme.md#materials
-
-[g-play]: https://cmda-fe3.github.io/course-17-18/class-1-play/
 
 [ci]: https://travis-ci.org
 
@@ -451,3 +450,15 @@ Feel free to use any other **semantic** markup.  You could use
 [play-cover]: https://cmda-fe3.github.io/course-17-18/class-1-play/ju5tu5.svg
 
 [play-link]: https://cmda-fe3.github.io/course-17-18/class-1-play/
+
+[c1pb]: #class-1-play-b
+
+[c1pc]: #class-1-play-c
+
+[c1la]: #class-1-load-a
+
+[c1lb]: #class-1-load-b
+
+[c1lc]: #class-1-load-c
+
+[c1lh]: #class-1-load-h
