@@ -17,6 +17,7 @@
   "devDependencies": {
     "async": "^2.5.0",
     "bail": "^1.0.2",
+    "chalk": "^2.1.0",
     "ejs": "^2.5.7",
     "glob": "^7.1.2",
     "hast-util-select": "^1.0.1",

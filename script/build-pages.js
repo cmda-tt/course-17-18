@@ -5,6 +5,7 @@ var path = require('path');
 var glob = require('glob');
 var ejs = require('ejs');
 var async = require('async');
+var chalk = require('chalk');
 var unified = require('unified');
 var html = require('rehype-parse');
 var parse = require('remark-parse');
@@ -170,7 +171,7 @@ var page = trough()
     fs.writeFile(config.out, ejs.render(index, config), next);
   })
   .use(function (config) {
-    console.log('✓ %s', config.name);
+    console.log('%s %s', chalk.green('✓'), config.name);
 
     config.examples.forEach(function (example) {
       var name = example.basename;
