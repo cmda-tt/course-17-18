@@ -1,4 +1,33 @@
+<!--lint disable no-html-->
+
 # Class 2
+
+> ```txt
+> TypeError: undefined is not a function. (In 'undefined()', 'undefined' is undefined)
+> ```
+
+## Table of Contents
+
+*   [Inspiration](#inspiration)
+*   [Synopsis](#synopsis)
+*   [Schedule](#schedule)
+*   [Assignments](#assignments)
+*   [Assessment](#assessment)
+
+## Inspiration
+
+[![][inspiration-cover]][inspiration-link]
+
+> Looking at all gold medal winners of the Olympics by
+> [**@nbremer**][inspiration-author].
+
+## Synopsis
+
+*   **Date ID 1**: 02-10
+*   **Date ID 2**: 04-10
+*   **Date ID 3**: 02-10
+*   **Slides**
+*   **Examples**
 
 ## Schedule
 
@@ -13,12 +42,17 @@
 
 ## Assignments
 
-Assignments due before [class 3][c3]:
+Submit your assignments by 7am the day of [class 3][c3].
 
-*   **Test** — [Assessment 1][a1] (remote)
-*   **Homework** — Port v3 to v4 & your own style
+*   Readme (**practice**)
+*   d3@v4 (**practice**)
+*   Style (**practice**)
 
 See [class 1][c1] for assignments due before this class.
+
+## Assessment
+
+Submit [Assessment 1][a1] at least 24 hours before [class 3][c3].
 
 [c1]: class-1.md#assignments
 
@@ -35,3 +69,9 @@ See [class 1][c1] for assignments due before this class.
 [s7]: https://github.com/cmda-fe3/course-17-18#subgoal-7
 
 [a1]: assessment-1.md
+
+[inspiration-cover]: images/olympicfeathers.jpg
+
+[inspiration-link]: https://nbremer.github.io/olympicfeathers/
+
+[inspiration-author]: https://github.com/nbremer
