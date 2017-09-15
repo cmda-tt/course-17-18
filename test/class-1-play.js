@@ -1,23 +1,24 @@
 'use strict';
 
+var glob = require('glob');
+var async = require('async');
+var bail = require('bail');
+var trough = require('trough');
 var vfile = require('to-vfile');
 var report = require('vfile-reporter');
 var statistics = require('vfile-statistics');
-var glob = require('glob');
-var async = require('async');
 var unified = require('unified');
+var rule = require('unified-lint-rule');
 var parse = require('rehype-parse');
 var select = require('hast-util-select');
-var toString = require('hast-util-to-string');
-var bail = require('bail');
-var trough = require('trough');
-var rule = require('unified-lint-rule');
+var title = require('./rule/title-handle');
+var disallowedStem = require('./rule/disallowed-stem');
 
 var processor = unified()
   .use(parse, {fragment: true})
   .use(rule('lint:script', script))
-  .use(rule('lint:stem', stem))
-  .use(rule('lint:title', correctTitle))
+  .use(disallowedStem, 'handle')
+  .use(title)
   .use([
     ['circle', '1.0. `<circle>` element'],
     ['circle[cx]', '1.1. `cx` attribute on `<circle>`'],
@@ -57,40 +58,6 @@ var processor = unified()
     ['[opacity]', '10.3. `opacity` attribute on any element']
   ].map(create));
 
-function create(check, index) {
-  var selector = check[0].replace(':root', 'svg');
-  return rule('lint:' + index, lint);
-  function lint(tree, file) {
-    if (!select.select(selector, tree)) {
-      file.message(check[1]);
-    }
-  }
-}
-
-function script(tree, file) {
-  if (select.select('script', tree)) {
-    file.message('Remove your `<script> element');
-  }
-}
-
-function stem(tree, file) {
-  if (file.stem === 'handle') {
-    file.message('Use your actual GitHub handle for the file name');
-  }
-}
-
-function correctTitle(tree, file) {
-  var node = select.select('title', tree);
-  var val = node && toString(node).trim();
-  if (!node) {
-    file.message('Add the `<title>` element back!');
-  } else if (val === '@handle') {
-    file.message('Update your title element with your GitHub handle', node);
-  } else if (val.indexOf('@') === -1) {
-    file.message('Add an `@` before your GitHub handle', node);
-  }
-}
-
 var check = trough()
   .use(function (fp, next) {
     vfile.read(fp, next);
@@ -108,6 +75,7 @@ trough()
     return async.map(paths, check.run, next);
   })
   .use(function (files) {
+    console.log('Class 1 Play');
     console.error(report(files));
   })
   .use(function (files) {
@@ -117,3 +85,19 @@ trough()
     }
   })
   .run('site/class-1-play/*.svg', bail);
+
+function script(tree, file) {
+  if (select.select('script', tree)) {
+    file.message('Remove your `<script> element');
+  }
+}
+
+function create(check, index) {
+  var selector = check[0].replace(':root', 'svg');
+  return rule('lint:' + index, lint);
+  function lint(tree, file) {
+    if (!select.select(selector, tree)) {
+      file.message(check[1]);
+    }
+  }
+}
