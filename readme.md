@@ -328,7 +328,7 @@ Docs and images: [CC-BY-NC-SA-4.0][].
 
 [synopsis]: #synopsis
 
-[minor]: https://moodle.cmd.hva.nl/course/index.php?categoryid=41
+[minor]: https://cmda.github.io/minor-everything-web/
 
 [rooster]: https://rooster.hva.nl
 
