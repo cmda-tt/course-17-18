@@ -168,10 +168,6 @@ date, time, and place.
     (**course**) — 30 day vanilla JavaScript coding challenge
 *   🆓 [Eloquent JavaScript](http://eloquentjavascript.net)
     (**book**) — Modern intro to programming
-*   🆓 [Mastering Markdown](https://masteringmarkdown.com)
-    (**course**) — Mini series that will change how you write documentation
-*   🆓 [Markdown Tutorial](https://www.markdowntutorial.com)
-    (**tutorial**) — Learn how to use Markdown
 *   🆓 [Basics of HTML & CSS](http://webdive.ktam.org/web/basics)
     (**tutorial**) — Learn how to use HTML & CSS
 *   🆓 [Command-line bootcamp](http://rik.smith-unna.com/command_line_bootcamp/)

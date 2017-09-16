@@ -66,6 +66,38 @@ Submit [Assessment 1][a1] at least 24 hours before [class 3][c3].
 
 ## Do you read me?!
 
+In this assignment you’ll learn the basics of markdown.
+
+### Tips
+
+*   [Markdown Tutorial](https://www.markdowntutorial.com)
+    (**Markdown**)
+    — Learn how to use Markdown
+*   [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+    (**Markdown**)
+    — Quick reference and showcase
+*   [Mastering Markdown](https://masteringmarkdown.com)
+    (**Markdown**)
+    — Mini series that will change how you write documentation
+*   [Basic writing & formatting syntax](https://help.github.com/articles/basic-writing-and-formatting-syntax/)
+    (**Markdown** and **GitHub**)
+    — Markdown specifically for GitHub
+*   [Learn Git in 15 minutes](https://try.github.io)
+    (**Git** and **GitHub**)
+    — Interactive Git tutorial
+*   [Learn Git Branching](http://learngitbranching.js.org)
+    (**Git**)
+    — Interactive Git branching tutorial
+*   [Intro to GitHub](https://services.github.com/on-demand/intro-to-github/)
+    (**Git** and **GitHub**)
+    — Get started using GitHub in less than an hour
+*   [GitHub Glossary](https://help.github.com/articles/github-glossary/)
+    (**Git** and **GitHub**)
+    — List of Git and GitHub specific terms
+*   [Git Cheat Sheet](https://services.github.com/on-demand/downloads/github-git-cheat-sheet/)
+    (**Git**)
+    — Reference sheet covering Git commands, features, and bash
+
 <!--TODO-->
 
 ## `debugger;`
