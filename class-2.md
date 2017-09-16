@@ -49,7 +49,7 @@
 Submit your assignments by 7am the day of [class 3][c3].
 
 *   Readme (**practice**)
-*   d3@v4 (**practice**)
+*   d3@4 (**practice**)
 *   Style (**practice**)
 
 See [class 1][c1] for assignments due before this class.

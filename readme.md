@@ -86,7 +86,7 @@ In practice you’ll learn to:
     ([**class 2**][c2] and [**class 4**][c4])
 4.  <a name="subgoal-4"></a> Read documentation
     ([**class 2**][c2] and [**class 4**][c4])
-5.  <a name="subgoal-5"></a> Debug code, such as adapting d3 v3 code to v4
+5.  <a name="subgoal-5"></a> Debug code, such as adapting d3@3 code to d3@4
     ([**class 2**][c2])
 6.  <a name="subgoal-6"></a> Rewrite code in your own style
     ([**class 2**][c2])
