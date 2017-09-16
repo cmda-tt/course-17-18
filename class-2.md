@@ -32,15 +32,15 @@
 ## Schedule
 
 *   Markdown
-    ([**subgoal 6**][s6])
-*   Readme
-    ([**subgoal 5**][s5] and [**subgoal 6**][s6])
-*   GitHub
-    ([**subgoal 5**][s5] and [**subgoal 6**][s6])
-*   Debug and refactor
-    ([**subgoal 3**][s3] and [**subgoal 4**][s4])
-*   d3@3 and d3@4
     ([**subgoal 3**][s3])
+*   Readme
+    ([**subgoal 3**][s3] and [**subgoal 4**][s4])
+*   GitHub
+    ([**subgoal 3**][s3] and [**subgoal 4**][s4])
+*   Debug and refactor
+    ([**subgoal 5**][s5] and [**subgoal 6**][s6])
+*   d3@3 and d3@4
+    ([**subgoal 5**][s5])
 *   d3-scale
     ([**subgoal 7**][s7])
 
