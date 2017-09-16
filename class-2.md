@@ -1,4 +1,4 @@
-<!--lint disable no-html-->
+<!--lint disable no-html no-heading-punctuation-->
 
 # Class 2
 
@@ -13,6 +13,9 @@
 *   [Schedule](#schedule)
 *   [Assignments](#assignments)
 *   [Assessment](#assessment)
+*   [Do you read me?!](#do-you-read-me)
+*   [debugger;](#debugger)
+*   [🕴 Style](#-style)
 
 ## Inspiration
 
@@ -37,26 +40,41 @@
     ([**subgoal 3**][s3] and [**subgoal 4**][s4])
 *   GitHub
     ([**subgoal 3**][s3] and [**subgoal 4**][s4])
+*   [Do you read me?!][readme]  (**practice**)
 *   Debug and refactor
     ([**subgoal 5**][s5] and [**subgoal 6**][s6])
 *   d3@3 and d3@4
     ([**subgoal 5**][s5])
 *   d3-scale
     ([**subgoal 7**][s7])
+*   [`debugger;`][debugger] (**practice**)
+*   [🕴 Style][style] (**practice**)
 
 ## Assignments
 
 Submit your assignments by 7am the day of [class 3][c3].
 
-*   Readme (**practice**)
-*   d3@4 (**practice**)
-*   Style (**practice**)
+*   [Do you read me?!][readme]  (**practice**)
+*   [`debugger;`][debugger] (**practice**)
+*   [🕴 Style][style] (**practice**)
 
 See [class 1][c1] for assignments due before this class.
 
 ## Assessment
 
 Submit [Assessment 1][a1] at least 24 hours before [class 3][c3].
+
+## Do you read me?!
+
+<!--TODO-->
+
+## `debugger;`
+
+<!--TODO-->
+
+## 🕴 Style
+
+<!--TODO-->
 
 [c1]: class-1.md#assignments
 
@@ -79,3 +97,9 @@ Submit [Assessment 1][a1] at least 24 hours before [class 3][c3].
 [inspiration-link]: https://nbremer.github.io/olympicfeathers/
 
 [inspiration-author]: https://github.com/nbremer
+
+[readme]: #do-you-read-me
+
+[debugger]: #debugger
+
+[style]: #-style
