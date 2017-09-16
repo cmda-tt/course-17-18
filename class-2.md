@@ -31,14 +31,18 @@
 
 ## Schedule
 
-*   Intro to debugging and refactoring
-    ([**subgoal 3**][s3] and [**subgoal 4**][s4])
-*   Core d3: from v3 to v4
-    ([**subgoal 3**][s3])
-*   Core d3: Scales, domains, ranges, and labels
-    ([**subgoal 7**][s7])
-*   Core GitHub: writing docs, readmes, and GH Pages
+*   Markdown
+    ([**subgoal 6**][s6])
+*   Readme
     ([**subgoal 5**][s5] and [**subgoal 6**][s6])
+*   GitHub
+    ([**subgoal 5**][s5] and [**subgoal 6**][s6])
+*   Debug and refactor
+    ([**subgoal 3**][s3] and [**subgoal 4**][s4])
+*   d3@3 and d3@4
+    ([**subgoal 3**][s3])
+*   d3-scale
+    ([**subgoal 7**][s7])
 
 ## Assignments
 
