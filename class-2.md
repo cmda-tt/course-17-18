@@ -15,7 +15,7 @@
 *   [Assessment](#assessment)
 *   [Do you read me?!](#do-you-read-me)
 *   [debugger;](#debugger)
-*   [🕴 Style](#-style)
+*   [Style](#style)
 
 ## Inspiration
 
@@ -48,7 +48,7 @@
 *   d3-scale
     ([**subgoal 7**][s7])
 *   [`debugger;`][debugger] (**practice**)
-*   [🕴 Style][style] (**practice**)
+*   [Style][style] (**practice**)
 
 ## Assignments
 
@@ -56,7 +56,7 @@ Submit your assignments by 7am the day of [class 3][c3].
 
 *   [Do you read me?!][readme]  (**practice**)
 *   [`debugger;`][debugger] (**practice**)
-*   [🕴 Style][style] (**practice**)
+*   [Style][style] (**practice**)
 
 See [class 1][c1] for assignments due before this class.
 
@@ -72,7 +72,7 @@ Submit [Assessment 1][a1] at least 24 hours before [class 3][c3].
 
 <!--TODO-->
 
-## 🕴 Style
+## Style
 
 <!--TODO-->
 
@@ -102,4 +102,4 @@ Submit [Assessment 1][a1] at least 24 hours before [class 3][c3].
 
 [debugger]: #debugger
 
-[style]: #-style
+[style]: #style
