@@ -47,10 +47,10 @@ Submit your assignments by 7am the day of [class 2][c2].
 *   [Playing with SVG][play] (**practice**)
 *   [Loading Data][load] (**practice**)
 *   [Bar chart][bar] (**homework**)
-*   [Resources to refresh your memory][refresh]※ (**extra**)
+*   [Resources to refresh your memory][refresh] (**extra**※)
 
-> ※ Although not required we expect students who lack in knowledge of HTML,
-> CSS, JS, and Node to catch up on their own.
+> ※ Although not required we expect students who lack in knowledge to catch
+> up on their own.
 
 ## Playing with SVG
 
