@@ -90,7 +90,7 @@ In practice you’ll learn to:
     ([**class 2**][c2])
 6.  <a name="subgoal-6"></a> Rewrite code in your own style
     ([**class 2**][c2])
-7.  <a name="subgoal-7"></a> Use axes, domains, labels, ranges, and scales
+7.  <a name="subgoal-7"></a> Use scales (domain, range, and axis)
     ([**class 2**][c2] and [**class 4**][c4])
 8.  <a name="subgoal-8"></a> Read in external data
     ([**class 3**][c3] and [**class 4**][c4])
