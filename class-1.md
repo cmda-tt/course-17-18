@@ -58,6 +58,12 @@ Submit your assignments by 7am the day of [class 2][c2].
 
 In this assignment you’ll learn the basics of SVG.
 
+### Synopsis
+
+*   **Practice**
+*   **Due**: 7am the day of [class 2][c2]
+*   [**Gallery**][play-gallery]
+
 ### Tips
 
 *   [MDN’s SVG documentation](https://developer.mozilla.org/en-US/docs/Web/SVG)
@@ -249,6 +255,12 @@ your PR and include it in the [gallery][play-gallery].
 
 In this assignment you’ll learn about JSON and CSV, two commonly used data
 formats.  Additionally, you’ll learn to use d3 to request files.
+
+### Synopsis
+
+*   **Practice**
+*   **Due**: 7am the day of [class 2][c2]
+*   [**Gallery**][load-gallery]
 
 ### Tips
 
@@ -442,6 +454,14 @@ your PR and include it in the [gallery][load-gallery].
 
 In this assignment you’ll learn how charts made with d3 work by inspecting and
 modifying an existing bar chart.
+
+### Synopsis
+
+*   **Homework**
+*   **Due**: 7am the day of [class 2][c2]
+*   [**Gallery**][bar-gallery]
+
+### Description
 
 The project you’ll hand in will be similar to the one from [Loading data][load]
 but this time will render a bar chart in SVG.

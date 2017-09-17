@@ -68,6 +68,12 @@ Submit [Assessment 1][a1] at least 24 hours before [class 3][c3].
 
 > Trinity College Dublin by [**@zeak**][readme-cover-author].
 
+### Synopsis
+
+*   **Practice**
+*   **Due**: 7am the day of [class 3][c3]
+*   [**GitHub**][readme-gallery]
+
 ### Tips
 
 *   [Markdown Tutorial](https://www.markdowntutorial.com)
@@ -106,6 +112,12 @@ Submit [Assessment 1][a1] at least 24 hours before [class 3][c3].
 
 > Cornish Hospitality by [**@robpotter**][debug-cover-author].
 
+### Synopsis
+
+*   **Practice**
+*   **Due**: 7am the day of [class 3][c3]
+*   [**Gallery**][debug-gallery]
+
 <!--TODO-->
 
 ## Style
@@ -113,6 +125,12 @@ Submit [Assessment 1][a1] at least 24 hours before [class 3][c3].
 [![][style-cover]][style-cover-source]
 
 > Elegant man with a laptop by [**@flenjoore**][style-cover-author].
+
+### Synopsis
+
+*   **Practice**
+*   **Due**: 7am the day of [class 3][c3]
+*   [**Gallery**][style-gallery]
 
 ### Tips
 
@@ -182,3 +200,9 @@ Submit [Assessment 1][a1] at least 24 hours before [class 3][c3].
 [s6]: readme.md#subgoal-6
 
 [s7]: readme.md#subgoal-7
+
+[readme-gallery]: https://github.com/cmda-fe3/course-17-18/tree/master/site/class-1-bar
+
+[debug-gallery]: https://github.com/cmda-fe3/course-17-18/tree/master/site/#TODO
+
+[style-gallery]: https://github.com/cmda-fe3/course-17-18/tree/master/site/#TODO
