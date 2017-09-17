@@ -1,0 +1,26 @@
+<!doctype html>
+<meta charset=utf8>
+<title>Debug: this</title>
+<h1>Click me</h1>
+<p><code>this</code> refers to the anything defined by the <code>caller</code> of your function.</p>
+<details>
+  <summary>Fix</summary>
+  <p>Store <code>this</code> in a new variable (such as <code>self</code>) and use that.</p>
+</details>
+<script>
+document.querySelector('h1').onclick = function () {
+  /* Remove event listener — `this` refers to the clicked-on element here. */
+  this.onclick = null;
+
+  /* Toggle to a bad state. */
+  this.textContent = '🔥🐶☕️ This is fine… 🔥';
+  this.style.color = 'red';
+
+  /* Wait a bit before changing to a good state. */
+  setTimeout(function () {
+    /* `this` now refers to something else, so this fails. */
+    this.textContent = 'Fixed! 🎉';
+    this.style.color = 'green';
+  });
+}
+</script>

@@ -1,0 +1,23 @@
+<!doctype html>
+<meta charset=utf8>
+<title>Debug: parseInt radix</title>
+<h1 style=color:red>🔥🐶☕️ This is fine… 🔥</h1>
+<p><code>parseInt</code> doesn’t work as you’d expect.</p>
+<p><strong>Note</strong>: this is fixed on newer browsers.</p>
+<details>
+  <summary>Fix</summary>
+  <p>Pass the <code>radix</code> parameter (probably <code>10</code>).</p>
+</details>
+<script>
+var title = document.querySelector('h1');
+var day = '09/10/11';
+
+console.log(parseInt(day));
+if (parseInt(day) === 9) {
+  console.log('Lucky you, your browser is fixed.');
+  title.textContent = 'Fixed! 🎉';
+  title.style.color = 'green';
+} else {
+  console.log('Your user has a slightly older browser.');
+}
+</script>

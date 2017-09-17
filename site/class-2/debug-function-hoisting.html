@@ -1,0 +1,18 @@
+<!doctype html>
+<meta charset=utf8>
+<title>Debug: Function Hoisting</title>
+<h1 style=color:red>🔥🐶☕️ This is fine… 🔥</h1>
+<p>Named functions hoist. Functions stored in variables don’t.</p>
+<details>
+  <summary>Fix</summary>
+  <p>Move the function up or use a named function.</p>
+</details>
+<script>
+update();
+
+var update = function () {
+  var title = document.querySelector('h1');
+  title.textContent = 'Fixed! 🎉';
+  title.style.color = 'green';
+};
+</script>
