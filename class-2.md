@@ -203,6 +203,6 @@ Submit [Assessment 1][a1] at least 24 hours before [class 3][c3].
 
 [readme-gallery]: https://github.com/cmda-fe3/course-17-18/tree/master/site/class-1-bar
 
-[debug-gallery]: https://github.com/cmda-fe3/course-17-18/tree/master/site/#TODO
+[debug-gallery]: https://cmda-fe3.github.io/course-17-18/class-2-debug/
 
-[style-gallery]: https://github.com/cmda-fe3/course-17-18/tree/master/site/#TODO
+[style-gallery]: https://cmda-fe3.github.io/course-17-18/class-2-style/
