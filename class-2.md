@@ -155,7 +155,7 @@ Submit [Assessment 1][a1] at least 24 hours before [class 3][c3].
 
 <!--TODO-->
 
-[inspiration-cover]: images/inspiration-olympic-feathers.jpg
+[inspiration-cover]: images/olympic-feathers.jpg
 
 [inspiration-link]: https://nbremer.github.io/olympicfeathers/
 

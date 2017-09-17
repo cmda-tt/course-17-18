@@ -492,7 +492,7 @@ All done!  Our [Continuous Integration][ci] and one of our lecturers will review
 your code.  We’ll request changes if your code is not yet complete or [merge][]
 your PR and include it in the [gallery][bar-gallery].
 
-[inspiration-cover]: images/inspiration-buildings.jpg
+[inspiration-cover]: images/buildings.jpg
 
 [inspiration-link]: http://code.waag.org/buildings/
 
