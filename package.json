@@ -21,6 +21,7 @@
     "d3-dsv": "^1.0.7",
     "ejs": "^2.5.7",
     "glob": "^7.1.2",
+    "hast-util-from-string": "^1.0.1",
     "hast-util-select": "^1.0.1",
     "hast-util-to-string": "^1.0.1",
     "is-hidden": "^1.1.1",
