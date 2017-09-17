@@ -1,6 +1,6 @@
 <!--lint disable no-html-->
 
-# [![Frontend 3 - Course 2017-2018][logo]][website]
+# [![Frontend 3 - Course 2017-2018][banner]][website]
 
 ## Table of Contents
 
@@ -280,7 +280,7 @@ Conduct][ruc] ([Regeling Ongewenst Gedrag][rog]).
 Software: [MIT][] © [Titus Wormer][author].
 Docs and images: [CC-BY-NC-SA-4.0][].
 
-[logo]: https://cdn.rawgit.com/cmda-fe3/logo/56ebc971/logo.svg
+[banner]: https://cdn.rawgit.com/cmda-fe3/logo/3f5ffdf9/banner.svg
 
 [mit]: license.md#software
 
