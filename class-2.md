@@ -116,6 +116,27 @@ Submit [Assessment 1][a1] at least 24 hours before [class 3][c3].
 
 > Elegant man with a laptop by [**@flenjoore**][style-cover-author].
 
+### Tips
+
+*   [`prettier`](https://github.com/prettier/prettier)
+    (**JavaScript**)
+    — Opinionated code formatter
+*   [`standard`](https://github.com/standard/standard)
+    (**JavaScript**)
+    — Standard style
+*   [`xo`](https://github.com/sindresorhus/xo)
+    (**JavaScript**)
+    — Happiness style
+*   [`eslint`](https://github.com/eslint/eslint)
+    (**JavaScript**)
+    — Fully pluggable style
+*   [`stylelint`](https://github.com/stylelint/stylelint)
+    (**CSS**)
+    — Mighty, modern linter
+*   [Code Guide](http://codeguide.co)
+    (**HTML** and **CSS**)
+    — Flexible, durable, and sustainable code standards
+
 <!--TODO-->
 
 [inspiration-cover]: images/inspiration-olympic-feathers.jpg
