@@ -4,4 +4,4 @@ Each chart was made for [Class 1: Bar chart](https://github.com/cmda-fe3/course-
 
 ## Projects
 
--   [**@wooorm**](https://github.com/wooorm) ([chart](https://cmda-fe3.github.io/course-17-18/course-17-18/class-1-bar/wooorm) · [readme](https://github.com/cmda-fe3/course-17-18/blob/master/site/class-1-bar/wooorm#readme))
+-   [**@wooorm**](https://github.com/wooorm) ([chart](https://cmda-fe3.github.io/course-17-18/class-1-bar/wooorm) · [readme](https://github.com/cmda-fe3/course-17-18/blob/master/site/class-1-bar/wooorm#readme))

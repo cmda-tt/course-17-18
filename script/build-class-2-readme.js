@@ -13,7 +13,7 @@ var hidden = require('is-hidden');
 var pkg = JSON.parse(fs.readFileSync('package.json'));
 var c1b = pkg.repository + '/blob/master/class-1.md#bar-chart';
 var c2r = pkg.repository + '/blob/master/class-2.md#do-you-read-me';
-var url = pkg.homepage + 'course-17-18/class-1-bar/';
+var url = pkg.homepage + 'class-1-bar/';
 var code = pkg.repository + '/blob/master/site/class-1-bar/';
 
 var base = path.join('site', 'class-1-bar');
