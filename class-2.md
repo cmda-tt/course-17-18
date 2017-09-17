@@ -159,6 +159,8 @@ text editor and upload it when done (tip: see [**substep 3**][c1pd3] from
 
 > Elegant man with a laptop by [**@flenjoore**][style-cover-author].
 
+In this assignment you’ll learn to refactor and reformat code.
+
 ### Synopsis
 
 *   **Practice**
@@ -186,7 +188,24 @@ text editor and upload it when done (tip: see [**substep 3**][c1pd3] from
     (**HTML** and **CSS**)
     — Flexible, durable, and sustainable code standards
 
-<!--TODO-->
+### Description
+
+For this assignment you’re going to reformat code to make a donut chart in your
+own style.  Feel free to use any of the [tips][tips-1] above to check or format
+code.  Choose any style that makes sense to you.
+
+*   First, copy all files: `index.csv`, `index.css`, `index.html`, and
+    `index.js` from `site/class-2/style` and get to your computer and get them
+    working without changing any code yet
+*   Note that the CSS, HTML, and JS are minified: they’re great for computers,
+    but not so much for humans
+*   Now, reformat `index.css`, `index.html`, and `index.js` to match your
+    preferred style: something readable and usable by humans.  Use the quotes
+    and white-space you like, pick good variable names, and reorder stuff where
+    needed
+
+Hand in your reformatted code in a directory `username` (in my case `wooorm`)
+to `site/class-2-style/` by creating a pull request.
 
 [inspiration-cover]: images/olympic-feathers.jpg
 
@@ -249,6 +268,8 @@ text editor and upload it when done (tip: see [**substep 3**][c1pd3] from
 [c1pd3]: class-1.md#class-1-play-d-3
 
 [play]: class-1.md#playing-with-svg
+
+[tips-1]: #tips-1
 
 [readme-gallery]: https://github.com/cmda-fe3/course-17-18/tree/master/site/class-1-bar#readme
 
