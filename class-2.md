@@ -72,7 +72,7 @@ Submit [Assessment 1][a1] at least 24 hours before [class 3][c3].
 
 *   **Practice**
 *   **Due**: 7am the day of [class 3][c3]
-*   [**GitHub**][readme-gallery]
+*   **Results**: [GitHub][readme-gallery]
 
 ### Tips
 
@@ -149,7 +149,7 @@ text editor and upload it when done (tip: see [**substep 3**][c1pd3] from
 
 *   **Practice**
 *   **Due**: 7am the day of [class 3][c3]
-*   [**Gallery**][debug-gallery]
+*   **Results**: [Gallery][debug-gallery]
 
 <!--TODO-->
 
@@ -163,7 +163,7 @@ text editor and upload it when done (tip: see [**substep 3**][c1pd3] from
 
 *   **Practice**
 *   **Due**: 7am the day of [class 3][c3]
-*   [**Gallery**][style-gallery]
+*   **Results**: [Gallery][style-gallery]
 
 ### Tips
 

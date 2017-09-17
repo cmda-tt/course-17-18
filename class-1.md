@@ -62,7 +62,7 @@ In this assignment you’ll learn the basics of SVG.
 
 *   **Practice**
 *   **Due**: 7am the day of [class 2][c2]
-*   [**Gallery**][play-gallery]
+*   **Results**: [Gallery][play-gallery]
 
 ### Tips
 
@@ -260,7 +260,7 @@ formats.  Additionally, you’ll learn to use d3 to request files.
 
 *   **Practice**
 *   **Due**: 7am the day of [class 2][c2]
-*   [**Gallery**][load-gallery]
+*   **Results**: [Gallery][load-gallery]
 
 ### Tips
 
@@ -459,7 +459,7 @@ modifying an existing bar chart.
 
 *   **Homework**
 *   **Due**: 7am the day of [class 2][c2]
-*   [**Gallery**][bar-gallery]
+*   **Results**: [Gallery][bar-gallery]
 
 ### Description
 
