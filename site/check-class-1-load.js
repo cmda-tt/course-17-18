@@ -37,18 +37,18 @@ function onload() {
   /* Check title. */
   var title = document.title;
 
-  if (!title || title === '@handle' || title === '@') {
-    return warn('Update the `<title>` with your GitHub Handle');
+  if (!title || title === '@username' || title === '@') {
+    return warn('Update the `<title>` with your GitHub username');
   }
 
   if (title.indexOf('@') !== 0) {
-    return warn('Start your GitHub handle in the `<title>` with an `@`');
+    return warn('Start your GitHub username in the `<title>` with an `@`');
   }
 
-  var handle = title.slice(1);
+  var username = title.slice(1);
 
   /* Be friendly. */
-  console.log('Hi @%s 👋', handle);
+  console.log('Hi @%s 👋', username);
 
   /* Check if `details.txt` exists. Continue with `rest` if it does. */
   fetch('./details.txt')

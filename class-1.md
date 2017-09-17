@@ -73,18 +73,19 @@ editor][materials].
 
 ### <a name="class-1-play-b"></a> Step B
 
-Create a file, `handle.svg` (where `handle` is your GitHub handle, so in my
-case it would be `wooorm.svg`), and copy-paste the following document into it.
+Create a file, `username.svg` (where `username` is your GitHub username, so in
+my case it would be `wooorm.svg`), and copy-paste the following document into
+it.
 
-> 💁 Update the `<title>` element in the file with your handle too.
+> 💁 Update the `<title>` element in the file with your username too.
 
 <details>
-<summary><code>handle.svg</code></summary>
+<summary><code>username.svg</code></summary>
 
 ```xml
 <svg xmlns="http://www.w3.org/2000/svg">
-  <!--Update the title with your handle-->
-  <title>@handle</title>
+  <!--Update the title with your username-->
+  <title>@username</title>
 
   <!--Add stuff here-->
 
@@ -94,8 +95,8 @@ case it would be `wooorm.svg`), and copy-paste the following document into it.
   var h = p.slice(p.lastIndexOf('/') + 1, p.lastIndexOf('.'))
   console.log('Hi @%s 👋', h)
   if (!document.querySelector('circle')) bug()
-  if (h === 'handle') throw new Error('Rename this file to `your-github-handle.svg`!')
-  if (document.querySelector('title').textContent === '@handle') throw new Error('Update your `<title>`!')
+  if (h === 'username') throw new Error('Rename this file to `your-github-username.svg`!')
+  if (document.querySelector('title').textContent === '@username') throw new Error('Update your `<title>`!')
   var ok = ![
     ['circle', '1.0. `<circle>` element'],
     ['circle[cx]', '1.1. `cx` attribute on `<circle>`'],
@@ -223,8 +224,7 @@ the website][play-gallery].
     Navigate to the directory `site/class-1-play`.
     Follow the guide [Adding a file to a repository][upload] to upload the SVG
     file you made in [**step B**][c1pb].
-    For the commit message, use `Add @handle` (where `handle` is your GitHub
-    handle, so in my case it would be `Add @wooorm`).
+    For the commit message, use `Add @username` (in my case `Add @wooorm`).
     Leave the commit description empty.
     Select **Create a new branch** and use the name `play`.
     When ready, click **Commit changes**
@@ -264,8 +264,7 @@ formats.  Additionally, you’ll learn to use d3 to request files.
 
 ### <a name="class-1-load-a"></a> Step A
 
-Create a directory named after your GitHub handle (for me that would be
-`wooorm`).
+Create a directory named after your GitHub username (in my case `wooorm`).
 
 Create a text file `dinners.txt` in your directory and open it.
 
@@ -309,7 +308,7 @@ Do the same with `index.json` in the [JSON][] format.
 
 Create a file, `index.html`, and copy-paste the following document into it.
 
-> 💁 Update the `<title>` element in the file with your handle.
+> 💁 Update the `<title>` element in the file with your username.
 
 <details>
 <summary><code>index.html</code></summary>
@@ -317,8 +316,8 @@ Create a file, `index.html`, and copy-paste the following document into it.
 ```html
 <!doctype html>
 <meta charset=utf8>
-<!--Update the title with your handle:-->
-<title>@handle</title>
+<!--Update the title with your username:-->
+<title>@username</title>
 <meta content=width=device-width,initial-scale=1 name=viewport>
 
 <!--Link to d3 here:-->
@@ -414,22 +413,22 @@ the website][load-gallery].
 3.  Navigate to the directory `site/class-1-load`
 4.  <a name="class-1-load-i-4"></a>
     Create a new file by clicking on **Create new file**.
-    In the **Name your file…** input, type `handle/readme.md` (where `handle`
-    is your GitHub handle, so in my case it would be `wooorm/readme.md`).
+    In the **Name your file…** input, type `username/readme.md` (in my case
+    `wooorm/readme.md`).
     In the **Edit your file…** area, write `# Hello World`.  What you’re writing
     is called markdown and we’ll cover it in [**class 2**][c2].
-    In the commit message at the bottom, use `Add readme.md for @handle` (in my
-    case `Add readme.md for @wooorm`).
+    In the commit message at the bottom, use `Add readme.md for @username` (in
+    my case `Add readme.md for @wooorm`).
     Keep **Commit directly to the load branch** selected
 5.  Now, follow [**substep 3**][c1pd3] from [step D][c1pd] of the [Playing with
     SVG][play] assignment to upload the **files in your directory** on the
     `load` branch to the newly created directory on GitHub.
-    In the commit message at the bottom, use `Add files for @handle` (in my case
-    `Add files for @wooorm`).
+    In the commit message at the bottom, use `Add files for @username` (in my
+    case `Add files for @wooorm`).
     Keep **Commit directly to the load branch** selected
 6.  <a name="class-1-load-i-6"></a>
-    Create a pull request and use `Add @handle` (in my case `Add @wooorm`) for
-    the title
+    Create a pull request and use `Add @username` (in my case `Add @wooorm`)
+    for the title
 
 ### Complete
 
@@ -455,7 +454,7 @@ but this time will render a bar chart in SVG.
     (tip: you may need to start a server, see [step E][c1le] of [Loading
     data][load] on how to do that)
 3.  Add a `<title>` element, or replace the one already there, with your GitHub
-    handle: `@handle` (in my case `@wooorm`)
+    username: `@username` (in my case `@wooorm`)
 4.  Move the CSS and JS from the HTML into their own files
 5.  Add citations to the work your chart is based on in the HTML and JS
 6.  Try and change all values to get to understand the code (refreshing often

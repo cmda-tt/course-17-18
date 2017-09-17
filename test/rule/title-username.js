@@ -11,9 +11,9 @@ function correctTitle(tree, file) {
   var val = node && toString(node).trim();
   if (!node) {
     file.message('Add the `<title>` element back!');
-  } else if (val === '@handle' || val === '@') {
-    file.message('Update your title element with your GitHub handle', node);
+  } else if (val === '@username' || val === '@') {
+    file.message('Update your title element with your GitHub username', node);
   } else if (val.indexOf('@') !== 0) {
-    file.message('Add an `@` before your GitHub handle', node);
+    file.message('Add an `@` before your GitHub username', node);
   }
 }

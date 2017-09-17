@@ -11,13 +11,13 @@ var unified = require('unified');
 var rule = require('unified-lint-rule');
 var parse = require('rehype-parse');
 var select = require('hast-util-select');
-var title = require('./rule/title-handle');
+var title = require('./rule/title-username');
 var disallowedStem = require('./rule/disallowed-stem');
 
 var processor = unified()
   .use(parse, {fragment: true})
   .use(rule('lint:script', script))
-  .use(disallowedStem, 'handle')
+  .use(disallowedStem, 'username')
   .use(title)
   .use([
     ['circle', '1.0. `<circle>` element'],
