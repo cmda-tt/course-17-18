@@ -66,7 +66,9 @@ Submit [Assessment 1][a1] at least 24 hours before [class 3][c3].
 
 ## Do you read me?!
 
-In this assignment you’ll learn the basics of markdown.
+[![][readme-cover]][readme-cover-source]
+
+> Trinity College Dublin by [**@zeak**][readme-cover-author].
 
 ### Tips
 
@@ -102,36 +104,62 @@ In this assignment you’ll learn the basics of markdown.
 
 ## `debugger;`
 
+[![][debug-cover]][debug-cover-source]
+
+> Cornish Hospitality by [**@robpotter**][debug-cover-author].
+
 <!--TODO-->
 
 ## Style
 
+[![][style-cover]][style-cover-source]
+
+> Elegant man with a laptop by [**@flenjoore**][style-cover-author].
+
 <!--TODO-->
 
-[c1]: class-1.md#assignments
-
-[c3]: class-3.md
-
-[s3]: https://github.com/cmda-fe3/course-17-18#subgoal-3
-
-[s4]: https://github.com/cmda-fe3/course-17-18#subgoal-4
-
-[s5]: https://github.com/cmda-fe3/course-17-18#subgoal-5
-
-[s6]: https://github.com/cmda-fe3/course-17-18#subgoal-6
-
-[s7]: https://github.com/cmda-fe3/course-17-18#subgoal-7
-
-[a1]: assessment-1.md
-
-[inspiration-cover]: images/olympicfeathers.jpg
+[inspiration-cover]: images/inspiration-olympic-feathers.jpg
 
 [inspiration-link]: https://nbremer.github.io/olympicfeathers/
 
 [inspiration-author]: https://github.com/nbremer
+
+[readme-cover]: images/books.jpg
+
+[readme-cover-source]: https://unsplash.com/photos/YjVa-F9P9kk
+
+[readme-cover-author]: https://unsplash.com/@zeak
+
+[style-cover]: images/style.jpg
+
+[style-cover-source]: https://unsplash.com/photos/DXYyKCCvWiM
+
+[style-cover-author]: https://unsplash.com/@flenjoore
+
+[debug-cover]: images/bug.jpg
+
+[debug-cover-source]: https://unsplash.com/photos/aIQDQ6JzUnU
+
+[debug-cover-author]: https://unsplash.com/@robpotter
 
 [readme]: #do-you-read-me
 
 [debugger]: #debugger
 
 [style]: #style
+
+[c1]: class-1.md#assignments
+
+[c3]: class-3.md
+
+[a1]: assessment-1.md
+
+[s3]: readme.md#subgoal-3
+
+[s4]: readme.md#subgoal-4
+
+[s5]: readme.md#subgoal-5
+
+[s6]: readme.md#subgoal-6
+
+[s7]: readme.md#subgoal-7
