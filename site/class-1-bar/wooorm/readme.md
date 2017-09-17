@@ -3,8 +3,8 @@
 [![][cover]][url]
 
 A simple responsive bar chart visualising the frequency of letters in the
-English language with pretty colours based on [a block][block] by
-[**@mbostock**][block-author].
+English language with pretty colours based on a [`bl.ock`][block] by
+[**@mbostock**][block-author] (GPL3).
 
 [block]: https://bl.ocks.org/mbostock/3885304
 
