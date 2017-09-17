@@ -208,7 +208,7 @@ Let’s make art!  Open the file created in [**step B**][c1pb] in your text edit
 Done with [**step C**][c1pc]?  Awesome!  You’re a true SVG artist 👩‍🎨
 
 For this step, we’re going to hand your work in.  This will [add your work to
-the website][play-link].
+the website][play-gallery].
 
 1.  First remove the `<script>` element from your SVG file.
     We don’t need it anymore
@@ -241,14 +241,13 @@ the website][play-link].
 
 All done!  Our [Continuous Integration][ci] and one of our lecturers will review
 your code.  We’ll request changes if your code is not yet complete or [merge][]
-your PR and include it in the [gallery][play-link].
+your PR and include it in the [gallery][play-gallery].
 
 ## Loading data
 
-[![][load-cover]][load-link]
+[![][load-cover]][load-cover-source]
 
-> Data visualisation references food a lot.  In the future we’ll reference
-> donuts too.  Photo by [**Annie Spratt**][load-cover-source] on Unsplash.
+> Apple pie from above by [**@anniespratt**][load-cover-author].
 
 In this assignment you’ll learn about JSON and CSV, two commonly used data
 formats.  Additionally, you’ll learn to use d3 to request files.
@@ -402,7 +401,7 @@ You may create a file, `index.css`, to style your HTML.
 ### <a name="class-1-load-i"></a> Step I
 
 In this step, we’re going to hand your work in.  This will [add your work to
-the website][load-link].
+the website][load-gallery].
 
 1.  First remove the `<script>` element referencing `check-class-1-load.js`,
     all `console.log` calls, and your HTML comments from `index.html`.
@@ -436,7 +435,7 @@ the website][load-link].
 
 All done!  Our [Continuous Integration][ci] and one of our lecturers will review
 your code.  We’ll request changes if your code is not yet complete or [merge][]
-your PR and include it in the [gallery][load-link].
+your PR and include it in the [gallery][load-gallery].
 
 ## Bar chart
 
@@ -474,25 +473,27 @@ but this time will render a bar chart in SVG.
 
 All done!  Our [Continuous Integration][ci] and one of our lecturers will review
 your code.  We’ll request changes if your code is not yet complete or [merge][]
-your PR and include it in the [gallery][bar-link].
+your PR and include it in the [gallery][bar-gallery].
 
-[inspiration-cover]: https://raw.githubusercontent.com/bertspaan/buildings/gh-pages/high-res/smaller/amsterdam.png
+[inspiration-cover]: images/inspiration-buildings.jpg
 
 [inspiration-link]: http://code.waag.org/buildings/
 
 [inspiration-author]: http://bertspaan.nl
 
-[c2]: class-2.md
+[play-cover]: https://cmda-fe3.github.io/course-17-18/class-1-play/ju5tu5.svg
 
-[s1]: readme.md#subgoal-1
+[play-link]: https://cmda-fe3.github.io/course-17-18/class-1-play/ju5tu5.svg
 
-[s2]: readme.md#subgoal-2
+[load-cover]: images/pie.jpg
 
-[refresh]: readme.md#resources-to-refresh-your-memory
+[load-cover-source]: https://unsplash.com/photos/5XZ2SyTOyvQ
 
-[slides]: https://docs.google.com/presentation/d/1xuF1DS8ts7KcvhR-UCJfL0gGiUqXOlfscv9cFCL_3Fk
+[load-cover-author]: https://unsplash.com/@anniespratt
 
-[examples]: https://cmda-fe3.github.io/course-17-18/class-1/
+[bar-cover]: https://cmda-fe3.github.io/course-17-18/class-1-bar/wooorm/preview.png
+
+[bar-link]: https://cmda-fe3.github.io/course-17-18/class-1-bar/wooorm/
 
 [play]: #playing-with-svg
 
@@ -500,49 +501,7 @@ your PR and include it in the [gallery][bar-link].
 
 [bar]: #bar-chart
 
-[materials]: readme.md#materials
-
-[ci]: https://travis-ci.org
-
-[repo]: https://github.com/cmda-fe3/course-17-18
-
-[fork]: https://help.github.com/articles/fork-a-repo/
-
-[upload]: https://help.github.com/articles/adding-a-file-to-a-repository/
-
-[pr]: https://help.github.com/articles/creating-a-pull-request/#creating-the-pull-request
-
-[merge]: https://help.github.com/articles/merging-a-pull-request/
-
-[csv]: https://en.wikipedia.org/wiki/Comma-separated_values
-
-[json]: http://json.org
-
-[server]: https://gist.github.com/willurd/5720255
-
 [tips]: #tips-1
-
-[d3]: https://d3js.org
-
-[table]: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table
-
-[details]: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/details
-
-[dl]: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dl
-
-[dce]: https://developer.mozilla.org/en-US/docs/Web/API/Document/createElement
-
-[tc]: https://developer.mozilla.org/en-US/docs/Web/API/Node/textContent
-
-[play-cover]: https://cmda-fe3.github.io/course-17-18/class-1-play/ju5tu5.svg
-
-[play-link]: https://cmda-fe3.github.io/course-17-18/class-1-play/
-
-[load-cover]: images/pie.jpg
-
-[load-cover-source]: https://unsplash.com/photos/5XZ2SyTOyvQ
-
-[load-link]: https://cmda-fe3.github.io/course-17-18/class-1-load/
 
 [c1pb]: #class-1-play-b
 
@@ -568,9 +527,55 @@ your PR and include it in the [gallery][bar-link].
 
 [c1li6]: #class-1-load-i-6
 
-[bar-cover]: https://cmda-fe3.github.io/course-17-18/class-1-bar/wooorm/preview.png
+[s1]: readme.md#subgoal-1
 
-[bar-link]: https://cmda-fe3.github.io/course-17-18/class-1-bar/
+[s2]: readme.md#subgoal-2
+
+[materials]: readme.md#materials
+
+[refresh]: readme.md#resources-to-refresh-your-memory
+
+[c2]: class-2.md
+
+[slides]: https://docs.google.com/presentation/d/1xuF1DS8ts7KcvhR-UCJfL0gGiUqXOlfscv9cFCL_3Fk
+
+[repo]: https://github.com/cmda-fe3/course-17-18
+
+[examples]: https://cmda-fe3.github.io/course-17-18/class-1/
+
+[play-gallery]: https://cmda-fe3.github.io/course-17-18/class-1-play/
+
+[bar-gallery]: https://cmda-fe3.github.io/course-17-18/class-1-bar/
+
+[load-gallery]: https://cmda-fe3.github.io/course-17-18/class-1-load/
+
+[ci]: https://travis-ci.org
+
+[fork]: https://help.github.com/articles/fork-a-repo/
+
+[upload]: https://help.github.com/articles/adding-a-file-to-a-repository/
+
+[pr]: https://help.github.com/articles/creating-a-pull-request/#creating-the-pull-request
+
+[merge]: https://help.github.com/articles/merging-a-pull-request/
+
+[csv]: https://en.wikipedia.org/wiki/Comma-separated_values
+
+[json]: http://json.org
+
+[server]: https://gist.github.com/willurd/5720255
+
+[d3]: https://d3js.org
+
+[table]: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table
+
+[details]: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/details
+
+[dl]: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dl
+
+[dce]: https://developer.mozilla.org/en-US/docs/Web/API/Document/createElement
+
+[tc]: https://developer.mozilla.org/en-US/docs/Web/API/Node/textContent
 
 [d3-examples]: https://github.com/d3/d3/wiki/Gallery
 
