@@ -26,9 +26,7 @@
 
 ## Synopsis
 
-*   **Date ID 1**: 02-10
-*   **Date ID 2**: 04-10
-*   **Date ID 3**: 02-10
+*   **Date**: 02-10 (ID 1 and ID 3) or 04-10 (ID 2)
 *   **Slides**
 *   **Examples**
 
