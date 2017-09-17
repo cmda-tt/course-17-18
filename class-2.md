@@ -56,7 +56,7 @@ Submit your assignments by 7am the day of [class 3][c3].
 *   [`debugger;`][debugger] (**practice**)
 *   [Style][style] (**practice**)
 
-See [class 1][c1] for assignments due before this class.
+See [class 1][c1a] for assignments due before this class.
 
 ## Assessment
 
@@ -104,7 +104,40 @@ Submit [Assessment 1][a1] at least 24 hours before [class 3][c3].
     (**Git**)
     — Reference sheet covering Git commands, features, and bash
 
-<!--TODO-->
+### Description
+
+For this assignment you’re going to add a readme to the project you handed in
+for the [Bar chart][bar] assignment of [class 1][c1].
+
+Create a `readme.md` file describing your project and include the following:
+
+*   Short title
+*   Short description
+*   **Background** section with a longer description of why you did what you did
+*   **Features** section listing all d3 features used and linking to API docs
+*   **License** section (tip: [`choosealicense.com`][cal]) in the form
+    “[SPDX][] © First Second” (I often use “MIT © Titus Wormer”)
+
+> 💁 The work you based your project on probably contains a license too.
+> You cannot pick any license you’d want and disregard their license.
+> Your license must be compatible with theirs.
+> As a general rule of thumb: if you may create a derivative work (which is
+> often true for free software licenses if your work is non-commercial) you
+> can license your work under the same license as the original work.
+
+Feel free to provide more useful information.
+
+You may create a file, `preview.png`, to show a thumbnail of how your chart
+looks.  You can link to it in the readme like so: `![Alt text](preview.png)`.
+
+You can write this file directly on GitHub (tip: see [**substep 4**][c1li4]
+from [step I][c1li] of the [Loading data][load] assignment) or write it in your
+text editor and upload it when done (tip: see [**substep 3**][c1pd3] from
+[step D][c1pd] of the [Playing with SVG][play] assignment).
+
+> 💁 You probably need to sync your fork.  Unfortunately this cannot be done
+> through the GitHub website.  You can either sync a fork [on the
+> terminal][sync-fork] or [delete your fork][delete-repo] and fork again.
 
 ## `debugger;`
 
@@ -185,7 +218,7 @@ Submit [Assessment 1][a1] at least 24 hours before [class 3][c3].
 
 [style]: #style
 
-[c1]: class-1.md#assignments
+[c1]: class-1.md
 
 [c3]: class-3.md
 
@@ -201,7 +234,23 @@ Submit [Assessment 1][a1] at least 24 hours before [class 3][c3].
 
 [s7]: readme.md#subgoal-7
 
-[readme-gallery]: https://github.com/cmda-fe3/course-17-18/tree/master/site/class-1-bar
+[c1a]: class-1.md#assignments
+
+[c1li4]: class-1.md#class-1-load-i-4
+
+[c1li]: class-1.md#class-1-load-i
+
+[load]: class-1.md#loading-data
+
+[bar]: class-1.md#bar-chart
+
+[c1pd]: class-1.md#class-1-play-d
+
+[c1pd3]: class-1.md#class-1-play-d-3
+
+[play]: class-1.md#playing-with-svg
+
+[readme-gallery]: https://github.com/cmda-fe3/course-17-18/tree/master/site/class-1-bar#readme
 
 [debug-gallery]: https://cmda-fe3.github.io/course-17-18/class-2-debug/
 
@@ -210,3 +259,11 @@ Submit [Assessment 1][a1] at least 24 hours before [class 3][c3].
 [examples]: https://cmda-fe3.github.io/course-17-18/class-2/
 
 [slides]: https://docs.google.com/presentation/d/1uAhSUdxEki0eDWK36OCbhRQk1ScgygzVZzuKluvQVxc
+
+[cal]: https://choosealicense.com
+
+[spdx]: https://spdx.org/licenses/
+
+[sync-fork]: https://help.github.com/articles/syncing-a-fork/
+
+[delete-repo]: https://help.github.com/articles/deleting-a-repository/
