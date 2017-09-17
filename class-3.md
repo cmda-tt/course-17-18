@@ -1,5 +1,11 @@
 # Class 3
 
+## Inspiration
+
+[![][inspiration-cover]][inspiration-link]
+
+> Measurable happiness by [**@nickrttn**][inspiration-author].
+
 ## Schedule
 
 *   Intro to loading and cleaning external data
@@ -15,6 +21,12 @@ Assignments due before [class 4][c4]:
     source
 
 See [class 2][c2] for assignments due before this class.
+
+[inspiration-cover]: images/meetbaar-geluk.jpg
+
+[inspiration-link]: https://nickrttn.github.io/Frontend-3/
+
+[inspiration-author]: https://github.com/nickrttn
 
 [c2]: class-2.md#assignments
 
