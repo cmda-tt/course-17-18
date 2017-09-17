@@ -27,8 +27,8 @@
 ## Synopsis
 
 *   **Date**: 02-10 (ID 1 and ID 3) or 04-10 (ID 2)
-*   **Slides**
-*   **Examples**
+*   [**Slides**][slides]
+*   [**Examples**][examples]
 
 ## Schedule
 
@@ -206,3 +206,7 @@ Submit [Assessment 1][a1] at least 24 hours before [class 3][c3].
 [debug-gallery]: https://cmda-fe3.github.io/course-17-18/class-2-debug/
 
 [style-gallery]: https://cmda-fe3.github.io/course-17-18/class-2-style/
+
+[examples]: https://cmda-fe3.github.io/course-17-18/class-2/
+
+[slides]: https://docs.google.com/presentation/d/1uAhSUdxEki0eDWK36OCbhRQk1ScgygzVZzuKluvQVxc
