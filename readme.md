@@ -162,6 +162,9 @@ date, time, and place.
     (**course**) — Intro to JavaScript: Learn to code interactively
 *   🆓 [Re-introduction to JavaScript](https://developer.mozilla.org/Web/JavaScript/A_re-introduction_to_JavaScript)
     (**article**) — Short re-introduction to JavaScript
+*   🆓 [JavaScript essentials](https://www.lynda.com/JavaScript-tutorials/JavaScript-Essential-Training/574716-2.html)
+    (**course**) — Learn the essentials of JavaScript including ES6.
+    Login through our [portal](https://lyndaportal.ict.hva.nl)
 *   🆓 [JavaScript For Cats](http://jsforcats.com)
     (**book**) — Intro to JavaScript for new programmers
 *   🆓 [JavaScript 30](https://javascript30.com)
