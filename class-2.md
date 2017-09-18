@@ -194,9 +194,9 @@ For this assignment you’re going to reformat code to make a donut chart in you
 own style.  Feel free to use any of the [tips][tips-1] above to check or format
 code.  Choose any style that makes sense to you.
 
-*   First, copy all files: `index.csv`, `index.css`, `index.html`, and
-    `index.js` from `site/class-2/style` and get to your computer and get them
-    working without changing any code yet
+*   First, copy the files `index.csv`, `index.css`, `index.html`, and
+    `index.js` from [`site/class-2/style`][style-starter] to your
+    computer and get them working without changing any code yet
 *   Note that the CSS, HTML, and JS are minified: they’re great for computers,
     but not so much for humans
 *   Now, reformat `index.css`, `index.html`, and `index.js` to match your
@@ -270,6 +270,8 @@ to `site/class-2-style/` by creating a pull request.
 [play]: class-1.md#playing-with-svg
 
 [tips-1]: #tips-1
+
+[style-starter]: site/class-2/style
 
 [readme-gallery]: https://github.com/cmda-fe3/course-17-18/tree/master/site/class-1-bar#readme
 
