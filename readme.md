@@ -81,21 +81,21 @@ In practice you’ll learn to:
 
 1.  <a name="subgoal-1"></a> Understand SVG and canvas
     ([**class 1**][c1])
-2.  <a name="subgoal-2"></a> Parse data formats such as JSON and CSV
+2.  <a name="subgoal-2"></a> Parse data formats
     ([**class 1**][c1] and [**class 3**][c3])
-3.  <a name="subgoal-3"></a> Write documentation for code and projects
+3.  <a name="subgoal-3"></a> Write documentation
     ([**class 2**][c2] and [**class 4**][c4])
 4.  <a name="subgoal-4"></a> Read documentation
     ([**class 2**][c2] and [**class 4**][c4])
-5.  <a name="subgoal-5"></a> Debug code, such as adapting `d3@3` code to `d3@4`
+5.  <a name="subgoal-5"></a> Debug code
     ([**class 2**][c2])
-6.  <a name="subgoal-6"></a> Rewrite code in your own style
+6.  <a name="subgoal-6"></a> Refactor code
     ([**class 2**][c2])
 7.  <a name="subgoal-7"></a> Use scales (domain, range, and axis)
     ([**class 2**][c2] and [**class 4**][c4])
-8.  <a name="subgoal-8"></a> Read in external data
+8.  <a name="subgoal-8"></a> Load external data
     ([**class 3**][c3] and [**class 4**][c4])
-9.  <a name="subgoal-9"></a> Transform and clean external data
+9.  <a name="subgoal-9"></a> Transform and clean data
     ([**class 3**][c3] and [**class 4**][c4])
 10. <a name="subgoal-10"></a> Understand the d3 loop
     ([**class 3**][c3] and [**class 4**][c4])
