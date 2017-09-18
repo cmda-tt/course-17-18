@@ -174,8 +174,6 @@ uses d3@3 instead of d3@4.
 Hand in your bug-free and upgraded code in a directory `username` (in my case
 `wooorm`) to `site/class-2-debug/` by creating a pull request.
 
-<!--TODO-->
-
 ## Style
 
 [![][style-cover]][style-cover-source]
