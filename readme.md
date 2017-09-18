@@ -10,6 +10,7 @@
 *   [Goals](#goals)
 *   [Grade](#grade)
 *   [Calendar](#calendar)
+*   [Effort](#effort)
 *   [Materials](#materials)
 *   [Bugs](#bugs)
 *   [See also](#see-also)
@@ -136,6 +137,23 @@ date, time, and place.
 
 > ※ Assessments 1 and 2 are to be handed in 24 hours before the start of the
 > next class.
+
+## Effort
+
+The table below breaks down the general time needed to complete activities.
+
+| Activity                       | Effort per unit | Effort total |
+| ------------------------------ | --------------: | -----------: |
+| Class × 6                      |              2½ |           15 |
+| Assignments due next class × 5 |               5 |           25 |
+| Assessment 1                   |               4 |            4 |
+| Assessment 2                   |               8 |            8 |
+| Assessment 3                   |              12 |           12 |
+| Extra※                         |                 |           20 |
+| **Total**                      |                 |       **84** |
+
+> ※ Extra time can be spent on extra resources or to add extra detail to
+> assignments and assessments.
 
 ## Materials
 
