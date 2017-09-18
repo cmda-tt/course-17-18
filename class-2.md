@@ -145,11 +145,34 @@ text editor and upload it when done (tip: see [**substep 3**][c1pd3] from
 
 > Cornish Hospitality by [**@robpotter**][debug-cover-author].
 
+In this assignment you’ll learn to debug and upgrade code.
+
 ### Synopsis
 
 *   **Practice**
 *   **Due**: 7am the day of [class 3][c3]
 *   **Results**: [Gallery][debug-gallery]
+
+### Description
+
+For this assignment you’re going to fix a broken scatter plot.  First,
+the HTML, CSS, and JavaScript all contain several bugs.  Last, the chart
+uses d3@3 instead of d3@4.
+
+*   First, copy the files `index.csv`, `index.css`, `index.html`, and
+    `index.js` from [`site/class-2/debug`][debug-starter] to your
+    computer and start a simple server.  If everything went OK, you should see
+    two errors in your Console about resources that failed to load
+*   Fix the errors you just found.  Then, fix the errors in the JavaScript and
+    CSS.  Depending on your knowledge of JavaScript, errors, and d3, this
+    may be _very hard_.  Feel free to ask others for help and try to fix the
+    code together
+*   After all bugs are squashed, upgrade the chart from
+    d3@3 to d3@4 (tip: see the [changelog][d3-changes] and [release
+    notes][d3-release-notes]).
+
+Hand in your bug-free and upgraded code in a directory `username` (in my case
+`wooorm`) to `site/class-2-debug/` by creating a pull request.
 
 <!--TODO-->
 
@@ -271,6 +294,8 @@ to `site/class-2-style/` by creating a pull request.
 
 [tips-1]: #tips-1
 
+[debug-starter]: site/class-2/debug
+
 [style-starter]: site/class-2/style
 
 [readme-gallery]: https://github.com/cmda-fe3/course-17-18/tree/master/site/class-1-bar#readme
@@ -290,3 +315,7 @@ to `site/class-2-style/` by creating a pull request.
 [sync-fork]: https://help.github.com/articles/syncing-a-fork/
 
 [delete-repo]: https://help.github.com/articles/deleting-a-repository/
+
+[d3-release-notes]: https://github.com/d3/d3/releases/v4.0.0
+
+[d3-changes]: https://github.com/d3/d3/blob/master/CHANGES.md
