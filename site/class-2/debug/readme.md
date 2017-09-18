@@ -5,7 +5,7 @@ of various iris flowers based on a [`bl.ock`][block] by
 [**@mbostock**][block-author] (GPL-3.0).
 
 > 💁 This example contains intentional bugs in HTML, CSS, and JavaScript,
-> and uses an old version of d3: d3@3.  It’s meant to be an exercise in
+> and uses an old version of d3: `d3@3`.  It’s meant to be an exercise in
 > debugging skills.
 
 [![][cover]][url]

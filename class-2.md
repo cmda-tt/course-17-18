@@ -41,7 +41,7 @@
 *   [Do you read me?!][readme]  (**practice**)
 *   Debug and refactor
     ([**subgoal 5**][s5] and [**subgoal 6**][s6])
-*   d3@3 and d3@4
+*   `d3@3` and `d3@4`
     ([**subgoal 5**][s5])
 *   d3-scale
     ([**subgoal 7**][s7])
@@ -157,7 +157,7 @@ In this assignment you’ll learn to debug and upgrade code.
 
 For this assignment you’re going to fix a broken scatter plot.  First,
 the HTML, CSS, and JavaScript all contain several bugs.  Last, the chart
-uses d3@3 instead of d3@4.
+uses `d3@3` instead of `d3@4`.
 
 *   First, copy the files `index.csv`, `index.css`, `index.html`, and
     `index.js` from [`site/class-2/debug`][debug-starter] to your
@@ -168,7 +168,7 @@ uses d3@3 instead of d3@4.
     may be _very hard_.  Feel free to ask others for help and try to fix the
     code together
 *   After all bugs are squashed, upgrade the chart from
-    d3@3 to d3@4 (tip: see the [changelog][d3-changes] and [release
+    `d3@3` to `d3@4` (tip: see the [changelog][d3-changes] and [release
     notes][d3-release-notes]).
 
 Hand in your bug-free and upgraded code in a directory `username` (in my case
