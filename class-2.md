@@ -14,8 +14,8 @@
 *   [Assignments](#assignments)
 *   [Assessment](#assessment)
 *   [Do you read me?!](#do-you-read-me)
-*   [debugger;](#debugger)
 *   [Style](#style)
+*   [debugger;](#debugger)
 
 ## Inspiration
 
