@@ -13,7 +13,6 @@
 *   [Effort](#effort)
 *   [Materials](#materials)
 *   [Bugs](#bugs)
-*   [See also](#see-also)
 *   [Semester](#semester)
 *   [Programme](#programme)
 *   [Conduct](#conduct)
@@ -258,13 +257,6 @@ If you have questions:
 *   [Ask questions on Slack][slack]
 *   [Contact a lecturer][synopsis]
 *   [Open an issue][issue]
-
-## See also
-
-*   [`d3js.org`](https://d3js.org)
-*   [`bl.ocks.org`](https://bl.ocks.org)
-*   [`github.com/d3/d3`](https://github.com/d3/d3)
-*   [`lynda.com`](https://www.lynda.com/D3-js-tutorials/Welcome/504428/549380-4.html)
 
 ## Semester
 
