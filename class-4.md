@@ -21,17 +21,17 @@ See [class 3][c3] for assignments due before this class.
 
 [c5]: class-5.md
 
-[s3]: https://github.com/cmda-fe3/course-17-18#subgoal-3
+[s3]: readme.md#subgoal-3
 
-[s4]: https://github.com/cmda-fe3/course-17-18#subgoal-4
+[s4]: readme.md#subgoal-4
 
-[s7]: https://github.com/cmda-fe3/course-17-18#subgoal-7
+[s7]: readme.md#subgoal-7
 
-[s8]: https://github.com/cmda-fe3/course-17-18#subgoal-8
+[s8]: readme.md#subgoal-8
 
-[s9]: https://github.com/cmda-fe3/course-17-18#subgoal-9
+[s9]: readme.md#subgoal-9
 
-[s10]: https://github.com/cmda-fe3/course-17-18#subgoal-10
+[s10]: readme.md#subgoal-10
 
 [a2]: assessment-2
 

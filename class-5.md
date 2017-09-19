@@ -18,4 +18,4 @@ See [class 4][c4] for assignments due before this class.
 
 [c6]: class-6.md
 
-[s11]: https://github.com/cmda-fe3/course-17-18#subgoal-11
+[s11]: readme.md#subgoal-11

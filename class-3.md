@@ -32,12 +32,12 @@ See [class 2][c2] for assignments due before this class.
 
 [c4]: class-4.md
 
-[s2]: https://github.com/cmda-fe3/course-17-18#subgoal-2
+[s2]: readme.md#subgoal-2
 
-[s8]: https://github.com/cmda-fe3/course-17-18#subgoal-8
+[s8]: readme.md#subgoal-8
 
-[s9]: https://github.com/cmda-fe3/course-17-18#subgoal-9
+[s9]: readme.md#subgoal-9
 
-[s10]: https://github.com/cmda-fe3/course-17-18#subgoal-10
+[s10]: readme.md#subgoal-10
 
-[s11]: https://github.com/cmda-fe3/course-17-18#subgoal-11
+[s11]: readme.md#subgoal-11

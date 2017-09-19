@@ -34,16 +34,16 @@ data.
 
 [c3]: class-3.md
 
-[s1]: https://github.com/cmda-fe3/course-17-18#subgoal-1
+[s1]: ../readme.md#subgoal-1
 
-[s2]: https://github.com/cmda-fe3/course-17-18#subgoal-2
+[s2]: ../readme.md#subgoal-2
 
-[s3]: https://github.com/cmda-fe3/course-17-18#subgoal-3
+[s3]: ../readme.md#subgoal-3
 
-[s4]: https://github.com/cmda-fe3/course-17-18#subgoal-4
+[s4]: ../readme.md#subgoal-4
 
-[s5]: https://github.com/cmda-fe3/course-17-18#subgoal-5
+[s5]: ../readme.md#subgoal-5
 
-[s6]: https://github.com/cmda-fe3/course-17-18#subgoal-6
+[s6]: ../readme.md#subgoal-6
 
-[s7]: https://github.com/cmda-fe3/course-17-18#subgoal-7
+[s7]: ../readme.md#subgoal-7

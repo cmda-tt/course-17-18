@@ -315,7 +315,7 @@ Hand in your bug-free and upgraded code in a directory `username` (in my case
 
 [style-starter]: site/class-2/style
 
-[readme-gallery]: https://github.com/cmda-fe3/course-17-18/tree/master/site/class-1-bar#readme
+[readme-gallery]: site/class-1-bar#readme
 
 [debug-gallery]: https://cmda-fe3.github.io/course-17-18/class-2-debug/
 
