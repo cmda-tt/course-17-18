@@ -165,9 +165,7 @@ The table below breaks down the general time needed to complete activities.
 *   🆓 King, Ritchie S.  _Visual Storytelling with D3_.  Addison-Wesley, 2015
     (**optional**)
 *   🆓 Meeks, Elijah.  _D3.js in Action_.  O’Reilly Media, 2017 (**optional**)
-*   🆓 [Navarro Castillo, Pablo.
-    _Mastering D3.js_.
-    Packt Publishing, 2014](https://github.com/pnavarrc/mastering-d3)
+*   🆓 Navarro Castillo, Pablo.  _Mastering D3.js_.  Packt Publishing, 2014
     (**optional**)
 *   🆓 [D3.js Essentials](https://www.lynda.com/D3-js-tutorials/Welcome/504428/549380-4.html)
     on Lynda (**optional**)
