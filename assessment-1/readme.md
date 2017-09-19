@@ -1,15 +1,6 @@
-<!--
-  TODO:
-  * Proper description
-  * Matrix
-  * Add sample data
--->
+# ![Assessment 1][banner]
 
-<!--lint disable no-html-->
-
-# Assessment 1
-
-In **Assessment 1** you’ll make a [“Basic”][basic] visualisation based on given
+In **assessment 1** you’ll make a “[Basic][]” visualisation based on given
 data.
 
 ## Synopsis
@@ -82,6 +73,8 @@ data.
 *   Use [scales][s7]
 
 <!--lint enable no-html maximum-line-length-->
+
+[banner]: https://cdn.rawgit.com/cmda-fe3/logo/3b150735/banner-assessment-1.svg
 
 [basic]: https://github.com/d3/d3/wiki/Gallery#basic-charts
 
