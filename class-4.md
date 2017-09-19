@@ -33,6 +33,6 @@ See [class 3][c3] for assignments due before this class.
 
 [s10]: https://github.com/cmda-fe3/course-17-18#subgoal-10
 
-[a2]: assessment-2.md
+[a2]: assessment-2
 
-[a3]: assessment-3.md
+[a3]: assessment-3

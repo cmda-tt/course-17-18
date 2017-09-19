@@ -281,7 +281,7 @@ Hand in your bug-free and upgraded code in a directory `username` (in my case
 
 [c3]: class-3.md
 
-[a1]: assessment-1.md
+[a1]: assessment-1
 
 [s3]: readme.md#subgoal-3
 

@@ -374,9 +374,9 @@ Docs and images: [CC-BY-NC-SA-4.0][].
 
 [c6]: class-6.md
 
-[a1]: assessment-1.md
+[a1]: assessment-1
 
-[a2]: assessment-2.md
+[a2]: assessment-2
 
 [a3]: assessment-3.md
 

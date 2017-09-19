@@ -19,4 +19,4 @@ See [class 5][c5] for assignments due before this class.
 
 [s12]: https://github.com/cmda-fe3/course-17-18#subgoal-12
 
-[a3]: assessment-3.md
+[a3]: assessment-3
