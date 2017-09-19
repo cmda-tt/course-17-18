@@ -16,7 +16,9 @@ data.
 
 *   **Weight**: 20%
 *   **Type**: Remote
-*   **Date**: [24 hours][calendar] before [class 3][c3]
+*   **Date**:
+    [24 hours][calendar] before [class 3][c3] —
+    03-10 (ID 3), 04-10 (ID 1), or 05-10 (ID 2)
 
 ## Rubric
 
