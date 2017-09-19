@@ -146,7 +146,7 @@ var page = trough()
       }
     }
     function index(name) {
-      return name === 'index.html';
+      return name === 'index.html' || name === 'readme.md';
     }
   })
   /* Process examples. */
