@@ -118,6 +118,16 @@ nav .assignment {
   color: black;
 }
 
+nav .assignment[href^="https://github.com"] div::after {
+  content: "";
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  background-image: url(gh.png);
+  background-size: 100%;
+  margin-top: 0.5em;
+}
+
 nav a:hover,
 nav a:focus {
   background-color: #feca2f;
