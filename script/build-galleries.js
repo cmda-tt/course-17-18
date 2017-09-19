@@ -192,7 +192,7 @@ trough()
       }
     }
   })
-  /* Process pages. */
+  /* Process galleries. */
   .use(function (paths, next) {
     return async.map(paths, page.run, next);
   })

@@ -54,7 +54,7 @@
     "xtend": "^4.0.1"
   },
   "scripts": {
-    "build-pages": "node script/build-pages",
+    "build-galleries": "node script/build-galleries",
     "build-md": "remark . -qfo",
     "build-c2-readme": "node script/build-class-2-readme",
     "build-c2-style-html": "rehype -q -u preset-minify -u './script/change=\"selector\":\"title\",\"value\":\"Style starter code\"' site/class-2-style/wooorm/index.html -o site/class-2/style/index.html",
@@ -62,7 +62,7 @@
     "build-c2-style-js": "esmangle < site/class-2-style/wooorm/index.js > site/class-2/style/index.js",
     "build-c2-style-csv": "cp site/class-2-style/wooorm/index.csv site/class-2-style/wooorm/readme.md site/class-2-style/wooorm/preview.png site/class-2/style",
     "build-c2-style": "npm run build-c2-style-html && npm run build-c2-style-css && npm run build-c2-style-js && npm run build-c2-style-csv",
-    "build": "npm run build-c2-readme && npm run build-c2-style && npm run build-pages && npm run build-md",
+    "build": "npm run build-c2-readme && npm run build-c2-style && npm run build-galleries && npm run build-md",
     "lint": "xo && stylelint site/*.css",
     "test-api": "node test",
     "test": "npm run build && npm run lint && npm run test-api"
