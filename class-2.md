@@ -153,6 +153,21 @@ In this assignment you’ll learn to debug and upgrade code.
 *   **Due**: 7am the day of [class 3][c3]
 *   **Results**: [Gallery][debug-gallery]
 
+### Tips
+
+*   [Rubber Duck Debugging](https://rubberduckdebugging.com)
+    (**method**)
+*   [How to debug small programs](https://ericlippert.com/2014/03/05/how-to-debug-small-programs/)
+    (**article**)
+*   [The Debugging Mindset](http://queue.acm.org/detail.cfm?id=3068754)
+    (**article**)
+*   [Chrome Developer Tools](https://developers.google.com/web/tools/chrome-devtools/)
+    (**software**)
+*   [Firefox Developer Tools](https://developer.mozilla.org/en-US/docs/Tools)
+    (**software**)
+*   [Safari Developer Tools](https://developer.apple.com/safari/tools/)
+    (**software**)
+
 ### Description
 
 For this assignment you’re going to fix a broken scatter plot.  First,
@@ -212,7 +227,7 @@ In this assignment you’ll learn to refactor and reformat code.
 ### Description
 
 For this assignment you’re going to reformat code to make a donut chart in your
-own style.  Feel free to use any of the [tips][tips-1] above to check or format
+own style.  Feel free to use any of the [tips][tips-2] above to check or format
 code.  Choose any style that makes sense to you.
 
 *   First, copy the files `index.csv`, `index.css`, `index.html`, and
@@ -290,7 +305,7 @@ to `site/class-2-style/` by creating a pull request.
 
 [play]: class-1.md#playing-with-svg
 
-[tips-1]: #tips-1
+[tips-2]: #tips-2
 
 [debug-starter]: site/class-2/debug
 
