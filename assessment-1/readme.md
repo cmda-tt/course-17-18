@@ -20,6 +20,16 @@
 In **assessment 1** you’ll make a “[Basic][]” visualisation based on given
 data.
 
+## Goals
+
+**Assessment 1** tests that you’ve attained the following knowledge:
+
+*   [SVG and canvas][s1]
+*   [Parse Data formats][s2]
+*   [Read][s3] and [write][s4] docs
+*   [Debug][s5] and [refactor][s6] code
+*   Use [scales][s7]
+
 ## Rubric
 
 <!--lint disable no-html maximum-line-length-->
@@ -70,16 +80,6 @@ data.
     </tr>
   </tbody>
 </table>
-
-## Goals
-
-**Assessment 1** tests that you’ve attained the following knowledge:
-
-*   [SVG and canvas][s1]
-*   [Parse Data formats][s2]
-*   [Read][s3] and [write][s4] docs
-*   [Debug][s5] and [refactor][s6] code
-*   Use [scales][s7]
 
 <!--lint enable no-html maximum-line-length-->
 
