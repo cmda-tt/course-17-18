@@ -45,16 +45,16 @@
     ([**subgoal 5**][s5])
 *   d3-scale
     ([**subgoal 7**][s7])
-*   [`debugger;`][debugger] (**practice**)
 *   [Style][style] (**practice**)
+*   [`debugger;`][debugger] (**practice**)
 
 ## Assignments
 
 Submit your assignments by 7am the day of [class 3][c3].
 
 *   [Do you read me?!][readme]  (**practice**)
-*   [`debugger;`][debugger] (**practice**)
 *   [Style][style] (**practice**)
+*   [`debugger;`][debugger] (**practice**)
 
 See [class 1][c1a] for assignments due before this class.
 
@@ -139,6 +139,60 @@ text editor and upload it when done (tip: see [**substep 3**][c1pd3] from
 > through the GitHub website.  You can either sync a fork [on the
 > terminal][sync-fork] or [delete your fork][delete-repo] and fork again.
 
+## Style
+
+[![][style-cover]][style-cover-source]
+
+> Elegant man with a laptop by [**@flenjoore**][style-cover-author].
+
+In this assignment you’ll learn to refactor and reformat code.
+
+### Synopsis
+
+*   **Practice**
+*   **Due**: 7am the day of [class 3][c3]
+*   **Results**: [Gallery][style-gallery]
+
+### Tips
+
+*   [`prettier`](https://github.com/prettier/prettier)
+    (**JavaScript**)
+    — Opinionated code formatter
+*   [`standard`](https://github.com/standard/standard)
+    (**JavaScript**)
+    — Standard style
+*   [`xo`](https://github.com/sindresorhus/xo)
+    (**JavaScript**)
+    — Happiness style
+*   [`eslint`](https://github.com/eslint/eslint)
+    (**JavaScript**)
+    — Fully pluggable style
+*   [`stylelint`](https://github.com/stylelint/stylelint)
+    (**CSS**)
+    — Mighty, modern linter
+*   [Code Guide](http://codeguide.co)
+    (**HTML** and **CSS**)
+    — Flexible, durable, and sustainable code standards
+
+### Description
+
+For this assignment you’re going to reformat code to make a donut chart in your
+own style.  Feel free to use any of the [tips][tips-1] above to check or format
+code.  Choose any style that makes sense to you.
+
+*   First, copy the files `index.csv`, `index.css`, `index.html`, and
+    `index.js` from [`site/class-2/style`][style-starter] to your
+    computer and get them working without changing any code yet
+*   Note that the CSS, HTML, and JS are minified: they’re great for computers,
+    but not so much for humans
+*   Now, reformat `index.css`, `index.html`, and `index.js` to match your
+    preferred style: something readable and usable by humans.  Use the quotes
+    and white-space you like, pick good variable names, and reorder stuff where
+    needed
+
+Hand in your reformatted code in a directory `username` (in my case `wooorm`)
+to `site/class-2-style/` by creating a pull request.
+
 ## `debugger;`
 
 [![][debug-cover]][debug-cover-source]
@@ -188,60 +242,6 @@ uses `d3@3` instead of `d3@4`.
 
 Hand in your bug-free and upgraded code in a directory `username` (in my case
 `wooorm`) to `site/class-2-debug/` by creating a pull request.
-
-## Style
-
-[![][style-cover]][style-cover-source]
-
-> Elegant man with a laptop by [**@flenjoore**][style-cover-author].
-
-In this assignment you’ll learn to refactor and reformat code.
-
-### Synopsis
-
-*   **Practice**
-*   **Due**: 7am the day of [class 3][c3]
-*   **Results**: [Gallery][style-gallery]
-
-### Tips
-
-*   [`prettier`](https://github.com/prettier/prettier)
-    (**JavaScript**)
-    — Opinionated code formatter
-*   [`standard`](https://github.com/standard/standard)
-    (**JavaScript**)
-    — Standard style
-*   [`xo`](https://github.com/sindresorhus/xo)
-    (**JavaScript**)
-    — Happiness style
-*   [`eslint`](https://github.com/eslint/eslint)
-    (**JavaScript**)
-    — Fully pluggable style
-*   [`stylelint`](https://github.com/stylelint/stylelint)
-    (**CSS**)
-    — Mighty, modern linter
-*   [Code Guide](http://codeguide.co)
-    (**HTML** and **CSS**)
-    — Flexible, durable, and sustainable code standards
-
-### Description
-
-For this assignment you’re going to reformat code to make a donut chart in your
-own style.  Feel free to use any of the [tips][tips-2] above to check or format
-code.  Choose any style that makes sense to you.
-
-*   First, copy the files `index.csv`, `index.css`, `index.html`, and
-    `index.js` from [`site/class-2/style`][style-starter] to your
-    computer and get them working without changing any code yet
-*   Note that the CSS, HTML, and JS are minified: they’re great for computers,
-    but not so much for humans
-*   Now, reformat `index.css`, `index.html`, and `index.js` to match your
-    preferred style: something readable and usable by humans.  Use the quotes
-    and white-space you like, pick good variable names, and reorder stuff where
-    needed
-
-Hand in your reformatted code in a directory `username` (in my case `wooorm`)
-to `site/class-2-style/` by creating a pull request.
 
 [inspiration-cover]: images/olympic-feathers.jpg
 
@@ -305,7 +305,7 @@ to `site/class-2-style/` by creating a pull request.
 
 [play]: class-1.md#playing-with-svg
 
-[tips-2]: #tips-2
+[tips-1]: #tips-1
 
 [debug-starter]: site/class-2/debug
 
