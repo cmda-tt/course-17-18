@@ -3,8 +3,8 @@
 *   [`books.jpg`](books.jpg)
     ([**source**](https://unsplash.com/photos/YjVa-F9P9kk))
     — Scaled and cropped
-*   [`bug.jpg`](bug.jpg)
-    ([**source**](https://unsplash.com/photos/aIQDQ6JzUnU))
+*   [`ducks.jpg`](ducks.jpg)
+    ([**source**](https://unsplash.com/photos/59yg_LpcvzQ))
     — Scaled and cropped
 *   [`buildings.jpg`](buildings.jpg)
     ([**source**](https://github.com/bertspaan/buildings/tree/gh-pages/high-res))

@@ -143,7 +143,7 @@ text editor and upload it when done (tip: see [**substep 3**][c1pd3] from
 
 [![][debug-cover]][debug-cover-source]
 
-> Cornish Hospitality by [**@robpotter**][debug-cover-author].
+> Yellow Ducks by [**@andreuuuw**][debug-cover-author].
 
 In this assignment you’ll learn to debug and upgrade code.
 
@@ -261,11 +261,11 @@ to `site/class-2-style/` by creating a pull request.
 
 [style-cover-author]: https://unsplash.com/@flenjoore
 
-[debug-cover]: images/bug.jpg
+[debug-cover]: images/ducks.jpg
 
-[debug-cover-source]: https://unsplash.com/photos/aIQDQ6JzUnU
+[debug-cover-source]: https://unsplash.com/photos/59yg_LpcvzQ
 
-[debug-cover-author]: https://unsplash.com/@robpotter
+[debug-cover-author]: https://unsplash.com/@andreuuuw
 
 [readme]: #do-you-read-me
 
