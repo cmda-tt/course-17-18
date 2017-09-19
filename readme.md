@@ -184,7 +184,7 @@ The table below breaks down the general time needed to complete activities.
 *   🆓 [Re-introduction to JavaScript](https://developer.mozilla.org/Web/JavaScript/A_re-introduction_to_JavaScript)
     (**article**) — Short re-introduction to JavaScript
 *   🆓 [JavaScript Essentials](https://www.lynda.com/JavaScript-tutorials/JavaScript-Essential-Training/574716-2.html)
-    (**course**) — Learn the essentials of JavaScript on Lynda
+    (**course**) — Learn JavaScript on Lynda
     (free for HvA students through our [portal][lynda-portal])
 *   🆓 [JavaScript For Cats](http://jsforcats.com)
     (**book**) — Intro to JavaScript for new programmers
