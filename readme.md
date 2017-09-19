@@ -170,7 +170,7 @@ The table below breaks down the general time needed to complete activities.
     Packt Publishing, 2014](https://github.com/pnavarrc/mastering-d3)
     (**optional**)
 *   🆓 [D3.js Essentials](https://www.lynda.com/D3-js-tutorials/Welcome/504428/549380-4.html)
-    (**optional**)
+    on Lynda (**optional**)
 
 > 💁 The three books are free for HvA students through
 > [Safari Bookshelves][bookshelves].
