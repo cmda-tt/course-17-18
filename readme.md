@@ -170,9 +170,13 @@ The table below breaks down the general time needed to complete activities.
     _Mastering D3.js_.
     Packt Publishing, 2014](https://github.com/pnavarrc/mastering-d3)
     (**optional**)
+*   🆓 [D3.js Essentials](https://www.lynda.com/D3-js-tutorials/Welcome/504428/549380-4.html)
+    (**optional**)
 
-> 💁 The three optional books are free to HvA students through
+> 💁 The three books are free for HvA students through
 > [Safari Bookshelves][bookshelves].
+>
+> Lynda is free for HvA students through our [portal][lynda-portal].
 
 #### Resources to refresh your memory
 
@@ -182,7 +186,7 @@ The table below breaks down the general time needed to complete activities.
     (**article**) — Short re-introduction to JavaScript
 *   🆓 [JavaScript Essentials](https://www.lynda.com/JavaScript-tutorials/JavaScript-Essential-Training/574716-2.html)
     (**course**) — Learn the essentials of JavaScript on Lynda
-    (free for HvA students through our [portal](https://lyndaportal.ict.hva.nl))
+    (free for HvA students through our [portal][lynda-portal])
 *   🆓 [JavaScript For Cats](http://jsforcats.com)
     (**book**) — Intro to JavaScript for new programmers
 *   🆓 [JavaScript 30](https://javascript30.com)
@@ -353,6 +357,8 @@ Docs and images: [CC-BY-NC-SA-4.0][].
 [html-css]: http://learn.shayhowe.com/html-css/
 
 [bookshelves]: http://rps.hva.nl:2048/login?url=http://proquest.safaribooksonline.com/?uicode=hva
+
+[lynda-portal]: https://lyndaportal.ict.hva.nl
 
 [ydkjs-1]: https://github.com/getify/You-Dont-Know-JS/blob/master/up%20&%20going/README.md#you-dont-know-js-up--going
 
