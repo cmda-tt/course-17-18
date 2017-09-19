@@ -22,7 +22,7 @@ data.
 
 ## Rubric
 
-<!--lint disable maximum-line-length-->
+<!--lint disable no-html maximum-line-length-->
 
 <table>
   <thead>
@@ -71,19 +71,17 @@ data.
   </tbody>
 </table>
 
-<!--lint enable maximum-line-length-->
-
 ## Goals
 
 **Assessment 1** tests that you’ve attained the following knowledge:
 
 *   [SVG and canvas][s1]
-*   [Data formats][s2]
-*   [Debug code][s3]
-*   [Refactor code][s4]
-*   [Read documentation][s5]
-*   [Write documentation][s6]
-*   [Scales, domains, ranges, and labels][s7]
+*   [Parse Data formats][s2]
+*   [Read][s3] and [write][s4] docs
+*   [Debug][s5] and [refactor][s6] code
+*   Use [scales][s7]
+
+<!--lint enable no-html maximum-line-length-->
 
 [basic]: https://github.com/d3/d3/wiki/Gallery#basic-charts
 
