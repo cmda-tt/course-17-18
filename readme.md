@@ -180,9 +180,9 @@ The table below breaks down the general time needed to complete activities.
     (**course**) — Intro to JavaScript: Learn to code interactively
 *   🆓 [Re-introduction to JavaScript](https://developer.mozilla.org/Web/JavaScript/A_re-introduction_to_JavaScript)
     (**article**) — Short re-introduction to JavaScript
-*   🆓 [JavaScript essentials](https://www.lynda.com/JavaScript-tutorials/JavaScript-Essential-Training/574716-2.html)
-    (**course**) — Learn the essentials of JavaScript including ES6.
-    Login through our [portal](https://lyndaportal.ict.hva.nl)
+*   🆓 [JavaScript Essentials](https://www.lynda.com/JavaScript-tutorials/JavaScript-Essential-Training/574716-2.html)
+    (**course**) — Learn the essentials of JavaScript on Lynda
+    (free for HvA students through our [portal](https://lyndaportal.ict.hva.nl))
 *   🆓 [JavaScript For Cats](http://jsforcats.com)
     (**book**) — Intro to JavaScript for new programmers
 *   🆓 [JavaScript 30](https://javascript30.com)
@@ -197,9 +197,6 @@ The table below breaks down the general time needed to complete activities.
     (**article**) — Learn Node the Node way
 *   🆓 [NodeSchool](https://nodeschool.io/amsterdam/)
     (**meetup**) — Open source workshops that teach web software skills
-*   🆓 [Lynda](https://www.lynda.com/)
-    (**course**) — Lynda offers lots of handy courses available for free to HvA
-    students through our [portal](https://lyndaportal.ict.hva.nl)
 *   💸 [Learn Node](https://learnnode.com)
     (**course**) — Learn to build apps with Node, Express, and more (offers
     student discount)
