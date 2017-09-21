@@ -4,6 +4,7 @@
 
 *   [Synopsis](#synopsis)
 *   [Description](#description)
+*   [Data](#data)
 *   [Goals](#goals)
 *   [Rubric](#rubric)
 
@@ -11,14 +12,160 @@
 
 *   **Weight**: 20%
 *   **Type**: Remote
-*   **Date**:
-    [24 hours][calendar] before [class 3][c3] —
-    03-10 (ID 3), 04-10 (ID 1), or 05-10 (ID 2)
+*   **Date**: 03-10 (ID 3), 04-10 (ID 1), or 05-10 (ID 2)
+*   **Time**: [24 hours][calendar] before [class 3][c3]
 
 ## Description
 
 In **assessment 1** you’ll make a “[Basic][]” visualisation based on given
-data.
+[data][].
+
+## Data
+
+### Monthly temperature time series
+
+Homogenised monthly temperature time series of De Bilt (1901-present).  Cleaned
+from [`knmi.nl`][temperature-source].
+
+Download [`assessment-1/temperature.csv`][temperature-clean].
+
+###### Format
+
+Comma-separated values (CSV) with 1400 rows and two columns:
+
+*   `date` — Date in `YYYYMMDD`
+*   `temp` — Homogenised monthly temperature in degrees celsius
+
+###### Example
+
+```csv
+date,temp
+19010131,-0.424
+19010228,-0.761
+19010331,3.369
+19010430,8.782
+19010531,12.181
+...
+20170430,8.44
+20170531,14.854
+20170630,17.926
+20170731,17.828
+20170831,17.131
+```
+
+### Top languages by number of speaker
+
+Languages listed as having 50 million or more speakers.  Crawled from
+[`wikipedia.org`][languages-source].
+
+Download [`assessment-1/languages.tsv`][languages-clean].
+
+###### Format
+
+Tab-separated values (TSV) with 26 rows and two columns:
+
+*   `language` — Name of language
+*   `speakers` — Estimated number of total speakers
+
+###### Example
+
+<!--lint disable no-tabs-->
+
+```tsv
+language	speakers
+Mandarin Chinese	1090000000
+English	983000000
+Hindustani	544000000
+Spanish	527000000
+Arabic	422000000
+...
+Marathi	74000000
+Yue Chinese	72000000
+Turkish	71000000
+Vietnamese	68000000
+Italian	66000000
+```
+
+<!--lint enable no-tabs-->
+
+### Population without indoor toilet
+
+Percentage of the population living in a dwelling without indoor flushing toilet
+for the sole use of the household.  Cleaned from
+[`data.europa.eu`][toilets-source].
+
+Download [`assessment-1/toilets.json`][toilets-clean].
+
+###### Format
+
+JavaScript Object Notation (JSON) with 34 rows and 2+ columns:
+
+*   `code` — ISO 3166-1 country code
+*   `country` — Human readable country name
+*   `2005`  …  `2016` — Percentage of population without a toilet if known
+    and `null` otherwise
+
+###### Example
+
+```js
+[
+  {
+    "2005": 1.5,
+    "2006": 0.9,
+    "2007": 1.5,
+    "2008": 1.5,
+    "2009": 1.3,
+    "2010": 1.2,
+    "2011": 1.2,
+    "2012": 1,
+    "2013": 1,
+    "2014": 1,
+    "2015": 1,
+    "2016": 0.9,
+    "code": "AT",
+    "country": "Austria"
+  },
+  // ...
+  {
+    "2005": 1,
+    "2006": 0.8,
+    "2007": 0.8,
+    "2008": 0.6,
+    "2009": 0.5,
+    "2010": 0.5,
+    "2011": 0.1,
+    "2012": 0.3,
+    "2013": 0.2,
+    "2014": 0.4,
+    "2015": 0.4,
+    "2016": 0.4,
+    "code": "GB",
+    "country": "United Kingdom"
+  }
+]
+```
+
+### Other data
+
+Feel free to use other data sets.  For example, from:
+
+*   [`data.amsterdam.nl`](https://data.amsterdam.nl)
+    — Amsterdam City Data
+*   [`data.overheid.nl`](https://data.overheid.nl)
+    — Dutch National Data
+*   [`cbs.nl/figures`](https://www.cbs.nl/en-gb/figures)
+    — Database of Statistics Netherlands
+*   [`projects.knmi.nl`](https://projects.knmi.nl/klimatologie)
+    — Weather data in the Netherlands
+*   [`data.europa.eu`](https://data.europa.eu/euodp/en/home)
+    — European Union Open Data Portal
+*   [`data.un.org`](http://data.un.org)
+    — European Union Open Data Portal (🔓)
+*   [`data.oecd.org`](https://data.oecd.org)
+    — Organisation for Economic Co-operation and Development data portal
+*   [`fivethirtyeight/data`](https://github.com/fivethirtyeight/data)
+    — Data and code behind the stories and inter-actives at
+    [FiveThirtyEight](http://fivethirtyeight.com)
 
 ## Goals
 
@@ -89,7 +236,9 @@ data.
 
 [calendar]: readme.md#calendar
 
-[c3]: class-3.md
+[data]: #data
+
+[c3]: ../class-3.md
 
 [s1]: ../readme.md#subgoal-1
 
@@ -104,3 +253,15 @@ data.
 [s6]: ../readme.md#subgoal-6
 
 [s7]: ../readme.md#subgoal-7
+
+[temperature-source]: https://www.knmi.nl/kennis-en-datacentrum/achtergrond/gehomogeniseerde-reeks-maandtemperaturen-de-bilt
+
+[temperature-clean]: temperature.csv
+
+[languages-source]: https://en.wikipedia.org/wiki/List_of_languages_by_total_number_of_speakers
+
+[languages-clean]: languages.tsv
+
+[toilets-source]: http://data.europa.eu/euodp/en/data/dataset/uuXBX1CHvFKRWmCuLAKA
+
+[toilets-clean]: toilets.json
