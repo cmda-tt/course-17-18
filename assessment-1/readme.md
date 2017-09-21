@@ -4,8 +4,8 @@
 
 *   [Synopsis](#synopsis)
 *   [Description](#description)
-*   [Data](#data)
 *   [Goals](#goals)
+*   [Data](#data)
 *   [Rubric](#rubric)
 
 ## Synopsis
@@ -19,6 +19,16 @@
 ## Description
 
 In **assessment 1** you’ll make a [basic][] visualisation from given [data][].
+
+## Goals
+
+**Assessment 1** tests that you’ve attained the following knowledge:
+
+*   [SVG and canvas][s1]
+*   [Parse Data formats][s2]
+*   [Read][s3] and [write][s4] docs
+*   [Debug][s5] and [refactor][s6] code
+*   Use [scales][s7]
 
 ## Data
 
@@ -166,16 +176,6 @@ Feel free to use other data sets.  For example, from:
 *   [`fivethirtyeight/data`](https://github.com/fivethirtyeight/data)
     — Data and code behind the stories and inter-actives at
     [FiveThirtyEight](http://fivethirtyeight.com)
-
-## Goals
-
-**Assessment 1** tests that you’ve attained the following knowledge:
-
-*   [SVG and canvas][s1]
-*   [Parse Data formats][s2]
-*   [Read][s3] and [write][s4] docs
-*   [Debug][s5] and [refactor][s6] code
-*   Use [scales][s7]
 
 ## Rubric
 
