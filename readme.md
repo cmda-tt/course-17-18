@@ -378,7 +378,7 @@ Docs and images: [CC-BY-NC-SA-4.0][].
 
 [a2]: assessment-2
 
-[a3]: assessment-3.md
+[a3]: assessment-3
 
 [bachelor]: https://www.cmd-amsterdam.nl/english/
 
