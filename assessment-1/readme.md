@@ -12,6 +12,7 @@
 
 *   **Weight**: 20%
 *   **Type**: Remote
+*   **[Rubric][]**
 *   **Date**: 03-10 (ID 3), 04-10 (ID 1), or 05-10 (ID 2)
 *   **Time**: [24 hours][calendar] before [class 3][c3]
 
@@ -236,6 +237,8 @@ Feel free to use other data sets.  For example, from:
 [calendar]: readme.md#calendar
 
 [data]: #data
+
+[rubric]: #rubric
 
 [c3]: ../class-3.md
 
