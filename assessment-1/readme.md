@@ -234,8 +234,6 @@ Feel free to use other data sets.  For example, from:
 
 [basic]: https://github.com/d3/d3/wiki/Gallery#basic-charts
 
-[calendar]: readme.md#calendar
-
 [data]: #data
 
 [rubric]: #rubric
@@ -255,6 +253,8 @@ Feel free to use other data sets.  For example, from:
 [s6]: ../readme.md#subgoal-6
 
 [s7]: ../readme.md#subgoal-7
+
+[calendar]: ../readme.md#calendar
 
 [temperature-source]: https://www.knmi.nl/kennis-en-datacentrum/achtergrond/gehomogeniseerde-reeks-maandtemperaturen-de-bilt
 
