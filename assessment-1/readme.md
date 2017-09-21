@@ -25,7 +25,7 @@ In **assessment 1** you’ll make a [basic][] visualisation from given [data][].
 **Assessment 1** tests that you’ve attained the following knowledge:
 
 *   [SVG and canvas][s1]
-*   [Parse Data formats][s2]
+*   [Parse data formats][s2]
 *   [Read][s3] and [write][s4] docs
 *   [Debug][s5] and [refactor][s6] code
 *   Use [scales][s7]
