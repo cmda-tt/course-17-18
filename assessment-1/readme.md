@@ -17,8 +17,7 @@
 
 ## Description
 
-In **assessment 1** you’ll make a “[Basic][]” visualisation based on given
-[data][].
+In **assessment 1** you’ll make a [basic][] visualisation from given [data][].
 
 ## Data
 
