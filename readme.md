@@ -108,9 +108,9 @@ In practice you’ll learn to:
 | Task                        | Weight |
 | --------------------------- | -----: |
 | Participation※              |    10% |
-| [Assessment 1 (remote)][a1] |    20% |
-| [Assessment 2 (remote)][a2] |    30% |
-| [Assessment 3 (oral)][a3]   |    40% |
+| [Assessment 1][a1] (remote) |    20% |
+| [Assessment 2][a2] (remote) |    30% |
+| [Assessment 3][a3] (oral)   |    40% |
 | **Total**                   |   100% |
 
 > ※ Participation is calculated based on participation in class and whether
@@ -125,13 +125,13 @@ date, time, and place.
 | ------------------------------- | :-------: | :-------: | :-------------: |
 | [Class 1][c1]                   |   25-09   |   26-09   |      25-09      |
 | [Class 2][c2]                   |   02-10   |   04-10   |      02-10      |
-| [**Assessment 1** (remote)][a1] |   04-10※  |   05-10※  |      03-10※     |
+| [**Assessment 1**][a1] (remote) |   04-10※  |   05-10※  |      03-10※     |
 | [Class 3][c3]                   |   05-10   |   06-10   |      04-10      |
 | [Class 4][c4]                   |   09-10   |   11-10   |      09-10      |
-| [**Assessment 2** (remote)][a2] |   11-10※  |   12-10※  |      10-10※     |
+| [**Assessment 2**][a2] (remote) |   11-10※  |   12-10※  |      10-10※     |
 | [Class 5][c5]                   |   12-10   |   13-10   |      11-10      |
 | [Class 6][c6]                   |   16-10   |   17-10   |      16-10      |
-| [**Assessment 3** (oral)][a3]   |   19-10   |   20-10   | 18-10 and 20-10 |
+| [**Assessment 3**][a3] (oral)   |   19-10   |   20-10   | 18-10 and 20-10 |
 | **Resit**                       |   01-02   |   31-01   |      02-02      |
 
 > ※ Assessments 1 and 2 are to be handed in 24 hours before the start of the
@@ -145,9 +145,9 @@ The table below breaks down the general time needed to complete activities.
 | ------------------------------------- | -----------: |
 | Class (6 × 2½hrs)                     |           15 |
 | Assignments due next class (5 × 5hrs) |           25 |
-| Assessment 1                          |            4 |
-| Assessment 2                          |            8 |
-| Assessment 3                          |           12 |
+| [Assessment 1][a1]                    |            4 |
+| [Assessment 2][a2]                    |            8 |
+| [Assessment 3][a3]                    |           12 |
 | Extra※                                |           20 |
 | **Total**                             |       **84** |
 
