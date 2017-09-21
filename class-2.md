@@ -60,7 +60,7 @@ See [class 1][c1a] for assignments due before this class.
 
 ## Assessment
 
-Submit [Assessment 1][a1] at least 24 hours before [class 3][c3].
+Submit [assessment 1][a1] at least 24 hours before [class 3][c3].
 
 ## Do you read me?!
 

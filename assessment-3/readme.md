@@ -7,7 +7,7 @@
 
 # Assessment 3
 
-In **Assessment 3** you’ll visualise given or chosen data in more than one
+In **assessment 3** you’ll visualise given or chosen data in more than one
 visualisations of which at least one must be non-trivial and interactive.
 
 ## Synopsis
