@@ -19,6 +19,18 @@
 
 In **assessment 1** you’ll make a [basic][] visualisation from given [data][].
 
+You _may_ use [other data][other-data] but that probably means you’ll have to
+clean it yourself.  Cleaning data is hard and we’ll cover that in [class 3][c3].
+If you want to clean data, you must do so with code and hand in this code too.
+
+We’ll check how you apply d3, whether you understand what’s happening, how well
+data is represented, and quality of your code and documentation.
+
+For this assessment you’ll build a project in your own repo on GitHub and host
+the project through [GitHub Pages][pages].  First, clone
+`cmda-fe3/assessment-1`.  Then, work on your project and upload the final
+results either using Git or the GitHub interface as covered in [class 1][c1].
+
 ## Goals
 
 **Assessment 1** tests that you’ve attained the following knowledge:
@@ -237,6 +249,10 @@ Feel free to use other data sets.  For example, from:
 
 [rubric]: #rubric
 
+[other-data]: #other-data
+
+[c1]: ../class-1.md
+
 [c3]: ../class-3.md
 
 [s1]: ../readme.md#subgoal-1
@@ -253,8 +269,6 @@ Feel free to use other data sets.  For example, from:
 
 [s7]: ../readme.md#subgoal-7
 
-[calendar]: ../readme.md#calendar
-
 [temperature-source]: https://www.knmi.nl/kennis-en-datacentrum/achtergrond/gehomogeniseerde-reeks-maandtemperaturen-de-bilt
 
 [temperature-clean]: temperature.csv
@@ -266,3 +280,5 @@ Feel free to use other data sets.  For example, from:
 [toilets-source]: http://data.europa.eu/euodp/en/data/dataset/uuXBX1CHvFKRWmCuLAKA
 
 [toilets-clean]: toilets.json
+
+[pages]: https://pages.github.com
