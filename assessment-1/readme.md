@@ -160,21 +160,21 @@ JavaScript Object Notation (JSON) with 34 rows and 2+ columns:
 Feel free to use other data sets.  For example, from:
 
 *   [`data.amsterdam.nl`](https://data.amsterdam.nl)
-    — Amsterdam City Data
+    — Amsterdam city data
 *   [`data.overheid.nl`](https://data.overheid.nl)
-    — Dutch National Data
-*   [`cbs.nl/figures`](https://www.cbs.nl/en-gb/figures)
-    — Database of Statistics Netherlands
+    — Dutch national data
+*   [`cbs.nl`](https://www.cbs.nl/en-gb/figures)
+    — Data of Statistics Netherlands
 *   [`projects.knmi.nl`](https://projects.knmi.nl/klimatologie)
     — Weather data in the Netherlands
 *   [`data.europa.eu`](https://data.europa.eu/euodp/en/home)
-    — European Union Open Data Portal
+    — European Union open data
 *   [`data.un.org`](http://data.un.org)
-    — European Union Open Data Portal (🔓)
+    — United Nations data
 *   [`data.oecd.org`](https://data.oecd.org)
-    — Organisation for Economic Co-operation and Development data portal
+    — Organisation for Economic Co-operation and Development data
 *   [`fivethirtyeight/data`](https://github.com/fivethirtyeight/data)
-    — Data and code behind the stories and inter-actives at
+    — Data and code behind stories and interactives at
     [FiveThirtyEight](http://fivethirtyeight.com)
 
 ## Rubric
