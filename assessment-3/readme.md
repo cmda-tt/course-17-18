@@ -14,14 +14,10 @@ visualisations of which at least one must be non-trivial and interactive.
 
 *   **Weight**: 40%
 *   **Type**: Oral
-*   **Date**: See [calendar][] and [`rooster.hva.nl`][rooster]
+*   **Grade**: Rubric
+*   **Due**: 19-10 09:20-14:30 (ID 1), 20-10 11:10-17:50 (ID 2),
+    18-10 08:30-11:00 or 20-10 08:30-11:00 (ID 3)
 
 ## Goals
 
 **Assessment 3** tests that you’ve attained the following knowledge:
-
-<!--TODO: add goals-->
-
-[calendar]: readme.md#calendar
-
-[rooster]: https://rooster.hva.nl

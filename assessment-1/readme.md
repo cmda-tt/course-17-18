@@ -12,9 +12,8 @@
 
 *   **Weight**: 20%
 *   **Type**: Remote
-*   **[Rubric][]**
-*   **Date**: 03-10 (ID 3), 04-10 (ID 1), or 05-10 (ID 2)
-*   **Time**: [24 hours][calendar] before [class 3][c3]
+*   **Grade**: [Rubric][]
+*   **Due**: 04-10 12:00 (ID 1), 05-10 15:20 (ID 2), 03-10 15:20 (ID 3)
 
 ## Description
 
