@@ -31,6 +31,31 @@ the project through [GitHub Pages][pages].  First, clone
 `cmda-fe3/assessment-1`.  Then, work on your project and upload the final
 results either using Git or the GitHub interface as covered in [class 1][c1].
 
+How you go about your project and what you hand in is up to you, but we will grade it
+according to the [Rubric][]. If you don't know where to start, you can follow this rough
+guide to tackling this challenge:
+
+* Browse the data sources. Try to make sense of them. Think about what would be an
+interesting aspect to visualize. Download the data source you want to work with.
+* Read the rubrik and figure out what type of chart you want to make and which
+features it will require. For instance, a pie chart showing the proportions of
+popular hobbies in a country won't require axes. So it will be harder to display
+that skill and you will have to compensate by showing off another (like
+customizing the chart in a useful way).
+* Write down your concept in the readme of the cloned repo you're working on. 
+Describe what the purpose of the visualization will be, what data it will
+use, and which features it will have/require. List the features (for
+instance, scale, loading data, labels).
+* Decide on the order in which you want to develop your features 
+and get to work on the first one. When starting work on a new 
+feature, check the relevant materials we provided in class. When you've 
+finished a feature, describe how it works in inline code comments.
+* When you've finished your visualization, try to grade it by using the rubrik. 
+What are your strong points? Which points could use improvement? Make sure your
+readme reflects your work in the manner discussed during the second lecture.
+Is there anything you're particularly proud of or something that was really hard to do?
+Make sure it's featured on your readme so you can get the recognition you deserve. :star2:
+
 ## Goals
 
 **Assessment 1** tests that you’ve attained the following knowledge:
