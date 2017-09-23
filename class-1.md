@@ -40,7 +40,7 @@
 
 ## Assignments
 
-Submit your assignments by 7am the day of [class 2][c2].
+Submit your assignments by 7 a.m. the day of [class 2][c2].
 
 *   [Playing with SVG][play] (**practice**)
 *   [Loading Data][load] (**practice**)
@@ -61,7 +61,7 @@ In this assignment you’ll learn the basics of SVG.
 ### Synopsis
 
 *   **Practice**
-*   **Due**: 7am the day of [class 2][c2]
+*   **Due**: 7 a.m. the day of [class 2][c2]
 *   **Results**: [Gallery][play-gallery]
 
 ### Tips
@@ -259,7 +259,7 @@ formats.  Additionally, you’ll learn to use d3 to request files.
 ### Synopsis
 
 *   **Practice**
-*   **Due**: 7am the day of [class 2][c2]
+*   **Due**: 7 a.m. the day of [class 2][c2]
 *   **Results**: [Gallery][load-gallery]
 
 ### Tips
@@ -458,7 +458,7 @@ modifying an existing bar chart.
 ### Synopsis
 
 *   **Homework**
-*   **Due**: 7am the day of [class 2][c2]
+*   **Due**: 7 a.m. the day of [class 2][c2]
 *   **Results**: [Gallery][bar-gallery]
 
 ### Description

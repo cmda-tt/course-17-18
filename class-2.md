@@ -50,7 +50,7 @@
 
 ## Assignments
 
-Submit your assignments by 7am the day of [class 3][c3].
+Submit your assignments by 7 a.m. the day of [class 3][c3].
 
 *   [Do you read me?!][readme]  (**practice**)
 *   [Style][style] (**practice**)
@@ -71,7 +71,7 @@ Submit [assessment 1][a1] at least 24 hours before [class 3][c3].
 ### Synopsis
 
 *   **Practice**
-*   **Due**: 7am the day of [class 3][c3]
+*   **Due**: 7 a.m. the day of [class 3][c3]
 *   **Results**: [GitHub][readme-gallery]
 
 ### Tips
@@ -150,7 +150,7 @@ In this assignment you’ll learn to refactor and reformat code.
 ### Synopsis
 
 *   **Practice**
-*   **Due**: 7am the day of [class 3][c3]
+*   **Due**: 7 a.m. the day of [class 3][c3]
 *   **Results**: [Gallery][style-gallery]
 
 ### Tips
@@ -204,7 +204,7 @@ In this assignment you’ll learn to debug and upgrade code.
 ### Synopsis
 
 *   **Practice**
-*   **Due**: 7am the day of [class 3][c3]
+*   **Due**: 7 a.m. the day of [class 3][c3]
 *   **Results**: [Gallery][debug-gallery]
 
 ### Tips
