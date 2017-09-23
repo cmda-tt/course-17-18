@@ -67,7 +67,7 @@ needed.
 
 Include anything you’re particularly proud of and mention anything that was
 exceptionally hard to accomplish in your readme to make sure lecturers don’t
-miss it!  :star2:
+miss it!  🌟
 
 ## Goals
 
