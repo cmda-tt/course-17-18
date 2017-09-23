@@ -29,6 +29,6 @@ Based on work CC BY-NC-SA 1.0 © Scott D. Anderson
 
 [cover]: preview.png
 
-[url]: https://cmda-fe3.github.io/course-17-18/class-3/rgb
+[url]: https://cmda-fe3.github.io/course-17-18/class-3/hsl
 
 [three]: https://threejs.org
