@@ -34,8 +34,8 @@ results either using Git or the GitHub interface as covered in [class 1][c1].
 ## Workflow
 
 How you go about your project is up to you other than that it must meet the
-aforementioned requirements.  However, the following steps may help to tackle
-this challenge:
+aforementioned requirements.  The following steps may help to tackle this
+challenge though.
 
 ###### Explore
 
@@ -53,20 +53,21 @@ Pick the most enticing data and copy it to your fork.
 ###### Process
 
 Describe the purpose and background of your visualisation in your fork’s readme.
-Portray your data.  List the d3 features.
+Portray your data and list the d3 features.
 
 Start writing code.  Feel free to use example code found on the web but make
 sure to include correct citations.  Use inline code comments to describe
-anything of interest.
+anything of interest.  Don’t forget to document your process.
 
 ###### Review
 
-Finish up your readme and review your project.  Audit the code and
-documentation.  Evaluate whether the project matches our [rubric][] and make
-changes where needed.
+Finish up your readme and review your project.  Audit the code and docs.
+Evaluate whether the project matches our [rubric][] and make changes where
+needed.
 
-Include anything you’re particularly proud of in your readme to make sure
-lecturers don’t miss it!  :star2:
+Include anything you’re particularly proud of and mention anything that was
+exceptionally hard to accomplish in your readme to make sure lecturers don’t
+miss it!  :star2:
 
 ## Goals
 
