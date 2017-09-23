@@ -31,33 +31,42 @@ the project through [GitHub Pages][pages].  First, clone
 `cmda-fe3/assessment-1`.  Then, work on your project and upload the final
 results either using Git or the GitHub interface as covered in [class 1][c1].
 
-How you go about your project and what you hand in is up to you, but we will
-grade it according to the [rubric][].  If you don’t know where to start, you
-can follow this rough guide to tackling this challenge:
+## Workflow
 
-*   Browse the data sources.  Try to make sense of them.  Think about what would
-    be an interesting aspect to visualise.  Download the data source you want to
-    work with.
-*   Read the rubric and figure out what type of chart you want to make and which
-    features it will require.  For instance, a pie chart showing the proportions
-    of popular hobbies in a country won’t require axes.  So it will be harder to
-    display that skill and you will have to compensate by showing off another
-    (like customising the chart in a useful way).
-*   Write down your concept in the readme of the cloned repo you’re working on.
-    Describe what the purpose of the visualisation will be, what data it will
-    use, and which features it will have/require.  List the features (for
-    instance, scale, loading data, labels).
-*   Decide on the order in which you want to develop your features and get to
-    work on the first one.  When starting work on a new feature, check the
-    relevant materials we provided in class.  When you’ve finished a feature,
-    describe how it works in inline code comments.
-*   When you’ve finished your visualisation, try to grade it by using the
-    rubric.  What are your strong points?  Which points could use improvement?
-    Make sure your readme reflects your work in the manner discussed during the
-    second lecture.
-    Is there anything you’re particularly proud of or something that was really
-    hard to do?  Make sure it’s featured on your readme so you can get the
-    recognition you deserve.  :star2:
+How you go about your project is up to you other than that it must meet the
+aforementioned requirements.  However, the following steps may help to tackle
+this challenge:
+
+###### Explore
+
+Explore the [data][].  Make sense of the rows, columns, and what they contain.
+Investigate interesting aspects and possible outcomes.  Figure out what type of
+chart you want and sketch your visualisation.
+
+List the features needed to make your chart work and make sure they match our
+[rubric][].  For example, pie charts or donut charts often lack features needed
+to get good grades in the **application of subject matter** category.  You must
+compensate with other useful features to get a good grade in this case.
+
+Pick the most enticing data and copy it to your fork.
+
+###### Process
+
+Describe the purpose and background of your visualisation in your fork’s readme.
+Portray your data.  List the d3 features.
+
+Start writing code.  Feel free to use example code found on the web but make
+sure to include correct citations.  Use inline code comments to describe
+anything of interest.
+
+###### Review
+
+Finish up your readme and review your project.  Audit the code and
+documentation.  Evaluate whether the project matches our [rubric][] and make
+changes where needed.
+
+Include anything you’re particularly proud of in your readme to make sure
+lecturers don’t miss it!  :star2:
 
 ## Goals
 
