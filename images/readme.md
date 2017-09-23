@@ -15,6 +15,9 @@
 *   [`information-design.png`](information-design.png)
     ([**source**](https://moodle.cmd.hva.nl/course/view.php?id=408))
     — Used as is
+*   [`meetbaar-geluk.jpg`](meetbaar-geluk.jpg)
+    ([**source**](https://nickrttn.github.io/Frontend-3/))
+    — Screenshot of website
 *   [`olympic-feathers.jpg`](olympic-feathers.jpg)
     ([**source**](https://github.com/nbremer/olympicfeathers))
     — Screenshot of website with some labels removed
