@@ -249,8 +249,8 @@ If you have questions:
 *   [Search StackOverflow][stackoverflow]
 *   Use a search engine (like [DuckDuckGo][])
 *   [Ask questions on Slack][slack]
-*   [Contact a lecturer][synopsis]
 *   [Open an issue][issue]
+*   [Contact a lecturer][synopsis]
 
 ## Semester
 
