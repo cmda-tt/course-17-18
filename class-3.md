@@ -6,19 +6,25 @@
 
 > Measurable happiness by [**@nickrttn**][inspiration-author].
 
+## Synopsis
+
+*   **Date**: 05-10 (ID 1), 06-10 (ID 2), or 04-10 (ID 3)
+*   **Slides**
+*   **Examples**
+
 ## Schedule
 
-*   Intro to loading and cleaning external data
-    ([**subgoal 2**][s2], [**subgoal 8**][s8], and [**subgoal 9**][s9])
-*   Core d3: the enter / update / exit loop
-    ([**subgoal 10**][s10] and [**subgoal 11**][s11])
+*   Arrays
+*   Cleaning data
+*   Selections
+*   Transitions
+*   Colours
 
 ## Assignments
 
-Assignments due before [class 4][c4]:
+Submit your assignments by 7 a.m. the day of [class 4][c4].
 
-*   **Homework** — Create a real-time visualisation with polling from a given
-    source
+*   TODO
 
 See [class 2][c2] for assignments due before this class.
 
@@ -31,13 +37,3 @@ See [class 2][c2] for assignments due before this class.
 [c2]: class-2.md#assignments
 
 [c4]: class-4.md
-
-[s2]: readme.md#subgoal-2
-
-[s8]: readme.md#subgoal-8
-
-[s9]: readme.md#subgoal-9
-
-[s10]: readme.md#subgoal-10
-
-[s11]: readme.md#subgoal-11
