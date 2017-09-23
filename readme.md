@@ -169,7 +169,6 @@ The table below breaks down the general time needed to complete activities.
 
 > 💁 The three books are free for HvA students through
 > [Safari Bookshelves][bookshelves].
->
 > Lynda is free for HvA students through our [portal][lynda-portal].
 
 #### Resources to refresh your memory
