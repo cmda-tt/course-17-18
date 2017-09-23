@@ -141,18 +141,15 @@ date, time, and place.
 
 The table below breaks down the general time needed to complete activities.
 
-| Activity                              | Effort (hrs) |
-| ------------------------------------- | -----------: |
-| Class (6 × 2½hrs)                     |           15 |
-| Assignments due next class (5 × 5hrs) |           25 |
-| [Assessment 1][a1]                    |            4 |
-| [Assessment 2][a2]                    |            8 |
-| [Assessment 3][a3]                    |           12 |
-| [Extra][extra]※                       |           20 |
-| **Total**                             |       **84** |
-
-> ※ [Extra time][extra] can be spent on extra resources or to add extra detail
-> to assignments and assessments.
+| Activity               | Effort (hrs) |
+| ---------------------- | -----------: |
+| Class (6 × 2½hrs)      |           15 |
+| Assignments (5 × 5hrs) |           25 |
+| [Assessment 1][a1]     |            4 |
+| [Assessment 2][a2]     |            8 |
+| [Assessment 3][a3]     |           12 |
+| [Extra][extra]         |           20 |
+| **Total**              |       **84** |
 
 ## Materials
 
