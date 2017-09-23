@@ -27,47 +27,10 @@ We’ll check how you apply d3, whether you understand what’s happening, how w
 data is represented, and quality of your code and documentation.
 
 For this assessment you’ll build a project in your own repo on GitHub and host
-the project through [GitHub Pages][pages].  First, clone
-`cmda-fe3/assessment-1`.  Then, work on your project and upload the final
-results either using Git or the GitHub interface as covered in [class 1][c1].
-
-## Workflow
-
-How you go about your project is up to you other than that it must meet the
-aforementioned requirements.  The following steps may help to tackle this
-challenge though.
-
-###### Explore
-
-Explore the [data][].  Make sense of the rows, columns, and what they contain.
-Investigate interesting aspects and possible outcomes.  Figure out what type of
-chart you want and sketch your visualisation.
-
-List the features needed to make your chart work and make sure they match our
-[rubric][].  For example, pie charts or donut charts often lack features needed
-to get good grades in the **application of subject matter** category.  You must
-compensate with other useful features to get a good grade in this case.
-
-Pick the most enticing data and copy it to your fork.
-
-###### Process
-
-Describe the purpose and background of your visualisation in your fork’s readme.
-Portray your data and list the d3 features.
-
-Start writing code.  Feel free to use example code found on the web but make
-sure to include correct citations.  Use inline code comments to describe
-anything of interest.  Don’t forget to document your process.
-
-###### Review
-
-Finish up your readme and review your project.  Audit the code and docs.
-Evaluate whether the project matches our [rubric][] and make changes where
-needed.
-
-Include anything you’re particularly proud of and mention anything that was
-exceptionally hard to accomplish in your readme to make sure lecturers don’t
-miss it!  🌟
+the project through [GitHub Pages][pages].  First, fork
+[`cmda-fe3/fe3-assessment-1`][starter-code].  Then, work on your project and
+upload the final results to your fork either using Git or the GitHub interface
+as covered in [class 1][c1].
 
 ## Goals
 
@@ -282,6 +245,8 @@ Feel free to use other data sets.  For example, from:
 [banner]: https://cdn.rawgit.com/cmda-fe3/logo/3b150735/banner-assessment-1.svg
 
 [basic]: https://github.com/d3/d3/wiki/Gallery#basic-charts
+
+[starter-code]: https://github.com/cmda-fe3/fe3-assessment-1
 
 [data]: #data
 
