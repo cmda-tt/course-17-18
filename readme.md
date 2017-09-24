@@ -107,14 +107,11 @@ In practice you’ll learn to:
 
 | Task                        | Weight |
 | --------------------------- | -----: |
-| Participation※              |    10% |
+| [Participation][]           |    10% |
 | [Assessment 1][a1] (remote) |    20% |
 | [Assessment 2][a2] (remote) |    30% |
 | [Assessment 3][a3] (oral)   |    40% |
 | **Total**                   |   100% |
-
-> ※ Participation is calculated based on performance in class, engaging in
-> assignments, and [extra time][extra].
 
 ## Calendar
 
@@ -148,7 +145,7 @@ The table below breaks down the general time needed to complete activities.
 | [Assessment 1][a1]     |            4 |
 | [Assessment 2][a2]     |            8 |
 | [Assessment 3][a3]     |           12 |
-| [Extra][extra]         |           20 |
+| [Extra][participation] |           20 |
 | **Total**              |       **84** |
 
 ## Materials
@@ -376,7 +373,7 @@ Docs and images: [CC-BY-NC-SA-4.0][].
 
 [a3]: assessment-3
 
-[extra]: extra.md
+[participation]: participation.md
 
 [bachelor]: https://www.cmd-amsterdam.nl/english/
 
