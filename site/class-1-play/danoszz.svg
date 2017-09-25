@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="600" viewBox="0 0 600 400">
+  <!--Update the title with your username-->
+  <title>@danoszz</title>
+
+  <!--Add stuff here-->
+	<circle fill="yellow" cx="150" cy="150" r="100"/>
+	<rect x="50" y="50" width="150" height="150"/>
+	<line x1="50" y1="1000" x2="50" y2="10" stroke-width="10" stroke="red"/>
+	<polygon opacity="0.75" points="60,20 100,40 100,80 60,100 20,80 20,40"/>
+	<path fill="white" fill-rule="evenodd" clip-rule="evenodd" d="M408,139c0.865,8.866-2.11,13.89-2,22c-12.986,5.65-13.854,27.793-19,44
+		c-3.709,11.681-8.093,25.311-18,31c-31.345,18.001-82.645,10.605-102-13c-4.796-5.849-10.889-17.066-15-26
+		c-6.342-13.78-7.012-34.316-25-27c-5.995,2.438-12.297,23.784-17,33c-5.28,10.346-12.995,23.529-20,29
+		c-20.759,16.211-73.237,19.233-95,1c-19.356-16.217-12.336-58.23-33-73c-0.168-7.498-2.801-12.532-2-21
+		c34.372-10.504,86.361-5.878,122,1c17.536,3.384,34.215,10.839,53,10c13.45-0.601,27.571-5.523,41-8
+		C317.306,134.38,360.407,130.135,408,139z"/>
+		<g stroke="pink" fill="green" stroke-width="10">
+				<circle cx="70" cy="25" r="100"/>
+				<circle cx="70" cy="25" r="75"/>
+				<circle cx="70" cy="25" r="50"/>
+				<circle cx="70" cy="25" r="25"/>
+		</g>
+		<defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF6600;stop-opacity:1" />
+      <stop offset="50%" style="stop-color: #FFccdd; stop-opacity:1;" />
+      <stop offset="100%" style="stop-coloR:#FFF000;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <text fill="url(#grad1)" x="50" y="100"  font-family="Verdana" font-size="50">Kom vegte dan!!1!</text>
+
+	<!-- NOTHING TO SEE HERE... MOVE ALONG!!! -->
+
+
+</svg>
