@@ -50,8 +50,8 @@ function onload() {
   /* Be friendly. */
   console.log('Hi @%s 👋', username);
 
-  /* Check if `details.txt` exists. Continue with `rest` if it does. */
-  fetch('./details.txt')
+  /* Check if `dinners.txt` exists. Continue with `rest` if it does. */
+  fetch('./dinners.txt')
     .then(alive)
     .then(rest, warn);
 }
