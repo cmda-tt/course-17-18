@@ -1,0 +1,15 @@
+<!doctype html>
+<meta charset=utf8>
+<title>Debug: Line Breaks</title>
+<h1 style=color:red>🔥🐶☕️ This is fine… 🔥</h1>
+<p>You cannot place line breaks in strings.</p>
+<details>
+  <summary>Fix</summary>
+  <p>Wrap each line in a string and use <code>+</code> to concatenate them together.</p>
+</details>
+<script>
+var title = document.querySelector('h1');
+title.textContent = 'Fixed!
+  🎉';
+title.style.color = 'green';
+</script>

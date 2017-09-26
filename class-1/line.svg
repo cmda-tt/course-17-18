@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+  <title>SVG `&lt;line&gt;` element</title>
+  <line
+    x1="20"
+    y1="120"
+    x2="120"
+    y2="20"
+    stroke-width="20"
+    stroke="black"
+  />
+</svg>

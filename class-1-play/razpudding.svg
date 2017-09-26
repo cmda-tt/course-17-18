@@ -1,0 +1,11 @@
+<svg viewBox="0, 0, 500, 1000" width="1000" height="1000" xmlns="http://www.w3.org/2000/svg">
+  <title>@razpudding</title>
+  <g stroke="blurple" stroke-width="9001">
+    <circle opacity=".5" cx="10" cy="10" r="300" ></circle>
+    <rect x="150" y="10" width="300" height="100" ></rect>
+  </g>
+  <line x1="150" y1="10" x2="200" y2="1350"  stroke-width="4" stroke="goldenrod"></line>
+  <polygon points="200,410 250,190 160,210"></polygon>
+  <path fill="tomatored" d="M150 0 L75 200 L225 200 Z"></path>
+  <text font-family="yes" font-size="20" x="400" y="300">A wimba way a wimba way</text>
+</svg>

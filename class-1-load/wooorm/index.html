@@ -1,0 +1,31 @@
+<!doctype html>
+<meta charset=utf8>
+<title>@wooorm</title>
+<meta content=width=device-width,initial-scale=1 name=viewport>
+<link rel="stylesheet" href="index.css">
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<h1>Dinners</h1>
+<script>
+  var body = document.body;
+
+  d3.csv('index.csv', csv);
+  d3.json('index.json', json);
+
+  function csv(err, data) {
+    if (err) throw err;
+    render('CSV', data);
+  }
+
+  function json(err, data) {
+    if (err) throw err;
+    render('JSON', data);
+  }
+
+  function render(source, data) {
+    body.appendChild(document.createElement('h2')).textContent = source;
+    data.forEach(function (row) {
+      body.appendChild(document.createElement('h3')).textContent = row.day;
+      body.appendChild(document.createElement('p')).textContent = row.dinner;
+    });
+  }
+</script>

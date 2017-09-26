@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+  <title>SVG element order</title>
+  <style>
+    text {text-anchor: middle}
+    rect {fill: #feca2f; opacity: 0.75}
+  </style>
+  <text x="100" y="55">Under</text>
+  <rect x="20" y="20" width="160" height="60" />
+  <rect x="200" y="20" width="160" height="60" />
+  <text x="280" y="55">Above</text>
+</svg>

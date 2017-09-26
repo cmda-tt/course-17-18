@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="nl">
+  <head>
+    <meta charset="utf-8">
+    <title>DOM manipulation</title>
+    <!--link rel="stylesheet" href="index.css"-->
+  </head>
+  <body>
+    <h1>👋, 🌍!</h1>
+    <!--Commentaar-->
+    <!--script src="index.js"></script-->
+    <script>
+      console.log(document.querySelector('h1, h2, h3'))
+      //=> <h1>👋, 🌍!</h1>
+
+      console.log(document.querySelectorAll(':first-child'))
+      //=> NodeList [<head>, <meta>, <h1>] (3)
+
+      var body = document.body
+
+      console.log(body.classList.contains('js'));
+      //=> false
+
+      body.classList.add('js')
+
+      var h1 = document.querySelector('h1');
+
+      console.log(h1.textContent)
+      //=> "👋, 🌍!"
+
+      h1.textContent = "Hello, World!"
+
+      console.log(body.innerHTML)
+      //=> "\n····<h1>Hello,…\n··\n\n"
+
+      body.innerHTML = '<a href=javascript:alert(1)>🎉</a>'
+    </script>
+  </body>
+</html>

@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 170 100">
+  <title>Scale: Domain &amp; Range</title>
+  <style>
+    /* <![CDATA[ */
+    text {
+      font-size: 7px;
+      alignment-baseline: central;
+      font-family: Roboto, -apple-system, BlinkMacSystemFont, Helvetica Neue, Segoe UI, Oxygen, Ubuntu, Cantarell, Open Sans, sans-serif;
+    }
+    circle { fill: #feca2f; r: 2 }
+    circle, line { stroke-width: 1; stroke: currentcolor }
+    /* ]]> */
+  </style>
+  <rect x="50" y="10" width="70" height="20"/>
+  <rect x="20" y="70" width="120" height="20"/>
+  <polygon fill="#feca2f" points="50 30, 120 30, 140 70, 20 70" />
+  <text x="85" y="20" text-anchor="middle" fill="white">domain</text>
+  <text x="80" y="80" text-anchor="middle" fill="white">range</text>
+  <text x="46" y="20" text-anchor="end">30</text>
+  <text x="124" y="20" text-anchor="start">100</text>
+  <text x="16" y="80" text-anchor="end">0</text>
+  <text x="144" y="80" text-anchor="start">120</text>
+
+  <!-- 51 -> 36 -->
+  <line x1="61" y1="30" x2="46" y2="70" />
+  <circle cx="61" cy="30" />
+  <circle cx="46" cy="70" />
+  <text x="58" y="35" text-anchor="end">51</text>
+  <text x="43" y="65" text-anchor="end">36</text>
+
+  <!-- 79 -> 84 -->
+  <line x1="89" y1="30" x2="94" y2="70" />
+  <circle cx="89" cy="30" />
+  <circle cx="94" cy="70" />
+  <text x="92" y="35" text-anchor="start">79</text>
+  <text x="97" y="65" text-anchor="start">84</text>
+</svg>
