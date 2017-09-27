@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 495" width="400" height="250">
+  <!--Update the title with your username-->
+    <title>@bryanvdelft</title>
+
+  <!--Add stuff here-->
+    <circle cx="50" cy="50" r="40" stroke-width="3" fill="red" />
+    <rect x="80" y="80" width="300" height="100" fill="brown" opacity="0.4" />
+    <line  x1="300" y1="350" x2="100" y2="220" stroke="peachpuff" stroke-width="10"/>
+    <text x="290" y="205" fill="coral" font-family="inherit" font-size="40px">bryanvdelft</text>
+    <g stroke="lightpink" stroke-width="5">
+        <polygon points="500,10 550,190 660,110"  fill="aquamarine" />
+        <path d="M150 0 L75 200 L225 200 Z" fill="dodgerblue" />   
+    </g>
+</svg>
