@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="10 10 700 1000">
+  <!--Update the title with your username-->
+  <title>@RobinFrugte97</title>
+
+  <!--Add stuff here-->
+
+  <circle
+    cx = "250"
+    cy = "300"
+    r = "100"
+    fill = "pink"
+  />
+
+  <rect
+    x = "150"
+    y = "400"
+    width = "200"
+    height = "400"
+    fill = "blue"
+  />
+
+  <line
+    x1 = "50"
+    y1 = "625"
+    x2 = "140"
+    y2 = "400"
+    stroke-width = "30"
+    stroke = "pink"
+  />
+
+  <line
+    x1 = "450"
+    y1 = "625"
+    x2 = "340"
+    y2 = "400"
+    stroke-width = "30"
+    stroke = "pink"
+  />
+
+  <polygon
+    points = "150,250 250,100 350,250"
+    fill = "red"
+  />
+
+  <text
+    x = "165"
+    y = "550"
+    fill = "white"
+    font-size = "75"
+    font-family = "helvetica"
+  >Hallo</text>
+
+  <g stroke = "purple" stroke-width = "30">
+    <circle
+      cx = "280"
+      cy = "290"
+      r = "5"
+      fill = "pink"
+      opacity=".5"
+    />
+    <circle
+      cx = "220"
+      cy = "290"
+      r = "5"
+      fill = "pink"
+      opacity=".5"
+    />
+  </g>
+
+  <!-- NOTHING TO SEE HERE... MOVE ALONG!!! -->
+ 
+</svg>
