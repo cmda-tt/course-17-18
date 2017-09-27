@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+<head>
+
+	<meta charset=utf8>
+	<!--Update the title with your username:-->
+	<title>@ValentijnKap</title>
+	<meta content=width=device-width,initial-scale=1 name=viewport>
+
+	<!--Link to d3 here:-->
+
+	<!--Keep this script here for now:-->
+
+</head>
+<body>
+
+<h1>Dinners</h1>
+
+<!--Add your code in this script:-->
+<!-- <script src="https://d3js.org/d3.v4.min.js"></script> -->
+<script src="http://d3js.org/d3.v3.min.js"></script>
+
+<script>
+
+	d3.json('dinners.json', function(data) {
+	 	console.log(data)
+	})
+
+	d3.csv('Dinners.csv', function(data) {
+	 	console.log(data)
+	})
+
+	d3.text("Dinners.csv", function(data) {
+		console.log(data)
+
+        var parsedCSV = d3.csv.parseRows(data);
+
+        var container = d3.select("body")
+            .append("table")
+
+            .selectAll("tr")
+                .data(parsedCSV).enter()
+                .append("tr")
+
+            .selectAll("td")
+                .data(function(d) { return d; }).enter()
+                .append("td")
+                .text(function(d) { return d; });
+    })
+
+</script>
+
+</body>
+</html>
