@@ -26,7 +26,7 @@ var svg = d3.select("section.graph").append("svg")
     .attr("transform", 
           "translate(" + margin.left + "," + margin.top + ")");
 
-d3.csv("uren.csv", function(error, data) {
+d3.csv("index.csv", function(error, data) {
 
     data.forEach(function(d) {
         d.date = parseDate(d.Datum);
