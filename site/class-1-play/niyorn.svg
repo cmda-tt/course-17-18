@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 495" width="100%" height="100%">
+  <title>@Niyorn</title>
+  <g id="right">
+    <g>
+      <g>
+        <rect class="cls-1" x="210" width="510" height="495" fill="#98ffe4"/>
+        <polyline class="cls-2" points="210 495 720 0 720 495 210 495" fill="#ff80ab"/>
+      </g>
+      <path class="shaduw" d="M593.93,124.27c73.69,76.44,71.61,198-4.66,271.52s-197.82,71.15-271.51-5.29"/>
+      <g>
+        <line class="cls-3" x1="249" y1="66" x2="410" y2="66"  stroke= "#fff" stroke-miterlimit="10" stroke-width="9px"/>
+        <line class="cls-3" x1="249" y1="104.25" x2="410" y2="104.25" stroke="#fff" stroke-miterlimit="10"  stroke-width="9px"/>
+        <line class="cls-3" x1="249" y1="142.5" x2="410" y2="142.5" stroke="#fff" stroke-miterlimit="10" stroke-width="9px"/>
+        <line class="cls-3" x1="249" y1="180.75" x2="410" y2="180.75" stroke="#fff" stroke-miterlimit="10" stroke-width="9px"/>
+      </g>
+      <path class="moon" d="M627.84,89.45c73.69,76.44,71.47,198.14-5,271.84s-198.14,71.47-271.84-5" fill="#ff0"/>
+    </g>
+    <text class="naam" font-family="Sans-serif" font-size="12"  opacity="0.5" x="720" y="420">C.Niyornram</text>
+  </g>
+
+  <g id="left">
+    <g stroke="black" fill="white" stroke-width="0">
+      <rect class="cls-6" width="210" height="247" fill="#FF6E40"/>
+      <rect class="cls-7" y="247" width="210" height="248" fill ="#00E676"/>
+      <polygon class="star" points="151.5 43.73 58.5 43.73 12 124.27 58.5 204.81 151.5 204.81 198 124.27 151.5 43.73" fill="#b388ff" />
+      <circle class="cls-8" cx="105" cy="371" r="89" fill="white"/>
+    </g>
+  </g>
+
+  <style>
+      
+    rect, polyline, path, line, polygon, path{
+      stroke-dasharray: 2000;
+     animation: stroke 4s linear, opacity 1s;
+      transition: all 2s;
+      }
+        
+    .naam{
+      opacity: 0.47;
+      font-size: 11px;
+    }
+    .moon {
+      animation: stroke 3s linear, opacity 4s, skew 3s cubic-bezier(.86,0,.07,1) infinite alternate;
+    }
+      
+    #left circle {
+      animation: move-up 3s cubic-bezier(.86,0,.07,1) infinite alternate;
+      mix-blend-mode: overlay;
+    }
+
+    .shaduw{
+      animation: stroke 3s linear, opacity 4s, scale 3s cubic-bezier(.86,0,.07,1) infinite alternate, skew 3s cubic-bezier(.86,0,.07,1) infinite alternate;
+      transform-origin: center;
+    }
+
+      @keyframes move-up {
+        from {
+          transform: translateY(0);
+        }
+        to {
+          transform: translateY(-50%);
+        }
+      }
+
+      @keyframes skew{
+        form{
+          transform: skew(0);
+        }
+
+        to{
+        transform: skew(-6deg, -5deg);
+        }
+      }
+
+      @keyframes scale{
+        from{
+        opacity: 0.6;
+        }
+        to{
+        opacity: 0.5;
+        transform: scale(0.88);
+        }
+      }
+      
+       @keyframes rotate{
+        to{
+         transform: rotate(360deg);
+        }
+      }
+      
+      @keyframes stroke{
+        from{
+      stroke-width: 3px;
+       stroke-dashoffset: 2100;
+      stroke: black;
+      fill: none;
+      }
+      
+      to{
+      stroke-dashoffset: 0;
+      }
+      }
+      
+      
+      @keyframes opacity{
+        from{
+        opacity: 0;
+      }
+      
+      to{
+       opacity: 1;
+      }
+      }
+
+  </style>
+</svg>
