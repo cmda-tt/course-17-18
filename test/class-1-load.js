@@ -50,7 +50,7 @@ var pipelines = {
 var checkDirectory = trough()
   .use(vfile)
   .use(read([
-    'details.txt',
+    'dinners.txt',
     'index.csv',
     'index.json',
     'index.html'

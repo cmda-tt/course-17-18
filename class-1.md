@@ -194,7 +194,7 @@ Let’s make art!  Open the file created in [**step B**][c1pb] in your text edit
 2.  Open your console’s **elements tab** and inspect your `<circle>`.  Use the
     **tree pane** to edit the values for the `cy`, `cx`, and `r` attributes
 3.  Add a `<rect>` element with `x`, `y`, `width`, and `height` attributes
-4.  Add a `<line>` element with `x1`, `y1`, `x2`, `x2`, `stroke-width`, and
+4.  Add a `<line>` element with `x1`, `y1`, `x2`, `y2`, `stroke-width`, and
     `stroke` attributes
 5.  Add a `<polygon>` element with a `points` attribute
 6.  Add a `<path>` element with a `d` attribute
@@ -572,7 +572,7 @@ your PR and include it in the [gallery][bar-gallery].
 
 [upload]: https://help.github.com/articles/adding-a-file-to-a-repository/
 
-[pr]: https://help.github.com/articles/creating-a-pull-request/#creating-the-pull-request
+[pr]: https://help.github.com/articles/creating-a-pull-request-from-a-fork/
 
 [merge]: https://help.github.com/articles/merging-a-pull-request/
 
