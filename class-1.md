@@ -100,6 +100,7 @@ it.
   console.log('Hi @%s 👋', h)
   if (!document.querySelector('circle')) bug()
   if (h === 'username') throw new Error('Rename this file to `your-github-username.svg`!')
+  if (h === 'your-github-username') throw new Error('No no, your *actual* GitHub username!')
   if (document.querySelector('title').textContent === '@username') throw new Error('Update your `<title>`!')
   var ok = ![
     ['circle', '1.0. `<circle>` element'],
