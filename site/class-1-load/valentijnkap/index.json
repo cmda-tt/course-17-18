@@ -1,7 +1,14 @@
-{
-	"Dinners": {
-		"24-09-2017": "Rusty",
-		"23-09-2017": "McChicken",
-		"22-09-2017": "Moink Balls"
+[
+	{
+		"Day": "24-09-2017",
+		"Dinner": "Rusty"
+	},
+	{
+		"Day": "24-09-2017",
+		"Dinner": "McChicken"
+	},
+	{
+		"Day": "24-09-2017",
+		"Dinner": "Moink Balls"
 	}
-}
+]
