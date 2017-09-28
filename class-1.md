@@ -572,7 +572,7 @@ your PR and include it in the [gallery][bar-gallery].
 
 [upload]: https://help.github.com/articles/adding-a-file-to-a-repository/
 
-[pr]: https://help.github.com/articles/creating-a-pull-request/#creating-the-pull-request
+[pr]: https://help.github.com/articles/creating-a-pull-request-from-a-fork/
 
 [merge]: https://help.github.com/articles/merging-a-pull-request/
 
