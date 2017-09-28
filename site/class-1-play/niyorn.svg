@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 495">
+  <title>@Niyorn</title>
+  <g id="right">
+    <g>
+      <g>
+        <rect class="cls-1" x="210" width="510" height="495"/>
+        <polyline class="cls-2" points="210 495 720 0 720 495 210 495"/>
+      </g>
+      <path class="shaduw" d="M593.93,124.27c73.69,76.44,71.61,198-4.66,271.52s-197.82,71.15-271.51-5.29"/>
+      <g>
+        <line class="cls-3" x1="249" y1="66" x2="410" y2="66"/>
+        <line class="cls-3" x1="249" y1="104.25" x2="410" y2="104.25"/>
+        <line class="cls-3" x1="249" y1="142.5" x2="410" y2="142.5"/>
+        <line class="cls-3" x1="249" y1="180.75" x2="410" y2="180.75"/>
+      </g>
+      <path class="cls-4" d="M627.84,89.45c73.69,76.44,71.47,198.14-5,271.84s-198.14,71.47-271.84-5"/>
+    </g>
+    <text class="cls-5" transform="translate(645.75 487)">C.Niyornram</text>
+  </g>
+
+  <g id="left">
+    <g>
+      <rect class="cls-6" width="210" height="247"/>
+      <rect class="cls-7" y="247" width="210" height="248"/>
+      <circle class="cls-8" cx="105" cy="371" r="89"/>
+    </g>
+  </g>
+
+  <style>
+    .cls-1 {
+      fill: #98ffe4;
+    }
+    .cls-2 {
+      fill: #ff80ab;
+    }
+    .cls-3 {
+      fill: #fff;
+      stroke: #fff;
+      stroke-miterlimit: 10;
+      stroke-width: 9px;
+    }
+    .cls-4 {
+      fill: #ff0;
+      animation: skew 3s cubic-bezier(.86,0,.07,1) infinite alternate;
+    }
+    .cls-5 {
+      opacity: 0.47;
+      font-size: 11px;
+      font-family: Sans-serif;
+    }
+    .cls-6 {
+      fill: #ffab40;
+    }
+    .cls-7 {
+      fill: #f865b0;
+    }
+    .cls-8 {
+      fill: #80d8ff;
+    }
+
+    #left circle {
+      animation: move-up 3s cubic-bezier(.86,0,.07,1) infinite alternate;
+      mix-blend-mode: overlay;
+    }
+
+    .shaduw{
+      animation: scale 3s cubic-bezier(.86,0,.07,1) infinite alternate, skew 3s cubic-bezier(.86,0,.07,1) infinite alternate;
+      transform-origin: center;
+      opacity: 0.6;
+    }
+
+      @keyframes move-up {
+        from {
+          transform: translateY(0);
+        }
+        to {
+          transform: translateY(-50%);
+        }
+      }
+
+      @keyframes skew{
+        form{
+          transform: skew(0);
+        }
+
+        to{
+        transform: skew(-6deg, -5deg);
+        }
+      }
+
+      @keyframes scale{
+
+        from{
+        opacity: 0.6;
+        }
+        to{
+        opacity: 0.5;
+        transform: scale(0.88);
+        }
+      }
+
+  </style>
+
+</svg>
