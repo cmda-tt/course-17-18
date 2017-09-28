@@ -1,9 +1,7 @@
 
 
 <svg  viewBox="0 0 200 200" width="200" height="200" xmlns="http://www.w3.org/2000/svg">
-  <!--Update the title with your username-->
-  <title>SVG by Mees</title>
-
+  <title>@meesrutten</title>
   <svg>
     <circle cx="100" cy="100" r="100" fill="#123456"></circle>
     <rect x="60" y="60" width="10" height="10" fill="#FFF"></rect>
