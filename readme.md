@@ -155,7 +155,7 @@ The table below breaks down the general time needed to complete activities.
 *   🆓 GitHub account (**required**)
     — [Sign Up](https://help.github.com/articles/signing-up-for-a-new-github-account/)
 *   🆓 Text Editor (**required**)
-    — [Atom](https://atom.io) or [Sublime](http://www.sublimetext.com)
+    — [Atom](https://atom.io) or [Sublime](https://www.sublimetext.com)
 *   🆓 King, Ritchie S.  _Visual Storytelling with D3_.  Addison-Wesley, 2015
     (**optional**)
 *   🆓 Meeks, Elijah.  _D3.js in Action_.  O’Reilly Media, 2017 (**optional**)
@@ -181,7 +181,7 @@ The table below breaks down the general time needed to complete activities.
     (**book**) — Intro to JavaScript for new programmers
 *   🆓 [JavaScript 30](https://javascript30.com)
     (**course**) — 30 day vanilla JavaScript coding challenge
-*   🆓 [Eloquent JavaScript](http://eloquentjavascript.net)
+*   🆓 [Eloquent JavaScript](https://eloquentjavascript.net)
     (**book**) — Modern intro to programming
 *   🆓 [Basics of HTML & CSS](http://webdive.ktam.org/web/basics)
     (**tutorial**) — Learn how to use HTML & CSS
@@ -337,7 +337,7 @@ Docs and images: [CC-BY-NC-SA-4.0][].
 
 [rooster]: https://rooster.hva.nl
 
-[html-css]: http://learn.shayhowe.com/html-css/
+[html-css]: https://learn.shayhowe.com/html-css/
 
 [bookshelves]: http://rps.hva.nl:2048/login?url=http://proquest.safaribooksonline.com/?uicode=hva
 
@@ -377,14 +377,14 @@ Docs and images: [CC-BY-NC-SA-4.0][].
 
 [bachelor]: https://www.cmd-amsterdam.nl/english/
 
-[faculty]: http://www.amsterdamuas.com/faculty/fdmci/faculty-of-digital-media-and-creative-industries.html?origin=wK2pE2mITji6ZHGwFD65pw
+[faculty]: https://www.amsterdamuas.com/faculty/fdmci/faculty-of-digital-media-and-creative-industries.html
 
-[university]: http://www.amsterdamuas.com
+[university]: https://www.amsterdamuas.com
 
 [cmd-logo]: images/cmd.jpg
 
 [coc]: code-of-conduct.md
 
-[ruc]: http://www.amsterdamuas.com/practical-matters/algemeen/hva-breed/juridische-zaken/legal-affairs/regulation-undesirable-conduct/regulation-undesirable-conduct.html#anker-3-complaints-authority
+[ruc]: https://www.amsterdamuas.com/practical-matters/algemeen/hva-breed/juridische-zaken/legal-affairs/regulation-undesirable-conduct/regulation-undesirable-conduct.html#anker-3-complaints-authority
 
-[rog]: http://www.hva.nl/praktisch/algemeen/hva-breed/juridische-zaken/loket-beroep-bezwaar-en-klacht/regeling-ongewenst-gedrag/regeling-ongewenst-gedrag.html?origin=gbS4rg%2FDTZuxQ6lGVF%2BN1A
+[rog]: https://www.hva.nl/praktisch/algemeen/hva-breed/juridische-zaken/loket-beroep-bezwaar-en-klacht/regeling-ongewenst-gedrag/regeling-ongewenst-gedrag.html?origin=gbS4rg%2FDTZuxQ6lGVF%2BN1A

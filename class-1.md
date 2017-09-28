@@ -268,7 +268,7 @@ formats.  Additionally, you’ll learn to use d3 to request files.
 *   [`d3-request`](https://github.com/d3/d3/blob/master/API.md#requests-d3-request)
 *   [RFC 4180](https://tools.ietf.org/html/rfc4180)
     — CSV spec
-*   [ECMA 404](http://www.ecma-international.org/publications/standards/Ecma-404.htm)
+*   [ECMA 404](https://www.ecma-international.org/publications/standards/Ecma-404.htm)
     — JSON spec
 *   [Examples found in the slides](https://cmda-fe3.github.io/course-17-18/class-1/)
 *   [Bugs?](readme.md#bugs)

@@ -213,7 +213,7 @@ In this assignment you’ll learn to debug and upgrade code.
     (**method**)
 *   [How to debug small programs](https://ericlippert.com/2014/03/05/how-to-debug-small-programs/)
     (**article**)
-*   [The Debugging Mindset](http://queue.acm.org/detail.cfm?id=3068754)
+*   [The Debugging Mindset](https://queue.acm.org/detail.cfm?id=3068754)
     (**article**)
 *   [`d3/d3/CHANGES.md`](https://github.com/d3/d3/blob/master/CHANGES.md)
     (**documentation**)

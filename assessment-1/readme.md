@@ -280,7 +280,7 @@ Feel free to use other data sets.  For example, from:
 
 [languages-clean]: languages.tsv
 
-[toilets-source]: http://data.europa.eu/euodp/en/data/dataset/uuXBX1CHvFKRWmCuLAKA
+[toilets-source]: https://data.europa.eu/euodp/en/data/dataset/uuXBX1CHvFKRWmCuLAKA
 
 [toilets-clean]: toilets.json
 
