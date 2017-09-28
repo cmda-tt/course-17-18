@@ -1,30 +1,25 @@
-/* line 1, /Users/jwvanessen/Documents/HVA_CMD_jaar3/front-end3/loading/styles/index.scss */
+
 * {
     font-family: sans-serif;
 }
 
-/* line 5, /Users/jwvanessen/Documents/HVA_CMD_jaar3/front-end3/loading/styles/index.scss */
 table th, table td {
     padding: 0.3rem;
 }
 
-/* line 8, /Users/jwvanessen/Documents/HVA_CMD_jaar3/front-end3/loading/styles/index.scss */
 table thead tr {
     background-color: orange;
 }
 
-/* line 10, /Users/jwvanessen/Documents/HVA_CMD_jaar3/front-end3/loading/styles/index.scss */
 table thead tr th {
     color: white;
     text-align: left;
 }
 
-/* line 13, /Users/jwvanessen/Documents/HVA_CMD_jaar3/front-end3/loading/styles/index.scss */
 table thead tr th::first-letter {
     text-transform: uppercase;
 }
 
-/* line 20, /Users/jwvanessen/Documents/HVA_CMD_jaar3/front-end3/loading/styles/index.scss */
 table tbody tr:nth-child(even) {
     background-color: #f2f2f2;
 }
