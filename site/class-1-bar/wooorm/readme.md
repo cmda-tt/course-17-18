@@ -13,6 +13,14 @@ I wanted to create a responsive bar chart.  This one re-renders on the
 `<svg>` element, but that only scales the rendered visualisation.  The benefit
 of using `resize` is that labels will remain legible.
 
+## Data
+
+Comma-separated values (CSV) with 26 rows and two columns:
+
+*   `letter` — Each letter in the alphabet
+*   `frequency` — Number describing how frequent the corresponding letter
+    occurs in the English language
+
 ## Features
 
 *   [`d3-selection`](https://github.com/d3/d3-selection#api-reference)
