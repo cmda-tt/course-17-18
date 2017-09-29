@@ -361,8 +361,10 @@ python -m SimpleHTTPServer 8000
 This exposes your files to your browser on `localhost:8000`.  Open this URL
 in your browser.
 
-If that doesn’t work, see the aforementioned link on how to run a simple server
-on your system.
+> 💁 Not working?  Have you pressed enter?
+
+If you see an error saying that `python` isn’t found, see the aforementioned
+link on how to run a simple server on your system.
 
 When done open up your browser and navigate to `localhost:8000`.  This should
 show a message suggesting you to open your console.
