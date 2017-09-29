@@ -2,10 +2,9 @@
 
 ## All about how
 
-## My life got changed
+### My life got changed
 
-## Flipped upside down
-###brappa skappa
+#### Flipped upside down
 
 ## Description
 This is my readme. There are many like it, but this one is mine.
