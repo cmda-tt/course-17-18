@@ -1,0 +1,17 @@
+<svg viewBox="20 0 300 300" xmlns="http://www.w3.org/2000/svg">
+  <!--Update the title with your username-->
+  <title>@jessiegouw</title>
+
+  <!--Add stuff here-->
+  <circle cx="100" cy="35" r="20"/>
+  <rect fill="purple" x="100" y="100" width="20" height="200"/>
+  <line x1="200" y1="200" x2="300" y2="300" stroke-width="200" stroke="orange"/>
+  <polygon points="200,10 250,190 160,210" style="fill:lime;stroke:blue;stroke-width:1" />
+  <path d="M150 0 L75 20 L225 200 Z" stroke="darkblue"/>
+  <text x="0" y="25" fill="brown" font-family="Helvetica Neue" font-size="12pt" transform="rotate(20 20,30)">Hoi</text>
+  <g stroke="#ebc" stroke-width="200" opacity="0.4" fill="purple">
+    <circle cx="100" cy="350" r="3"/>
+    <circle cx="250" cy="50" r="3"/>
+    <circle cx="400" cy="350" r="3"/>
+  </g>
+</svg>
