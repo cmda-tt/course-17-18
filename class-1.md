@@ -77,9 +77,9 @@ editor][materials].
 
 ### <a name="class-1-play-b"></a> Step B
 
-Create a file, `username.svg` (where `username` is your GitHub username, so in
-my case it would be `wooorm.svg`), and copy-paste the following document into
-it.
+Create a file on your computer, `username.svg` (where `username` is your GitHub
+username, so in my case it would be `wooorm.svg`), and copy-paste the following
+document into it.
 
 > 💁 Update the `<title>` element in the file with your username too.
 
@@ -275,7 +275,8 @@ formats.  Additionally, you’ll learn to use d3 to request files.
 
 ### <a name="class-1-load-a"></a> Step A
 
-Create a directory named after your GitHub username (in my case `wooorm`).
+Create a directory on your computer named after your GitHub username (in my case
+`wooorm`).
 
 Create a text file `dinners.txt` in your directory and open it.
 
@@ -350,7 +351,7 @@ Open up your terminal and go to the directory created in [**step A**][c1la].
 On macOS, you can type `cd·` (where `·` is a space) and drag the directory in
 question to your terminal and finally press enter, to go there.
 
-Then, create a [simple server][server] from your directory.  You can probably
+Then, start a [simple server][server] in your directory.  You can probably
 do that with:
 
 ```sh
