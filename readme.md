@@ -156,6 +156,9 @@ The table below breaks down the general time needed to complete activities.
     — [Sign Up](https://help.github.com/articles/signing-up-for-a-new-github-account/)
 *   🆓 Text Editor (**required**)
     — [Atom](https://atom.io) or [Sublime](https://www.sublimetext.com)
+*   🆓 Installation of [Node](https://nodejs.org/en/),
+    [Python](https://www.python.org), or
+    [Ruby](https://www.ruby-lang.org/en/) (**required**)
 *   🆓 King, Ritchie S.  _Visual Storytelling with D3_.  Addison-Wesley, 2015
     (**optional**)
 *   🆓 Meeks, Elijah.  _D3.js in Action_.  O’Reilly Media, 2017 (**optional**)
