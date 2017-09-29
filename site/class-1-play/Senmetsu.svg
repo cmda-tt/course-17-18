@@ -14,7 +14,7 @@
       <line x1="500" y1="300" x2="1000" y2="300" stroke-width="4" />
   </g>
   <!-- NOTHING TO SEE HERE... MOVE ALONG!!! -->
-  <script>// <![CDATA[
+  // <![CDATA[
   var p = window.location.pathname
   var h = p.slice(p.lastIndexOf('/') + 1, p.lastIndexOf('.'))
   console.log('Hi @%s 👋', h)
@@ -96,5 +96,5 @@
     t.setAttribute('font-size', '35')
     document.documentElement.appendChild(t)
   }
-  // ]]></script>
+  // ]]>
 </svg>
