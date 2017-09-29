@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 700">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 750 1000" width="1000" height="1000">
   <!--Update the title with your username-->
 <title>@tpulido</title>
 
@@ -16,7 +16,7 @@
 
 <polygon points="50,20 250,190 260,310" />
 
-
-<text x="500" y="200" fill="red" font-size="200">HOI</text>
+<path d='M450 0 L75 200 L225 200 Z' fill="blue" opacity="0.5"/>
+<text x="500" y="200" fill="red" font-size="200" font-family="sans-serif">HOI</text>
 
 </svg>
