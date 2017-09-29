@@ -106,6 +106,9 @@ Submit [assessment 1][a1] at least 24 hours before [class 3][c3].
 
 ### Description
 
+> 💁 Before you start, add your [real name and a picture to your profile on
+> GitHub][profile].  Open source is about real people after all.
+
 For this assignment you’re going to add a readme to the project you handed in
 for the [Bar chart][bar] assignment of [class 1][c1].
 
@@ -326,6 +329,8 @@ Hand in your bug-free and upgraded code in a directory `username` (in my case
 [examples]: https://cmda-fe3.github.io/course-17-18/class-2/
 
 [slides]: https://docs.google.com/presentation/d/1uAhSUdxEki0eDWK36OCbhRQk1ScgygzVZzuKluvQVxc
+
+[profile]: https://github.com/settings/profile
 
 [cal]: https://choosealicense.com
 
