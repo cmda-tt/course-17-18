@@ -114,6 +114,8 @@ Create a `readme.md` file describing your project and include the following:
 *   Short title
 *   Short description
 *   **Background** section with a longer description of why you did what you did
+*   **Data** section describing the visualised data, its format, columns, and
+    fields
 *   **Features** section listing all d3 features used and linking to API docs
 *   **License** section (tip: [`choosealicense.com`][cal]) in the form
     “[SPDX][] © First Second” (I often use “MIT © Titus Wormer”)
