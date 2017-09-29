@@ -486,7 +486,7 @@ but this time will render a bar chart in SVG.
     words
 9.  Upload your files to `site/class-1-bar` (tip: see [**substep 4**][c1li4]
     through [**substep 6**][c1li6] from [step I][c1li] of the
-    [Loading data][load] assignment)
+    [Loading data][load] assignment, but this time use a branch `bar`)
 
 ### Complete
 
