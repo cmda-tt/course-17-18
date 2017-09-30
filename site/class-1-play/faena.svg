@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="2 4 600 400" width="600px" height="400px">
+  <title>@faena</title>
+
+<g stroke="blue" stroke-width="3px">
+  <circle cx="100" cy="100" r="50" opacity="0.5"></circle>
+  <rect x="20" y="200" width="200" height="75" fill="lime"></rect>
+</g>
+<line x1="70" y1="100" x2="200" y2="300" stroke-width="6" stroke="pink"></line>
+<polygon points="100,10 500,190 160,210 50,20 100,40" stroke-width="2" stroke="blue"></polygon>
+<path fill="red" d="M 35 35 L 100 50 L 70 100 z"></path>
+<text x="140" y="300" font-family="Verdana" font-size="35px"> SuP HoMiEs </text>
+ 
+</svg>
