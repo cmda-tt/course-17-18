@@ -1,21 +1,57 @@
 <svg xmlns="http://www.w3.org/2000/svg">
-  <!--Update the title with your username-->
-  <title>@dylanvanzanten</title>
+<title>@dylanvanzanten</title>
 
-  <!--Add stuff here-->
-
-  <circle cx="50" cy="50" r="100" />
-  <rect x="200" y="200" width="200" height="200" />
-  <line x1="0" y1="0" x2="200" y2="200" style="stroke:rgb(255,255,255);stroke-width:5" />
-  <polygon points="150,10 250,20 140,50" />
-  <path d="M150 0 L75 200 L225 200 Z" />
-  <text x="0" y="15" fill="red">I love SVG!</text>
-  <g stroke="green" fill="white" stroke-width="5">
-    <polygon points="150,10 250,20 140,50" />
+  <g class="section-left" fill="white">
+    <circle cx="400" cy="400" r="200" />
+    <rect x="200" y="200" width="150" height="150" />
+  </g>
+  <path d="M400 0 L75 200 L225 200 Z" fill="white" />
+  <text x="400" y="300" fill="white">Dylan van Zanten</text>
+  <line x1="403" y1="310" x2="855" y2="310" stroke="white" />
+    <polygon points="150,10 250,20 140,50" fill="red" />
+  <g fill="blue">
     <path d="M150 0 L75 200 L225 200 Z" />
   </g>
+  <rect x="20" y="10" viewBox="0 0 50 20" width="10" height="5" />
 
+<style>
+  svg {
+    background: #000;
+  }
 
+  circle {
+    fill: deepPink;
+    transition: fill .3s ease-in-out;
+  }
 
-  <!-- NOTHING TO SEE HERE... MOVE ALONG!!! -->
+  circle:hover {
+    fill: #009966;
+  }
+
+  rect {
+    transform-origin: 193px 164px;
+    -webkit-transform-origin: 50% 50%;
+    -webkit-animation: rotate 4s cubic-bezier(.49,.05,.32,1.04) infinite alternate;
+    animation: rotate 4s cubic-bezier(.49,.05,.32,1.04) infinite alternate;
+  }
+
+  @-webkit-keyframes rotate {
+    50% {
+      -webkit-transform: rotate(360deg);
+    }
+  }
+
+  @keyframes rotate {
+    50% {
+      transform: rotate(360deg);
+    }
+  }
+  text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 3em;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+</style>
+
 </svg>
