@@ -183,7 +183,7 @@ In this assignment you’ll learn to refactor and reformat code.
 
 For this assignment you’re going to reformat code to make a donut chart in your
 own style.  Feel free to use any of the [tips][tips-1] above to check or format
-code.  Choose any style that makes sense to you.
+code.  Choose any coding style that makes sense to you.
 
 *   First, copy the files `index.csv`, `index.css`, `index.html`, and
     `index.js` from [`site/class-2/style`][style-starter] to your
@@ -233,14 +233,14 @@ In this assignment you’ll learn to debug and upgrade code.
 
 ### Description
 
-For this assignment you’re going to fix a broken scatter plot.  First,
-the HTML, CSS, and JavaScript all contain several bugs.  Last, the chart
-uses `d3@3` instead of `d3@4`.
+For this assignment you’re going to fix a broken scatter plot.  The HTML, CSS,
+and JavaScript each contain several bugs.  The chart also uses `d3@3` instead
+of `d3@4`.
 
 *   First, copy the files `index.csv`, `index.css`, `index.html`, and
     `index.js` from [`site/class-2/debug`][debug-starter] to your
     computer and start a simple server.  If everything went OK, you should see
-    two errors in your Console about resources that failed to load
+    two errors in your web browser’s console about resources that failed to load
 *   Fix the errors you just found.  Then, fix the errors in the JavaScript and
     CSS.  Depending on your knowledge of JavaScript, errors, and d3, this
     may be _very hard_.  Feel free to ask others for help and try to fix the
