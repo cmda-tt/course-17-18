@@ -216,7 +216,8 @@ Done with [**step C**][c1pc]?  Awesome!  You’re a true SVG artist 👩‍🎨
 For this step, we’re going to hand your work in.  This will [add your work to
 the website][play-gallery].
 
-1.  First remove the `<script>` element from your SVG file.
+1.  First remove the `<script>` element from your SVG file (including the
+    CDATA inside it).
     We don’t need it anymore
 2.  You can’t just change our website.
     You have to propose changes.
