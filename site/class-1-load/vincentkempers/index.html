@@ -1,0 +1,68 @@
+<!doctype html>
+<meta charset=utf8>
+
+<title>@VincentKempers</title>
+
+<meta content=width=device-width,initial-scale=1 name=viewport>
+<link rel="stylesheet" href="index.css">
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<body>
+
+<h1>Dinners</h1>
+
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 500 500">
+  <g>
+  <text x="100" y="35" font-family="Verdana" font-size="35">🍝</text>
+  <text x="50" y="100" font-family="Verdana" font-size="35">🍗</text>
+  <text x="100" y="200" font-family="Verdana" font-size="35">🍕</text>
+  <text x="400" y="25" font-family="Verdana" font-size="35">🌶</text>
+  <text x="450" y="135" font-family="Verdana" font-size="35">🥙</text>
+  <text x="350" y="235" font-family="Verdana" font-size="35">🍤</text>
+  </g>
+</svg>
+
+<main>
+
+<table id="firsttable">
+  <tr>
+    <h2>My csv dinners of last week</h2>
+  </tr>
+</table>
+
+<table id="secondtable">
+  <tr>
+    <h2>My JSON dinners of last week</h2>
+  </tr>
+</table>
+
+</main>
+</body>
+<script>
+
+let htmlcsv = '';
+let htmljson = '';
+let csvdoc = document.getElementById('firsttable');
+let jsondoc = document.getElementById('secondtable');
+
+d3.csv('./index.csv',function(error, date){
+  if (error) throw error;
+  date.forEach(function(d){
+    htmlcsv += `<tr>`;
+    htmlcsv += `<td><h3>${d.date}</h3></td>`;
+    htmlcsv += `<td><p>${d.food}</p></td>`;
+    htmlcsv += `</tr>`;
+    csvdoc.innerHTML = htmlcsv;
+  })
+});
+
+d3.json('./index.json', function(err, json) {
+  if (err) throw err;
+  json.forEach(function(f){
+    htmljson += `<tr>`;
+    htmljson += `<td><h3>${f.date}</h3></td>`;
+    htmljson += `<td><p>${f.food}</p></td>`;
+    htmljson += `</tr>`;
+    jsondoc.innerHTML = htmljson;
+  })
+});
+</script>
