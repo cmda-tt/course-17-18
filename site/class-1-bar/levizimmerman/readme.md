@@ -1,2 +1,2 @@
-# Bar chart
+# Bubble chart
 Description
