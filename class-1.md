@@ -471,7 +471,7 @@ modifying an existing bar chart.
 The project you’ll hand in will be similar to the one from [Loading data][load]
 but this time will render a bar chart in SVG.
 
-1.  Pick a bar chart from [d3’s example gallery][d3-examples] (tip: see the
+1.  Pick a **bar chart** from [d3’s example gallery][d3-examples] (tip: see the
     [Basic charts][basic-charts] section)
 2.  Copy-paste the files over to your own computer and get the chart working
     (tip: you may need to start a server, see [step E][c1le] of [Loading
