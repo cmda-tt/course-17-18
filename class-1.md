@@ -349,7 +349,7 @@ Create a file, `index.html`, and copy-paste the following document into it.
 ### <a name="class-1-load-e"></a> Step E
 
 Open up your terminal and go to the directory created in [**step A**][c1la].
-On macOS, you can type `cd·` (where `·` is a space) and drag the directory in
+On macOS, you can type `cd` and a space and drag the directory in
 question to your terminal and finally press enter, to go there.
 
 Then, start a [simple server][server] in your directory.  You can probably
