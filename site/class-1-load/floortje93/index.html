@@ -1,0 +1,34 @@
+<!doctype html>
+<meta charset=utf8>
+<!--Update the title with your username:-->
+<title>@floortje93</title>
+<meta content=width=device-width,initial-scale=1 name=viewport>
+
+<!--Link to d3 here:-->
+<script src="https://d3js.org/d3.v4.min.js"></script>
+
+
+<h1>Dinners</h1>
+<div id="meals">
+
+</div>
+<!--Add your code in this script:-->
+<script>
+d3.json("index.json", function(error, meals) {
+
+  jsonTitle = document.createElement("h2");
+  jsonTitle.textContent = "JSON";
+  document.body.appendChild(jsonTitle);
+
+  for(var i = 0; i < meals.length; i++){
+        mealDate = document.createElement("h3");
+        mealDate.textContent = meals[i].date;
+        document.body.appendChild(mealDate);
+
+        mealContent = document.createElement("p");
+        mealContent.textContent = meals[i].meal;
+        document.body.appendChild(mealContent);
+  }
+});
+
+</script>
