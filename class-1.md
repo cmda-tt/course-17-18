@@ -227,7 +227,7 @@ the website][play-gallery].
     [`cmda-fe3/course-17-18`][repo], and in the top-right corner of the page
     click **Fork**
 3.  <a name="class-1-play-d-3"></a>
-    Navigate to the directory `site/class-1-play`.
+    Navigate to the directory `site/class-1-play` on GitHub.
     Follow the guide [Adding a file to a repository][upload] to upload the SVG
     file you made in [**step B**][c1pb].
     For the commit message, use `Add @username` (in my case `Add @wooorm`).
@@ -425,7 +425,7 @@ the website][load-gallery].
     select (just above your files to the left) if it’s not already selected.
     Then, click the **Branch** select again, and type in `load`.
     Finally, click **Create branch: load**
-3.  Navigate to the directory `site/class-1-load`
+3.  Navigate to the directory `site/class-1-load` on GitHub
 4.  <a name="class-1-load-i-4"></a>
     Create a new file by clicking on **Create new file**.
     In the **Name your file…** input, type `username/readme.md` (in my case
@@ -436,8 +436,8 @@ the website][load-gallery].
     my case `Add readme.md for @wooorm`).
     Keep **Commit directly to the load branch** selected
 5.  Now, follow [**substep 3**][c1pd3] from [step D][c1pd] of the [Playing with
-    SVG][play] assignment to upload the **files in your directory** on the
-    `load` branch to the newly created directory on GitHub.
+    SVG][play] assignment to upload the **files in your directory on your
+    computer** to the newly created directory on GitHub on the `load` branch.
     In the commit message at the bottom, use `Add files for @username` (in my
     case `Add files for @wooorm`).
     Keep **Commit directly to the load branch** selected
