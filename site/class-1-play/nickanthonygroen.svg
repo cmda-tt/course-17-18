@@ -1,12 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 800 400" width="1600" height="800">
   <!--Update the title with your username-->
-  <title>nickanthonygroen</title>
+  <title>@nickanthonygroen</title>
 
   <!--Add stuff here-->
   <text x="80" y="800" font-family="Roboto" font-size="30em">
     ART DECO</text>
   <circle cx="30" cy="320" r="320" fill="purple" stroke-width="32" stroke="gold" opacity="0.6"/>
-  <g>
+  <g stroke="green" stroke-width="30">
     <rect x="0" y="544" width="630" height="3000" fill="aqua" opacity="0.6"/>
     <line x1="331" y1="80" x2="0" y2="100" stroke-width="3" stroke="blue" opacity="0.6"/>
   </g>
