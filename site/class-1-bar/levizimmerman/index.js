@@ -23,7 +23,7 @@ var pack = d3.pack()
 .padding(4.5);
 
 // Load CSV and return the found data: https://github.com/d3/d3-request/blob/master/README.md#csv
-d3.csv("levizimmerman.csv", function(d) {
+d3.csv("index.csv", function(d) {
   d.value = +d.value;
   if (d.value) return d;
 }, function(error, classes) {
