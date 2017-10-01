@@ -1,6 +1,11 @@
 
 
 /*
+Bron: M. Bostock (https://gist.github.com/mbostock) (https://bl.ocks.org/mbostock) (https://bost.ocks.org/mike/)
+Based On: https://bl.ocks.org/mbostock/raw/3885304/
+License: https://opensource.org/licenses/GPL-3.0
+
+
 Hier voegt hij de variabelen toe:
 Svg voor het selecteren van de svg element.
 margin is een object waar hij de top, right, bottom, left waardes meegeeft om die later te refereren.
