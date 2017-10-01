@@ -1,8 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 800 400" width="1600" height="800">
-  <!--Update the title with your username-->
   <title>@nickanthonygroen</title>
 
-  <!--Add stuff here-->
   <text x="80" y="800" font-family="Roboto" font-size="30em">
     ART DECO</text>
   <circle cx="30" cy="320" r="320" fill="purple" stroke-width="32" stroke="gold" opacity="0.6"/>
