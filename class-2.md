@@ -194,7 +194,9 @@ code.  Choose any coding style that makes sense to you.
     preferred style: something readable and usable by humans.  Use the quotes
     and white-space you like, pick good variable names, and reorder stuff where
     needed
-4.  When done, add a `readme.md` file similar to the one from
+4.  Update the `<title>` element with your GitHub username: `@username` (in my
+    case `@wooorm`)
+5.  When done, add a `readme.md` file similar to the one from
     [Do you readme?!][readme] that additionally lists what style choices you
     made
 
@@ -253,7 +255,9 @@ of `d3@4`.
 3.  After all bugs are squashed, upgrade the chart from
     `d3@3` to `d3@4` (tip: see the [changelog][d3-changes] and [release
     notes][d3-release-notes])
-4.  When done, add a `readme.md` file similar to the one from
+4.  Update the `<title>` element with your GitHub username: `@username` (in my
+    case `@wooorm`)
+5.  When done, add a `readme.md` file similar to the one from
     [Do you readme?!][readme] that additionally lists what bugs you
     fixed
 
