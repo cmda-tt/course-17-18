@@ -2,7 +2,7 @@
 
   <title>@nina92</title>
 
-    <g class="circles">
+    <g>
         <circle fill="#CACEFF" cx="100" cy="100" r="50" opacity="0.9"></circle>
         <circle fill="#E19DE3" cx="150" cy="150" r="50" opacity="0.8"></circle>
         <circle fill="#46638A" cx="200" cy="200" r="50" opacity="0.7"></circle>
@@ -10,7 +10,7 @@
         <circle fill="#1C1247" cx="300" cy="300" r="50" opacity="0.5"></circle>
     </g>
 
-    <g class="circle-borders" stroke="darkgrey" stroke-width="1" opacity="0.6">
+    <g stroke="darkgrey" stroke-width="1" opacity="0.6">
         <circle fill="none" cx="100" cy="100" r="60"></circle>
         <circle fill="none" cx="150" cy="150" r="60"></circle>
         <circle fill="none" cx="200" cy="200" r="60"></circle>
