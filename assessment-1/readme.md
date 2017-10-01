@@ -37,7 +37,7 @@ as covered in [class 1][c1].
 **Assessment 1** tests that you’ve attained the following knowledge:
 
 *   [SVG and canvas][s1]
-*   [Parse data formats][s2]
+*   [Load external data][s2]
 *   [Read][s3] and [write][s4] docs
 *   [Debug][s5] and [refactor][s6] code
 *   Use [scales][s7]

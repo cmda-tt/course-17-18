@@ -15,6 +15,9 @@
 *   [`information-design.png`](information-design.png)
     ([**source**](https://moodle.cmd.hva.nl/course/view.php?id=408))
     — Used as is
+*   [`keys.jpg`](keys.png)
+    ([**source**](https://tmcw.github.io/minute/))
+    — Screenshot of website with some labels removed
 *   [`meetbaar-geluk.jpg`](meetbaar-geluk.jpg)
     ([**source**](https://nickrttn.github.io/Frontend-3/))
     — Screenshot of website
@@ -33,3 +36,9 @@
 *   [`style.jpg`](style.jpg)
     ([**source**](https://unsplash.com/photos/DXYyKCCvWiM))
     — Resized and cropped
+*   [`taxi.jpg`](taxi.jpg)
+    ([**source**](http://toddwschneider.com/posts/analyzing-1-1-billion-nyc-taxi-and-uber-trips-with-a-vengeance/))
+    — Resized and cropped
+*   [`trump.jpg`](trump.jpg)
+    ([**source**](https://projects.fivethirtyeight.com/trump-approval-ratings/))
+    — Screenshot of website with some labels removed
