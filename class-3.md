@@ -10,7 +10,7 @@
 *   [Schedule](#schedule)
 *   [Assignments](#assignments)
 *   [Clean](#clean)
-*   [Select](#select)
+*   [Transition](#transition)
 
 ## Inspiration
 
@@ -42,7 +42,7 @@
 Submit your assignments by 7 a.m. the day of [class 4][c4].
 
 *   [Clean][clean] (**practice**)
-*   [Select][select] (**practice**)
+*   [Transition][transition] (**practice**)
 
 See [class 2][c2] for assignments due before this class.
 
@@ -92,11 +92,11 @@ Hand in your code in a directory `username` (in my case `wooorm`) to
 `site/class-3-clean/` by creating a pull request.  Include `index.html`,
 `index.txt`, `readme.md`, and optionally a `preview.png` file.
 
-## Select
+## Transition
 
-[![][select-cover]][select-cover-source]
+[![][transition-cover]][transition-cover-source]
 
-> Beach, feet, hand, and rock by [**@artographybyp**][select-cover-author].
+> Bald man on subway platform by [**@jmduarte**][transition-cover-author].
 
 In this assignment you’ll learn to clean external data.
 
@@ -104,7 +104,7 @@ In this assignment you’ll learn to clean external data.
 
 *   **Practice**
 *   **Due**: 7 a.m. the day of [class 4][c4]
-*   **Results**: [Gallery][select-gallery]
+*   **Results**: [Gallery][transition-gallery]
 
 ### Tips
 
@@ -129,11 +129,11 @@ TODO.
 
 [clean-cover-author]: https://unsplash.com/@phammi
 
-[select-cover]: images/select.jpg
+[transition-cover]: images/transition.jpg
 
-[select-cover-source]: https://unsplash.com/photos/e6fcNpur53A
+[transition-cover-source]: https://unsplash.com/photos/Fh1kwPHsCNg
 
-[select-cover-author]: https://unsplash.com/@artographybyp
+[transition-cover-author]: https://unsplash.com/@jmduarte
 
 [c2]: class-2.md#assignments
 
@@ -153,11 +153,11 @@ TODO.
 
 [clean]: #clean
 
-[select]: #select
+[transition]: #transition
 
 [clean-gallery]: https://cmda-fe3.github.io/course-17-18/class-3-clean/
 
-[select-gallery]: https://cmda-fe3.github.io/course-17-18/class-3-select/
+[transition-gallery]: https://cmda-fe3.github.io/course-17-18/class-3-transition/
 
 [clean-starter]: https://github.com/cmda-fe3/course-17-18/tree/master/site/class-3/clean
 

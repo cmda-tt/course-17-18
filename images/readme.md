@@ -30,15 +30,15 @@
 *   [`rain.jpg`](rain.jpg)
     ([**source**](https://unsplash.com/photos/FtZL0r4DZYk))
     — Resized
-*   [`select.jpg`](select.jpg)
-    ([**source**](https://unsplash.com/photos/e6fcNpur53A))
-    — Resized and cropped
 *   [`style.jpg`](style.jpg)
     ([**source**](https://unsplash.com/photos/DXYyKCCvWiM))
     — Resized and cropped
 *   [`taxi.jpg`](taxi.jpg)
     ([**source**](http://toddwschneider.com/posts/analyzing-1-1-billion-nyc-taxi-and-uber-trips-with-a-vengeance/))
     — Resized and cropped
+*   [`transition.jpg`](transition.jpg)
+    ([**source**](https://unsplash.com/photos/Fh1kwPHsCNg))
+    — Resized
 *   [`trump.jpg`](trump.jpg)
     ([**source**](https://projects.fivethirtyeight.com/trump-approval-ratings/))
     — Screenshot of website with some labels removed
