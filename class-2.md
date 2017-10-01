@@ -185,18 +185,23 @@ For this assignment you’re going to reformat code to make a donut chart in you
 own style.  Feel free to use any of the [tips][tips-1] above to check or format
 code.  Choose any coding style that makes sense to you.
 
-*   First, copy the files `index.csv`, `index.css`, `index.html`, and
+1.  First, copy the files `index.csv`, `index.css`, `index.html`, and
     `index.js` from [`site/class-2/style`][style-starter] to your
     computer and get them working without changing any code yet
-*   Note that the CSS, HTML, and JS are minified: they’re great for computers,
+2.  Note that the CSS, HTML, and JS are minified: they’re great for computers,
     but not so much for humans
-*   Now, reformat `index.css`, `index.html`, and `index.js` to match your
+3.  Now, reformat `index.css`, `index.html`, and `index.js` to match your
     preferred style: something readable and usable by humans.  Use the quotes
     and white-space you like, pick good variable names, and reorder stuff where
     needed
+4.  When done, add a `readme.md` file similar to the one from
+    [Do you readme?!][readme] that additionally lists what style choices you
+    made
 
-Hand in your reformatted code in a directory `username` (in my case `wooorm`)
-to `site/class-2-style/` by creating a pull request.
+Hand in your reformatted code in a directory `username` (in my case `wooorm`) to
+`site/class-2-style/` by creating a pull request from a branch `style`.
+Include `index.csv`, `index.css`, `index.js`, `index.html`, `readme.md`, and
+optionally a `preview.png` file.
 
 ## `debugger;`
 
@@ -237,20 +242,25 @@ For this assignment you’re going to fix a broken scatter plot.  The HTML, CSS,
 and JavaScript each contain several bugs.  The chart also uses `d3@3` instead
 of `d3@4`.
 
-*   First, copy the files `index.csv`, `index.css`, `index.html`, and
+1.  First, copy the files `index.csv`, `index.css`, `index.html`, and
     `index.js` from [`site/class-2/debug`][debug-starter] to your
     computer and start a simple server.  If everything went OK, you should see
     two errors in your web browser’s console about resources that failed to load
-*   Fix the errors you just found.  Then, fix the errors in the JavaScript and
+2.  Fix the errors you just found.  Then, fix the errors in the JavaScript and
     CSS.  Depending on your knowledge of JavaScript, errors, and d3, this
     may be _very hard_.  Feel free to ask others for help and try to fix the
     code together
-*   After all bugs are squashed, upgrade the chart from
+3.  After all bugs are squashed, upgrade the chart from
     `d3@3` to `d3@4` (tip: see the [changelog][d3-changes] and [release
-    notes][d3-release-notes]).
+    notes][d3-release-notes])
+4.  When done, add a `readme.md` file similar to the one from
+    [Do you readme?!][readme] that additionally lists what bugs you
+    fixed
 
 Hand in your bug-free and upgraded code in a directory `username` (in my case
-`wooorm`) to `site/class-2-debug/` by creating a pull request.
+`wooorm`) to `site/class-2-debug/` by creating a pull request from a branch
+`debug`.  Include `index.csv`, `index.html`, `index.js`, `index.css`,
+`readme.md`, and optionally a `preview.png` file.
 
 [inspiration-cover]: images/olympic-feathers.jpg
 
