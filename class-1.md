@@ -229,7 +229,7 @@ the website][play-gallery].
     [`cmda-fe3/course-17-18`][repo], and in the top-right corner of the page
     click **Fork**
 3.  <a name="class-1-play-d-3"></a>
-    Navigate to the directory `site/class-1-play` on GitHub.
+    Navigate to the directory `site/class-1-play` on your fork.
     Follow the guide [Adding a file to a repository][upload] to upload the SVG
     file you made in [**step B**][c1pb].
     For the commit message, use `Add @username` (in my case `Add @wooorm`).
@@ -239,11 +239,9 @@ the website][play-gallery].
 4.  Your changes are now on your fork and not yet handed in.
     To suggest that your changes be applied to our website, create a
     [Pull Request][pr].
-    You will probably see a notification with a big green button,
-    **Compare & pull request**.
-    Otherwise, click **New pull request** on the left just above your files
-    pane and make sure that the **compare** select is on **play**.
-    Leave the comment empty and click **Create pull request**.
+    Make sure that **base fork** is set to our repository, **base branch** to
+    `master`, **head fork** to your repository, and **head branch** to `play`.
+    Leave the comment empty and click **Create pull request**
 
 ### Complete
 
@@ -444,8 +442,10 @@ the website][load-gallery].
     case `Add files for @wooorm`).
     Keep **Commit directly to the load branch** selected
 6.  <a name="class-1-load-i-6"></a>
-    Create a pull request and use `Add @username` (in my case `Add @wooorm`)
-    for the title
+    Create a [Pull Request][pr] and use `Add @username` (in my case
+    `Add @wooorm`) for the title.
+    Make sure that **base fork** is set to our repository, **base branch** to
+    `master`, **head fork** to your repository, and **head branch** to `load`
 
 ### Complete
 
