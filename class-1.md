@@ -372,8 +372,8 @@ link on how to run a simple server on your system.
 When done open up your browser and navigate to `localhost:8000`.  This should
 show a message suggesting you to open your console.
 
-> 💁 Done with the server?  Enter <kbd>CTRL+C</kbd> in your terminal to shut it
-> down.
+> 💁 Done with the server?  Enter <kbd>⌃-C</kbd> (<kbd>Control-C</kbd>) in your
+> terminal to shut it down.
 
 ### <a name="class-1-load-f"></a> Step F
 
@@ -483,7 +483,8 @@ but this time will render a bar chart in SVG.
 4.  Move the CSS and JS from the HTML into their own files
 5.  Add citations to the work your chart is based on in the HTML and JS
 6.  Try and change all values to get to understand the code (refreshing often
-    to see if things break, in which case <kbd>CMD+Z</kbd> is your best friend)
+    to see if things break, in which case <kbd>⌘-Z</kbd> (<kbd>Command-Z</kbd>)
+    is your best friend)
 7.  Make something pretty.  Add your own CSS, swap in new data, use different
     labels.  Make this graph your own
 8.  Translate the JavaScript to Dutch or English in inline comments.  Link to
