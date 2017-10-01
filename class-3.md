@@ -80,7 +80,7 @@ be used in a line chart.
     start and end date to the same date.  Finally, click **Download dataset**,
     and replace `index.txt` in your directory with the file you just downloaded
 *   Open `index.html` in your text editor and add code to clean and transform
-    data (you may start at line 80).  Do not change `index.txt` manually.
+    data (you may start at line 105).  Do not change `index.txt` manually.
     Store the clean data in the variable `places`.
     Once your code creates the correct data, you’ll see a
     [line chart][clean-preview]
