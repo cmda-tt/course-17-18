@@ -24,6 +24,12 @@
 *   [`pie.jpg`](pie.jpg)
     ([**source**](https://unsplash.com/photos/5XZ2SyTOyvQ))
     — Scaled and cropped
+*   [`rain.jpg`](rain.jpg)
+    ([**source**](https://unsplash.com/photos/FtZL0r4DZYk))
+    — Resized
+*   [`select.jpg`](select.jpg)
+    ([**source**](https://unsplash.com/photos/e6fcNpur53A))
+    — Resized and cropped
 *   [`style.jpg`](style.jpg)
     ([**source**](https://unsplash.com/photos/DXYyKCCvWiM))
     — Resized and cropped
