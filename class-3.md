@@ -21,7 +21,7 @@
 ## Synopsis
 
 *   **Date**: 05-10 (ID 1), 06-10 (ID 2), or 04-10 (ID 3)
-*   **Slides**
+*   [**Slides**][slides]
 *   [**Examples**][examples]
 
 ## Schedule
@@ -169,6 +169,8 @@ optionally a `preview.png` file, and a data file (such as `index.json`,
 [c2readme]: class-2.md#do-you-read-me
 
 [c4]: class-4.md
+
+[slides]: https://docs.google.com/presentation/d/1TpoPilc1qVIQU07u_IdPeNqSZcbgliPaLF0zZUWGvWE/edit?usp=sharing
 
 [examples]: https://cmda-fe3.github.io/course-17-18/class-3/
 
