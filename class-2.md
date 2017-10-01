@@ -43,7 +43,7 @@
     ([**subgoal 5**][s5] and [**subgoal 6**][s6])
 *   `d3@3` and `d3@4`
     ([**subgoal 5**][s5])
-*   d3-scale
+*   [`d3-scale`][d3-scale]
     ([**subgoal 7**][s7])
 *   [Style][style] (**practice**)
 *   [`debugger;`][debugger] (**practice**)
@@ -357,3 +357,5 @@ Hand in your bug-free and upgraded code in a directory `username` (in my case
 [d3-release-notes]: https://github.com/d3/d3/releases/v4.0.0
 
 [d3-changes]: https://github.com/d3/d3/blob/master/CHANGES.md
+
+[d3-scale]: https://github.com/d3/d3-scale

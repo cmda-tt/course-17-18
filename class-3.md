@@ -28,13 +28,13 @@
 
 *   Arrays
     ([**subgoal 8**][s8])
-*   `d3-array`
+*   [`d3-array`][d3-array]
     ([**subgoal 8**][s8])
 *   Cleaning data
     ([**subgoal 2**][s2] and [**subgoal 8**][s8])
-*   `d3-selection`
+*   [`d3-selection`][d3-selection]
     ([**subgoal 9**][s9] and [**subgoal 10**][s10])
-*   `d3-transition` and `d3-ease`
+*   [`d3-transition`][d3-transition] and [`d3-ease`][d3-ease]
     ([**subgoal 9**][s9])
 
 ## Assignments
@@ -132,9 +132,10 @@ transitions.
 5.  Add a citation in `index.html` and `index.js` to the original work
 6.  Refactor the code to match your code style.  Add comments whenever you
     come across code you don’t fully understand describing how it works
-7.  Now, add transitions using `d3-transition` and `d3-ease` so the chart
-    appears gradually.  Make something pretty.  Add your own CSS, swap in new
-    data, use different labels.  Make this graph your own
+7.  Now, add transitions using [`d3-transition`][d3-transition] and
+    [`d3-ease`][d3-ease] so the chart appears gradually.  Make something pretty.
+    Add your own CSS, swap in new data, use different labels.  Make this graph
+    your own
 8.  When done, add a `readme.md` file similar to the one from
     [Class 2: Do you readme?!][c2readme] that additionally describes what you
     changed and how you applied transitions and easing
@@ -196,3 +197,11 @@ optionally a `preview.png` file, and a data file (such as `index.json`,
 [clean-preview]: site/class-3/clean/preview.png
 
 [d3-examples]: https://github.com/d3/d3/wiki/Gallery
+
+[d3-array]: https://github.com/d3/d3-array
+
+[d3-selection]: https://github.com/d3/d3-selection
+
+[d3-transition]: https://github.com/d3/d3-transition
+
+[d3-ease]: https://github.com/d3/d3-ease
