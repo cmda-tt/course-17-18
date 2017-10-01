@@ -58,7 +58,7 @@ In this assignment you’ll learn to clean external data.
 
 *   **Practice**
 *   **Due**: 7 a.m. the day of [class 4][c4]
-*   **Results**: Gallery
+*   **Results**: [Gallery][clean-gallery]
 
 ### Tips
 
@@ -81,7 +81,7 @@ In this assignment you’ll learn to clean external data.
 
 *   **Practice**
 *   **Due**: 7 a.m. the day of [class 4][c4]
-*   **Results**: Gallery
+*   **Results**: [Gallery][select-gallery]
 
 ### Tips
 
@@ -129,3 +129,7 @@ TODO.
 [clean]: #clean
 
 [select]: #select
+
+[clean-gallery]: https://cmda-fe3.github.io/course-17-18/class-3-clean/
+
+[select-gallery]: https://cmda-fe3.github.io/course-17-18/class-3-select/
