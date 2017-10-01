@@ -68,6 +68,8 @@ In this assignment you’ll learn the basics of SVG.
 
 *   [MDN’s SVG documentation](https://developer.mozilla.org/en-US/docs/Web/SVG)
 *   [Examples found in the slides](https://cmda-fe3.github.io/course-17-18/class-1/)
+*   [Celtic Knotwork](http://celtic-knotwork.online)
+*   [Chernoff Fish](http://meagher.co/chernoff-fish/)
 *   [Bugs?](readme.md#bugs)
 
 ### <a name="class-1-play-a"></a> Step A
