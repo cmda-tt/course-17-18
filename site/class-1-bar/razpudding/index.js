@@ -1,3 +1,4 @@
+/* Based on https://bl.ocks.org/mbostock/3883195 by Mike Bostock. */
 
 var svg = d3.select("svg"),
     margin = {top: 20, right: 20, bottom: 30, left: 50},
