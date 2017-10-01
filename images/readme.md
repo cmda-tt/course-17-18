@@ -15,7 +15,7 @@
 *   [`information-design.png`](information-design.png)
     ([**source**](https://moodle.cmd.hva.nl/course/view.php?id=408))
     — Used as is
-*   [`keys.jpg`](keys.png)
+*   [`keys.jpg`](keys.jpg)
     ([**source**](https://tmcw.github.io/minute/))
     — Screenshot of website with some labels removed
 *   [`meetbaar-geluk.jpg`](meetbaar-geluk.jpg)
