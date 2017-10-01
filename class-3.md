@@ -70,27 +70,28 @@ In this assignment you’ll learn to clean and transform data.
 For this assignment you’re going to load, clean, and transform data so it can
 be used in a line chart.
 
-*   First, copy the files `index.html` and `index.txt` from
+1.  First, copy the files `index.html` and `index.txt` from
     [`site/class-3/clean`][clean-starter] to your computer and start a simple
     server.
     If everything went OK, you should see two axes and a temperature label
     when you open the URL of your server in your web browser
-*   Go to [knmi][uurgegevens] and select `260 De Bilt`, `285 Huibertgat`, and
+2.  Go to [knmi][uurgegevens] and select `260 De Bilt`, `285 Huibertgat`, and
     two other weather stations.  Select one day of your choosing by setting the
     start and end date to the same date.  Finally, click **Download dataset**,
     and replace `index.txt` in your directory with the file you just downloaded
-*   Open `index.html` in your text editor and add code to clean and transform
+3.  Open `index.html` in your text editor and add code to clean and transform
     data (you may start at line 105).  Do not change `index.txt` manually.
     Store the clean data in the variable `places`.
     Once your code creates the correct data, you’ll see a
     [line chart][clean-preview]
-*   When done, add a `readme.md` file similar to the one from
+4.  When done, add a `readme.md` file similar to the one from
     [Class 2: Do you readme?!][c2readme] that additionally describes how you
     cleaned the data
 
 Hand in your code in a directory `username` (in my case `wooorm`) to
-`site/class-3-clean/` by creating a pull request.  Include `index.html`,
-`index.txt`, `readme.md`, and optionally a `preview.png` file.
+`site/class-3-clean/` by creating a pull request from a branch `clean`.
+Include `index.html`, `index.txt`, `readme.md`, and optionally a `preview.png`
+file.
 
 ## Transition
 
