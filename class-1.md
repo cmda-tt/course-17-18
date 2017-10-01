@@ -480,8 +480,9 @@ but this time will render a bar chart in SVG.
     data][load] on how to do that)
 3.  Add a `<title>` element, or replace the one already there, with your GitHub
     username: `@username` (in my case `@wooorm`)
-4.  Move the CSS and JS from the HTML into their own files
-5.  Add citations to the work your chart is based on in the HTML and JS
+4.  Move the CSS and JS from the HTML into their own files: `index.css` and
+    `index.js`
+5.  Add a citation in `index.html` and `index.js` to the original work
 6.  Try and change all values to get to understand the code (refreshing often
     to see if things break, in which case <kbd>⌘-Z</kbd> (<kbd>Command-Z</kbd>)
     is your best friend)
