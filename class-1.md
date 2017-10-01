@@ -352,8 +352,8 @@ Open up your terminal and go to the directory created in [**step A**][c1la].
 On macOS, you can type `cd` and a space and drag the directory in
 question to your terminal and finally press enter, to go there.
 
-Then, start a [simple server][server] in your directory.  You can probably
-do that with:
+Then, start a [simple server][server] in your directory.  If you have [Python][]
+installed, you can probably do that with:
 
 ```sh
 python -m SimpleHTTPServer 8000
@@ -364,8 +364,9 @@ in your browser.
 
 > 💁 Not working?  Have you pressed enter?
 
-If you see an error saying that `python` isn’t found, see the aforementioned
-link on how to run a simple server on your system.
+If you see an error saying that `python` isn’t found, see [this page on how to
+start a simple server][server] on how to run a simple server (such as with Ruby
+or Node) on your system.
 
 When done open up your browser and navigate to `localhost:8000`.  This should
 show a message suggesting you to open your console.
@@ -606,3 +607,5 @@ your PR and include it in the [gallery][bar-gallery].
 [d3-examples]: https://github.com/d3/d3/wiki/Gallery
 
 [basic-charts]: https://github.com/d3/d3/wiki/Gallery#basic-charts
+
+[python]: https://www.python.org
