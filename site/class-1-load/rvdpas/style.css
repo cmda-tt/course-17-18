@@ -1,0 +1,24 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: #311b92;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+.top {
+  background: #000063;
+  width: 100%;
+  text-align: center;
+}
+
+h3, p {
+  margin: 0 0 10px 0;
+}
+
+h3 {
+  margin-bottom: 5px;
+}
