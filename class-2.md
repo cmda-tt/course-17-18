@@ -43,7 +43,7 @@
     ([**subgoal 5**][s5] and [**subgoal 6**][s6])
 *   `d3@3` and `d3@4`
     ([**subgoal 5**][s5])
-*   d3-scale
+*   [`d3-scale`][d3-scale]
     ([**subgoal 7**][s7])
 *   [Style][style] (**practice**)
 *   [`debugger;`][debugger] (**practice**)
@@ -106,6 +106,9 @@ Submit [assessment 1][a1] at least 24 hours before [class 3][c3].
 
 ### Description
 
+> 💁 Before you start, add your [real name and a picture to your profile on
+> GitHub][profile].  Open source is about real people after all.
+
 For this assignment you’re going to add a readme to the project you handed in
 for the [Bar chart][bar] assignment of [class 1][c1].
 
@@ -114,6 +117,8 @@ Create a `readme.md` file describing your project and include the following:
 *   Short title
 *   Short description
 *   **Background** section with a longer description of why you did what you did
+*   **Data** section describing the visualised data, its format, columns, and
+    fields
 *   **Features** section listing all d3 features used and linking to API docs
 *   **License** section (tip: [`choosealicense.com`][cal]) in the form
     “[SPDX][] © First Second” (I often use “MIT © Titus Wormer”)
@@ -178,20 +183,27 @@ In this assignment you’ll learn to refactor and reformat code.
 
 For this assignment you’re going to reformat code to make a donut chart in your
 own style.  Feel free to use any of the [tips][tips-1] above to check or format
-code.  Choose any style that makes sense to you.
+code.  Choose any coding style that makes sense to you.
 
-*   First, copy the files `index.csv`, `index.css`, `index.html`, and
+1.  First, copy the files `index.csv`, `index.css`, `index.html`, and
     `index.js` from [`site/class-2/style`][style-starter] to your
     computer and get them working without changing any code yet
-*   Note that the CSS, HTML, and JS are minified: they’re great for computers,
+2.  Note that the CSS, HTML, and JS are minified: they’re great for computers,
     but not so much for humans
-*   Now, reformat `index.css`, `index.html`, and `index.js` to match your
+3.  Now, reformat `index.css`, `index.html`, and `index.js` to match your
     preferred style: something readable and usable by humans.  Use the quotes
     and white-space you like, pick good variable names, and reorder stuff where
     needed
+4.  Update the `<title>` element with your GitHub username: `@username` (in my
+    case `@wooorm`)
+5.  When done, add a `readme.md` file similar to the one from
+    [Do you readme?!][readme] that additionally lists what style choices you
+    made
 
-Hand in your reformatted code in a directory `username` (in my case `wooorm`)
-to `site/class-2-style/` by creating a pull request.
+Hand in your reformatted code in a directory `username` (in my case `wooorm`) to
+`site/class-2-style/` by creating a pull request from a branch `style`.
+Include `index.csv`, `index.css`, `index.js`, `index.html`, `readme.md`, and
+optionally a `preview.png` file.
 
 ## `debugger;`
 
@@ -228,24 +240,31 @@ In this assignment you’ll learn to debug and upgrade code.
 
 ### Description
 
-For this assignment you’re going to fix a broken scatter plot.  First,
-the HTML, CSS, and JavaScript all contain several bugs.  Last, the chart
-uses `d3@3` instead of `d3@4`.
+For this assignment you’re going to fix a broken scatter plot.  The HTML, CSS,
+and JavaScript each contain several bugs.  The chart also uses `d3@3` instead
+of `d3@4`.
 
-*   First, copy the files `index.csv`, `index.css`, `index.html`, and
+1.  First, copy the files `index.csv`, `index.css`, `index.html`, and
     `index.js` from [`site/class-2/debug`][debug-starter] to your
     computer and start a simple server.  If everything went OK, you should see
-    two errors in your Console about resources that failed to load
-*   Fix the errors you just found.  Then, fix the errors in the JavaScript and
+    two errors in your web browser’s console about resources that failed to load
+2.  Fix the errors you just found.  Then, fix the errors in the JavaScript and
     CSS.  Depending on your knowledge of JavaScript, errors, and d3, this
     may be _very hard_.  Feel free to ask others for help and try to fix the
     code together
-*   After all bugs are squashed, upgrade the chart from
+3.  After all bugs are squashed, upgrade the chart from
     `d3@3` to `d3@4` (tip: see the [changelog][d3-changes] and [release
-    notes][d3-release-notes]).
+    notes][d3-release-notes])
+4.  Update the `<title>` element with your GitHub username: `@username` (in my
+    case `@wooorm`)
+5.  When done, add a `readme.md` file similar to the one from
+    [Do you readme?!][readme] that additionally lists what bugs you
+    fixed
 
 Hand in your bug-free and upgraded code in a directory `username` (in my case
-`wooorm`) to `site/class-2-debug/` by creating a pull request.
+`wooorm`) to `site/class-2-debug/` by creating a pull request from a branch
+`debug`.  Include `index.csv`, `index.html`, `index.js`, `index.css`,
+`readme.md`, and optionally a `preview.png` file.
 
 [inspiration-cover]: images/olympic-feathers.jpg
 
@@ -325,6 +344,8 @@ Hand in your bug-free and upgraded code in a directory `username` (in my case
 
 [slides]: https://docs.google.com/presentation/d/1uAhSUdxEki0eDWK36OCbhRQk1ScgygzVZzuKluvQVxc
 
+[profile]: https://github.com/settings/profile
+
 [cal]: https://choosealicense.com
 
 [spdx]: https://spdx.org/licenses/
@@ -336,3 +357,5 @@ Hand in your bug-free and upgraded code in a directory `username` (in my case
 [d3-release-notes]: https://github.com/d3/d3/releases/v4.0.0
 
 [d3-changes]: https://github.com/d3/d3/blob/master/CHANGES.md
+
+[d3-scale]: https://github.com/d3/d3-scale

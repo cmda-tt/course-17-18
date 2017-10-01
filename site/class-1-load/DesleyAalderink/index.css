@@ -1,0 +1,22 @@
+html{
+  background-color: #BDCDC6;
+  font-family: Helvetica;
+  text-align: center;
+}
+
+h3{
+  font-weight: 800;
+}
+
+h2{
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+p{
+  font-style: italic;
+}
+
+h1{
+  margin-bottom: 2em;
+}

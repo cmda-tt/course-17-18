@@ -1,0 +1,29 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #005E91;
+}
+
+h1 {
+  text-align: center;
+  font-family: verdana;
+  color: white;
+}
+
+.bar {
+  fill: lightgreen;
+}
+
+.bar:hover {
+  fill: #04a6ff;
+}
+
+g.axis--y {
+ stroke: white;
+
+}
+
+g.axis--x {
+  stroke: white;
+}

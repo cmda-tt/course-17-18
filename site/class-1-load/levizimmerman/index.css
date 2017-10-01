@@ -1,0 +1,20 @@
+* {
+    font-family: sans-serif;
+}
+table {
+    margin-bottom: 1rem;
+}
+
+td {
+    padding: 0.5rem;
+}
+
+thead td {
+    font-weight: bold;
+    text-transform: capitalize;
+    background: #aaa;
+}
+
+tbody tr:nth-child(odd) td {
+    background: #f5f5f5;
+}

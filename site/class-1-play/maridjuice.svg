@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 800">
+  <!--Update the title with your username-->
+  <title>@maridjuice</title>
+
+  <!--Add stuff here-->
+    <circle opacity="1" stroke="aquamarine" stroke-width="5px" fill-opacity="0.5"
+    cx="420"
+    cy="420"
+    r="200"
+            />
+
+    <rect
+          x="360"
+          y="360"
+          width="100"
+          height="100"
+          />
+    
+    <line
+          x1="10"
+          y1="600"
+          x2="600"
+          y2="10"
+          stroke-width="5"
+          stroke="aqua"
+          />
+    
+    <polygon points="160,120 200,140 200,180 160,200 120,180 120,140"
+             fill="red"
+            />
+    
+    
+
+    <path d="M15.5398447,1.14355469 L11.638274,7.08862379 C5.29849623,16.7489427 5.29849623,29.2510573 11.638274,38.9113762 L15.5398447,44.8564453 L200.418334,44.8564453 L205.022348,36.7617228 C209.906651,28.1741996 210.083197,17.6909042 205.49082,8.94378772 L201.395573,1.14355469 L15.5398447,1.14355469 Z" id="CTA_BG"></path>
+    
+     <text x="20%" y="90%" font-family="Helvetica" font-size="20" color="aquamarine">
+    Marijuice in tha building!
+  </text>
+
+     <g stroke="red" stroke-width="5" opacity="0.5" fill="rgba(255,255,255,0)">
+     <circle cx="420" cy="420" r="250"/>
+     <circle cx="160" cy="160" r="80"/>
+         <circle cx="420" cy="420" r="350"/>
+
+   </g>
+    
+
+</svg>

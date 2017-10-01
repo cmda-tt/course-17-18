@@ -1,0 +1,9 @@
+body {
+    background-color: rgba(44, 62, 80,1.0);
+    text-align: center;
+}
+
+h1, h2, h3, p {
+    color: white;
+    font-family: "Open Sans";
+}
