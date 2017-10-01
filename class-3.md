@@ -122,7 +122,7 @@ The project you’ll hand in will be similar to the one from
 [Class 1: Bar chart][c1bar] but this time will render a non-basic chart using
 transitions.
 
-1.  Pick a **static** (without transitions) non-basic chart from
+1.  Pick a **static** (without transitions or interaction) non-basic chart from
     [d3’s example gallery][d3-examples]
 2.  Copy-paste the files over to your own computer and get the chart working
 3.  Add a `<title>` element, or replace the one already there, with your GitHub
