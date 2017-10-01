@@ -13,6 +13,8 @@ Assignments make up 25 hours in this course (± 30%).
 *   [Class 2 × Do you readme?!](class-2.md#do-you-read-me)
 *   [Class 2 × Style](class-2.md#style)
 *   [Class 2 × debugger;](class-2.md#debugger)
+*   [Class 3 × Clean](class-3.md#clean)
+*   [Class 3 × Select](class-3.md#select)
 
 > 💁 This list will be updated when more assignments are added.
 
