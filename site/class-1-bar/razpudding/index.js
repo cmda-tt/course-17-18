@@ -17,7 +17,7 @@ var area = d3.area()
     .x(function(d) { return x(d.date); })
     .y1(function(d) { return y(d.close); });
 
-d3.tsv("data.tsv", function(d) {
+d3.tsv("index.tsv", function(d) {
   d.date = parseTime(d.date);
   d.close = +d.close;
   return d;
