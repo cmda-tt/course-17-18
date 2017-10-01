@@ -1,21 +1,3 @@
-## Features
-
-*   [`d3-selection`](https://github.com/d3/d3-selection#api-reference)
-    — `d3.select`
-    — Select elements
-*   [`d3-scale`](https://github.com/d3/d3-scale#api-reference)
-    — `d3.scaleBand` and `d3.scaleLinear`
-    — Position encodings
-*   [`d3-request`](https://github.com/d3/d3-request#api-reference)
-    — `d3.csv`
-    — Loading files
-*   [`d3-array`](https://github.com/d3/d3-array#api-reference)
-    — `d3.max`
-    — Array statistics
-*   [`d3-array`](https://github.com/d3/d3-axis#api-reference)
-    — `d3.axisBottom` and `d3.axisLeft`
-    — Reference marks for scales
-
 # Multi-Series Line Chart
 
 A multi-series line chart visualising the temperature of several places in the
