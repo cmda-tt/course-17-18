@@ -1,9 +1,3 @@
-# Opdracht Bar Chart
-## Het maken van een Bar Chart voor het gebruik van mijn apps.
-
-Het huiswerk voor class 2 van Frontend 3 heb ik een svg opdracht, load opdracht en een bar chart gemaakt. De Bar Chart heb ik
-
-
 # Bar Chart Assignment
 ## Making a Bar Chart for the use of my apps. 
 
