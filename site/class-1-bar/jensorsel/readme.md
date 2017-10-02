@@ -1,5 +1,7 @@
 # Bar chart - Hours of sleep
 
+![Preview image](preview.png)
+
 A bar chart displaying the hours of sleep over week 39.
 
 ## Background
