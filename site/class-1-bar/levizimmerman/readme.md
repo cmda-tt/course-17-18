@@ -50,6 +50,6 @@ A list of all features/methos used of the [D3 library (version 4)](https://githu
 ---
 
 ## License
-Released under the [GNU General Public License, version 3](https://opensource.org/licenses/GPL-3.0) Levi Zimmerman
+Released under the [GNU General Public License, version 3](https://opensource.org/licenses/GPL-3.0) &copy; Levi Zimmerman
 
 ---
