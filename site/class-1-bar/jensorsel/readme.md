@@ -29,5 +29,3 @@ Each column (x-axis) represents a day, the columns' height represents the amount
 ## License
 
 Released under the GNU General Public License, version 3. (from [original](https://bl.ocks.org/mbostock/3885304))
-
-“MIT © Jens Orsel"
