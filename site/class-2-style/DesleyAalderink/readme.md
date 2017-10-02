@@ -11,7 +11,7 @@ I changed the structure to my liking
 ## Background
 
 The assignment was to change the HTML/JS/CSS structure to my own style. For the HTML I always use "" voor linking files. 
-I also closed the <body> tagg. For the CSS, it was pretty much how I always style my CSS. I always use one tab if a code line is
+I also closed the `<body>` tagg. For the CSS, it was pretty much how I always style my CSS. I always use one tab if a code line is
 within another code line. The only real differences was using code colors. I always rely on using # codes. I also put the .arc, text 
 on one line. I find that more easy to read. I also changed the font-family line. I usually use 3 fonts in total. the font size I changed
 to em. This is mostly because of project Web. With the JS I mostly changed some variable/function names. I find it more easy to read
