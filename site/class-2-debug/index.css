@@ -8,12 +8,12 @@ body {
 }
 
 svg {
-  width: 100w;
-  height: 100h;
+  width: 100vw;
+  height: 100vh;
 }
 
 .axis path {
-  fill: no;
+  fill: none;
 }
 
 .axis path,
