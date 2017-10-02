@@ -1,4 +1,5 @@
 # Poop Chart
+![Preview link](barchartsc.png)
 In this repository you can see when I **pooped** and how much I **pooped**.
 Interesting! Sortof.
 
@@ -17,5 +18,3 @@ each day from 11th of september till now.
 ## License
 This block appears to have no license. Please contact the author to request a license.
 >Source: http://bl.ocks.org/Caged/6476579
-
-![Preview link](barchartsc.png)
