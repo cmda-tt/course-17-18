@@ -16,5 +16,4 @@ Mijn eigen slaap uren in de week.
 * d3-scale — d3.scaleBand and d3.scaleLinear — Position encodings
 * d3-selection — d3.select — Select elements
 
-MIT © Sam Guliker
-[block-author]: https://github.com/mbostock
+MIT © 2017 Mike Bostock’s 
