@@ -1,4 +1,4 @@
-// @tpulido
+// code from https://bl.ocks.org/mbostock/3885304
 
 var svg = d3.select("svg"), // selecteer SVG uit DOM
     margin = {top: 20, right: 20, bottom: 30, left: 40}, // maak margin object aan met waardes
