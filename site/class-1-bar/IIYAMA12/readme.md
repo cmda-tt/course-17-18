@@ -1,8 +1,8 @@
 # Please DO READ(/EAT) THIS readme.md
-This is modified code of a bar-chart. It shows how 'zombie' hunger the people in the list are. Please do edit the list and add yourself on it.
+This is modified code of a bar-chart. It shows how 'zombie' hungry the people in the list are. Please do edit the list and add yourself on it.
 
 ## Background
-The original code is created Mike Bostock’s. Who created a simple bar chart. Which I thought was useful to use as a good sample to learn from. After analysing the code piece by piece by using console.log, I started to change values to test which influence it would have on the design.
+The original code is created by Mike Bostock’s. Who created a simple bar chart, which I thought was useful as a good learning sample. After analysing the code piece by piece by using console.log, I started to change values to test which influence it would have on the design.
 
 ## Data
 The tsv data contains a few zombie names in the first column. In the second column it shows how hungry they are.
