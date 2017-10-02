@@ -1,6 +1,8 @@
 # Personal Profiling with a D3 Bubble Chart
 A datavisualistion (Bubble Chart) based on personal trivia about myself, like hobbys, socialmedia, and pets.
 
+![preview bubble chart](https://github.com/levizimmerman/course-17-18/blob/do-you-read-me/site/class-1-bar/levizimmerman/preview.png?raw=true)
+
 ## Background
 The contents of this projects exists out of the following files:
 * __index.html__: HTML model in which the data will display;
