@@ -1,9 +1,3 @@
-# Bar chart opdracht
-### Het maken van een bar chart voor het batterijgebruik van mijn Apps
-
-Voor het vak Frontend 3 heb ik een bar chart gemaakt. Als eerste ben ik gaan zoeken naar een simpele bar chart die ik kon aanpassen. Ik heb via [Basic Bar Charts](https://github.com/d3/d3/wiki/Gallery#basic-charts) er een gevonden en die ben ik gaan onderzoeken. Als eerst ben ik gaan onderzoeken hoe het 
-
-
 # Bar Chart Assignment
 ### Creating a bar chart thats showes the Battery use of my mobile apps
 
