@@ -13,7 +13,8 @@ svg {
   height: 100vh
 }
 
-.arc, text {
+.arc, 
+text {
   fill: currentcolor
 }
 
