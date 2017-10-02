@@ -4,6 +4,5 @@ Dit is de readme voor de barchart van Mike Bostock, waar ik de javascript, css, 
 
 ## Achtergrond
 
- 
+Ik heb een bar chart van de [d3’s example gallery](https://github.com/d3/d3/wiki/Gallery) gehaald uit de [Basic Charts section](https://github.com/d3/d3/wiki/Gallery#basic-charts). Vervolgens heb ik de 
 
-Ik heb een bar chart van de [d3’s example gallery](https://github.com/d3/d3/wiki/Gallery)gehaald.
