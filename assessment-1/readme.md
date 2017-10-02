@@ -26,11 +26,11 @@ If you want to clean data, you must do so with code and hand in this code too.
 We’ll check how you apply d3, whether you understand what’s happening, how well
 data is represented, and quality of your code and documentation.
 
-For this assessment you’ll build a project in your own repo on GitHub and host
-the project through [GitHub Pages][pages].  First, fork
-[`cmda-fe3/fe3-assessment-1`][starter-code].  Then, work on your project and
-upload the final results to your fork either using Git or the GitHub interface
-as covered in [class 1][c1].
+For this assessment you’ll build a project in a fork of
+[`cmda-fe3/fe3-assessment-1`][starter-code] (**not our course repo**) and
+host the project through [GitHub Pages][pages].  First, fork the repo.  Then,
+work on your project and upload the final results to your fork either using
+Git or the GitHub interface as covered in [class 1][c1].
 
 ## Goals
 
