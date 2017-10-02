@@ -7,7 +7,7 @@ Het huiswerk voor class 2 van Frontend 3 heb ik een svg opdracht, load opdracht 
 # Bar Chart Assignment
 ## Making a Bar Chart for the use of my apps. 
 
-For this assignment I made a Bar Chart including information of the usage of my Iphone apps. I used the codes for this assignment from the [Basis Bar Chart Section] https://bl.ocks.org/mbostock/3885304. 
+For this assignment I made a Bar Chart including information of the usage of my Iphone apps. I used the codes for this assignment from the [Basis Bar Chart Section](https://bl.ocks.org/mbostock/3885304). 
 
 First I copied the codes and paste it in my code editor. Step by step I adjusted the codes and put in my own measured information. After that I made a CSS file to style my Bar Chart. The data I used is listed below.
 
@@ -27,6 +27,6 @@ First I copied the codes and paste it in my code editor. Step by step I adjusted
 13. Safari	.0100
 
 #### Link ot the handy d3 features 
-[D3 API Link] https://github.com/d3/d3/blob/master/API.md
+[D3 API Link](https://github.com/d3/d3/blob/master/API.md)
 
 MIT @ Björn Völkers
