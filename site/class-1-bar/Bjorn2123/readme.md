@@ -1,5 +1,5 @@
 # Bar Chart Assignment
-## Making a Bar Chart for the use of my apps. 
+## Making a Bar Chart for the usage of my apps. 
 
 For this assignment I made a Bar Chart including information of the usage of my Iphone apps. I used the codes for this assignment from the [Basis Bar Chart Section](https://bl.ocks.org/mbostock/3885304). 
 
