@@ -26,7 +26,7 @@ var z = d3.scaleOrdinal()
 	.range(["#002CFC", "#3F61D3", "#7E95A9", "#BCCA80", "#FBFE56"]);
 
 // Get data from file and pull data from columns with a for loop
-d3.csv("../assets/data/data-cbs_adj.csv", function(d, i, columns) {
+d3.csv("index.csv", function(d, i, columns) {
 	for (i = 1, t = 0; i < columns.length; ++i) t += d[columns[i]] = +d[columns[i]];
 	d.total = t;
 	return d;
