@@ -16,3 +16,5 @@ The visualised data describes how much music i listened to music last week. The 
 
 ## License
 GNU GPLv3 © Wesley Cheng
+
+![My music! (Picture source: https://yt3.ggpht.com/pHwZj3tkgC3SJFbuqebBoT7WtVcIwAijEmcbe9VDCauv9ZlG6uS2zjvZQUSO7SfFqa3xjYqGp_L4QbM7=s900-nd-c-c0xffffffff-rj-k-no)](preview.png)
