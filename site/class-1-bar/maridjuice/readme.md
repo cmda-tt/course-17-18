@@ -2,6 +2,8 @@
 
 Slaap uren worden vergeleken met moeheid over de tijdspan van een week. Een .tsv wordt ingeladen met d3
 
+![Alt text](preview.png)
+
 ## Background
 
 
