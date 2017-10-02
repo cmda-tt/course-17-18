@@ -1,32 +1,19 @@
-# Bar Chart (Class 1) and Readme (Class 2)
+# Barchart
 
-Each chart was made for [Class 1: Bar chart](https://github.com/cmda-fe3/course-17-18/blob/master/class-1.md#bar-chart). Each `readme.md` for [Class 2: Do you read me?!](https://github.com/cmda-fe3/course-17-18/blob/master/class-2.md#do-you-read-me)
+Dit is een barchart met data van de lessen Frontend 3.
 
-## Projects
+## Achtergrond
+Tijdens het commenten van de code ben ik elke syntax af gegaan en gaan googlen
+wat de syntax precies doet. Dit was een lang process.
 
--   [**@DesleyAalderink**](https://github.com/DesleyAalderink) ([chart](https://cmda-fe3.github.io/course-17-18/class-1-bar/DesleyAalderink) · [readme](https://github.com/cmda-fe3/course-17-18/blob/master/site/class-1-bar/DesleyAalderink#readme))
--   [**@IIYAMA12**](https://github.com/IIYAMA12) ([chart](https://cmda-fe3.github.io/course-17-18/class-1-bar/IIYAMA12) · [readme](https://github.com/cmda-fe3/course-17-18/blob/master/site/class-1-bar/IIYAMA12#readme))
--   [**@JimmydeKroon**](https://github.com/JimmydeKroon) ([chart](https://cmda-fe3.github.io/course-17-18/class-1-bar/JimmydeKroon) · [readme](https://github.com/cmda-fe3/course-17-18/blob/master/site/class-1-bar/JimmydeKroon#readme))
--   [**@Nickanthonygroen**](https://github.com/Nickanthonygroen) ([chart](https://cmda-fe3.github.io/course-17-18/class-1-bar/Nickanthonygroen) · [readme](https://github.com/cmda-fe3/course-17-18/blob/master/site/class-1-bar/Nickanthonygroen#readme))
--   [**@RobinFrugte97**](https://github.com/RobinFrugte97) ([chart](https://cmda-fe3.github.io/course-17-18/class-1-bar/RobinFrugte97) · [readme](https://github.com/cmda-fe3/course-17-18/blob/master/site/class-1-bar/RobinFrugte97#readme))
--   [**@Senpaizuri**](https://github.com/Senpaizuri) ([chart](https://cmda-fe3.github.io/course-17-18/class-1-bar/Senpaizuri) · [readme](https://github.com/cmda-fe3/course-17-18/blob/master/site/class-1-bar/Senpaizuri#readme))
--   [**@bryanvdelft**](https://github.com/bryanvdelft) ([chart](https://cmda-fe3.github.io/course-17-18/class-1-bar/bryanvdelft) · [readme](https://github.com/cmda-fe3/course-17-18/blob/master/site/class-1-bar/bryanvdelft#readme))
--   [**@danoszz**](https://github.com/danoszz) ([chart](https://cmda-fe3.github.io/course-17-18/class-1-bar/danoszz) · [readme](https://github.com/cmda-fe3/course-17-18/blob/master/site/class-1-bar/danoszz#readme))
--   [**@floortje93**](https://github.com/floortje93) ([chart](https://cmda-fe3.github.io/course-17-18/class-1-bar/floortje93) · [readme](https://github.com/cmda-fe3/course-17-18/blob/master/site/class-1-bar/floortje93#readme))
--   [**@jensorsel**](https://github.com/jensorsel) ([chart](https://cmda-fe3.github.io/course-17-18/class-1-bar/jensorsel) · [readme](https://github.com/cmda-fe3/course-17-18/blob/master/site/class-1-bar/jensorsel#readme))
--   [**@jessiegouw**](https://github.com/jessiegouw) ([chart](https://cmda-fe3.github.io/course-17-18/class-1-bar/jessiegouw) · [readme](https://github.com/cmda-fe3/course-17-18/blob/master/site/class-1-bar/jessiegouw#readme))
--   [**@laurens-booij**](https://github.com/laurens-booij) ([chart](https://cmda-fe3.github.io/course-17-18/class-1-bar/laurens-booij) · [readme](https://github.com/cmda-fe3/course-17-18/blob/master/site/class-1-bar/laurens-booij#readme))
--   [**@levizimmerman**](https://github.com/levizimmerman) ([chart](https://cmda-fe3.github.io/course-17-18/class-1-bar/levizimmerman) · [readme](https://github.com/cmda-fe3/course-17-18/blob/master/site/class-1-bar/levizimmerman#readme))
--   [**@maridjuice**](https://github.com/maridjuice) ([chart](https://cmda-fe3.github.io/course-17-18/class-1-bar/maridjuice) · [readme](https://github.com/cmda-fe3/course-17-18/blob/master/site/class-1-bar/maridjuice#readme))
--   [**@muise001**](https://github.com/muise001) ([chart](https://cmda-fe3.github.io/course-17-18/class-1-bar/muise001) · [readme](https://github.com/cmda-fe3/course-17-18/blob/master/site/class-1-bar/muise001#readme))
--   [**@razpudding**](https://github.com/razpudding) ([chart](https://cmda-fe3.github.io/course-17-18/class-1-bar/razpudding) · [readme](https://github.com/cmda-fe3/course-17-18/blob/master/site/class-1-bar/razpudding#readme))
--   [**@rvdpas**](https://github.com/rvdpas) ([chart](https://cmda-fe3.github.io/course-17-18/class-1-bar/rvdpas) · [readme](https://github.com/cmda-fe3/course-17-18/blob/master/site/class-1-bar/rvdpas#readme))
--   [**@servinlp**](https://github.com/servinlp) ([chart](https://cmda-fe3.github.io/course-17-18/class-1-bar/servinlp) · [readme](https://github.com/cmda-fe3/course-17-18/blob/master/site/class-1-bar/servinlp#readme))
--   [**@tpulido**](https://github.com/tpulido) ([chart](https://cmda-fe3.github.io/course-17-18/class-1-bar/tpulido) · [readme](https://github.com/cmda-fe3/course-17-18/blob/master/site/class-1-bar/tpulido#readme))
--   [**@valentijnkap**](https://github.com/valentijnkap) ([chart](https://cmda-fe3.github.io/course-17-18/class-1-bar/valentijnkap) · [readme](https://github.com/cmda-fe3/course-17-18/blob/master/site/class-1-bar/valentijnkap#readme))
--   [**@velomovies**](https://github.com/velomovies) ([chart](https://cmda-fe3.github.io/course-17-18/class-1-bar/velomovies) · [readme](https://github.com/cmda-fe3/course-17-18/blob/master/site/class-1-bar/velomovies#readme))
--   [**@vincentkempers**](https://github.com/vincentkempers) ([chart](https://cmda-fe3.github.io/course-17-18/class-1-bar/vincentkempers) · [readme](https://github.com/cmda-fe3/course-17-18/blob/master/site/class-1-bar/vincentkempers#readme))
--   [**@wesleyc94**](https://github.com/wesleyc94) ([chart](https://cmda-fe3.github.io/course-17-18/class-1-bar/wesleyc94) · [readme](https://github.com/cmda-fe3/course-17-18/blob/master/site/class-1-bar/wesleyc94#readme))
--   [**@wooorm**](https://github.com/wooorm) ([chart](https://cmda-fe3.github.io/course-17-18/class-1-bar/wooorm) · [readme](https://github.com/cmda-fe3/course-17-18/blob/master/site/class-1-bar/wooorm#readme))
--   [**@yoeripasmans**](https://github.com/yoeripasmans) ([chart](https://cmda-fe3.github.io/course-17-18/class-1-bar/yoeripasmans) · [readme](https://github.com/cmda-fe3/course-17-18/blob/master/site/class-1-bar/yoeripasmans#readme))
--   [**@youmghar**](https://github.com/youmghar) ([chart](https://cmda-fe3.github.io/course-17-18/class-1-bar/youmghar) · [readme](https://github.com/cmda-fe3/course-17-18/blob/master/site/class-1-bar/youmghar#readme))
+## Welke data is gevisiualiseerd?
+Mijn eigen slaap uren in de week.
+
+## Features
+* d3-array — d3.max — Array statistics
+* d3-axis — d3.axisBottom and d3.axisLeft — Reference marks for scales
+* d3-request — d3.csv — Loading files
+* d3-scale — d3.scaleBand and d3.scaleLinear — Position encodings
+* d3-selection — d3.select — Select elements
+
+MIT © 2017 Mike Bostock’s 
