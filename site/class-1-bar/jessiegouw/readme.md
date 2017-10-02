@@ -10,7 +10,7 @@ each day from 11th of september till now.
 ## Feautures
 * d3-array — d3.max — Array statistics
 * d3-axis — d3.axisBottom and d3.axisLeft — Reference marks for scales
-* > d3-request — d3.csv — Loading files
+* d3-request — d3.csv — Loading files
 * d3-scale — d3.scaleBand and d3.scaleLinear — Position encodings
 * d3-selection — d3.select — Select elements
 
