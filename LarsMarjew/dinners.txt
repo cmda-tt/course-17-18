@@ -1,0 +1,4 @@
+Day, Dinner
+2017-09-24, Aardappels groente en vlees
+2017-09-23, Chinees en Japans
+2017-09-22, Portugese kip
