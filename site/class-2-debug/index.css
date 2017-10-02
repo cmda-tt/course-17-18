@@ -1,0 +1,24 @@
+html {
+  font-family: Helvetica, sans-serif;
+  max-width: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+svg {
+  width: 100w;
+  height: 100h;
+}
+
+.axis path {
+}
+
+.axis path,
+.axis line,
+.dot,
+rect {
+  stroke: currentcolor;
+  stroke-width: 2;
+}
