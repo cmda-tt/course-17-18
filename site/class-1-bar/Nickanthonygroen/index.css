@@ -1,0 +1,32 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #efefef;
+  background-color: #1abc9c;
+}
+
+svg {
+  display: block;
+  margin: auto;
+  margin-top: 10em;
+}
+
+h1 {
+  font-weight: 600;
+  text-align: center;
+  margin-top: 2em;
+}
+
+g {
+  font-family: 'Roboto', sans-serif;
+  color: #efefef;
+}
+
+
+.bar {
+  fill: #ecf0f1;
+}
+
+.bar:hover {
+  transition: 0.5s;
+  fill: lightgreen;
+}
