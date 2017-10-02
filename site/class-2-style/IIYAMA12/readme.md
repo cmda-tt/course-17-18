@@ -3,7 +3,7 @@ A donut graph by [@mbostock](https://github.com/mbostock) (GPL-3.0).
 
 ## Background
 For this assignment I checked all values of all the visible variables and changed the names according to them.
-Also I added some spaces
+Also I added some spaces and tabs.
 
 ## Data
 The data contains 2 columns, age(string) and population(int).
