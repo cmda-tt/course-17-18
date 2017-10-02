@@ -2,6 +2,9 @@
 
 This stacked bar chart was created for [Class 1: Bar chart](https://github.com/cmda-fe3/course-17-18/blob/master/class-1.md#bar-chart) using [D3.js](https://d3js.org/)
 
+![Alt text](preview.png "Preview image of the Stacked Bar Chart").
+> This is how the visualization should look like
+
 ## Background
 
 Following steps have been taken in creating a bar chart with D3.js. These steps can be followed to recreate the result and can be seen as ***instructions***.
