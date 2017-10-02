@@ -16,7 +16,7 @@ I did this assignment for Front end 3. I will learn how to use D3. I must explai
 There are two data types I use:
 
 * `Frequency` - this uses prencentages to determ how much it is.
-* `Letters`   - I have it to merge the precentages with the letter
+* `Letters`   - I use it to display the precentages with the letters. Normaly it uses all the letters in the alphabet. I customized it.
 
 ## Features
 
