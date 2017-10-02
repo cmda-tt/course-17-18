@@ -1,0 +1,54 @@
+.bar {
+  fill: rgb(225, 110, 44);
+}
+
+.bar:hover {
+  fill: rgb(153, 76, 0);
+}
+
+.axis--x path {
+  display: none;
+}
+
+h1 {
+  float: right;
+  margin-right: 5rem;
+  margin-top: 5rem;
+  font-family: 'Creepster', cursive;
+  font-size: 45px;
+  color: rgb(225, 110, 44);
+}
+
+h2 {
+  position: absolute;
+  margin-left: 20rem;
+  margin-top: 40rem;
+  font-family: 'Creepster', cursive;
+  font-size: 37px;
+  color: rgb(225, 110, 44);
+}
+
+body {
+  background-image: url("halloween.jpg");
+  background-repeat: no-repeat;
+}
+
+.bar {
+  color: white;
+}
+
+.domain {
+  stroke: #fff;
+}
+
+.tick {
+  stroke: #fff;
+}
+
+text {
+  stroke: #fff;
+}
+
+line {
+  stroke: #fff;
+}

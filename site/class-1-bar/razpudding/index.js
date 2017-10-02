@@ -1,3 +1,4 @@
+/* Based on https://bl.ocks.org/mbostock/3883195 by Mike Bostock. */
 
 var svg = d3.select("svg"),
     margin = {top: 20, right: 20, bottom: 30, left: 50},
@@ -17,7 +18,7 @@ var area = d3.area()
     .x(function(d) { return x(d.date); })
     .y1(function(d) { return y(d.close); });
 
-d3.tsv("data.tsv", function(d) {
+d3.tsv("index.tsv", function(d) {
   d.date = parseTime(d.date);
   d.close = +d.close;
   return d;

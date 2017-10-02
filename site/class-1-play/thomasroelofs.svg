@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="850" height="750" viewBox="0 0 400 1000">
+<title>@thomasroelofs</title>
+
+ <circle cx="100" cy="100" r="300" fill="#35cdff"/>
+ <rect x="50" y="175" width="500" height="100" fill="#ff3a39"/>
+ <line x1="150" y1="250" x2="300" y2="100" stroke="#714a81" stroke-width="10"/>
+ <polygon points="200,10 250,190 160,210" fill="#00ad34"/>
+ <path fill="#ffa632" opacity="0.8" d="M40,17v15H14V16H37z M50,0H0v50h50z"/>
+ <text font-family="Comic Sans MS" font-size="50" x="400" y="50">gg casul</text>
+ <g stroke="#043578" fill="white" stroke-width="10" opacity="0.8">
+     <circle cx="400" cy="50" r="50"/>
+     <circle cx="405" cy="50" r="50"/>
+ </g>
+</svg>
