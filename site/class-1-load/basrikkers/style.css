@@ -1,0 +1,14 @@
+body {
+    width: 100%;
+    text-align: center;
+    background-color: bisque;
+}
+
+h2 {
+    margin-top: 3em;
+    text-decoration: underline;
+}
+
+h1 {
+    font-family: Arial;
+}
