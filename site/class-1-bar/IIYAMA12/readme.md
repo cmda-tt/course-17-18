@@ -5,12 +5,13 @@ This is modified code of a bar-chart. It shows how 'zombie' hungry the people in
 The original code is created by Mike Bostock’s. Who created a simple bar chart, which I thought was useful as a good learning sample. After analysing the code piece by piece by using console.log, I started to change values to test which influence it would have on the design.
 
 ## Data
-The tsv data contains a few zombie names in the first column. In the second column it shows how hungry they are.
+The tsv data contains a few zombie names in the first column(name). In the second column(hunger) it shows how hungry they are.
 The hunger percentage is formatted as:
 * 1.00 = 100%
 * 0.75 = 75%
 * 0.50 = 50%
 * 0.25 = 25%
+
 
 ## Features
 * d3.scaleBand() https://github.com/d3/d3-scale
