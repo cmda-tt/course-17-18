@@ -3,7 +3,7 @@
 This is a little barchart of the amount of searches on google of `buy drugs online`. It is based [`bl.ock`](https://bl.ocks.org/mbostock/3885304) by
 [**@mbostock**](https://github.com/mbostock) (GPL-3.0).
 
-![afbeelding](http://www.vormplatform.nl/wp-content/uploads/2013/01/strange-fruits-sarah-illenberger-3_o.jpg)
+![afbeelding](https://www.vormplatform.nl/wp-content/uploads/2013/01/strange-fruits-sarah-illenberger-3_o.jpg)
 
 ## Background
 
