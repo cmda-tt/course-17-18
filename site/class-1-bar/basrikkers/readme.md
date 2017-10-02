@@ -29,6 +29,9 @@ The y-axis will feature the percentage of battery use
 MIT @ Bas Rikkers
 
 
+![preview bar chart](preview.png)
+
+
 
 
 
