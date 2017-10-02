@@ -47,7 +47,7 @@
 	// Voor het laden van json in een tabel is er dit voorbeeld gebruikt: https://bl.ocks.org/jfreels/6734025
 	d3.json('index.json', function (error,data) {
 
-		console.log(data)
+		// console.log(data)
 
 	  	function tabulate(data, columns) {
 			var table = d3.select('section.json > div').append('table')
@@ -83,7 +83,7 @@
 	})
 
 	d3.text("index.csv", function(error, data) {
-		console.log(data)
+		// console.log(data)
 
         var parsedCSV = d3.csv.parseRows(data);
 

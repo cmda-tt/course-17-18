@@ -9,11 +9,11 @@
 
   <script>
     d3.csv('index.csv', function(err,data){
-      console.log(err, data)
+      // console.log(err, data)
       processData('CSV', data)
     })
     d3.json('index.json', function(err,data){
-      console.log(err, data)
+      // console.log(err, data)
       processData('JSON', data)
     })
 

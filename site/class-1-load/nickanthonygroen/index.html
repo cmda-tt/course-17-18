@@ -25,9 +25,9 @@ var docjson = document.getElementById('showjson');
 
 d3.csv('./index.csv', function(error, date) {
   if (error) throw error;
-  console.log(date);
+  // console.log(date);
   date.forEach(function(load) {
-    console.log(load.date, load.dinner);
+    // console.log(load.date, load.dinner);
       htmlcsv += '<tr>';
       htmlcsv += '<td><h3>'+load.date+'</h3></td>';
       htmlcsv += '<td><p>'+load.dinner+'</p></td>';
@@ -38,9 +38,9 @@ d3.csv('./index.csv', function(error, date) {
 
 d3.json('./index.json', function(error, date) {
   if (error) throw error;
-  console.log(date);
+  // console.log(date);
   date.forEach(function(load) {
-    console.log(load.date, load.dinner);
+    // console.log(load.date, load.dinner);
     htmljson += '<tr>';
     htmljson += '<td><h3>'+load.date+'</h3></td>';
     htmljson += '<td><p>'+load.dinner+'</p></td>';
