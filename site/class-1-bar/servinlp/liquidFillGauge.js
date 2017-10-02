@@ -6,11 +6,6 @@
  * Liquid Fill Gauge v1.1
  */
 
-/* global d3 */
-/* eslint no-unused-vars: "off" */
-/* eslint key-spacing: "off" */
-/* eslint no-shadow: "off" */
-
 function liquidFillGaugeDefaultSettings() {
 
 	return {
@@ -41,7 +36,7 @@ function liquidFillGaugeDefaultSettings() {
 function loadLiquidFillGauge( elementId, value, config ) {
 
 	// Geen config gezet? Geen probleem wordt alsnog voor je gedaan.
-	if ( config === null ) config = liquidFillGaugeDefaultSettings()
+	if ( config === undefined ) config = liquidFillGaugeDefaultSettings()
 
 	const gauge = d3.select( `#${elementId}` )
 
@@ -56,23 +51,23 @@ function loadLiquidFillGauge( elementId, value, config ) {
 	const fillPercent = Math.max( config.minValue, Math.min( config.maxValue, value ) ) / config.maxValue
 
 	let waveHeightScale
-	if ( config.waveHeightScaling ) {
+	if ( config.waveHeightScaling ) { // Zet de "curve" van de svg
 
 		waveHeightScale = d3.scale.linear()
 			.range( [0, config.waveHeight, 0] )
-			.domain( [0, 50, 100] )
+			.domain( [0, 50, 100] ) // Begin, midde, eind
 
 	} else {
 
-		waveHeightScale = d3.scale.linear()
+		waveHeightScale = d3.scale.linear() // Geen "curve" gewoon een strakke lijn
 			.range( [config.waveHeight, config.waveHeight] )
-			.domain( [0, 100] )
+			.domain( [0, 100] ) // begin en eind
 
 	}
 
 	const textPixels = ( config.textSize * radius ) / 2
 	const textFinalValue = parseFloat( value ).toFixed( 2 )
-	// Als valuueCountUp bestaat zet de start value op de minimale value
+	// Als valueCountUp bestaat zet de start value op de minimale value
 	const textStartValue = config.valueCountUp ? config.minValue : textFinalValue
 	const percentText = config.displayPercent ? '%' : ''
 	const circleThickness = config.circleThickness * radius
@@ -103,6 +98,7 @@ function loadLiquidFillGauge( elementId, value, config ) {
 	const data = []
 	for ( let i = 0; i <= 40 * waveClipCount; i++ ) {
 
+		// 40 punten per wave
 		data.push({ x: i / ( 40 * waveClipCount ), y: ( i / 40 ) })
 
 	}
@@ -122,8 +118,9 @@ function loadLiquidFillGauge( elementId, value, config ) {
 		// circle at 100%.
 		.range( [( ( fillCircleMargin + ( fillCircleRadius * 2 ) ) + waveHeight ), ( fillCircleMargin - waveHeight )] )
 		.domain( [0, 1] )
+
 	const waveAnimateScale = d3.scale.linear()
-		.range( [0, ( waveClipWidth - fillCircleRadius ) * 2] ) // Push the clip area one full wave then snap back.
+		.range( [0, waveClipWidth - ( fillCircleRadius * 2 )] ) // Push the clip area one full wave then snap back.
 		.domain( [0, 1] )
 
 	// Scale for controlling the position of the text within the gauge.
@@ -134,6 +131,7 @@ function loadLiquidFillGauge( elementId, value, config ) {
 	// Center the gauge within the parent SVG.
 	const gaugeGroup = gauge.append( 'g' )
 		.attr( 'transform', `translate(${locationX}, ${locationY})` )
+
 
 	// Draw the outer circle.
 	const gaugeCircleArc = d3.svg.arc()
@@ -161,6 +159,7 @@ function loadLiquidFillGauge( elementId, value, config ) {
 		.x( d => waveScaleX( d.x ) )
 		.y0( d => waveScaleY( Math.sin( Math.PI * 2 * config.waveOffset * -1 + Math.PI * 2 * ( 1 - config.waveCount ) + d.y * 2 * Math.PI ) ) )
 		.y1( d => ( ( fillCircleRadius * 2 ) + waveHeight ) )
+
 	const waveGroup = gaugeGroup.append( 'defs' )
 		.append( 'clipPath' )
 		.attr( 'id', `clipWave${elementId}` )
