@@ -1,0 +1,35 @@
+<!doctype html>
+<meta charset=utf-8>
+<!--Update the title with your username:-->
+<title>@Bjorn2123</title>
+<meta content="width=device-width,initial-scale=1" name=viewport>
+<link rel="stylesheet" type="text/css" href="index.css">
+<script src="https://d3js.org/d3.v4.min.js"></script>
+
+<h1>Dinners</h1>
+
+
+<script>
+    d3.csv("./index.csv", csv);
+    d3.json("./index.json", json);
+    
+    var body = document.body;
+
+    function csv(err, csv) {
+        if (err) throw err;
+        body.appendChild(document.createElement('h2')).textContent = "CSV"
+        csv.forEach(function (row) {
+            body.appendChild(document.createElement('h3')).textContent = row.datum;
+            body.appendChild(document.createElement('p')).textContent = row.diner;
+        })
+    };
+
+    function json(err, json) {
+        body.appendChild(document.createElement('h2')).textContent = "JSON"
+        if (err) throw err;
+        json.forEach(function (row) {
+            body.appendChild(document.createElement('h3')).textContent = row.date;
+            body.appendChild(document.createElement('p')).textContent = row.dinner;
+        })
+    };
+</script>
