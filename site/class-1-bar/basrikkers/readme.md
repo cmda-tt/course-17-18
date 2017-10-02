@@ -22,7 +22,7 @@ The y-axis will feature the percentage of battery use
 
 ### Features
 
-{D3 API LINK](https://github.com/d3/d3/blob/master/API.md)
+[D3 API LINK](https://github.com/d3/d3/blob/master/API.md)
 
 ### License
 
