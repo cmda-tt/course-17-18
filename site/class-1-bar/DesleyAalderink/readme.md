@@ -5,7 +5,7 @@
 
 # Barchart!
 
-I will explain in this short description how my bar chart will work.
+I will explain in this short description what I must do.
 
 ## Background 
 
@@ -24,6 +24,8 @@ There are two data types I use:
 *  [`d3-svg-axis`] (https://github.com/d3/d3-axis#api-reference)
 
 ## License
+
+All rights belong to the user Caged. I just changed a few things from his work.
 
 [block-author]: https://bl.ocks.org/Caged
 
