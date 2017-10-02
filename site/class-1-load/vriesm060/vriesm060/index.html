@@ -1,0 +1,61 @@
+<!doctype html>
+<head>
+	<meta charset=utf8>
+	<title>@vriesm060</title>
+	<meta content=width=device-width,initial-scale=1 name=viewport>
+</head>
+<body>
+	<h1>Dinners</h1>
+
+	<script src="https://d3js.org/d3.v4.min.js"></script>
+	<script type="text/javascript">
+		
+		// JSON
+		d3.json('./index.json', function (err, date) {
+		  if (err) throw err;
+
+		  var h2 = document.createElement('h2');
+		  document.body.appendChild(h2);
+
+		  h2.textContent = 'From: JSON';
+
+		  date.forEach(function (q) {
+
+		    var h3 = document.createElement('h3');
+		    document.body.appendChild(h3);
+
+		    h3.textContent = q.Date;
+
+		    var p = document.createElement('p');
+		    document.body.appendChild(p);
+
+		    p.textContent = q.Food;
+
+		  })
+		})
+
+		// CSV
+		d3.csv('./index.csv', function (err, date) {
+		  if (err) throw err;
+		  var h2 = document.createElement('h2');
+		  document.body.appendChild(h2);
+
+		  h2.textContent = 'From: CSV';
+
+		  date.forEach(function (q) {
+
+		    var h3 = document.createElement('h3');
+		    document.body.appendChild(h3);
+
+		    h3.textContent = q.Date;
+
+		    var p = document.createElement('p');
+		    document.body.appendChild(p);
+
+		    p.textContent = q.Food;
+
+		  })
+		})
+
+	</script>
+</body>
