@@ -23,4 +23,8 @@ First I copied the codes and paste it in my code editor. Step by step I adjusted
 #### Link ot the handy d3 features 
 [D3 API Link](https://github.com/d3/d3/blob/master/API.md)
 
+
+![Preview Bar Chart](preview.png)
+
 MIT @ Björn Völkers
+
