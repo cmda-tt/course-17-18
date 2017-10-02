@@ -44,6 +44,36 @@ Git or the GitHub interface as covered in [class 1][c1].
 
 ## Data
 
+Pick one data set.  You _may_ use [other data][other-data] but that probably
+means you’ll have to clean it yourself.  It’s simplest to pick any of the
+cleaned data sets:
+
+*   [Monthly temperature time series](#monthly-temperature-time-series)
+*   [Top languages by number of speaker](#top-languages-by-number-of-speaker)
+*   [Population without indoor toilet](population-without-indoor-toilet)
+
+### Other data
+
+Feel free to use other data sets.  For example, from:
+
+*   [`data.amsterdam.nl`](https://data.amsterdam.nl)
+    — Amsterdam city data
+*   [`data.overheid.nl`](https://data.overheid.nl)
+    — Dutch national data
+*   [`cbs.nl`](https://www.cbs.nl/en-gb/figures)
+    — Data of Statistics Netherlands
+*   [`projects.knmi.nl`](https://projects.knmi.nl/klimatologie)
+    — Weather data in the Netherlands
+*   [`data.europa.eu`](https://data.europa.eu/euodp/en/home)
+    — European Union open data
+*   [`data.un.org`](http://data.un.org)
+    — United Nations data
+*   [`data.oecd.org`](https://data.oecd.org)
+    — Organisation for Economic Co-operation and Development data
+*   [`fivethirtyeight/data`](https://github.com/fivethirtyeight/data)
+    — Data and code behind stories and interactives at
+    [FiveThirtyEight](http://fivethirtyeight.com)
+
 ### Monthly temperature time series
 
 Homogenised monthly temperature time series of De Bilt (1901-present).  Cleaned
@@ -166,28 +196,6 @@ JavaScript Object Notation (JSON) with 34 rows and 2+ columns:
   }
 ]
 ```
-
-### Other data
-
-Feel free to use other data sets.  For example, from:
-
-*   [`data.amsterdam.nl`](https://data.amsterdam.nl)
-    — Amsterdam city data
-*   [`data.overheid.nl`](https://data.overheid.nl)
-    — Dutch national data
-*   [`cbs.nl`](https://www.cbs.nl/en-gb/figures)
-    — Data of Statistics Netherlands
-*   [`projects.knmi.nl`](https://projects.knmi.nl/klimatologie)
-    — Weather data in the Netherlands
-*   [`data.europa.eu`](https://data.europa.eu/euodp/en/home)
-    — European Union open data
-*   [`data.un.org`](http://data.un.org)
-    — United Nations data
-*   [`data.oecd.org`](https://data.oecd.org)
-    — Organisation for Economic Co-operation and Development data
-*   [`fivethirtyeight/data`](https://github.com/fivethirtyeight/data)
-    — Data and code behind stories and interactives at
-    [FiveThirtyEight](http://fivethirtyeight.com)
 
 ## Rubric
 
