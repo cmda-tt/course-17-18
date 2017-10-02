@@ -19,6 +19,5 @@ A simple bar chart about the e-mails I recieved in the last two weeks.The most e
 
 ## License
 
-[MIT](https://choosealicense.com/licenses/mit/) © Bryan van Delft
-
+Released under [the GNU General Public License, version 3.](https://opensource.org/licenses/GPL-3.0)
 
