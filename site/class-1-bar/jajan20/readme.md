@@ -27,8 +27,4 @@ The third assignment for frontend development 3. Try out with d3.js
 * [D3.axisBottom](https://github.com/d3/d3-axis)
 * [D3.ticks](https://bl.ocks.org/mbostock/9764126)
 
-### LICENSE
 
-Copyright (c) 2017 Jamie Jansen
-
-[MIT License](https://choosealicense.com/licenses/mit/)
