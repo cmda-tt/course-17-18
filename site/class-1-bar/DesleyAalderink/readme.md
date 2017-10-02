@@ -1,3 +1,8 @@
+![Alt text][cover]
+
+ by [**@caged**][block-author]
+
+
 # Barchart!
 
 I will explain in this short description how my bar chart will work.
