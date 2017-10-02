@@ -1,0 +1,4 @@
+Day,  Dinner
+2017-09-25, Shoarma
+2017-09-24, Doner
+2017-09-23, Mcdonalds
