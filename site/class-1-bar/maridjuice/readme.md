@@ -37,6 +37,7 @@ Tab-Seperated Values with 12 values en 2 columns.
 
 ## License
 
+MIT © Marius Vledder
 
 [block]: https://bl.ocks.org/mbostock/3885304
 
