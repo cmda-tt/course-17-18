@@ -28,3 +28,10 @@ The third assignment for frontend development 3. Try out with d3.js
 * [D3.ticks](https://bl.ocks.org/mbostock/9764126)
 
 
+### LICENSE
+
+Released under the [GNU General Public License, version 3.](https://opensource.org/licenses/GPL-3.0)
+
+
+
+
