@@ -29,7 +29,7 @@ var svg = d3
   .attr('transform', 'translate(' + margin.left + ',' + margin.top + ')');
 
 /* Load data. */
-d3.csv('index.csv', row, onload);
+d3.csv('index.csv', row, onload(data));
 
 /* Handle data. */
 function onload(data) {
