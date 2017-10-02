@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 10 900 800" height="720" width="800">
+    <!--Update the title with your username-->
+    <title>@LarsMarjew</title>
+
+    <!--Add stuff here-->
+    <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="blue" />
+
+    <line x1="10" y1="10" x2="10" y2="10" stroke-width="4" stroke="yellow" />
+    
+<g stroke-width="4" stroke="palegoldenrod">
+    <rect x="100" y="100" width="50" height="50" fill="turquoise" />
+</g>
+    
+    <line x1="150" y1="150" x2="250" y2="250" stroke-width="4" stroke="brown" />
+    
+<g stroke-width="4" stroke="palegoldenrod">
+    <polygon points="350,250 290,438 440,318 260,318 410,438" fill="rebeccapurple" opacity="0.2"/>
+
+    
+    <path d="M549 400 L475 600 L625 600 Z" fill="skyblue" />
+    
+    <text x="480" y="700" fill="red" font-family="fantasy" font-size="3em">Very nice art ❤</text>
+
+</g>
+</svg>
