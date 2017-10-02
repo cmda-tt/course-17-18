@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 700" width="500" height="500">
+ 
+  <title>@maaikevc</title>
+
+    <g stroke="yellow" stroke-width="5">
+    <rect 
+        fill="none" x="150" y="40" width="350" height="350"
+    />
+    <circle 
+        cx="120" cy="120" r="100"
+    />
+    </g>
+    
+    <line
+        x1="200"
+        y1="180"
+        x2="300"
+        y2="380"
+        stroke-width="10"
+        stroke="aqua"
+    />
+    <rect 
+        fill="blue" x="340" y="90" width="130" height="180" opacity='0.8'
+    />
+    
+    <polygon 
+        fill="#BA3D24" points="386,130 329,130 300,80 328,30 386,30 415,80"
+    />
+
+    <path fill="none" stroke="#DBB516" stroke-miterlimit="10" d="M0.4,58.6c0,0,45-90,101-46s41,320,143,366c152.4,68.7,248-84,156-60"
+	/>
+
+    <text x="80" y="300" font-family="Andale mono" font-size="40px">Not quite a Kandinsky yet</text>
+
+</svg>
