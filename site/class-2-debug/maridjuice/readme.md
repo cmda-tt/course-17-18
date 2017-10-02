@@ -15,20 +15,21 @@ As seen above - it was made intentionally with bugs. In this document I will exp
 ## Fixes
 
 Firstly I’ve edited the bugs from the original js script file. I’ve changed these lines:
-```
+
+```javascript
 var width = 960 - margin.l - margin.r;
 var height = 500 - margin.t - margin.b;
 
 ```
 
 to
-```
+```javascript
 var width = 960 - margin.left - margin.right;
 var height = 500 - margin.top - margin.bottom;
 ```
 
 And
-```
+```javascript
 /* Size SVG. */
 var svg = d3
   .select('svg')
@@ -42,7 +43,7 @@ var svg = d3
   .attr('transform', 'translate(' + margin.l + ',' + margin.t + ')');
 ```
 to
-```
+```javascript
 var svg = d3
     .select('svg')
     .attr('viewBox', [
@@ -56,11 +57,11 @@ var svg = d3
 ```
 
 Also, the original file was trying to connect to index.tsv, but the file is called index.tsv. So I changed this:
-```
+```javascript
 d3.tsv('index.tsv', row, onload);
 ```
 to:
-```
+```javascript
 d3.csv('index.csv', row, onload);
 ```
 
@@ -72,7 +73,7 @@ After the bugs were fixed I updated d3 v3 to d3 v4. This also caused some bugs. 
 
 V3 :
 
-```
+```javascript
 /* Scales and axes. */
 var x = d3.scale.linear().range([0, width]);
 var y = d3.scale.linear().range([height, 0]);
@@ -83,7 +84,7 @@ var yAxis = d3.svg.axis().scale(y).orient('left');
 
 to:
 
-```
+```javascript
 /* Scales and axes. */
 var x = d3.scaleLinear().range([0, width]);
 var y = d3.scaleLinear().range([height, 0]);
