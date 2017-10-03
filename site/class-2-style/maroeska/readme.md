@@ -18,3 +18,28 @@ HTML: body tag aan het einde afgesloten & tabs gebruikt als iets is genesteld
     <script src=https://d3js.org/d3.v4.min.js></script>
     <script src=index.js></script>
 </body>
+```
+
+CSS: waardes op alfabetische volgorde gezet en afgesloten met ;
+Voorbeeld uit code:
+```css
+html {
+    background-color: currentcolor;
+    color: #000;
+    max-width: 100%;
+}
+```
+
+Javascript: delen in blokken onder elkaar gezet en afgesloten met ;
+Voorbeeld uit code:
+```javascript
+function render(b, c) {
+    if (b) throw b;
+    
+    var a = svg
+        .selectAll('.arc')
+        .data(pie(c))
+        .enter()
+        .append('g')
+        .attr('class', 'arc');
+```        
