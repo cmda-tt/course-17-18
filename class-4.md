@@ -41,7 +41,7 @@ See [class 3][c3] for assignments due before this class.
 
 ## Assessment
 
-Submit [assessment 2][a2] at least 24 hours before [class 5][c5].
+Submit [assessment 2][a2] before the start of [class 5][c5].
 
 [inspiration-cover]: images/keys.jpg
 

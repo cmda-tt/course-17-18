@@ -9,7 +9,7 @@ var width = 500,
         'hsl(353, 99%, 59%)'
     ];
 
-console.log("radius:", radius);
+// console.log("radius:", radius);
 
 // Apply the basic variables on to d3 functions.
 // put all colors from <colors> in to an object which can apply the right color to the right scale.
@@ -47,7 +47,7 @@ function render(error, data) {
         .data(pie(data)).enter()
         .append('g')
             .attr('class', 'arc');
-    console.log(items);
+    // console.log(items);
     //  item = {data: {age:string, population:int}, index: 0, value: 2704659, startAngle: 0, endAngle: 0.46233446988176324, padAngle: 0 }
     items.append('path').attr('d', arc).style('fill', getItemFill), items.append('text').attr('transform', transform).attr('dy', '.35em').text(getItemAge);
 
@@ -67,7 +67,7 @@ function transform(item) {
 }
 
 function getItemFill(item) { // get the fill color of an item
-    console.log("fill:", item);
+    // console.log("fill:", item);
     return color(getItemAge(item));
 }
 
@@ -80,6 +80,6 @@ function getItemPopulation(item) { // get the population of an item
     return item.population;
 }
 
-console.log("d3.csv");
+// console.log("d3.csv");
 d3.csv('index.csv', getItemtype, render); // (url [[, row], callback]) https://github.com/d3/d3-request/blob/master/README.md#csv
 // row is a function which can be used to filter or map objects.

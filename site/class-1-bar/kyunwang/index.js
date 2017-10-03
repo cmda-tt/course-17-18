@@ -197,6 +197,7 @@ function sortData(data, typeSort) {
 // Change the colors
 d3.selectAll('#colorChange')
 	.on('click', function () {
+
 		console.log(colorIndex);
 		if (colorIndex === 1) {
 			zAxis = d3.scaleOrdinal()
@@ -208,4 +209,3 @@ d3.selectAll('#colorChange')
 			colorIndex = 1;
 		}
 	})
-// }

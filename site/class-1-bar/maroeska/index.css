@@ -1,0 +1,22 @@
+.bar {
+    fill: #6fc4d4;
+}
+
+.bar:hover {
+    fill: #6fc4d4;
+    opacity: 0.5;
+}
+
+.axis--x path {
+    display: none;
+}
+
+html {
+    background-color: white;
+}
+
+svg {
+  min-width: 100%;
+  height: 100%;
+}
+

@@ -6,7 +6,7 @@
 //})
 
 d3.csv("./index.csv", function (error, data) {
-    console.log(data[0]);
+    // console.log(data[0]);
 });
 
 //d3.json('./index.json', function (err, questions) {
@@ -17,5 +17,5 @@ d3.csv("./index.csv", function (error, data) {
 //})
 
 d3.json("./index.json", function (error, data) {
-    console.log(data[0]);
+    // console.log(data[0]);
 });
