@@ -29,7 +29,7 @@ Both the X-axis and the Y-axis were changed and the colors of the bars.
 
 ## License
 
-All rights belong to the user Mbostock. 
+All rights belong to the user [**@Mbostock**][block-author]. 
 
 [block-author]: https://bl.ocks.org/mbostock
 
