@@ -1,0 +1,19 @@
+.bar {
+    fill: orange;
+   
+}
+
+.bar:hover {
+    fill: red;
+}
+
+.axis--x path {
+    display: none;
+}
+
+h1 {
+    text-align: center;
+    color: darkblue;
+    font-size: 1em;
+    margin-top: 3em;
+}
