@@ -1,0 +1,34 @@
+<!doctype html>
+<meta charset=utf8>
+
+<title>@maaikevc</title>
+<meta content=width=device-width,initial-scale=1 name=viewport>
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<link rel="stylesheet" type="text/css" href="index.css">
+
+<body>
+<h1>Dinners</h1>
+    
+<script>
+  d3.csv("index.csv", csv);
+  d3.json("index.json", json);
+  var body = document.body;
+  function csv(err, csv) {
+    if (err) throw err;
+    body.appendChild(document.createElement('h2')).textContent = "CSV"
+    csv.forEach(function (row) {
+ 	  body.appendChild(document.createElement('h3')).textContent = row.dag;
+ 	  body.appendChild(document.createElement('p')).textContent = row.eten;
+   })
+  };
+  function json(err, json) {
+  	body.appendChild(document.createElement('h2')).textContent = "JSON"
+    if (err) throw err;
+ 	  json.forEach(function (row) {
+   	body.appendChild(document.createElement('h3')).textContent = row.dag;
+   	body.appendChild(document.createElement('p')).textContent = row.eten;
+   })
+  };
+</script>
+    
+<body/>    

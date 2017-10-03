@@ -1,0 +1,47 @@
+<!doctype html>
+<meta charset=utf8>
+
+<title>@JimmydeKroon</title>
+<meta content=width=device-width,initial-scale=1 name=viewport>
+
+
+<script src="https://d3js.org/d3.v4.min.js"></script>
+
+<h1>Dinners</h1>
+
+<script>
+
+d3.csv("index.csv", function(error, data) {
+  if (error) throw error;
+
+  document.body.appendChild(document.createElement("h2")).textContent = "CSV"
+
+
+  document.body.appendChild(document.createElement("h3")).textContent = data[0].day;
+  document.body.appendChild(document.createElement("h3")).textContent = data[1].day;
+  document.body.appendChild(document.createElement("h3")).textContent = data[2].day;
+
+
+  document.body.appendChild(document.createElement("p")).textContent = data[0].dinner;
+  document.body.appendChild(document.createElement("p")).textContent = data[1].dinner;
+  document.body.appendChild(document.createElement("p")).textContent = data[2].dinner;
+});
+
+d3.json("index.json", function(error, data) {
+  if (error) throw error;
+
+  document.body.appendChild(document.createElement("h2")).textContent = "JSON"
+
+
+  document.body.appendChild(document.createElement("h3")).textContent = data[0].date;
+  document.body.appendChild(document.createElement("h3")).textContent = data[1].date;
+  document.body.appendChild(document.createElement("h3")).textContent = data[2].date;
+
+
+  document.body.appendChild(document.createElement("p")).textContent = data[0].dinner;
+  document.body.appendChild(document.createElement("p")).textContent = data[1].dinner;
+  document.body.appendChild(document.createElement("p")).textContent = data[2].dinner;
+
+});
+
+</script>

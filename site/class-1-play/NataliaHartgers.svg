@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 10 900 800" width="600" height="600">
+  <!--Update the title with your username-->
+  <title>@NataliaHartgers</title>
+
+  <!--Add stuff here-->
+
+  <g fill="#black" stroke="red" stroke-width="10">
+    <circle cx="50" cy="50" r="40" />
+    <circle cx="100" cy="100" r="40" />
+  </g>
+  <rect x="108" y="108" width="100" height="100"/>
+  <g fill="#black" stroke="red" stroke-width="10">
+    <polygon points="320,268.3 295,311.7 245,311.7 220,268.3 245,225 295,225"/>
+    <polygon points="370,318.3 345,361.7 295,361.7 270,318.3 295,275 345,275"/>
+  </g>
+  <path d="M 330 330 L 430 330 L 340 430 z"/>
+  <line x1="0" y1="0" x2="400" y2="400" stroke="red" stroke-width="2" opacity="0.5"/>
+  <text x="320" y="35" font-family="serif" font-size="35">nice art</text>
+</svg>

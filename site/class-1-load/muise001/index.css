@@ -1,0 +1,27 @@
+html {
+ background-image: url('https://media.giphy.com/media/PndRPETzqFrk4/giphy.gif');
+}
+
+body{
+ background-color: rgba(191, 55, 238, 0.88);
+ margin: 0 auto;
+ width: 30%;
+ text-align: center;
+ color: white;
+ font-family: sans-serif;
+ border-radius: 10em 0 10em 0;
+ padding: 1em;
+ margin-top: 1em;
+}
+
+h2 {
+  color: darkgreen;
+}
+
+h1 {
+  color: yellow
+}
+
+p {
+  color: limegreen
+}

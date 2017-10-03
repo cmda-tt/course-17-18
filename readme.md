@@ -80,28 +80,28 @@ In practice you’ll learn to:
 
 1.  <a name="subgoal-1"></a> Understand SVG and canvas
     ([**class 1**][c1])
-2.  <a name="subgoal-2"></a> Parse data formats
+2.  <a name="subgoal-2"></a> Load external data
     ([**class 1**][c1] and [**class 3**][c3])
 3.  <a name="subgoal-3"></a> Write documentation
-    ([**class 2**][c2] and [**class 4**][c4])
+    ([**class 2**][c2])
 4.  <a name="subgoal-4"></a> Read documentation
-    ([**class 2**][c2] and [**class 4**][c4])
+    ([**class 2**][c2])
 5.  <a name="subgoal-5"></a> Debug code
     ([**class 2**][c2])
 6.  <a name="subgoal-6"></a> Refactor code
     ([**class 2**][c2])
 7.  <a name="subgoal-7"></a> Use scales (domain, range, and axis)
-    ([**class 2**][c2] and [**class 4**][c4])
-8.  <a name="subgoal-8"></a> Load external data
+    ([**class 2**][c2])
+8.  <a name="subgoal-8"></a> Transform and clean data
+    ([**class 3**][c3])
+9.  <a name="subgoal-9"></a> Manipulate elements
     ([**class 3**][c3] and [**class 4**][c4])
-9.  <a name="subgoal-9"></a> Transform and clean data
-    ([**class 3**][c3] and [**class 4**][c4])
-10. <a name="subgoal-10"></a> Understand the d3 loop
+10. <a name="subgoal-10"></a> Use data joins
     ([**class 3**][c3] and [**class 4**][c4])
 11. <a name="subgoal-11"></a> Create interactive visualisations
-    ([**class 3**][c3] and [**class 5**][c5])
+    ([**class 4**][c4] and [**class 5**][c5])
 12. <a name="subgoal-12"></a> Create multiple visualisations on the same page
-    ([**class 6**][c6])
+    ([**class 5**][c5])
 
 ## Grade
 
