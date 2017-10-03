@@ -1,44 +1,3 @@
-function renderChart(err, data) {
-	if (err) throw err;
-	var chart = createSvg
-		.selectAll('.arc')
-		.data(initiatePie(data))
-		.enter()
-		.append('g')
-		.attr('class', 'arc');
-
-	chart
-		.append('path')
-		.attr('d', arcSize)
-		.style('fill', getFill);
-		
-	chart
-		.append('text')
-		.attr('transform', getTransform)
-		.attr('dy', '.35em')
-		.text(getAge);
-}
-
-function modifyRow(data) {
-	return (data.population = Number(getPopulation(data))), data;
-}
-
-function getTransform(a) {
-	return 'translate(' + arcSize.centroid(a) + ')';
-}
-
-function getFill(a) {
-	return colorScale(getAge(a));
-}
-
-function getAge(a) {
-	return a.data.age;
-}
-
-function getPopulation(a) {
-	return a.population;
-}
-
 var width = 500,
 	height = 500,
 	radius = Math.min(width, height) / 2,
@@ -73,5 +32,46 @@ var createSvg = d3
 	.attr('viewBox', [0, 0, width, height].join(' '))
 	.append('g')
 	.attr('transform', 'translate(' + width / 2 + ',' + height / 2 + ')');
+
+function renderChart(err, data) {
+	if (err) throw err;
+	var chart = createSvg
+		.selectAll('.arc')
+		.data(initiatePie(data))
+		.enter()
+		.append('g')
+		.attr('class', 'arc');
+
+	chart
+		.append('path')
+		.attr('d', arcSize)
+		.style('fill', getFill);
+
+	chart
+		.append('text')
+		.attr('transform', getTransform)
+		.attr('dy', '.35em')
+		.text(getAge);
+}
+
+function modifyRow(data) {
+	return (data.population = Number(getPopulation(data))), data;
+}
+
+function getTransform(a) {
+	return 'translate(' + arcSize.centroid(a) + ')';
+}
+
+function getFill(a) {
+	return colorScale(getAge(a));
+}
+
+function getAge(a) {
+	return a.data.age;
+}
+
+function getPopulation(a) {
+	return a.population;
+}
 
 d3.csv('index.csv', modifyRow, renderChart);
