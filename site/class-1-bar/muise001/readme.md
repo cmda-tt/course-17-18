@@ -1,4 +1,3 @@
-#Hello World
 # Bar Chært Ultimatum 97
 
 This is a bar chart that show's the population of all people living in The Netherlands ordered by provence.
