@@ -1,4 +1,4 @@
-![cover]: voorbeeld.png
+![cover](voorbeeld.png)
 Graph by : [@MBostock](https://github.com/mbostock)<br>
 Customisation by : [@muise001](https://github.com/muise001)
 
