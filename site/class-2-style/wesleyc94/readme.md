@@ -1,7 +1,7 @@
 # Donut Chart
 This donut chart describes the population of all ages.
 
-[![][cover]][url]
+[![cover]]
 
 ## Background
 This chart describes the population of all ages. All kind of ages has been put into a category.
