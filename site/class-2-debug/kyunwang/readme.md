@@ -18,6 +18,27 @@ of various iris flowers based on a [`bl.ock`][block] by
 *   [`d3.extent`](https://github.com/d3/d3-3.x-api-reference/blob/master/Arrays.md#d3_extent)
 *   [`d3.csv`](https://github.com/d3/d3-3.x-api-reference/blob/master/CSV.md#csv)
 
+## Knows Bugs
+### JS
+- [x] tsv is not found
+	- The file was a csv
+- [x] index.css is not found
+	- Wrong routing
+- [x] index.js is not found
+	- Wrong routing
+- [x] A typeerror - d3.extend is seen as undefined
+	- It was .extent
+- [x] Invalid values for circle and rect (parsing error)
+	- margin.l should be margin.left ect.
+
+### CSS
+- [x] width: 100w should be 100vw same for height should be vh
+- [x] currentcolor shoudl be currentColor
+- [] path fill should be *none* instead of no
+
+### HTML
+- [x] Needs cleaning
+
 ## License
 
 GPL-3.0 © Titus Wormer
