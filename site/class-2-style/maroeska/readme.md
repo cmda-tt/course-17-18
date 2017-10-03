@@ -45,4 +45,5 @@ function render(b, c) {
 ```        
 ## License
 
-MIT © Maroeska Verkerk
+GPL-3.0 © Maroeska Verkerk
+
