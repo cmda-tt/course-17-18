@@ -1,16 +1,16 @@
 var width = 500,
     height = 500,
     radius = Math.min(width, height) / 2,
-    
-    colors = 
-        ['hsl(45, 99%, 59%)', 
-         'hsl(96, 99%, 59%)', 
-         'hsl(148, 99%, 59%)', 
-         'hsl(199, 99%, 59%)', 
-         'hsl(250, 99%, 59%)', 
-         'hsl(302, 99%, 59%)', 
+
+    colors =
+        ['hsl(45, 99%, 59%)',
+         'hsl(96, 99%, 59%)',
+         'hsl(148, 99%, 59%)',
+         'hsl(199, 99%, 59%)',
+         'hsl(250, 99%, 59%)',
+         'hsl(302, 99%, 59%)',
          'hsl(353, 99%, 59%)'];
-    
+
     color = d3
         .scaleOrdinal()
         .range(colors);
@@ -35,19 +35,19 @@ var width = 500,
 
 function render(b, c) {
     if (b) throw b;
-    
+
     var graph = svg
         .selectAll('.arc')
         .data(pie(c))
         .enter()
         .append('g')
         .attr('class', 'arc');
-    
+
     graph
         .append('path')
         .attr('d', arc)
-        .style('fill', fill); 
-        
+        .style('fill', fill);
+
     graph
         .append('text')
         .attr('transform', transform)
@@ -56,7 +56,7 @@ function render(b, c) {
 }
 
 function type(graph) {
-    return graph.population = Number(population(a)), graph;
+    return graph.population = Number(population(graph)), graph;
 }
 
 function transform(graph) {
