@@ -1,0 +1,53 @@
+<!doctype html>
+<meta charset=utf8>
+<title>@sebasschmidt</title>
+<meta content=width=device-width,initial-scale=1 name=viewport>
+<link rel="stylesheet" type="text/css" href="index.css">
+<script src="https://d3js.org/d3.v4.min.js"></script>
+
+<body>
+<h1>Dinners</h1>
+</body>
+
+
+
+<script>
+
+var data = [];
+var table = d3.select('body').append('table');
+var thead = table.append('thead').append('tr');
+var tbody = table.append('tbody');
+var body = document.body;
+
+d3.json('index.json', function (err, json) {
+
+    body.appendChild(document.createElement('h3')).textContent = "JSON"
+    var paragraaf = document.getElementsByTagName("tr")[0];
+    for (var i = 0; i < json.length; i++) {
+        var h3 = document.createElement("h3");
+        h3.innerHTML = json[i].dag;
+        paragraaf.appendChild(h3);
+        var p = document.createElement("p");
+        p.innerHTML = json[i].eten;
+        paragraaf.appendChild(p);
+    }});
+
+
+    d3.csv('index.csv', function (err, csv) {
+    body.appendChild(document.createElement('h3')).textContent = "CSV"
+    var paragraaf = document.getElementsByTagName("tr")[0];
+    for (var i = 0; i < csv.length; i++) {
+        var h3 = document.createElement("h3");
+        h3.innerHTML = csv[i].dag;
+        paragraaf.appendChild(h3);
+        var p = document.createElement("p");
+        p.innerHTML = csv[i].eten;
+        paragraaf.appendChild(p);
+    }});
+
+
+</script>
+
+
+
+
