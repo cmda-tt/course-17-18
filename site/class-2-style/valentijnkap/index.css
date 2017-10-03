@@ -1,0 +1,25 @@
+html {
+  color: black;
+  background: #1D2F49;
+  max-width: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+svg {
+  width: 100vw;
+  height: 100vh;
+}
+
+text {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 0.8rem;
+  text-anchor: middle;
+}
+
+path {
+  stroke: #1D2F49;
+  stroke-width: 2;
+}
