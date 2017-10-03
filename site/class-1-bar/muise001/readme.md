@@ -33,4 +33,4 @@ All rights belong to the user [**@Mbostock**][block-author].
 
 [block-author]: https://bl.ocks.org/mbostock
 
-[cover]: preview.png
+[cover]: preview.png 
