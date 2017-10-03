@@ -1,0 +1,40 @@
+html {
+    color: currentColor;
+    background-color: #101a2e;
+    max-width: 100%;
+}
+
+.arc text{
+    color:white;
+}
+
+h1 {
+    text-align: center;
+    font-family: Helvetica;
+    font-weight: 900;
+    color: white;
+}
+
+body {
+    margin: 0;
+}
+
+svg {
+    width: 100vw;
+    height: 100vh;
+}
+
+.arc, text {
+    fill: currentcolor;
+}
+
+text {
+    font-family: Roboto, -apple-system, BlinkMacSystemFont, Helvetica Neue, Segoe UI, Oxygen, Ubuntu, Cantarell, Open Sans, sans-serif;
+    font-size: small;
+    text-anchor: middle;
+}
+
+path {
+    stroke: #101a2e;
+    stroke-width: 6;
+}
