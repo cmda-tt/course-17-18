@@ -1,14 +1,14 @@
 # Scatter plot
 
 A simple responsive scatter plot visualising the dimensions of sepals and petals
-of various iris flowers based on a [`bl.ock`][block] by
-[**@mbostock**][block-author] (GPL-3.0).
+of various iris flowers based on a [`bl.ock`][https://bl.ocks.org/mbostock/3887118] by
+[**@mbostock**][https://github.com/mbostock] (GPL-3.0).
 
 > 💁 This example contains intentional bugs in HTML, CSS, and JavaScript,
 > and uses an old version of d3: `d3@3`.  It’s meant to be an exercise in
 > debugging skills.
 
-[![][cover]][url]
+[![][preview.png]][https://cmda-fe3.github.io/course-17-18/class-2/debug]
 
 ## Features
 
@@ -44,7 +44,7 @@ of various iris flowers based on a [`bl.ock`][block] by
 
 ## License
 
-GPL-3.0 © Titus Wormer
+GPL-3.0 © Kang Yun Wang (Kevin Wang)
 
 [block]: https://bl.ocks.org/mbostock/3887118
 
