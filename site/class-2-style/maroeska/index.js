@@ -36,41 +36,41 @@ var width = 500,
 function render(b, c) {
     if (b) throw b;
     
-    var a = svg
+    var graph = svg
         .selectAll('.arc')
         .data(pie(c))
         .enter()
         .append('g')
         .attr('class', 'arc');
     
-    a
+    graph
         .append('path')
         .attr('d', arc)
         .style('fill', fill); 
         
-    a
+    graph
         .append('text')
         .attr('transform', transform)
         .attr('dy', '.35em')
         .text(age);
 }
 
-function type(a) {
-    return a.population = Number(population(a)), a;
+function type(graph) {
+    return graph.population = Number(population(a)), graph;
 }
 
-function transform(a) {
-    return 'translate(' + arc.centroid(a) + ')';
+function transform(graph) {
+    return 'translate(' + arc.centroid(graph) + ')';
 }
 
-function fill(a) {
-    return color(age(a));
+function fill(graph) {
+    return color(age(graph));
 }
 
-function age(a) {
-    return a.data.age;
+function age(graph) {
+    return graph.data.age;
 }
 
-function population(a) {
-    return a.population;
+function population(graph) {
+    return graph.population;
 }
