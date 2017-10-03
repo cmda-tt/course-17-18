@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+  <!--Update the title with your username-->
+  <title>@krsty</title>
+
+  <!--Add stuff here-->
+
+    
+    <circle 
+        cx="420"
+        cy="120"
+        r="100"
+        fill="blueviolet"
+    />
+    
+    <rect 
+       x="600"
+    y="300"
+          width="466"
+          height="400"
+          fill="cyan"
+    />
+    
+     <rect 
+       x="300"
+    y="600"
+          width="40"
+          height="800"
+           fill="darkgoldenrod"
+    />
+    
+      <rect 
+       x="800"
+    y="600"
+          width="100"
+          height="40"
+            fill="blueviolet"
+    />
+    
+    <line
+
+    y1="600"
+    x1="200"
+    x2="100"
+    y2="100"
+    stroke-width="100"
+    stroke-opacity="2"
+          stroke="aqua"
+
+    /> 
+    
+     <line
+
+    y1="800"
+    x1="100"
+    x2="500"
+    y2="100"
+    stroke-width="100"
+    stroke-opacity="2"
+          stroke="crimson"
+
+    /> 
+    
+    <polygon
+  points="420,63.3 395,106.7 345,106.7 320,63.3 345,20 395,20"
+             stroke="blue"
+          
+             />
+    
+    <ellipse
+  cx="820"
+  cy="70"
+  rx="100"
+  ry="50"
+/>
+    
+    <text
+  x="700"
+  y="405"
+  font-family="Verdana"
+  font-size="65"
+>🐷 🦄 🌺</text>
+    
+    
+<path
+      d="M 20 20 L 120 20 L 200 100 z"
+      fill="chartreuse"
+/>
+        
+    
+    <g
+  fill="deeppink"
+  stroke="blueviolet"
+  stroke-width="10"
+>
+  <circle cx="760" cy="160" r="50" />
+  <circle cx="790" cy="160" r="60" />
+  <circle cx="820" cy="160" r="70" />
+  <circle cx="850" cy="160" r="20" />
+</g>
+ 
+</svg>
