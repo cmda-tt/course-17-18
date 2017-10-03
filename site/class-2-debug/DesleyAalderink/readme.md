@@ -19,7 +19,7 @@ When I was looking at the JS file I noticed something strange.
 var width = 960 - margin.l - margin.r;
 var height = 500 - margin.t - margin.b;
 ```
-I found it odd that the margin.l was used, because I had never seen it before. Maybe it was a feature of d3? 
+I found it odd that the margin. l was used, because I had never seen it before. Maybe it was a feature of d3? 
 I went to Google for an answer, but I couldn't find anything about it. That's when I changed it to:
 
 ```javascript
