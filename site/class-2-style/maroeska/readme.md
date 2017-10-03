@@ -4,4 +4,4 @@ Dit is een donutchart die een visualisatie weergeeft van de populaties van versc
 ___
 
 ## Preview
-
+![Zie afbeelding](https://github.com/maroeska/course-17-18/blob/style/site/class-2-style/maroeska/preview.png)
