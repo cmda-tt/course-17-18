@@ -20,4 +20,4 @@ GPL-3.0 © Titus Wormer
 
 [cover]: preview.png
 
-[url]: https://github.com/cmda-fe3/course-17-18/tree/master/site/class-2-style
+[url]: https://github.com/wesleyc94/course-17-18/tree/style/site/class-2-style/wesleyc94
