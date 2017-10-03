@@ -29,6 +29,7 @@ The next example you see how I use a function. array and loop.
 *   Close the array on a line of his own.
 *   Loop on the same line.
 *   Code to execute on the next.
+*   _For some reason interested about the colors I picked check [dash-syntax](https://github.com/cpsdqs/dash-syntax)_
 
 ```js
 
