@@ -118,6 +118,7 @@ axis heeft een path element met de class ‘domain’, gevolgd door getransforme
 **bandwith** geeft de breedte van elke band weer.
 
 Informatie bronnen:
+
 https://stackoverflow.com > diverse vragen van mensen gelezen
 
 https://github.com/d3/d3-array > veel informatie gehaald over D3
