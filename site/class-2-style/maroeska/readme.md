@@ -20,7 +20,7 @@ HTML: body tag aan het einde afgesloten & tabs gebruikt als iets is genesteld
 </body>
 ```
 
-CSS: waardes op alfabetische volgorde gezet en afgesloten met ;
+CSS: waardes op alfabetische volgorde gezet en afgesloten met ;<br>
 Voorbeeld uit code:
 ```css
 html {
@@ -30,7 +30,7 @@ html {
 }
 ```
 
-Javascript: delen in blokken onder elkaar gezet en afgesloten met ;
+Javascript: delen in blokken onder elkaar gezet en afgesloten met ;<br>
 Voorbeeld uit code:
 ```javascript
 function render(b, c) {
@@ -43,3 +43,6 @@ function render(b, c) {
         .append('g')
         .attr('class', 'arc');
 ```        
+## License
+
+MIT © Maroeska Verkerk
