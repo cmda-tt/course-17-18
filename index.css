@@ -1,0 +1,30 @@
+body {
+    width: 30rem;
+    margin: auto;
+    display: block;
+    font-family: sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+details {
+    width: 50%;
+    margin: auto;
+    margin-top: 1rem;
+}
+
+summary {
+    background: pink;
+    padding: 1rem;
+    border-radius: 2px;
+    border: 1px solid lightgrey;
+}
+
+p {
+    background: lightblue;
+    padding: 1rem 2rem;
+    font-size: 1.4rem;
+    margin-top: 0;
+}
