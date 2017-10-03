@@ -1,6 +1,8 @@
 # Bar Chart
 A graph about listening music per week
 
+[![][cover]][url]
+
 ## Background
 This is my graph describing how much music i listened last week. From monday to sunday.
 
@@ -17,6 +19,6 @@ The visualised data describes how much music i listened to music last week. The 
 ## License
 GNU GPLv3 © Wesley Cheng
 
-![my music](preview.png)
+[cover]: preview.png
 
-[`Picture source`](https://yt3.ggpht.com/pHwZj3tkgC3SJFbuqebBoT7WtVcIwAijEmcbe9VDCauv9ZlG6uS2zjvZQUSO7SfFqa3xjYqGp_L4QbM7=s900-nd-c-c0xffffffff-rj-k-no)
+[url]: https://github.com/wesleyc94/course-17-18/tree/readme.md/site/class-1-bar/wesleyc94
