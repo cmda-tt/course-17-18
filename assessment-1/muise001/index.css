@@ -1,0 +1,27 @@
+html {
+  background-color: rgb(177, 231, 226);
+}
+
+/*de div wordt rechts neergezet. hierin wordt de data van de geklikte balk zichtbaar */
+div {
+  position: fixed;
+  top: 7em;
+  right: 20em;
+  background-color: rgba(178, 241, 167, 0.8);
+  padding: 2em;
+  width: 10em;
+  height: 10em;
+  color: white;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+/*Bar krijgt een kleur*/
+.bar {
+  fill: hotpink;
+}
+
+/*Als je hovert over een bar, krijgt hij een andere kleur*/
+.bar:hover {
+  fill: lightpink;
+}
