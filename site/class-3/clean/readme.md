@@ -49,6 +49,6 @@ GPL-3.0 © Titus Wormer
 
 [url]: https://cmda-fe3.github.io/course-17-18/class-3/clean
 
-[data-source]: http://projects.knmi.nl/klimatologie/uurgegevens/selectie.cgi
+[data-source]: https://projects.knmi.nl/klimatologie/uurgegevens/selectie.cgi
 
 [data-example]: example.json

@@ -1,6 +1,6 @@
-if (d3) {
-    console.log("d3 exist");
-}
+// if (d3) {
+//     console.log("d3 exist");
+// }
 var svg = d3.select("svg"),
     margin = {
         top: 20,
@@ -17,7 +17,7 @@ var x = d3.scaleBand().rangeRound([0, width]).padding(0.1),
     y = d3.scaleLinear().rangeRound([height, 0]);
 // d3.scaleBand() Make a new 'band scale'with an empty domain. Default: Range [0, 1]. No padding. No rounding and center alignment. // https://github.com/d3/d3-scale
 // d3.scaleLinear() Make a new "continuous scale" (https://github.com/d3/d3-scale#continuous-scales) Default: Range [0, 1]. This scale method use usefull for quantitative data.
-console.log("x:", x(), ", y:", y());
+// console.log("x:", x(), ", y:", y());
 // Nothing usefull to see: x: undefined , y: NaN
 
 
@@ -48,7 +48,7 @@ d3.tsv("index.tsv", function(d) {
     // After disabling this piece of code, scaled the bar charts incorrect.
     // d3.max(array[, accessor]) // https://github.com/d3/d3-3.x-api-reference/blob/master/Arrays.md
     y.domain([0, d3.max(data, function(d) { // [0, max value of array]
-        console.log("d.hunger", d.hunger);
+        // console.log("d.hunger", d.hunger);
         return d.hunger;
     })]);
 
@@ -124,17 +124,17 @@ d3.tsv("index.tsv", function(d) {
 
 
 
-    console.log("x.bandwidth()", x.bandwidth());
+    // console.log("x.bandwidth()", x.bandwidth());
 
-    console.log("x:", x(23), ", y:", y(54));
+    // console.log("x:", x(23), ", y:", y(54));
     // strange: x: undefined , y: -190858
 
-    console.log("x:", x("T"), ", y:", y(54));
+    // console.log("x:", x("T"), ", y:", y(54));
     // x: 656 , y: -190858
     document.querySelector('main > svg').addEventListener('mouseover', function(e) { // stangely doesn't accept svg as start element
         var source = e.target;
-        if (source.classList.contains("bar")) {
-            console.log("contains bar");
-        }
+        // if (source.classList.contains("bar")) {
+        //     console.log("contains bar");
+        // }
     });
 });

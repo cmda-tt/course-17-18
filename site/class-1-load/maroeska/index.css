@@ -1,0 +1,29 @@
+html {
+    font-family: Quicksand;
+    text-align: center;
+    color: white;
+    background-color: darkslategrey;
+}
+
+h1, h2 {
+    font-weight: 500;
+}
+
+th {
+    align-items: center;
+    color: aqua;
+    font-weight: 900;
+}
+
+td {
+    font-size: 0.8em;
+}
+
+* {
+    line-height: 2em;
+    text-align: center;
+}
+
+table {
+    align-items: center;    
+}

@@ -25,7 +25,7 @@ See also the [Easing Explorer][ee] by [**@mbostock**][mb].
 
 MIT © Titus Wormer
 
-[block]: http://bl.ocks.org/hunzy/9929724
+[block]: https://bl.ocks.org/hunzy/9929724
 
 [author]: https://github.com/hunzy
 

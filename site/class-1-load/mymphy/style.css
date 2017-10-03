@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+    background-color: #e5e5ff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+h1{
+    margin: 0;
+    padding: 1em .5em;
+    width: 100%;
+    background-color: #4c4cff;
+    color: #fff;
+    text-align: center;
+}
+
+div{
+    margin:  0 2em;
+}
+
+h2{
+    color: #4c4cff;
+}
+
