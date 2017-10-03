@@ -34,10 +34,13 @@ of various iris flowers based on a [`bl.ock`][block] by
 ### CSS
 - [x] width: 100w should be 100vw same for height should be vh
 - [x] currentcolor shoudl be currentColor
-- [] path fill should be *none* instead of no
+- [x] path fill should be *none* instead of no
 
 ### HTML
 - [x] Needs cleaning
+
+## Changelog
+- Updates D3.v3 to D3.v4
 
 ## License
 

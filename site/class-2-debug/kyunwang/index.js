@@ -8,17 +8,15 @@ var width = 960 - margin.left - margin.right;
 var height = 500 - margin.top - margin.bottom;
 
 /* Scales and axes. */
-var x = d3.scale.linear().range([0, width]);
-var y = d3.scale.linear().range([height, 0]);
-var color = d3.scale.ordinal().range(["#fe2f2f", "#feca2f", "#96fe2f"]);
-var xAxis = d3.svg
-  .axis()
-  .scale(x)
-  .orient("bottom");
-var yAxis = d3.svg
-  .axis()
-  .scale(y)
-  .orient("left");
+var x = d3.scaleLinear().range([0, width]);
+var y = d3.scaleLinear().range([height, 0]);
+var color = d3.scaleOrdinal().range(["#fe2f2f", "#feca2f", "#96fe2f"]);
+
+var xAxis = d3.axisBottom(x)
+var yAxis = d3.axisLeft(y)
+
+
+
 
 /* Size SVG. */
 var svg = d3
