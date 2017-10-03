@@ -1,0 +1,22 @@
+html {
+    font-family: Roboto, -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI", Oxygen, Ubuntu, Cantarell, "Open Sans", sans-serif;
+    max-width: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+svg {
+    width: 100vw;
+    height: 100vh;
+}
+
+.axis path {
+    fill: none;
+}
+
+.axis path, .axis line, .dot, rect {
+    stroke: black;
+    stroke-width: 2;
+}
