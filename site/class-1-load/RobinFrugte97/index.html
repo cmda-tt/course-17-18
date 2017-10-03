@@ -1,0 +1,30 @@
+<!doctype html>
+<meta charset=utf8>
+<title>@RobinFrugte97</title>
+<meta content=width=device-width,initial-scale=1 name=viewport>
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<h1>Dinners</h1>
+<h2>JSON:</h2>
+<div class="json">
+</div>
+<h2>CSV:</h2>
+<div class="csv">
+</div>
+<script>
+  var jsonPlek = document.querySelector(".json")
+  var csvPlek = document.querySelector(".csv")
+  d3.json('./index.json', function (err, json) {
+    if (err) throw err;
+    json.forEach(function (result) {
+      jsonPlek.appendChild(document.createElement('h3')).textContent = result.Day
+      jsonPlek.appendChild(document.createElement('p')).textContent = result.Dinner
+    })
+  })
+  d3.csv('./index.csv', function (err, csv) {
+    if (err) throw err;
+    csv.forEach(function (result) {
+      csvPlek.appendChild(document.createElement('h3')).textContent = result.day
+      csvPlek.appendChild(document.createElement('p')).textContent = result.dinner
+    })
+})
+</script>

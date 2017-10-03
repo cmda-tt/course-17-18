@@ -1,0 +1,8 @@
+body {
+    font-family: helvetica;
+    background-color: cadetblue;
+    color: pink;
+    text-align: center;
+}
+
+p, b {font-size: 14px;}

@@ -1,8 +1,8 @@
-if (d3) {
-    console.log("D3 lib exist");
-} else {
-    console.log("D3 lib doesn't exist");
-}
+// if (d3) {
+//     console.log("D3 lib exist");
+// } else {
+//     console.log("D3 lib doesn't exist");
+// }
 
 // ------------------------- //
 function applyTextToNewCreatedElement (element, text) {

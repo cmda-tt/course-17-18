@@ -1,0 +1,13 @@
+body {
+    font-family: sans-serif;
+    color: lightgrey;
+    background-color: rgb(30, 30, 30);
+}
+
+h2 {
+    margin-top: 2em;
+}
+
+p {
+    font-style: italic;
+}

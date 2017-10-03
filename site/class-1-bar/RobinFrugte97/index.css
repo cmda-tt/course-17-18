@@ -1,0 +1,20 @@
+.bar {
+  fill: pink;
+}
+
+.bar:hover {
+  fill: cadetblue;
+}
+
+.axis--x path {
+  display: none;
+}
+
+body {
+  background-color: aliceblue;
+  font-family: helvetica;
+}
+
+h1 {
+  color: cadetblue;
+}

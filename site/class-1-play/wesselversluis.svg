@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <!--Update the title with your username-->
+  <title>@wesselversluis</title>
+
+  <!--Add stuff here-->
+    <circle cx="250" cy="125" r="40" fill="#ff0000"/>
+    
+    <g stroke="#80aaff" stroke-width="10">
+    <rect width="100" height="100" x="0" y="270"/>
+    <rect width="100" height="100" x="175" y="270" opacity=".6"/>
+    <rect width="100" height="100" x="350" y="270" opacity=".3"/>
+    <line x1="0" y1="360" x2="450" y2="280" stroke-width="10" stroke="#adebad"/>
+    <polygon points="0,20 250,210 0,210" opacity=".9"/>
+    <polygon points="450,10 450,210 210,10" opacity=".9"/>
+    </g>
+    <path fill="pink" d="M10 100 L250 25 L10 200 Z"/>
+    <text x="370" y="300" font-family="Comic Sans Ms" font-size="80" fill="pink" stroke="black">Art.</text> 
+</svg>

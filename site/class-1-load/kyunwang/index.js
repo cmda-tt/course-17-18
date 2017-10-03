@@ -17,11 +17,21 @@ function makeRow(data, listId) {
 }
 
 d3.json('./index.json', (err, data) => {
+<<<<<<< HEAD
 	console.log(data);
+=======
+	// console.log(data);
+>>>>>>> 3db62f487cf237076162c2154c8abd502268eda8
 	makeRow(data, 'jsonList');
 });
 
 d3.csv('./index.csv', (err, data) => {
+<<<<<<< HEAD
 	console.log(data);
 	makeRow(data, 'csvList');
 })
+=======
+	// console.log(data);
+	makeRow(data, 'csvList');
+})
+>>>>>>> 3db62f487cf237076162c2154c8abd502268eda8

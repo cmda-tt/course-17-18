@@ -1,0 +1,21 @@
+<!doctype html>
+<meta charset=utf8>
+<!--Prevent favicon error from showing up-->
+<link rel="shortcut icon" type=image/x-icon href=data:image/x-icon;,>
+<title>Debug d3: Spaces in DSV</title>
+<meta content=width=device-width,initial-scale=1 name=viewport>
+<style>html { font-family: 'Comic Sans MS', cursive; color: red }</style>
+<h1>d3: Spaces in DSV</h1>
+<script src=https://d3js.org/d3.v3.min.js></script>
+<script>
+d3.csv('index.csv', function(err, data) {
+  var total = 0
+
+  data.forEach(function (d) {
+    // Fix: total += Number(d[' age'])
+    total += Number(d.age)
+  })
+
+  document.body.appendChild(document.createTextNode(total))
+})
+</script>

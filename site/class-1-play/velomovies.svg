@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 700 700">
+  <!--Update the title with your username-->
+  <title>@velomovies</title>
+
+  <!--Add stuff here-->
+  <circle cx="120" cy="120" r="100" />
+  <rect x="240" y="60" width="100" height="100" opacity=".5"/>
+  <line x1="350" y1="120" x2="500" y2="80" stroke-width="10" stroke="black"/>
+  <polygon fill="red" points="170,283.3 145,326.7 95,326.7 70,283.3 95,240 145,240"/>
+  <g fill="red" stroke="black" stroke-width="2">
+    <path d="M 250 250 L 350 250 L 300 330 z"/>
+    <text x="400" y="300" font-family="Arial, Helvetica, sans-serif" font-size="3em">hallo</text>
+  </g>
+
+  <g stroke="#D11D05" stroke-width="5">
+    <circle cx="300" cy="500" r="100" fill="#B000B5"/>
+    <circle class="path" cx="260" cy="460" r="15" fill="#000"/>
+    <circle class="path" cx="340" cy="460" r="15" fill="#000"/>
+    <circle class="path" cx="280" cy="490" r="15" fill="#000"/>
+    <circle class="path" cx="320" cy="490" r="15" fill="#000"/>
+    <path d="M 250 550 q 50 50 100 0"/>
+    <g fill="none">
+      <path d="M 380 560 q 50 50 100 0"/>
+      <path d="M 400 500 q 50 50 100 0"/>
+      <path d="M 380 440 q 50 50 100 0"/>
+      <path d="M 120 560 q 50 50 100 0"/>
+      <path d="M 100 500 q 50 50 100 0"/>
+      <path d="M 120 440 q 50 50 100 0"/>
+    </g>
+  </g>
+
+  <style>
+    .path {
+      stroke-dasharray: 1000;
+      stroke-dashoffset: 1000;
+      animation: dash 2s linear infinite;
+    }
+
+    @keyframes dash {
+      from {
+        stroke-dashoffset: 1000;
+        }
+      to {
+          stroke-dashoffset: 0;
+        }
+  </style>
+
+  <!-- NOTHING TO SEE HERE... MOVE ALONG!!! -->
+</svg>
