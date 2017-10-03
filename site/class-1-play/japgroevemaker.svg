@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+  <!--Update the title with your username-->
+  <title>@japgroevemaker</title>
+
+  <!--Add stuff here-->
+<circle
+    cx = "120"
+    cy = "120"
+    r = "100"
+    viewBox="0 0 60 55"
+    />
+
+    <rect
+        x = "250"
+        y = "100"
+        width = "100"
+        height = "100"
+    />
+    
+    <line
+        y1 = "400"
+        y2 = "100"
+        x1="470"
+        x2="470"
+        stroke-width="100"
+        stroke="#000"
+    />
+    
+    <polygon
+        points="520,502 700,510 1040,450 443,484"
+        style="fill:lime;stroke:purple;stroke-width:1"
+    />
+    
+    <path
+        d="M700 0 L800 200 L600 200 Z"
+          />
+    
+    <text
+          x="850"
+          y="150" 
+          fill="red"
+          
+          >'I love SVG!'</text>
+    
+    <g fill="none" stroke="black">
+        <path stroke-width="2" 
+          d="M175 321 l215 0" />
+        
+  </g>
+    
+  <!-- NOTHING TO SEE HERE... MOVE ALONG!!! -->
+</svg>
