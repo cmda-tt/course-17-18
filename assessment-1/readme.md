@@ -50,7 +50,7 @@ cleaned data sets:
 
 *   [Monthly temperature time series](#monthly-temperature-time-series)
 *   [Top languages by number of speaker](#top-languages-by-number-of-speaker)
-*   [Population without indoor toilet](population-without-indoor-toilet)
+*   [Population without indoor toilet](#population-without-indoor-toilet)
 
 ### Other data
 
