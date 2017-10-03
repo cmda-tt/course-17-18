@@ -1,0 +1,18 @@
+  .bar {
+      fill: brown;
+      opacity: 0.5;
+  }
+  
+  .bar:hover {
+      fill: brown;
+      opacity: 1;
+  }
+  
+  .axis--x path {
+      display: none;
+  }
+  
+  h1 {
+      width: 100%;
+      text-align: center;
+  }
