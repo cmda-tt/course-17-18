@@ -39,10 +39,10 @@ d3.csv('index.csv', row, onload);
 
 /* Handle data. */
 function onload(data) {
-    console.log("onload");
+    // console.log("onload");
     x.domain(d3.extent(data, sepalWidth)).nice();
     y.domain(d3.extent(data, sepalLength)).nice();
-    console.log("extent");
+    // console.log("extent");
     svg
         .append('g')
         .attr('class', 'x axis')
@@ -55,7 +55,7 @@ function onload(data) {
         .style('text-anchor', 'end')
         .text('Sepal Width (cm)');
 
-    console.log("created svg1");
+    // console.log("created svg1");
 
     svg
         .append('g')
@@ -69,7 +69,7 @@ function onload(data) {
         .style('text-anchor', 'end')
         .text('Sepal Length (cm)');
 
-    console.log("created svg2");
+    // console.log("created svg2");
 
     svg
         .selectAll('.dot')
@@ -82,7 +82,7 @@ function onload(data) {
         .attr('cy', cy)
         .style('fill', fill);
 
-    console.log("created svg3");
+    // console.log("created svg3");
 
     var legend = svg
         .selectAll('.legend')

@@ -24,7 +24,7 @@ var text = 'string',
     ;
 ```
 
-The next example you see how I use a function. array and loop.  
+The next example you see how I use a function. array and loop.
 *   New line on every new entry in the array (same for objects).
 *   Close the array on a line of his own.
 *   Loop on the same line.
@@ -46,9 +46,9 @@ function myStyle() {
     '#46c999',
   ];
 
-  for (var i = 0; i < arrayColors.length; i++) {
-    console.log(arrayColors[i]);
-  };
+  // for (var i = 0; i < arrayColors.length; i++) {
+  //   console.log(arrayColors[i]);
+  // };
 };
 ```
 
