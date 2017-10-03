@@ -1,7 +1,7 @@
 # Donut Chart
 This donut chart describes the population of all ages.
 
-[cover]
+[![][cover]][url]
 
 ## Background
 This chart describes the population of all ages. All kind of ages has been put into a category.
@@ -19,3 +19,5 @@ The visualised data describes the population of an age. The data inside the grap
 GPL-3.0 © Titus Wormer
 
 [cover]: preview.png
+
+[url]: https://github.com/cmda-fe3/course-17-18/tree/master/site/class-2-style
