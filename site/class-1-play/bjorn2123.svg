@@ -1,5 +1,5 @@
-
-  <title>@Bjorn2123</title>
+<svg width="500" height="200" viewBox="0 0 50 40" >
+<title>@Bjorn2123</title>
 
     <circle
             cx = "120"
@@ -36,7 +36,7 @@
  </g> 
     
      <text x="350" y="150" fill="blue" >I love SVG!</text>
-<svg width="500" height="200" viewBox="0 0 50 40" >
+
 
     <rect x="20" y="10" width="10" height="5"
           style="stroke: #9c9c9c;"
