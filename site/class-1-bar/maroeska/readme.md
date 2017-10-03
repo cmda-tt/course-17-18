@@ -131,6 +131,6 @@ https://medium.com/@nick3499/d3-scaleband-rangeround-padding-ordinal-scale-with-
 
 ## License
 
-MIT © Maroeska Verkerk
+MIT © Maroeska Verkerk<br>
 Original files from Mike Bostock 
 
