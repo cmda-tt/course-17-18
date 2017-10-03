@@ -1,0 +1,34 @@
+<!doctype html>
+<meta charset=utf8>
+<title>@tpulido</title>
+<meta content=width=device-width,initial-scale=1 name=viewport>
+<link rel="stylesheet" href="index.css">
+<script src="https://d3js.org/d3.v4.min.js"></script>
+
+<h1>JSON :</h1>
+<div class="json"></div>
+
+<h1>CVV :</h1>
+<div class="csv"></div>
+
+
+<script>
+var jsonContainer = document.querySelector(".json")
+var csvContainer = document.querySelector(".csv")
+
+d3.json('./index.json', function(err, json) {
+  if (err) throw err;
+      json.forEach(function (row) {
+        jsonContainer.appendChild(document.createElement('b')).textContent = row.day;
+        jsonContainer.appendChild(document.createElement('p')).textContent = row.dinner;
+      })
+})
+
+d3.csv('./index.csv', function(err, csv) {
+  if (err) throw err;
+    csv.forEach(function (row) {
+      csvContainer.appendChild(document.createElement('b')).textContent = row.day;
+      csvContainer.appendChild(document.createElement('p')).textContent = row.dinner;
+    })
+})
+</script>

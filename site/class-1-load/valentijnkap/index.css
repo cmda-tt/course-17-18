@@ -1,0 +1,53 @@
+body {
+	background: #1D2F49;
+}
+
+main[role=main] {
+	position: absolute;
+	width: 28em;
+	height: 22em;
+	left: 50%;
+	top: 50%;
+	margin: -11em 0 0 -14em;
+}
+
+main[role=main] h1 {
+	font-family: 'PT Sans', sans-serif;
+	font-weight: 400;
+	font-size: 2.2em;
+	color: #ffffff;
+	text-align: center;
+	margin: 0;
+}
+
+section {
+	width: 49%;
+	display: inline-block;
+}
+
+section h2 {
+	font-family: 'PT Sans', sans-serif;
+	font-weight: 400;
+	font-size: 2em;
+	color: #E27C29;
+}
+
+table {
+	width: 90%;
+	color: #ffffff;
+}
+
+table th,
+section.csv table tr:first-child {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	font-size: 1.1em;
+	text-align: left;
+	color: #2DBCD3;
+}
+
+table tr td {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 0.9em;
+}
+

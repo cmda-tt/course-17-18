@@ -1,0 +1,9 @@
+Day dinner
+Today = Pizza
+Yesterday = Patat
+Day before yesterday = rodekool
+
+Day, dinner
+25-9-2017, Pizza
+24-9-2017, Patat
+23-9-2017, rodekool

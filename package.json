@@ -57,7 +57,7 @@
   },
   "scripts": {
     "build-galleries": "node script/build-galleries",
-    "build-md": "remark . -qfo",
+    "build-md": "remark . -qo",
     "build-c2-readme": "node script/build-class-2-readme",
     "build-c2-style-html": "rehype -q -u preset-minify -u './script/change=\"selector\":\"title\",\"value\":\"Style starter code\"' site/class-2-style/wooorm/index.html -o site/class-2/style/index.html",
     "build-c2-style-css": "postcss site/class-2-style/wooorm/index.css --no-map -u cssnano -o site/class-2/style/index.css",

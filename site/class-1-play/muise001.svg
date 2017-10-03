@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="700" viewBox="0 0 400 650">
+  <title>@muise001</title>
+
+<circle fill="yellow" opacity="0.7" cx="120" cy="120" r="100"/>
+<rect fill="red" opacity="0.7" x="10" y="10" width="20" height="40"/>
+<line fill="blue" opacity="0.7" x1="0" y1="0" x2="200" y2="200" stroke-width="2" stroke="orange"/>
+<polygon fill="pink" opacity="0.7" points="280,20 330,300 10,220" stroke="orange"/>
+<path fill="gray" opacity="0.7" d="M50 0 L105 200 L240 200 Z"/>
+<text font-family="sans-serif" font-size="30" opacity="0.7" x="300" y="100" fill="orange">Appelsap</text>
+<g fill="black" font-family="sans-serif" opacity="0.7" stroke="red" stroke-width="20">
+  <path fill="green" font-family="sans-serif" opacity="0.7" d="M5 400 720 0" />
+  <circle fill="yellow" font-family="sans-serif" opacity="0.7" cx="240" cy="180" r="120"/>
+</g>
+
+</svg>

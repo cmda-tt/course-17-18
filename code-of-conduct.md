@@ -71,8 +71,8 @@ members of the project’s leadership.
 This Code of Conduct is adapted from the [Contributor Covenant][home],
 version 1.4, available at [`contributor-covenant.org/version/1/4`][version].
 
-[home]: http://contributor-covenant.org
+[home]: https://contributor-covenant.org
 
-[version]: http://contributor-covenant.org/version/1/4/
+[version]: https://contributor-covenant.org/version/1/4/
 
 [contact]: mailto:t.e.wormer@hva.nl?subject=frontend-3:coc:%20

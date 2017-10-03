@@ -1,0 +1,48 @@
+<!doctype html>
+<meta charset=utf8>
+<title>@maridjuice</title>
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<link href="index.css" rel="stylesheet">
+<script src="https://d3js.org/d3.v4.min.js"></script>
+
+<script>
+    document.body = document.createElement("body");
+
+    var createH1 = document.createElement("h1");
+    createH1.textContent = "Dinners";
+    document.body.appendChild(createH1);
+
+    d3.csv("./index.csv", function (error, data) {
+//        console.log(error, data);
+        doeIetsMetRij("csv", data);
+    });
+
+    d3.json("./index.json", function (error, data) {
+//        console.log(error, data);
+        doeIetsMetRij("json", data);
+    });
+
+    function doeIetsMetRij(type, data) {
+
+        var createDIV = document.createElement("div");
+        document.body.appendChild(createDIV);
+
+        var createH2 = document.createElement("h2");
+        createH2.textContent = type;
+        createDIV.appendChild(createH2);
+
+
+
+        for (var i = 0; i < data.length; i++) {
+
+            var createH3 = document.createElement("h3");
+            var createP = document.createElement("p");
+
+            createH3.textContent = data[i].dag;
+            createP.textContent = data[i].eten;
+
+            createDIV.appendChild(createH3);
+            createDIV.appendChild(createP);
+        }
+    }
+</script>

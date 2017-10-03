@@ -1,0 +1,106 @@
+<!doctype html>
+<html>
+<head>
+
+	<meta charset=utf8>
+
+	<title>@ValentijnKap</title>
+
+	<meta content=width=device-width,initial-scale=1 name=viewport>
+
+	<link rel="icon" href="https://kaptain.nl/favicon.png">
+
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|PT+Sans:400,700" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="index.css">
+
+</head>
+
+<body>
+
+<main role="main">
+
+	<h1>Dinners</h1>
+
+	<section class="json">
+
+		<h2>.json</h2>
+
+		<div></div>
+
+	</section>
+
+	<section class="csv">
+
+		<h2>.csv</h2>
+
+		<div></div>
+
+	</section>
+
+</main>
+
+
+<script src="https://d3js.org/d3.v3.min.js"></script>
+
+<script>
+
+	// Voor het laden van json in een tabel is er dit voorbeeld gebruikt: https://bl.ocks.org/jfreels/6734025
+	d3.json('index.json', function (error,data) {
+
+		// console.log(data)
+
+	  	function tabulate(data, columns) {
+			var table = d3.select('section.json > div').append('table')
+			var thead = table.append('thead')
+			var	tbody = table.append('tbody')
+
+			thead.append('tr')
+			  .selectAll('th')
+			  .data(columns).enter()
+			  .append('th')
+			    .text(function (column) { return column; })
+
+			var rows = tbody.selectAll('tr')
+			  .data(data)
+			  .enter()
+			  .append('tr')
+
+			var cells = rows.selectAll('td')
+			  .data(function (row) {
+			    return columns.map(function (column) {
+			      return {column: column, value: row[column]}
+			    })
+			  })
+			  .enter()
+			  .append('td')
+			    .text(function (d) { return d.value; })
+
+		  return table
+		}
+
+		tabulate(data, ['Day', 'Dinner'])
+
+	})
+
+	d3.text("index.csv", function(error, data) {
+		// console.log(data)
+
+        var parsedCSV = d3.csv.parseRows(data);
+
+        var container = d3.select("section.csv > div")
+            .append("table")
+
+            .selectAll("tr")
+                .data(parsedCSV).enter()
+                .append("tr")
+
+            .selectAll("td")
+                .data(function(d) { return d; }).enter()
+                .append("td")
+                .text(function(d) { return d; })
+    })
+
+</script>
+
+</body>
+</html>

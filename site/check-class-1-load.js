@@ -103,6 +103,10 @@ function check(name) {
   var call;
   var data;
 
+  if (!calls) {
+    return warn('First include d3, then our code, and finally your own code');
+  }
+
   if (!own.call(calls, name)) {
     return warn('Use `d3.' + name + '` to load your file');
   }

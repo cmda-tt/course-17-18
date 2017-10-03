@@ -1,0 +1,16 @@
+<svg width="500" height="500" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <!--Update the title with your username-->
+  <title>@Sebasschmidt</title>
+
+  <!--Add stuff here-->
+    <g  stroke="rgb(73, 239, 149)" stroke-width="8">
+<circle cx="100" cy="100" r="100"/>
+<rect x="100" y="100" width="100px" height="100px"/>
+    <line x1="30" y1="30" x2="200" y2="200" stroke="rgb(73, 239, 149)" stroke-width="2"/></g>
+
+    <polygon points="275,350 350,200 200,200" fill="rgb(73, 239, 149)" stroke="#000000" stroke-width="8" />
+    <path d="M 200 200 q 75 -350 150 0" stroke="rgba(0, 0, 0, 0.72)" opacity="" stroke-width="8" fill="black" />
+    <text x="230" y="180" fill="rgb(73, 239, 149)" font-family="helvetica" font-size="16px" font-weight="900">DIKKE SVG</text>
+  <!-- NOTHING TO SEE HERE... MOVE ALONG!!! -->
+
+</svg>

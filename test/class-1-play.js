@@ -17,7 +17,7 @@ var disallowedStem = require('./rule/disallowed-stem');
 var processor = unified()
   .use(parse, {fragment: true})
   .use(rule('lint:script', script))
-  .use(disallowedStem, 'username')
+  .use(disallowedStem, ['username, your-github-username'])
   .use(title)
   .use([
     ['circle', '1.0. `<circle>` element'],

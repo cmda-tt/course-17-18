@@ -80,28 +80,28 @@ In practice you’ll learn to:
 
 1.  <a name="subgoal-1"></a> Understand SVG and canvas
     ([**class 1**][c1])
-2.  <a name="subgoal-2"></a> Parse data formats
+2.  <a name="subgoal-2"></a> Load external data
     ([**class 1**][c1] and [**class 3**][c3])
 3.  <a name="subgoal-3"></a> Write documentation
-    ([**class 2**][c2] and [**class 4**][c4])
+    ([**class 2**][c2])
 4.  <a name="subgoal-4"></a> Read documentation
-    ([**class 2**][c2] and [**class 4**][c4])
+    ([**class 2**][c2])
 5.  <a name="subgoal-5"></a> Debug code
     ([**class 2**][c2])
 6.  <a name="subgoal-6"></a> Refactor code
     ([**class 2**][c2])
 7.  <a name="subgoal-7"></a> Use scales (domain, range, and axis)
-    ([**class 2**][c2] and [**class 4**][c4])
-8.  <a name="subgoal-8"></a> Load external data
+    ([**class 2**][c2])
+8.  <a name="subgoal-8"></a> Transform and clean data
+    ([**class 3**][c3])
+9.  <a name="subgoal-9"></a> Manipulate elements
     ([**class 3**][c3] and [**class 4**][c4])
-9.  <a name="subgoal-9"></a> Transform and clean data
-    ([**class 3**][c3] and [**class 4**][c4])
-10. <a name="subgoal-10"></a> Understand the d3 loop
+10. <a name="subgoal-10"></a> Use data joins
     ([**class 3**][c3] and [**class 4**][c4])
 11. <a name="subgoal-11"></a> Create interactive visualisations
-    ([**class 3**][c3] and [**class 5**][c5])
+    ([**class 4**][c4] and [**class 5**][c5])
 12. <a name="subgoal-12"></a> Create multiple visualisations on the same page
-    ([**class 6**][c6])
+    ([**class 5**][c5])
 
 ## Grade
 
@@ -155,7 +155,10 @@ The table below breaks down the general time needed to complete activities.
 *   🆓 GitHub account (**required**)
     — [Sign Up](https://help.github.com/articles/signing-up-for-a-new-github-account/)
 *   🆓 Text Editor (**required**)
-    — [Atom](https://atom.io) or [Sublime](http://www.sublimetext.com)
+    — [Atom](https://atom.io) or [Sublime](https://www.sublimetext.com)
+*   🆓 Installation of [Node](https://nodejs.org/en/),
+    [Python](https://www.python.org), or
+    [Ruby](https://www.ruby-lang.org/en/) (**required**)
 *   🆓 King, Ritchie S.  _Visual Storytelling with D3_.  Addison-Wesley, 2015
     (**optional**)
 *   🆓 Meeks, Elijah.  _D3.js in Action_.  O’Reilly Media, 2017 (**optional**)
@@ -181,7 +184,7 @@ The table below breaks down the general time needed to complete activities.
     (**book**) — Intro to JavaScript for new programmers
 *   🆓 [JavaScript 30](https://javascript30.com)
     (**course**) — 30 day vanilla JavaScript coding challenge
-*   🆓 [Eloquent JavaScript](http://eloquentjavascript.net)
+*   🆓 [Eloquent JavaScript](https://eloquentjavascript.net)
     (**book**) — Modern intro to programming
 *   🆓 [Basics of HTML & CSS](http://webdive.ktam.org/web/basics)
     (**tutorial**) — Learn how to use HTML & CSS
@@ -337,7 +340,7 @@ Docs and images: [CC-BY-NC-SA-4.0][].
 
 [rooster]: https://rooster.hva.nl
 
-[html-css]: http://learn.shayhowe.com/html-css/
+[html-css]: https://learn.shayhowe.com/html-css/
 
 [bookshelves]: http://rps.hva.nl:2048/login?url=http://proquest.safaribooksonline.com/?uicode=hva
 
@@ -377,14 +380,14 @@ Docs and images: [CC-BY-NC-SA-4.0][].
 
 [bachelor]: https://www.cmd-amsterdam.nl/english/
 
-[faculty]: http://www.amsterdamuas.com/faculty/fdmci/faculty-of-digital-media-and-creative-industries.html?origin=wK2pE2mITji6ZHGwFD65pw
+[faculty]: https://www.amsterdamuas.com/faculty/fdmci/faculty-of-digital-media-and-creative-industries.html
 
-[university]: http://www.amsterdamuas.com
+[university]: https://www.amsterdamuas.com
 
 [cmd-logo]: images/cmd.jpg
 
 [coc]: code-of-conduct.md
 
-[ruc]: http://www.amsterdamuas.com/practical-matters/algemeen/hva-breed/juridische-zaken/legal-affairs/regulation-undesirable-conduct/regulation-undesirable-conduct.html#anker-3-complaints-authority
+[ruc]: https://www.amsterdamuas.com/practical-matters/algemeen/hva-breed/juridische-zaken/legal-affairs/regulation-undesirable-conduct/regulation-undesirable-conduct.html#anker-3-complaints-authority
 
-[rog]: http://www.hva.nl/praktisch/algemeen/hva-breed/juridische-zaken/loket-beroep-bezwaar-en-klacht/regeling-ongewenst-gedrag/regeling-ongewenst-gedrag.html?origin=gbS4rg%2FDTZuxQ6lGVF%2BN1A
+[rog]: https://www.hva.nl/praktisch/algemeen/hva-breed/juridische-zaken/loket-beroep-bezwaar-en-klacht/regeling-ongewenst-gedrag/regeling-ongewenst-gedrag.html?origin=gbS4rg%2FDTZuxQ6lGVF%2BN1A

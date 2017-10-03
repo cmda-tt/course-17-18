@@ -9,23 +9,23 @@ See also the [Easing Explorer][ee] by [**@mbostock**][mb].
 
 ## Features
 
-*   [`d3-selection`](https://github.com/d3/d3-selection#api-reference)
-    — `d3.select`
-    — Select elements
+*   [`d3-ease`](https://github.com/d3/d3-ease#api-reference)
+    — All easing functions!
 *   [`d3-scale`](https://github.com/d3/d3-scale#api-reference)
     — `d3.scaleLinear`
     — Position encoding
+*   [`d3-selection`](https://github.com/d3/d3-selection#api-reference)
+    — `d3.select`
+    — Select elements
 *   [`d3-timer`](https://github.com/d3/d3-timer#api-reference)
     — `d3.timer` and `d3.timeout`
     — Efficient animation queueing
-*   [`d3-ease`](https://github.com/d3/d3-ease#api-reference)
-    — All easing functions!
 
 ## License
 
 MIT © Titus Wormer
 
-[block]: http://bl.ocks.org/hunzy/9929724
+[block]: https://bl.ocks.org/hunzy/9929724
 
 [author]: https://github.com/hunzy
 

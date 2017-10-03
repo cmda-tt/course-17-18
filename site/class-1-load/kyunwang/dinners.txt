@@ -1,0 +1,12 @@
+Today: Rice
+Yesterday: Pizza
+Day before yesterday: Noodles
+
+2017-09-26: Rice
+2017-09-25: Pizza
+2017-09-24: Noodles
+
+
+------
+
+call "python -m SimpleHTTPServer 8000" to start a server (mac)

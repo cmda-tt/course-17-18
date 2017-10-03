@@ -250,6 +250,10 @@ footer .image-link {
   opacity: 0.75;
 }
 
+main p {
+  text-align: center;
+}
+
 @media (min-width: 30em) {
   header h1 {
     font-size: 4em;

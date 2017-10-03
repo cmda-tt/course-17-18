@@ -1,0 +1,36 @@
+html {
+	font-family: "open sans", helvetica, sans-serif;
+}
+
+body {
+	display: flex;
+	flex-flow: column nowrap;
+	align-items: center;
+}
+
+body>section {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	min-width: 30%;
+}
+
+details {
+	margin-top: 0.5em;
+}
+
+details p {
+	margin-top: 0.5em;
+}
+
+@media (max-width: 48em) {
+	body>section {
+		width: 80%;
+	}
+}
+
+@media (max-width: 17em) {
+	body>section {
+		justify-content: center;
+	}
+}
