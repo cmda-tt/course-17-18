@@ -1,0 +1,56 @@
+<!doctype html>
+<meta charset=utf8>
+<!--Update the title with your username:-->
+<title>@sarahbenmessaoud</title>
+<meta content=width=device-width,initial-scale=1 name=viewport>
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<script src=https://cmda-fe3.github.io/course-17-18/check-class-1-load.js></script>
+
+<h1>Dinners</h1>
+<main>
+
+<table id="quickMaths">
+<tr>
+<h2>SVG meal</h2>    
+</tr>    
+</table>  
+
+<table id="nietzoQuick">
+<tr>
+<h2>Json meal</h2>    
+</tr>    
+</table> 
+
+</main>
+
+<script> 
+    var htmlcsv = '';
+    var htmlJSON = '';
+    var docCSV = document.getElementById('quickMaths');
+    var docJSON = document.getElementById('nietzoQuick');
+    
+    d3.csv('./index.csv',function(error, date){
+        if (error) throw error;
+        console.log(date)
+        date.forEach(function(d){
+            htmlcsv += '<tr>'
+            htmlcsv += '<td><h3>'+ d.date +'</h3></td>'
+            htmlcsv += '<td><p>'+ d.dinner +'</p></td>'
+            htmlcsv += '</tr>'
+            docCSV.innerHTML = htmlcsv;
+        })
+    });
+
+    d3.json('./index.json', function(error, dateJson){
+        if (error) throw error;
+        console.log(dateJson);
+        dateJson.forEach(function(f){
+            console.log(f.day, f.dinner);
+            htmlJSON += '<tr>';
+            htmlJSON += '<td><h3>'+ f.day +'</h3></td>';
+            htmlJSON += '<td><p>' + f.dinner +'</p></td>';
+            htmlJSON += '</tr>';
+            docJSON.innerHTML = htmlJSON;
+        })
+    }); 
+</script>
