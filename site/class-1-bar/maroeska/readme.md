@@ -6,16 +6,16 @@ ___
 
 ## Achtergrond
 
-Ik heb een bar chart van de [d3’s example gallery](https://github.com/d3/d3/wiki/Gallery) gehaald uit de [Basic Charts section](https://github.com/d3/d3/wiki/Gallery#basic-charts). Vervolgens heb ik de javascript, css en html gescheiden van elkaar en naar elkaar gelinkt in de html. 
+Ik heb een bar chart van de [d3’s example gallery](https://github.com/d3/d3/wiki/Gallery) gehaald uit de [Basic Charts section](https://github.com/d3/d3/wiki/Gallery#basic-charts). Vervolgens heb ik de javascript, css en html gescheiden van elkaar en naar elkaar gelinkt in de html.<br> 
 Ik heb de hele code doorlopen en alle termen die ik niet wist, opgezocht. Onder het hoofdstuk 'Features' staan alle termen die ik heb opgezocht en vertaald heb in het Nederlands (dan is het voor mij begrijpelijker). Nadat ik de termen in javascript regel voor regel heb opgezocht, heb ik in de code veranderingen gemaakt. Ik heb kleine aanpassingen gedaan en elke regel opgebroken, om te kijken wat er veranderd werd. Vervolgens heb ik de data nog aangepast naar mijn eigen data: 
 Hoeveel uur ik heb geslapen in de week van 11-17 september. Ook heb ik de CSS een beetje veranderd.
 
 ## Data
 
-var svg = d3.select("svg"), // selecteert de svg, we kunnen nu deze svg bewerken
-    margin = {top: 100, right: 20, bottom: 30, left: 100}, // margins worden bepaald
-    width = +svg.attr("width") - margin.left - margin.right, // een width wordt toegevoegd aan de svg toegevoegd en de margin left en right worden eraf gehaald
-    height = +svg.attr("height") - margin.top - margin.bottom; // een hight wordt toegevoegd aan de svg en de margin top en bottom worden eraf gehaald
+var svg = d3.select("svg"), // selecteert de svg, we kunnen nu deze svg bewerken<br>
+    margin = {top: 100, right: 20, bottom: 30, left: 100}, // margins worden bepaald<br>
+    width = +svg.attr("width") - margin.left - margin.right, // een width wordt toegevoegd aan de svg toegevoegd en de margin left en right worden eraf gehaald<br>
+    height = +svg.attr("height") - margin.top - margin.bottom; // een hight wordt toegevoegd aan de svg en de margin top en bottom worden eraf gehaald<br>
 
 var xAs = d3.scaleBand().rangeRound([0, width]).padding(0.5), // nieuwe bandschaal, eenheid is 0 , padding is de dikte van de staafjes
     yAs = d3.scaleLinear().rangeRound([height, 0]); // hoogte wordt lineair geschaald
@@ -119,14 +119,10 @@ axis heeft een path element met de class ‘domain’, gevolgd door getransforme
 
 Informatie bronnen:
 
-https://stackoverflow.com > diverse vragen van mensen gelezen
-
-https://github.com/d3/d3-array > veel informatie gehaald over D3
-
-https://developer.mozilla.org/nl/ > informatie gezocht over D3 en errors
-
-https://developer.mozilla.org/nl/ > informatie gezocht over CSS en JS 
-
+https://stackoverflow.com > diverse vragen van mensen gelezen<br>
+https://github.com/d3/d3-array > veel informatie gehaald over D3<br>
+https://developer.mozilla.org/nl/ > informatie gezocht over D3 en errors<br>
+https://developer.mozilla.org/nl/ > informatie gezocht over CSS en JS<br> 
 https://medium.com/@nick3499/d3-scaleband-rangeround-padding-ordinal-scale-with-range-bands-including-padding-f4af1e3c96ab > informatie gezocht over .Scaleband
 
 ## License
