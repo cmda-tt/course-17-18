@@ -83,6 +83,3 @@ function getItemPopulation(item) { // get the population of an item
 console.log("d3.csv");
 d3.csv('index.csv', getItemtype, render); // (url [[, row], callback]) https://github.com/d3/d3-request/blob/master/README.md#csv
 // row is a function which can be used to filter or map objects.
-
-// -----------------------------------------
-
