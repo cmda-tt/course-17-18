@@ -119,10 +119,13 @@ axis heeft een path element met de class ‘domain’, gevolgd door getransforme
 
 Informatie bronnen:
 https://stackoverflow.com > diverse vragen van mensen gelezen
-<enter>
+
 https://github.com/d3/d3-array > veel informatie gehaald over D3
+
 https://developer.mozilla.org/nl/ > informatie gezocht over D3 en errors
+
 https://developer.mozilla.org/nl/ > informatie gezocht over CSS en JS 
+
 https://medium.com/@nick3499/d3-scaleband-rangeround-padding-ordinal-scale-with-range-bands-including-padding-f4af1e3c96ab > informatie gezocht over .Scaleband
 
 ## License
