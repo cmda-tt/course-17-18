@@ -453,7 +453,8 @@ the website][load-gallery].
     Keep **Commit directly to the load branch** selected
 5.  Now, follow [**substep 3**][c1pd3] from [step D][c1pd] of the [Playing with
     SVG][play] assignment to upload the **files in your directory on your
-    computer** to the newly created directory on GitHub on the `load` branch.
+    computer** (no, not the directory, the files!) to the newly created
+    directory on GitHub on the `load` branch.
     In the commit message at the bottom, use `Add files for @username` (in my
     case `Add files for @wooorm`).
     Keep **Commit directly to the load branch** selected
