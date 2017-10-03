@@ -8,4 +8,6 @@ After that I made an unordered list in HTML tot serves as a legenda.
 
 ![Preview](donut.png)
 
+## License
+
 MIT @ Björn Völkers
