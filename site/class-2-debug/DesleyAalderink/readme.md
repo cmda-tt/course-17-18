@@ -99,6 +99,38 @@ function onload(data) {
 
 changing the `t` to a `d`.
 
+After I got the feedback from my teacher, he pointed me out on some easy misstakes which I didn't noticed...
+The CSS must me changed as well. I fixed the following:
+
+```css
+body {
+ margin: 0;
+}
+
+svg {
+  width: 100w;
+  height: 100h;
+}
+
+.axis path {
+  fill: no;
+```
+to:
+
+```css
+body {
+ margin: 0;
+}
+
+svg {
+  width: 100vw;
+  height: 100vh;
+}
+
+.axis path {
+  fill: none;
+```
+
 ## License
 
 Original code creator © Titus Wormer
