@@ -1,0 +1,43 @@
+<!doctype html>
+<head>
+  <meta charset=utf8>
+  <title>@velomovies</title>
+  <meta content=width=device-width,initial-scale=1 name=viewport>
+  <script src="https://d3js.org/d3.v4.js"></script>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <h1>Dinners</h1>
+
+  <script>
+    var body = document.body
+
+    d3.json('index.json', function(error, data) {
+      var sectionJSON = document.createElement('section')
+      body.appendChild(sectionJSON)
+      sectionJSON.appendChild(document.createElement('h2')).textContent = "JSON"
+      data.forEach(function (json) {
+        var details = document.createElement('details')
+        var summary = document.createElement('summary')
+        var paragraph = document.createElement('p')
+        details.appendChild(summary).textContent = json.Dag
+        details.appendChild(paragraph).textContent = json.Maaltijd
+        sectionJSON.appendChild(details)
+      })
+    })
+
+    d3.csv('index.csv', function(error, data) {
+      var sectionCSV = document.createElement('section')
+      body.appendChild(sectionCSV)
+      sectionCSV.appendChild(document.createElement('h2')).textContent = "CSV"
+      data.forEach(function (csv) {
+        var details2 = document.createElement('details')
+        var summary2 = document.createElement('summary')
+        var paragraph2 = document.createElement('p')
+        details2.appendChild(summary2).textContent = csv.Dag
+        details2.appendChild(paragraph2).textContent = csv.Maaltijd
+        sectionCSV.appendChild(details2)
+      })
+    })
+  </script>
+</body>

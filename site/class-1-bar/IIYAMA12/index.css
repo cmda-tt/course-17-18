@@ -1,0 +1,28 @@
+.bar {
+    fill: black;
+}
+
+.axis--x path {
+    display: none;
+}
+
+.bar-hunger-effect {
+    fill: red;
+}
+
+.bar-hunger-effect:hover {
+    animation-name: hunger-effect;
+    animation-duration: 1.5s;
+}
+
+@keyframes hunger-effect {
+    0% {
+        fill: red;
+    }
+    50% {
+        fill: orange;
+    }
+    100% {
+        fill: red;
+    }
+}

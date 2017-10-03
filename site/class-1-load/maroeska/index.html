@@ -1,0 +1,32 @@
+<!doctype html>
+<meta charset=utf8>
+<title>@maroeska</title>
+<meta content=width=device-width,initial-scale=1 name=viewport>
+<link rel="stylesheet" href="index.css">
+<script src="https://d3js.org/d3.v4.min.js"></script>
+
+<h1>Avondeten</h1>
+<script>
+    var body = document.body; // variable body aangemaakt, een body toegevoegd via javascript?
+    d3.csv('index.csv', csv); // linkt naar csv file
+    d3.json('index.json', json); // linkt naar json file 
+    
+    function csv(err, data) {
+        if (err) throw err;
+        render('CSV', data); // geeft data weer van csv
+    }
+    
+    function json(err, data) {
+        if (err) throw err;
+        render('JSON', data); // geeft data weer van json
+    }
+    
+    function render (source, data) { // function gemaakt: haal data uit de bron
+        body.appendChild(document.createElement('h2')).textContent = source; // kind toevoegen aan body: element creeren, een h2 toevoegen met titel source. Dit is dus CSV of JSON.
+        data.forEach(function (row) { // data voor elk kind?
+            body.appendChild(document.createElement('table')); // tabel toevoegen aan de body. Vraag aan Titus: hoe kan ik een tabel maken met de th en td erin?
+            body.appendChild(document.createElement('th')).textContent = row.datum; // th toevoegen aan de body, dit is dus de datum uit de data
+            body.appendChild(document.createElement('td')).textContent = row.avondeten; // td toevoegen aan de body, dit is dus het avondeten uit de data
+        });
+    }
+</script>

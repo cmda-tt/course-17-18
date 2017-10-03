@@ -1,0 +1,22 @@
+* {
+	font-family: sans-serif;
+}
+
+body {
+	background-color: darkturquoise;
+	display: flex;
+	justify-content: space-evenly;
+	top: 1em;
+	flex-direction: row;
+	padding: 5vw;
+}
+
+h1 {
+	text-decoration: underline;
+}
+
+@media screen and (max-width:830px) {
+	body {
+		flex-direction: column;
+	}
+}

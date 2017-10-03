@@ -1,0 +1,27 @@
+<!doctype html>
+<meta charset=utf8>
+<title>@jensorsel</title>
+<meta content=width=device-width,initial-scale=1 name=viewport>
+<script src="https://d3js.org/d3.v4.min.js">
+</script>
+<h1>Dinners</h1>
+<script>
+var body = document.body;
+  d3.csv('./index.csv', csv); /*De CSV wordt gekoppeld*/
+  d3.json('./index.json', json); /*De JSON wordt gekoppeld*/
+  function csv(err, data) {
+    if (err) throw err; /*Er wordt een error gegeven als er geen data ingeladen kan worden*/
+    render('CSV', data); /*CSV wordt de titel, de data uit de CSV wordt ingeladen*/
+  }
+  function json(err, data) {
+    if (err) throw err; /*Er wordt een error gegeven als er geen data ingeladen kan worden*/
+    render('JSON', data); /*JSON wordt de titel, de data uit de JSON wordt ingeladen*/
+  }
+  function render(source, data) { /*Hoe wordt source ingeladen?*/
+    body.appendChild(document.createElement('h2')).textContent = source; /*De eerste parameter van de 'render's wordt als H2 gecreëerd*/
+    data.forEach(function (row) { /*Voor iedere regel die er in de data te vinden is wordt deze functie uitgevoerd*/
+      body.appendChild(document.createElement('h3')).textContent = row.date; /*Iedere 'date' die er gevonden wordt wordt een H3*/
+      body.appendChild(document.createElement('p')).textContent = row.food; /*Iedere 'food' die er gevonden wordt wordt een H2*/
+    });
+  }
+</script>

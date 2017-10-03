@@ -1,0 +1,31 @@
+<!doctype html>
+<meta charset=utf8>
+<title>@wesleyc94</title>
+<meta content=width=device-width,initial-scale=1 name=viewport>
+
+<script src="https://d3js.org/d3.v4.min.js"></script>
+
+
+<h1>Dinners</h1>
+
+<script>
+    var body = document.body;
+
+    d3.csv('./index.csv', function (err, what) {
+        body.appendChild(document.createElement('h2')).textContent = "CSV"
+        if (err) throw err;
+        what.forEach(function (dinner) {
+            body.appendChild(document.createElement('h3')).textContent = dinner.dag;
+            body.appendChild(document.createElement('p')).textContent = dinner.eten;
+        })
+    })
+
+    d3.json('./index.json', function (err, what) {
+        if (err) throw err;
+        body.appendChild(document.createElement('h2')).textContent = "JSON"
+        what.forEach(function (dinner) {
+            body.appendChild(document.createElement('h3')).textContent = dinner.dag;
+            body.appendChild(document.createElement('p')).textContent = dinner.eten;
+        })
+    })
+</script>

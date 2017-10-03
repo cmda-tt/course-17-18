@@ -1,0 +1,70 @@
+body {
+  font-family: sans-serif;
+  background-color: #feca2f;
+}
+
+svg {
+  position: absolute;
+}
+
+h1,h2 {
+  text-align: center;
+}
+
+table {
+  display: flex;
+  justify-content: center;
+}
+
+
+td {
+  padding-left: 1em;
+  padding-right: 1em;
+  outline: solid;
+  background-color: white;
+}
+
+td:first-of-type {
+  background-color: lightgrey;
+}
+
+
+@-webkit-keyframes spaceboots {
+	0% { -webkit-transform: translate(1px, -2px) rotate(0deg); }
+	10% { -webkit-transform: translate(-1px, -2px) rotate(-1deg); }
+	20% { -webkit-transform: translate(-3px, 0px) rotate(1deg); }
+	30% { -webkit-transform: translate(0px, 2px) rotate(0deg); }
+	40% { -webkit-transform: translate(1px, -1px) rotate(1deg); }
+	50% { -webkit-transform: translate(-1px, 2px) rotate(-1deg); }
+	60% { -webkit-transform: translate(-3px, 1px) rotate(0deg); }
+	70% { -webkit-transform: translate(2px, 1px) rotate(-1deg); }
+	80% { -webkit-transform: translate(-1px, -1px) rotate(1deg); }
+	90% { -webkit-transform: translate(2px, 2px) rotate(0deg); }
+	100% { -webkit-transform: translate(1px, -2px) rotate(0deg); }
+}
+
+@-webkit-keyframes spaceboots-reverse {
+	100% { -webkit-transform: translate(1px, -2px) rotate(0deg); }
+	90% { -webkit-transform: translate(-1px, -2px) rotate(-1deg); }
+	80% { -webkit-transform: translate(-3px, 0px) rotate(1deg); }
+	70% { -webkit-transform: translate(0px, 2px) rotate(0deg); }
+	60% { -webkit-transform: translate(1px, -1px) rotate(1deg); }
+	50% { -webkit-transform: translate(-1px, 2px) rotate(-1deg); }
+	40% { -webkit-transform: translate(-3px, 1px) rotate(0deg); }
+	30% { -webkit-transform: translate(2px, 1px) rotate(-1deg); }
+	20% { -webkit-transform: translate(-1px, -1px) rotate(1deg); }
+	10% { -webkit-transform: translate(2px, 2px) rotate(0deg); }
+	0% { -webkit-transform: translate(1px, -2px) rotate(0deg); }
+}
+
+
+svg > g > text:nth-of-type(2n) {
+  z-index: -10;
+  font-size: 1em;
+  animation: spaceboots 8s infinite;
+}
+
+svg > g > text:nth-of-type(2n+1) {
+  font-size: 1em;
+  animation: spaceboots-reverse 8s infinite;
+}
