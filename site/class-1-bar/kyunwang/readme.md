@@ -57,5 +57,6 @@ These are the features added:
 *NOTE - You do need to reset or sort again to let the new colors come through*
 
 ## License
+
 GPL-3.0 © Kang Yun Wang (Kevin Wang)
 
