@@ -5,13 +5,13 @@ Dit is de readme voor de barchart van Mike Bostock, waar ik de javascript, css, 
 ___
 
 ## Achtergrond
-```javascript
+
 Ik heb een bar chart van de [d3’s example gallery](https://github.com/d3/d3/wiki/Gallery) gehaald uit de [Basic Charts section](https://github.com/d3/d3/wiki/Gallery#basic-charts). Vervolgens heb ik de javascript, css en html gescheiden van elkaar en naar elkaar gelinkt in de html.<br> 
 Ik heb de hele code doorlopen en alle termen die ik niet wist, opgezocht. Onder het hoofdstuk 'Features' staan alle termen die ik heb opgezocht en vertaald heb in het Nederlands (dan is het voor mij begrijpelijker). Nadat ik de termen in javascript regel voor regel heb opgezocht, heb ik in de code veranderingen gemaakt. Ik heb kleine aanpassingen gedaan en elke regel opgebroken, om te kijken wat er veranderd werd. Vervolgens heb ik de data nog aangepast naar mijn eigen data: 
 Hoeveel uur ik heb geslapen in de week van 11-17 september. Ook heb ik de CSS een beetje veranderd.
 
 ## Data
-
+```javascript
 var svg = d3.select("svg"), // selecteert de svg, we kunnen nu deze svg bewerken<br>
     margin = {top: 100, right: 20, bottom: 30, left: 100}, // margins worden bepaald<br>
     width = +svg.attr("width") - margin.left - margin.right, // een width wordt toegevoegd aan de svg toegevoegd en de margin left en right worden eraf gehaald<br>
@@ -37,26 +37,26 @@ d3.tsv("data.tsv", function(d) { // de data van het tsv wordt in een functie gez
       .attr("transform", "translate(0," + height + ")") // 0 zorgt ervoor dat het streepje in het midden van de balk blijft<br>
       .call(d3.axisBottom(xAs)); // .call roept de d3.axisBottom op die x als parameter heeft. Deze heeft lege tick argumenten en wordt onder de horizontale domain path getekend.<br>
 
-  g.append("g")<br>
-      .attr("class", "axis axis--y") // y-as<br>
-      .call(d3.axisLeft(yAs).ticks(20,)) // linker lijn op de y-as met ticks van van 10<br>
-    .append("text") // tekst aan de y-as<br>
-      .attr("transform", "rotate(-90)")<br>
-      .attr("y", 6)<br>
-      .attr("dy", "0.71em") // 0.71em verschuiving op de y-as<br>
-      .attr("text-anchor", "end")<br> 
-      .text("Frequency"); // frequency wordt als tekst weergeven<br>
+  g.append("g")
+      .attr("class", "axis axis--y") // y-as
+      .call(d3.axisLeft(yAs).ticks(20,)) // linker lijn op de y-as met ticks van van 10
+    .append("text") // tekst aan de y-as
+      .attr("transform", "rotate(-90)")
+      .attr("y", 6)
+      .attr("dy", "0.71em") // 0.71em verschuiving op de y-as
+      .attr("text-anchor", "end")
+      .text("Frequency"); // frequency wordt als tekst weergeven
 
-  g.selectAll(".bar") // data per element invoeren<br>
-    .data(data) // pakt alle data<br>
-    .enter().append("rect") // voert een rectangle in de groep voor elk stukje data?<br>
-      .attr("class", "bar") // class gemaakt voor bar, in css kan je bijvoorbeeld de kleur met deze class aanpassen<br>
-      .attr("x", function(d) { return xAs(d.letter); }) // letters krijg je terug<br>
-      .attr("y", function(d) { return yAs(d.frequency); }) // cijfers krijg je terug<br>
-      .attr("width", xAs.bandwidth())<br>
-      .attr("height", function(d) { return height - yAs(d.frequency); });<br>
-});<br>
-
+  g.selectAll(".bar") // data per element invoeren
+    .data(data) // pakt alle data
+    .enter().append("rect") // voert een rectangle in de groep voor elk stukje data?
+      .attr("class", "bar") // class gemaakt voor bar, in css kan je bijvoorbeeld de kleur met deze class aanpassen
+      .attr("x", function(d) { return xAs(d.letter); }) // letters krijg je terug
+      .attr("y", function(d) { return yAs(d.frequency); }) // cijfers krijg je terug
+      .attr("width", xAs.bandwidth())
+      .attr("height", function(d) { return height - yAs(d.frequency); });
+});
+```
 ## Features
 
 Kenmerken van D3 die ik ben tegen gekomen en heb opgezocht:
