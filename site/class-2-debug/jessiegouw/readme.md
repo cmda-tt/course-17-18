@@ -76,8 +76,8 @@ svg {
 ```
 
 Not only did I changed the values into 'vw' and 'vh', but I
-also changed the amount of tab spacing because I set my tab default to
-4 spaces:
+also changed the amount of tab spacing in the whole css file 
+because I set my tab default to four spaces:
 ```css
 svg {
     width: 100vw;
