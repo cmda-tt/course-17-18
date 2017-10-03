@@ -1,0 +1,56 @@
+<!doctype html>
+<meta charset=utf8>
+<title>@thomasroelofs</title>
+
+<meta content=width=device-width,initial-scale=1 name=viewport>
+
+<script src="https://d3js.org/d3.v4.min.js"></script>
+
+<body>
+
+<h1>Dinners</h1>
+
+<main>
+
+<h2>CSV</h2>
+
+<dl id="tabel1"></dl>
+
+<h2>JSON</h2>
+
+<dl id="tabel2"></dl>
+
+</main>
+</body>
+
+<script>
+
+var csvtable = document.getElementById("tabel1");
+var jsontable = document.getElementById("tabel2");
+
+
+d3.csv("./index.csv", csv);
+d3.json("./index.json", json);
+
+function csv(err, csv) {
+    if (err) throw err;
+   csv.forEach(function (row) {
+
+   csvtable.appendChild(document.createElement("dt")).textContent=row.datum;
+csvtable.appendChild(document.createElement("dd")).textContent=row.voedsel;
+});
+
+};
+
+function json(err, json) {
+    if (err) throw err;
+    json.forEach(function (row) {
+
+   jsontable.appendChild(document.createElement("dt")).textContent=row.datum;
+jsontable.appendChild(document.createElement("dd")).textContent=row.voedsel;
+});
+
+};
+
+
+</script>

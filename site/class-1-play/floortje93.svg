@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="700" viewBox="0 0 500 500" >
+
+  <title>@floortje93</title>
+
+<!-- head  -->
+<circle
+  cx="60"
+  cy="60"
+  r="50"
+  opacity="0.50"
+  fill="maroon"
+  />
+
+  <!-- shoes  -->
+<g>
+    <ellipse
+      cx="50"
+      cy="290"
+      rx="15"
+      ry="10"
+      fill="brown"
+      />
+
+        <ellipse
+          cx="80"
+          cy="290"
+          rx="15"
+          ry="10"
+          fill="brown"
+          />
+</g>
+
+<!-- yellow stick  -->
+  <line
+    x1="180"
+    y1="120"
+    x2="110"
+    y2="200"
+    stroke="yellow"
+    stroke-width="5"
+    />
+
+<!-- hands  -->
+  <circle
+    cx="105"
+    cy="205"
+    r="10"
+    opacity="0.50"
+    fill="maroon"
+    />
+
+<!-- upper body  -->
+<rect
+  x="35"
+  y="110"
+  width="50"
+  height="100"
+  fill="green"
+  />
+
+<!-- lines used for arms  -->
+  <line
+    x1="80"
+    y1="120"
+    x2="100"
+    y2="200"
+    style="stroke:green;stroke-width:10"
+    />
+
+    <line
+      x1="40"
+      y1="120"
+      x2="100"
+      y2="200"
+      style="stroke:darkgreen;stroke-width:10"
+      />
+
+<!-- Legs  -->
+  <rect
+    x="35"
+    y="210"
+    width="20"
+    height="80"
+    fill="darkblue"
+    />
+
+    <rect
+      x="65"
+      y="210"
+      width="20"
+      height="80"
+      fill="darkblue"
+      />
+
+
+
+<polygon
+  points="310,20 290,190 200,210"
+  style="fill:purple;stroke:orange;stroke-width:3"
+  />
+
+<g stroke="red"
+  stroke-width="3">
+  <path d="M350 350 L175 200 L225 200 Z" />
+</g>
+
+<text
+  x="300"
+  y="50"
+  fill="red"
+  transform="rotate(30 20,40)"
+  font-family="verdana"
+  font-size="20px">Floortje Nijdam
+</text>
+
+</svg>

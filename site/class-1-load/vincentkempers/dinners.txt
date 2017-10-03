@@ -1,0 +1,8 @@
+24-09-2017	chicken Aubergine potatoes
+23-09-2017	rice chicken
+22-09-2017	hamburger goat cheese
+21-09-2017	Caesar salad
+20-09-2017	goat cheese salad
+19-09-2017	vegetarian meat
+
+python -m SimpleHTTPServer 8000

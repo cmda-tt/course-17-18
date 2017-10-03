@@ -1,0 +1,70 @@
+<!doctype html>
+<meta charset=utf8>
+<head>
+<title>@levizimmerman</title>
+<meta content=width=device-width,initial-scale=1 name=viewport>
+<link rel="stylesheet" href="./index.css">
+<script src="https://d3js.org/d3.v4.js"></script>
+</head>
+
+<h1>Dinners</h1>
+
+<script>
+    d3.json('./index.json', handleData);
+    d3.csv('./index.csv', handleData);
+
+    /*
+    * Handles data parsed by d3 data import functions (.json, .csv)
+    */
+    function handleData(err, data) {
+        if (err) {
+            throw err;
+        }
+        // If data is array, start loop functions
+        // else log data bundle as a whole
+        if (Array.isArray(data)) {
+            data.forEach(logRecord);
+            createTableFromData(data);
+        } else {
+            // console.log('data', data);
+        }
+    }
+
+    /*
+    * Logs a single record
+    */
+    function logRecord(record, index) {
+        // console.log('record #' + index, record);
+    }
+
+    /*
+    * Creates table from given data (Array<Object>)
+    */
+    function createTableFromData(data) {
+        var table, thead, tbody;
+        table = document.createElement('table');
+        thead = document.createElement('thead');
+        tbody = document.createElement('tbody');
+        // Get head of data and create table head
+        for (var prop in data[0]) {
+            var tdHead       = document.createElement('td');
+            tdHead.innerText = prop;
+            thead.appendChild(tdHead);
+        }
+        // loop through the found records and create table rows
+        for (var i = 0; data.length > i; i++) {
+            var tdBodyDate       = document.createElement('td');
+            var tdBodyFood       = document.createElement('td');
+            var trBody           = document.createElement('tr');
+            tdBodyDate.innerText = data[i].date;
+            tdBodyFood.innerText = data[i].food;
+            trBody.appendChild(tdBodyDate);
+            trBody.appendChild(tdBodyFood);
+            tbody.appendChild(trBody);
+        }
+        table.appendChild(thead);
+        table.appendChild(tbody);
+        document.body.appendChild(table);
+    }
+</script>
+</html>

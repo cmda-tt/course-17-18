@@ -7,7 +7,6 @@ module.exports = rule('lint:d3-script', d3);
 
 var selector = [
   'script[src^=https://d3js.org]',
-  'script[src^=http://d3js.org]',
   'script[src^=//d3js.org]'
 ].join(', ');
 

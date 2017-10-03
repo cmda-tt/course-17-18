@@ -1,0 +1,16 @@
+.bar {
+  fill: #1D4AB7;
+
+}
+
+.bar:hover {
+  fill: #F7A1CA;
+}
+
+.axis--x path {
+  display: none;
+}
+
+h1 {
+  font-family: helvetica;
+}

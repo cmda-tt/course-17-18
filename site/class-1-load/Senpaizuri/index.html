@@ -1,0 +1,53 @@
+<!doctype html>
+<meta charset=utf8>
+<title>@Senpaizuri</title>
+<meta content=width=device-width,initial-scale=1 name='viewport'>
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<link rel="stylesheet" href="index.css">
+<body>
+  <h1>Dinners</h1>
+
+  <script>
+    d3.csv('index.csv', function(err,data){
+      // console.log(err, data)
+      processData('CSV', data)
+    })
+    d3.json('index.json', function(err,data){
+      // console.log(err, data)
+      processData('JSON', data)
+    })
+
+    function processData(type, data){
+      var
+        newUl   = document.createElement('ul')
+        newH1   = document.createElement('h1')
+        newSect = document.createElement('section')
+        body    = document.body
+
+      newUl.id          = type
+      newH1.textContent = type
+
+      newSect.appendChild(newH1)
+      newH1.setAttribute('style','animation-delay:1.5s')
+
+      for (var i = 0; i < data.length; i++) {
+        var
+          newH2 = document.createElement('h2')
+          newH3 = document.createElement('h3')
+          newLi = document.createElement('li')
+          body  = document.body
+
+        newLi.setAttribute('style','animation-delay:'+ (i*.5) +'s')
+
+        newH2.textContent = data[i].Dinner
+        newH3.textContent = data[i].Day
+
+        newLi.appendChild(newH2)
+        newLi.appendChild(newH3)
+          newUl.appendChild(newLi)
+      }
+      newSect.appendChild(newUl)
+        body.appendChild(newSect)
+    }
+  </script>
+</body>

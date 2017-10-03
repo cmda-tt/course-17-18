@@ -1,0 +1,15 @@
+
+
+.bar {
+  fill: #fff000;
+}
+
+.bar:hover {
+  fill: #00ffff;
+  transition: all 1s;
+}
+
+.axis--x path {
+  display: none;
+}
+

@@ -1,0 +1,39 @@
+<!doctype html>
+<meta charset=utf8>
+<title>@bryanvdelft</title>
+<meta content=width=device-width,initial-scale=1 name=viewport>
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src="https://d3js.org/d3.v4.min.js"></script>
+
+<h1>Dinners</h1>
+
+<h2>JSON</h2>
+<div class="tabel">
+    <div class="json"></div>
+</div>
+
+<h2>CSV</h2>
+<div class="tabel">
+    <div class="csv"></div>
+</div>
+
+<script>   
+var jsonContainer = document.querySelector(".json")
+var csvContainer = document.querySelector(".csv")
+
+d3.json('./index.json', function (err, json) {
+  if (err) throw err;
+  json.forEach(function (q) {
+    jsonContainer.appendChild(document.createElement('b')).textContent = q.date;
+    jsonContainer.appendChild(document.createElement('p')).textContent = q.dish;
+  })
+})
+
+d3.csv('./index.csv', function (err, csv) {
+  if (err)  throw err;
+  csv.forEach(function (q) {
+    csvContainer.appendChild(document.createElement('b')).textContent = q.date;
+    csvContainer.appendChild(document.createElement('p')).textContent = q.dish;
+  })
+})
+</script>

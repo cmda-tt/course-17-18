@@ -1,0 +1,86 @@
+<!doctype html>
+<meta charset=utf8>
+
+<title>@devonmurray</title>
+<meta content=width=device-width,initial-scale=1 name=viewport>
+
+<script src="https://d3js.org/d3.v4.min.js"></script>
+
+
+<style>
+	.dinnerCard {
+		border-radius:20px;
+		background:#f8f8f8;
+		padding:20px;
+		margin:0 0 20px 0;
+	}
+	.dinnerCard h2{
+		font-size:30px;
+		color:#000;
+		text-transform:uppercase;
+	}
+	.dinnerCard p{
+		font-size:16px;
+		color:#666;
+	}
+	.csv {
+		border:2px solid #0f0;
+	}
+	.json {
+		border:2px solid #00f;
+	}
+	body {
+		width:50%;
+		background:#f00;
+		font-family:"Comic Sans MS", cursive, sans-serif;
+	}
+	h1 {
+		text-transform:uppercase;
+		font-size:100px;
+	}
+</style>
+<body>
+
+<h1>Dinners</h1>
+<p style="background:#0f0;padding:10px;">CSV</p>
+<p style="background:#00f;color:#fff;padding:10px;">JSON</p>
+
+<script>
+
+d3.csv('./index.csv', function (err, data) {
+  if (err) throw err;  
+  data.forEach(function (q) {
+    var div = document.createElement('div');
+    var h2 = document.createElement('h2');
+    var paragraph = document.createElement('p');
+    
+    div.setAttribute("class", "dinnerCard csv");
+
+    div.appendChild(h2).textContent = q.dinner;
+    div.appendChild(paragraph).textContent = q.date;
+
+    document.body.appendChild(div);
+  })
+});
+
+d3.json('./index.json', function (err, data) {
+  if (err) throw err;
+  data.forEach(function (q) {
+    var div = document.createElement('div');
+    var h2 = document.createElement('h2');
+    var paragraph = document.createElement('p');
+    
+    div.setAttribute("class", "dinnerCard json");
+
+    div.appendChild(h2).textContent = q.dinner;
+    div.appendChild(paragraph).textContent = q.date;
+
+    document.body.appendChild(div);
+  })
+});
+
+</script>
+
+
+</body>
+</html>  

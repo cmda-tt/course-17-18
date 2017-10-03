@@ -1,0 +1,25 @@
+
+* {
+    font-family: sans-serif;
+}
+
+table th, table td {
+    padding: 0.3rem;
+}
+
+table thead tr {
+    background-color: orange;
+}
+
+table thead tr th {
+    color: white;
+    text-align: left;
+}
+
+table thead tr th::first-letter {
+    text-transform: uppercase;
+}
+
+table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
