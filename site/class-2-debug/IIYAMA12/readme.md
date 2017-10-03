@@ -13,7 +13,7 @@ For this assignment it was required to debug the code, fix the errors/warnings a
 ### Fixed CSS
 * The property font-family does not accept fontnames with spaces, unless they are grouped with quotation marks.
 * Added the correct units for the width and height property.
-* Replaced the **value** no of fill to **none**.
+* Replaced the value **no** of property _fill_ to **none**.
 * Replaced **currentcolor** with **black**
 
 ### Updated js code to _d3 v4_.
