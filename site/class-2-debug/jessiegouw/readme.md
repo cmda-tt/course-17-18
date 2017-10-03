@@ -48,7 +48,7 @@ var height = 500 - margin.top - margin.bottom;
 ```
 
 
-So here is the same issue as above...
+So here is the same issue as above...:
 ```javascript
 var x = d3.scale.linear().range([0, width]);
 var y = d3.scale.linear().range([height, 0]);
@@ -57,7 +57,7 @@ var xAxis = d3.svg.axis().scale(x).orient('bottom');
 var yAxis = d3.svg.axis().scale(y).orient('left');
 ```
 
-Hmmm, nice:
+And here is the fix, nice:
 ```javascript
 var x = d3.scaleLinear().range([0, width]);
 var y = d3.scaleLinear().range([height, 0]);
@@ -67,7 +67,7 @@ var yAxis = d3.axisLeft(y);
 ```
 
 
-Spended some good quality time with my duck, this sentence is unnecessary. Cheers.
+Spended some good quality time with my duck, this sentence is unnecessary. Cheers. 
 
 ## License
 
