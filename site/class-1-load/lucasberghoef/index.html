@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset=utf8>
+        <title>@lucasberghoef</title>
+        <meta content=width=device-width,initial-scale=1 name=viewport>
+        
+        <script src="https://d3js.org/d3.v4.min.js"></script>
+    </head>
+    <body>
+        <h1>Dinners</h1>
+
+        <h2>CSV</h2>
+        <div id="csvData"></div>
+
+        <h2>JSON</h2>
+        <div id="jsonData"></div>
+
+        <script>
+            d3.csv('./index.csv', function (err, data) {
+                if (err) throw err;
+
+                var dataElement = document.getElementById('csvData')
+
+                for (var i = 0; i < data.length; i++) {
+                    var instance = data[i]
+
+                    var header = document.createElement('h3')
+                    var headerContent = document.createTextNode(instance.day)
+                    header.appendChild(headerContent)
+
+                    dataElement.appendChild(header)
+
+                    var paragraph = document.createElement('p')
+                    var paragraphContent = document.createTextNode(instance.dinner)
+                    paragraph.appendChild(paragraphContent)
+
+                    dataElement.appendChild(paragraph)
+                }
+            })
+        
+            d3.json('./index.json', function (err, data) {
+                if (err) throw err;
+                
+                var dataElement = document.getElementById('jsonData')
+
+                for (var i = 0; i < data.length; i++) {
+                    var instance = data[i]
+
+                    var header = document.createElement('h3')
+                    var headerContent = document.createTextNode(instance.day)
+                    header.appendChild(headerContent)
+
+                    dataElement.appendChild(header)
+
+                    var paragraph = document.createElement('p')
+                    var paragraphContent = document.createTextNode(instance.dinner)
+                    paragraph.appendChild(paragraphContent)
+
+                    dataElement.appendChild(paragraph)
+                }
+
+            })
+        </script>
+    </body>
+</html>
