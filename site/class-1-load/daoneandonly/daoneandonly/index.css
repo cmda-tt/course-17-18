@@ -1,0 +1,35 @@
+body {
+    background-color: gold;
+    display: flex;
+    font-family: Open Sans, sans-serif;
+    flex-direction: column;
+    align-items: left;
+    align-content:
+}
+
+h1 {
+    color: white;
+    border: dashed 5em rgb(255,255,255,175);
+    font-size: 2.5em;
+}
+
+h2 {
+    color: darkgoldenrod;
+    background-color: white;
+    border: solid .15em goldenrod;
+    border-radius: .2em;
+    padding: .1em 2.5em;
+    margin: 0;
+}
+
+p + h2 {
+    margin-top: 2em;
+}
+
+p {
+    margin: .5em;
+}
+
+h2 + p {
+    font-weight: 700;
+}
