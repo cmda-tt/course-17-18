@@ -67,6 +67,25 @@ var yAxis = d3.axisLeft(y);
 ```
 
 
+In the css I changed this:
+```css
+svg {
+  width: 100w;
+  height: 100h;
+}
+```
+
+Not only did I changed the values into 'vw' and 'vh', but I
+also changed the amount of tab spacing because I set my tab default to
+4 spaces:
+```css
+svg {
+    width: 100vw;
+    height: 100vh;
+}
+```
+
+
 Spended some good quality time with my duck, this sentence is unnecessary. Cheers. 
 
 ## License
