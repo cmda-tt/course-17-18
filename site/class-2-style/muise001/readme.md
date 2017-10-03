@@ -16,4 +16,4 @@ De stijl-opdracht was bedoeld om beter onze eigen stijl te leren kennen en daard
 
 #### JS
 * __punt-komma__ - Net als bij CSS sluit ik __ALLES__ af met punt-komma. Ookal is het niet nodig... better safe than sorry;
-* __var__ - Als ik meerder var's onderelkaar maak, dan schrijf ik altijd ```javascript var a = altijd; var b = een nieuwe; var = 'var';``` in plaats van het gebruiken van komma's;
+* __var__ - Als ik meerder var's onderelkaar maak, dan schrijf ik altijd ```var a = altijd; var b = een nieuwe; var = 'var';``` in plaats van het gebruiken van komma's;
