@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="600" viewBox="0 0 500 500">
+
+  <!--Update the title with your username-->
+  <title>@jajan20</title>
+
+  <!--Add stuff here-->
+
+
+  <line x1="20" y1="200" x2="100" y2="400" stroke-width="10" stroke="black"/>
+  <polygon points="200,10 250,190 160,210 180,400"/>
+  <path d="M 100 350 l 150 -300 l 400 150" stroke="red"/>
+  <text x="230" y="180" fill="rgb(73, 239, 149)" font-family="helvetica" font-size="16px" font-weight="900">F*CK YEAH</text>
+
+    <g stroke="green" fill="white" stroke-width="5">
+    <circle fill="moss" cx="50" cy="50" r="40" opacity="0.5"/>
+    <rect x="50" y="150" width="75" height="24"/>
+    </g>
+
+
+
+  <!-- NOTHING TO SEE HERE... MOVE ALONG!!! -->
+  <script>// <![CDATA[
+  var p = window.location.pathname
+  var h = p.slice(p.lastIndexOf('/') + 1, p.lastIndexOf('.'))
+  console.log('Hi @%s 👋', h)
+  if (!document.querySelector('circle')) bug()
+  if (h === 'username') throw new Error('Rename this file to `your-github-username.svg`!')
+  if (document.querySelector('title').textContent === '@username') throw new Error('Update your `<title>`!')
+  var ok = ![
+    ['circle', '1.0. `<circle>` element'],
+    ['circle[cx]', '1.1. `cx` attribute on `<circle>`'],
+    ['circle[cy]', '1.2. `cy` attribute on `<circle>`'],
+    ['circle[r]', '1.3. `r` attribute on `<circle>`'],
+    [8001, 'See the assignment description for an extra question!'],
+    ['rect', '3.0. `<rect>` element'],
+    ['rect[x]', '3.1. `x` attribute on `<rect>`'],
+    ['rect[y]', '3.2. `y` attribute on `<rect>`'],
+    ['rect[width]', '3.3. `width` attribute on `<rect>`'],
+    ['rect[height]', '3.4. `height` attribute on `<rect>`'],
+    ['line', '4.0. `<line>` element'],
+    ['line[x1]', '4.1. `x1` attribute on `<line>`'],
+    ['line[y1]', '4.2. `y1` attribute on `<line>`'],
+    ['line[x2]', '4.3. `x2` attribute on `<line>`'],
+    ['line[y2]', '4.4. `y2` attribute on `<line>`'],
+    ['line[stroke-width]', '4.5. `stroke-width` attribute on `<line>`'],
+    ['line[stroke]', '4.6. `stroke` attribute on `<line>`'],
+    ['polygon', '5.0. `<polygon>` element'],
+    ['polygon[points]', '5.1. `points` attribute on `<polygon>`'],
+    ['path', '6.0. `<path>` element'],
+    ['path[d]', '6.1. `d` attribute on `<path>`'],
+    ['text', '7.0. `<text>` element'],
+    ['text[x]', '7.1. `x` attribute on `<text>`'],
+    ['text[y]', '7.2. `y` attribute on `<text>`'],
+    ['text:not(:empty)', '7.3. Content in `<text>` element'],
+    ['g', '8.0. `<g>` element'],
+    ['g[stroke]', '8.1. `stroke` attribute on `<g>`'],
+    ['g[stroke-width]', '8.2. `stroke-width` attribute on `<g>`'],
+    ['g > :nth-child(n+2)', '8.3. `<g>` element with at least two children'],
+    [':root[viewBox]', '9.0. `viewBox` attribute on `<svg>`'],
+    [':root[width]', '9.1. `width` attribute on `<svg>`'],
+    [':root[height]', '9.2. `height` attribute on `<svg>`'],
+    ['[fill]', '10.0. `fill` attribute on any element'],
+    ['[font-family]', '10.1. `font-family` attribute on any element'],
+    ['[font-size]', '10.2. `font-size` attribute on any element'],
+    ['[opacity]', '10.3. `opacity` attribute on any element']
+  ].some(assert)
+  if (ok) {
+    console.log([
+      'Well done @%s! 🎉 Assignment complete!',
+      'Go back to the class page on GitHub to see what happens next'
+    ].join('\n'), h)
+  }
+  function assert(check) {
+    var key = check[0]
+    if (typeof key === 'number') {
+      if (!(key in localStorage)) {
+        console.info(check[1])
+        localStorage[key] = true
+        return true
+      }
+      return false
+    }
+    var exists = Boolean(document.querySelector(check[0]))
+    console.assert(exists, check[1])
+    if (!exists) {
+      console.warn([
+        'Hmm, not there yet! 🤔',
+        'Go back and fix the above problem in your file',
+        'and when done hit refresh here to check again!'
+      ].join('\n'))
+      return true
+    }
+  }
+  function bug() {
+    var t = document.createElementNS('http://www.w3.org/2000/svg', 'text')
+    t.textContent = 'Open your Console'
+    t.setAttribute('fill', 'red')
+    t.setAttribute('x', '20')
+    t.setAttribute('y', '55')
+    t.setAttribute('font-family', 'Comic Sans MS')
+    t.setAttribute('font-size', '35')
+    document.documentElement.appendChild(t)
+  }
+  // ]]></script>
+</svg>
