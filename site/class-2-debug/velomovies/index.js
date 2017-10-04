@@ -17,7 +17,7 @@ var x = d3.scaleLinear().range([0, width]);
 var y = d3.scaleLinear().range([height, 0]);
 var color = d3.scaleOrdinal().range(['#fe2f2f', '#feca2f', '#96fe2f']);
 var xAxis = d3.axisBottom(x);
-var yAxis = d3.axisBottom(y);
+var yAxis = d3.axisLeft(y);
 
 /* Size SVG. */
 var svg = d3
