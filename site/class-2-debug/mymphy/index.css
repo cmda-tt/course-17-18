@@ -23,3 +23,7 @@ html {
     stroke: currentColor;
     stroke-width: 2px;
   }
+
+text{
+    fill: black;
+ }
