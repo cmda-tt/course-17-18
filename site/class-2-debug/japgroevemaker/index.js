@@ -94,7 +94,7 @@ function onload(data) {
         .append('text')
         .attr('x', width - 24)
         .attr('y', 12)
-        .style('text-anchor', 'end')
+        .style('text-anchor', 'end') 
         .text(String);
 }
 
