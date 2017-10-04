@@ -9,28 +9,28 @@ var width = 500,
 
 function render(b, c) {
     if (b) throw b;
-    var a = svg.selectAll('.arc').data(pie(c)).enter().append('g').attr('class', 'arc');
-    a.append('path').attr('d', arc).style('fill', fill), a.append('text').attr('transform', transform).attr('dy', '.35em').text(age)
+    var donut = svg.selectAll('.arc').data(pie(c)).enter().append('g').attr('class', 'arc');
+    donut.append('path').attr('d', arc).style('fill', fill), donut.append('text').attr('transform', transform).attr('dy', '.35em').text(age)
 }
 
-function type(a) {
-    return a.population = Number(population(a)), a;
+function type(donut) {
+    return donut.population = Number(population(donut)), donut;
 }
 
-function transform(a) {
-    return 'translate(' + arc.centroid(a) + ')';
+function transform(donut) {
+    return 'translate(' + arc.centroid(donut) + ')';
 }
 
-function fill(a) {
-    return color(age(a));
+function fill(donut) {
+    return color(age(donut));
 }
 
-function age(a) {
-    return a.data.age;
+function age(donut) {
+    return donut.data.age;
 }
 
-function population(a) {
-    return a.population;
+function population(donut) {
+    return donut.population;
 }
 
 d3.csv('index.csv', type, render)
