@@ -1,0 +1,262 @@
+<svg xmlns="http://www.w3.org/2000/svg" 
+     viewBox="0, 0, 700, 1000"
+     width="700"
+     height="1000">
+  <!--Update the title with your username-->
+  <title>@RyanNL1994</title>
+
+  <!--Add stuff here-->
+    
+    <!--r= radius hoe groot wordt de circle-->
+    <circle
+            cx= "250"
+            cy="50"
+            r= "40"
+            stroke="red"
+            stroke-width="5"
+            fill="antiquewhite"
+            />
+    
+    <rect 
+         x= "200"
+         y="100"
+         width="120"
+         height="120"
+         stroke="yellow"
+         stroke-width="5"
+          />
+    
+    <!-- x1= breedte links, x2- breedte rechts, y1 is hoogte links, y2 is hoogte rechts -->
+    <line
+          x1="100" 
+          y1="250"
+          x2="100"
+          y2="400"
+          stroke="aqua"
+          stroke-width="20"
+            />
+    
+    <line
+          x1="200"
+          y1="250"
+          x2="200"
+          y2="400"
+          stroke="aqua"
+          stroke-width="20"
+            />
+    
+    <line
+          x1="90"
+          y1="250"
+          x2="210"
+          y2="250"
+          stroke="aqua"
+          stroke-width="20"
+            />
+    
+    <line
+          x1="90"
+          y1="390"
+          x2="210"
+          y2="390"
+          stroke="aqua"
+          stroke-width="20"
+            />
+    
+    <polygon 
+             points="60,20 100,40 100,80 60,100 20,80 20,40"
+             stroke="coral" 
+             stroke-width="5"
+             fill="blueviolet"
+             opacity="0.50"
+             ></polygon>
+    
+    <polygon 
+             points="100,10 40,198 190,78 10,78 160,198" 
+             stroke="blue"
+             stroke-width="5"
+             fill="gold"
+             ></polygon>
+    
+    <!--M= linkerbovenhoek L=rechterbovenhoek L=onderhoek-->
+    <path d="M 30 30 L 90 70 L 40 100 "
+          stroke="seagreen"
+          stroke-width="5"
+          fill="chartreuse"
+          opacity="0.50"></path>
+    
+    <text x="20" 
+          y="450"
+          font-family="Helvetica"
+          font-size="30px"
+          >Ballspiel Verein Borussia 🌍</text>
+    
+    <g fill="black" stroke="yellow" stroke-width="5">
+        
+        <rect 
+         x= "20"
+         y="500"
+         width="30"
+         height="200"
+          />
+        
+        <rect 
+         x= "20"
+         y="500"
+         width="100"
+         height="30"
+          />
+        
+        <rect 
+         x= "110"
+         y="500"
+         width="30"
+         height="120"
+          />
+        
+        <rect 
+         x= "20"
+         y="590"
+         width="150"
+         height="30"
+          />
+        
+        <rect 
+         x= "20"
+         y="680"
+         width="150"
+         height="30"
+          />
+        
+        <rect 
+         x= "140"
+         y="590"
+         width="30"
+         height="120"
+          />
+        
+        <line
+          x1="200"
+          y1="500"
+          x2="300"
+          y2="700"
+          stroke-width="20"
+            />
+        
+        <line
+          x1="400"
+          y1="500"
+          x2="300"
+          y2="700"
+          stroke-width="20"
+            />
+        
+        <rect 
+         x= "450"
+         y="500"
+         width="30"
+         height="200"
+          />
+        
+        <rect 
+         x= "450"
+         y="500"
+         width="100"
+         height="30"
+          />
+        
+        <rect 
+         x= "540"
+         y="500"
+         width="30"
+         height="120"
+          />
+        
+        <rect 
+         x= "450"
+         y="590"
+         width="150"
+         height="30"
+          />
+        
+        <rect 
+         x= "450"
+         y="680"
+         width="150"
+         height="30"
+          />
+        
+        <rect 
+         x= "570"
+         y="590"
+         width="30"
+         height="120"
+          />
+        
+        <rect 
+         x= "150"
+         y="800"
+         width="30"
+         height="200"
+          />
+        
+        <rect 
+         x= "150"
+         y="800"
+         width="120"
+         height="30"
+          />
+        
+        <rect 
+         x= "250"
+         y="800"
+         width="30"
+         height="200"
+          />
+        
+        <rect 
+         x= "150"
+         y="970"
+         width="130"
+         height="30"
+          />
+        
+        <rect 
+         x= "300"
+         y="800"
+         width="130"
+         height="30"
+          />
+        
+        <rect 
+         x= "300"
+         y="800"
+         width="30"
+         height="130"
+          />
+        
+        <rect 
+         x= "430"
+         y="800"
+         width="30"
+         height="200"
+          />
+        
+        <rect 
+         x= "300"
+         y="900"
+         width="130"
+         height="30"
+          />
+        
+        <rect 
+         x= "300"
+         y="970"
+         width="130"
+         height="30"
+          /> 
+    </g>
+    
+    
+  <!-- NOTHING TO SEE HERE... MOVE ALONG!!! -->
+</svg>
