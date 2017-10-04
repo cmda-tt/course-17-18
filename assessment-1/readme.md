@@ -20,14 +20,14 @@ graph het beste erbij past. Ik kwam uit op de [line chart.] (https://bl.ocks.org
 Ik moest meteen de dataset implementatie veranderen naar mijn bijbehorende dataset.
 
 van
-'''
+```
 d3.tsv("data.tsv", function(d) {
 d.date = parseTime(d.date);
 d.close = +d.close;
 return d;
 }, function(error, data) {
 if (error) throw error;
-'''
+```
 naar
 
 ```
