@@ -37,7 +37,7 @@ function render(error, data) {
 
 
   var g = svg.selectAll('.arc')
-    .data(pie(c))
+    .data(pie(data))
     .enter()
     .append('g')
     .attr('class', 'arc');
@@ -74,4 +74,3 @@ function age(data) {
 function population(data) {
   return data.population;
 }
-
