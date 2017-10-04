@@ -6,6 +6,12 @@ by [**@mbostock**][block-author] (GPL-3.0).
 
 ![preview](preview.png)
 
+## Background 
+
+I used beautify to line things out and make it easier to read the code.
+I also place some ; in the code and changed vars. In the HTML I placed some
+of the basic components that I think are important. 
+
 ## Features
 
 *   [`d3-request`](https://github.com/d3/d3-request#api-reference)
@@ -23,7 +29,7 @@ by [**@mbostock**][block-author] (GPL-3.0).
 
 ## License
 
-GPL-3.0 © Titus Wormer
+GPL-3.0 © Kevin Goldstein
 
 [block]: https://bl.ocks.org/mbostock/3887193
 
