@@ -1,0 +1,25 @@
+
+h1{
+          color:cadetblue;
+font-size:35px;
+    text-align: center;
+    font-family:"Helvetica";
+    text-transform:uppercase;
+}
+
+
+summary{
+    background-color:cadetblue;
+    color:white;
+font-size:30px;
+    text-align: center;
+    font-family:"Helvetica";
+        padding:20px;
+}
+
+p{
+       color:cadetblue;
+font-size:30px;
+    text-align: center;
+    font-family:"Helvetica";
+}
