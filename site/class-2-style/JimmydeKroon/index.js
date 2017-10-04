@@ -1,5 +1,3 @@
-console.log("test");
-
 var width=500,
     height=500,
     radius=Math.min(width,height)/2,

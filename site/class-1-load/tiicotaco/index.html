@@ -31,22 +31,22 @@
 </body>
 <script>
 
-	var Ch3 = document.querySelectorAll("#CSV > h3");	
-	var Cp = document.querySelectorAll(" #CSV > p");	
+	var Ch3 = document.querySelectorAll("#CSV > h3");
+	var Cp = document.querySelectorAll(" #CSV > p");
 
 	d3.csv('index.csv', function(error, data){
-		console.log(error, data);
+		// console.log(error, data);
 		for (var i = data.length - 1; i >= 0; i--) {
 			Ch3[i].textContent = data[i].Date;
 			Cp[i].textContent = data[i].Dinner;
 		}
 	});
 
-	var JSh3 = document.querySelectorAll("#JSON > h3");	
-	var JSp = document.querySelectorAll(" #JSON > p");	
+	var JSh3 = document.querySelectorAll("#JSON > h3");
+	var JSp = document.querySelectorAll(" #JSON > p");
 
 	d3.json('index.json', function(error, data){
-		console.log(error, data);
+		// console.log(error, data);
 		for (var i = data.length - 1; i >= 0; i--) {
 			JSh3[i].textContent = data[i].Date;
 			JSp[i].textContent = data[i].Dinner;
