@@ -26,6 +26,8 @@ Change the D3 from v3 to v4.
 ```
 
 
+### JS Bugs
+
 #### Data
 
 Changed tsv into csv as the data was formatted in a .csv file.
@@ -88,6 +90,35 @@ to
 ```js
 svg.append('g')
   .attr('class', 'x axis')
+```
+
+### CSS Bugs
+
+
+Lastly there were some styling bugs.
+
+```
+svg {
+  width: 100v;
+  height: 100v;
+}
+
+.axis path {
+  fill: no;
+}
+```
+
+Which I changed to
+
+```
+svg {
+  width: 100vw;
+  height: 100vw;
+}
+
+.axis path {
+  fill: none;
+}
 ```
 
 
