@@ -13,3 +13,6 @@ Ik heb mijn code gekopieërd van https://github.com/zezavdh/course-17-18/tree/ba
 
 ## License
 GPL-3.0 © Titus Wormer
+
+
+![Donut chart](preview.png)
