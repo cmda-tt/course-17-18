@@ -30,7 +30,7 @@ if (error) throw error;
 '''
 naar
 
-'''
+```
 d3.csv("temp-data.csv", function(d) {
 d.date = parseTime(d.date); // parse de tijd van date.
 d.temp = +d.temp; // parse de tijd van date.
@@ -38,14 +38,14 @@ console.log(d); // een kleine console log om te kijken wat hij met de data doet.
 return d;
 }, function(error, data) { // handeld errors af.
 if (error) throw error;
-'''
+```
 
 ^^^ Hierna kreeg ik errors dat de nummers in mijn dataset NaN waren.
 
 Het lastigste stukje was het vinden van de juiste manier om de datum te parsen.
-'''
+```
 var parseTime = d3.timeParse("%Y%m%d");
-'''
+```
 
 ## Bronnen
 * https://github.com/d3/d3/blob/master/API.md#time-formats-d3-time-format
