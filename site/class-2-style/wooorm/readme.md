@@ -8,6 +8,9 @@ by [**@mbostock**][block-author] (GPL-3.0).
 
 ## Features
 
+*   [`d3-request`](https://github.com/d3/d3-request#api-reference)
+    — `d3.csv`
+    — Loading files
 *   [`d3-scale`](https://github.com/d3/d3-scale#api-reference)
     — `d3.scaleOrdinal`
     — Position encodings
@@ -17,9 +20,6 @@ by [**@mbostock**][block-author] (GPL-3.0).
 *   [`d3-shape`](https://github.com/d3/d3-shape#api-reference)
     — `d3.pie` and `d3.arc`
     — Graphical primitives
-*   [`d3-request`](https://github.com/d3/d3-request#api-reference)
-    — `d3.csv`
-    — Loading files
 
 ## License
 

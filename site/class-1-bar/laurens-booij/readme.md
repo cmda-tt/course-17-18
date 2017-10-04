@@ -53,3 +53,6 @@ The chart makes use of the [d3 library](https://d3js.org/).
 
 ## License
 GPL-3.0 © Laurens Booij
+
+
+

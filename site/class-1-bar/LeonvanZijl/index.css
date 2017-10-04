@@ -1,0 +1,36 @@
+/* Code from https://bl.ocks.org/mbostock/3885304 */
+
+body {
+	background: #0B132B;
+}
+
+.bar {
+  fill: #3A506B;
+  transition: all 1s;
+}
+
+.bar:hover {
+  fill: #5BC0BE;
+  transition: all 1s;
+  cursor: pointer;
+}
+
+.matter path {
+  display: none;
+}
+
+.axisy path {
+  display: none;
+}
+
+.domain {
+  stroke: white;
+}
+
+.axisy text:nth-child(2) {
+	fill: white;
+}
+
+.matter text {
+	fill: white;
+}

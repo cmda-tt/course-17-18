@@ -1,0 +1,40 @@
+html {
+  font-family: Roboto, -apple-system, BlinkMacSystemFont, Helvetica Neue, Segoe UI, Oxygen, Ubuntu, Cantarell, Open Sans, sans-serif;
+  background-color: black;
+  height: 100%;
+  color: white;
+}
+
+body {
+  margin: 0;
+  height: 100%;
+}
+
+svg {
+  width: 100%;
+  min-height: 100%;
+  min-width: 500px;
+}
+
+rect {
+  stroke: black;
+  stroke-width: 2px;
+}
+
+text {
+  font-size: smaller;
+  fill: currentcolor;
+  opacity: 0.5;
+}
+
+.work {
+  opacity: 1;
+}
+
+.day {
+  text-anchor: end;
+}
+
+.time {
+  text-anchor: middle;
+}

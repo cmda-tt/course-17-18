@@ -1,0 +1,53 @@
+<!doctype html>
+<meta charset=utf8>
+<!--Prevent favicon error from showing up-->
+<link rel="shortcut icon" type=image/x-icon href=data:image/x-icon;,>
+<title>d3-transition</title>
+<meta content=width=device-width,initial-scale=1 name=viewport>
+<style>
+html { background-color: black; height: 100% }
+body { margin: 0; height: 100% }
+svg { width: 100%; height: 100%; color: #feca2f }
+</style>
+<svg viewBox="0 0 200 200">
+  <circle cx="100" cy="100" r="50" fill="currentcolor"/>
+</svg>
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<script>
+/* Start */
+transition();
+
+function transition() {
+  d3.selectAll('circle')
+    // Fade to cyan in 2 seconds.
+    .transition()
+      // Note: `duration` is inheritted, so further transitions also take 1s.
+      .duration(1000)
+      .style('fill', '#2ffeca')
+    // Then fade to magenta.
+    .transition()
+      .style('fill', '#ca2ffe')
+    // wait two seconds, and ease (`circleIn`) to transparent, and remove
+    .transition()
+      .delay(2000)
+      .ease(d3.easeCircleIn)
+      .style('fill', 'transparent')
+      .remove()
+      .on('end', restore)
+}
+
+/* Repeat. */
+function restore(d, i, n) {
+  var node = this;
+
+  setTimeout(delayed, 2000);
+
+  function delayed() {
+    d3.select('svg')
+      .append(function () { return node })
+      .style('fill', '');
+
+    transition();
+  }
+}
+</script>

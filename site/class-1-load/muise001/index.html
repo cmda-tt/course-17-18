@@ -1,0 +1,47 @@
+<!doctype html>
+<meta charset=utf8>
+<title>@muise001</title>
+<meta content=width=device-width,initial-scale=1 name=viewport>
+<link rel="stylesheet" type="text/css" href="index.css" />
+<script src="https://d3js.org/d3.v4.min.js"></script>
+
+<body>
+
+<header>
+  <h1>Dinners</h1>
+</header>
+
+<main>
+  <script>
+
+  // d3
+    d3.csv("./index.csv", csv);
+    d3.json("./index.json", json);
+
+    var body = document.body;
+
+    // CSV var zichtbaar
+    function csv(err, csv) {
+        if (err) throw err;
+        body.appendChild(document.createElement('h2')).textContent = "CSV"
+
+        csv.forEach(function (row) {
+ 	        body.appendChild(document.createElement('h3')).textContent = row.Day;
+ 	        body.appendChild(document.createElement('p')).textContent = row.Dinner;
+        })
+      };
+
+      // Json var zichtbaar
+      function json(err, json) {
+        if (err) throw err;
+  	     body.appendChild(document.createElement('h2')).textContent = "Jayson"
+
+ 	       json.forEach(function (row) {
+   	       body.appendChild(document.createElement('h3')).textContent = row.Day;
+   	       body.appendChild(document.createElement('p')).textContent = row.Dinner;
+         })
+       };
+  </script>
+</main>
+
+</body>

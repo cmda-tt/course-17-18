@@ -1,0 +1,33 @@
+* {
+	font-family: sans-serif;
+}
+
+body {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 2vw;
+}
+
+h1 {
+	text-decoration: underline;
+}
+
+@media screen and (max-width:830px) {
+	body {
+		flex-direction: column;
+	}
+}
+
+
+.bar {
+  fill: #87ab41;
+}
+
+.bar:hover {
+  fill: #bbbbbb;
+}
+
+.axis--x path {
+  display: none;
+}

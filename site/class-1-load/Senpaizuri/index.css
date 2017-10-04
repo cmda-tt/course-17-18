@@ -1,0 +1,58 @@
+*,*:before,*:after{
+  border: none;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  list-style: none;
+  font-family: sans-serif;
+  color: inherit;
+  position: relative;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: center;
+  background-color: #abc;
+}
+body > h1{
+  text-align: center;
+  margin-bottom: 3rem;
+}
+section h1{
+  text-align: left;
+  font-size: 1rem;
+  color: #fff;
+  animation: fadeIn 1s ease forwards;
+  opacity: 0;
+}
+section{
+  margin: 0 auto;
+  min-width: 15rem;
+}
+ul li{
+  margin: 1rem 0;
+  opacity: 0;
+  animation: fadeIn 1s ease forwards;
+  transition: .3s ease all;
+}
+li:hover{
+  color: #fff;
+}
+@keyframes fadeIn {
+  from{
+    transform: translateX(-1.5rem);
+    opacity: 0;
+  }
+  to{
+    transform: translateX(0rem);
+    opacity: 1;
+  }
+}
+h3{
+  text-align: right;
+}

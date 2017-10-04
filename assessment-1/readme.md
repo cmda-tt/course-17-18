@@ -13,7 +13,7 @@
 *   **Weight**: 20%
 *   **Type**: Remote
 *   **Grade**: [Rubric][]
-*   **Due**: 04-10 12:00 (ID 1), 05-10 15:20 (ID 2), 03-10 15:20 (ID 3)
+*   **Due**: 04-10 12:00 (ID 1), 06-10 15:20 (ID 2), 04-10 15:20 (ID 3)
 
 ## Description
 
@@ -26,23 +26,53 @@ If you want to clean data, you must do so with code and hand in this code too.
 We’ll check how you apply d3, whether you understand what’s happening, how well
 data is represented, and quality of your code and documentation.
 
-For this assessment you’ll build a project in your own repo on GitHub and host
-the project through [GitHub Pages][pages].  First, fork
-[`cmda-fe3/fe3-assessment-1`][starter-code].  Then, work on your project and
-upload the final results to your fork either using Git or the GitHub interface
-as covered in [class 1][c1].
+For this assessment you’ll build a project in a fork of
+[`cmda-fe3/fe3-assessment-1`][starter-code] (**not our course repo**) and
+host the project through [GitHub Pages][pages].  First, fork the repo.  Then,
+work on your project and upload the final results to your fork either using
+Git or the GitHub interface as covered in [class 1][c1].
 
 ## Goals
 
 **Assessment 1** tests that you’ve attained the following knowledge:
 
 *   [SVG and canvas][s1]
-*   [Parse data formats][s2]
+*   [Load external data][s2]
 *   [Read][s3] and [write][s4] docs
 *   [Debug][s5] and [refactor][s6] code
 *   Use [scales][s7]
 
 ## Data
+
+Pick one data set.  You _may_ use [other data][other-data] but that probably
+means you’ll have to clean it yourself.  It’s simplest to pick any of the
+cleaned data sets:
+
+*   [Monthly temperature time series](#monthly-temperature-time-series)
+*   [Top languages by number of speaker](#top-languages-by-number-of-speaker)
+*   [Population without indoor toilet](#population-without-indoor-toilet)
+
+### Other data
+
+Feel free to use other data sets.  For example, from:
+
+*   [`data.amsterdam.nl`](https://data.amsterdam.nl)
+    — Amsterdam city data
+*   [`data.overheid.nl`](https://data.overheid.nl)
+    — Dutch national data
+*   [`cbs.nl`](https://www.cbs.nl/en-gb/figures)
+    — Data of Statistics Netherlands
+*   [`projects.knmi.nl`](https://projects.knmi.nl/klimatologie)
+    — Weather data in the Netherlands
+*   [`data.europa.eu`](https://data.europa.eu/euodp/en/home)
+    — European Union open data
+*   [`data.un.org`](http://data.un.org)
+    — United Nations data
+*   [`data.oecd.org`](https://data.oecd.org)
+    — Organisation for Economic Co-operation and Development data
+*   [`fivethirtyeight/data`](https://github.com/fivethirtyeight/data)
+    — Data and code behind stories and interactives at
+    [FiveThirtyEight](http://fivethirtyeight.com)
 
 ### Monthly temperature time series
 
@@ -167,28 +197,6 @@ JavaScript Object Notation (JSON) with 34 rows and 2+ columns:
 ]
 ```
 
-### Other data
-
-Feel free to use other data sets.  For example, from:
-
-*   [`data.amsterdam.nl`](https://data.amsterdam.nl)
-    — Amsterdam city data
-*   [`data.overheid.nl`](https://data.overheid.nl)
-    — Dutch national data
-*   [`cbs.nl`](https://www.cbs.nl/en-gb/figures)
-    — Data of Statistics Netherlands
-*   [`projects.knmi.nl`](https://projects.knmi.nl/klimatologie)
-    — Weather data in the Netherlands
-*   [`data.europa.eu`](https://data.europa.eu/euodp/en/home)
-    — European Union open data
-*   [`data.un.org`](http://data.un.org)
-    — United Nations data
-*   [`data.oecd.org`](https://data.oecd.org)
-    — Organisation for Economic Co-operation and Development data
-*   [`fivethirtyeight/data`](https://github.com/fivethirtyeight/data)
-    — Data and code behind stories and interactives at
-    [FiveThirtyEight](http://fivethirtyeight.com)
-
 ## Rubric
 
 <!--lint disable no-html maximum-line-length-->
@@ -280,7 +288,7 @@ Feel free to use other data sets.  For example, from:
 
 [languages-clean]: languages.tsv
 
-[toilets-source]: http://data.europa.eu/euodp/en/data/dataset/uuXBX1CHvFKRWmCuLAKA
+[toilets-source]: https://data.europa.eu/euodp/en/data/dataset/uuXBX1CHvFKRWmCuLAKA
 
 [toilets-clean]: toilets.json
 

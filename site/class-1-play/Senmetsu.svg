@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700px" height="700px" viewBox="10 10 700 700" fill="pink" font-family="Verdana" font-size="22px" opacity="0.8">
+  <!--Update the title with your username-->
+  <title>@Senmetsu</title>
+
+  <!--Add stuff here-->
+  <circle cx="20" cy="20" r="20"/>
+  <rect x="" y="60" width="20" height="20"/>
+  <line x1="140" y1="40" x2="140" y2="70" stroke-width="200" stroke="blue"/>
+  <polygon points="160,120 200,140 200,180 160,200 120,180 120,140" />
+  <path d="M150 300 L200 220 L180 400Z" />
+  <text x="200" y="300"> Hi there.</text>
+  <g stroke="coral" stroke-width="400">
+      <rect x="700" y="40" width="40" height="40" />
+      <line x1="500" y1="300" x2="1000" y2="300" stroke-width="4" />
+  </g>
+</svg>

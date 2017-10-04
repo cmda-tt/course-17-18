@@ -32,4 +32,4 @@ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 [contact]: mailto:t.e.wormer@hva.nl?subject=frontend-3:license:%20
 
-[by-nc-sa-4.0]: http://creativecommons.org/licenses/by-nc-sa/4.0/
+[by-nc-sa-4.0]: https://creativecommons.org/licenses/by-nc-sa/4.0/

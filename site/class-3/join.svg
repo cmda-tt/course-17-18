@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -20 386 276">
+  <!--Based on https://bost.ocks.org/mike/join/ by Mike Bostock-->
+  <title>Joins: Enter, Update, Exit</title>
+  <style>
+    :root {
+      background-color: black;
+      font-family: Roboto, -apple-system, BlinkMacSystemFont, Helvetica Neue, Segoe UI, Oxygen, Ubuntu, Cantarell, Open Sans, sans-serif;
+      color: white;
+    }
+    circle {
+      mix-blend-mode: screen;
+    }
+    text {
+      text-anchor: middle;
+      fill: black;
+    }
+    .hl {
+      font-weight: bold;
+      fill: currentcolor;
+    }
+  </style>
+  <g transform="translate(0, 128)">
+    <g transform="translate(128)">
+      <circle r="110" fill="#2ffeca"></circle>
+      <text class="hl" y="-116">Data</text>
+      <text x="-50">Enter</text>
+    </g>
+    <g transform="translate(256)">
+      <circle r="110" fill="#ca2ffe"></circle>
+      <text class="hl" y="-116">Elements</text>
+      <text x="50">Exit</text>
+    </g>
+    <text x="192">Update</text>
+  </g>
+</svg>

@@ -1,0 +1,109 @@
+<svg
+	xmlns="http://www.w3.org/2000/svg"
+	viewBox="0 0 1000 700 "
+	width="800"
+	height="700"
+>
+  <title>@kyunwang</title>
+
+	<g
+		transform="translate(200, 0)"
+	>
+	  <g id="eyes">
+			<circle
+				cx="100"
+				cy="300"
+				r="50"
+			/>
+		
+			<circle
+				cx="300"
+				cy="300"
+				r="50"
+			/>
+	   </g>
+
+		<g id="eyeBrows">
+			<rect
+				x="0"
+				y="150"
+				width="150"
+				height="20"
+			/>
+		
+			<rect
+				x="250"
+				y="150"
+				width="150"
+				height="20"
+				transform="rotate(2)"				
+			/>
+		</g>
+
+		<g
+			transform="translate(185, 430)"		
+		>
+			<polygon
+				points="0,30 30,30 20,40 10,40"
+				fill="#3a3a3a"
+			/>
+		</g>
+
+		<!--
+			M = start Z = end 
+			x,y
+		-->
+		<g
+			id="mustache"
+			transform="translate(125, 120)"
+			stroke="#3a3a3a"
+			stroke-width="3"
+			fill="none"
+		>
+			<path
+				d="
+					M 100,300
+					C 100,325 200,325 200,275
+					S 100,300 175,275
+				"
+			/>
+			<path
+				d="
+					M 50,300
+					C 50,325 -50,325 -50,275
+					S 50,300 -25,275
+				"
+			/>
+		</g>
+	</g>
+
+	<g
+		transform="translate(80, 0)"
+	>
+		<line
+			x1="60"
+			y1="0"
+			x2="40"
+			y2="20"
+			stroke-width="18"
+			stroke="red"
+			opacity="0.5"
+		/>
+		
+		<text
+			x="80"
+			y="20"
+			font-size="24"
+			font-family="open sans, helvetica, sans-serif"
+			fill="#3a3a3a"
+		>
+			This is Little Bob with his beautiful handlebars
+		</text>
+	</g>
+
+	<style>
+		text {
+		transform-origin: 50% 50%;
+	}
+	</style>
+</svg>
