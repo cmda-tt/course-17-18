@@ -46,4 +46,4 @@ Op de website zie je een scatter grafiek staan. Ik weet niet waar de data precie
 ## License
 GPL-3.0 © Titus Wormer
 
-![Preview Style](preview.png).
+![Preview Debug](preview.png).
