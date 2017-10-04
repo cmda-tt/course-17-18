@@ -2,6 +2,8 @@
 
 ## Beschrijving
 De opdracht houdt in dat je een dataset pakt en die visueel maakt met D3.js
+Voor slick animaties, open het in Safari of Firefox c:
+
 
 ## Structuur
 Ik vindt het belangrijk dat er een structuur is die zichzelf uitlegt.
