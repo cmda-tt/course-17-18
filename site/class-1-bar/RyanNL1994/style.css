@@ -1,0 +1,13 @@
+    .bar {
+        fill: black;
+        transition: all 1s;
+    }
+
+    .bar:hover {
+        fill: yellow;
+        transition: all 1s;
+    }
+
+    .axis--x path {
+        display: none;
+    }
