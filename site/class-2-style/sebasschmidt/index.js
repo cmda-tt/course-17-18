@@ -2,7 +2,15 @@ var
   width   = 500,
   height  = 500,
   radius  = Math.min(width, height) / 2,
-  colors  = ['hsl(45, 100%, 85%)', 'hsl(45, 100%, 77%)', 'hsl(45, 100%, 67%)',                'hsl(39, 100%, 50%)', 'hsl(30, 100%, 50%)', 'hsl(21, 100%, 50%)',               'hsl(9, 100%, 50%)'],
+  colors = [
+    'hsl(45, 99%, 59%)',
+    'hsl(96, 99%, 59%)',
+    'hsl(148, 99%, 59%)',
+    'hsl(199, 99%, 59%)',
+    'hsl(250, 99%, 59%)',
+    'hsl(302, 99%, 59%)',
+    'hsl(353, 99%, 59%)'
+  ],
   color   = d3.scaleOrdinal()
                 .range(colors),
   arc     = d3.arc()
@@ -59,6 +67,3 @@ function population(a) {
 
 
   d3.csv('index.csv', type, render);
-
-
-
