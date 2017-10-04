@@ -1,0 +1,29 @@
+html {
+    color: #000;
+    background-color: #FFF;;
+    max-width: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+svg {
+    width: 100vw;
+    height: 100vh;
+}
+
+.arc,text {
+    fill: #000;
+}
+
+text {
+    font-family: Roboto, Helvetica, sans-serif;
+    font-size: .5em;
+    text-anchor: middle;
+}
+
+path {
+    stroke: #FFF; 
+    stroke-width: 3;
+}
