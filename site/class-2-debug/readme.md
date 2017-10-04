@@ -8,15 +8,8 @@ of various iris flowers based on a [`bl.ock`][block] by
 > and uses an old version of d3: `d3@3`.  It’s meant to be an exercise in
 > debugging skills.
 
-[![][cover]][url]
-
-* [Javascript debug](Javascript)
-* [CSS debug](CSS)
-* [HTML debug](HTML)
-
-
-## Javascript debugger list:
-
+Javascript debugger list:
+=================
 
 **before:** all margin's where defined as margin.l, margin.r etc.
 ``` 
@@ -81,7 +74,8 @@ x.domain(d3.extent(data, sepalWidth)).nice();
 y.domain(d3.extent(data, sepalLength)).nice();
 ```
 
-## CSS debugger list
+CSS debugger list:
+=================
 
 **before:** a value of 100w or 100h doens't exist.
 ```
@@ -134,7 +128,8 @@ text {
 }
 ```
 
-## HTML debugger
+HTML debugger list:
+=================
 Bad HTML document, missing quotes and correct linking.
 ```
 <!doctype html>
@@ -177,11 +172,13 @@ A much better HTML document. fixed quotses and linking.
 </html>
 ```
 
-## Dataset 
+Dataset
+=================
 
 The set was in a different format so I changed it to the correct format.
 
-## Features
+Features
+=================
 
 *   [`d3.scaleLinear`](https://github.com/d3/d3-3.x-api-reference/blob/master/Quantitative-Scales.md#_linear)
 *   [`d3.scaleOrdinal`](https://github.com/d3/d3-3.x-api-reference/blob/master/Ordinal-Scales.md#ordinal)
