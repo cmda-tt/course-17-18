@@ -2,7 +2,7 @@
 
 Code debugging and refactoring for scatter plot. Plot made with [D3 library](https://d3js.org/) by [@mbostock](https://github.com/mbostock).
 
-![preview.png](url)
+![preview.png](https://github.com/tpulido/course-17-18/blob/debug/site/class-2-debug/tpulido/preview.png)
 
 ## Background
 
