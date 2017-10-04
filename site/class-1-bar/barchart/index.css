@@ -1,0 +1,11 @@
+.bar {
+  fill: steelblue;
+}
+
+.axis path {
+  display: none;
+}
+
+rect:hover {
+	color: white;
+}
