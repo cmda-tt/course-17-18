@@ -1,0 +1,46 @@
+<!doctype html>
+<meta charset=utf8>
+<title>@Senmetsu</title>
+<meta content=width=device-width,initial-scale=1 name=viewport>
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+<link rel="stylesheet" href="index.css">
+
+<script src="https://d3js.org/d3.v4.min.js"></script>
+
+<script>
+
+    document.body   = document.createElement("body");
+    var createH1    = document.createElement("h1")
+    createH1.textContent = "Dinners:";
+    document.body.appendChild(createH1);
+
+    d3.csv("./index.csv", function (error, data){
+        AllElements("csv", data);
+    });
+
+    d3.json("./index.json", function (error, data){
+        AllElements("json", data);
+    });
+
+    function AllElements(type, data){
+        var div         = document.createElement("div")
+        var createH2    = document.createElement("h2");
+
+        createH2.textContent = type;
+        document.body.appendChild(div);
+        div.appendChild(createH2)
+
+        // console.log('hi');
+        for (var i = 0; i < data.length; i++) {
+            var createH3    = document.createElement("h3");
+            var createP     = document.createElement("p");
+
+            createH3.textContent = data[i].dag;
+            createP.textContent = data[i].eten;
+
+            div.appendChild(createH3);
+            div.appendChild(createP);
+        }
+    }
+
+</script>

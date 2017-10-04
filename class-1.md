@@ -68,6 +68,8 @@ In this assignment you’ll learn the basics of SVG.
 
 *   [MDN’s SVG documentation](https://developer.mozilla.org/en-US/docs/Web/SVG)
 *   [Examples found in the slides](https://cmda-fe3.github.io/course-17-18/class-1/)
+*   [Celtic Knotwork](http://celtic-knotwork.online)
+*   [Chernoff Fish](http://meagher.co/chernoff-fish/)
 *   [Bugs?](readme.md#bugs)
 
 ### <a name="class-1-play-a"></a> Step A
@@ -227,7 +229,7 @@ the website][play-gallery].
     [`cmda-fe3/course-17-18`][repo], and in the top-right corner of the page
     click **Fork**
 3.  <a name="class-1-play-d-3"></a>
-    Navigate to the directory `site/class-1-play` on GitHub.
+    Navigate to the directory `site/class-1-play` on your fork.
     Follow the guide [Adding a file to a repository][upload] to upload the SVG
     file you made in [**step B**][c1pb].
     For the commit message, use `Add @username` (in my case `Add @wooorm`).
@@ -237,11 +239,9 @@ the website][play-gallery].
 4.  Your changes are now on your fork and not yet handed in.
     To suggest that your changes be applied to our website, create a
     [Pull Request][pr].
-    You will probably see a notification with a big green button,
-    **Compare & pull request**.
-    Otherwise, click **New pull request** on the left just above your files
-    pane and make sure that the **compare** select is on **play**.
-    Leave the comment empty and click **Create pull request**.
+    Make sure that **base fork** is set to our repository, **base branch** to
+    `master`, **head fork** to your repository, and **head branch** to `play`.
+    Leave the comment empty and click **Create pull request**
 
 ### Complete
 
@@ -350,10 +350,10 @@ Create a file, `index.html`, and copy-paste the following document into it.
 
 Open up your terminal and go to the directory created in [**step A**][c1la].
 On macOS, you can type `cd` and a space and drag the directory in
-question to your terminal and finally press enter, to go there.
+question to your terminal and finally press enter to go there.
 
-Then, start a [simple server][server] in your directory.  You can probably
-do that with:
+Then, start a [simple server][server] in your directory.  If you have [Python][]
+installed, you can probably do that with:
 
 ```sh
 python -m SimpleHTTPServer 8000
@@ -364,14 +364,30 @@ in your browser.
 
 > 💁 Not working?  Have you pressed enter?
 
-If you see an error saying that `python` isn’t found, see the aforementioned
-link on how to run a simple server on your system.
+If you see an error saying that `python` isn’t found, and you’ve used Ruby,
+Node, or something else before see [this page][server]  on how to start a
+simple server on your system.
+
+If this all sounds unfamiliar to you, install [Node.js][node] (which includes
+npm), and run:
+
+```sh
+npm install -g http-server
+```
+
+…in your terminal to install a simple server.  Then, run:
+
+```sh
+http-server -p 8000
+```
+
+…any time in the future you may need a server.
 
 When done open up your browser and navigate to `localhost:8000`.  This should
 show a message suggesting you to open your console.
 
-> 💁 Done with the server?  Enter <kbd>CTRL+C</kbd> in your terminal to shut it
-> down.
+> 💁 Done with the server?  Enter <kbd>⌃-C</kbd> (<kbd>Control-C</kbd>) in your
+> terminal to shut it down.
 
 ### <a name="class-1-load-f"></a> Step F
 
@@ -437,13 +453,16 @@ the website][load-gallery].
     Keep **Commit directly to the load branch** selected
 5.  Now, follow [**substep 3**][c1pd3] from [step D][c1pd] of the [Playing with
     SVG][play] assignment to upload the **files in your directory on your
-    computer** to the newly created directory on GitHub on the `load` branch.
+    computer** (no, not the directory, the files!) to the newly created
+    directory on GitHub on the `load` branch.
     In the commit message at the bottom, use `Add files for @username` (in my
     case `Add files for @wooorm`).
     Keep **Commit directly to the load branch** selected
 6.  <a name="class-1-load-i-6"></a>
-    Create a pull request and use `Add @username` (in my case `Add @wooorm`)
-    for the title
+    Create a [Pull Request][pr] and use `Add @username` (in my case
+    `Add @wooorm`) for the title.
+    Make sure that **base fork** is set to our repository, **base branch** to
+    `master`, **head fork** to your repository, and **head branch** to `load`
 
 ### Complete
 
@@ -471,17 +490,20 @@ modifying an existing bar chart.
 The project you’ll hand in will be similar to the one from [Loading data][load]
 but this time will render a bar chart in SVG.
 
-1.  Pick a **bar chart** from [d3’s example gallery][d3-examples] (tip: see the
+1.  Pick a **bar chart** (no, not another type of chart, a bar chart) from
+    [d3’s example gallery][d3-examples] (tip: see the
     [Basic charts][basic-charts] section)
 2.  Copy-paste the files over to your own computer and get the chart working
     (tip: you may need to start a server, see [step E][c1le] of [Loading
     data][load] on how to do that)
 3.  Add a `<title>` element, or replace the one already there, with your GitHub
     username: `@username` (in my case `@wooorm`)
-4.  Move the CSS and JS from the HTML into their own files
-5.  Add citations to the work your chart is based on in the HTML and JS
+4.  Move the CSS and JS from the HTML into their own files: `index.css` and
+    `index.js`
+5.  Add a citation in `index.html` and `index.js` to the original work
 6.  Try and change all values to get to understand the code (refreshing often
-    to see if things break, in which case <kbd>CMD+Z</kbd> is your best friend)
+    to see if things break, in which case <kbd>⌘-Z</kbd> (<kbd>Command-Z</kbd>)
+    is your best friend)
 7.  Make something pretty.  Add your own CSS, swap in new data, use different
     labels.  Make this graph your own
 8.  Translate the JavaScript to Dutch or English in inline comments.  Link to
@@ -602,3 +624,7 @@ your PR and include it in the [gallery][bar-gallery].
 [d3-examples]: https://github.com/d3/d3/wiki/Gallery
 
 [basic-charts]: https://github.com/d3/d3/wiki/Gallery#basic-charts
+
+[python]: https://www.python.org
+
+[node]: https://nodejs.org/en/

@@ -6,22 +6,48 @@
 <title>Clean starter code</title>
 <meta content=width=device-width,initial-scale=1 name=viewport>
 <style>
-html { font-family: Roboto, -apple-system, BlinkMacSystemFont, Helvetica Neue, Segoe UI, Oxygen, Ubuntu, Cantarell, Open Sans, sans-serif; }
-.line { fill: none; stroke-width: 1; }
-text { font-size: small; fill: black; }
+html {
+  font-family: Roboto, -apple-system, BlinkMacSystemFont, Helvetica Neue, Segoe UI, Oxygen, Ubuntu, Cantarell, Open Sans, sans-serif;
+  background-color: black;
+  color: white;
+  max-width: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+svg {
+  width: 100vw;
+  height: 100vh;
+}
+
+.line {
+  fill: none;
+  stroke-width: 3;
+}
+
+path, line {
+  stroke: currentcolor;
+}
+
+text {
+  font-size: small;
+  fill: currentcolor;
+}
 </style>
-<svg width=960 height=500></svg>
+<svg width=960 height=500 viewbox="0 0 960 500"></svg>
 <script src=https://d3js.org/d3.v4.min.js></script>
 <script>
 var svg = d3.select('svg');
-var margin = {top: 20, right: 100, bottom: 30, left: 50};
+var margin = {top: 20, right: 140, bottom: 30, left: 50};
 var width = svg.attr('width') - margin.left - margin.right;
 var height = svg.attr('height') - margin.top - margin.bottom;
 var g = svg.append('g').attr('transform', 'translate(' + margin.left + ',' + margin.top + ')');
 
 var x = d3.scaleTime().range([0, width]);
 var y = d3.scaleLinear().range([height, 0]);
-var z = d3.scaleOrdinal(d3.schemeCategory10);
+var z = d3.scaleOrdinal(['#feca2f', '#2ffe63', '#2f63fe', '#fe2fca']);
 
 var knmiCodes = {
   209: 'IJmond',
@@ -79,7 +105,7 @@ var knmiCodes = {
 // You may start editing stuff here (but don’t change the file-name).
 d3
   .text('index.txt')
-  .get(onload);
+  .get(onload)
 
 function onload(err, doc) {
   if (err) throw err;

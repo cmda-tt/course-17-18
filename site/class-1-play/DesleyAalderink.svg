@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 10 900 295" height="600" width="600">
+  <!--Update the title with your username-->
+  <title>@DesleyAalderink</title>
+
+  <!--Add stuff here-->
+
+  <circle cx="120" cy="120" r="100"/>
+  <rect x="150" y="220" width="180" height="180" />
+  <line x1="500" y1="500" x2="420" y2="20" stroke-width="2" stroke="black"/>
+  <polygon points="60,300 100,320 100,360 60,380 20,360 20,320"/>
+  <path d="M710 640 C 630 140, 180 140, 430 110" stroke="black" />
+  <text x="700" y="70" font-family="Helvetica" font-size="35"> SKRRRAAA</text>
+  <g stroke="red" fill="blue" opacity="0.5" stroke-width="5">
+   <circle cx="75" cy="25" r="15"/>
+   <circle cx="90" cy="25" r="15"/>
+   <circle cx="105" cy="25" r="15"/>
+   <circle cx="120" cy="25" r="15"/>
+ </g>
+
+  <!-- NOTHING TO SEE HERE... MOVE ALONG!!! -->
+
+</svg>

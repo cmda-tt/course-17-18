@@ -1,0 +1,29 @@
+html {
+  color: #000000;
+  background-color: #000000;
+  max-width: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+svg {
+  width: 100vw;
+  height: 100vh;
+}
+
+.arc, text {
+  fill: #000000;
+}
+
+text {
+  font-family: Helvetica, Open Sans, sans-serif;
+  font-size: 0.9em;
+  text-anchor: middle;
+}
+
+path {
+  stroke: #000000;
+  stroke-width: 3;
+}
