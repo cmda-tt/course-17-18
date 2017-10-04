@@ -1,0 +1,29 @@
+html{
+    color:darkslategray;
+    background-color:currentcolor;
+    max-width:100%
+}
+
+body{
+    margin:0
+}
+
+svg{
+    width:100vw;
+    height:100vh
+}
+
+.arc,text{
+    fill:currentcolor
+}
+
+text{
+    font-family: helvetica;
+    font-size:small;
+    text-anchor:middle
+}
+
+path{
+    stroke:currentcolor;
+    stroke-width:3
+}
