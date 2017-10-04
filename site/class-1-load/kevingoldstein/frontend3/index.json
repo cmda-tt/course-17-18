@@ -1,0 +1,30 @@
+[
+    {
+        "day": "Maandag",
+        "dinner": "Tomatensoep"
+    },
+    {
+        "day": "Dinsdag",
+        "dinner": "Saté"
+    },
+    {
+        "day": "Woensdag",
+        "dinner": "Pizza"
+    },
+    {
+        "day": "Donderdag",
+        "dinner": "Biefstuk"
+    },
+    {
+        "day": "Vrijdag",
+        "dinner": "Shoarma"
+    },
+    {
+        "day": "Zaterdag",
+        "dinner": "Varkenshaas"
+    },
+    {
+        "day": "Zondag",
+        "dinner": "Kip"
+    }
+]
