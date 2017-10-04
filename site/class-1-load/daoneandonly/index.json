@@ -1,0 +1,17 @@
+{
+    "today":{
+        "day": "Today",
+        "date": "2017-09-12",
+        "dinner": "Zelf gemaakte Cheeseburgers met friet"
+    },
+    "yesterday": {
+        "day": "Yesterday",
+        "date": "2017-09-11",
+        "dinner": "Gewokte Chinese groenten in Hoisin saus met rundvlees"
+    },
+    "daybeforeyesterday": {
+        "day": "Day Before Yesterday",
+        "date": "2017-09-10",
+        "dinner": "Een schaamteloos kopje YumYum noodles"
+    }
+}
