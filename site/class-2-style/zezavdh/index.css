@@ -1,0 +1,22 @@
+*{
+	font-family:"Avenir";
+	text-align: center;
+	background-color: #ffffcc;
+}
+
+h1{
+	color:#00cc66;
+	text-align: center;
+	font-size:50px;
+}
+
+summary{
+	color:#fff;
+	font-size:30px;
+	background:#00cc66;
+}
+
+details{
+	color:#ff80bf;
+	font-size:50px;
+}
