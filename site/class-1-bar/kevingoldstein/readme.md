@@ -2,7 +2,7 @@
 
 _This Chart shows how many Hours I spend on my daily Activities._
 
-![preview](preview.png).
+![preview](preview.png)
 
 ##  Background
 I made the Chart with csv database, d3.js framework, HTML and CSS.
