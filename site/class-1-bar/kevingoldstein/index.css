@@ -1,0 +1,35 @@
+html {
+    background-color: aliceblue;
+    color: black;
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    height: 100%;
+}
+
+svg {
+    display: block;
+    height: 100%;
+    margin: 0 auto;
+}
+
+h1 {
+    color: salmon;
+    text-align: center;
+    font-family: helvetica;
+}
+
+.bar {
+    fill: cadetblue;
+}
+
+.bar:hover {
+    fill: salmon;
+}
+
+text {
+    font-family: Roboto, -apple-system, BlinkMacSystemFont, Helvetica Neue, Segoe UI, Oxygen, Ubuntu, Cantarell, Open Sans, sans-serif;
+    fill: currentcolor;
+}
