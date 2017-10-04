@@ -7,10 +7,6 @@ of various iris flowers based on a [`bl.ock`][block] by
 [![][cover]][url]
 
 
-
-
-
-
 ## Background
 
 In this assignment we had to find bugs in the files and debug them. We also had to refactor the files from d3.v3 to d3.v4.
@@ -21,10 +17,16 @@ In this assignment we had to find bugs in the files and debug them. We also had 
 Change the D3 from v3 to v4.
 
 ```
+<script src="https://d3js.org/d3.v3.min.js"></script>
+
+```
+```
 <script src="https://d3js.org/d3.v4.min.js"></script>
 
 ```
 
+
+Changed the margin l,r,t,b
 
 From this
 
@@ -44,10 +46,16 @@ var width = 960 - margin.left - margin.right;
 var height = 500 - margin.top - margin.bottom;
 ```
 
+And changed where ever this was necessary
+
+There was something wrong with function onload so I literally copy pasted the code in in google and this what I found:
+
+![alt text](image.png "Title")
+
 
 ```js
 function onload(data) {
-  x.domain(d3.extend(data, sepalWidth)).nice();
+  x.domain(d3.extent(data, sepalWidth)).nice();
 ```
 
 
