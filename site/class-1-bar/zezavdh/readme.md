@@ -13,4 +13,4 @@ Ik heb mijn barchart van Mike Bostock: https://bl.ocks.org/mbostock/3885304 en h
 ## License
 Released under the GNU General Public License, version 3. 
 
-![barchart](preview.png)
+![barchart](barchart/preview.png)
