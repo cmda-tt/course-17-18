@@ -2,7 +2,7 @@
 
 Code reformatting for donut chart. Chart is made with the [D3 library](https://d3js.org/) by [@mbostock](https://github.com/mbostock).
 
-![preview image][https://github.com/tpulido/course-17-18/blob/style/site/class-2-style/tpulido/preview.png]
+![preview image](https://github.com/tpulido/course-17-18/blob/style/site/class-2-style/tpulido/preview.png)
 
 ## Background
 
