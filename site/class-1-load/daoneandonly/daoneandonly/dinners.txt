@@ -1,7 +1,0 @@
-Today,Paneng Nua
-Yesterday,Goat Cheese Salad
-Day Before Yesterday,Nua Pad Salad
-
-2017-09-12 Paneng Nua
-2017-09-11 Goat Cheese Salad
-2017-09-10 Nua Pad Salad
