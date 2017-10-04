@@ -1,7 +1,7 @@
 #Debug
 Bij deze opdracht was het de bedoeling om bugs te vinden in de code en deze dan te veranderen
 
-![picture](preview.png)
+![picture](preview.PNG)
 
 ## The fix
 ### HTML:
@@ -37,7 +37,7 @@ Bij deze opdracht was het de bedoeling om bugs te vinden in de code en deze dan 
 
 ## License
 
-GPL-3.0 © Kevin Goldstein
+GPL-3.0 © Chanakarn Niyornram
 
 [block]: https://bl.ocks.org/mbostock/3887118
 
