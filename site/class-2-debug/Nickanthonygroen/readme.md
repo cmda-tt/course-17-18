@@ -26,6 +26,12 @@ Change the D3 from v3 to v4.
 ```
 
 
+#### Data
+
+Changed tsv into csv as the data was formatted in a .csv file.
+
+#### Margin
+
 Changed the margin l,r,t,b
 
 From this
@@ -48,32 +54,37 @@ var height = 500 - margin.top - margin.bottom;
 
 And changed where ever this was necessary
 
+#### onload
+
 There was something wrong with function onload so I literally copy pasted the code in in google and this what I found:
 
 ![alt text](image.png "Title")
 
 
-```js
-function onload(data) {
-  x.domain(d3.extent(data, sepalWidth)).nice();
-```
-
+So I changed the d into a t.
 
 ```js
 function onload(data) {
   x.domain(d3.extend(data, sepalWidth)).nice();
 ```
 
+```js
+function onload(data) {
+  x.domain(d3.extent(data, sepalWidth)).nice();
+```
 
-A number of times there were functions weren't added to the variables so i hdit this several times.
+#### append
+
+A number of times there were functions weren't added to the variables so i hit this several times.
 
 ```js
-svg
-  .append('g')
+  svg.append('g')
   .attr('class', 'x axis')
 ```
 
+
 to
+
 ```js
 svg.append('g')
   .attr('class', 'x axis')
