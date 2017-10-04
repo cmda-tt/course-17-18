@@ -1,6 +1,6 @@
 # Explanation Debug
 
-For this assignment I copied the files again. First of all i check my console for errors. 
+For this assignment I copied the files again. First of all i checked my console for errors. 
 
 The first error i fixed was at the line:
 ```js
@@ -8,7 +8,7 @@ var width = 960 - margin.l - margin.r;
 var height = 500 - margin.t - margin.b;
 ```
 
-i changed to:
+i changed it to:
 ```js
 var width = 960 - margin.left - margin.right;
 var height = 500 - margin.top - margin.bottom;
