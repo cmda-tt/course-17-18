@@ -23,3 +23,7 @@ rect {
   stroke: currentcolor;
   stroke-width: 2;
 }
+
+text {
+   fill: black;
+}
