@@ -63,7 +63,7 @@ Nieuwe code:
 d3.csv('index.csv', row, onload); // data was gekoppeld aan tsv en niet csv
 ```
 
-Oude code:
+Code met fout:
 ```javascript
 /* Handle data. */
 function onload(data) {
