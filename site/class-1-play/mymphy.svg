@@ -1,0 +1,53 @@
+<svg width="800" height="700" viewBox="0 0 400 600" xmlns="http://www.w3.org/2000/svg">
+  <!--Update the title with your username  viewBox="-10 -10 100 100"-->
+  <title>@mymphy</title>
+  <!--Add stuff here-->
+  
+  <!--Head-->
+  <circle cx="270" cy="180" r="80" fill="#65737e" />
+  <g>
+    <ellipse cx="245" cy="150" rx="15" ry="30"  stroke-width="4" stroke="#7fbf7f" fill="#e5f2e5" />
+    <ellipse cx="295" cy="150" rx="15" ry="30"  stroke-width="4" stroke="#7fbf7f" fill="#e5f2e5" />
+    <path d="M225,200 a1,1 0 0,0 80,0" fill="#7fbf7f" />
+  </g>       
+  <!--Neck-->
+  <g fill="#65737e">
+    <rect x="240" y="265" width="60" height="10"  />
+    <rect x="240" y="280" width="60" height="10"  />
+    <rect x="240" y="295" width="60" height="10"  />  
+  </g>
+  <!--Body-->  
+  <rect x="175" y="318" width="200" height="100" rx="20" stroke="#65737e" stroke-width="15"  fill="#e5f2e5" />
+  <polygon
+    points="235,337.5  237.9,346.1 246.9,346.1  239.7,351.5
+      242.3,360.1  235,355  227.7,360.1  230.3,351.5
+      223.1,346.1  232.1,346.1"
+      fill="Yellow" stroke-width="2" stroke="#7fbf7f"/>
+  <text x="230" y="390" font-family="sans-serif" font-size="20px" fill="#7fbf7f">Mr. Robot</text>
+  <!--Arms-->
+  <line x1="370" y1="350" x2="450" y2="250" stroke-width="5" stroke="#65737e" />
+  <path d="M65,239 a1,1 0 0,0 50,-25" stroke-width="5" stroke="#65737e" fill="transparent" />
+  <line x1="180" y1="350" x2="100" y2="250" stroke-width="5" stroke="#65737e" />
+  <path d="M435,210 a1,1 0 0,0 50,24" stroke-width="5" stroke="#65737e" fill="transparent" />
+  <!--Legs-->
+  <g fill="#65737e">
+    <rect x="180" y="430" width="60" height="10" />
+    <rect x="180" y="445" width="60" height="10" />
+    <rect x="180" y="460" width="60" height="10" />  
+  </g> 
+  <g fill="#65737e">
+    <rect x="310" y="430" width="60" height="10" />
+    <rect x="310" y="445" width="60" height="10" />
+    <rect x="310" y="460" width="60" height="10" />     
+  </g>
+  <!--Feets-->
+  <g stroke="#65737e" fill="#e5f2e5" stroke-width="5"  opacity="0.55">
+    <circle cx="215" cy="510" r="30" />
+    <circle cx="205" cy="510" r="30" />
+  </g>
+  <g stroke="#65737e" fill="#e5f2e5" stroke-width="5"  opacity="0.55">
+    <circle cx="345" cy="510" r="30" />
+    <circle cx="335" cy="510" r="30" />
+  </g>
+
+</svg>

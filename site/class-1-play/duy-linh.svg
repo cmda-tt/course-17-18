@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0, 0, 500, 500" width="500" height="500">
+  <!--Update the title with your username-->
+  <title>@duy-linh</title>
+    
+<rect x="0" y="0" width="250" height="500" fill="antiquewhite"/>
+    
+<circle cx="400" cy="450" r="100" fill="aqua"/>
+
+<rect x="400" y="200" width="200" height="200"/>
+
+<line x1="200" y1="350" x2="400" y2="400" stroke-width="100" stroke="darkorange" opacity="0.8"/>    
+
+<g stroke="cadetblue" stroke-width="3">    
+    
+<path d="M10 50 H 90 V 90 H 100 L 10 10" fill="aquamarine"/>
+
+<polygon points="200,100 50,100 125,300" fill="aquamarine"/>    
+    
+</g>
+    
+ <text x="10" y="500" font-size="100" font-family="Slim Joe"> Skurr </text>
+
+</svg>

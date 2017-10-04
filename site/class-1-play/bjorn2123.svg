@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="200" viewBox="100 0 100 500">
+  <!--Update the title with your username-->
+  <title>@Bjorn2123</title>
+
+    <circle
+            cx = "120"
+            cy = "120"
+            r = "100"
+            font-size="12"
+            />
+
+    <rect
+          x = "250"
+          y = "20"
+          height="200"
+          width="400"
+          stroke="red"
+          stroke-width="20"
+          font-size="12"
+    />
+
+    <line
+          x1 = "140"
+          y1="300"
+          x2="180"
+          y2="500"
+          stroke="aqua"
+          stroke-width="13"
+          font-size="12pt"
+          />
+
+
+
+   <g
+      stroke="antiquewhite"
+      stroke-width="20"
+      font-size="12pt"
+      >
+       <polygon points="250,60 300,400 90,300" font-size="12pt"/>
+  <path d="M150 0 L75 200 L225 200 Z" font-size="12pt" />
+ </g>
+
+     <text x="350" y="150" fill="blue" font-size="12pt" >I love SVG!</text>
+
+    <rect x="20" y="10" width="10" height="5"
+          style="stroke: #9c9c9c;"
+          font-family="inherit"
+          font-size="12pt"
+          opacity="0.5"
+          fill="blue"
+          />
+
+
+</svg>

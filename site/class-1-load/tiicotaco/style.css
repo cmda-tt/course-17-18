@@ -1,0 +1,35 @@
+body{
+	display: flex;
+	justify-content: center;
+	flex-direction:column;
+}
+body > h1{
+	width: 100%;
+	text-align:center;	
+	color:black;
+	text-transform: uppercase;
+	font-family:'helvetica';
+}
+body > div{
+	background-color:white;
+	padding:2em 0;
+	border-radius:50px;
+	border:0.5px solid black;
+	width:80%;
+	align-self:center;
+	display:flex;
+	flex-direction:row;
+	justify-content: center;
+}
+body > div > div{
+width:300px;
+color:black;
+	font-family:'helvetica';
+text-align:center;
+}
+#CSV{
+	
+}
+#JSON{
+
+}

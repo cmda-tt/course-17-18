@@ -1,0 +1,35 @@
+body {
+  font-family: sans-serif;
+}
+
+h1 {
+  text-align: center;
+  margin: 3rem 0;
+}
+
+svg {
+  display: block;
+  margin: auto;
+}
+
+.bar {
+  fill: #ED7957;
+}
+
+.bar:hover {
+  fill: brown;
+}
+
+.axis--x path {
+  display: none;
+}
+
+g.tick line {
+  display: none;
+}
+
+g.tick text {
+  font-size: 1.2em;
+  font-weight: 800;
+  margin-top: 1.5em;
+}

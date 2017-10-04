@@ -6,15 +6,15 @@ An example of how to clean data.
 
 ## Features
 
+*   [`d3-dsv`](https://github.com/d3/d3-dsv#api-reference)
+    — `d3.csvParseRows`
+    — Parse and format delimiter-separated values
 *   [`d3-request`](https://github.com/d3/d3-request)
     — `d3.text`
     — Convenient XHRs
 *   [`d3-time-format`](https://github.com/d3/d3-time-format#api-reference)
     — `d3.timeParse`
     — Parse and format times
-*   [`d3-dsv`](https://github.com/d3/d3-dsv#api-reference)
-    — `d3.csvParseRows`
-    — Parse and format delimiter-separated values
 
 ## License
 

@@ -80,28 +80,28 @@ In practice you’ll learn to:
 
 1.  <a name="subgoal-1"></a> Understand SVG and canvas
     ([**class 1**][c1])
-2.  <a name="subgoal-2"></a> Parse data formats
+2.  <a name="subgoal-2"></a> Load external data
     ([**class 1**][c1] and [**class 3**][c3])
 3.  <a name="subgoal-3"></a> Write documentation
-    ([**class 2**][c2] and [**class 4**][c4])
+    ([**class 2**][c2])
 4.  <a name="subgoal-4"></a> Read documentation
-    ([**class 2**][c2] and [**class 4**][c4])
+    ([**class 2**][c2])
 5.  <a name="subgoal-5"></a> Debug code
     ([**class 2**][c2])
 6.  <a name="subgoal-6"></a> Refactor code
     ([**class 2**][c2])
 7.  <a name="subgoal-7"></a> Use scales (domain, range, and axis)
-    ([**class 2**][c2] and [**class 4**][c4])
-8.  <a name="subgoal-8"></a> Load external data
+    ([**class 2**][c2])
+8.  <a name="subgoal-8"></a> Transform and clean data
+    ([**class 3**][c3])
+9.  <a name="subgoal-9"></a> Manipulate elements
     ([**class 3**][c3] and [**class 4**][c4])
-9.  <a name="subgoal-9"></a> Transform and clean data
-    ([**class 3**][c3] and [**class 4**][c4])
-10. <a name="subgoal-10"></a> Understand the d3 loop
+10. <a name="subgoal-10"></a> Use data joins
     ([**class 3**][c3] and [**class 4**][c4])
 11. <a name="subgoal-11"></a> Create interactive visualisations
-    ([**class 3**][c3] and [**class 5**][c5])
+    ([**class 4**][c4] and [**class 5**][c5])
 12. <a name="subgoal-12"></a> Create multiple visualisations on the same page
-    ([**class 6**][c6])
+    ([**class 5**][c5])
 
 ## Grade
 
@@ -122,17 +122,16 @@ date, time, and place.
 | ---------------------- | :-------: | :-------: | :-------------: |
 | [Class 1][c1]          |   25-09   |   26-09   |      25-09      |
 | [Class 2][c2]          |   02-10   |   04-10   |      02-10      |
-| [**Assessment 1**][a1] |   04-10※  |   05-10※  |      03-10※     |
+| [**Assessment 1**][a1] |   05-10※  |   06-10※  |      04-10※     |
 | [Class 3][c3]          |   05-10   |   06-10   |      04-10      |
 | [Class 4][c4]          |   09-10   |   11-10   |      09-10      |
-| [**Assessment 2**][a2] |   11-10※  |   12-10※  |      10-10※     |
+| [**Assessment 2**][a2] |   12-10※  |   13-10※  |      11-10※     |
 | [Class 5][c5]          |   12-10   |   13-10   |      11-10      |
 | [Class 6][c6]          |   16-10   |   17-10   |      16-10      |
 | [**Assessment 3**][a3] |   19-10   |   20-10   | 18-10 and 20-10 |
 | **Resit**              |   01-02   |   31-01   |      02-02      |
 
-> ※ Assessments 1 and 2 are to be handed in 24 hours before the start of the
-> next class.
+> ※ Assessments 1 and 2 are to be handed in before the start of the next class.
 
 ## Effort
 
