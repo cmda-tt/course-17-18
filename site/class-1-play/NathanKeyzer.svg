@@ -7,15 +7,14 @@
 
 <rect x="250" y="60" width="120" height="120" fill="orange"/>
 
-<line x1="360" y1="360" x2="250" y2="250" style="stroke:rgb(255,0,0); stroke-width:2"/>
+<line x1="360" y1="360" x2="250" y2="250" stroke="rgb(255,0,0)" stroke-width="2"/>
 
 <polygon points="60,20 100,40 100,80 60,100 20,80 20,40" width="120" height="120" fill="yellow" fill-opacity="0.75" />
 
-<g stroke="blue" stroke-width="5">
-<path d="M350 10 L450 100 L250 100 Z" fill-opacity="0.75"/>
+<g stroke="black" stroke-width="2">
+<path d="M350 10 L450 100 L250 100 Z" opacity="0.75"/>
+
+<text x="200" y="15" fill="yellow" font-family="arial" font-size="16">CMD!!</text>
 </g>
 
-<g stroke="black"  stroke-width="1">
-<text x="200" y="15" fill="yellow" style="font-family:arial;">CMD!!</text>
-</g>
 </svg>
