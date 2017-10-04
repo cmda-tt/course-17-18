@@ -22,7 +22,7 @@ var width = 500,
 
 d3.csv('index.csv', type, render)
 
-function chartCreation(b, c) {
+function render(b, c) {
     if (b) throw b;
     var a = svg.selectAll('.arc')
     .data(pie(c))
