@@ -31,7 +31,7 @@ I Fixed the following bugs:
 * Changed invalid values as "margin.t" to `margin.top`, I did the same with right, btom and left.
 * Updated the d3js.V3 code to d3js.V4
 
-You can find the previous code on [](https://cmda-fe3.github.io/course-17-18/class-2/debug).
+You can find the previous code at [class-2/debug](https://cmda-fe3.github.io/course-17-18/class-2/debug).
 
 ## Data
 
