@@ -122,17 +122,16 @@ date, time, and place.
 | ---------------------- | :-------: | :-------: | :-------------: |
 | [Class 1][c1]          |   25-09   |   26-09   |      25-09      |
 | [Class 2][c2]          |   02-10   |   04-10   |      02-10      |
-| [**Assessment 1**][a1] |   04-10※  |   05-10※  |      03-10※     |
+| [**Assessment 1**][a1] |   05-10※  |   06-10※  |      04-10※     |
 | [Class 3][c3]          |   05-10   |   06-10   |      04-10      |
 | [Class 4][c4]          |   09-10   |   11-10   |      09-10      |
-| [**Assessment 2**][a2] |   11-10※  |   12-10※  |      10-10※     |
+| [**Assessment 2**][a2] |   12-10※  |   13-10※  |      11-10※     |
 | [Class 5][c5]          |   12-10   |   13-10   |      11-10      |
 | [Class 6][c6]          |   16-10   |   17-10   |      16-10      |
 | [**Assessment 3**][a3] |   19-10   |   20-10   | 18-10 and 20-10 |
 | **Resit**              |   01-02   |   31-01   |      02-02      |
 
-> ※ Assessments 1 and 2 are to be handed in 24 hours before the start of the
-> next class.
+> ※ Assessments 1 and 2 are to be handed in before the start of the next class.
 
 ## Effort
 
