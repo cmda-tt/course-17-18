@@ -36,4 +36,4 @@ Code van https://github.com/zezavdh/course-17-18/tree/bar/site/class-2/debug
 ## License
 GPL-3.0 © Titus Wormer
 
-![Debug grafiek](preview.png
+![Debug grafiek](preview.png)
