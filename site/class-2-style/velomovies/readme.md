@@ -20,7 +20,7 @@ of various iris flowers based on a [`bl.ock`][block] by
 
 ## License
 
-GPL-3.0 © Titus Wormer
+GPL-3.0 © Victor Zumpolle
 
 [block]: https://bl.ocks.org/mbostock/3887118
 
