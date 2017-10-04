@@ -1,10 +1,16 @@
-# Donut chart
+# My own style
 
-A simple responsive donut chart visualising the populations of various age
-groups with pretty colours based on a [`bl.ock`][block]
-by [**@mbostock**][block-author] (GPL-3.0).
+In this example I learned to develop my own style in writing code. The chart used is based on a [`bl.ock`](https://bl.ocks.org/mbostock/3887193) by [**@mbostock**](https://github.com/mbostock) (GPL-3.0).
 
-[![][cover]][url]
+![afbeelding](preview.png)
+
+## Background
+
+All changes I made in the code where to get it more to my liking. I made the code readable. In the `javascript` I moved all variables to the top and added a `Enter` on a few lines. I also changed all `''` to `""`.
+
+In the HTML I added a `head` and `body` and added `""` to all links.
+
+> For the css I only used beautify to make it readable.
 
 ## Features
 
@@ -23,12 +29,5 @@ by [**@mbostock**][block-author] (GPL-3.0).
 
 ## License
 
-GPL-3.0 © Titus Wormer
+GPL-3.0 © Victor Zumpolle
 
-[block]: https://bl.ocks.org/mbostock/3887193
-
-[block-author]: https://github.com/mbostock
-
-[cover]: preview.png
-
-[url]: https://cmda-fe3.github.io/course-17-18/class-2/style
