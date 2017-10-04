@@ -1,6 +1,6 @@
 # Debugging
 
-Bij deze huiswerk opdracht heb ik een gebroken scatter plot gerepareerd.
+Bij deze huiswerk opdracht heb ik een gebroken scatter plot gefixt.
 ___
 
 ## Fouten in de code
