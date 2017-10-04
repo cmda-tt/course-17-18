@@ -1,0 +1,15 @@
+h1 {
+    font-family: "Open Sans";
+}
+
+.bar {
+    fill: DarkSlateGray;
+}
+
+.bar:hover {
+    fill: CornflowerBlue;
+}
+
+.axis--x path {
+    display: none;
+}

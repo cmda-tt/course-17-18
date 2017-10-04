@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg"  width="1000" height="1000" viewBox="0 0 1000 1000">
+  <!--Update the title with your username-->
+  <title>@tiicotaco</title>
+    <circle
+  cx="320"
+  cy="120"
+  r="100"
+  fill="#F2BF49"
+  />
+
+  <rect
+  x="270"
+  y="70"
+  width="100"
+  height="100"
+    fill="#3268A6"
+    opacity=".40"
+    rx="10"
+/>
+<line
+  x1="320"
+  y1="130"
+  x2="320"
+  y2="0"
+  stroke-width="10"
+  stroke="#3268A6"
+/>
+  <g stroke="#3268A6" fill="white" stroke-width="5">
+
+
+<polygon
+  points="120,63.3 95,106.7 45,106.7 20,63.3 45,20 95,20"
+    fill="#F2BF49"
+
+/>
+
+<path d="M150 25 L75 200 L225 200 Z"   fill="#F2BF49"
+ />
+ </g>
+  <text x="0" y="15" fill="#3268A6" font-family="helvetica" font-size="15px">My username is @tiicotaco</text>
+
+  <!-- NOTHING TO SEE HERE... MOVE ALONG!!! -->
+</svg>

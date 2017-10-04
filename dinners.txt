@@ -1,0 +1,6 @@
+day, dinner
+2017-09-25, pasta carbonara
+2017-09-24, broccoli soep
+2017-09-23, kebab
+2017-09-22, pizza
+2017-09-21, spaghetti

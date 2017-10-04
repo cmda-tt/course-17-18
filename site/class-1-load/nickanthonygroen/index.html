@@ -1,0 +1,53 @@
+<!doctype html>
+<meta charset=utf8>
+<title>@Nickanthonygroen</title>
+<meta content=width=device-width,initial-scale=1 name=viewport>
+
+<script src="https://d3js.org/d3.v4.min.js"></script>
+
+<h1>Dinners</h1>
+
+<table id="showcsv">
+<h2>Mijn CSV dieet, its high carb bruv.</h2>
+</table>
+
+
+<table id="showjson">
+<h2>Mijn JSON dieet, its high carb bruv.</h2>
+</table>
+
+<script>
+var htmlcsv = '';
+var htmljson = '';
+var doccsv = document.getElementById('showcsv');
+var docjson = document.getElementById('showjson');
+
+
+d3.csv('./index.csv', function(error, date) {
+  if (error) throw error;
+  // console.log(date);
+  date.forEach(function(load) {
+    // console.log(load.date, load.dinner);
+      htmlcsv += '<tr>';
+      htmlcsv += '<td><h3>'+load.date+'</h3></td>';
+      htmlcsv += '<td><p>'+load.dinner+'</p></td>';
+      htmlcsv += '</tr>';
+      doccsv.innerHTML = htmlcsv;
+  })
+});
+
+d3.json('./index.json', function(error, date) {
+  if (error) throw error;
+  // console.log(date);
+  date.forEach(function(load) {
+    // console.log(load.date, load.dinner);
+    htmljson += '<tr>';
+    htmljson += '<td><h3>'+load.date+'</h3></td>';
+    htmljson += '<td><p>'+load.dinner+'</p></td>';
+    htmljson += '</tr>';
+    docjson.innerHTML = htmljson;
+  })
+});
+
+
+</script>

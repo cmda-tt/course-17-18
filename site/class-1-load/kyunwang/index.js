@@ -17,11 +17,11 @@ function makeRow(data, listId) {
 }
 
 d3.json('./index.json', (err, data) => {
-	console.log(data);
+	// console.log(data);
 	makeRow(data, 'jsonList');
 });
 
 d3.csv('./index.csv', (err, data) => {
-	console.log(data);
+	// console.log(data);
 	makeRow(data, 'csvList');
 })

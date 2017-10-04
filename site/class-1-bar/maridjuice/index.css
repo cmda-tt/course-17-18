@@ -1,0 +1,15 @@
+* {
+    color: #1F271B;
+}
+
+.bar {
+    fill: #0B4F6C;
+}
+
+.bar:hover {
+    fill: #CBB9A8;
+}
+
+.axis--x path {
+    display: none;
+}

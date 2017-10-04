@@ -22,7 +22,12 @@
   </div>
 </header>
 <main>
-<% examples.forEach(function (example) { %>  <div class=figure-container>
+<%
+if (examples.length === 0) {
+%>  <p>This gallery is currently empty.</p><%
+} else {
+  examples.forEach(function (example) {
+%>  <div class=figure-container>
     <a class=figure-link href="<%= example.url %>">
       <figure>
         <% if (example.type === 'iframe') {
@@ -43,7 +48,9 @@
       </svg>
     </a>
   </div>
-<% }) %></main>
+<%
+  })
+}%></main>
 <footer>
   <p>
     view course on

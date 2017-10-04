@@ -8,7 +8,7 @@
 
 
 <script>
- 
+
   d3.csv('./index.csv', function (err, questions) {
   if (err) throw err;
   questions.forEach(function (q) {
@@ -22,8 +22,8 @@
     details.appendChild(paragraph).textContent = q.dinner;
      details.appendChild(type).textContent = ('csv');
     document.body.appendChild(details);
-  
-console.log(q)
+
+// console.log(q)
 
   })
 })
@@ -42,12 +42,12 @@ console.log(q)
     details.appendChild(type).textContent = ('json');
     document.body.appendChild(details);
 
-  
-console.log(q)
+
+// console.log(q)
 
   })
 })
 
-  
+
 
 </script>
