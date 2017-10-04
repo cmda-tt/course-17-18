@@ -1,8 +1,8 @@
 # Bar Chart Oi Niyornram
 This is a bar chart created with the d3.js framework. This bar chart is created for the assignment of BAR from de Hogeschool van Amsterdam Front-end 3.
 
-## Bckground
-This page is created with html, javascript and css. De code for the javascript is copied from de [d3 basic bar chart](https://bl.ocks.org/mbostock/3885304), this is done because to see if the code worked and to get a more understanding.
+## Background
+This page is created with html, javascript and css. De code for the javascript is copied from de [d3 basic bar chart](https://bl.ocks.org/mbostock/3885304), this is done because to see if the code work and to get a more understanding.
 
 ## Data
 The X-as from the graph show the A-Z alphabet.
