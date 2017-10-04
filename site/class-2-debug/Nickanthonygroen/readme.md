@@ -25,6 +25,28 @@ Change the D3 from v3 to v4.
 
 ```
 
+Refactor functions
+
+```js
+var x = d3.scale.linear().range([0, width]);
+var y = d3.scale.linear().range([height, 0]);
+var color = d3.scale.ordinal().range(['#fe2f2f', '#feca2f', '#96fe2f']);
+var xAxis = d3.svg.axis().scale(x).orient('bottom');
+var yAxis = d3.svg.axis().scale(y).orient('left');
+```
+
+
+```js
+var x = d3.scaleLinear().range([0, width]);
+var y = d3.scaleLinear().range([height, 0]);
+var color = d3.scaleOrdinal()
+.range(['#fe2f2f',
+        '#feca2f',
+        '#96fe2f']);
+
+var xAxis = d3.axisBottom(x);
+var yAxis = d3.axisLeft(y);;
+```
 
 ### JS Bugs
 
@@ -88,7 +110,8 @@ A number of times there were functions weren't added to the variables so i hit t
 to
 
 ```js
-svg.append('g')
+svg
+.append('g')
   .attr('class', 'x axis')
 ```
 
