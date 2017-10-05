@@ -13,7 +13,7 @@ svg {
 }
 
 .axis path {
-  fill: no;
+  fill: none;
 }
 
 .axis path,
