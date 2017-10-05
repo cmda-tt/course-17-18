@@ -13,8 +13,8 @@ The code contained a couple of bugs and errors, which I had to fix. The followin
 Within the HTML the script src linking to the current D3 version had to be changed from v3 to v4.
 
 **From:**
-```<script src="https://d3js.org/d3.v3.min.js"></script>
-```
+`<script src="https://d3js.org/d3.v3.min.js"></script>`
+
 
 **To:**
 ```<script src="https://d3js.org/d3.v4.min.js"></script>
