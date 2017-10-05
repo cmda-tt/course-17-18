@@ -21,6 +21,7 @@ I have made changes to the html, css and JavaScript files. The changes are liste
 * Added `<head>` element.
 * Added `<body>` element.
 * Changed the href value of the stylesheet link from `../index.css` to `index.css`.
+* Changed the rel value of the `<script>`element from `../index.js` to `index.js`.
 * Added `viewBox="0 0 2000 2000"` attribute to `<svg>` element.
 * Changed loaded d3 link from v3 to v4.
 
