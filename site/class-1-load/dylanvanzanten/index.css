@@ -1,0 +1,8 @@
+html { background: #2C3E50; color: #FFF; }
+body { font-size: 16px; text-align: center; }
+main { margin-bottom: 10em; }
+main h1 { text-transform: uppercase; font-weight: 100; }
+h1, h2, h3, h4 { font-family: 'Roboto', sans-serif; }
+h1 { font-size: 2.5em; text-transform: uppercase; font-weight: 600; }
+h3 { font-size: 1.5em; font-weight: 400; }
+h4 { font-size: 1.25em; font-weight: 200; }
