@@ -1,0 +1,35 @@
+h1 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 1.5em;
+    color: #3F3A61;
+}
+
+.bar {
+    fill: #EFC61D;
+}
+
+.bar:hover {
+  fill: #DC921B;
+}
+
+.axis--x path {
+  display: none;
+}
+
+.axis--y path {
+  display: none;
+}
+
+g line {
+    display: none;
+}
+
+g {
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.9em;
+}
+
+text {
+    fill: #3F3A61;
+}
