@@ -49,13 +49,15 @@ The CSS contained two syntax errors:
 First of all, I fixed a syntax error surrounding the margins.
 
 **From:**
-```var margin = {top: 48, right: 48, bottom: 48, left: 48};
+```
+var margin = {top: 48, right: 48, bottom: 48, left: 48};
 var width = 960 - margin.l - margin.r;
 var height = 500 - margin.t - margin.b;
 ```
 
 **To:**
-```var margin = {
+```
+var margin = {
     top: 48,
     right: 48,
     bottom: 48,
