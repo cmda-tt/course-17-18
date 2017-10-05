@@ -17,8 +17,7 @@ Within the HTML the script src linking to the current D3 version had to be chang
 
 
 **To:**
-```<script src="https://d3js.org/d3.v4.min.js"></script>
-```
+`<script src="https://d3js.org/d3.v4.min.js"></script>`
 
 ### CSS:
 
@@ -70,12 +69,10 @@ var height = 500 - margin.top - margin.bottom;
 Next up, I had to change `.tsv` to `.csv`, because that is the format of the data file.
 
 **From:**
-```d3.tsv('index.tsv', row, onload);
-```
+`d3.tsv('index.tsv', row, onload);`
 
 **To:**
-```d3.csv('index.csv', row, onload);
-```
+`d3.csv('index.csv', row, onload);`
 
 A syntax error once again:
 
