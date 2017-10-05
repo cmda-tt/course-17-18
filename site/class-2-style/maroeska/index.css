@@ -1,0 +1,30 @@
+html {
+    background-color: currentcolor;
+    color: #000;
+    max-width: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+svg {
+    height: 100vh;
+    width: 100vw;
+}
+
+.arc,
+text {
+    fill: currentcolor;
+}
+
+text {
+    font-family: Roboto, -apple-system, BlinkMacSystemFont, Helvetica Neue, Segoe UI, Oxygen, Ubuntu, Cantarell, Open Sans, sans-serif;
+    font-size: small;
+    text-anchor: middle;
+}
+
+path {
+    stroke: currentcolor;
+    stroke-width: 3;
+}

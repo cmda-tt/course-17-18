@@ -1,0 +1,11 @@
+h1 {
+	font-family: sans-serif;
+}
+
+.bar {
+  fill: darkorange;
+}
+
+.bar:hover {
+  fill: brown;
+}

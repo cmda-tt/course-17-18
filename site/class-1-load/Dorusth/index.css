@@ -1,0 +1,13 @@
+*{
+	box-sizing: border-box;
+	font-family:monospace;
+}
+
+body{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	background: url("https://www.toptal.com/designers/subtlepatterns/patterns/intersection.png");
+}

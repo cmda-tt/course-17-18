@@ -1,0 +1,19 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: grey;
+}
+
+svg{
+  display: flex;
+}
+
+svg .bar{
+  fill: orange
+}
+
+svg .bar:hover{
+  fill: blue;
+}
