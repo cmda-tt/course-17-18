@@ -31,25 +31,14 @@ I have made changes to the html, css and JavaScript files. The changes are liste
 
 ### JavaScript
 * Added missing semicolon's.
+* Changed `d3.tsv('index.tsv', row, onload);` to `d3.csv('index.csv', row, onload);`
 
-
-
-* I found that the console displayed an error saying a .tsv file was not found. The data has to be loaded from a .csv file, so i changed  the following:
-
-From:
-```javascript
-d3.tsv('index.tsv', row, onload);
-```
-To:
-```javascript
-d3.csv('index.csv', row, onload);
-```
-
-* Changed `d3.scale.Linear()` to `d3.scaleLinear()`
-* Changed `d3.scale.ordinal()` to `d3.scaleOrdinal()`
-* Changed `d3.svg.axis().scale(x).orient('bottom')` to `d3.axisBottom(x)`
-* Changed `d3.svg.axis().scale(y).orient('left')` to `d3.axisLeft(y)`
-* Changed `d3.extend` to `d3.extent`
+* Made changes that facilitated the d3 upgrade from v3 to v4:
+  * Changed `d3.scale.Linear()` to `d3.scaleLinear()`
+  * Changed `d3.scale.ordinal()` to `d3.scaleOrdinal()`
+  * Changed `d3.svg.axis().scale(x).orient('bottom')` to `d3.axisBottom(x)`
+  * Changed `d3.svg.axis().scale(y).orient('left')` to `d3.axisLeft(y)`
+  * Changed `d3.extend` to `d3.extent`
 
 * Changed:
   `margin.l`
