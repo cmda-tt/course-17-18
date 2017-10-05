@@ -1,0 +1,16 @@
+body { 
+    background-color: cadetblue;
+    color: pink;
+    font-family: helvetica;
+}
+.bar {
+    fill: lightpink;
+}
+
+.bar:hover {
+    fill: bisque;
+}
+
+.axis--x path {
+    display: none;
+}

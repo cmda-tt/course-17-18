@@ -1,0 +1,31 @@
+id,value
+levi,
+levi.hobbys
+levi.hobbys.skateboarding, 20
+levi.hobbys.gaming, 40
+levi.hobbys.cooking, 40
+levi.skills.code, 50
+levi.skills.design, 25
+levi.skills.communication, 25
+levi.groups.colleagues, 15
+levi.groups.friends, 25
+levi.groups.classmates, 10
+levi.groups.roommates, 50
+levi.locations.utrecht, 50
+levi.locations.amsterdam, 20
+levi.locations.woerden, 7
+levi.locations.alkmaar, 20
+levi.locations.other, 3
+levi.pets.cat, 100
+levi.socialmedia.facebook, 4
+levi.socialmedia.imgur, 20
+levi.socialmedia.instagram, 8
+levi.socialmedia.whatsapp, 30
+levi.socialmedia.slack, 30
+levi.socialmedia.other, 8
+levi.expenses.rent, 50
+levi.expenses.food, 30
+levi.expenses.repairs, 4
+levi.expenses.travel, 10
+levi.expenses.decoration, 4
+levi.expenses.other, 2

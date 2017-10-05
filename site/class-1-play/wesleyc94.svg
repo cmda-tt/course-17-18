@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" height="500" width="500" viewBox="0 0 1000 1000">
+    <!--Update the title with your username-->
+    <title>@wesleyc94</title>
+    <!--Add stuff here-->
+    <circle cx="150" cy="150" r="100">
+    </circle>
+    <rect x="500" y="200" width="300" height="300" fill="blue" opacity="0.15">
+    </rect>
+    <line x1="757" y1="670" x2="400" y2="90" stroke-width="10" stroke="red">
+    </line>
+    <polygon points="700,50 800,90 669,180 500,90">
+    </polygon>
+    <path d="M150 300 L75 450 L225 450 Z"></path>
+    <text x="300" y="335" font-family="Open Sans" font-size="35">
+        Front end 3
+    </text>
+    <g stroke="greenyellow" stroke-width="5">
+        <circle cx="300" cy="400" r="250" fill="none" />
+        <path d="M300 600 L500 950 L500 450 Z"></path>
+    </g>
+</svg>

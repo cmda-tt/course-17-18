@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 720" width="1080" height="720">
+  <!--Update the title with your username-->
+  <title>@theem</title>
+
+  <!--Add stuff here-->
+    <circle cx="420" cy="420" r="11" opacity="70%" class="stroke"/>
+    <line x1="190" y1="20" x2="20" y2="190" stroke-width="20" stroke="white"/>
+    <g stroke="aqua" stroke-width="0.1em">
+    <polygon points="305 375,339 303,369 374,405 305,452 374,490 297" />
+    <path d="M150 0 L75 200 L225 200 Z" />
+    <text x="0" y="15" fill="white" font-family="inherit" font-size="1em" transform="rotate(30 20,40)">Made by theem</text>
+    </g>
+    
+    <g> <!-- deze groep is getekend met een svg teken tool genaamd editor.method.ac -->
+        <ellipse ry="68" rx="68" id="svg_4" cy="228" cx="253.5" stroke-width="1.5" fill="#000000"/>
+        <path d="m-138.7975,128.855l0,-1.49l1.99999,1.49l-1.99999,0z" fill-opacity="null" stroke-opacity="null" stroke-width="1.5" stroke="null" fill="#000"/>
+        <path transform="rotate(-90 299.6925048828125,232.58309936523435) " id="svg_9" d="m261.19248,273.5831l38.5,-81.99998l38.5,81.99998l-77.00001,0z" stroke-width="1.5" fill="#ffffff"/>
+        <ellipse ry="9" rx="8.5" id="svg_12" cy="194" cx="280" stroke-width="1.5" fill="#ffffff"/>
+        <rect stroke="null" id="svg_14" height="107" width="119.00001" y="223" x="387.5" stroke-width="1.5" fill="#000000"/>
+        <path stroke="null" id="svg_15" d="m388,331.375l14.5,-29l14.5,29l-29,0z" stroke-width="1.5" fill="#ffffff"/>
+        <path stroke="null" id="svg_16" d="m418,331.375l14.5,-29l14.5,29l-29,0z" stroke-width="1.5" fill="#ffffff"/>
+        <path stroke="null" id="svg_17" d="m448,331.375l14.5,-29l14.5,29l-29,0z" stroke-width="1.5" fill="#ffffff"/>
+        <path stroke="null" id="svg_18" d="m478,331.375l14.5,-29l14.5,29l-29,0z" stroke-width="1.5" fill="#ffffff"/>
+        <ellipse stroke="null" ry="60" rx="59.50413" id="svg_20" cy="222" cx="447.00413" fill-opacity="null" stroke-opacity="null" stroke-width="1.5" fill="#000000"/>
+        <ellipse stroke="null" ry="9.5" rx="9.5" id="svg_24" cy="198.5" cx="423" stroke-opacity="null" stroke-width="1.5" fill="#ffffff"/>
+        <ellipse stroke="null" ry="9.5" rx="9.5" id="svg_25" cy="198.5" cx="473" stroke-opacity="null" stroke-width="1.5" fill="#ffffff"/>
+        <ellipse stroke="null" ry="6" rx="6" id="svg_26" cy="201" cx="421.5" stroke-opacity="null" stroke-width="1.5" fill="#000000"/>
+        <ellipse stroke="null" ry="6" rx="6" id="svg_27" cy="201" cx="471.5" stroke-opacity="null" stroke-width="1.5" fill="#000000"/>
+    </g>
+    
+  <!-- NOTHING TO SEE HERE... MOVE ALONG!!! -->
+  
+</svg>

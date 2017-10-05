@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="" width="100vw" height="100vh">
+
+  <title>@nina92</title>
+
+    <g>
+        <circle fill="#CACEFF" cx="100" cy="100" r="50" opacity="0.9"></circle>
+        <circle fill="#E19DE3" cx="150" cy="150" r="50" opacity="0.8"></circle>
+        <circle fill="#46638A" cx="200" cy="200" r="50" opacity="0.7"></circle>
+        <circle fill="#E8B0C5" cx="250" cy="250" r="50" opacity="0.6"></circle>
+        <circle fill="#1C1247" cx="300" cy="300" r="50" opacity="0.5"></circle>
+    </g>
+
+    <g stroke="darkgrey" stroke-width="1" opacity="0.6">
+        <circle fill="none" cx="100" cy="100" r="60"></circle>
+        <circle fill="none" cx="150" cy="150" r="60"></circle>
+        <circle fill="none" cx="200" cy="200" r="60"></circle>
+        <circle fill="none" cx="250" cy="250" r="60"></circle>
+        <circle fill="none" cx="300" cy="300" r="60"></circle>
+    </g>
+
+
+    <line x1="70" y1="61" x2="350" y2="341" stroke-width="1" stroke="#FFF"></line>
+    <line x1="60" y1="70" x2="340" y2="345" stroke-width="1" stroke="#FFF"></line>
+
+    <text x="204" y="77" font-family="Courier New, Courier, monospace" font-size="1em">Nina van den Berg</text>
+
+    <rect x="415" y="20" width="370" height="370" fill="none" stroke="darkgrey" stroke-width="1"></rect>
+    <rect x="425" y="30" width="350" height="350" fill="#CACEFF" stroke="darkgrey" stroke-width="1" opacity="0.9"></rect>
+    <polygon points="600,110 540,298 690,178 510,178 660,298" fill="#E19DE3"></polygon>
+
+    <path fill="#46638A" d="M450 500 L275 400 L425 600 Z"></path>
+
+    <style>
+        text {
+            -ms-transform: rotate(46deg); /* IE 9 */
+            -webkit-transform: rotate(46deg); /* Chrome, Safari, Opera */
+            transform: rotate(46deg);
+        }
+    </style>
+</svg>

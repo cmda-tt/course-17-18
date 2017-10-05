@@ -1,0 +1,17 @@
+body {
+	margin: 0;
+	padding: 50px;
+	box-sizing: border-box;
+}
+
+table {
+	margin-bottom: 20px;
+}
+
+table tr:first-child td {
+	font-weight: 700;
+}
+
+table tr {
+	line-height: 24px;
+}

@@ -27,7 +27,7 @@ d3’s transitions.  Based on a [bl.ock][block] by [**@tjdecke**][block-author]
 
 MIT © Titus Wormer
 
-[block]: http://bl.ocks.org/tjdecke/5558084
+[block]: https://bl.ocks.org/tjdecke/5558084
 
 [author]: https://github.com/tjdecke
 

@@ -1,0 +1,19 @@
+.bar {
+  fill: white;
+}
+
+.bar:hover {
+  fill: gold;
+}
+
+.axis--x path {
+  display: none;
+}
+
+body {
+  background-color: darkturquoise;
+}
+
+h1 {
+    text-align: center;
+}

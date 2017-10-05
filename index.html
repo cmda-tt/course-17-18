@@ -1,0 +1,38 @@
+<!doctype html>
+<meta charset=utf8>
+<title>@wesselversluis</title>
+<meta content=width=device-width,initial-scale=1 name=viewport>
+<link rel="stylesheet" type="text/css" href="index.css">
+
+<h1>Dinners of Wessel Versluis </br>&#9749;&#9749;&#9749;&#9749;&#9749;</h1>
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<script>  
+d3.csv('./index.csv', function (err, dinners) {
+  if (err) throw err;
+  dinners.forEach(function (q) {
+    var details = document.createElement('details');
+    var summary = document.createElement('summary');
+    var paragraph = document.createElement('p');
+
+    details.appendChild(summary).textContent = q.day;
+    details.appendChild(paragraph).textContent = q.dinner;
+
+    document.body.appendChild(details);
+  })
+});
+    
+d3.json('./index.json', function (err, dinners) {
+  if (err) throw err;
+
+  dinners.forEach(function (q) {
+    var details = document.createElement('details');
+    var summary = document.createElement('summary');
+    var paragraph = document.createElement('p');
+
+    details.appendChild(summary).textContent = q.day;
+    details.appendChild(paragraph).textContent = q.dinner;
+
+    document.body.appendChild(details);
+  })
+});
+</script>
