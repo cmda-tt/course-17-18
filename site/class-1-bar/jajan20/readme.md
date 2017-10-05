@@ -1,4 +1,4 @@
-# Assignment 3 - Bar Chart
+## Assignment 3 - Bar Chart
 
 ### DESCRIPTION
 The third assignment for frontend development 3. Try out with d3.js
@@ -31,7 +31,3 @@ The third assignment for frontend development 3. Try out with d3.js
 ### LICENSE
 
 Released under the [GNU General Public License, version 3.](https://opensource.org/licenses/GPL-3.0)
-
-
-
-
