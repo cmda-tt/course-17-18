@@ -7,10 +7,10 @@ I have debugged a responsive scatter plot that visualizes the dimensions of sepa
 
 ## Background
 The file types that are included are:
-* HTML
-* Css
-* js
-* csv
+* `.html`
+* `.css`
+* `.js`
+* `.csv`
 
 ## Changes
 I have made changes to the html, css and JavaScript files. The changes are listed below:
