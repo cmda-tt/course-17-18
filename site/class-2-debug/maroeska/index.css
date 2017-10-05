@@ -22,6 +22,6 @@ svg {
 .axis line,
 .dot,
 rect {
-    stroke: grey;
+    stroke: currentcolor;
     stroke-width: 2;
 }
