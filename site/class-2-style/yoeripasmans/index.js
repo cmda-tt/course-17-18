@@ -1,7 +1,15 @@
 var width = 500;
 var height = 500;
 var radius = Math.min(width, height) / 2;
-var colors = ['#161925', '#256EFF', '#482A5E', '#39DD9E', '#F2A40E', '#EA2027', '#FFF8BD'];
+var colors = [
+  'hsl(45, 99%, 59%)',
+  'hsl(96, 99%, 59%)',
+  'hsl(148, 99%, 59%)',
+  'hsl(199, 99%, 59%)',
+  'hsl(250, 99%, 59%)',
+  'hsl(302, 99%, 59%)',
+  'hsl(353, 99%, 59%)'
+];
 var scale = d3.scaleOrdinal().range(colors);
 var arc = d3.arc().outerRadius(radius - 16).innerRadius(radius - 128);
 var pie = d3.pie().sort(null).value(population);

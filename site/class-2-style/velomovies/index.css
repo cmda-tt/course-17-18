@@ -1,5 +1,5 @@
 html {
-  color: #000;
+  color: black;
   background-color: currentcolor;
   max-width: 100%;
 }
@@ -13,7 +13,8 @@ svg {
   height: 100vh;
 }
 
-.arc, text {
+.arc,
+text {
   fill: currentcolor;
 }
 
