@@ -1,0 +1,38 @@
+<!doctype html>
+<meta charset=utf8>
+<!--Update the title with your username:-->
+<title>@MauSNL</title>
+<meta content=width=device-width,initial-scale=1 name=viewport>
+
+<!--Link to d3 here:-->
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<!--Keep this script here for now:-->
+<script src=https://cmda-fe3.github.io/course-17-18/check-class-1-load.js></script>
+<body>
+	<h1>Dinners</h1>
+</body>
+
+<!--Add your code in this script:-->
+<script>
+	d3.csv('./index.csv', showCsv );
+	d3.json('./index.json', showJson );
+
+	var body = document.body;
+
+	function showCsv(err, data) {
+		if (err) throw err;
+		body.appendChild(document.createElement("h2")).textContent = "CSV"
+		data.forEach(function (row) {
+		body.appendChild(document.createElement("h3")).textContent = row.Day;
+		body.appendChild(document.createElement("p")).textContent = row.Dinner;	
+		})
+	}
+	function showJson(err, data) {
+		if (err) throw err;
+		body.appendChild(document.createElement("h2")).textContent = "JSON"
+		data.forEach(function (row) {
+		body.appendChild(document.createElement("h3")).textContent = row.Day;
+		body.appendChild(document.createElement("p")).textContent = row.Dinner;	
+		})
+	}
+</script>
