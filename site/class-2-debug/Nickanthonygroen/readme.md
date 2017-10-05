@@ -101,19 +101,24 @@ function onload(data) {
 
 A number of times there were functions weren't added to the variables so i hit this several times.
 
-```js
-  svg.append('g')
-  .attr('class', 'x axis')
-```
 
-
-to
+this
 
 ```js
 svg
 .append('g')
   .attr('class', 'x axis')
 ```
+
+to this
+
+```js
+  svg.append('g')
+  .attr('class', 'x axis')
+```
+
+
+
 
 ### CSS Bugs
 
