@@ -26,6 +26,8 @@ _CSS was way harder to detect, so in inspect mode, I looked up all the selectors
 
 * Addead <head> and <body> element
 * Added quotemarks around all links
+  
+## Features
 
 * [d3-responsive-bar-chart](https://eddyerburgh.me/create-responsive-bar-chart-d3-js) - d3js usage of viewbox attribute
 * [d3-request](https://github.com/d3/d3-request#api-reference) — Rendering the .csv file
