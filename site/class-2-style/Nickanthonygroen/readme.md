@@ -108,7 +108,11 @@ Within the HTML the links were not in quotes so I added the double quotes again.
 
 ## License
 
-GPL-3.0 © Titus Wormer
+GPL-3.0 © [Titus Wormer](https://github.com/wooorm)
+
+GPL-3.0 © Nick Groen
+
+
 
 [block]: https://bl.ocks.org/mbostock/3887193
 
