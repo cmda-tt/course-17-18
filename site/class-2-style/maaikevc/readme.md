@@ -22,4 +22,4 @@ I refactored the code making only changes in the way **the code** looks, not how
 * renamed *parameters* `b` with `error` and `c` with `data`
 
 ## License
-The minified code was made by [@wooorm](https://github.com/wooorm). He based his visualisation on a [`bl.ock`][block](https://bl.ocks.org/mbostock/3887193) by [**@mbostock**][block-author](https://github.com/mbostock).
+The minified code was made by [@wooorm](https://github.com/wooorm). He based his visualisation on a [`block`](https://bl.ocks.org/mbostock/3887193) by [**@mbostock**](https://github.com/mbostock).
