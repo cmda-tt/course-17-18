@@ -34,19 +34,19 @@ function population(a) {
   return a.population
 }
 
-var width = 500,
-var height = 500,
-var radius = Math.min(width, height) / 2,
+var width = 500;
+var height = 500;
+var radius = Math.min(width, height) / 2;
 var colors = ["hsl(45, 99%, 59%)",
               "hsl(96, 99%, 59%)",
               "hsl(148, 99%, 59%)",
               "hsl(199, 99%, 59%)",
               "hsl(250, 99%, 59%)",
               "hsl(302, 99%, 59%)",
-              "hsl(353, 99%, 59%)"],
-var color = d3.scaleOrdinal().range(colors),
-var arc = d3.arc().outerRadius(radius - 16).innerRadius(radius - 128),
-var pie = d3.pie().sort(null).value(population),
+              "hsl(353, 99%, 59%)"];
+var color = d3.scaleOrdinal().range(colors);
+var arc = d3.arc().outerRadius(radius - 16).innerRadius(radius - 128);
+var pie = d3.pie().sort(null).value(population);
 var svg = d3.select("body")
             .append("svg")
             .attr("width", width)
