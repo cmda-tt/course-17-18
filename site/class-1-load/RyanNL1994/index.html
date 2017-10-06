@@ -1,0 +1,41 @@
+<!doctype html>
+<meta charset=utf8>
+<title>@RyanNL1994</title>
+<meta content=width=device-width,initial-scale=1 name=viewport>
+<link rel="stylesheet" type="text/css" href="index.css">
+
+<script src="https://d3js.org/d3.v4.min.js"></script>
+
+
+<h1>Maaltijden</h1>
+
+
+<script>
+    // Hier wordt een variable gemaakt die verwijst naar de body van de HTML
+    var body = document.body;
+
+    //Hier roept d3 de index CSV aan waar mijn data in zit
+    d3.csv('index.csv', function(error, data) {
+        body.appendChild(document.createElement('h2')).textContent = "CSV"
+        if (error) throw error;
+
+        //Hier geef ik in een functie aan de dat de h3 gevuld moet worden met de dag uit mij CSV bestand en de p gevuld moet worden met de eten uit mijn CSV bestand
+        data.forEach(function(maaltijd) {
+            body.appendChild(document.createElement('h3')).textContent = maaltijd.dag;
+            body.appendChild(document.createElement('p')).textContent = maaltijd.eten;
+        });
+    });
+
+    //Hier roept d3 de index JSON aan waar mijn data in zit
+    d3.json('index.json', function(error, data) {
+        body.appendChild(document.createElement('h2')).textContent = "JSON"
+        if (error) throw error;
+
+        //Hier geef ik in een functie aan de dat de h3 gevuld moet worden met de dag uit mij JSON bestand en de p gevuld moet worden met de eten uit mijn JSON bestand
+        data.forEach(function(maaltijd) {
+            body.appendChild(document.createElement('h3')).textContent = maaltijd.dag;
+            body.appendChild(document.createElement('p')).textContent = maaltijd.eten;
+        });
+    });
+
+</script>

@@ -1,7 +1,11 @@
 # Class 4
 
-> Some quote
-> — By some person
+> I fear the day that technology will surpass our human interaction.
+> The world will have a generation of idiots.
+> — Albert Einstein※
+>
+> ※ He never actually said this though…
+> People love attributing quotes to Einstein.
 
 ## Table of Contents
 

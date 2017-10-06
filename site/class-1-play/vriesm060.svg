@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+viewBox="-100 -100 600 600" width="500" height="500"
+>
+  <!--Update the title with your username-->
+  <title>@vriesm060</title>
+
+    <g stroke="red" stroke-width="5">
+      <circle 
+        cx="100"
+        cy="100"
+        r="50"
+      />
+      <rect
+        x="35"
+        y="200"
+        width="56"
+        height="33"
+      />
+    </g>
+
+    <line
+      x1="200"
+      y1="10"
+      x2="400"
+      y2="45"
+      stroke-width="5"
+      stroke="lime"
+    />
+
+    <polygon
+      points="200,10 250,190 160,210"
+      opacity="0.25"
+    />
+
+    <path
+      d="M 450 50 l 150 300"
+    />
+
+    <text
+      x="180"
+      y="350"
+      font-family="verdana"
+      font-size="100"
+      font-weight="bold"
+      fill="orange"
+    >Hello World!</text>
+</svg>

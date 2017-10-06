@@ -1,0 +1,26 @@
+
+.bar {
+  fill: steelblue;
+  outline-style: none;
+}
+
+.bar:hover {
+  fill: brown;
+  outline-style: solid;
+  outline-width: 0.2em;
+  outline-color: black;
+}
+
+.axis{
+	text-shadow: 2px 2px gray;
+}
+
+.axis--x path {
+  display: none;
+}
+
+.axis--y path {
+	text-shadow: 2px 2px;
+}
+
+

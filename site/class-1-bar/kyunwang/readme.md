@@ -3,7 +3,7 @@ To learn D3.js I have copied and modified a example from [bl.ocks.org](https://b
 
 Source code: [Bar chart source](https://bl.ocks.org/mbostock/3886208) by [@mbostock](https://github.com/mbostock) (GPL-3.0).
 
-![A preview of the bar chart](./images/preview.png "A preview of the bar chart")
+![A preview of the bar chart](preview.png "A preview of the bar chart")
 
 ## Background
 A stacked bar chart of the US Population. I played around a bit with the existing code to implement sorting and rerendering the chart.
@@ -59,4 +59,3 @@ These are the features added:
 ## License
 
 GPL-3.0 © Kang Yun Wang (Kevin Wang)
-
