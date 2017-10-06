@@ -1,0 +1,20 @@
+svg {
+    background-color: #eee;
+}
+
+svg text {
+    fill: #A813E4;
+}
+
+.bar {
+    fill: #DB234B;
+    transition: fill .250s;
+}
+
+.bar:hover {
+    fill: #29DFA8;
+}
+
+.axis--x path {
+    display: none;
+}

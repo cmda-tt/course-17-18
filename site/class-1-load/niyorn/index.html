@@ -1,0 +1,76 @@
+<!doctype html>
+<meta charset=utf8>
+<title>@Niyorn</title>
+<meta content=width=device-width,initial-scale=1 name=viewport>
+<link rel="stylesheet" href="index.css">
+<script src="https://d3js.org/d3.v4.min.js"></script>
+
+<h1>Dinners</h1>
+
+<script>
+
+//load csv file
+d3.csv("index.csv", (err, data)=>{
+  let table = d3.select("body").append("table");
+  let titel = table.append('thead');
+  let body = table.append("tbody");
+
+  //create header of table
+  titel.append("tr")
+       .selectAll("th")
+       .data(d3.keys(data[1]))
+       .enter()
+       .append("th")
+       .text(d=>d);
+
+  //create row
+  let row = body.selectAll("tr")
+    .data(data)
+    .enter()
+    .append("tr");
+
+  //create cell
+   row.selectAll("td")
+      .data(function(d){
+        return d3.values(d);
+      })
+      .enter()
+      .append("td")
+      .text(d=>d);
+});
+
+  //load json file
+  d3.json("index.json", (err, data)=>{
+    let table = d3.select("body").append("table");
+    let titel = table.append('thead');
+    let body = table.append("tbody");
+
+    //create header of table
+    titel.append("tr")
+         .selectAll("th")
+         .data(d3.keys(data[0]))
+         .enter()
+         .append("th")
+         .text(d=>d);
+
+    //create row
+    let row = d3.select("tbody").selectAll("tr")
+      .data(data)
+      .enter()
+      .append("tr");
+
+    //create cell
+     row.selectAll("td")
+        .data(function(d){
+          return d3.values(d);
+        })
+        .enter()
+        .append("td")
+        .text(d=>d);
+  });
+
+
+
+
+
+</script>

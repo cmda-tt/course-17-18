@@ -101,7 +101,7 @@ file.
 
 > Bald man on subway platform by [**@jmduarte**][transition-cover-author].
 
-In this assignment you’ll learn to clean external data.
+In this assignment you’ll learn to add transitions to a chart.
 
 ### Synopsis
 

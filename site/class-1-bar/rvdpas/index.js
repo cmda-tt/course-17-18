@@ -25,7 +25,7 @@ var g = svg.append("g")
 
 // Laad de data (tab separated values)
 d3.tsv("data.tsv", function(d) {
-  d.frequency = +d.frequency;
+  d.frequency = +d.frequency || 0;
   return d;
 }, function(error, data) {
   if (error) throw error;

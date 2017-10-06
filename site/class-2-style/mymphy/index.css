@@ -1,0 +1,26 @@
+html{
+    color: #000;
+    background-color: #000;
+    max-width: 100%;
+}
+body{
+    margin: 0;
+}
+svg{
+    width: 100vw;
+    height: 100vh;
+}
+.arc,
+text{
+    fill: #fff;
+    font-weight: 700;
+}
+text{
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+    font-size: small;
+    text-anchor: middle;
+}
+path{
+    stroke: #000;
+    stroke-width: 3;
+}
