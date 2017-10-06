@@ -20,7 +20,6 @@ svg {
 .axis line,
 .dot,
 rect {
-  stroke: inherit;
+  stroke: black;
   stroke-width: 2;
 }
-
