@@ -13,7 +13,7 @@
 *   **Weight**: 20%
 *   **Type**: Remote
 *   **Grade**: [Rubric][]
-*   **Due**: 04-10 12:00 (ID 1), 05-10 15:20 (ID 2), 03-10 15:20 (ID 3)
+*   **Due**: 04-10 12:00 (ID 1), 06-10 15:20 (ID 2), 04-10 15:20 (ID 3)
 
 ## Description
 
@@ -50,7 +50,7 @@ cleaned data sets:
 
 *   [Monthly temperature time series](#monthly-temperature-time-series)
 *   [Top languages by number of speaker](#top-languages-by-number-of-speaker)
-*   [Population without indoor toilet](population-without-indoor-toilet)
+*   [Population without indoor toilet](#population-without-indoor-toilet)
 
 ### Other data
 

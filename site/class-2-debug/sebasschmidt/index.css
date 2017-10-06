@@ -1,0 +1,30 @@
+html {
+  font-family: Roboto, sans-serif;
+  max-width: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+svg {
+    width: 100vw;
+    height: 100vh;
+}
+
+.axis path {
+  fill: none;
+}
+
+.axis path,
+.axis line,
+.dot,
+rect {
+  stroke: currentcolor;
+  stroke-width: 2;
+}
+
+
+text{
+    fill: black;
+}

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1000" viewBox="0, 0, 500, 500" font-family="verdana" font-size="1em" opacity='80'>
+  <title>@spaarwt001</title>
+  <g stroke="black" stroke-width="10" fill="purple"> <!-- grouping elements -->
+	<circle cx="120" cy="120" r="100" /> <!-- circle element -->
+	<rect  x="20" y="20" width="200" height="100" fill="orange"/> <!-- reactangle element -->
+  </g>
+  <line x1="20" y1="120" x2="220" y2="120" stroke-width="20" stroke="red" /> <!-- line element -->
+  <polygon points="120,62.3 95,106.7 45,106.7 20,63.3 45,20 90,20" fill="blue" /> <!-- polygon, points attribute defines de X and Y for each corners -->
+  <path d="M50 0 L75 200 L225 200 Z" fill="green" /> <!-- starts path at M50 with a line positioned to L75 to L225 and back to M50 -->
+  <text x="150" y="90" fill="#f466d2" >Front end 3 Class 1!</text>
+</svg>
