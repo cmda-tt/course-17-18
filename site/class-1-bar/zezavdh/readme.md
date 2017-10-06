@@ -11,6 +11,6 @@ Op de y-as staan de aantal keren dat ik naar de WC geweest ben. Op de x-as staan
 Ik heb mijn barchart van Mike Bostock: https://bl.ocks.org/mbostock/3885304 en heb deze aangepast.
 
 ## License
-Released under the GNU General Public License, version 3. 
+Released under the GNU General Public License, version 3.
 
-![barchart](barchart/preview.png)
+![barchart](preview.png)
