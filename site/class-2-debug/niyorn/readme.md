@@ -1,7 +1,7 @@
 # Debug
 Bij deze opdracht was het de bedoeling om bugs te vinden in de code en deze dan te veranderen
 
-![picture](preview.PNG)
+![picture](preview.png)
 
 ## The fix
 ### HTML:

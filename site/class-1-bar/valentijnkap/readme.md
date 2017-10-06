@@ -17,4 +17,4 @@ To visualize my data I used two variables. I took each month as a period and hou
 * [.Axis()](https://github.com/d3/d3/blob/master/API.md#axes-d3-axis)
 
 ## License
-Software: [MIT](LICENSE.md) © [Valentijn Kap](https://www.valentijnkap.nl)
+Software: [MIT](license.md) © [Valentijn Kap](https://www.valentijnkap.nl)
