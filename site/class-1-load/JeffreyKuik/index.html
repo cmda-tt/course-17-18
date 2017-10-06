@@ -8,12 +8,12 @@
 <h1>Dinners</h1>
 
 <script>
-var body = document.body;    
-    
+var body = document.body;
+
 d3.csv('index.csv', function(error, data) {
     body.appendChild(document.createElement('h2')).textContent = "CSV"
     if (error) throw error;
-    console.log(data);
+    // console.log(data);
     data.forEach(function (dinner) {
         body.appendChild(document.createElement('h3')).textContent = dinner.dag;
         body.appendChild(document.createElement('p')).textContent = dinner.eten;
@@ -23,7 +23,7 @@ d3.csv('index.csv', function(error, data) {
 d3.json('index.json', function(error, data) {
     body.appendChild(document.createElement('h2')).textContent = "JSON"
     if (error) throw error;
-    console.log(data);
+    // console.log(data);
     data.forEach(function (dinner) {
         body.appendChild(document.createElement('h3')).textContent = dinner.dag;
         body.appendChild(document.createElement('p')).textContent = dinner.eten;
