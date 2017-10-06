@@ -36,22 +36,44 @@
 
 Submit your assignments by 7 a.m. the day of [class 5][c5].
 
-*   Some  (**practice**)
-*   Assignments (**practice**)
+*   Interactivity (**practice**)
+*   Source (**homework**)
 
 See [class 3][c3] for assignments due before this class.
-
-*   **Homework** — Find a good data source for your [assessment 3][a3]
 
 ## Assessment
 
 Submit [assessment 2][a2] before the start of [class 5][c5].
+
+## Interactivity
+
+[![][interactive-cover]][interactive-cover-source]
+
+> Dancing in the shadow photo by [**@ardianlumi**][interactive-cover-author].
+
+## Source
+
+[![][source-cover]][source-cover-source]
+
+> File, \[…], arranged, and Germany [**@samuelzeller**][source-cover-author].
 
 [inspiration-cover]: images/keys.jpg
 
 [inspiration-link]: https://tmcw.github.io/minute/
 
 [inspiration-author]: https://github.com/tmcw
+
+[interactive-cover]: images/dance.jpg
+
+[interactive-cover-source]: https://unsplash.com/photos/6Woj_wozqmA
+
+[interactive-cover-author]: https://unsplash.com/@ardianlumi
+
+[source-cover]: images/binders.jpg
+
+[source-cover-source]: https://unsplash.com/photos/vpR0oc4X8Mk
+
+[source-cover-author]: https://unsplash.com/@samuelzeller
 
 [c3]: class-3.md#assignments
 
@@ -64,5 +86,3 @@ Submit [assessment 2][a2] before the start of [class 5][c5].
 [s11]: readme.md#subgoal-11
 
 [a2]: assessment-2
-
-[a3]: assessment-3
