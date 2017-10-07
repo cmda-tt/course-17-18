@@ -228,7 +228,7 @@ JavaScript Object Notation (JSON) with 34 rows and 2+ columns:
       <th align="center" scope="row">Application of subject matter</th>
       <td align="center">d3 is either not referenced or not used</td>
       <td align="center">d3 is either used to load data or to make a dynamic visualisation</td>
-      <td align="center">d3 is used to load data <strong>and</strong> to make a dynamic visualisation</td>
+      <td align="center">d3 is used to load data <em>and</em> to make a dynamic visualisation</td>
       <td align="center">The visualisation contains a well-chosen scale, axes, or other useful additions</td>
       <td align="center">😱<br>The way the student applies d3 is more advanced than what they were taught in class; let’s switch places</td>
     </tr>
@@ -238,7 +238,7 @@ JavaScript Object Notation (JSON) with 34 rows and 2+ columns:
       <td align="center">The student cannot explain parts of the code</td>
       <td align="center">The student can explain every part of the code</td>
       <td align="center">The student can explain every part of the code and describe why it’s used instead of alternatives</td>
-      <td align="center">🤓<br>The student understands JavaScript and d3’s programming principles and a geeky / nerdy conversation can be held about these principles</td>
+      <td align="center">🤓<br>The student understands JavaScript and d3’s programming principles</td>
     </tr>
     <tr>
       <th align="center" scope="row">Quality</th>
