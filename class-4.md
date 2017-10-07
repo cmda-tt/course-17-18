@@ -129,7 +129,7 @@ optionally a `preview.png` file, and a data file (such as `index.json`,
 
 [c3]: class-3.md#assignments
 
-[c3transition]: class-2.md#transition
+[c3transition]: class-3.md#transition
 
 [c5]: class-5.md
 
