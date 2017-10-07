@@ -24,8 +24,8 @@ In **assessment 2** you’ll make an [interactive][] visualisation based on dirt
 We’ll check how you apply d3, whether you understand what’s happening, how well
 data is represented, and quality of your code and documentation.
 
-It’s important that you show how you clean data and data joins (enter, update,
-exit).
+It’s important that you show how you clean data and use data joins (enter,
+update, exit).  Understanding is measured through comments.
 
 For this assessment you’ll build a project in a fork of
 `cmda-fe3/fe3-assessment-2` (**not our course repo**) and
