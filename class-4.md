@@ -51,7 +51,7 @@ Submit [assessment 2][a2] before the start of [class 5][c5].
 
 [![][interactive-cover]][interactive-cover-source]
 
-> Dancing in the shadow photo by [**@ardianlumi**][interactive-cover-author].
+> Dancing in the shadow by [**@ardianlumi**][interactive-cover-author].
 
 In this assignment you’ll learn to add interactivity to a chart.
 
@@ -71,20 +71,20 @@ The project you’ll hand in will be similar to the one from
 [Class 3: Transition][c3transition] but this time will render a non-basic chart
 with non-trivial interaction.
 
-1.  Pick a **static** (without interaction) non-basic chart from
-    [d3’s example gallery][d3-examples]
+1.  Pick a static non-basic chart from [d3’s example gallery][d3-examples]
+    or use one of your previously made charts from assignments or assessment 1
 2.  Copy-paste the files over to your own computer and get the chart working
+    on d3@4
 3.  Add a `<title>` element, or replace the one already there, with your GitHub
     username: `@username` (in my case `@wooorm`)
-4.  Move the CSS and JS from the HTML into their own files: `index.css` and
+4.  Move CSS and JS from the HTML into their own files: `index.css` and
     `index.js`
-5.  Add a citation in `index.html` and `index.js` to the original work
-6.  Refactor the code to match your code style.  Add comments whenever you
-    come across code you don’t fully understand describing how it works
-7.  Now, add non-trivial interactivity to your chart.  Non-trivial means
-    that the visualised data changes.  This excludes for example zooming and
-    tooltips.  This includes for example sorting and filtering
-8.  When done, add a `readme.md` file similar to the one from
+5.  Add citations to the original work in `index.html` and `index.js`
+6.  Add non-trivial interactivity to your chart.  Non-trivial means
+    that the visualised data changes and uses enter, update, and exit.
+    For example, this includes sorting and filtering and excludes zooming and
+    tooltips
+7.  Add a `readme.md` file similar to the one from
     [Class 2: Do you readme?!][c2readme] that additionally describes what you
     changed and how you applied interactivity
 
