@@ -4,7 +4,7 @@ A simple responsive donut chart visualising the populations of various age
 groups with pretty colours based on a [`bl.ock`][https://bl.ocks.org/mbostock/3887193]
 by [**@mbostock**][https://github.com/mbostock] (GPL-3.0).
 
-[![][preview.png]][https://cmda-fe3.github.io/course-17-18/class-2/style]
+[![][cover]][url]
 
 ## Features
 
@@ -53,4 +53,4 @@ GPL-3.0 © Kang Yun Wang (Kevin Wang)
 
 [cover]: preview.png
 
-[url]: https://cmda-fe3.github.io/course-17-18/class-2/style
+[url]: https://cmda-fe3.github.io/course-17-18/class-2-style/kyunwang

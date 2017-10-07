@@ -30,4 +30,4 @@ MIT © Titus Wormer
 
 [cover]: preview.png
 
-[url]: https://cmda-fe3.github.io/course-17-18/class-3/ease
+[url]: https://cmda-fe3.github.io/course-17-18/class-3/cleaning-data

@@ -485,6 +485,11 @@ modifying an existing bar chart.
 *   **Due**: 7 a.m. the day of [class 2][c2]
 *   **Results**: [Gallery][bar-gallery]
 
+### Tips
+
+*   [Let’s Make a Bar Chart](https://bost.ocks.org/mike/bar/) by
+    [**@mbostock**](https://github.com/mbostock)
+
 ### Description
 
 The project you’ll hand in will be similar to the one from [Loading data][load]

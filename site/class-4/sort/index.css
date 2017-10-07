@@ -1,0 +1,32 @@
+html {
+  background-color: black;
+  color: white;
+  height: 100%;
+  font-family: Roboto, -apple-system, BlinkMacSystemFont, Helvetica Neue, Segoe UI, Oxygen, Ubuntu, Cantarell, Open Sans, sans-serif;
+}
+
+body {
+  margin: 0;
+  height: 100%;
+}
+
+svg {
+  width: 100%;
+  min-width: 400px;
+  height: 100%;
+}
+
+.bar {
+  fill: currentcolor;
+  fill-opacity: 0.9;
+}
+
+text {
+  fill: currentcolor;
+}
+
+label {
+  position: absolute;
+  top: 1em;
+  left: 1em;
+}

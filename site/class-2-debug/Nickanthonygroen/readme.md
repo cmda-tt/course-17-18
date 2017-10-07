@@ -171,4 +171,4 @@ Debug & Refactor © Nick Groen
 
 [cover]: preview.png
 
-[url]: https://cmda-fe3.github.io/course-17-18/class-2/debug
+[url]: https://cmda-fe3.github.io/course-17-18/class-2-debug/Nickanthonygroen
