@@ -71,7 +71,7 @@ for more info about the minor.
 The 3 main goals in this course are:
 
 *   Learning how to use a library
-*   Making a datavisualisation from external data
+*   Making a data visualisation from external data
 *   Learning d3
 
 #### Subgoals
