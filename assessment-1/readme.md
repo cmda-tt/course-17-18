@@ -39,11 +39,11 @@ You do not need to create a pull request.
 
 **Assessment 1** tests that you’ve attained the following knowledge:
 
-*   [SVG and canvas][s1]
-*   [Load external data][s2]
-*   [Read][s3] and [write][s4] docs
-*   [Debug][s5] and [refactor][s6] code
-*   Use [scales][s7]
+*   [SVG and canvas][s1] (**subgoal 1**)
+*   [Load external data][s2] (**subgoal 2**)
+*   [Read][s3] and [write][s4] docs (**subgoal 3** and **subgoal 4**)
+*   [Debug][s5] and [refactor][s6] code (**subgoal 5** and **subgoal 6**)
+*   Use [scales][s7] (**subgoal 7**)
 
 ## Data
 
