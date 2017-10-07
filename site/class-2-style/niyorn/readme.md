@@ -22,7 +22,7 @@ by [**@mbostock**][block-author] (GPL-3.0).
     — Graphical primitives
 *   [`Atom Beautify`](https://atom.io/packages/atom-beautify)
 
-   
+
 
 ## License
 
@@ -30,4 +30,4 @@ GPL-3.0 © Chanakarn Niyornram
 
 [block-author]: https://github.com/niyorn
 
-[url]: https://cmda-fe3.github.io/course-17-18/class-2/style
+[url]: https://cmda-fe3.github.io/course-17-18/class-2-style/niyorn

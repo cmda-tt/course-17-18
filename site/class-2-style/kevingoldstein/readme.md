@@ -6,11 +6,11 @@ by [**@mbostock**][block-author] (GPL-3.0).
 
 ![preview](preview.png)
 
-## Background 
+## Background
 
 I used beautify to line things out and make it easier to read the code.
 I also place some ; in the code and changed vars. In the HTML I placed some
-of the basic components that I think are important. 
+of the basic components that I think are important.
 
 ## Data
 
@@ -75,4 +75,4 @@ GPL-3.0 © Kevin Goldstein
 
 [cover]: preview.png
 
-[url]: https://cmda-fe3.github.io/course-17-18/class-2/style
+[url]: https://cmda-fe3.github.io/course-17-18/class-2-style/kevingoldstein

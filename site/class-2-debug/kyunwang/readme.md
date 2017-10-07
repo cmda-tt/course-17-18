@@ -8,7 +8,7 @@ of various iris flowers based on a [`bl.ock`](https://bl.ocks.org/mbostock/38871
 > and uses an old version of d3: `d3@3`.  It’s meant to be an exercise in
 > debugging skills.
 
-![preview.png](https://cmda-fe3.github.io/course-17-18/class-2/debug)
+![](preview.png)
 
 ## Features
 
@@ -52,4 +52,4 @@ GPL-3.0 © Kang Yun Wang (Kevin Wang)
 
 [cover]: preview.png
 
-[url]: https://cmda-fe3.github.io/course-17-18/class-2/debug
+[url]: https://cmda-fe3.github.io/course-17-18/class-2-debug/kyunwang
