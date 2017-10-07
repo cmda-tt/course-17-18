@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1150" height="1900" >
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 200 100" width="1150" height="1900" >
   <!--Update the title with your username-->
   <title>@Dopeboy404</title>
 <g stroke="black"  stroke-width="2">
@@ -10,13 +10,13 @@
 
  <rect x="700" y="500" width="200" height="100" opacity="0.25"/>
  
- <line x1="400" y1="400" x2="600" y2="300" style="stroke:black;stroke-width:3" opacity="0.5" />
- <line x1="400" y1="410" x2="600" y2="400" style="stroke:black;stroke-width:3" opacity="0.5" />
- <line x1="400" y1="420" x2="600" y2="500" style="stroke:black;stroke-width:3" opacity="0.5" />
+ <line x1="400" y1="400" x2="600" y2="300" stroke="black" stroke-width="3" opacity="0.5" />
+ <line x1="400" y1="410" x2="600" y2="400" stroke="black" stroke-width="3" opacity="0.5" />
+ <line x1="400" y1="420" x2="600" y2="500" stroke="black" stroke-width="3" opacity="0.5" />
  
- <line x1="200" y1="400" x2="0" y2="300" style="stroke:black;stroke-width:3" opacity="0.5" />
- <line x1="200" y1="410" x2="0" y2="400" style="stroke:black;stroke-width:3" opacity="0.5" />
- <line x1="200" y1="420" x2="0" y2="500" style="stroke:black;stroke-width:3" opacity="0.5" />
+ <line x1="200" y1="400" x2="0" y2="300" stroke="black" stroke-width="3" opacity="0.5" />
+ <line x1="200" y1="410" x2="0" y2="400" stroke="black" stroke-width="3" opacity="0.5" />
+ <line x1="200" y1="420" x2="0" y2="500" stroke="black" stroke-width="3" opacity="0.5" />
  
  <polygon points="400,10 300,190 450,210" fill="#DA9342"/>
  <polygon points="200,10 150,210 300,190" fill="#DA9342"/>
