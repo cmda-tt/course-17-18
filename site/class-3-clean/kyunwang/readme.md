@@ -1,14 +1,14 @@
 # Data cleaning with template graph
 Given a template graph. I'll be cleaning a dataset from KNMI.
 
-[![][previewImg]][]
+![][previewImg]
 
 ## Data
 This is a dataset from KNMI about the weather in:
-- schiphol
-- de bilt
-- lelystad
-- huibertgat
+- Schiphol
+- De bilt
+- Lelystad
+- hHuibertgat
 
 We will be using three columns of the dataset namely:
 - STN - Station code
