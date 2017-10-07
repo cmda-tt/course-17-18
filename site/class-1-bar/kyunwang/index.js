@@ -198,7 +198,10 @@ function sortData(data, typeSort) {
 d3.selectAll('#colorChange')
 	.on('click', function () {
 
+<<<<<<< HEAD
 		console.log(colorIndex);
+=======
+>>>>>>> 6a8509732bd20453bdf9aea7490e639fedc1a226
 		if (colorIndex === 1) {
 			zAxis = d3.scaleOrdinal()
 				.range(["#98abc5", "#e5e5ff", "#b2b2ff", "#9999ff", "#7f7fff", "#4c4cff", "#0000ff"]);

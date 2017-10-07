@@ -1,0 +1,4 @@
+dag,eten
+2017-09-29,Pizza
+2017-09-30,Roti
+2017-10-01,Indisch

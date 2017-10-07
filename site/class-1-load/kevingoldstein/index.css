@@ -1,0 +1,23 @@
+body {
+    font-family: helvetica;
+    background-color: aliceblue;
+}
+
+h1 {
+    color: coral;
+    text-align: center;
+}
+
+summary {
+    color: cadetblue;
+    font-size: 1.5em;
+    width: 8em;
+    margin: auto;
+}
+
+p {
+    color: grey;
+    font-size: 1.5em;
+    width: 5em;
+    margin: auto;
+}

@@ -1,0 +1,24 @@
+<!doctype html>
+<meta charset=utf8>
+
+<title>@kevingoldstein</title>
+<meta content=width=device-width,initial-scale=1 name=viewport>
+
+<link rel="stylesheet" href="index.css">
+<script src="https://d3js.org/d3.v4.min.js"></script>
+
+<h1>What the Dinner?!</h1>
+
+<script>
+    d3.csv('./index.csv', function (err, gegeten) {
+        if (err) throw err;
+        gegeten.forEach(function (q) {
+            var details = document.createElement('details');
+            var summary = document.createElement('summary');
+            var paragraph = document.createElement('p');
+            details.appendChild(summary).textContent = q.day;
+            details.appendChild(paragraph).textContent = q.dinner;
+            document.body.appendChild(details);
+        })
+    })
+</script>

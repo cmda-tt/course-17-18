@@ -1,0 +1,11 @@
+text {
+    font-size: 15px;
+    font-weight: 800;
+    font-family: Roboto;
+}
+
+circle {
+    stroke: white;
+    stroke-width: 8px;
+    stroke-opacity: .50;
+}
