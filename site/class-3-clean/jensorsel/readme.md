@@ -19,7 +19,7 @@ The point of this assignment is to 'clean up' a dataset using JavaScript. Most d
     doc = doc.slice(end2).trim()
  ```
  * The code below is used to actually load the data in. First of all we decide how the dates in the dataset need to be processed. These are in a `%Y%m%d` format. We're going to store the data in `var places` for now, by using csvParseRows we can create arrays of objects from our .txt file. The function `map()` defines what the values and keys will be in these objects. `knmiCodes[d[1]]` refers the number of the weather station back to the knmiCodes object, and replaces the station's number with its name. The `date: parseTime` line combines the date with the hour. This is why the `var parseTime` has to be updated to `%Y%m%d%H`. Finally, the temperature has to be turned into a `Number`. It is also divided by 10, since the temperatures in the dataset are per 0.1 Celsius.
- ```var parseTime = d3.timeParse("%Y%m%d%H")
+  ```var parseTime = d3.timeParse("%Y%m%d%H")
     var places = d3.csvParseRows(doc, map)
     function map(d) {
     return {
@@ -30,7 +30,8 @@ The point of this assignment is to 'clean up' a dataset using JavaScript. Most d
   }
 ```
 * Finally, this piece of code is used to group the values per weather station, since the data is going to be used in a multi-line chart. It's taken from [@dipsaus9's code](https://github.com/cmda-fe3/course-17-18/blob/master/site/class-3-clean/dipsaus9/index.html), since I didn't initially know what to do. The `d3.nest()` function is used to group the data that was previously stored in `var places` together. The weather stations' names are used as the keys, the data in places is used as their values. All of these changes combined resulted in working code.
-```places = d3.nest()
+ ```
+ places = d3.nest()
    .key(function(d) { return d.name; })
    .entries(places)
    .map(function(group){
