@@ -1,6 +1,8 @@
 # Data cleaning with template graph
 Given a template graph. I'll be cleaning a dataset from KNMI.
 
+[![][previewImg]][]
+
 ## Data
 This is a dataset from KNMI about the weather in:
 - schiphol
@@ -21,3 +23,5 @@ In the template code there was a variable that which I was using was reset. (var
 I overlooked it.
 
 To the point of almost completing. I didn't know how to make the *values* property, so I had to look for examples. Same for the date format as is was that the way I had the *timeParse* set up was incorrect.
+
+[previewImg]: preview.png
