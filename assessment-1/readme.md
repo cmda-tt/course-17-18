@@ -32,6 +32,9 @@ host the project through [GitHub Pages][pages].  First, fork the repo.  Then,
 work on your project and upload the final results to your fork either using
 Git or the GitHub interface as covered in [class 1][c1].
 
+We will download your code when it’s due and check your assessment on GitHub.
+You do not need to create a pull request.
+
 ## Goals
 
 **Assessment 1** tests that you’ve attained the following knowledge:
