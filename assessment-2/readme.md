@@ -2,6 +2,13 @@
 
 ## Table of Contents
 
+*   [Synopsis](#synopsis)
+*   [Description](#description)
+*   [Goals](#goals)
+*   [Interactive](#interactive)
+*   [Data](#data)
+*   [Rubric](#rubric)
+
 ## Synopsis
 
 *   **Weight**: 30%
