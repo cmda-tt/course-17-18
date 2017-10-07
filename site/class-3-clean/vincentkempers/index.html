@@ -127,31 +127,33 @@ function onload (err, doc) {
 
   var deleteHeader = doc.indexOf('STN,YYYYMMDD');
   doc = doc.slice(deleteHeader);
-  var end = doc.indexOf('\n', deleteHeader);
+  var end = doc.indexOf('\n', '240');
   doc = doc.slice(end).trim();
   doc = doc.replace(/ +/g, '');
-  var parseTime = d3.utcParse('%Y%m%dT%H:%M:%S.%LZ'),
-    places = d3.csvParseRows(doc, map);
-
-  function map (d) {
-    return {
-      name: knmiCodes[d[0]],
-      date: parseTime(d[1].concat('T', d[2], ':00:00.000Z')),
-      temperature: Number(d[7] / 10)
-    };
-  }
+  var parseTime = d3.timeParse('%Y%m%dT%H');
+  var testData = d3.csvParseRows(doc);
+  var places = d3.csvParseRows(doc, map);
 
   places = d3.nest()
-          .key(function (d) {
-            return d.name;
-          })
-          .entries(places).map(function (aSort) {
-            return {
-              name: aSort.key,
-              values: aSort.values
-            };
-          });
-  console.log(places);
+    .key(function(d) { 
+      return d.name; 
+    })
+    .entries(places).map(function (aSort) {
+      return {
+        name: aSort.key,
+        values: aSort.values
+      };
+    });
+
+  function map(placeData) {
+    return {
+      name: knmiCodes[placeData[0]],
+      date: parseTime(placeData[1].concat('T', placeData[2])),
+      temperature: placeData[7]/10
+    }
+  }
+
+ places.pop();
 
   // Do not change stuff below this line.
    x.domain(d3.extent(flatten(places), date));
