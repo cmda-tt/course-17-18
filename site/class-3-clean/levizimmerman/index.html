@@ -143,7 +143,7 @@
       return {
         stn: Number(row[0]),
         date: parseTime(row[1] + row[2]),
-        temperature: Number(row[7]) / 10
+        temperature: row[7] !== '' ? Number(row[7]) / 10 : null // if no data is available, return null to prevent data drawing
       };
     }
 
