@@ -172,7 +172,7 @@ optionally a `preview.png` file, and a data file (such as `index.json`,
 
 [c4]: class-4.md
 
-[slides]: https://docs.google.com/presentation/d/1TpoPilc1qVIQU07u_IdPeNqSZcbgliPaLF0zZUWGvWE/edit?usp=sharing
+[slides]: https://docs.google.com/presentation/d/1TpoPilc1qVIQU07u_IdPeNqSZcbgliPaLF0zZUWGvWE
 
 [examples]: https://cmda-fe3.github.io/course-17-18/class-3/
 
