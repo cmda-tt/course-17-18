@@ -26,7 +26,7 @@
 ## Synopsis
 
 *   **Date**: 09-10 (ID 1), 11-10 (ID 2), or 09-10 (ID 3)
-*   **Slides**
+*   [**Slides**][slides]
 *   [**Examples**][examples]
 
 ## Schedule
@@ -120,6 +120,8 @@ optionally a `preview.png` file, and a data file (such as `index.json`,
 [source-cover-source]: https://unsplash.com/photos/vpR0oc4X8Mk
 
 [source-cover-author]: https://unsplash.com/@samuelzeller
+
+[slides]: https://docs.google.com/presentation/d/1eKq-PmOYPOVWey4G-1tuU6vDcBUrhd7Og14nXv30ARQ
 
 [examples]: https://cmda-fe3.github.io/course-17-18/class-4/
 
