@@ -24,8 +24,7 @@ function onload(err, data) {
   /* Fail if anything went awry. */
   if (err) throw err;
 
-  d3.select('label').style('left', '16px');
-  d3.select('label').style('top', '16px');
+  d3.select('label').style('left', '16px').style('top', '16px');
 
   /* Set domains. */
   x.domain(data.map(letter));
