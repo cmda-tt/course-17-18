@@ -8,29 +8,29 @@ For my first assignment of class 3 I learned load, clean, and transform data so 
 
 ### How I cleaned the data
 1. I first I assigned the type of the file `index.txt`.
-2. I skamed the file to see if I saw missing signs (If this was the situatuation I had to find out in what kind of charset the file was written.)
+2. I had a quick look into the file to see if I saw missing signs (If this was the situation I had to find out in what kind of charset the file was written.)
 3. Next I looked at the structure of the file and saw that:
-    - The first section of the file is a introduction about the file. this goed till line 36.
+    - The first section of the file is an introduction about the file. This goes till line 36.
     - After the introduction there is # with a white space line 37.
     - After the white space cones the data, line 38 until 133.
-    - The data is Comma-separated values with spaces inbetween. 
+    - The data is Comma-separated values with spaces in between. 
 4.  In my `index.html` file in my script I created a `var header` where I assigned it to `doc.indexOf('STN,YYYYMMDD')`. 
-    - To check the resul I used `console.log(doc)`. 
+    - To check the result I used `console.log(doc)`. 
     - Because this was a long data I used then `// console.log(doc.slice(0,500))` to get a short version of the doc. 
 5. After I created a `var end` and assigned it to a white space (enter).
-    - This to trhow away the white space that is not needed. 
-6. At this step I rewrote the data to a beter structure. 
+    - This to throw away the white space that is not needed. 
+6. At this step I rewrote the data to a better structure. 
     - To do that I used `csvParseRows` and a `function map(d)`.
     - I used `console.log(data[0])` to help me see what I was doing to the structure.
-6. I assigned the new doc stucture to the `var places`.
-    - with `d3.nest()` I grouped the data so that the data was succesfull able to show in the graph.
+6. I assigned the new doc structure to the `var places`.
+    - with `d3.nest()` I grouped the data so that the data was successful able to show in the graph.
 
 
 ## Data 
 The data was obtained from the [KNMI website](https://projects.knmi.nl/klimatologie/uurgegevens/selectie.cgi).
 
 It was a `.txt` file that I turned into readable data.
-The dataset from KNMI was about the weather in the following Weather stations:
+The data set from KNMI was about the weather in the following Weather stations:
  * The Bilt
  * Schiphol
  * Leeuwarden
