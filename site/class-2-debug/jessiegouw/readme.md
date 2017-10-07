@@ -80,7 +80,7 @@ svg {
 ```
 
 Not only did I changed the values into 'none', 'vw' and 'vh', but I
-also changed the amount of tab spacing in the whole css file 
+also changed the amount of tab spacing in the whole css file
 because I set my tab default to four spaces:
 ```css
 svg {
@@ -95,7 +95,7 @@ svg {
 ```
 
 
-Spended some good quality time with my duck, this sentence is unnecessary. Cheers. 
+Spended some good quality time with my duck, this sentence is unnecessary. Cheers.
 
 ## License
 
@@ -107,4 +107,4 @@ MIT © Jessie Gouw
 
 [cover]: preview.png
 
-[url]: https://cmda-fe3.github.io/course-17-18/class-2/debug
+[url]: https://cmda-fe3.github.io/course-17-18/class-2-debug/jessiegouw

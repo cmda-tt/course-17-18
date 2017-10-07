@@ -14,8 +14,8 @@ var
   color   = d3.scaleOrdinal()
                 .range(colors),
   arc     = d3.arc()
-                .outerRadius(radius - 25)
-                .innerRadius(radius - 95),
+                .outerRadius(radius - 16)
+                .innerRadius(radius - 128),
   pie     = d3.pie()
                 .sort(null)
                 .value(population),

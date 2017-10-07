@@ -64,6 +64,8 @@ In this assignment you’ll learn to clean and transform data.
 
 *   [Learn JS Data](http://learnjsdata.com)
     — Learn data cleaning, manipulation, and wrangling
+*   [Slides][]
+*   [Examples found in the slides][examples]
 
 ### Description
 

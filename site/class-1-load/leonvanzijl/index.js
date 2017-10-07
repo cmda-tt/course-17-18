@@ -49,7 +49,7 @@ d3.json('index.json', function (err, questions) {
 	jsonContainerSelect.appendChild(dayTagJson);
 
 	// Dinner aanmaken in een P
-	var dinnerTagJsown = document.createElement("P");
+	var dinnerTagJson = document.createElement("P");
 	var dinnerDataJson = document.createTextNode(q.dinner);
 	dinnerTagJson.appendChild(dinnerDataJson);
 	jsonContainerSelect.appendChild(dinnerTagJson);
