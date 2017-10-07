@@ -1,4 +1,4 @@
-# Change
+# Representation
 
 An grouped or stacked bar chart visualising random data based on a
 [`bl.ock`][block] by [**@mbostock**][block-author] (GPL-3.0).
@@ -36,4 +36,4 @@ MIT © Titus Wormer
 
 [cover]: preview.png
 
-[url]: https://cmda-fe3.github.io/course-17-18/class-4/change/
+[url]: https://cmda-fe3.github.io/course-17-18/class-4/representation/
