@@ -1,0 +1,4 @@
+Day	Dinner
+2017-10-01	Pizza
+2017-09-30	Aardappelpuree, witlof, champignons
+2017-09-10	Spaghetti
