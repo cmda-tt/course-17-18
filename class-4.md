@@ -31,8 +31,11 @@
 
 ## Schedule
 
-*   Interactive visualisations
-    ([**subgoal 9**][s9] and [**subgoal 10**][s10], [**subgoal 11**][s11])
+*   Events
+    ([**subgoal 11**][s11])
+*   Interaction
+    ([**subgoal 9**][s9], [**subgoal 10**][s10], and [**subgoal 11**][s11])
+*   Questions
 
 ## Assignments
 
