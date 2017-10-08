@@ -1,12 +1,12 @@
 /**
  * COMMENTS TO UNDERSTAND D3.JS A LIL'
- *
+ * 
  * .enter() creates the initial join of data to elements, creating one circle element for every data element in the array.
- *
- *
+ * 
+ * 
  * SOURCE:
  * - http://bl.ocks.org/alansmithy/e984477a741bc56db5a5
- *
+ * 
  */
 
 // For changing the colors
@@ -51,7 +51,7 @@ function setData(data) {
 		.align(0.1);
 
 	// Set the range/height in rangeRound
-	// From height to 0 - 400 to 0 - in px?
+	// From height to 0 - 400 to 0 - in px?	
 	let yAxis = d3.scaleLinear()
 		.rangeRound([height, 0]);
 
@@ -101,7 +101,7 @@ function setData(data) {
 		.attr("class", "axis")
 		.attr("transform", "translate(0," + height + ")")
 		// Call a function from this selection
-		// Constructs a new bottom-oriented axis generator for the given scale, with empty tick arguments, a tick size of 6 and padding of 3.
+		// Constructs a new bottom-oriented axis generator for the given scale, with empty tick arguments, a tick size of 6 and padding of 3. 
 		.call(d3.axisBottom(xAxis));
 
 	// set y-axis ticks + label
