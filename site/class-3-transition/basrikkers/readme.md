@@ -1,5 +1,5 @@
 # D3 transitions
-####### changing a static graph to a dynamic one using d3.transitions
+###### changing a static graph to a dynamic one using d3.transitions
 
 ## Background
 
