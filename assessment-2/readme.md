@@ -13,7 +13,7 @@
 
 *   **Weight**: 30%
 *   **Type**: Remote
-*   **Grade**: Rubric
+*   **Grade**: [Rubric][]
 *   **Due**: 11-10 12:00 (ID 1), 12-10 15:20 (ID 2), 10-10 15:20 (ID 3)
 
 ## Description
@@ -48,20 +48,20 @@ You do not need to create a pull request.
 
 ## Interactive
 
-Interactive means non-trivial interactivity.  Non-trivial means that the
-visualised data changes and uses enter, update, and exit.  For example, this
-includes sorting and filtering and excludes zooming and tooltips.
+Interactive means non-trivial interactivity: data changes and uses enter,
+update, and exit.  For example, this includes sorting and filtering and excludes
+zooming and tooltips.
 
 ## Data
 
-You _may_ use [other data][other-data].
-You _may not_ use data given in previous assignments or assessments.
-You _may not_ use data provided in d3 examples.
-You _may not_ make up your own data.
+You _may_ use [recommended data][recommended-data].
 You _may_ use other data, provided you ask a lecturer and they give an **ok**.
-
 You _must_ provide a link on how to download the data.
 You _must_ clean data with code and provide that code with your assessment.
+
+You _may not_ use data given in previous assignments or assessments.
+You _may not_ use data provided in d3 examples.
+You _may not_ use random data.
 
 ## Rubric
 
@@ -122,6 +122,8 @@ You _must_ clean data with code and provide that code with your assessment.
 
 [data]: #data
 
+[rubric]: #rubric
+
 [pages]: https://pages.github.com
 
 [c1]: ../class-1.md
@@ -136,4 +138,4 @@ You _must_ clean data with code and provide that code with your assessment.
 
 [s11]: ../readme.md#subgoal-11
 
-[other-data]: ../assessment-1/readme.md#other-data
+[recommended-data]: ../assessment-1/readme.md#other-data
