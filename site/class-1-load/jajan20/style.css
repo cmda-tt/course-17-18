@@ -1,0 +1,17 @@
+body {
+	font-family: OpenSans;
+}
+
+h1 {
+	color: crimson;
+
+}
+
+h3 {
+	color: deepskyblue;
+	margin: 0;
+}
+
+p {
+	margin-top: .5em;
+}
