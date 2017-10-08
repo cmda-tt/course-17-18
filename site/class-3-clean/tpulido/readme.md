@@ -2,7 +2,7 @@
 
 File cleaning and displaying data on temperature chart. Chart made with [D3 library](https://d3js.org/) by [@mbostock](https://github.com/mbostock).
 
-![preview.png](url)
+![preview.png](https://github.com/tpulido/course-17-18/blob/clean/site/class-3-clean/tpulido/preview.png)
 
 ## Background
 
