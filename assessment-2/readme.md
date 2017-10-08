@@ -83,7 +83,7 @@ You _may not_ use random data.
       <th align="center" scope="row">Representation</th>
       <td align="center">There is no data, no visualisation, or data is barely used in the visualisation (if at all)</td>
       <td align="center">Data and a visualisation exist but interpreting the visualisation is harder than interpreting the data itself</td>
-      <td align="center"><strong>Dirty</strong> data is displayed in an <strong>interactive</strong> visualisation which is not a <strong>basic example</strong></td>
+      <td align="center"><strong>Dirty</strong> data is displayed in an <strong>interactive</strong> visualisation that is not a <strong>basic example</strong></td>
       <td align="center">The visualisation goes beyond an example; <strong>Interaction contributes to gaining insight in data</strong>; There are demonstrable additions and the student can name them</td>
       <td align="center">🎓<br>Several of the data’s dimensions are beautifully visualised <strong> through interaction</strong></td>
     </tr>
