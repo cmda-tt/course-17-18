@@ -1,6 +1,8 @@
 # Transitions with a Bubble Chart
 In this exercise I am adding transitions and easing to element within the bubble chart.
 
+![bubble preview](https://github.com/levizimmerman/course-17-18/blob/transition/site/class-3-transition/levizimmerman/bubble-preview.gif?raw=true)
+
 ## Background
 In this project you will find the following files:
 * [`index.html`](https://github.com/levizimmerman/course-17-18/blob/transition/site/class-3-transition/levizimmerman/index.html) - adds basic structure.
