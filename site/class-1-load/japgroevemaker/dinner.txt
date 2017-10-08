@@ -1,0 +1,4 @@
+Day               Dinner
+2017-09-23        Sushi
+2017-09-24        Avocado pasta
+2017-09-25        Rode kool  
