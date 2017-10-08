@@ -1,0 +1,28 @@
+form {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    position:absolute;
+    text-align: center;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin-left: 530px;
+    margin-top: 40px;
+    border:  1px solid lightskyblue;
+    border-radius: 5px;
+    
+}
+
+label {
+    display: block;
+    margin: 5px;
+}
+
+h1 {
+    font-size: 1em;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: darkblue;
+}
+
+body {
+    text-align: center;
+}
