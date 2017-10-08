@@ -118,13 +118,15 @@ function onload(err, doc) {
   var parseTime = d3.timeParse("%Y%m%dT%H:%M:%S.%LZ")   // Create a var parseTime and save this time format Year, month, day, hour, minute, seconds and mil. secs   
   var places = d3.csvParseRows(doc, map)                // Create a var and parse the csv data into rows. mapping the columns.
 
-  function map(d) {   // Function map
-    return {                                                      // Return the following:
-      date: parseTime((d[1].concat('T', d[2], ':00:00.000Z'))),   // Return data from the second column, parseTime as format and combine it with the time column.
-      temperature: (Number(d[7]) / 10),   // Return data from column 7, force it into a number and divide it by column 10.
-      name: knmiCodes[d[0]]               // kmniCodes already declared, check it with the array and return the name corresponding with the number.
+    function map(d) {                         // Function map
+    if (isNaN(parseInt(d[7], 10))) return;    // If you get 
+      return {                                
+      name: knmiCodes[d[0]],                  // kmniCodes already declared, check it with the array and return the name corresponding with the number.
+      date: parseTime((d[1].concat('T', d[2], ':00:00.000Z'))),  //Return data from the second column, parseTime as format and combine it with the time column. 
+      temperature: (Number(d[7]) / 10),       // Return the temperature data from column 7, divide it by column 10.
     }
   }
+
   var places = d3.nest().key(function(d) {    // Create a variable, and nest the key data (date, temperature, name).
     return d.name;                            // return the name key and group them together.
   }).entries(places).map(function(group) {    // so now every place has multiple values and in turn these values have (date, temperature and name).
