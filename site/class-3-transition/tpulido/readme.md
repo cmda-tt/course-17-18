@@ -9,7 +9,6 @@ Bubble chart made with [D3 library](https://d3js.org/) by [@mbostock](https://gi
 ## Background
 
 Changes I made:
-On hover
 * On hover bubble and text increase to random size
 * On hover colours of bubbel is set randomly
 * On click bubble dissapears
