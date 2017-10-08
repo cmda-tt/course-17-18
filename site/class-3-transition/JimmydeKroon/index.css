@@ -1,0 +1,33 @@
+body {
+  font: 10px sans-serif;
+  background-color: #212121;
+}
+
+.group-tick line {
+  stroke: #f3f3f3;
+}
+
+.group-tick text {
+  stroke: #f3f3f3;
+}
+
+.ribbons {
+  fill-opacity: 0.67;
+}
+
+.headings {
+  float: right;
+  margin-top: 10rem;
+  margin-right: 15rem;
+  font-size: 32px;
+  color: #0000FF;
+  transition: color 3s ease;
+}
+
+body.loaded .headings {
+    color: #DC143C;
+}
+
+h2 {
+  margin-top: 5rem;
+}
