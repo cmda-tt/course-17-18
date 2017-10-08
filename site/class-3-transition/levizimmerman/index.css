@@ -1,0 +1,21 @@
+body {
+  padding: 1rem;
+  font-family: 'Droid Sans', sans-serif;
+}
+
+svg {
+  width: calc(100vw - 40px);
+  height: calc(100vh - 140px);
+}
+
+h1 {
+  text-align: center;
+}
+
+.node tspan {
+  fill: #fff;
+  text-transform: capitalize;
+  text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.2);
+  letter-spacing: 1px;
+  font-size: 10px;
+}
