@@ -7,7 +7,18 @@ d3’s transitions.  The chart used is based on a [`bl.ock`](https://bl.ocks.org
 ## Background
 
 In this chart I made a few additions to have transitions in the chart.
+The transitions I added where:
 
+For a smooth fade-in
+```javascript
+g.style("opacity", "0")
+    .transition()
+    .duration(1000)
+    .style("opacity", "1")
+    .attr("transform", "translate(0,40)");
+```
+
+> Next to the transitions I added my own style/color in the chart. I also made the code my own by for example changing the `''` to `""`
 ## Data
 
 The unemployment rate of Americans
