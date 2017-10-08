@@ -1,0 +1,21 @@
+h1 {
+    text-align: center;
+    font-family: Courier;
+}
+
+* {
+    background-color: #FFE1E7;
+}
+
+p {
+    font-family: Courier;
+}
+
+.bar {
+    fill: #00CE22;
+}
+
+.bar:hover {
+    fill: #00FF2A;
+}
+
