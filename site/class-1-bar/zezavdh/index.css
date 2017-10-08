@@ -1,0 +1,44 @@
+*{
+	background-color: #dddddd;
+}
+
+h1{
+	font-family: "Avenir";
+	text-align: center;
+	color:#00669c;
+	margin-top:70px;
+}
+
+body img{
+	width:170px;
+	position: absolute;
+	top:250px;
+	right:100px;
+}
+
+.bar {
+ 	fill: #ffa400;
+}
+
+.bar:hover {
+	fill: #00669c;
+}
+
+.axis--x path {
+	display: none;
+}
+
+text{
+	fill:#a30c49;
+	font-family: "Avenir";
+	font-size:15px;
+}
+
+.domain{
+	stroke:#a30c49;
+	stroke-width:3px;
+}
+
+.tick{
+	fill:red;
+}

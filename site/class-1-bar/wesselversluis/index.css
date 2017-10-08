@@ -1,0 +1,13 @@
+.bar {
+  fill: red;
+}
+
+.bar:hover {
+  fill: pink;
+  outline: 2px solid black;
+    transition: 1s;
+}
+
+.axis--x path {
+  display: none;
+}

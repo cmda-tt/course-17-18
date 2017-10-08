@@ -350,10 +350,10 @@ Create a file, `index.html`, and copy-paste the following document into it.
 
 Open up your terminal and go to the directory created in [**step A**][c1la].
 On macOS, you can type `cd` and a space and drag the directory in
-question to your terminal and finally press enter, to go there.
+question to your terminal and finally press enter to go there.
 
-Then, start a [simple server][server] in your directory.  You can probably
-do that with:
+Then, start a [simple server][server] in your directory.  If you have [Python][]
+installed, you can probably do that with:
 
 ```sh
 python -m SimpleHTTPServer 8000
@@ -364,8 +364,24 @@ in your browser.
 
 > 💁 Not working?  Have you pressed enter?
 
-If you see an error saying that `python` isn’t found, see the aforementioned
-link on how to run a simple server on your system.
+If you see an error saying that `python` isn’t found, and you’ve used Ruby,
+Node, or something else before see [this page][server]  on how to start a
+simple server on your system.
+
+If this all sounds unfamiliar to you, install [Node.js][node] (which includes
+npm), and run:
+
+```sh
+npm install -g http-server
+```
+
+…in your terminal to install a simple server.  Then, run:
+
+```sh
+http-server -p 8000
+```
+
+…any time in the future you may need a server.
 
 When done open up your browser and navigate to `localhost:8000`.  This should
 show a message suggesting you to open your console.
@@ -437,7 +453,8 @@ the website][load-gallery].
     Keep **Commit directly to the load branch** selected
 5.  Now, follow [**substep 3**][c1pd3] from [step D][c1pd] of the [Playing with
     SVG][play] assignment to upload the **files in your directory on your
-    computer** to the newly created directory on GitHub on the `load` branch.
+    computer** (no, not the directory, the files!) to the newly created
+    directory on GitHub on the `load` branch.
     In the commit message at the bottom, use `Add files for @username` (in my
     case `Add files for @wooorm`).
     Keep **Commit directly to the load branch** selected
@@ -468,12 +485,18 @@ modifying an existing bar chart.
 *   **Due**: 7 a.m. the day of [class 2][c2]
 *   **Results**: [Gallery][bar-gallery]
 
+### Tips
+
+*   [Let’s Make a Bar Chart](https://bost.ocks.org/mike/bar/) by
+    [**@mbostock**](https://github.com/mbostock)
+
 ### Description
 
 The project you’ll hand in will be similar to the one from [Loading data][load]
 but this time will render a bar chart in SVG.
 
-1.  Pick a **bar chart** from [d3’s example gallery][d3-examples] (tip: see the
+1.  Pick a **bar chart** (no, not another type of chart, a bar chart) from
+    [d3’s example gallery][d3-examples] (tip: see the
     [Basic charts][basic-charts] section)
 2.  Copy-paste the files over to your own computer and get the chart working
     (tip: you may need to start a server, see [step E][c1le] of [Loading
@@ -606,3 +629,7 @@ your PR and include it in the [gallery][bar-gallery].
 [d3-examples]: https://github.com/d3/d3/wiki/Gallery
 
 [basic-charts]: https://github.com/d3/d3/wiki/Gallery#basic-charts
+
+[python]: https://www.python.org
+
+[node]: https://nodejs.org/en/

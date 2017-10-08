@@ -1,0 +1,56 @@
+<!doctype html>
+<meta charset=utf8>
+
+<title>@floortje93</title>
+<meta content=width=device-width,initial-scale=1 name=viewport>
+
+
+<script src="https://d3js.org/d3.v4.min.js"></script>
+
+
+<h1>Dinners</h1>
+<div id="meals">
+
+</div>
+
+<script>
+d3.json("index.json", function(error, meals) {
+
+  jsonTitle = document.createElement("h2");
+  jsonTitle.textContent = "JSON";
+  document.body.appendChild(jsonTitle);
+
+  for(var i = 0; i < meals.length; i++){
+        mealDate = document.createElement("h3");
+        mealDate.textContent = meals[i].date;
+        document.body.appendChild(mealDate);
+
+        mealContent = document.createElement("p");
+        mealContent.textContent = meals[i].meal;
+        document.body.appendChild(mealContent);
+  }
+});
+
+</script>
+
+
+<script>
+d3.csv("index.csv", function(error, meals) {
+  // console.log(meals);
+csvTitle = document.createElement("h2");
+csvTitle.textContent = "CSV";
+document.body.appendChild(csvTitle);
+
+for(var i = 0; i < 3; i++){
+mealDate = document.createElement("h3");
+mealDate.textContent = meals[i].date;
+document.body.appendChild(mealDate);
+
+mealContent = document.createElement("p");
+mealContent.textContent = meals[i].meal;
+document.body.appendChild(mealContent);
+
+}
+});
+
+    </script>

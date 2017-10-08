@@ -1,0 +1,42 @@
+.bar {
+  fill: #f1f1f1;
+  animation: fadein .3s ease 1 forwards;
+  opacity: 0;
+  stroke: #f1f1f1;
+  stroke-width: 2px;
+  transform: translateY(-100%);
+}
+
+.bar:hover {
+  fill: transparent;
+}
+.axis--x path {
+  display: none;
+}
+body{
+  background-color: #dcf;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100vh;
+}
+text{
+  fill: #fff !important;
+}
+line,path{
+  stroke: #fff !important;
+}
+path{
+
+}
+svg{
+  margin: auto;
+  display: block;
+}
+
+@keyframes fadein {
+  to{
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

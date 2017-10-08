@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset=utf8>
+    <title>@rvdpas</title>
+    <meta content=width=device-width,initial-scale=1 name=viewport>
+
+    <link rel="stylesheet" href="index.css">
+
+    <script src="https://d3js.org/d3.v4.js"></script>
+</head>
+
+<body>
+    <div class="top">
+        <h1>Dinners</h1>
+    </div>
+
+    <script>
+
+        d3.csv("./index.csv", csv);
+        d3.json("./index.json", json);
+
+        function csv(err, data) {
+            if (err) throw err;
+            render('CSV', data);
+        };
+
+        function json(err, data) {
+            if (err) throw err;
+            render('JSON', data);
+        };
+
+        var body = document.body;
+
+        function render(file, data) {
+            document.body.appendChild(document.createElement('h2')).textContent = file;
+            data.forEach(function(item) {
+                body.appendChild(document.createElement('h3')).textContent = item.day;
+                body.appendChild(document.createElement('p')).textContent = item.dinner;
+
+            })
+
+        }
+
+    </script>
+</body>
+</html>

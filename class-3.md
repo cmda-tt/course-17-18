@@ -64,6 +64,8 @@ In this assignment you’ll learn to clean and transform data.
 
 *   [Learn JS Data](http://learnjsdata.com)
     — Learn data cleaning, manipulation, and wrangling
+*   [Slides][]
+*   [Examples found in the slides][examples]
 
 ### Description
 
@@ -101,7 +103,7 @@ file.
 
 > Bald man on subway platform by [**@jmduarte**][transition-cover-author].
 
-In this assignment you’ll learn to clean external data.
+In this assignment you’ll learn to add transitions to a chart.
 
 ### Synopsis
 
@@ -170,7 +172,7 @@ optionally a `preview.png` file, and a data file (such as `index.json`,
 
 [c4]: class-4.md
 
-[slides]: https://docs.google.com/presentation/d/1TpoPilc1qVIQU07u_IdPeNqSZcbgliPaLF0zZUWGvWE/edit?usp=sharing
+[slides]: https://docs.google.com/presentation/d/1TpoPilc1qVIQU07u_IdPeNqSZcbgliPaLF0zZUWGvWE
 
 [examples]: https://cmda-fe3.github.io/course-17-18/class-3/
 

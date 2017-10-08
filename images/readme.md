@@ -1,5 +1,8 @@
 # Images
 
+*   [`binders.jpg`](binders.jpg)
+    ([**source**](https://unsplash.com/photos/vpR0oc4X8Mk))
+    — Scaled and cropped
 *   [`books.jpg`](books.jpg)
     ([**source**](https://unsplash.com/photos/YjVa-F9P9kk))
     — Scaled and cropped
@@ -9,6 +12,9 @@
 *   [`cmd.jpg`](cmd.jpg)
     ([**source**](https://moodle.cmd.hva.nl/mod/page/view.php?id=1746))
     — Scaled and cropped
+*   [`dance.jpg`](dance.jpg)
+    ([**source**](https://unsplash.com/photos/6Woj_wozqmA))
+    — Scaled
 *   [`ducks.jpg`](ducks.jpg)
     ([**source**](https://unsplash.com/photos/59yg_LpcvzQ))
     — Scaled and cropped

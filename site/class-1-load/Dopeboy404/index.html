@@ -1,0 +1,42 @@
+<!doctype html>
+<meta charset=utf8>
+
+<title>@Dopeboy404</title>
+<meta content=width=device-width,initial-scale=1 name=viewport>
+
+
+<script src="https://d3js.org/d3.v4.min.js"></script>
+
+
+
+<h1>Dinners</h1>
+<div><h2 id="csv">CSV</h2></div>
+<div><h2 id="json">JSON</h2></div>
+
+
+<script>
+  var csvtitle = document.getElementById("csv");
+  
+    d3.csv("./index.csv", csv);
+    function csv(err, csv) {
+        if (err) throw err;
+       csv.forEach(function (row) {
+        csvtitle.appendChild(document.createElement("h3")).textContent = row.datum;
+        csvtitle.appendChild(document.createElement("p")).textContent = row.voedsel;
+   
+    });
+    };
+
+    var jsontitle = document.getElementById("json");
+  
+    d3.json("./index.json", json);
+    function json(err, json) {
+        if (err) throw err;
+       json.forEach(function (row) {
+        jsontitle.appendChild(document.createElement("h3")).textContent = row.datum;
+        jsontitle.appendChild(document.createElement("p")).textContent = row.voedsel;
+   
+    });
+    };
+
+</script>

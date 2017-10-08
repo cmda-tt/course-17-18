@@ -15,8 +15,8 @@ Assignments make up 25 hours in this course (± 30%).
 *   [Class 2 × debugger;](class-2.md#debugger)
 *   [Class 3 × Clean](class-3.md#clean)
 *   [Class 3 × Transition](class-3.md#transition)
-
-> 💁 This list will be updated when more assignments are added.
+*   [Class 4 × Interactivity](class-4.md#interactivity)
+*   [Class 4 × Source](class-4.md#source)
 
 Each assignment is graded **ok** or **not ok**.
 

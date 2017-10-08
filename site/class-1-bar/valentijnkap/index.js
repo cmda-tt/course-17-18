@@ -23,7 +23,7 @@ var svg = d3.select("section.graph").append("svg")
     .attr("width", width + margin.left + margin.right)
     .attr("height", height + margin.top + margin.bottom)
   .append("g")
-    .attr("transform", 
+    .attr("transform",
           "translate(" + margin.left + "," + margin.top + ")");
 
 d3.csv("index.csv", function(error, data) {
@@ -33,8 +33,8 @@ d3.csv("index.csv", function(error, data) {
         d.value = +d.Uren;
     });
 
-    console.log(data)
-  
+    // console.log(data)
+
   x.domain(data.map(function(d) { return d.date; }));
   y.domain([0, d3.max(data, function(d) { return d.value; })]);
 
@@ -70,6 +70,6 @@ d3.csv("index.csv", function(error, data) {
       })
       .on("mouseout", function(d) {
         d3.select(this).transition().style("fill", "#E27C29")
-      }); 
+      });
 
 });

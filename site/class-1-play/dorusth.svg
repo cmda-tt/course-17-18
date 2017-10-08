@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="100 30 500 487" height="600" width="880">
+  <!--Update the title with your username-->
+  <title>@dorusth</title>
+
+  <!--Add stuff here-->
+<g
+	stroke-width="1"
+	stroke="green"
+	font-family="serif"
+	font-size="10"
+	>
+	<circle
+		cx="200"
+		cy="150"
+		r="50"
+		opacity=".8"
+	/>
+
+	<rect
+		x="300"
+		y="300"
+		height="40"
+		width="40"
+		fill="tomato"
+	/>
+
+	<path d="M 100 300 Q 150 50 200 300 Q 250 550 300 300 Q 350 50 400 300 C 450 550 450 50 500 300 C 550 50 550 550 600 300 A 50 50 0 1 1 700 300 " />
+
+	<line
+		x1="120"
+		y1="130"
+		x2="160"
+		y2="170"
+		stroke-width="10"
+		stroke="green"
+	/>
+
+	<polygon
+		points="100,120 200,220 100,420"
+		stroke="blue"
+	/>
+
+	<text
+		x="40"
+		y="40"
+	>
+		test
+	</text>
+</g>
+</svg>
