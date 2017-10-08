@@ -120,9 +120,11 @@ function onload(err, doc) {
   doc = doc.replace('#', '').trim();
   doc = doc.replace(/ +/g, '')
   
-  var parseTime = d3.timeParse("%Y%m%d%H")
+  var parseTime = d3.timeParse('%Y%m%d%H')
+
   var data = d3.csvParseRows(doc, map)
   function map(d) {
+    if (d[7] === '') return;
     return {
       name: knmiCodes[d[0]],
       date: parseTime(d[1] + d[2]),
@@ -130,10 +132,11 @@ function onload(err, doc) {
     }
   }
 
-    // console.log(doc);
+  // console.log(doc);
   // console.log(doc.slice(0,500));
   // console.log(data.slice(0,5));
-  // console.log(data[0]);
+  //   console.log(data[0]);
+  //   console.log(data[90]);
 
   // Use this place to transform doc (without changing it manually) into
   // something that looks like `example.json`:
