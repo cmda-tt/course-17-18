@@ -1,57 +1,84 @@
-var svg = d3.select("svg"),
-width = +svg.attr("width"),
-height = +svg.attr("height");
+// Global vars
+const width = 960;
+const height = 960;
+const transDuration = 1000;
+const delayTime = 50;
 
-var format = d3.format(",d");
 
-var color = d3.scaleOrdinal(d3.schemeCategory20c);
+const svg = d3.select('svg')
+	.attr('width', width)
+	.attr('height', height);
 
-var pack = d3.pack()
-.size([width, height])
-.padding(1.5);
+const format = d3.format(',d');
+// d = Decimal rounded to integer / ignores not integer values
+// , = thousands seperator
 
-d3.csv("data.csv", function(d) {
-d.value = +d.value;
-if (d.value) return d;
-}, function(error, classes) {
-if (error) throw error;
+const colorSet = d3.scaleOrdinal(d3.schemeCategory20c); // Returns a set color scheme of d3 of category c20
 
-var root = d3.hierarchy({children: classes})
-  .sum(function(d) { return d.value; })
-  .each(function(d) {
-	 if (id = d.data.id) {
-		var id, i = id.lastIndexOf(".");
-		d.id = id;
-		d.package = id.slice(0, i);
-		d.class = id.slice(i + 1);
-	 }
-  });
+// Creates a new circle packing layout (e.g circle constiant of scaleLinear ect.)
+const packLayout = d3.pack()
+	.size([width, height])
+	.padding(1.5);
 
-var node = svg.selectAll(".node")
-.data(pack(root).leaves())
-.enter().append("g")
-  .attr("class", "node")
-  .attr("transform", function(d) { return "translate(" + d.x + "," + d.y + ")"; });
+// dataUrl, row, callback
+// row aps and filters the objects to a more specific representation
+d3.csv('data.csv', d => {
+	d.value = +d.value; // coercion string => number
+	if (d.value) return d;
+}, (error, classes) => {
+	if (error) throw error;
 
-node.append("circle")
-  .attr("id", function(d) { return d.id; })
-  .attr("r", function(d) { return d.r; })
-  .style("fill", function(d) { return color(d.package); });
+	// hierarchy varructs a root node from hierarchical data
+	const root = d3.hierarchy({ children: classes })
+		.sum(d => d.value) // This method ignores undefined and NaN values
+		.each(d => {
+			if (id = d.data.id) { // Changes the data for some reason
+				var id, i = id.lastIndexOf('.');
+				d.id = id;
+				d.package = id.slice(0, i); // Gets the whole id of the row
+				d.class = id.slice(i + 1); // Gets the last item of the nested id value
+			}
+		});
 
-node.append("clipPath")
-  .attr("id", function(d) { return "clip-" + d.id; })
-.append("use")
-  .attr("xlink:href", function(d) { return "#" + d.id; });
+		
+	const nodeGroup = svg.selectAll('.node')
+		.data(packLayout(root).leaves()) 
+		.enter()
+		.append('g')
+			.attr('class', 'node')
+			.attr('transform', function (d) { return 'translate(' + d.x + ',' + d.y + ')'; });
 
-node.append("text")
-  .attr("clip-path", function(d) { return "url(#clip-" + d.id + ")"; })
-.selectAll("tspan")
-.data(function(d) { return d.class.split(/(?=[A-Z][^A-Z])/g); })
-.enter().append("tspan")
-  .attr("x", 0)
-  .attr("y", function(d, i, nodes) { return 13 + (i - nodes.length / 2 - 0.5) * 10; })
-  .text(function(d) { return d; });
+	nodeGroup.append('circle')
+		.attr('id', d => d.id)
+		.attr('r', d =>  0)
+		.style('fill', 'white' )
+			.transition()
+			.delay(transDelay)
+			.duration(transDuration)
+			.ease(d3.easeBounce)
+			.style('fill', d => colorSet(d.package))
+			.attr('r', d =>  d.r)
+		
+	nodeGroup.append('clipPath')
+		.attr('id', d => `clip-${d.id}`)
+		.append('use')
+			.attr('xlink:href', d => `#${d.id}`);
 
-node.append("title")
-  .text(function(d) { return d.id + "\n" + format(d.value); });
+	nodeGroup.append('text')
+		.attr('clip-path', d => `url(#clip-${d.id})`)
+		.selectAll('tspan')
+		.data(d => d.class.split(/(?=[A-Z][^A-Z])/g))
+		.enter()
+		.append('tspan')
+			.attr('x', 0)
+			.attr('y', (d, i, nodes) => 13 + (i - nodes.length / 2 - 0.5) * 10)
+			.text(d => d );
+
+	nodeGroup.append('title')
+		.text(d => `${d.id}\n${format(d.value)}`);
 });
+
+// From https://github.com/cmda-fe3/course-17-18/blob/master/site/class-3-transition/wooorm/index.js
+function transDelay(d, i) {
+	return i * delayTime;
+}
