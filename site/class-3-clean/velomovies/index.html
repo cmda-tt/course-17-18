@@ -136,6 +136,7 @@
 
     places = d3.csvParseRows(doc, map)
     function map(d) {
+      if(d[7] == '') { return }
       return {
         name: knmiCodes[d[0]],
         date: parseTime((d[1].concat('T', d[2], ':00:00.000Z'))),
