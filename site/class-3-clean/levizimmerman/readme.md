@@ -1,7 +1,7 @@
 # Cleaning Data
 In this assignment I will be cleaning data using only Javascript.
 
-![preview](https://github.com/levizimmerman/course-17-18/blob/clean/site/class-3-clean/levizimmerman/preview.png?raw=true)
+![preview](https://github.com/levizimmerman/course-17-18/blob/clean/site/class-3-clean/levizimmerman/preview-line-chart.png?raw=true)
 
 ## Background
 In this weeks assignment I am going to clean and transform weather data from [KNMI](http://projects.knmi.nl/klimatologie/uurgegevens/selectie.cgi). After cleaning the data, I will transform it to a workable JSON format. Eventually the JSON format can be read by the D3 code and will draw a line chart displaying temperature over time.
