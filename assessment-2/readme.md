@@ -105,7 +105,7 @@ You _may not_ use random data.
     </tr>
     <tr>
       <th align="center" scope="row">Quality</th>
-      <td align="center">The project is handed in late, broken, undocumented, or otherwise not proper</td>
+      <td align="center">The project is handed in late, broken, undocumented, <strong>not on GitHub Pages</strong>, or otherwise not proper</td>
       <td align="center">Code style is inconsistent or code is partially documented</td>
       <td align="center">Code adheres to standards and docs cover what the project is and does <strong>and the student’s process</strong></td>
       <td align="center">Code quality is consistently good and docs are professional</td>
