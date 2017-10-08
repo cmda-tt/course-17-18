@@ -18,7 +18,56 @@ g.style("opacity", "0")
     .attr("transform", "translate(0,40)");
 ```
 
+For a transition in the scale. The delay is calculated by the location in the array times 300
+```javascript
+g.selectAll("rect")
+  .data(color.range().map(function(d) {
+      d = color.invertExtent(d);
+      if (d[0] == null) d[0] = x.domain()[0];
+      if (d[1] == null) d[1] = x.domain()[1];
+      return d;
+    }))
+  .enter().append("rect")
+    .attr("height", 8)
+    .attr("x", function(d) { return x(d[0]); })
+    .transition()
+    .delay(function(d,i) { return i * 300 })
+    .duration(500)
+    .attr("width", function(d) { return x(d[1]) - x(d[0]); })
+    .style("fill", function(d) { return color(d[0]); });
+```
+
+Each county appears after eachother. The delay is the location in the array
+```javascript
+svg.append("g")
+      .attr("class", "counties")
+    .selectAll("path")
+    .data(topojson.feature(us, us.objects.counties).features)
+    .enter().append("path")
+      .style("fill", "#fff")
+      .attr("d", path)
+      .transition()
+      .delay(function(d,i) { return i })
+      .duration(1000)
+      .style("fill", function(d) { return color(d.rate = unemployment.get(d.id)); })
+```
+
+After 3500ms the stroke for showing the different states fades in.
+```javascript
+svg.append("path")
+      .datum(topojson.mesh(us, us.objects.states, function(a, b) { return a !== b; }))
+      .attr("class", "states")
+      .attr("d", path)
+      .transition()
+      .delay(3500)
+      .duration(1000)
+      .style("stroke-width", "1")
+
+}
+```
+
 > Next to the transitions I added my own style/color in the chart. I also made the code my own by for example changing the `''` to `""`
+
 ## Data
 
 The unemployment rate of Americans
