@@ -133,7 +133,19 @@
 					csv = d3.csvParseRows( docs ),
 					timeFormat = d3.timeParse( '%Y%m%d%H' )
 
-				let places = csv.map( el => ( { name: knmiCodes[ el[0] ], date: timeFormat( el[1] + el[2] ), temperature: ( el[7] * 0.1 ).toFixed( 1 ) * 1 } ) )
+				let places = csv.map( el => {
+
+					if ( el[7] === '' ) return
+
+					return { name: knmiCodes[ el[0] ], date: timeFormat( el[1] + el[2] ), temperature: ( el[7] * 0.1 ).toFixed( 1 ) * 1 }
+
+				}).filter( el => {
+
+					if ( el !== undefined ) return el
+					
+				})
+
+				 console.log( places )
 
 				places = d3.nest()
 					.key( d => d.name )
