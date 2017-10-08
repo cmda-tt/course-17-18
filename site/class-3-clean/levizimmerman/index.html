@@ -1,0 +1,291 @@
+<!doctype html>
+<!--Based on https://bl.ocks.org/mbostock/3884955 by Mike Bostock-->
+<meta charset=utf8>
+<!--Prevent favicon error from showing up-->
+<link rel="shortcut icon" type=image/x-icon href=data:image/x-icon;,>
+<title>@levizimmerman</title>
+<meta content=width=device-width,initial-scale=1 name=viewport>
+<style>
+  html {
+    font-family: Roboto, -apple-system, BlinkMacSystemFont, Helvetica Neue, Segoe UI, Oxygen, Ubuntu, Cantarell, Open Sans, sans-serif;
+    background-color: black;
+    color: white;
+    max-width: 100%;
+  }
+
+  body {
+    margin: 0;
+  }
+
+  svg {
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .line {
+    fill: none;
+    stroke-width: 3;
+  }
+
+  path,
+  line {
+    stroke: currentcolor;
+  }
+
+  text {
+    font-size: small;
+    fill: currentcolor;
+  }
+
+</style>
+<svg width=960 height=500 viewbox="0 0 960 500"></svg>
+<script src=https://d3js.org/d3.v4.min.js></script>
+<script>
+  var svg = d3.select('svg');
+  var margin = {
+    top: 20,
+    right: 140,
+    bottom: 30,
+    left: 50
+  };
+  var width = svg.attr('width') - margin.left - margin.right;
+  var height = svg.attr('height') - margin.top - margin.bottom;
+  var g = svg.append('g').attr('transform', 'translate(' + margin.left + ',' + margin.top + ')');
+
+  var x = d3.scaleTime().range([0, width]);
+  var y = d3.scaleLinear().range([height, 0]);
+  var z = d3.scaleOrdinal(['#feca2f', '#2ffe63', '#2f63fe', '#fe2fca']);
+
+  var knmiCodes = {
+    209: 'IJmond',
+    210: 'Valkenburg',
+    215: 'Voorschoten',
+    225: 'IJmuiden',
+    235: 'De Kooy',
+    240: 'Schiphol',
+    242: 'Vlieland',
+    248: 'Wijdenes',
+    249: 'Berkhout',
+    251: 'Hoorn (Terschelling)',
+    257: 'Wijk aan Zee',
+    258: 'Houtribdijk',
+    260: 'De Bilt',
+    265: 'Soesterberg',
+    267: 'Stavoren',
+    269: 'Lelystad',
+    270: 'Leeuwarden',
+    273: 'Marknesse',
+    275: 'Deelen',
+    277: 'Lauwersoog',
+    278: 'Heino',
+    279: 'Hoogeveen',
+    280: 'Eelde',
+    283: 'Hupsel',
+    285: 'Huibertgat',
+    286: 'Nieuw Beerta',
+    290: 'Twenthe',
+    308: 'Cadzand',
+    310: 'Vlissingen',
+    311: 'Hoofdplaat',
+    312: 'Oosterschelde',
+    313: 'Vlakte v.d. Raan',
+    315: 'Hansweert',
+    316: 'Schaar',
+    319: 'Westdorpe',
+    323: 'Wilhelminadorp',
+    324: 'Stavenisse',
+    330: 'Hoek van Holland',
+    331: 'Tholen',
+    340: 'Woensdrecht',
+    343: 'R’dam-Geulhaven',
+    344: 'Rotterdam',
+    348: 'Cabauw',
+    350: 'Gilze-Rijen',
+    356: 'Herwijnen',
+    370: 'Eindhoven',
+    375: 'Volkel',
+    377: 'Ell',
+    380: 'Maastricht',
+    391: 'Arcen'
+  };
+
+  // You may start editing stuff here (but don’t change the file-name).
+  d3
+    .text('index.txt')
+    .get(onload)
+
+  function onload(err, doc) {
+    if (err) throw err;
+
+    // Use this place to transform doc (without changing it manually) into
+    // something that looks like `example.json`:
+    // https://github.com/cmda-fe3/course-17-18/blob/master/site/class-3/clean/example.json
+    //
+    // Notes:
+    //
+    // 1. Use the `knmiCodes` variable to transform from KNMI’s codes to place
+    //    names
+    // 2. Use actual Date objects instead of strings for all `date` keys:
+    //    https://developer.mozilla.org/JavaScript/Reference/Global_Objects/Date
+    //
+    // Store the results in the variable `places`:
+
+    var parseTime = d3.timeParse('%Y%m%d%H');
+    var valuesDoc = getValuesFromDoc(doc);
+    var keyDoc = getKeysFromDoc(doc);
+    var valueRows = d3.csvParseRows(valuesDoc, transformValues);
+    var keyRows = d3.csvParseRows(keyDoc, transformKeys);
+
+    /*
+     * Transforms found values to {stn: number, date: DateObject, temperature: number}
+     */
+    function transformValues(row) {
+      // if no temperature is available, return to prevent data drawing
+      if (row[7] === '') {
+        return;
+      }
+      return {
+        stn: Number(row[0]),
+        date: parseTime(row[1] + row[2]),
+        temperature: Number(row[7]) / 10
+      };
+    }
+
+    /*
+     * Transforms key values to {name: string, values: Array}
+     */
+    function transformKeys(row) {
+      // filters values based on the STN (ID of place)
+      var values = valueRows.filter(function(value) {
+        return Number(row[0]) === value.stn;
+      });
+      // early exit when no values are found.
+      if (values.length < 1) {
+        return;
+      }
+      return {
+        name: row[4],
+        // filters values based on the STN (ID of place) and adds 'name' to the values
+        values: values.map(function(value) {
+          return Object.assign(value, {
+            name: row[4]
+          }); // Append name to object
+        })
+      };
+    }
+
+    /*
+     * Gets values from document
+     */
+    function getValuesFromDoc(doc) {
+      var docNoHeader = doc.slice(doc.indexOf('STN,YYYYMMDD')); // get index of start of head of values table
+      var docNoHead = docNoHeader.slice(docNoHeader.indexOf('\n')) // get slice after new line from the head of the table
+        .replace(/#| /g, '') // removes # characters and spaces
+        .trim(); // remove white space from start and end of string
+      return docNoHead;
+    }
+
+    /*
+     * Gets keys from document
+     */
+    function getKeysFromDoc(doc) {
+      var header = doc.slice(0, doc.indexOf('STN,YYYYMMDD')); // Remove text before legend
+      var headerRows = header.slice(header.indexOf('NAME') + 4, header.indexOf('# YYYYMMDD')) // remove head of identifiers
+        .replace(/#|:/g, '') // replace all # and : characters with nothing
+        .trim() // trim start and end of string
+        .split('\n'); // define rows by newline recognition
+      var newHeaderRows = []; // create return array
+      headerRows.forEach(function(row) {
+        newHeaderRows.push(row.replace(/\s+ /g, ',').trim()); // fill array with space stripped string and replaced by commas
+      });
+      return newHeaderRows.join('\n'); // create new string with join and add new line for each row
+    }
+
+    var places = keyRows;
+    // Do not change stuff below this line.
+    x.domain(d3.extent(flatten(places), date));
+    y.domain(d3.extent(flatten(places), temperature)).nice();
+    z.domain(places.map(name));
+
+    var line = d3.line()
+      .curve(d3.curveBasis)
+      .x(lineX)
+      .y(lineY);
+
+    g.append('g')
+      .attr('class', 'axis x')
+      .attr('transform', 'translate(0,' + height + ')')
+      .call(d3.axisBottom(x));
+
+    g.append('g')
+      .attr('class', 'axis y')
+      .call(d3.axisLeft(y))
+      .append('text')
+      .attr('transform', 'rotate(-90)')
+      .attr('y', 6)
+      .attr('dy', '0.71em')
+      .text('Temperature, °C');
+
+    var place = g
+      .selectAll('.place')
+      .data(places)
+      .enter()
+      .append('g')
+      .attr('class', 'place');
+
+    place
+      .append('path')
+      .attr('class', 'line')
+      .attr('d', lineD)
+      .style('stroke', lineStroke);
+
+    place
+      .append('text')
+      .attr('transform', transformText)
+      .attr('x', 3)
+      .attr('dy', '0.35em')
+      .text(name);
+
+    function lineX(d) {
+      return x(date(d));
+    }
+
+    function lineY(d) {
+      return y(temperature(d));
+    }
+
+    function lineD(d) {
+      return line(values(d));
+    }
+
+    function lineStroke(d) {
+      return z(name(d));
+    }
+
+    function transformText(d) {
+      var last = d.values[d.values.length - 1];
+      return 'translate(' + x(date(last)) + ',' + y(temperature(last)) + ')';
+    }
+  }
+
+  function flatten(value) {
+    return [].concat.apply([], value.map(values));
+  }
+
+  function values(d) {
+    return d.values;
+  }
+
+  function name(d) {
+    return d.name;
+  }
+
+  function date(d) {
+    return d.date;
+  }
+
+  function temperature(d) {
+    return d.temperature;
+  }
+
+</script>
