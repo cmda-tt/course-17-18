@@ -125,7 +125,7 @@ var parseTime = d3.timeParse("%Y%m%dT%H:%M:%S.%LZ")  // Set time format
 var places = d3.csvParseRows(doc, map) // Make places variable and parse rows
 
 function map(d) {
-  if(!d[7]) { // return if temperature value is false
+  if(!d[7]) { // Return if temperature value is false
     return
   }
 	return {
