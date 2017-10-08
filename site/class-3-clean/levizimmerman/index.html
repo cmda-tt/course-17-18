@@ -140,10 +140,14 @@
      * Transforms found values to {stn: number, date: DateObject, temperature: number}
      */
     function transformValues(row) {
+      // if no temperature is available, return to prevent data drawing
+      if (row[7] === '') {
+        return;
+      }
       return {
         stn: Number(row[0]),
         date: parseTime(row[1] + row[2]),
-        temperature: row[7] !== '' ? Number(row[7]) / 10 : null // if no data is available, return null to prevent data drawing
+        temperature: Number(row[7]) / 10
       };
     }
 
@@ -151,17 +155,21 @@
      * Transforms key values to {name: string, values: Array}
      */
     function transformKeys(row) {
+      // filters values based on the STN (ID of place)
+      var values = valueRows.filter(function(value) {
+        return Number(row[0]) === value.stn;
+      });
+      // early exit when no values are found.
+      if (values.length < 1) {
+        return;
+      }
       return {
         name: row[4],
         // filters values based on the STN (ID of place) and adds 'name' to the values
-        values: valueRows.filter(function(value) {
-          if (value.stn === Number(row[0])) {
-            return {
-              name: row[4],
-              date: value.date,
-              temperature: value.temperature
-            }
-          }
+        values: values.map(function(value) {
+          return Object.assign(value, {
+            name: row[4]
+          }); // Append name to object
         })
       };
     }
