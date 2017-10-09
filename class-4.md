@@ -74,7 +74,7 @@ The project you’ll hand in will be similar to the one from
 [Class 3: Transition][c3transition] but this time will render a non-basic chart
 with non-trivial interaction.
 
-1.  Pick a static non-basic chart from [d3’s example gallery][d3-examples]
+1.  Pick a static chart from [d3’s example gallery][d3-examples]
     or use one of your previously made charts from assignments or assessment 1
 2.  Copy-paste the files over to your own computer and get the chart working
     on d3@4
