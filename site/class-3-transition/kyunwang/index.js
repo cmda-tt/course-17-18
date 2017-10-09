@@ -42,7 +42,7 @@ function renderChart(error, classes) {
 		.enter()
 		.append('g')
 			.attr('class', 'node')
-			.attr('transform', function (d) { return 'translate(' + d.x + ',' + d.y + ')'; });
+			.attr('transform', d => `translate(${d.x},${d.y})`);
 
 	// ENTER/APPEND CIRCLE
 	nodeGroup.append('circle')
@@ -97,19 +97,6 @@ function renderChart(error, classes) {
 			.ease(easeStyle)
 			.attr('r', this.getAttribute('r') / 1.2)
 	}
-
-
-
-		// nodeGroup.selectAll('cirlce').exit().remove();
-
-	// 	nodeGroup
-	// 	.selectAll('circle')
-	// 	.exit()
-	// 	.style("fill", "#b26745")
-	//  .transition(1000)
-	// 	.attr("r", 1e-6)
-	// 	.remove();
-		// nodeGroup.exit().remove()
 }
 
 // From https://github.com/cmda-fe3/course-17-18/blob/master/site/class-3-transition/wooorm/index.js
@@ -118,30 +105,8 @@ function transDelay(d, i) {
 }
 
 (function set1() {
-	// dataUrl, row, callback
-	// row aps and filters the objects to a more specific representation
 	d3.csv('data.csv', d => {
 		d.value = +d.value; // coercion string => number
 		if (d.value) return d;
 	}, renderChart);
 })();
-
-// function set2() {
-// 	d3.csv('data-old.csv', d => {
-// 		d.value = +d.value; // coercion string => number
-// 		if (d.value) return d;
-// 	}, renderChart);
-// }	
-
-// var intervalIndex = 0;
-
-// d3.interval(() => {
-// 	intervalIndex === 0 ?
-// 		set1() :
-// 		set2()
-
-
-// 	intervalIndex = intervalIndex === 0 ? 1 : 0;
-// 	console.log('what is intervalIndex', intervalIndex);
-// }, 1000)
-
