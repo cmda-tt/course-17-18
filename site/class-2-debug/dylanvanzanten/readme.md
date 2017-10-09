@@ -6,7 +6,7 @@ A simple responsive scatter chart visualising the dimensions of sepals and petal
 
 For this assignment I had to find and fix the bugs that where in the HTML, CSS and JS files. It was not the intention to change the whole chart. Only to fix the bugs.
 
-[![][cover]][url]
+[!][cover]][url]
 
 ## Fixing the bugs
 
