@@ -2,8 +2,7 @@
 
 This simple line chart is constructed from a TSV file storing the closing value of AAPL stock over the last few years. The chart employs [conventional margins](/mbostock/3019563) and a number of D3 features:
 
-[![][cover]][url]
-
+![alt text](https://github.com/jessiegouw/course-17-18/blob/transition/site/class-3-transition/jessiegouw/preview.png)
 ## How?
 
 For the animation of my graph I added a transition and an easePolyOut
