@@ -118,6 +118,10 @@ nav .assignment {
   color: black;
 }
 
+nav .assessment {
+  background-color: #ca2ffe;
+}
+
 nav .assignment[href^="https://github.com"] div::after {
   content: "";
   display: inline-block;

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	    <title>@servinlp</title>
+	    <link rel="stylesheet" href="index.css">
+	</head>
+
+	<body>
+		<!-- Original http://charts.animateddata.co.uk/uktemperaturelines/ -->
+		<div id="chart">
+			<svg></svg>
+		</div>
+
+		<div id="widgets">
+			<div id="header">
+				<h1>UK Temperature History</h1>
+				<p>Explore the temperature in the United Kingdom since 1910 by scrolling the page <span class="emphasis">up</span> and <span class="emphasis">down</span>. Visit years marked in <span style="color: indianred;">red</span> or <span style="color: steelblue;">blue</span> that have significant weather events. You can also sort by <span class="emphasis">year</span>, <span class="emphasis">maximum</span>, <span class="emphasis">minimum</span> or <span class="emphasis">mean</span> temperature</p>
+			</div>
+			<div id="menu">Sort by: <span><span class="button selected">Year</span> / </span><span><span class="button">Maximum</span> / </span><span><span class="button">Minimum</span> / </span><span><span class="button">Mean</span></span></div>
+			<div id="info"></div>
+		</div>
+
+		<script src="https://d3js.org/d3.v4.min.js"></script>
+		<script src="index.js"></script>
+	</body>
+</html>

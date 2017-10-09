@@ -103,6 +103,33 @@ optionally a `preview.png` file, and a data file (such as `index.json`,
 
 > File, \[…], arranged, and Germany [**@samuelzeller**][source-cover-author].
 
+In this assignment you’ll find data for [assessment 3][a3].
+
+### Tips
+
+*   [Recommended data][recommended]
+
+### Synopsis
+
+*   **Homework**
+*   **Due**: 7 a.m. the day of [class 5][c5]
+*   **Results**: [Issues][source-gallery]
+
+### Description
+
+Find an interesting [data source][a3data] that can be used to make
+[multiple][a3multiple] [interactive][a3interactive] visualisations.
+
+See [assessment 3][a3] for the requirements and make sure your data matches
+them.
+
+Write a short description why you’re using this data (3 paragraphs), and how it
+could be used to reach [assessment 3’s goals][a3goals].  Include links to the
+data and how to download it.
+
+Hand in your description in a new [issue][] to our repo.  Use the title
+`Assessment 3 data: @username` (in my case `Assessment 3 data: @wooorm`).
+
 [inspiration-cover]: images/keys.jpg
 
 [inspiration-link]: https://tmcw.github.io/minute/
@@ -143,4 +170,20 @@ optionally a `preview.png` file, and a data file (such as `index.json`,
 
 [a2]: assessment-2
 
+[a3]: assessment-3
+
 [d3-examples]: https://github.com/d3/d3/wiki/Gallery
+
+[recommended]: assessment-1/#other-data
+
+[a3data]: assessment-3/#data
+
+[a3interactive]: assessment-3/#interactive
+
+[a3multiple]: assessment-3/#multiple
+
+[a3goals]: assessment-3/#goals
+
+[issue]: https://github.com/cmda-fe3/course-17-18/issues
+
+[source-gallery]: https://github.com/cmda-fe3/course-17-18/issues?q=is%3Aissue%20label%3Aclass-4%3Asource%20

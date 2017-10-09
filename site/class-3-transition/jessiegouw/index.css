@@ -1,0 +1,15 @@
+body {
+    background-color: rgba(52, 73, 94,1.0);
+}
+
+g, path, line {
+    stroke: white;
+}
+
+path {
+    fill: rgba(241, 196, 15,0.1);
+}
+
+path.domain {
+    fill: none;
+}

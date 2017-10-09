@@ -1,0 +1,314 @@
+<!doctype html>
+<!--Based on https://bl.ocks.org/mbostock/3884955 by Mike Bostock-->
+<meta charset="utf-8">
+<!--Prevent favicon error from showing up-->
+<link rel="shortcut icon" type="image/x-icon" href=data:image/x-icon;,>
+<title>@IIYAMA12</title>
+<meta content="width=device-width,initial-scale=1" name="viewport">
+<style>
+    html {
+        font-family: Roboto, -apple-system, BlinkMacSystemFont, Helvetica Neue, Segoe UI, Oxygen, Ubuntu, Cantarell, Open Sans, sans-serif;
+        background-color: black;
+        color: white;
+        max-width: 100%;
+    }
+
+    body {
+        margin: 0;
+    }
+
+    svg {
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .line {
+        fill: none;
+        stroke-width: 3;
+    }
+
+    path,
+    line {
+        stroke: currentcolor;
+    }
+
+    text {
+        font-size: small;
+        fill: currentcolor;
+    }
+</style>
+<svg width=960 height=500 viewbox="0 0 960 500"></svg>
+<script src=https://d3js.org/d3.v4.min.js></script>
+<script>
+    var svg = d3.select('svg');
+    var margin = {
+        top: 20,
+        right: 140,
+        bottom: 30,
+        left: 50
+    };
+    var width = svg.attr('width') - margin.left - margin.right;
+    var height = svg.attr('height') - margin.top - margin.bottom;
+    var g = svg.append('g').attr('transform', 'translate(' + margin.left + ',' + margin.top + ')');
+
+    var x = d3.scaleTime().range([0, width]);
+    var y = d3.scaleLinear().range([height, 0]);
+    var z = d3.scaleOrdinal(['#feca2f', '#2ffe63', '#2f63fe', '#fe2fca']);
+
+    var knmiCodes = {
+        209: 'IJmond',
+        210: 'Valkenburg',
+        215: 'Voorschoten',
+        225: 'IJmuiden',
+        235: 'De Kooy',
+        240: 'Schiphol',
+        242: 'Vlieland',
+        248: 'Wijdenes',
+        249: 'Berkhout',
+        251: 'Hoorn (Terschelling)',
+        257: 'Wijk aan Zee',
+        258: 'Houtribdijk',
+        260: 'De Bilt',
+        265: 'Soesterberg',
+        267: 'Stavoren',
+        269: 'Lelystad',
+        270: 'Leeuwarden',
+        273: 'Marknesse',
+        275: 'Deelen',
+        277: 'Lauwersoog',
+        278: 'Heino',
+        279: 'Hoogeveen',
+        280: 'Eelde',
+        283: 'Hupsel',
+        285: 'Huibertgat',
+        286: 'Nieuw Beerta',
+        290: 'Twenthe',
+        308: 'Cadzand',
+        310: 'Vlissingen',
+        311: 'Hoofdplaat',
+        312: 'Oosterschelde',
+        313: 'Vlakte v.d. Raan',
+        315: 'Hansweert',
+        316: 'Schaar',
+        319: 'Westdorpe',
+        323: 'Wilhelminadorp',
+        324: 'Stavenisse',
+        330: 'Hoek van Holland',
+        331: 'Tholen',
+        340: 'Woensdrecht',
+        343: 'R’dam-Geulhaven',
+        344: 'Rotterdam',
+        348: 'Cabauw',
+        350: 'Gilze-Rijen',
+        356: 'Herwijnen',
+        370: 'Eindhoven',
+        375: 'Volkel',
+        377: 'Ell',
+        380: 'Maastricht',
+        391: 'Arcen'
+    };
+
+    // You may start editing stuff here (but don’t change the file-name).
+
+
+
+
+
+
+    d3.text('index.txt').get(onload)
+    function onload(err, doc) {
+        console.log("onload");
+        if (err) throw err;
+        console.log("no error");
+        var header = doc.lastIndexOf("#"); // get the last index of all comments.
+        doc = doc.slice(header + 1); // add one to skip the first character(and last) of the comment.
+        // var end = doc.indexOf('\n', header)
+        doc = doc.slice(doc).trim(); // trim all white spaces around
+        doc = doc.replace(/ +/g, ""); // remove all spaces
+        // console.log(doc.slice(0,1000));
+
+        //var columns = ["STN", "YYYYMMDD", "HH", "DD", "FH", "FF", "FX", "T", "T10", "TD", "SQ", "Q", "DR", "RH", "P", "VV", "N", "U", "WW", "IX", "M", "R", "S", "O", "Y"];
+
+        var parseTime = d3.timeParse('%Y%m%d'); // reformat the time: https://github.com/d3/d3-time-format
+
+        var columns = [ // retrieve these columns
+            { // knmi code
+                oldName : "STN",
+                newName : "name",
+                columnIndex : 0,
+                modifyValue : function (value) { // Custom function to process the data.
+                    return knmiCodes[value];
+                }
+            },
+            { // temperature
+                oldName : "T",
+                newName : "temperature",
+                columnIndex : 7,
+                modifyValue : function (value) { // Custom function to process the data.
+                    return Number(value) / 10;
+                }
+            },
+            { // date
+                oldName : "YYYYMMDD",
+                newName : "date",
+                columnIndex : 1,
+                modifyValue : function (value) { // Custom function to process the data.
+                    return parseTime(value); // reformat the time: https://github.com/d3/d3-time-format
+                }
+            }
+        ]
+
+        var documentData = d3.csvParseRows(doc, function (data) {
+            var item = {}; // Create a new empty item.
+            var itemValidationCheckCount = columns.length; // how many column values the code has to check.
+            for (var i = 0; i < columns.length; i++) {
+                var columnData = columns[i];
+                var value = data[columnData.columnIndex];
+                if (value) { // is value OK?
+                    var modifyValue = columnData.modifyValue; // for every field is it possible to use a custom function to edit/prepare the data.
+                    if (modifyValue) { // check if there is a custom function.
+                        value = modifyValue(value); //execute the custom function
+                    }
+                    if (value) { // is value OK?
+                        // console.log("added value: ", value);
+                        item[columnData.newName] = value;
+                        --itemValidationCheckCount;
+                    } else {
+                        break; // one check failed, all failed. So stop checking.
+                    }
+                }
+            }
+            if (itemValidationCheckCount === 0) { // only apply item if all checks are complete.
+                // console.log("item not failed");
+                return item; // item successfully created, return item.
+            }
+            // console.log("item failed ", itemValidationCheckCount);
+            return null; // item failed, return null.
+        });
+
+        // Both variables will contain the same data. (objects are shared between them)
+        var foundGroups = {}; // create a new object as registry.
+        var listOfGroups = []; // create a new array as end result.
+
+
+        for (var i = 0; i < documentData.length; i++) {
+            var item = documentData[i];
+            var group = foundGroups[item.name]; // check if the group name is already used.
+            if (!group) { // if there is not group name
+                group = { // make a new one.
+                    name : item.name, // give it, it's name.
+                    values : [] // empty array
+                };
+                foundGroups[item.name] = group; // save the group in object
+                listOfGroups[listOfGroups.length] = group; // save the group in array
+            }
+            group.values[group.values.length] = item; // add the item to the group.
+        }
+
+        var places = listOfGroups; // resave
+
+        // var places = documentData.map(function (item, position, everything) {
+        //     return
+        // });
+
+        // console.log(listOfGroups);
+        // Use this place to transform doc (without changing it manually) into
+        // something that looks like `example.json`:
+        // https://github.com/cmda-fe3/course-17-18/blob/master/site/class-3/clean/example.json
+        //
+        // Notes:
+        //
+        // 1. Use the `knmiCodes` variable to transform from KNMI’s codes to place
+        //    names
+        // 2. Use actual Date objects instead of strings for all `date` keys:
+        //    https://developer.mozilla.org/JavaScript/Reference/Global_Objects/Date
+        //
+        // Store the results in the variable `places`:
+        // var places = [];//documentData;//[];
+
+        // Do not change stuff below this line.
+        x.domain(d3.extent(flatten(places), date));
+        y.domain(d3.extent(flatten(places), temperature)).nice();
+        z.domain(places.map(name));
+
+        var line = d3.line()
+            .curve(d3.curveBasis)
+            .x(lineX)
+            .y(lineY);
+
+        g.append('g')
+            .attr('class', 'axis x')
+            .attr('transform', 'translate(0,' + height + ')')
+            .call(d3.axisBottom(x));
+
+        g.append('g')
+            .attr('class', 'axis y')
+            .call(d3.axisLeft(y))
+            .append('text')
+            .attr('transform', 'rotate(-90)')
+            .attr('y', 6)
+            .attr('dy', '0.71em')
+            .text('Temperature, °C');
+
+        var place = g
+            .selectAll('.place')
+            .data(places)
+            .enter()
+            .append('g')
+            .attr('class', 'place');
+
+        place
+            .append('path')
+            .attr('class', 'line')
+            .attr('d', lineD)
+            .style('stroke', lineStroke);
+
+        place
+            .append('text')
+            .attr('transform', transformText)
+            .attr('x', 3)
+            .attr('dy', '0.35em')
+            .text(name);
+
+        function lineX(d) {
+            return x(date(d));
+        }
+
+        function lineY(d) {
+            return y(temperature(d));
+        }
+
+        function lineD(d) {
+            return line(values(d));
+        }
+
+        function lineStroke(d) {
+            return z(name(d));
+        }
+
+        function transformText(d) {
+            var last = d.values[d.values.length - 1];
+            return 'translate(' + x(date(last)) + ',' + y(temperature(last)) + ')';
+        }
+    }
+
+    function flatten(value) {
+        return [].concat.apply([], value.map(values));
+    }
+
+    function values(d) {
+        return d.values;
+    }
+
+    function name(d) {
+        return d.name;
+    }
+
+    function date(d) {
+        return d.date;
+    }
+
+    function temperature(d) {
+        return d.temperature;
+    }
+</script>

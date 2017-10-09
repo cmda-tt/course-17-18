@@ -1,9 +1,9 @@
-# Tooltip
+# Axis
 
 A [bar chart][original] visualising the several fields of population
-in USA states with filtering capabilities based on a [`bl.ock`][block] by
-[**@mbostock**][block-author] (GPL-3.0) and [`bl.ock`][block-filter] by
-[**@jonahwilliams**][block-filter-author] .
+in USA states by changing the data displayed on one axis based on a
+[`bl.ock`][block] by [**@mbostock**][block-author] (GPL-3.0) and
+[`bl.ock`][block-filter] by [**@jonahwilliams**][block-filter-author].
 
 [![][cover]][url]
 
@@ -61,4 +61,4 @@ GPL-3.0 © Titus Wormer
 
 [cover]: preview.png
 
-[url]: https://cmda-fe3.github.io/course-17-18/class-4/filter/
+[url]: https://cmda-fe3.github.io/course-17-18/class-4/axis/

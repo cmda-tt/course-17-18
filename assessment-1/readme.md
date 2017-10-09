@@ -14,6 +14,7 @@
 *   **Type**: Remote
 *   **Grade**: [Rubric][]
 *   **Due**: 04-10 12:00 (ID 1), 06-10 15:20 (ID 2), 04-10 15:20 (ID 3)
+*   **Results**: [GitHub][results]
 
 ## Description
 
@@ -30,7 +31,9 @@ For this assessment you’ll build a project in a fork of
 [`cmda-fe3/fe3-assessment-1`][starter-code] (**not our course repo**) and
 host the project through [GitHub Pages][pages].  First, fork the repo.  Then,
 work on your project and upload the final results to your fork either using
-Git or the GitHub interface as covered in [class 1][c1].
+Git or the GitHub interface as covered in [class 1][c1].  You do not need
+to create branches for this assessment.  You should upload files to the root
+directory.
 
 We will download your code when it’s due and check your assessment on GitHub.
 You do not need to create a pull request.
@@ -296,3 +299,5 @@ JavaScript Object Notation (JSON) with 34 rows and 2+ columns:
 [toilets-clean]: toilets.json
 
 [pages]: https://pages.github.com
+
+[results]: https://github.com/cmda-fe3/course-17-18/tree/master/site/assessment-1#readme

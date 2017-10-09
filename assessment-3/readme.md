@@ -31,10 +31,12 @@ update, exit), and represent data in multiple visualisations.  Understanding is
 measured through an oral exam.
 
 For this assessment you’ll build a project in a fork of
-`cmda-fe3/fe3-assessment-3` (**not our course repo**) and
+[`cmda-fe3/fe3-assessment-3`][starter-code] (**not our course repo**) and
 host the project through [GitHub Pages][pages].  First, fork the repo.  Then,
 work on your project and upload the final results to your fork either using
-Git or the GitHub interface as covered in [class 1][c1].
+Git or the GitHub interface as covered in [class 1][c1].  You do not need
+to create branches for this assessment.  You should upload files to the root
+directory.
 
 We will download your code when it’s due and check your assessment on GitHub.
 You do not need to create a pull request.  You’ll present your knowledge in an
@@ -108,8 +110,8 @@ You _may not_ use random data.
       <th align="center" scope="row">Understanding</th>
       <td align="center">There is either no substantial code or the student cannot explain the code that exists</td>
       <td align="center">The student cannot explain parts of the code</td>
-      <td align="center">The student can explain every part of the code</td>
-      <td align="center">The student can explain every part of the code and describe why it’s used instead of alternatives</td>
+      <td align="center">The student can explain every part of the code, <strong>describe why it’s used instead of alternatives</strong></td>
+      <td align="center">The student can explain every part of the code, describe why it’s used instead of alternatives, <strong>an can make live changes</strong></td>
       <td align="center">🤓<br>The student understands JavaScript and d3’s programming principles and a geeky / nerdy conversation can be held about these principles</td>
     </tr>
     <tr>
@@ -144,3 +146,5 @@ You _may not_ use random data.
 [s12]: ../readme.md#subgoal-12
 
 [recommended-data]: ../assessment-1/readme.md#other-data
+
+[starter-code]: https://github.com/cmda-fe3/fe3-assessment-3

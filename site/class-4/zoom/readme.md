@@ -1,4 +1,4 @@
-# Bar chart
+# Zoom
 
 A simple visualisation of random polka dots with dragging and zooming
 interaction based on a [`bl.ock`][block] by [**@mbostock**][block-author]
