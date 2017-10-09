@@ -1,0 +1,46 @@
+* {
+	box-sizing: border-box;
+}
+html {
+	max-width: 100%;
+}
+
+body {
+	/* System stack font-family by @wooorm */
+	font-family: Roboto, -apple-system, BlinkMacSystemFont, Helvetica Neue, Segoe UI, Oxygen, Ubuntu, Cantarell, Open Sans, sans-serif;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	justify-content: center;
+	align-items: center;
+	text-align: left;
+	margin: 0;
+	background-color: black;
+	color: white;
+
+}
+
+svg {
+	width: 100vw;
+	height: 100vh;
+}
+
+path,
+line {
+	stroke: currentcolor;
+}
+
+text {
+	font-size: small;
+	fill: currentcolor;
+}
+
+svg {
+	padding: 10px 0 0 10px;
+}
+
+.line {
+  fill: none;
+  stroke: black;
+  stroke-width: 1.5px;
+}
