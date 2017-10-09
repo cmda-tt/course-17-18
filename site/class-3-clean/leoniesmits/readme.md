@@ -23,7 +23,7 @@ After being hopeless and miserable, I saw some examples in the assignment page. 
 
 The data originates from [kmni.nl](https://projects.knmi.nl/klimatologie/uurgegevens/selectie.cgi) where I picked  `260 De Bilt`, `285 Huibertgat`, `240 Schiphol` and `380 Maastricht`. By downloading this dataset, we got a .txt file that had a lot of information. Besides the temperature, we got the hourly wind speed, duration of sunshine and so on. Quite a challenge to cut out all this information and store this in the right variables.
 
-##Features
+## Features
 
 * [`d3.nest`](http://learnjsdata.com/group_data.html) - produce groupings to use in data analyse
 * [`d3.csvParseRows`](https://github.com/d3/d3-dsv#dsv_parseRows) - parses string in csv format
