@@ -8,7 +8,7 @@ In this assignment(practise) we have to clean the data from a dataset from the K
 The data comes from a TXT file. The data will be displayed into a line chart.
 
 ## Features
-- [`d3.array`](hhttps://github.com/d3/d3-array#api-reference)
+- [`d3.array`](https://github.com/d3/d3-array#api-reference)
 - [`d3.axis`](https://github.com/d3/d3-axis#api-reference)
 - [`d3.request`](https://github.com/d3/d3-request#api-reference)
 - [`d3.scale`](https://github.com/d3/d3-scale#api-reference)
