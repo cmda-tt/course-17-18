@@ -14,6 +14,7 @@
 *   **Type**: Remote
 *   **Grade**: [Rubric][]
 *   **Due**: 04-10 12:00 (ID 1), 06-10 15:20 (ID 2), 04-10 15:20 (ID 3)
+*   **Results**: [GitHub][results]
 
 ## Description
 
@@ -298,3 +299,5 @@ JavaScript Object Notation (JSON) with 34 rows and 2+ columns:
 [toilets-clean]: toilets.json
 
 [pages]: https://pages.github.com
+
+[results]: https://github.com/cmda-fe3/course-17-18/tree/master/site/assessment-1#readme
