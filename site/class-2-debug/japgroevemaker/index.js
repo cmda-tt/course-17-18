@@ -37,8 +37,8 @@ d3.csv('index.csv', row, onload);
 
 /* Handle data. */
 function onload(data) {
-    x.domain(d3.extend(data, sepalWidth)).nice();
-    y.domain(d3.extend(data, sepalLength)).nice();
+    x.domain(d3.extent(data, sepalWidth)).nice();
+    y.domain(d3.extent(data, sepalLength)).nice();
 
     svg
         .append('g')
