@@ -1,6 +1,6 @@
 # Debugger
 
-A simple responsive donut chart visualising the dimensions of sepals and petals of various iris flowers based by [**@mbostock**][block-author].
+A simple responsive scatter chart visualising the dimensions of sepals and petals of various iris flowers based by [**@mbostock**][block-author].
 
 ## Background
 
