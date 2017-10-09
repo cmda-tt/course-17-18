@@ -122,6 +122,9 @@ var parseTime = d3.timeParse('%Y%m%d%H'); //parsing the time so it can be read b
 var data = d3.csvParseRows(doc, map);//parsing the rows csv
 
 function map(d) { //creating array with the variables name, date and temperature.
+  if (d[7] == '') { // if tempature is empty; give feedback
+			  return
+			}
   return {
     name: knmiCodes[d[0]],
     date: Number(parseTime(d[1]+d[2])),
