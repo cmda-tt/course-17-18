@@ -1,0 +1,59 @@
+html{
+	height:100vh;
+}
+
+body{
+background: #white;
+/*
+background: -moz-linear-gradient(top,  #ff9551 0%, #ff3c30 100%);
+background: -webkit-linear-gradient(top,  #ff9551 0%,#ff3c30 100%);
+background: linear-gradient(to bottom,  #ff9551 0%,#ff3c30 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff9551', endColorstr='#ff3c30',GradientType=0 );*/
+}
+
+h1{
+  text-align:center;
+  color: black;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1em;
+  font-weight: 300;
+}
+
+svg{
+  display: block;
+  margin: 0 auto;
+}
+
+.axis text {
+  font: 12px sans-serif;
+  fill: black;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: black;
+  stroke-width: 1px;
+  stroke-linecap: round;
+  shape-rendering: crispEdges;
+}
+
+.circle{
+ fill: black;
+ stroke: black;
+   shape-rendering: geometricPrecision;
+}
+
+.link{
+  fill: none;
+  stroke: black;
+  stroke-width: 1px;
+  shape-rendering: geometricPrecision;
+}
+
+.bars{
+  fill: none;
+  stroke: black;
+  stroke-width: 1px;
+  shape-rendering: geometricPrecision;
+}
