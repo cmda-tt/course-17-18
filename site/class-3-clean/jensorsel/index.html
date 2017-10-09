@@ -119,6 +119,9 @@ function onload(err, doc) {
     var parseTime = d3.timeParse("%Y%m%d%H")
     var places = d3.csvParseRows(doc, map)
     function map(d) {
+        if (d[14] == '') { /*Check if temp is empty*/
+                    return
+                }
     return {
       name: knmiCodes[d[1]],
       date: parseTime((d[2].concat(d[4]))),
