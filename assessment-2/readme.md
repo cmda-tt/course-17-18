@@ -91,9 +91,9 @@ You _may not_ use random data.
     </tr>
     <tr>
       <th align="center" scope="row">Application of subject matter</th>
-      <td align="center">d3 is either not referenced or not used</td>
-      <td align="center">d3 is either used to load data, clean data, or to make a dynamic visualisation; <strong>there is no signification interaction using data joins</strong></td>
-      <td align="center">d3 is used to load data <strong><em>and</em> clean data <em>and</em> to make an interactive visualisation with data joins</strong></td>
+      <td align="center">d3 version 4 is either not referenced or not used</td>
+      <td align="center">d3 version 4 is either used to load data, clean data, or to make a dynamic visualisation; <strong>there is no signification interaction using data joins</strong></td>
+      <td align="center">d3 version 4 is used to load data <strong><em>and</em> clean data <em>and</em> to make an interactive visualisation with data joins</strong></td>
       <td align="center">The visualisation contains <strong>well-chosen features and interaction methods</strong></td>
       <td align="center">😱<br>The way the student applies d3 is more advanced than what they were taught in class; let’s switch places</td>
     </tr>
