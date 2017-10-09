@@ -1,29 +1,23 @@
 id,value
-flare,
-flare.analytics,
-flare.analytics.cluster,
-flare.analytics.cluster.AgglomerativeCluster,3938
-flare.analytics.cluster.CommunityStructure,3812
-flare.analytics.cluster.HierarchicalCluster,6714
-flare.analytics.cluster.MergeEdge,743
-flare.food
-flare.food.Chocolate,100
-flare.food.Dumpling,5000
-flare.food.BubbleTea,2351
-flare.food.Pistachio,1300
-flare.food.Donut,3100
-flare.programs
-flare.programs.favorite.VisualStudioCode,8743
-flare.programs.general.Atom,4743
-flare.programs.general.SublimeText,743
-flare.programs.favorite.Sketch,6743
-flare.programs.favorite.Illustrator,1743
-flare.programs.general.Alfred,2743
-flare.programs.general.PostMan,4743
-flare.colors
-flare.colors.like.blue,4312
-flare.colors.like.black,9312
-flare.colors.like.red,1234
-flare.colors.like.lightPink,456
-flare.colors.normal.yellow, 329
-flare.colors.normal.green, 4329
+kevin,
+kevin.food
+kevin.food.Chocolate,100
+kevin.food.Dumpling,5000
+kevin.food.BubbleTea,2351
+kevin.food.Pistachio,1300
+kevin.food.Donut,3100
+kevin.programs
+kevin.programs.favorite.VisualStudioCode,8743
+kevin.programs.general.Atom,4743
+kevin.programs.general.SublimeText,743
+kevin.programs.favorite.Sketch,6743
+kevin.programs.favorite.Illustrator,1743
+kevin.programs.general.Alfred,2743
+kevin.programs.general.PostMan,4743
+kevin.colors
+kevin.colors.like.blue,4312
+kevin.colors.like.black,9312
+kevin.colors.like.red,1234
+kevin.colors.like.lightPink,456
+kevin.colors.normal.yellow, 329
+kevin.colors.normal.green, 4329

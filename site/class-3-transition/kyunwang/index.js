@@ -2,7 +2,9 @@
 const width = 960;
 const height = 960;
 const transDuration = 1000;
+const transDurationShort = 500;
 const delayTime = 50;
+const easeStyle = d3.easeElasticOut;
 
 
 const svg = d3.select('svg')
@@ -20,14 +22,9 @@ const packLayout = d3.pack()
 	.size([width, height])
 	.padding(1.5);
 
-// dataUrl, row, callback
-// row aps and filters the objects to a more specific representation
-d3.csv('data.csv', d => {
-	d.value = +d.value; // coercion string => number
-	if (d.value) return d;
-}, (error, classes) => {
+function renderChart(error, classes) {
 	if (error) throw error;
-
+	
 	// hierarchy varructs a root node from hierarchical data
 	const root = d3.hierarchy({ children: classes })
 		.sum(d => d.value) // This method ignores undefined and NaN values
@@ -39,8 +36,7 @@ d3.csv('data.csv', d => {
 				d.class = id.slice(i + 1); // Gets the last item of the nested id value
 			}
 		});
-
-		
+			
 	const nodeGroup = svg.selectAll('.node')
 		.data(packLayout(root).leaves()) 
 		.enter()
@@ -48,37 +44,104 @@ d3.csv('data.csv', d => {
 			.attr('class', 'node')
 			.attr('transform', function (d) { return 'translate(' + d.x + ',' + d.y + ')'; });
 
+	// ENTER/APPEND CIRCLE
 	nodeGroup.append('circle')
 		.attr('id', d => d.id)
 		.attr('r', d =>  0)
-		.style('fill', 'white' )
+		.style('fill', '#fff' )
+		.on('mouseover', handleMouseOver)
+		.on('mouseout', handleMouseOut)
+		// .on('mouseover', handleMouseOver)
 			.transition()
 			.delay(transDelay)
 			.duration(transDuration)
-			.ease(d3.easeBounce)
+			.ease(easeStyle)
 			.style('fill', d => colorSet(d.package))
 			.attr('r', d =>  d.r)
-		
+
+
 	nodeGroup.append('clipPath')
 		.attr('id', d => `clip-${d.id}`)
 		.append('use')
 			.attr('xlink:href', d => `#${d.id}`);
-
+	
 	nodeGroup.append('text')
 		.attr('clip-path', d => `url(#clip-${d.id})`)
+		.attr('class', 'node-label')
 		.selectAll('tspan')
 		.data(d => d.class.split(/(?=[A-Z][^A-Z])/g))
 		.enter()
 		.append('tspan')
 			.attr('x', 0)
-			.attr('y', (d, i, nodes) => 13 + (i - nodes.length / 2 - 0.5) * 10)
-			.text(d => d );
-
+			.attr('y', (d, i, nodes) => 27 + (i - nodes.length / 2 - 0.5) * 20)
+			.text(d => d);
+	
 	nodeGroup.append('title')
 		.text(d => `${d.id}\n${format(d.value)}`);
-});
+
+	/*=================
+	=== mouse event (over circle)
+	=================*/
+	function handleMouseOver() {
+		d3.select(this)
+			.transition()
+			.duration(transDurationShort)
+			.ease(easeStyle)
+			.attr('r', this.getAttribute('r') * 1.2)
+	}
+
+	function handleMouseOut() {
+		d3.select(this)
+			.transition()
+			.duration(transDurationShort)
+			.ease(easeStyle)
+			.attr('r', this.getAttribute('r') / 1.2)
+	}
+
+
+
+		// nodeGroup.selectAll('cirlce').exit().remove();
+
+	// 	nodeGroup
+	// 	.selectAll('circle')
+	// 	.exit()
+	// 	.style("fill", "#b26745")
+	//  .transition(1000)
+	// 	.attr("r", 1e-6)
+	// 	.remove();
+		// nodeGroup.exit().remove()
+}
 
 // From https://github.com/cmda-fe3/course-17-18/blob/master/site/class-3-transition/wooorm/index.js
 function transDelay(d, i) {
 	return i * delayTime;
 }
+
+(function set1() {
+	// dataUrl, row, callback
+	// row aps and filters the objects to a more specific representation
+	d3.csv('data.csv', d => {
+		d.value = +d.value; // coercion string => number
+		if (d.value) return d;
+	}, renderChart);
+})();
+
+// function set2() {
+// 	d3.csv('data-old.csv', d => {
+// 		d.value = +d.value; // coercion string => number
+// 		if (d.value) return d;
+// 	}, renderChart);
+// }	
+
+// var intervalIndex = 0;
+
+// d3.interval(() => {
+// 	intervalIndex === 0 ?
+// 		set1() :
+// 		set2()
+
+
+// 	intervalIndex = intervalIndex === 0 ? 1 : 0;
+// 	console.log('what is intervalIndex', intervalIndex);
+// }, 1000)
+
