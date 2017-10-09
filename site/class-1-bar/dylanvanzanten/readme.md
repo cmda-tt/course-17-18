@@ -6,7 +6,7 @@ A simple bar-chart visualising the frequency per day based on the original [**@m
 
 For this assignment I had to learn the basics how to use D3.
 
-[![]][cover]
+![preview][cover]
 
 ## Data
 
