@@ -31,7 +31,7 @@ update, exit), and represent data in multiple visualisations.  Understanding is
 measured through an oral exam.
 
 For this assessment you’ll build a project in a fork of
-`cmda-fe3/fe3-assessment-3` (**not our course repo**) and
+[`cmda-fe3/fe3-assessment-3`][starter-code] (**not our course repo**) and
 host the project through [GitHub Pages][pages].  First, fork the repo.  Then,
 work on your project and upload the final results to your fork either using
 Git or the GitHub interface as covered in [class 1][c1].  You do not need
@@ -146,3 +146,5 @@ You _may not_ use random data.
 [s12]: ../readme.md#subgoal-12
 
 [recommended-data]: ../assessment-1/readme.md#other-data
+
+[starter-code]: https://github.com/cmda-fe3/fe3-assessment-3
