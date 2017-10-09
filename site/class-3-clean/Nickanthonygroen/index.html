@@ -131,7 +131,7 @@ places = d3.nest()
     return dataNest.name
   })
   .entries(places).map(function(dataSort){
-    console.log(dataSort);
+    // console.log(dataSort);
     return {
       name: dataSort.key,
       values: dataSort.values
@@ -150,7 +150,7 @@ function map(loadData) {
 // ¯\_(ツ)_/¯
 
   places.forEach(function (dang) {
-    console.log(dang.name);
+    // console.log(dang.name);
     if(dang.name === "Huibertgat") {
       dang.name = ' ';
       dang.values = ' ';

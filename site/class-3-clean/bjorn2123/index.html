@@ -10,26 +10,26 @@
         color: white;
         max-width: 100%;
     }
-    
+
     body {
         margin: 0;
     }
-    
+
     svg {
         width: 100vw;
         height: 100vh;
     }
-    
+
     .line {
         fill: none;
         stroke-width: 3;
     }
-    
+
     path,
     line {
         stroke: currentcolor;
     }
-    
+
     text {
         font-size: small;
         fill: currentcolor;
@@ -118,7 +118,7 @@
         // var parseTime = d3.timeParse('%Y%m%d'); // this does not work
         var parseTime = d3.timeParse("%Y%m%dT%H:%M:%S.%LZ"); // this work
         var header = doc.indexOf('STN,YYYYMMDD'); // Get index from start to stn,yyyymmdd
-        doc = doc.slice(header); // starting from header till end (removing header) 
+        doc = doc.slice(header); // starting from header till end (removing header)
         var end = doc.lastIndexOf('#', header) + 1;
         // var end = doc.indexOf('\n', header);
         doc = doc.slice(end).trim();
@@ -130,8 +130,7 @@
 
         function map(d) {
             if (d[7] == '') { // temperatuur is leeg
-                console.log(knmiCodes[d[0]] + ' has no measurable temperature')
-					return
+              return
             }
             return {
                 name: knmiCodes[d[0]],
