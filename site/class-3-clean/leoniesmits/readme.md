@@ -2,10 +2,11 @@
 
 In this challenge we had to clean up some data to later use it in d3js.
 
-## Changes I made
+## The challenge
 
-* First, I compared the `.txt` file to the `example.json` file. The only information I needed to pattern out this format, were the locations, tempertures and data (specific to the seconds). I needed 'STN' and 'YYYYMMDD' to get these numbers.
-* After being hopeless and miserable, I saw some examples in the assignment page. Got a good look at the code, tho.
+First, I compared the `.txt` file to the `example.json` file. The only information I needed to pattern out this format, were the locations, tempertures and data (specific to the seconds). I needed 'STN' and 'YYYYMMDD' to get these numbers.
+
+After being hopeless and miserable, I saw some examples in the assignment page. Finally really started on the assignment. Got a good look at the code, tho.
 
 #### Clean up:
 * Use `.indexOf()` to search for strings, to select characters in the code and store them.
