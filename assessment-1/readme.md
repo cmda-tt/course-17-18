@@ -14,7 +14,8 @@
 *   **Type**: Remote
 *   **Grade**: [Rubric][]
 *   **Due**: 04-10 12:00 (ID 1), 06-10 15:20 (ID 2), 04-10 15:20 (ID 3)
-*   **Results**: [GitHub][results]
+*   [**Results**][results]
+*   [**Grades**][grades]
 
 ## Description
 
@@ -301,3 +302,5 @@ JavaScript Object Notation (JSON) with 34 rows and 2+ columns:
 [pages]: https://pages.github.com
 
 [results]: https://github.com/cmda-fe3/course-17-18/tree/master/site/assessment-1#readme
+
+[grades]: https://cmda-fe3.github.io/grades-17-18/
