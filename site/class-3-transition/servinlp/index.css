@@ -1,0 +1,201 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Document styling */
+body {
+	font-family: "Helvetica Neue", Helvetica, sans-serif;
+	width: 1200px;
+	margin: 0 auto;
+	font-size: 13px;
+	background-color: #eee;
+	line-height: 115%;
+}
+h1 {
+	font-size: 22px;
+	font-weight: bold;
+	color: black;
+	/*letter-spacing: -1px;*/
+	margin: 1em 0 0 0;
+	line-height: 120%;
+}
+h2 {
+	fill: #666;
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 120%;
+}
+p {
+	margin-top: 6px;
+	color: #333;
+}
+a {
+	color: #333;
+}
+p.item {
+	padding-left: 20px;
+}
+.emphasis {
+	font-weight: bold;
+}
+.fallback {
+	font-size: 15px;
+	padding: 10px;
+	border: 1px solid black;
+	margin: 10px;
+	text-align: center;
+}
+
+#widgets {
+	position: fixed;
+}
+#header {
+	position: absolute;
+	width: 420px;
+	z-index: 10;
+	top: -5px;
+}
+
+#footer {
+	position: absolute;
+	width: 280px;
+	left: 920px;
+	top: 570px;
+}
+#footer p {
+	font-size: 12px;
+	color: #666;
+}
+.twitter-share-button {width: 82px !important;}
+
+#menu {
+	position: absolute;
+	width: 280px;
+	z-index: 10;
+	top: 130px;
+	border-bottom: 1px solid #ddd;
+	padding-top: 3px;
+	font-size: 12px;
+}
+#menu span.button {
+	cursor: pointer;
+	color: #bbb;
+}
+#menu span.selected.button, #menu span.button:hover {
+	color: black;
+}
+
+#info {
+	position: absolute;
+	width: 280px;
+	z-index: 10;
+	top: 152px;
+	/*border-top: 1px solid #ddd;*/
+	/*padding-top: 3px;*/
+}
+
+#chart {
+	position: fixed;
+}
+
+/* SVG styling */
+svg {
+	width: 1200px;
+	height: 920px;
+	font-family: helvetica, sans-serif;
+}
+
+/* axes */
+.axes line {
+	stroke: #bbb;
+}
+.axes path, .axes line {
+	stroke: #ccc;
+	fill: none;
+	shape-rendering: crispEdges;
+}
+
+.axes text {
+	font-weight: 300;
+	font-size: 12px;
+	fill: #666;
+}
+
+
+/* years */
+g.year path {
+	fill: none;
+	stroke: #333;
+	stroke-width: 1px;
+}
+
+g.year line {
+	stroke: #666;
+	stroke-width: 1px;
+}
+
+g.year line.base {
+	display: none;
+}
+
+g.year .label {
+	opacity: 0;
+	fill: #666;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+g.year.hover, g.year.hover .label {
+	opacity: 1 !important;
+}
+.year.hover path {
+	stroke-width: 4px;
+}
+.year.hover line.start {
+	display: none;
+}
