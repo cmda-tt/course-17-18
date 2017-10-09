@@ -110,8 +110,8 @@ You _may not_ use random data.
       <th align="center" scope="row">Understanding</th>
       <td align="center">There is either no substantial code or the student cannot explain the code that exists</td>
       <td align="center">The student cannot explain parts of the code</td>
-      <td align="center">The student can explain every part of the code</td>
-      <td align="center">The student can explain every part of the code and describe why it’s used instead of alternatives</td>
+      <td align="center">The student can explain every part of the code, <strong>describe why it’s used instead of alternatives</strong></td>
+      <td align="center">The student can explain every part of the code, describe why it’s used instead of alternatives, <strong>an can make live changes</strong></td>
       <td align="center">🤓<br>The student understands JavaScript and d3’s programming principles and a geeky / nerdy conversation can be held about these principles</td>
     </tr>
     <tr>
