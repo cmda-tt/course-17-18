@@ -1,0 +1,41 @@
+body{
+	background: #f6f6f6;
+}
+h1{
+  font-size: 1em;
+  font-family: arial, sans-serif;
+  text-align:center;
+  margin-top: 50px;
+}
+
+.axis text {
+  font: 12px sans-serif;
+  fill: black;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #BDBDBD;
+  stroke-width: 1px;
+  stroke-linecap: round;
+  shape-rendering: crispEdges;
+}
+
+.circle{
+  fill: black;
+  stroke: black;
+  shape-rendering: geometricPrecision;
+}
+
+.link{
+  fill: none;
+  stroke: black;
+  stroke-width: 1px;
+  shape-rendering: geometricPrecision;
+}
+
+.bars{
+  fill: lightcoral;
+  shape-rendering: geometricPrecision;
+}
