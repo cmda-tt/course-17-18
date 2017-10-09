@@ -128,12 +128,6 @@
               temperature: (Number(d[7])/10),
               name: knmiCodes[d[0]]
             }
-        
-            return {
-                date: parseTime((d[1].concat('T', d[2], ':00:00.000Z'))),
-                temperature: (Number(d[7]) / 10),
-                name: knmiCodes[d[0]]
-            }
         }
         places = d3.nest()
             .key(function(d) {
