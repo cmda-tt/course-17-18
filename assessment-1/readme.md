@@ -206,6 +206,30 @@ JavaScript Object Notation (JSON) with 34 rows and 2+ columns:
 
 ## Rubric
 
+> 💁 We don’t like plagiarism and report it to our assessment committee
+> (examencommissie in Dutch).  See ¶ 6.1.2 of Teaching and Examination
+> Regulations (TER) for a full definition, but here are a few cases that
+> count as plagiarism:
+>
+> > a. using or copying someone else’s texts, data or ideas without a full and
+> > correct acknowledgement of sources;
+> > b. presenting the structure or central ideas developed by someone else as
+> > your own work or ideas, even when a reference to other authors has been
+> > included;
+> >
+> > \[…]
+> >
+> > e. copying (parts of) media files or other sources, software source codes,
+> > models and other diagrams of other people without acknowledgement and
+> > allowing it to be held as your own work;
+> >
+> > \[…]
+> >
+> > g. copying the work of fellow-students and allowing it to be held as your
+> > own work;
+> >
+> > \[…]
+
 <!--lint disable no-html maximum-line-length-->
 
 <table>
