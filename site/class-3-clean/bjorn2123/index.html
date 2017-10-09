@@ -106,64 +106,47 @@
         391: 'Arcen'
     };
 
-    // You may start editing stuff here (but don’t change the file-name).
-
     d3
         .text('index.txt')
-        .mimeType('text/plain;charset=iso88591')
+        .mimeType('text/plain;chartset=iso88591') // set type charencoding
         .get(onload)
+
+    var gDoc;
 
     function onload(err, doc) {
         if (err) throw err;
+        // var parseTime = d3.timeParse('%Y%m%d'); // this does not work
+        var parseTime = d3.timeParse("%Y%m%dT%H:%M:%S.%LZ"); // this work
+        var header = doc.indexOf('STN,YYYYMMDD'); // Get index from start to stn,yyyymmdd
+        doc = doc.slice(header); // starting from header till end (removing header) 
+        var end = doc.lastIndexOf('#', header) + 1;
+        // var end = doc.indexOf('\n', header);
+        doc = doc.slice(end).trim();
+        doc = doc.replace(/ +/g, '');
+        // doc = doc.replace(/\s+/g, '',)
 
-
-        // Use this place to transform doc (without changing it manually) into
-        // something that looks like `example.json`:
-        // https://github.com/cmda-fe3/course-17-18/blob/master/site/class-3/clean/example.json
-        //
-        // Notes:
-        //
-        // 1. Use the `knmiCodes` variable to transform from KNMI’s codes to place
-        //    names
-        // 2. Use actual Date objects instead of strings for all `date` keys:
-        //    https://developer.mozilla.org/JavaScript/Reference/Global_Objects/Date
-        //
-        // Store the results in the variable `places`:
-        var header = doc.indexOf('STN,YYYYMMDD')
-        var end = doc.indexOf('\n', header)
-        doc = doc.slice(end).trim()
-        doc = doc.replace('#', '')
-        doc = doc.trim()
-        doc = doc.replace(/ +/g, '')
-        var parseTime = d3.timeParse("%Y%m%dT%H:%M:%S.%L%Z")
-            /* met bovenstaande code geef ik de tijd aan in jaar, maand, dag, uur, minuut, seconde miliseconde en uiteindelijk de tijdzone*/
-        var places = d3.csvParseRows(doc, map)
-            /* Hierboven zet ik door middel van csvParseRows geen string maar de tekst zelf in variabel places. */
+        places = d3.csvParseRows(doc, map);
 
 
         function map(d) {
-            return {
-                date: parseTime((d[1].concat('T', d[2], ':00:00.000Z'))),
-                temperature: (Number(d[7]) / 10),
-                name: knmiCodes[d[0]]
+            if (d[7] == '') { // temperatuur is leeg
+                console.log(knmiCodes[d[0]] + ' has no measurable temperature')
+					return
             }
-        }
+            return {
+                name: knmiCodes[d[0]],
+                date: parseTime((d[1].concat('T', d[2], ':00:00.000Z'))), // works
+                temperature: (parseInt(d[7] / 10, 10)),
+            }
+        };
 
-        /* Voor het schrijven van deze code heb ik gebruik gemaakt van http://learnjsdata.com/group_data.html & http://bl.ocks.org/phoebebright/raw/3176159/*/
-
-        // Het gebruik van .nest zorgt ervoor dat platte data omgevormt wordt in een geneste structuur
         places = d3.nest()
-            .key(function (d) { 
-                return d.name;
-            })
-
-        .entries(places)
-            .map(function (group) {
-                return {
-                    name: group.key,
-                    values: group.values
-                }
-            });
+            .key(d => d.name)
+            .entries(places)
+            .map(d => ({
+                name: d.key,
+                values: d.values
+            }))
 
 
         // Do not change stuff below this line.
