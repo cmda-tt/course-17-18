@@ -1,0 +1,4 @@
+day	dinner
+today	potatoes with vegtables
+yesterday	fries with Beefsteak
+day before yesterday	Salad
