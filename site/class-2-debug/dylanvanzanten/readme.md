@@ -41,13 +41,14 @@ I tried updating my code from the version 3 to version 4. I started with changin
 ```html
 <script src="https://d3js.org/d3.v3.min.js"></script>
 ```
+
 to
+
 ```html
-<script src="https://d3js.org/d3.v3.min.js"></script>
+<script src="https://d3js.org/d3.v4.min.js"></script>
 ```
 
-My console was being annoying and said some stuff about the linear function, so I went to Google for help.
-I found out that there were some (good) code changes. Everything is way shorter now. I changed:
+After that the console went pretty annoying about the change from v3 to v4., so I went to Google for help. I found out that there were some (good) code changes. Everything is way shorter now. I changed:
 
 ```javascript
 /* Scales and axes. */
