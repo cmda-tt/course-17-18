@@ -33,5 +33,4 @@ These are the features added:
 - Added some style
 
 ## License
-based on a example from [bl.ocks.org](https://bl.ocks.org).
-<br/> © Jun Spaarwater
+© Jun Spaarwater
