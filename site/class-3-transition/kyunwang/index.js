@@ -51,7 +51,6 @@ function renderChart(error, classes) {
 		.style('fill', '#fff' )
 		.on('mouseover', handleMouseOver)
 		.on('mouseout', handleMouseOut)
-		// .on('mouseover', handleMouseOver)
 			.transition()
 			.delay(transDelay)
 			.duration(transDuration)
@@ -87,7 +86,7 @@ function renderChart(error, classes) {
 			.transition()
 			.duration(transDurationShort)
 			.ease(easeStyle)
-			.attr('r', this.getAttribute('r') * 1.2)
+			.attr('r', this.getAttribute('r') * 1.2);
 	}
 
 	function handleMouseOut() {
@@ -95,7 +94,7 @@ function renderChart(error, classes) {
 			.transition()
 			.duration(transDurationShort)
 			.ease(easeStyle)
-			.attr('r', this.getAttribute('r') / 1.2)
+			.attr('r', this.getAttribute('r') / 1.2);
 	}
 }
 
@@ -104,6 +103,7 @@ function transDelay(d, i) {
 	return i * delayTime;
 }
 
+// Set for testing switching data
 (function set1() {
 	d3.csv('data.csv', d => {
 		d.value = +d.value; // coercion string => number
