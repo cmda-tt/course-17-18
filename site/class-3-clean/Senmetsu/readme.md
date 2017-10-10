@@ -60,12 +60,12 @@ places = d3.nest()
     });
 ```
 
-##Features:
+## Features:
 * [ParseRows](https://github.com/d3/d3-dsv#csvParseRows)
 * [timeParse](https://github.com/d3/d3-time-format#timeParse)
 * [nest](https://github.com/d3/d3-collection/blob/master/README.md#nest)
 
-##Bronnen:
+## Bronnen:
 * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/
 * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map
 * https://github.com/d3/d3-collection
