@@ -9,7 +9,7 @@ Ik heb gekozen voor datasets van de volgende plaatsen:
 * Lelystad 
 * Huibertgat
 
-Bij Huibertgat heb ik een aantal verschillende datums geprobeert te verkijgen voor de dataset echter kreeg ik bij geen van deze een resultaat en werkt dus niet omdat hier geen data voor is.
+Bij Huibertgat heb ik een aantal verschillende datums geprobeerd te verkijgen voor de dataset echter kreeg ik bij geen van deze een resultaat en werkt dus niet omdat hier geen data voor is.
 
 Met behulp van de slides van class 3 en examples voor de opdracht clean heb ik deze opdracht gemaakt.
 
