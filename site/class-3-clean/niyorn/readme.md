@@ -1,5 +1,5 @@
 # Cleaning code
-![cover][cover]
+![cover][preview.png]
 This assignmet was about getting data in a .txt format and to transform this into a csv file so that the machine is able to read and plot a graph.
 
 ## Data
@@ -21,4 +21,3 @@ Someplaces doesnt have a measurement that's why they will be on the bottom of th
 MIT License
 
 Copyright (c) [2017] [Chanakarn Niyornram]
-[cover]: preview.png
