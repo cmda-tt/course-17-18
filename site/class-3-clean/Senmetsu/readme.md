@@ -71,7 +71,7 @@ places = d3.nest()
 * https://github.com/d3/d3-collection
 Bronnen voor de Datasets: KNMI
 
-##License:
+## License:
 GPL-3.0 © Sam Guliker
 
 [cover]: preview.png
