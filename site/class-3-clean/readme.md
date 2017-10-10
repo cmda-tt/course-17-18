@@ -1,4 +1,4 @@
-![Alt text](cover)
+![preview][cover]
 # Clean
 ## Temperaturen grafiek van plaatsen in Nederland
 
