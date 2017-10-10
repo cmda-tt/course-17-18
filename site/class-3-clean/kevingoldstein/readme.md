@@ -68,6 +68,6 @@ places = d3.nest().key(function (d) {
 
 ## License
 
-MIT @Kevin Goldstein
+MIT @ Kevin Goldstein
 
 
