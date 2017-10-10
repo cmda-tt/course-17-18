@@ -2,7 +2,7 @@
 ## Preview
 ![preview][cover]
 ## Description
-I have taken the [bubblechart][chart] made by [][author]
+I have taken the [bubblechart][chart] made by [Mike Bostock][author]
 
 ## Background
 I have separated everything into different files. The files that are included are:
