@@ -1,4 +1,4 @@
-# Filter w/ Joins
+# Broken Filter
 
 A broken (but interesting) visualisation of random polka dots with filtering
 using joins based on a [`bl.ock`][block] by [**@mbostock**][block-author]
