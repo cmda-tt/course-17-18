@@ -32,7 +32,7 @@ var end = doc.indexOf('\n', header)
 
 var parseTime = d3.timeParse("%Y%m%dT%H:%M:%S.%LZ")
 ```
-Met daarna was ik de weg kwijt en ben ik online bij de frontend groep gaan kijken. De map functie zorgt ervoor dat de juiste data gereturned wordt. Om de juiste value bij date te krijgen maak ik gebruik van parseTime en zeg ik welke colomen samen gevoegd moeten worden met concat. Met number forceer je de data naar nummers toe.
+Met daarna was ik de weg kwijt en ben ik online bij de frontend groep gaan kijken. De map functie zorgt ervoor dat de juiste data gereturned wordt. Om de juiste value bij date te krijgen maak ik gebruik van parseTime en zeg ik welke kolommen samen gevoegd moeten worden met concat. Met number forceer je de data naar nummers toe.
 
 
 ```JavaScript
