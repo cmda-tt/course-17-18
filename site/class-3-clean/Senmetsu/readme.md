@@ -4,7 +4,7 @@ Dit document verklaard mijn process tijdens de opdracht.
 ![Alt text][cover]
 
 
-## Process
+## Proces
 Voor de opdracht moet ik de code inladen, schoonmaken(het bruikbaar maken voor de visualisatie), en het visueel werkend krijgen.
 
 
