@@ -1,0 +1,20 @@
+.bar {
+    fill: steelblue;
+}
+
+.axis path {
+    display: none;
+}
+
+svg g {
+    pointer-events: none;
+}
+
+svg g > .serie > rect {
+    cursor: pointer;
+    pointer-events: auto;
+}
+
+svg.focus-mode g > .serie > rect {
+    cursor: inherit !important;
+}
