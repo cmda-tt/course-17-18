@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+  <title>Variable: hue</title>
+  <circle fill="#feca2f" cx="75" cy="50" r="25"/>
+  <circle fill="#ca2ffe" cx="75" cy="110" r="25"/>
+  <circle fill="#2ffeca" cx="75" cy="170" r="25"/>
+</svg>
