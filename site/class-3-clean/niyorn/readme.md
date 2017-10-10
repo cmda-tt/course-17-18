@@ -1,5 +1,5 @@
 # Cleaning code
-![alt text][preview.png]
+![alt text](preview.png)
 This assignmet was about getting data in a .txt format and to transform this into a csv file so that the machine is able to read and plot a graph.
 
 ## Data
