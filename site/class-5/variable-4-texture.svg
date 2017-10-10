@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+  <title>Variable: texture</title>
+  <defs>
+    <pattern id="p0" x="0" y="0" width="6" height="6" patternUnits="userSpaceOnUse">
+      <rect fill="white" x="0" y="0" width="6" height="6"/>
+      <rect x="0" y="0" width="6" height="1"/>
+    </pattern>
+    <pattern id="p1" x="0" y="0" width="6" height="6" patternUnits="userSpaceOnUse">
+      <rect fill="white" x="0" y="0" width="6" height="6"/>
+      <rect x="0" y="0" width="6" height="3"/>
+    </pattern>
+    <pattern id="p2" x="0" y="0" width="6" height="6" patternUnits="userSpaceOnUse">
+      <rect fill="white" x="0" y="0" width="6" height="6"/>
+      <rect x="0" y="0" width="6" height="5"/>
+    </pattern>
+  </defs>
+  <circle fill="url(#p0)" cx="75" cy="50" r="25"/>
+  <circle fill="url(#p1)" cx="75" cy="110" r="25"/>
+  <circle fill="url(#p2)" cx="75" cy="170" r="25"/>
+</svg>

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+  <title>Variable: position</title>
+  <circle cx="50" cy="50" r="25"/>
+  <circle cx="150" cy="110" r="25"/>
+  <circle cx="80" cy="170" r="25"/>
+</svg>
