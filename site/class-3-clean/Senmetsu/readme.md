@@ -15,10 +15,9 @@ Voor de opdracht moet ik de code inladen, schoonmaken(het bruikbaar maken voor d
 * 310 Vlissingen
 
 ## Wat heb ik gedaan?
-Ik begon vanuit de slides, dit was simpel todat je merkt dat je meer moet doen dan alleen de slides volgen. Vervolgens ben ik het stap voor stap te werk gegaan. Eerst wilde ik het document schoon maken.
+Ik begon vanuit de slides, dit was simpel totdat je merkt dat je meer moet doen dan alleen de slides volgen. Vervolgens ben ik het stap voor stap te werk gegaan. Eerst wilde ik het document schoon maken.
 
-Eerst slice ik de header eruit, vervolgens vervang ik de # met geen content. Trim zorgt ervoor dat de overbodige ruimte weg gaat.
-Met replace vervang ik de overbodige informatie.
+Eerst slice ik de header eruit, vervolgens vervang ik de # met geen content. Trim zorgt ervoor dat de overbodige ruimte weg gaat.Met replace vervang ik de overbodige informatie.
 Parste time functie zorg ik ervoor dat het op de juiste manier de datum wordt opgenomen.
 
 ```JavaScript
@@ -32,7 +31,7 @@ var end = doc.indexOf('\n', header)
 
 var parseTime = d3.timeParse("%Y%m%dT%H:%M:%S.%LZ")
 ```
-Met daarna was ik de weg kwijt en ben ik online bij de frontend groep gaan kijken. De map functie zorgt ervoor dat de juiste data gereturned wordt. Om de juiste value bij date te krijgen maak ik gebruik van parseTime en zeg ik welke colomen samen gevoegd moeten worden met concat. Met number forceer je de data naar nummers toe.
+Met daarna was ik de weg kwijt en ben ik online bij de frontend groep gaan kijken. De map functie zorgt ervoor dat de juiste data gereturned wordt. Om de juiste value bij date te krijgen maak ik gebruik van parseTime en zeg ik welke kollomen samen gevoegd moeten worden met concat. Met number forceer je de data naar nummers toe.
 
 
 ```JavaScript
