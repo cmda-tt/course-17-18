@@ -91,7 +91,7 @@ In practice you’ll learn to:
 6.  <a name="subgoal-6"></a> Refactor code
     ([**class 2**][c2])
 7.  <a name="subgoal-7"></a> Use scales (domain, range, and axis)
-    ([**class 2**][c2])
+    ([**class 2**][c2] and [**class 5**][c5])
 8.  <a name="subgoal-8"></a> Transform and clean data
     ([**class 3**][c3])
 9.  <a name="subgoal-9"></a> Manipulate elements
@@ -101,7 +101,7 @@ In practice you’ll learn to:
 11. <a name="subgoal-11"></a> Create interactive visualisations
     ([**class 4**][c4] and [**class 5**][c5])
 12. <a name="subgoal-12"></a> Create multiple visualisations on the same page
-    ([**class 5**][c5])
+    ([**class 5**][c5] and [**class 6**][c6])
 
 ## Grade
 
