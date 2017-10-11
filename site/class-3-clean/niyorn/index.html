@@ -129,13 +129,18 @@
 
     //map data in new array
     function map(d) {
-      let data = {
-        name: findPlaceName(d[0]),
-        date: parseTime(d[1] + d[2]), //format to standart time Format
-        temperature: calculateCelcius(Number(d[7]))
-      };
-      return data;
+
+      if(d[7]){
+        let data = {
+          name: findPlaceName(d[0]),
+          date: parseTime(d[1] + d[2]), //format to standart time Format
+          temperature: calculateCelcius(Number(d[7]))
+        };
+        return data;
+      }
+      return
     };
+
 
     //The temp registration was done in 0.10 celcius thats why we need to
     //devide it bij 10
@@ -155,12 +160,18 @@
         return d.name;
       })
       .entries(data)
-      .map(function(group) {
+      .map(function(d) {
+        if(d.values.temperature != 0){
+          console.log(d.values);
         return {
-          name: group.key,
-          values: group.values
+          name: d.key,
+          values: d.values
         }
+      }
+      return
       });
+
+      function checkData(){}
 
     var places = nestData;
 
