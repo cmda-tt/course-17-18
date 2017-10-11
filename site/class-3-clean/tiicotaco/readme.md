@@ -11,7 +11,7 @@ First I went through the [slides](https://docs.google.com/presentation/d/1TpoPil
 ## Data used
 I used data from the [KNMI](http://projects.knmi.nl/klimatologie/uurgegevens/selectie.cgi) website, the assignment stated that I needed four data sets, I did switch at the end cause some of the data gave back no temperature. 
 * [Maastricht](http://www.knmi.nl/samenw/klimatologie/metadata/maastricht.html',800,794)
-* [Schiphol](http://www.knmi.nl/samenw/klimatologie/metadata/schiphol.html',800,794)
+* [Huibergat](http://www.knmi.nl/samenw/klimatologie/metadata/huibertgat.html',800,794)
 * [De Bilt](http://www.knmi.nl/samenw/klimatologie/metadata/debilt.html',800,794)
 * [Vlieland](http://www.knmi.nl/samenw/klimatologie/metadata/vlieland.html',800,794)
 
@@ -19,6 +19,7 @@ I used data from the [KNMI](http://projects.knmi.nl/klimatologie/uurgegevens/sel
 Most of the cleaning data part (removing stuff) I learned and 'copied' from the [slides](https://docs.google.com/presentation/d/1TpoPilc1qVIQU07u_IdPeNqSZcbgliPaLF0zZUWGvWE/edit?usp=sharing) of our third class. After that was done I used a couple of links found on the internet to better understand the nesting that had to be done. Two I found really helpfull were;
 * [Learn JS data, group data through nesting](http://learnjsdata.com/group_data.html)
 * [Youtube video for better understanding](https://www.youtube.com/watch?v=6dcj3X6Bfsk)
+* [Check if array is empty](https://stackoverflow.com/questions/24403732/check-if-array-is-empty-does-not-exist-js)
 
 ## License
 Copyright (c) 2017 [@tiicotaco](https://github.com/tiicotaco)
