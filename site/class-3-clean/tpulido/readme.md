@@ -15,7 +15,7 @@ I had problems with the nesting and forgot to change the temperatures values int
 -   [`d3.scaleOrdinal()`](https://github.com/d3/d3-3.x-api-reference/blob/master/Ordinal-Scales.md#ordinal)
 -   [`d3.extent()`](https://github.com/d3/d3-array/blob/master/README.md#extent)
 -   [`d3.scaleLinear()`](https://github.com/d3/d3-scale/blob/master/README.md#scaleLinear)
--   [`d3.nest()`](http://bl.ocks.org/phoebebright/raw/3176159/)
+-   [`d3.nest()`](https://bl.ocks.org/phoebebright/raw/3176159/)
 -   [`d3.timeParse()`]()
 -   [`d3.csvParseRows()`]()
 -   [`d3.text()`]()

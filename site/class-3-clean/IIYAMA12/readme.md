@@ -24,17 +24,17 @@ doc = doc.slice(doc).trim();
 And spaces in between:
 ``` javascript
 doc = doc.replace(/ +/g, "");
-```  
-  
+```
 
-  
-  
 
-After the data has been cleaned, converted the values:  
+
+
+
+After the data has been cleaned, converted the values:
 
 Converted the time:
 ``` javascript
-var parseTime = d3.timeParse('%Y%m%d'); 
+var parseTime = d3.timeParse('%Y%m%d');
 ```
 
 Converted the temperature:
@@ -43,7 +43,7 @@ Number(value) / 10
 ```
 
 Converted the kmni codes
-``` javascript 
+``` javascript
 knmiCodes[value]
 ```
 
@@ -58,4 +58,4 @@ GPL-3.0 © Titus Wormer
 
 [block-author]: https://github.com/mbostock
 
-[Data source](http://projects.knmi.nl/klimatologie/uurgegevens/selectie.cgi)
+[Data source](https://projects.knmi.nl/klimatologie/uurgegevens/selectie.cgi)

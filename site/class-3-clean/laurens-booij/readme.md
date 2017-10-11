@@ -45,6 +45,5 @@ function onload(err, doc) {
 ## License
 GPL-3.0 © Laurens Booij
 
-[knmi]:http://projects.knmi.nl/klimatologie/uurgegevens/selectie.cgi
+[knmi]:https://projects.knmi.nl/klimatologie/uurgegevens/selectie.cgi
 [cover]: preview.png
-

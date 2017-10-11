@@ -20,7 +20,7 @@ An example of how to clean data.
 
 MIT © Titus Wormer
 
-[block]: http://bl.ocks.org/hunzy/9929724
+[block]: https://bl.ocks.org/hunzy/9929724
 
 [author]: https://github.com/hunzy
 

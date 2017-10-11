@@ -55,7 +55,7 @@ GPL-3.0 © Titus Wormer
 
 [block-author]: https://github.com/mbostock
 
-[block-filter]: http://bl.ocks.org/jonahwilliams/2f16643b999ada7b1909
+[block-filter]: https://bl.ocks.org/jonahwilliams/2f16643b999ada7b1909
 
 [block-author]: https://github.com/jonahwilliams
 

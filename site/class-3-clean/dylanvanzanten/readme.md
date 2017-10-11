@@ -29,6 +29,6 @@ Honestly I really don't know. I've followed the slides from class 3 and went div
 
 [block-author]: https://github.com/mbostock
 
-[KNMI]: http://projects.knmi.nl/klimatologie/uurgegevens/selectie.cgi
+[KNMI]: https://projects.knmi.nl/klimatologie/uurgegevens/selectie.cgi
 
 [cover]: preview.png

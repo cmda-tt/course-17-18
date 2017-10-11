@@ -1,4 +1,4 @@
-Based on the example from [D3Noob](http://bl.ocks.org/d3noob/8952219)
+Based on the example from [D3Noob](https://bl.ocks.org/d3noob/8952219)
 
 # Barchart
 

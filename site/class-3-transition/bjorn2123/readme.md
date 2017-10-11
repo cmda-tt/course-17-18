@@ -1,8 +1,8 @@
 # The Transition Assignment
 
-For this assignment I took the [Stacked-to-Grouped Bars chart](http://bl.ocks.org/mbostock/3943967) and copied the files into my text editor. 
+For this assignment I took the [Stacked-to-Grouped Bars chart](https://bl.ocks.org/mbostock/3943967) and copied the files into my text editor.
 
-First of all I moved the JS and CSS into their own files. 
+First of all I moved the JS and CSS into their own files.
 
 ## The code I changed
 
@@ -18,7 +18,7 @@ function transitionStacked() {
       .attr("y", function(d) { return y(d[1]); })
       .attr("height", function(d) { return y(d[0]) - y(d[1]); })
       .transition()
--->   .style('fill', 'red')  
+-->   .style('fill', 'red')
       .attr("x", function(d, i) { return x(i); })
       .attr("width", x.bandwidth())
 -->   .ease(d3.easeBounceOut)

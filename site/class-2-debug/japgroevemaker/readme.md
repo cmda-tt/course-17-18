@@ -6,7 +6,7 @@ In de console kreeg ik als eerste deze foutmelding ```Failed to load resource: t
 Dit gold voor deze bestanden ```index.css``` en ```index.js```  Vervolgens heb ik  ```../``` verwijderd en ```''``` toegevoegd in HTML.
 
 ## JavaScript
-Als eerst heb ik de beautify tool van brackets gebruikt. Deze heeft de code mooi en netjes onder elkaar gezet. Vervolgens zag ik dat de woorden niet afgemaakt waren 
+Als eerst heb ik de beautify tool van brackets gebruikt. Deze heeft de code mooi en netjes onder elkaar gezet. Vervolgens zag ik dat de woorden niet afgemaakt waren
 
 ```Oud
     var margin = {top: 48, right: 48, bottom: 48, left: 48};
@@ -40,8 +40,8 @@ Als eerst heb ik de beautify tool van brackets gebruikt. Deze heeft de code mooi
       margin.top + height + margin.bottom
     ].join(' '))
     .append('g')
-    .attr('transform', 'translate(' + margin.left + ',' + margin.top + ')');  
+    .attr('transform', 'translate(' + margin.left + ',' + margin.top + ')');
 ```
 Daarna had ik nog een foutmelding over ```Uncaught TypeError: d3.extend is not a function``` Ik had de foutcode gekopieerd en in google geplakt om te kijken wat daar uit kwam. Al snel kwam ik er achter dat het niet ```extend``` moet zijn maar ```extent``` . Toen ik dit had aangepast kreeg ik mijn grafiek te zien en waren de foutmeldingen weg.
 
-Bron Extend naar Extent -> [`http://bl.ocks.org/aaizemberg/f2eadcea50ec78f43662`]
+Bron Extend naar Extent -> [`https://bl.ocks.org/aaizemberg/f2eadcea50ec78f43662`]

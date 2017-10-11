@@ -16,7 +16,7 @@ g.append("g")
 
 ```
 
-The line animation is based on this [bl.ock](http://bl.ocks.org/duopixel/4063326)
+The line animation is based on this [bl.ock](https://bl.ocks.org/duopixel/4063326)
 
 ```
 var totalLength = path.node().getTotalLength();

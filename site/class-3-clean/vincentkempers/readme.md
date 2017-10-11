@@ -14,7 +14,7 @@ I use single quotes for strings and every new piece of code gets a new line (for
 
 For multiple variables I end on the latest line (in case you want to add more just `,` +  <button>enter</button> and add another one).
 
-The next example you see how I use a function. array and loop.  
+The next example you see how I use a function. array and loop.
 *   New line on every new entry in the array (same for objects).
 *   Close the array on a line of his own.
 *   Loop on the same line.
@@ -47,7 +47,7 @@ function myStyle() {
 -   [`d3.scaleOrdinal()`](https://github.com/d3/d3-3.x-api-reference/blob/master/Ordinal-Scales.md#ordinal)
 -   [`d3.extent()`](https://github.com/d3/d3-array/blob/master/README.md#extent)
 -   [`d3.scaleLinear()`](https://github.com/d3/d3-scale/blob/master/README.md#scaleLinear)
--   [`d3.nest()`](http://bl.ocks.org/phoebebright/raw/3176159/)
+-   [`d3.nest()`](https://bl.ocks.org/phoebebright/raw/3176159/)
 -   [`d3.timeParse()`]()
 -   [`d3.csvParseRows()`]()
 -   [`d3.text()`]()

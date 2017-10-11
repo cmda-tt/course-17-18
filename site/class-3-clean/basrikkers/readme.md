@@ -2,8 +2,8 @@
 ###### cleaning a data file to create a line chart
 
 ## Background
-First i downloaded the index.html and index.txt from github. The next thing i did was downloading the data 
-from [knmi](http://projects.knmi.nl/klimatologie/uurgegevens/selectie.cgi) site. I've picked out 4 weather station (De bilt, Rotterdam, Leeuwarden and Huibergat) and a date (Oktober 1, 2017) to display on the chart.
+First i downloaded the index.html and index.txt from github. The next thing i did was downloading the data
+from [knmi](https://projects.knmi.nl/klimatologie/uurgegevens/selectie.cgi) site. I've picked out 4 weather station (De bilt, Rotterdam, Leeuwarden and Huibergat) and a date (Oktober 1, 2017) to display on the chart.
 Then i started cleaning the data:
 1. removed the #
 2. removed header
