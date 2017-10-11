@@ -3,7 +3,7 @@
 Bar chart made with [D3 library](https://d3js.org/) by [@mbostock](https://github.com/mbostock).
 Chart used: [Bar Chart](https://bl.ocks.org/mbostock/3885304)
 
-![preview.png](url)
+![preview.png](https://github.com/tpulido/course-17-18/blob/interaction/site/class-4-interaction/tpulido/preview.png)
 
 ## Background
 
