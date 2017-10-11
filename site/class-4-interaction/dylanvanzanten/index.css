@@ -1,0 +1,84 @@
+body {
+	/* Source: https://css-tricks.com/quick-css-trick-how-to-center-an-object-exactly-in-the-center/ */
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-family: 'Roboto', Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	background: #E0E0E0;
+	color: #DE3378;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+}
+
+main h1 {
+	font-size: 2.5em;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+main div {
+	margin: 0 auto;
+}
+
+button,
+bar {
+	-moz-transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+button {
+	width: 100px;
+	padding: 1rem;
+	border: none;
+	color: #FFF;
+	font-size: 1em;
+	font-weight: 600;
+	cursor: pointer;
+}
+
+button:focus {
+	outline: solid 1px #FFF;
+}
+
+#sort {
+	background: #7E57C2;
+}
+
+#sort:hover {
+	background: #9575CD;
+}
+
+#reset {
+	background: #EF5350;
+}
+
+#reset:hover {
+	background: #E57373;
+}
+
+svg {
+	display: flex;
+	margin: 0 auto;
+}
+
+rect:hover {
+	fill: #FFF;
+}
+
+line,
+path {
+	stroke: #DE3378;
+	stroke-width: 3px;
+}
+
+text {
+	font-size: 1.5em;
+	fill: #DE3378;
+}
