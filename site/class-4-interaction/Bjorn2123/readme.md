@@ -11,6 +11,7 @@ var formatPercent = d3.format(".0%");
 Because I was working in this assignment with percentages.
 
 Because I'm working with D3@4 I changed:
+
 ```js
 var xAxis = d3.svg.axis()
     .scale(x)
@@ -31,7 +32,7 @@ var xAxis = d3.axisBottom(x)
 var yAxis = d3.axisLeft(y)
     .scale(y)
     .tickFormat(formatPercent);
-    ```
+```
     
 The following code I changed was a hard for me. That's why I looked at [d3.gallery](https://github.com/d3/d3/wiki/Gallery) for a couple examples. When i found the following code I adjusted it as far as I was capable of so that a transition was made in the chart. I applied the ease bounce, transition, delay and duration to this code. 
 
@@ -72,5 +73,6 @@ The following code I changed was a hard for me. That's why I looked at [d3.galle
             .selectAll("g")
             .delay(1000);
     }
-    ```
+```
+
 To let this all work i made a label in my html file that after it was checked let the chart move. I did that with the first function showed on the above code.
