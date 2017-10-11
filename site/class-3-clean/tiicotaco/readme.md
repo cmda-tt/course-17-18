@@ -10,10 +10,10 @@ First I went through the [slides](https://docs.google.com/presentation/d/1TpoPil
 
 ## Data used
 I used data from the [KNMI](http://projects.knmi.nl/klimatologie/uurgegevens/selectie.cgi) website, the assignment stated that I needed four data sets, I did switch at the end cause some of the data gave back no temperature. 
-* [Maastricht](javascript:pop_page('http://www.knmi.nl/samenw/klimatologie/metadata/maastricht.html',800,794))
-* [Schiphol](javascript:pop_page('http://www.knmi.nl/samenw/klimatologie/metadata/schiphol.html',800,794))
-* [De Bilt](javascript:pop_page('http://www.knmi.nl/samenw/klimatologie/metadata/debilt.html',800,794))
-* [Vlieland](javascript:pop_page('http://www.knmi.nl/samenw/klimatologie/metadata/vlieland.html',800,794))
+* [Maastricht](http://www.knmi.nl/samenw/klimatologie/metadata/maastricht.html',800,794)
+* [Schiphol](http://www.knmi.nl/samenw/klimatologie/metadata/schiphol.html',800,794)
+* [De Bilt]('http://www.knmi.nl/samenw/klimatologie/metadata/debilt.html',800,794)
+* [Vlieland]('http://www.knmi.nl/samenw/klimatologie/metadata/vlieland.html',800,794)
 
 ## Code used
 Most of the cleaning data part (removing stuff) I learned and 'copied' from the [slides](https://docs.google.com/presentation/d/1TpoPilc1qVIQU07u_IdPeNqSZcbgliPaLF0zZUWGvWE/edit?usp=sharing) of our third class. After that was done I used a couple of links found on the internet to better understand the nesting that had to be done. Two I found really helpfull were;
