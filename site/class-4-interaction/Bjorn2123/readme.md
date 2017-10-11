@@ -55,7 +55,7 @@ The following code I changed was a hard for me. That's why I looked at [d3.galle
                 return x0(a.letter) - x0(b.letter);
             });
         
-        //in onderstaande code geef ik de transitie van de sv een ease bounce en geef ik de transitie een duur van 1 seconde.
+        /*in onderstaande code geef ik de transitie van de sv een ease bounce en geef ik de transitie een duur van 1 seconde.*/
 
         var transition = svg.transition().duration(1000).ease(d3.easeBounce),
             delay = function (d, i) {
