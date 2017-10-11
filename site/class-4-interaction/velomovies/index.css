@@ -1,0 +1,30 @@
+body {
+  background-color: #45B200;
+  font-family: sans-serif;
+}
+
+label {
+  color: #fff;
+}
+
+.bar {
+  fill: #fff;
+}
+
+path, line {
+  stroke: #fff;
+}
+
+text {
+  fill: #fff;
+}
+
+.bar:hover {
+  fill: #B000B5;
+  transition: all .3s;
+  cursor: pointer;
+}
+
+.axis--x path {
+  display: none;
+}
