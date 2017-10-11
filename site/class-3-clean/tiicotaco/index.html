@@ -1,0 +1,205 @@
+<!doctype html>
+<!--Based on https://bl.ocks.org/mbostock/3884955 by Mike Bostock-->
+<meta charset=utf8>
+<!--Prevent favicon error from showing up-->
+<link rel="shortcut icon" type=image/x-icon href=data:image/x-icon;,>
+<title>Clean starter code</title>
+<meta content=width=device-width,initial-scale=1 name=viewport>
+<style>
+html {
+  font-family: Roboto, -apple-system, BlinkMacSystemFont, Helvetica Neue, Segoe UI, Oxygen, Ubuntu, Cantarell, Open Sans, sans-serif;
+  background-color: black;
+  color: white;
+  max-width: 100%;
+}
+body {
+  margin: 0;
+}
+svg {
+  width: 100vw;
+  height: 100vh;
+}
+.line {
+  fill: none;
+  stroke-width: 3;
+}
+path, line {
+  stroke: currentcolor;
+}
+text {
+  font-size: small;
+  fill: currentcolor;
+}
+</style>
+<svg width=960 height=500 viewbox="0 0 960 500"></svg>
+<script src=https://d3js.org/d3.v4.min.js></script>
+<script>
+var svg = d3.select('svg');
+var margin = {top: 20, right: 140, bottom: 30, left: 50};
+var width = svg.attr('width') - margin.left - margin.right;
+var height = svg.attr('height') - margin.top - margin.bottom;
+var g = svg.append('g').attr('transform', 'translate(' + margin.left + ',' + margin.top + ')');
+var x = d3.scaleTime().range([0, width]);
+var y = d3.scaleLinear().range([height, 0]);
+var z = d3.scaleOrdinal(['#feca2f', '#2ffe63', '#2f63fe', '#fe2fca']);
+var knmiCodes = {
+  209: 'IJmond',
+  210: 'Valkenburg',
+  215: 'Voorschoten',
+  225: 'IJmuiden',
+  235: 'De Kooy',
+  240: 'Schiphol',
+  242: 'Vlieland',
+  248: 'Wijdenes',
+  249: 'Berkhout',
+  251: 'Hoorn (Terschelling)',
+  257: 'Wijk aan Zee',
+  258: 'Houtribdijk',
+  260: 'De Bilt',
+  265: 'Soesterberg',
+  267: 'Stavoren',
+  269: 'Lelystad',
+  270: 'Leeuwarden',
+  273: 'Marknesse',
+  275: 'Deelen',
+  277: 'Lauwersoog',
+  278: 'Heino',
+  279: 'Hoogeveen',
+  280: 'Eelde',
+  283: 'Hupsel',
+  285: 'Huibertgat',
+  286: 'Nieuw Beerta',
+  290: 'Twenthe',
+  308: 'Cadzand',
+  310: 'Vlissingen',
+  311: 'Hoofdplaat',
+  312: 'Oosterschelde',
+  313: 'Vlakte v.d. Raan',
+  315: 'Hansweert',
+  316: 'Schaar',
+  319: 'Westdorpe',
+  323: 'Wilhelminadorp',
+  324: 'Stavenisse',
+  330: 'Hoek van Holland',
+  331: 'Tholen',
+  340: 'Woensdrecht',
+  343: 'R’dam-Geulhaven',
+  344: 'Rotterdam',
+  348: 'Cabauw',
+  350: 'Gilze-Rijen',
+  356: 'Herwijnen',
+  370: 'Eindhoven',
+  375: 'Volkel',
+  377: 'Ell',
+  380: 'Maastricht',
+  391: 'Arcen'
+};
+// You may start editing stuff here (but don’t change the file-name).
+d3
+  .text('index.txt')
+  .get(onload)
+
+// START CODING TICO VAN BEURDEN
+
+function onload(err, doc) {
+  if (err) throw err;
+    var header = doc.indexOf('STN,YYYYMMDD');    //  Create var Header and place all strings until 'STN,YYYYMMDD' in this var
+    doc = doc.replace(/#+/g,'');  // Replacing all # with nothing (bascially deleting it)
+    var end = doc.indexOf('\n', header); // Var end is alles na de header
+    doc = doc.slice(end).trim(); // Slice var end uit var doc en plaats dit in doc
+    doc = doc.replace(/ +/g, ''); // Replacing all ' '(spaces) with nothing (basically deleting it)
+    var parseTime = d3.timeParse('%Y%m%d%H'); // var parseTime = d3.timeParse in the format of year, month, day and hour
+    var data = d3.csvParseRows(doc, map); // Create var data and make a csv file out of this, with the values doc and map
+
+    function map(d) {
+      return {
+        name: knmiCodes[d[0]],
+        date: Number(parseTime(d[1]+d[2])),
+        temperature: Number(d[7]/10)
+      }
+    }// Function map the value d, where link the array value name with the code through var knmi code. array value data with time (d array 2 and 3), and temperature with array value 7, devided by 10 because the temperature is givin in 0.1 graden celicus.
+
+  var places = []; // Create an empty array called places
+  places.push(data); // Push the data into the array places
+  places = places[0].slice(0,places[0].length); //slice places into single arrays for each temperature messurement
+
+  places = d3.nest() // Nesting the arrays to a group, based on their name,
+      .key(function(d) { return d.name; }) // .key is the sorting key, so there's a group created foreach name
+      .entries(places) // Activating the groups and placing them in places.
+      .map(function(d){
+        return{
+          name: d.key,
+          values: d.values
+        }
+      }); //Placing the key name and the linked value in the map function.
+
+// END CODING TICO VAN BEURDEN
+  x.domain(d3.extent(flatten(places), date));
+  y.domain(d3.extent(flatten(places), temperature)).nice();
+  z.domain(places.map(name));
+  var line = d3.line()
+    .curve(d3.curveBasis)
+    .x(lineX)
+    .y(lineY);
+  g.append('g')
+    .attr('class', 'axis x')
+    .attr('transform', 'translate(0,' + height + ')')
+    .call(d3.axisBottom(x));
+  g.append('g')
+    .attr('class', 'axis y')
+    .call(d3.axisLeft(y))
+    .append('text')
+    .attr('transform', 'rotate(-90)')
+    .attr('y', 6)
+    .attr('dy', '0.71em')
+    .text('Temperature, °C');
+  var place = g
+    .selectAll('.place')
+    .data(places)
+    .enter()
+    .append('g')
+    .attr('class', 'place');
+  place
+    .append('path')
+    .attr('class', 'line')
+    .attr('d', lineD)
+    .style('stroke', lineStroke);
+  place
+    .append('text')
+    .attr('transform', transformText)
+    .attr('x', 3)
+    .attr('dy', '0.35em')
+    .text(name);
+  function lineX(d) {
+    return x(date(d));
+  }
+  function lineY(d) {
+    return y(temperature(d));
+  }
+  function lineD(d) {
+    return line(values(d));
+  }
+  function lineStroke(d) {
+    return z(name(d));
+  }
+  function transformText(d) {
+    var last = d.values[d.values.length - 1];
+    return 'translate(' + x(date(last)) + ',' + y(temperature(last)) + ')';
+  }
+}
+function flatten(value) {
+  return [].concat.apply([], value.map(values));
+}
+function values(d) {
+  return d.values;
+}
+function name(d) {
+  return d.name;
+}
+function date(d) {
+  return d.date;
+}
+function temperature(d) {
+  return d.temperature;
+}
+</script>
