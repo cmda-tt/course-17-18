@@ -39,6 +39,8 @@ The data is about the usage of letters in the alphabet and is loaded from `index
 
 ## Process
 ![alt text][hazes]
+`Source: https://www.nu.nl/muziek/3840039/volledig-oeuvre-andre-hazes-gebundeld.html`
+
 [Bloed, zweet en tranen][boedzweettranen]
 
 ## License
