@@ -1,0 +1,34 @@
+body {
+    font: .8em sans-serif;
+  }
+
+  h1{
+    margin-left: 4em;
+  }
+  
+  .y.axisRight text {
+      fill: #11B811;
+  }
+  
+  .y.axisLeft text {
+      fill: #6D46A1;
+  }
+  
+  .axis path,
+  .axis line {
+    fill: none;
+    stroke: #000;
+    shape-rendering: crispEdges;
+  }
+  
+  .bar1 {
+    fill: #6D46A1;
+  }
+  
+  .bar2 {
+    fill: #11B811;
+  }
+  
+  .x.axis path {
+    display: none;
+  }
