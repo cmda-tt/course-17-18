@@ -28,4 +28,6 @@ I fixed this by adding a class "nega" to the negative values, and change the pos
 
 GNU @Basrikkers
 
-![preview](preview.png)
+![preview](preview1.png)
+
+![preview](preview2.png)
