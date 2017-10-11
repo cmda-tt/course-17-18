@@ -10,7 +10,7 @@ var formatPercent = d3.format(".0%");
 ```
 Because I was working in this assignment with percentages.
 
-Because i'm working with D3@4 I changed:
+Because I'm working with D3@4 I changed:
 ```js
 var xAxis = d3.svg.axis()
     .scale(x)
@@ -20,9 +20,10 @@ var yAxis = d3.svg.axis()
     .scale(y)
     .orient("left")
     .tickFormat(formatPercent);
-    ```
+```
     
  To:
+ 
 ```js
 var xAxis = d3.axisBottom(x)
     .scale(x)
