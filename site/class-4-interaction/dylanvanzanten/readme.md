@@ -177,7 +177,6 @@ Example:
 * [D3](https://d3js.org/)
 * [Original Bar chart](https://bl.ocks.org/d3noob/bdf28027e0ce70bd132edc64f1dd7ea4)
 * [Author](https://b.locks.org/mbostock)
-* [Data KNMI](https://github.com/cmda-fe3/course-17-18/blob/master/assessment-1/temperature.csv)
 
 ## Thoughts
 I used Titus example as [Inspiration] for the finsl result. I really don't know how to code this from stratch, but thanks to the example form Titus I now know a little bit more about this assignment!
