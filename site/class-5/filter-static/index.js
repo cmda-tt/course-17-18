@@ -26,30 +26,7 @@ var extent = d3.extent(points, x);
 d3.select('input')
   .attr('value', extent[0] - 1)
   .attr('min', extent[0] - 1)
-  .attr('max', extent[1] + 1)
-  .on('input', onchange);
-
-function onchange() {
-  var value = Number(this.value);
-
-  var circles = svg.selectAll('circle')
-    .data(points.filter(visible))
-    .attr('cx', x)
-    .attr('cy', y)
-
-  circles.exit()
-    .remove();
-
-  circles.enter()
-    .append('circle')
-    .attr('cx', x)
-    .attr('cy', y)
-    .attr('r', 2.5)
-
-  function visible(d) {
-    return x(d) > value;
-  }
-}
+  .attr('max', extent[1] + 1);
 
 function x(d) {
   return d.x;
