@@ -156,6 +156,20 @@ function letter(d) {
 
 I've cut some code out of it and added a own function around it. I also didn't used a label, but a button. The 'transition.select('.axis-x')' I added also to the 'svg.append' for the x-axis, because then the transitions works when you are sorting the data.
 
+Finally I've added some styling and animation to the rectangles:
+
+```javascript
+    .style("fill", function (d, i) {
+      return 'rgb(38, 78, ' + ((i * 5) + 100) + ')';
+    })
+    .transition()
+    .duration(1000)
+    .ease(d3.easeBounceOut)
+    .attr("y", function (d) {
+      return y(d.percentage);
+    })
+```
+
 ### index.csv
 I used the data from the example. Index.csv. It contains basic data attributes with letters. Each letter has a percentage:
 
