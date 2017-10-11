@@ -1,0 +1,40 @@
+body {
+	background: white;
+}
+
+svg {
+	margin-top: 50px;
+}
+
+.container {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+span {
+	background: blue;
+	padding: 10px;
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%, 0%);
+	border-radius: 5px;
+	color: white;
+	cursor: pointer;
+	font: 14px sans-serif;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.bar {
+	fill: blue;
+}
+
+.axisY .domain, .axisX .domain, .axisX .tick line {
+	display: none;
+}
+
+text {
+	font: 14px sans-serif;
+	font-family: 'Montserrat', sans-serif;
+}
