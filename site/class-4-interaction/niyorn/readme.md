@@ -1,7 +1,7 @@
 # Transition
 ![alt text](preview.gif)
 
-The graph is taken from the first assignment. This graph have the added functionality that is a tooltop that the user can hover over it.
+The graph is taken from the first assignment. This graph have the added functionality that it has a tooltip that the user can hover over it.
 
 ## The Features
 the list show the features that are used to creat this chart.
