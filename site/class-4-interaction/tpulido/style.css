@@ -1,0 +1,36 @@
+body {
+  background-color:#bec287;
+    font-family: sans-serif;
+}
+.bar {
+    fill: #4c434f;
+}
+
+.bar:hover {
+  fill: brown;
+}
+
+.axis--x path {
+  display: none;
+}
+
+text {
+  fill: white;
+}
+h1 {
+  text-align: center;
+}
+#sort {
+  display: flex;
+      justify-content: center;
+      align-items: center;
+}
+#sort #checkbox {
+    width: 30px;
+    height: 30px;
+}
+#sort p {
+    font-size: 1.5em;
+    font-weight: 500;
+    text-decoration: underline;
+}
