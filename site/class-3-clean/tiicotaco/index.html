@@ -112,6 +112,7 @@ function onload(err, doc) {
     var data = d3.csvParseRows(doc, map); // Create var data and make a csv file out of this, with the values doc and map
 
     function map(d) {
+    if(d[7] === undefined || d[7] == 0) { return }else
       return {
         name: knmiCodes[d[0]],
         date: Number(parseTime(d[1]+d[2])),
