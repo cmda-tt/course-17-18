@@ -1,3 +1,5 @@
+//Sources: https://bl.ocks.org/mbostock/3885304 and https://cmda-fe3.github.io/course-17-18/class-4/sort/
+
 // Declare variables regarding the svg element and its dimensions
 var svg = d3.select("body").append("svg").attr("width", "960").attr("height", "500"),
     margin = {top: 20, right: 20, bottom: 30, left: 40},
