@@ -34,8 +34,7 @@ function onchange() {
 
   var circles = svg.selectAll('circle')
     .data(points.filter(visible))
-    .attr('cx', x)
-    .attr('cy', y)
+    .attr('cx', x);
 
   circles.exit()
     .remove();
