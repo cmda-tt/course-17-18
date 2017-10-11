@@ -28,7 +28,7 @@ var svg = d3.select("body").append("svg").attr("width", "960").attr("height", "5
 * Added a lot of things to make it work. All credits to [this project][inspiratie] for helping me trough this ordeal.
 
 ### index.css
-I wrote the css from scratch. The only line I copied from the original is:
+I wrote the css from scratch. The only line I have copied from the original is:
 
 `.axis--x path {
   display: none;
@@ -44,7 +44,7 @@ The data is about the usage of letters in the alphabet and is loaded from `index
 [Bloed, zweet en tranen][boedzweettranen]
 
 ## License
-
+Released under the GNU General Public License, version 3. © Laurens Booij
 
 [preview]: preview.png
 [author]: https://bl.ocks.org/mbostock
