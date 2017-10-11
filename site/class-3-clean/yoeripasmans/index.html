@@ -149,12 +149,17 @@
 
     //Maps the right data as properties and returns it as an object
     function map(d) {
+      if (d[7] === "") { // Returns nothing if data consist nothing
+          return;
+      }
       return {
         date: parseTime((d[1].concat('T', d[2], ':00:00.000Z'))),
         temperature: (Number(d[7]) / 10),
         name: knmiCodes[d[0]]
       }
     }
+
+
 
     //Group the data by name and values
     places = d3.nest()
@@ -168,6 +173,8 @@
           values: group.values
         }
       });
+
+
 
     // Do not change stuff below this line.
     x.domain(d3.extent(flatten(places), date));
