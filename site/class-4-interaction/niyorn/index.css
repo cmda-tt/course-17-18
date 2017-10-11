@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css?family=Ubuntu:300,400,400i,700");
+@import url("https://fonts.googleapis.com/css?family=Ubuntu:300,400,400i,700");
+body {
+  font-family: "Ubuntu", sans-serif;
+  line-height: 1.4;
+}
+
+h1, h2, h3, h4 {
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 4em;
+}
+
+h2 {
+  font-size: 3em;
+}
+
+h3 {
+  font-size: 2em;
+}
+
+p {
+  font-size: 1.2em;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  padding-top: 4rem;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+}
+
+h1 {
+  position: absolute;
+  right: 5rem;
+  -webkit-animation: slide-in-from-bottom 2s;
+  animation: slide-in-from-bottom 2s;
+}
+
+rect {
+  fill: #64B5F6;
+}
+
+.bar:hover {
+  fill: #1565C0;
+}
+
+.activate {
+  -webkit-animation: slide-in-from-bottom 2s;
+  animation: slide-in-from-bottom 2s;
+}
+
+.container{
+  position: relative;
+}
+
+.tooltip {
+  position: absolute;
+  text-align: center;
+  height: 28px;
+  padding: 2px;
+  background: red;
+  color: white;
+  border: 0px;
+  border-radius: 8px;
+  pointer-events: none;
+}
