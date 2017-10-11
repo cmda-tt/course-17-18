@@ -68,10 +68,11 @@ function onload(err, doc) {
 
   var header = doc.indexOf('STN,YYYYMMDD');  // Get indexOf of header row
   var headerEnd = doc.indexOf("\n", header); // get end of header row
-  var doc = doc.slice(headerEnd).trim();     // get the part which contains the data
+      doc = doc.slice(headerEnd).trim();     // get the part which contains the data
+  var cleanRule = doc.indexOf("\n");         // get the first "\n" it encounters and store it in var
+      doc = doc.slice(cleanRule).trim();     // get rid of whitespace rule at the top
       doc = doc.replace("#","");             // Get rid of the remaining #
-      doc= doc.replace(/ +/g, "");           // Remove spaces
-
+      doc = doc.replace(/ +/g, "");           // Remove spaces
   var parseTime = d3.timeParse('%Y%m%d%H');  // parse time format
 
   var places = d3.csvParseRows(doc, map);
