@@ -1,0 +1,26 @@
+form {
+    font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif';
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+label {
+    display: block;
+}
+
+
+
+/* Gradient text from @CreativePunch https://codepen.io/CreativePunch/pen/ftkDE?q=gradient+text&limit=all&type=type-pens */
+
+h1 {
+    margin-left: 380px;
+    display: table;
+    font-family: "Helvetica Neue";
+    font-size: 1em;
+    /* Maakt een vlak met gradient, en maakt vervolgens 'knipmasker' van de vlak in de tekst */
+    background: linear-gradient(330deg, #e05252 0%, #99e052 25%, #52e0e0 50%, #9952e0 75%, #e05252 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    line-height: 100px;
+}
