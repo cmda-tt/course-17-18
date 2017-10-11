@@ -1,6 +1,6 @@
 # Interactivity
 
-for this assignment i choose the [Bar Chart](https://bl.ocks.org/mbostock/3885304). After I put HTML, CSS and JS into their own files I starten to work with the code. 
+For this assignment i choose the [Bar Chart](https://bl.ocks.org/mbostock/3885304). After I put HTML, CSS and JS into their own files I starten to work with the code. 
 
 ## Code I Changed
 
