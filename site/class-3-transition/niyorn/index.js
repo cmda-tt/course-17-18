@@ -1,5 +1,8 @@
 /*eslint semi: ["error"]*/
 
+//this code was taken from Mike Bostock
+//src: https://bl.ocks.org/mbostock/3887118
+
 var margin = {
     top: 20,
     right: 20,
