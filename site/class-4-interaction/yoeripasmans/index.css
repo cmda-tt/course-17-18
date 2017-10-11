@@ -1,0 +1,56 @@
+body {
+  height: 100%;
+  font-family: Roboto, Helvetica Neue, Open Sans, sans-serif;
+}
+
+svg {
+  display: block;
+  margin: 5rem auto auto auto;
+}
+
+.bar {
+  fill: #DB5542;
+  fill-opacity: 0.9;
+}
+
+h1 {
+  text-align: center;
+}
+
+.tick line, .domain {
+  visibility: hidden;
+}
+
+.button-wrapper {
+  display: flex;
+  margin: auto;
+  width: 17em;
+  margin-top: 3em;
+  justify-content: center;
+}
+
+button {
+  margin: 0 0.5em;
+    background: none;
+    height: 3.5em;
+    width: 13em;
+    border: 1px solid #858386;
+    color: inherit;
+    cursor: pointer;
+    font: inherit;
+    line-height: normal;
+    overflow: visible;
+    padding: 0;
+    outline: none;
+    -webkit-appearance: button; /* for input */
+    -webkit-user-select: none; /* for button */
+       -moz-user-select: none;
+        -ms-user-select: none;
+}
+
+button:hover {
+  background-color: #333136;
+  color: #fff;
+  border: none;
+  transition: 0.2s ease;
+}
