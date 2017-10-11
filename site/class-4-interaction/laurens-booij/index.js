@@ -1,3 +1,4 @@
+// Declare variables regarding the svg element and its dimensions
 var svg = d3.select("body").append("svg").attr("width", "960").attr("height", "500"),
     margin = {top: 20, right: 20, bottom: 30, left: 40},
     width = 960 - margin.left - margin.right,
@@ -47,17 +48,19 @@ d3.tsv("index.tsv", function(d) {
 
  console.log(data);
 
+ // Sort the bars on frequency 
  function sort() {
    var x0 = x.domain(data.sort(sortFrequency).map(letter)).copy();
 
-   /* Move the bars. */
+   // Move the bars
    svg.selectAll('.bar')
       .transition()
       .delay(500)
       .duration(1000)
       .ease(d3.easeExp)
       .attr('x', barX0);
-
+   
+  // Move the letters
     svg.select('.axis--x')
        .transition()
        .delay(500)
@@ -69,18 +72,20 @@ d3.tsv("index.tsv", function(d) {
       return x0(letter(d));
     }
   }
-
+  
+  // Reset the bars to the original position
   function reset() {
     var x0 = x.domain(data.sort(sortLetters).map(letter)).copy();
 
-    /* Move the bars. */
+    // Move the bars
     svg.selectAll('.bar')
        .transition()
        .delay(500)
        .duration(1000)
        .ease(d3.easeExp)
        .attr('x', barX0);
-
+    
+    // Move the letters
      svg.select('.axis--x')
         .transition()
         .delay(500)
@@ -94,20 +99,22 @@ d3.tsv("index.tsv", function(d) {
    }
 });
 
-/* Sort on letters. */
+// Sort data on letters.
 function sortLetters(a, b) {
   return d3.ascending(letter(a), letter(b));
 }
 
-/* Sort on frequence. */
+// Sort data on frequence
 function sortFrequency(a, b) {
 return frequency(b) - frequency(a);
 }
 
+// Get letters from data
 function letter(d) {
   return d.letter;
 }
 
+// Get frequencies from data
 function frequency(d) {
 return d.frequency;
 }
