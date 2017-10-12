@@ -55,7 +55,7 @@ d3.csv("index.csv", function(d) {
         .attr("width", x.bandwidth())
         .attr("height", function(d) { return height - y(d.frequency) })
 
-    // Hieronder een stukje code afkomstig van Titus Wormer. Example code.
+    // Hieronder een stukje code afkomstig van Titus Wormer. Example code. In de code gebeurt er een onchange wanneer de box geselecteerd is. Op deze gebeurtenis veranderen de waardes.
     d3.select("input").on("change", onchange)
 
     var timeout = d3.timeout(change, 2000)
