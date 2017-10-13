@@ -1,6 +1,8 @@
 # Filtering and Sorting a Bubble Chart
 A bubble chart that display [Flare](http://flare.prefuse.org/) class hierarchy.
 
+![preview](https://github.com/levizimmerman/course-17-18/blob/interaction/site/class-4-interaction/levizimmerman/preview.png?raw=true)
+
 ## Background
 In this exercise I am going to add sort and filter functions to a existing [Bubble Chart](https://bl.ocks.org/mbostock/4063269). The functions will map out as follows:
 * Filtering bubbles by toggling filters within the legend.
