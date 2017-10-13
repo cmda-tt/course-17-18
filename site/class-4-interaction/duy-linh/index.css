@@ -1,0 +1,19 @@
+.bar {
+  fill: steelblue;
+}
+
+.axis--x path {
+  display: none;
+}
+
+.container {
+    position: absolute;
+    width: 960px;
+    height: 500px;
+}
+
+.tooltip {
+    position: absolute;
+    margin-left: 28px;
+    color: black;
+}
