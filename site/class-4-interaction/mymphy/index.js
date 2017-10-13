@@ -21,7 +21,7 @@ var svg = d3.select("body").append("svg")
   "translate(" + margin.left + "," + margin.top + ")");
 
 // get the data
-d3.tsv("data.tsv", function(error, data) {
+d3.tsv("index.tsv", function(error, data) {
   if (error) throw error;
 
 // load the data
