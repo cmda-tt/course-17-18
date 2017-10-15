@@ -1,0 +1,63 @@
+# Assessment 1
+
+<table>
+  <tr valign="top">
+    <td width="25%"><a href="https://github.com/velomovies"><strong>@velomovies</strong></a><br><a href="https://velomovies.github.io/fe3-assessment-2/"><img src="https://raw.githubusercontent.com/velomovies/fe3-assessment-2/master/preview.png"></a></td>
+    <td width="25%"><a href="https://github.com/meesrutten"><strong>@meesrutten</strong></a><br><a href="https://meesrutten.github.io/fe3-assessment-2/"><img src="https://raw.githubusercontent.com/meesrutten/fe3-assessment-2/master/chart.png"></a></td>
+    <td width="25%"><a href="https://github.com/leonvanzijl"><strong>@leonvanzijl</strong></a><br><a href="https://leonvanzijl.github.io/fe3-assessment-2/"><img src="https://raw.githubusercontent.com/LeonvanZijl/fe3-assessment-2/master/preview.png"></a></td>
+    <td width="25%"><a href="https://github.com/yoeripasmans"><strong>@yoeripasmans</strong></a><br><a href="https://yoeripasmans.github.io/fe3-assessment-2/"><img src="https://raw.githubusercontent.com/yoeripasmans/fe3-assessment-2/master/preview.png"></a></td>
+  </tr>
+</table>
+
+-   [**@basrikkers**](https://github.com/basrikkers)
+    ([repo](https://github.com/basrikkers/fe3-assessment-2) · [demo](https://basrikkers.github.io/fe3-assessment-2/))
+-   [**@danoszz**](https://github.com/danoszz)
+    ([repo](https://github.com/danoszz/fe3-assessment-2) · [demo](https://danoszz.github.io/fe3-assessment-2/))
+-   [**@dorusth**](https://github.com/dorusth)
+    ([repo](https://github.com/dorusth/fe3-assessment-2) · [demo](https://dorusth.github.io/fe3-assessment-2/))
+-   [**@duy-linh**](https://github.com/duy-linh)
+    ([repo](https://github.com/duy-linh/fe3-assessment-2) · [demo](https://duy-linh.github.io/fe3-assessment-2/))
+-   [**@dylanvanzanten**](https://github.com/dylanvanzanten)
+    ([repo](https://github.com/dylanvanzanten/fe3-assessment-2) · [demo](https://dylanvanzanten.github.io/fe3-assessment-2/))
+-   [**@iiyama12**](https://github.com/iiyama12)
+    ([repo](https://github.com/iiyama12/fe3-assessment-2) · [demo](https://iiyama12.github.io/fe3-assessment-2/))
+-   [**@jensorsel**](https://github.com/jensorsel)
+    ([repo](https://github.com/jensorsel/fe3-assessment-2) · [demo](https://jensorsel.github.io/fe3-assessment-2/))
+-   [**@kyunwang**](https://github.com/kyunwang)
+    ([repo](https://github.com/kyunwang/fe3-assessment-2) · [demo](https://kyunwang.github.io/fe3-assessment-2/))
+-   [**@laurens-booij**](https://github.com/laurens-booij)
+    ([repo](https://github.com/laurens-booij/fe3-assessment-2) · [demo](https://laurens-booij.github.io/fe3-assessment-2/))
+-   [**@leonvanzijl**](https://github.com/leonvanzijl)
+    ([repo](https://github.com/leonvanzijl/fe3-assessment-2) · [demo](https://leonvanzijl.github.io/fe3-assessment-2/))
+-   [**@levizimmerman**](https://github.com/levizimmerman)
+    ([repo](https://github.com/levizimmerman/fe3-assessment-2) · [demo](https://levizimmerman.github.io/fe3-assessment-2/))
+-   [**@lucasberghoef**](https://github.com/lucasberghoef)
+    ([repo](https://github.com/lucasberghoef/fe3-assessment-2) · [demo](https://lucasberghoef.github.io/fe3-assessment-2/))
+-   [**@mausnl**](https://github.com/mausnl)
+    ([repo](https://github.com/mausnl/fe3-assessment-2) · [demo](https://mausnl.github.io/fe3-assessment-2/))
+-   [**@meesrutten**](https://github.com/meesrutten)
+    ([repo](https://github.com/meesrutten/fe3-assessment-2) · [demo](https://meesrutten.github.io/fe3-assessment-2/))
+-   [**@muise001**](https://github.com/muise001)
+    ([repo](https://github.com/muise001/fe3-assessment-2) · [demo](https://muise001.github.io/fe3-assessment-2/))
+-   [**@mymphy**](https://github.com/mymphy)
+    ([repo](https://github.com/mymphy/fe3-assessment-2) · [demo](https://mymphy.github.io/fe3-assessment-2/))
+-   [**@nickanthonygroen**](https://github.com/nickanthonygroen)
+    ([repo](https://github.com/nickanthonygroen/fe3-assessment-2) · [demo](https://nickanthonygroen.github.io/fe3-assessment-2/))
+-   [**@niyorn**](https://github.com/niyorn)
+    ([repo](https://github.com/niyorn/fe3-assessment-2) · [demo](https://niyorn.github.io/fe3-assessment-2/))
+-   [**@ryannl1994**](https://github.com/ryannl1994)
+    ([repo](https://github.com/ryannl1994/fe3-assessment-2) · [demo](https://ryannl1994.github.io/fe3-assessment-2/))
+-   [**@servinlp**](https://github.com/servinlp)
+    ([repo](https://github.com/servinlp/fe3-assessment-2) · [demo](https://servinlp.github.io/fe3-assessment-2/))
+-   [**@tpulido**](https://github.com/tpulido)
+    ([repo](https://github.com/tpulido/fe3-assessment-2) · [demo](https://tpulido.github.io/fe3-assessment-2/))
+-   [**@velomovies**](https://github.com/velomovies)
+    ([repo](https://github.com/velomovies/fe3-assessment-2) · [demo](https://velomovies.github.io/fe3-assessment-2/))
+-   [**@vincentkempers**](https://github.com/vincentkempers)
+    ([repo](https://github.com/vincentkempers/fe3-assessment-2) · [demo](https://vincentkempers.github.io/fe3-assessment-2/))
+-   [**@vriesm060**](https://github.com/vriesm060)
+    ([repo](https://github.com/vriesm060/fe3-assessment-2) · [demo](https://vriesm060.github.io/fe3-assessment-2/))
+-   [**@wesleyc94**](https://github.com/wesleyc94)
+    ([repo](https://github.com/wesleyc94/fe3-assessment-2) · [demo](https://wesleyc94.github.io/fe3-assessment-2/))
+-   [**@yoeripasmans**](https://github.com/yoeripasmans)
+    ([repo](https://github.com/yoeripasmans/fe3-assessment-2) · [demo](https://yoeripasmans.github.io/fe3-assessment-2/))

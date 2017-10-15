@@ -15,6 +15,8 @@
 *   **Type**: Remote
 *   **Grade**: [Rubric][]
 *   **Due**: 11-10 12:00 (ID 1), 12-10 15:20 (ID 2), 10-10 15:20 (ID 3)
+*   [**Results**][results]
+*   [**Grades**][grades]
 
 ## Description
 
@@ -167,3 +169,7 @@ You _may not_ use random data.
 [recommended-data]: ../assessment-1/readme.md#other-data
 
 [starter-code]: https://github.com/cmda-fe3/fe3-assessment-2
+
+[results]: https://github.com/cmda-fe3/course-17-18/tree/master/site/assessment-2#readme
+
+[grades]: https://cmda-fe3.github.io/grades-17-18/
