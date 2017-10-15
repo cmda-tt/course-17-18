@@ -1,7 +1,10 @@
 # Class 6
 
-> Some quote
-> — By some person
+> Hey, you in the back with those french braids, what’s yo name?
+>
+> > “My name is Snoop”
+>
+> — Class Room Intro by Snoop Dogg
 
 ## Table of Contents
 
