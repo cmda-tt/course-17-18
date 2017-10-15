@@ -20,7 +20,8 @@
 
 [![][inspiration-cover]][inspiration-link]
 
-> New York City taxi pickups by [@todd_schneider][inspiration-author].
+> Rappers, ranked by the number of unique words used in their lyrics by
+> [`@matthew_daniels`][inspiration-author].
 
 ## Synopsis
 
@@ -40,11 +41,11 @@ See [class 5][c5] for assignments due before this class.
 
 Schedule your oral exam for [assessment 3][a3] soon.
 
-[inspiration-cover]: images/taxi.jpg
+[inspiration-cover]: images/lyrics.jpg
 
-[inspiration-link]: http://toddwschneider.com/posts/analyzing-1-1-billion-nyc-taxi-and-uber-trips-with-a-vengeance/
+[inspiration-link]: https://pudding.cool/2017/02/vocabulary/
 
-[inspiration-author]: https://twitter.com/todd_schneider
+[inspiration-author]: https://twitter.com/matthew_daniels
 
 [c5]: class-5.md#assignments
 
