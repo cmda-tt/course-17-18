@@ -17,6 +17,8 @@
 *   **Grade**: [Rubric][]
 *   **Due**: 19-10 09:20-14:30 (ID 1), 20-10 11:10-17:50 (ID 2),
     18-10 08:30-11:00 or 20-10 08:30-11:00 (ID 3)
+*   [**Results**][results]
+*   [**Grades**][grades]
 
 ## Description
 
@@ -172,3 +174,7 @@ You _may not_ use random data.
 [recommended-data]: ../assessment-1/readme.md#other-data
 
 [starter-code]: https://github.com/cmda-fe3/fe3-assessment-3
+
+[results]: https://github.com/cmda-fe3/course-17-18/tree/master/site/assessment-3#readme
+
+[grades]: https://cmda-fe3.github.io/grades-17-18/
