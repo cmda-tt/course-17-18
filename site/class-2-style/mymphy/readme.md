@@ -2,13 +2,13 @@
 
 A simple responsive donut chart visualizing the populations of various age
 groups with pretty colors original from [`bl.ock`][block]
-by [**@mbostock**][block-author] (GPL-3.0) and based on the [**Donut chart**](https://github.com/cmda-fe3/course-17-18/tree/master/site/class-2/style) from [**@wooorm**](https://github.com/wooorm). 
+by [**@mbostock**][block-author] (GPL-3.0) and based on the [**Donut chart**](https://github.com/cmda-fe3x3/course-17-18/tree/master/site/class-2/style) from [**@wooorm**](https://github.com/wooorm).
 
 ![Alt text](preview.png)
 
 ## Background
 
-For a style assignment I reformatted the code from the [**Donut chart**](https://github.com/cmda-fe3/course-17-18/tree/master/site/class-2/style) and made it in my own style. 
+For a style assignment I reformatted the code from the [**Donut chart**](https://github.com/cmda-fe3x3/course-17-18/tree/master/site/class-2/style) and made it in my own style.
 My following changes where:
 ### HTML:
 * I gave it a basic HTML structure.
@@ -16,22 +16,22 @@ My following changes where:
 * I used `" "` to link the style en script files.
 
 ### CSS:
-* I made it readable by putting each CSS rule-set and declaration in one line. 
+* I made it readable by putting each CSS rule-set and declaration in one line.
 * I used hex color codes to designate a color.
 * I closed every declaration with a `;`.
 * I changed the font-family to `"Helvetica Neue", Helvetica, sans-serif`.
 * I changed the color of the data inside the donut chart to white.
 
 ### JavaScript:
-* I made it readable by putting each variable and function in one line. 
-* I moved all the global variables to the top, assigned `var` in the front and closed it with a `;`. 
-* I gave the code more white space where needed. 
+* I made it readable by putting each variable and function in one line.
+* I moved all the global variables to the top, assigned `var` in the front and closed it with a `;`.
+* I gave the code more white space where needed.
 * Changed some variable names to more accurate ones.
 
 ## Data
 
 Comma-separated values (CSV) with eight rows and five columns:
-* `age` — Stands for the age group from the population. 
+* `age` — Stands for the age group from the population.
 * `population` — Stands for how big a population is.
 
 ## Features

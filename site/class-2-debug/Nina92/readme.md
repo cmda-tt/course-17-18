@@ -1,7 +1,7 @@
 # Debugging Code
 
 ## Description
-I debugged the code from [`site/class-2/debug`](https://github.com/cmda-fe3/course-17-18/blob/master/site/class-2/debug).
+I debugged the code from [`site/class-2/debug`](https://github.com/cmda-fe3x3/course-17-18/blob/master/site/class-2/debug).
 
 ## Background
 This are the bugs I fixed:
@@ -14,13 +14,13 @@ This are the bugs I fixed:
 * Changed `src=https://d3js.org/d3.v3.min.js` from `<script>` to `src=https://d3js.org/d3.v4.min.js`
 
 ### CSS
-* Changed `width: 100w` to `width: 100vw` 
-* Changed `height: 100h` to `height: 100vh` 
+* Changed `width: 100w` to `width: 100vw`
+* Changed `height: 100h` to `height: 100vh`
 * Changed `fill: no` to `fill: none`
 * Changed `stroke: currentcolor` to `stroke: currentColor`
 
 ### JS
-* Changed `d3.tsv('index.tsv', row, onload)` to `d3.csv('index.csv', row, onload)` 
+* Changed `d3.tsv('index.tsv', row, onload)` to `d3.csv('index.csv', row, onload)`
 * Changed `d3.scale.linear()` to `d3.sclaeLinear()`
 * Changed `d3.svg.axis().scale(x).orient('bottom')` to `d3.axisBottom(x)`
 * Changed `d3.svg.axis().scale(y).orient('left')` to `3.axisLeft(y)`

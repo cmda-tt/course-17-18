@@ -8,7 +8,7 @@ Slaap uren worden vergeleken met moeheid over de tijdspan van een week. Een .tsv
 Voor de klas FrontEnd 3 op de opleiding Communicatie en Multimediadesign hebben wij de opdracht gekregen om een bar chart van internet aan te passen. Dit doen wij met behulp van de D3 Javascript library.
 
 
-## Data 
+## Data
 
 Tab-Seperated Values with 12 values en 2 columns.
 
@@ -42,4 +42,4 @@ Tab-Seperated Values with 12 values en 2 columns.
 
 [cover]: preview.png
 
-[url]: https://cmda-fe3.github.io/course-17-18/class-1-bar/maridjuice/
+[url]: https://cmda-fe3x3.github.io/course-17-18/class-1-bar/maridjuice/

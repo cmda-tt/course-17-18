@@ -33,4 +33,4 @@ MIT © Titus Wormer
 
 [cover]: preview.png
 
-[url]: https://cmda-fe3.github.io/course-17-18/class-3-transition/wooorm
+[url]: https://cmda-fe3x3.github.io/course-17-18/class-3-transition/wooorm

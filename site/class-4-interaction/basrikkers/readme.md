@@ -3,7 +3,7 @@
 
 ## Background.
 i've modified a [bar chart with negative values](https://bl.ocks.org/ch-bu/f3d1fc6e905f80b0706663fbefe317bc). The bar chart  has sorted from a-z name values.
-I've used the sort example from [@wooorm](https://cmda-fe3.github.io/course-17-18/class-4/sort/) to be able to sort the barchart between names and values
+I've used the sort example from [@wooorm](https://cmda-fe3x3.github.io/course-17-18/class-4/sort/) to be able to sort the barchart between names and values
 
 ## process
 

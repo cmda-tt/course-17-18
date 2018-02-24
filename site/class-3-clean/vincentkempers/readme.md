@@ -1,10 +1,10 @@
 # Clean
 
-[An assignment](https://github.com/cmda-fe3/course-17-18/tree/master/site/class-3/clean) to fix the the line chart!
+[An assignment](https://github.com/cmda-fe3x3/course-17-18/tree/master/site/class-3/clean) to fix the the line chart!
 
 ## Background
 
-This assignment is to work on the line chart that misses code to render the data from the text file. The data used is from the [knmi](https://projects.knmi.nl/klimatologie/uurgegevens/selectie.cgi). to make it work we needed to format the data like the [example.json](https://github.com/cmda-fe3/course-17-18/blob/master/site/class-3/clean/example.json) to make it work.
+This assignment is to work on the line chart that misses code to render the data from the text file. The data used is from the [knmi](https://projects.knmi.nl/klimatologie/uurgegevens/selectie.cgi). to make it work we needed to format the data like the [example.json](https://github.com/cmda-fe3x3/course-17-18/blob/master/site/class-3/clean/example.json) to make it work.
 
 ![result of this code](preview.png)
 
@@ -54,6 +54,6 @@ function myStyle() {
 ### License
 
 [The chart @wooorm used](https://bl.ocks.org/mbostock/3884955) is made by @mbostock [(GPLv3)](https://choosealicense.com/licenses/gpl-3.0/).
-The [The donut chart @wooorm](https://github.com/cmda-fe3/course-17-18/tree/master/site/class-3/clean) is made by @wooorm [(GPLv3)](https://choosealicense.com/licenses/gpl-3.0/).
+The [The donut chart @wooorm](https://github.com/cmda-fe3x3/course-17-18/tree/master/site/class-3/clean) is made by @wooorm [(GPLv3)](https://choosealicense.com/licenses/gpl-3.0/).
 
 [GPLv3](https://choosealicense.com/licenses/gpl-3.0/) Vincent Kempers 👨🏽‍💻

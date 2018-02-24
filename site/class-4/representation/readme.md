@@ -36,4 +36,4 @@ MIT © Titus Wormer
 
 [cover]: preview.png
 
-[url]: https://cmda-fe3.github.io/course-17-18/class-4/representation/
+[url]: https://cmda-fe3x3.github.io/course-17-18/class-4/representation/

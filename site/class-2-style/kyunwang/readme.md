@@ -53,4 +53,4 @@ GPL-3.0 © Kang Yun Wang (Kevin Wang)
 
 [cover]: preview.png
 
-[url]: https://cmda-fe3.github.io/course-17-18/class-2-style/kyunwang
+[url]: https://cmda-fe3x3.github.io/course-17-18/class-2-style/kyunwang

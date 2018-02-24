@@ -30,4 +30,4 @@ GPL-3.0 © Chanakarn Niyornram
 
 [block-author]: https://github.com/niyorn
 
-[url]: https://cmda-fe3.github.io/course-17-18/class-2-style/niyorn
+[url]: https://cmda-fe3x3.github.io/course-17-18/class-2-style/niyorn

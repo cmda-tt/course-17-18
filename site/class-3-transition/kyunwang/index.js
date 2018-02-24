@@ -98,7 +98,7 @@ function renderChart(error, classes) {
 	}
 }
 
-// From https://github.com/cmda-fe3/course-17-18/blob/master/site/class-3-transition/wooorm/index.js
+// From https://github.com/cmda-fe3x3/course-17-18/blob/master/site/class-3-transition/wooorm/index.js
 function transDelay(d, i) {
 	return i * delayTime;
 }

@@ -64,7 +64,7 @@ First I've picked a bar chart in d3@4 from d3noob - [Simple bar graph in v4](htt
   d3.select('.button-wrapper').append('button').on('click', unsortTrigger) .attr('class', 'trigger-button') .text('Reset');
   ```
 
-- Added a function to sort the data and display it in the graph using this example and changed it to my own from Titus Wormer - <https://cmda-fe3.github.io/course-17-18/class-4/sort/>
+- Added a function to sort the data and display it in the graph using this example and changed it to my own from Titus Wormer - <https://cmda-fe3x3.github.io/course-17-18/class-4/sort/>
 
     ```javascript
     function sortTrigger() {

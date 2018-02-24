@@ -75,4 +75,4 @@ GPL-3.0 © Kevin Goldstein
 
 [cover]: preview.png
 
-[url]: https://cmda-fe3.github.io/course-17-18/class-2-style/kevingoldstein
+[url]: https://cmda-fe3x3.github.io/course-17-18/class-2-style/kevingoldstein

@@ -8,4 +8,4 @@ An example showing how strings can break your code and how to fix it.
 
 MIT © Titus Wormer
 
-[url]: https://cmda-fe3.github.io/course-17-18/class-2/debug
+[url]: https://cmda-fe3x3.github.io/course-17-18/class-2/debug

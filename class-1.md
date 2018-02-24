@@ -67,7 +67,7 @@ In this assignment you’ll learn the basics of SVG.
 ### Tips
 
 *   [MDN’s SVG documentation](https://developer.mozilla.org/en-US/docs/Web/SVG)
-*   [Examples found in the slides](https://cmda-fe3.github.io/course-17-18/class-1/)
+*   [Examples found in the slides](https://cmda-fe3x3.github.io/course-17-18/class-1/)
 *   [Celtic Knotwork](http://celtic-knotwork.online)
 *   [Chernoff Fish](http://meagher.co/chernoff-fish/)
 *   [Bugs?](readme.md#bugs)
@@ -226,7 +226,7 @@ the website][play-gallery].
     On GitHub, that’s called a Pull Request.
     First, we’re going to [Fork a repo][fork].
     Navigate to our course repository on GitHub,
-    [`cmda-fe3/course-17-18`][repo], and in the top-right corner of the page
+    [`cmda-fe3x3/course-17-18`][repo], and in the top-right corner of the page
     click **Fork**
 3.  <a name="class-1-play-d-3"></a>
     Navigate to the directory `site/class-1-play` on your fork.
@@ -271,7 +271,7 @@ formats.  Additionally, you’ll learn to use d3 to request files.
     — CSV spec
 *   [ECMA 404](https://www.ecma-international.org/publications/standards/Ecma-404.htm)
     — JSON spec
-*   [Examples found in the slides](https://cmda-fe3.github.io/course-17-18/class-1/)
+*   [Examples found in the slides](https://cmda-fe3x3.github.io/course-17-18/class-1/)
 *   [Bugs?](readme.md#bugs)
 
 ### <a name="class-1-load-a"></a> Step A
@@ -336,7 +336,7 @@ Create a file, `index.html`, and copy-paste the following document into it.
 <!--Link to d3 here:-->
 
 <!--Keep this script here for now:-->
-<script src=https://cmda-fe3.github.io/course-17-18/check-class-1-load.js></script>
+<script src=https://cmda-fe3x3.github.io/course-17-18/check-class-1-load.js></script>
 
 <h1>Dinners</h1>
 
@@ -530,9 +530,9 @@ your PR and include it in the [gallery][bar-gallery].
 
 [inspiration-author]: http://bertspaan.nl
 
-[play-cover]: https://cmda-fe3.github.io/course-17-18/class-1-play/ju5tu5.svg
+[play-cover]: https://cmda-fe3x3.github.io/course-17-18/class-1-play/ju5tu5.svg
 
-[play-link]: https://cmda-fe3.github.io/course-17-18/class-1-play/ju5tu5.svg
+[play-link]: https://cmda-fe3x3.github.io/course-17-18/class-1-play/ju5tu5.svg
 
 [load-cover]: images/pie.jpg
 
@@ -540,9 +540,9 @@ your PR and include it in the [gallery][bar-gallery].
 
 [load-cover-author]: https://unsplash.com/@anniespratt
 
-[bar-cover]: https://cmda-fe3.github.io/course-17-18/class-1-bar/wooorm/preview.png
+[bar-cover]: https://cmda-fe3x3.github.io/course-17-18/class-1-bar/wooorm/preview.png
 
-[bar-link]: https://cmda-fe3.github.io/course-17-18/class-1-bar/wooorm/
+[bar-link]: https://cmda-fe3x3.github.io/course-17-18/class-1-bar/wooorm/
 
 [play]: #playing-with-svg
 
@@ -588,15 +588,15 @@ your PR and include it in the [gallery][bar-gallery].
 
 [slides]: https://docs.google.com/presentation/d/1xuF1DS8ts7KcvhR-UCJfL0gGiUqXOlfscv9cFCL_3Fk
 
-[repo]: https://github.com/cmda-fe3/course-17-18
+[repo]: https://github.com/cmda-fe3x3/course-17-18
 
-[examples]: https://cmda-fe3.github.io/course-17-18/class-1/
+[examples]: https://cmda-fe3x3.github.io/course-17-18/class-1/
 
-[play-gallery]: https://cmda-fe3.github.io/course-17-18/class-1-play/
+[play-gallery]: https://cmda-fe3x3.github.io/course-17-18/class-1-play/
 
-[bar-gallery]: https://cmda-fe3.github.io/course-17-18/class-1-bar/
+[bar-gallery]: https://cmda-fe3x3.github.io/course-17-18/class-1-bar/
 
-[load-gallery]: https://cmda-fe3.github.io/course-17-18/class-1-load/
+[load-gallery]: https://cmda-fe3x3.github.io/course-17-18/class-1-load/
 
 [ci]: https://travis-ci.org
 

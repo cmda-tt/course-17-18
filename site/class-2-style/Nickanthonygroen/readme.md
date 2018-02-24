@@ -120,4 +120,4 @@ GPL-3.0 © Nick Groen
 
 [cover]: preview.png
 
-[url]: https://cmda-fe3.github.io/course-17-18/class-2-style/Nickanthonygroen
+[url]: https://cmda-fe3x3.github.io/course-17-18/class-2-style/Nickanthonygroen

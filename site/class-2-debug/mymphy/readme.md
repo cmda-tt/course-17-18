@@ -1,4 +1,4 @@
-# Scatter plot 
+# Scatter plot
 
 A simple responsive scatter plot visualizing the dimensions of sepals and petals
 of various iris flowers based on a [`bl.ock`][block] by
@@ -24,19 +24,19 @@ I Fixed the following bugs:
 * Changed curretcolor to `currentColor`.
 
 ### JavaScript:
-* Made it readable by putting each rule of function in one line. 
+* Made it readable by putting each rule of function in one line.
 * Changed some variable names to more accurate ones.
 * Used `" "`.
 * Corrected a typeerror of the word `extent` (It was written `extend`)
 * Changed invalid values as "margin.t" to `margin.top`, I did the same with right, btom and left.
 * Updated the d3js.V3 code to d3js.V4
 
-You can find the previous code at [class-2/debug](https://cmda-fe3.github.io/course-17-18/class-2/debug).
+You can find the previous code at [class-2/debug](https://cmda-fe3x3.github.io/course-17-18/class-2/debug).
 
 ## Data
 
 Comma-separated values (CSV) with eight rows and five columns:
-* `age` — Stands for the age group from the population. 
+* `age` — Stands for the age group from the population.
 * `population` — Stands for how big a population is.
 
 ## Features

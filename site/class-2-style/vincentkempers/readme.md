@@ -1,6 +1,6 @@
 # Style
 
-In [the assignment style](https://github.com/cmda-fe3/course-17-18/blob/master/class-2.md#style), I refactored the minified code from [the responsive 'donut' chart @wooorm](https://github.com/cmda-fe3/course-17-18/tree/master/site/class-2/style) to my style of coding.
+In [the assignment style](https://github.com/cmda-fe3x3/course-17-18/blob/master/class-2.md#style), I refactored the minified code from [the responsive 'donut' chart @wooorm](https://github.com/cmda-fe3x3/course-17-18/tree/master/site/class-2/style) to my style of coding.
 
 ## Background
 
@@ -72,6 +72,6 @@ svg = d3.select('body')
 ### License
 
 [The chart @wooorm used](https://bl.ocks.org/mbostock/3887193) is made by @mbostock (GPL-3.0).
-The [The donut chart @wooorm](https://github.com/cmda-fe3/course-17-18/tree/master/site/class-2/style) is made by @wooorm (GPL-3.0).
+The [The donut chart @wooorm](https://github.com/cmda-fe3x3/course-17-18/tree/master/site/class-2/style) is made by @wooorm (GPL-3.0).
 
 [GPLv3](https://choosealicense.com/licenses/gpl-3.0/) Vincent Kempers

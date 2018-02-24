@@ -7,7 +7,7 @@ Chart used: [Bar Chart](https://bl.ocks.org/mbostock/3885304)
 
 ## Background
 
-In this exercise I have added interactivity to the bar chart. I've added a sort function with the help of [Titus Wormer his code](https://cmda-fe3.github.io/course-17-18/class-4/sort/).
+In this exercise I have added interactivity to the bar chart. I've added a sort function with the help of [Titus Wormer his code](https://cmda-fe3x3.github.io/course-17-18/class-4/sort/).
 
 I've added a new transition (easeElastic), changes to the the X axis label and general style.
 

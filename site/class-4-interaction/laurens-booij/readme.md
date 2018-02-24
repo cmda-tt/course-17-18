@@ -49,6 +49,6 @@ Released under the GNU General Public License, version 3. © Laurens Booij
 [preview]: preview.png
 [author]: https://bl.ocks.org/mbostock
 [chart]: https://bl.ocks.org/mbostock/3885304
-[inspiratie]: https://cmda-fe3.github.io/course-17-18/class-4/sort/
+[inspiratie]: https://cmda-fe3x3.github.io/course-17-18/class-4/sort/
 [hazes]: hazes.jpg
 [boedzweettranen]: https://www.youtube.com/watch?v=mgnlEOATwzI

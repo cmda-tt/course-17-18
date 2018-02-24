@@ -6,11 +6,11 @@ _This is a preview of the chart_
 
 ## Background
 
-The challenge is teaching us about readability of file types and to develop our own style in writing code. 
+The challenge is teaching us about readability of file types and to develop our own style in writing code.
 
 ## Data
 
-The data provided in this challenge is age in correlation with population numbers, displayed in a donut chart. 
+The data provided in this challenge is age in correlation with population numbers, displayed in a donut chart.
 
 ## features
 
@@ -19,8 +19,8 @@ The data provided in this challenge is age in correlation with population number
 * [d3-selection](https://github.com/d3/d3-selection#api-reference) — d3.select — Select elements
 * [d3-shape](https://github.com/d3/d3-shape#api-reference) — d3.pie and d3.arc — Shaping and arcs of the Donut Chart
 
-[Source](https://github.com/cmda-fe3/course-17-18/tree/master/site/class-2/style)
+[Source](https://github.com/cmda-fe3x3/course-17-18/tree/master/site/class-2/style)
 
-## Licence 
+## Licence
 
 MIT © Leonie Smits

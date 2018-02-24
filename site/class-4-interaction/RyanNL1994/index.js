@@ -1,4 +1,4 @@
-// Bron Mike Bostock 20 aug 2017 https://bl.ocks.org/mbostock/3885304 & Titus Wormer https://cmda-fe3.github.io/course-17-18/class-4/sort/
+// Bron Mike Bostock 20 aug 2017 https://bl.ocks.org/mbostock/3885304 & Titus Wormer https://cmda-fe3x3.github.io/course-17-18/class-4/sort/
 
 
 // hier wordt een variable svg gemaakt. In deze variabele roept d3 de svg in de html op en wordt de margin voor deze svg bepaald

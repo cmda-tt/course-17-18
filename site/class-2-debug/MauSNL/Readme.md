@@ -28,7 +28,7 @@ GPL-3.0 © Titus Wormer
 
 [cover]: preview.png
 
-[url]: https://cmda-fe3.github.io/course-17-18/class-2-debug/MauSNL
+[url]: https://cmda-fe3x3.github.io/course-17-18/class-2-debug/MauSNL
 
 # My edits
 

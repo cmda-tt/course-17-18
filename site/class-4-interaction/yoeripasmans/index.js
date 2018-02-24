@@ -154,4 +154,4 @@ d3.tsv("data.tsv", function(error, data) {
 
 });
 
-//Based on https://bl.ocks.org/d3noob/bdf28027e0ce70bd132edc64f1dd7ea4 and https://cmda-fe3.github.io/course-17-18/class-4/sort/
+//Based on https://bl.ocks.org/d3noob/bdf28027e0ce70bd132edc64f1dd7ea4 and https://cmda-fe3x3.github.io/course-17-18/class-4/sort/

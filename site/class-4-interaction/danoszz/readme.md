@@ -51,7 +51,7 @@ cd yourdirectory
 ```
 
 ```
-git clone https://github.com/cmda-fe3/course-17-18/tree/master/site/class-3-transition/danoszz
+git clone https://github.com/cmda-fe3x3/course-17-18/tree/master/site/class-3-transition/danoszz
 
 ```
 
@@ -123,8 +123,8 @@ GPL-3.0 © Mike Bostock and extended by Daan van der Zwaag MIT ©
 
 [cover]: preview.png
 
-[previous-assignment]: https://github.com/cmda-fe3/course-17-18/tree/master/site/class-3-transition/danoszz
+[previous-assignment]: https://github.com/cmda-fe3x3/course-17-18/tree/master/site/class-3-transition/danoszz
 
-[course-url]: https://cmda-fe3.github.io/course-17-18
+[course-url]: https://cmda-fe3x3.github.io/course-17-18
 
 [usage-link]: #usage

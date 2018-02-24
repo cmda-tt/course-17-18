@@ -1,6 +1,6 @@
 // All the credits go to the allmighty Mike Bostock
 // Source: https://bl.ocks.org/mbostock/3884955, edited by @danoszz for styling purposes
-// Code is used before in https://github.com/cmda-fe3/course-17-18/tree/master/site/class-3-transition/danoszz
+// Code is used before in https://github.com/cmda-fe3x3/course-17-18/tree/master/site/class-3-transition/danoszz
 
 let svg = d3.select('svg'),
   margin = {

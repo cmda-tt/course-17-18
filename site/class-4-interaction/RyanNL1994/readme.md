@@ -36,7 +36,7 @@ https://www.whoscored.com/Statistics/Teams
 
 ## Bronnen
 Ik heb deze grafiek kunnen maken met dank aan Mike Bostock waarvan ik een groot deel van de code vandaan heb van de grafiek. Deze kan je vinden op de volgende site: https://bl.ocks.org/mbostock/3885304
-Ook met dank aan Titus Wormer waar ik de code van heb kunnen inzien voor de sort function via de volgende link: https://cmda-fe3.github.io/course-17-18/class-4/sort/
+Ook met dank aan Titus Wormer waar ik de code van heb kunnen inzien voor de sort function via de volgende link: https://cmda-fe3x3.github.io/course-17-18/class-4/sort/
 Samen met de slides van class 4.
 
 ![Alt text](preview.png)
