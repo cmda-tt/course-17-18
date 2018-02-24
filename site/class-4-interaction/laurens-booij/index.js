@@ -48,9 +48,9 @@ d3.tsv("index.tsv", function(d) {
     d3.select("#sort").on("click", sort);
     d3.select("#reset").on("click", reset);
 
- console.log(data);
+ // console.log(data);
 
- // Sort the bars on frequency 
+ // Sort the bars on frequency
  function sort() {
    var x0 = x.domain(data.sort(sortFrequency).map(letter)).copy();
 
@@ -61,7 +61,7 @@ d3.tsv("index.tsv", function(d) {
       .duration(1000)
       .ease(d3.easeExp)
       .attr('x', barX0);
-   
+
   // Move the letters
     svg.select('.axis--x')
        .transition()
@@ -74,7 +74,7 @@ d3.tsv("index.tsv", function(d) {
       return x0(letter(d));
     }
   }
-  
+
   // Reset the bars to the original position
   function reset() {
     var x0 = x.domain(data.sort(sortLetters).map(letter)).copy();
@@ -86,7 +86,7 @@ d3.tsv("index.tsv", function(d) {
        .duration(1000)
        .ease(d3.easeExp)
        .attr('x', barX0);
-    
+
     // Move the letters
      svg.select('.axis--x')
         .transition()

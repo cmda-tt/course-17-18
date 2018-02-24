@@ -22,32 +22,32 @@ function onload(error, data) {
 
 // Hier wordt alle data gepakt, waarna er een passende schaal wordt gemaakt 'domain/range'
 x.domain(data.map(letter));
-y.domain([0, d3.max(data, frequency)]); 
-    
-    
-    
+y.domain([0, d3.max(data, frequency)]);
+
+
+
 /* +++ Gebaseerd op de example in de slides. @wooorm https://github.com/cmda-fe3x3/course-17-18/tree/master/site/class-4/sort +++ */
-    
-    
-    
-// Hier wordt de x as in een groep en variabele gedaan.  
+
+
+
+// Hier wordt de x as in een groep en variabele gedaan.
 var xAxis = group
       .append("g")
       .attr("class", "axis axis-x")
 
-// Hier wordt de y as in een groep en variabele gedaan.  
-var yAxis = group 
+// Hier wordt de y as in een groep en variabele gedaan.
+var yAxis = group
       .append("g")
       .attr("class", "axis axis--y")
 
 
-// Hier worden alle barren geselecteerd, waarna er een class wordt gegeven. 
-var bars = group 
+// Hier worden alle barren geselecteerd, waarna er een class wordt gegeven.
+var bars = group
     .selectAll(".bar")
     .data(data)
     .enter()
     .append('rect')
-    .attr('class', 'bar') 
+    .attr('class', 'bar')
 
 
 onresize();
@@ -78,35 +78,35 @@ function onresize() {
         return height - barY(d);
     }
 }
-    
-    
-    
+
+
+
 // +++ Tooltip interactie, Oi heeft mij geholpen met het maken van deze code.
-    
+
 // Hier wordt de x en y waarde van een gepakt van de geselecteerde bar.
 function mouseOver(d){
     var x = this.getAttribute('x');
-    console.log(this);
+    // console.log(this);
     var y = this.getAttribute('y');
-    
+
     // Hier wordt een vlak gemaakt, genaamd container, waarop de positie van de tekst komt.
     d3.select('.container')
       .append('div')
       .attr('class', 'tooltip')
       .style('left', x+'px')
       .style('top', y+'px')
-      .text((d.frequency*100+'%'));   
+      .text((d.frequency*100+'%'));
     }
-    
-// Wanneer de muis niet meer de bar selecteert, zal de css verwijderd worden    
+
+// Wanneer de muis niet meer de bar selecteert, zal de css verwijderd worden
 function mouseOut(d){
     d3.selectAll('.tooltip')
     .remove();
 }
 
 // +++
-    
-    
+
+
 
 function onchange() {
     var sort = this.checked ? sortOnFrequency : sortOnLetter;
@@ -136,11 +136,11 @@ function onchange() {
 
     function delay(d, i) {
         return i * 50;
-        
+
     }
 }
 
-// Hier wordt de waarde van x en y berekend voor de bar   
+// Hier wordt de waarde van x en y berekend voor de bar
 function barX(d) {
     return x(letter(d));
 }

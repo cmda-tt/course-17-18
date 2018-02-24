@@ -20,7 +20,7 @@ var xScale = d3.scaleBand();
 d3.tsv("data.tsv",function(err, data){
   //log err if there is an error
   if(err){
-    console.log(err);
+    // console.log(err);
   }
 
   //call funtion
@@ -92,7 +92,7 @@ function showTooltip(d){
   var offset = -40;// this is added so that the tooltip is slide above  the bar
   var xPosition = d3.select(this).attr("x");
   var yPosition = (Number(d3.select(this).attr("y")) + offset).toString();
-  console.log(yPosition);
+  // console.log(yPosition);
   var tooltip = d3.select('.container')
   .append('div')
   .attr('class', "tooltip")

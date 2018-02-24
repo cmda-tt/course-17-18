@@ -1,6 +1,6 @@
 # Transistions
 
-[An assignment about transistions](https://github.com/cmda-fe3x3/course-17-18/blob/master/class-3.md) to fix the the line chart! 
+[An assignment about transistions](https://github.com/cmda-fe3x3/course-17-18/blob/master/class-3.md) to fix the the line chart!
 
 ## Background
 
@@ -14,7 +14,7 @@ I use single quotes for strings and every new piece of code gets a new line (for
 
 For multiple variables I end on the latest line (in case you want to add more just `,` +  <button>enter</button> and add another one).
 
-The next example you see how I use a function. array and loop.  
+The next example you see how I use a function. array and loop.
 *   New line on every new entry in the array (same for objects).
 *   Close the array on a line of his own.
 *   Loop on the same line.

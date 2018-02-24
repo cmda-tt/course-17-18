@@ -117,9 +117,9 @@
 
     d3.text('index.txt').get(onload)
     function onload(err, doc) {
-        console.log("onload");
+        // console.log("onload");
         if (err) throw err;
-        console.log("no error");
+        // console.log("no error");
         var header = doc.lastIndexOf("#"); // get the last index of all comments.
         doc = doc.slice(header + 1); // add one to skip the first character(and last) of the comment.
         // var end = doc.indexOf('\n', header)

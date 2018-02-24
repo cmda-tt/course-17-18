@@ -6,14 +6,14 @@ d3.json('./index.json', function (err, questions) {
   document.body.appendChild(jsonHeader);
 
   questions.forEach(function (q) {
-    console.log('From: CSV\nQuestion: %s\nAnswer: %s', q.day, q.dinner);
-    
+    // console.log('From: CSV\nQuestion: %s\nAnswer: %s', q.day, q.dinner);
+
     var day = document.createElement('h3');
-    day.textContent = q.day; 
+    day.textContent = q.day;
     document.body.appendChild(day);
 
     var dinner = document.createElement('h4');
-    dinner.textContent = q.dinner; 
+    dinner.textContent = q.dinner;
     document.body.appendChild(dinner);
   })
 })
@@ -26,14 +26,14 @@ d3.csv('./index.csv', function (err, questions) {
   document.body.appendChild(csvHeader);
 
   questions.forEach(function (q) {
-    console.log('From: CSV\nQuestion: %s\nAnswer: %s', q.day, q.dinner);
-    
+    // console.log('From: CSV\nQuestion: %s\nAnswer: %s', q.day, q.dinner);
+
     var day = document.createElement('h3');
-    day.textContent = q.day; 
+    day.textContent = q.day;
     document.body.appendChild(day);
 
     var dinner = document.createElement('h4');
-    dinner.textContent = q.dinner; 
+    dinner.textContent = q.dinner;
     document.body.appendChild(dinner);
   })
 })

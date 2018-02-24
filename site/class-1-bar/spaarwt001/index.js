@@ -6,9 +6,9 @@
 
 // load in the Json file
 d3.json('data.json', function(error, data) {
-    console.log(data)
+    // console.log(data)
 
-// set the margins, width and height as variable	
+// set the margins, width and height as variable
     var margin = {
             top: 40,
             right: 60,
@@ -19,8 +19,8 @@ d3.json('data.json', function(error, data) {
         width = window.innerWidth - margin.left - margin.right,
         height = 600 - margin.top - margin.bottom;
 
-	
-    var barCanvas = d3.select("#barChart") // select the div barChart and name it as the barCanvas as variable, 
+
+    var barCanvas = d3.select("#barChart") // select the div barChart and name it as the barCanvas as variable,
         .append("svg")	// add a svg element to the canvas
         .attr("width", width) // set the width of the canvas
         .attr("height", height) // set the height of the canvas
@@ -32,7 +32,7 @@ d3.json('data.json', function(error, data) {
         .padding(1); // add 1px padding
 
     var y = d3.scaleLinear() // sey the range of the y axis
-        .range([height - padding, padding]); 
+        .range([height - padding, padding]);
 
     x.domain(data.map(function(d) {return d.date;})); // put date from the json file in the domain of x
     y.domain([0, d3.max(data, function(d) {return d.value;})]); // put value from the json file in the domain of y
@@ -61,8 +61,8 @@ d3.json('data.json', function(error, data) {
         .enter() // use enter to insert the data
         .append('rect') // append a rectangle
         .attr("class", "bars") // add bars as class
-        .attr("x", function(d) {return x(d.date) - 25;}) //return the date as value on the x axis 
-        .attr("y", function(d) {return y(d.value);}) //return the value as value on the y axis 
+        .attr("x", function(d) {return x(d.date) - 25;}) //return the date as value on the x axis
+        .attr("y", function(d) {return y(d.value);}) //return the value as value on the y axis
         .attr("width", 50) //set width of bar
         .attr("height", function(d) {return height - margin.bottom - y(d.value); }); //set the height of the bar based on the value
 });

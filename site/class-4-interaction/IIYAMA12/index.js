@@ -175,7 +175,7 @@ function makeGraph (onlyColumn, fillColor) { // makeGraph([index onlyColumn, str
 
 d3.csv("index.csv", type, function(error, graphData_) {
     if (error) throw error;
-    console.log("graphData:", graphData_);
+    // console.log("graphData:", graphData_);
     graphData = graphData_;
 
     makeGraph();

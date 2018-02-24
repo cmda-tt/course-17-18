@@ -74,8 +74,8 @@ d3.csv("people.csv", function onload(error, data) {
 		.attr('class', 'axisY')
 		.call(d3.axisLeft(y));
 
-	console.log(data); //Checking the whole data set
-	console.log(data[3]); //Checking one particular data set
+	// console.log(data); //Checking the whole data set
+	// console.log(data[3]); //Checking one particular data set
 
 	// ================= TRIGGER =================
 
@@ -84,7 +84,7 @@ d3.csv("people.csv", function onload(error, data) {
 	function sortTrigger() {
 
 		d3.select("span").text("Sort on Age");
-		console.log("Sort on name");
+		// console.log("Sort on name");
 		d3.select("span").on('click', unsortTrigger);
 
 		// ================= SORTING NAME =================
@@ -92,7 +92,7 @@ d3.csv("people.csv", function onload(error, data) {
 		var x0 = x.domain(data.sort(sortOnName).map(name)).copy();
 		var transition = svg.transition();
 
-		console.log(data[3]);
+		// console.log(data[3]);
 
 		/* Move the bars. */
 		transition.selectAll('.bar')
@@ -122,7 +122,7 @@ d3.csv("people.csv", function onload(error, data) {
 		function unsortTrigger() {
 
 			d3.select("span").text("Sort on Name");
-			console.log("Sort on age");
+			// console.log("Sort on age");
 			d3.select("span").on('click', sortTrigger);
 
 			// ================= SORTING AGE =================
@@ -134,7 +134,7 @@ d3.csv("people.csv", function onload(error, data) {
 				return d3.ascending(x.age, y.age);
 			});
 
-			console.log(data);
+			// console.log(data);
 
 			/* Move the bars. */
 			transition.selectAll('.bar')

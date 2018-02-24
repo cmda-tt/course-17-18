@@ -102,7 +102,7 @@ function onload(err, doc) {
   		function map(d) {
 
 			if (d[7] === "") { // Adds a console log notification if there weren't any temperature measurements
-				console.log("There weren't any temperature measures on " + parseTime(d[1].concat('T',d[2],':00:00.000Z')) + " at " + knmiCodes[d[0]]);
+				// console.log("There weren't any temperature measures on " + parseTime(d[1].concat('T',d[2],':00:00.000Z')) + " at " + knmiCodes[d[0]]);
 				return;
 			}
 
