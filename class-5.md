@@ -61,6 +61,6 @@ Have you jotted down your [extra time][extra-time] already?
 
 [slides]: https://docs.google.com/presentation/d/1PLDNljfAAHdajg07nO7S4LxX-nzk__zTgXUqdy-Bkx8
 
-[examples]: https://cmda-fe3x3.github.io/course-17-18/class-5/
+[examples]: https://cmda-tt.github.io/course-17-18/class-5/
 
 [extra-time]: participation.md

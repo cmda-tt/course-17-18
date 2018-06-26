@@ -287,7 +287,7 @@ Conduct][ruc] ([Regeling Ongewenst Gedrag][rog]).
 Software: [MIT][] © [Titus Wormer][author].
 Docs and images: [CC-BY-NC-SA-4.0][].
 
-[banner]: https://cdn.rawgit.com/cmda-fe3x3/logo/a062020/banner.svg
+[banner]: https://cdn.rawgit.com/cmda-tt/logo/a062020/banner.svg
 
 [mit]: license.md#software
 
@@ -295,7 +295,7 @@ Docs and images: [CC-BY-NC-SA-4.0][].
 
 [author]: http://wooorm.com
 
-[home]: https://github.com/cmda-fe3x3
+[home]: https://github.com/cmda-tt
 
 [wooorm-gh]: https://github.com/wooorm
 
@@ -309,7 +309,7 @@ Docs and images: [CC-BY-NC-SA-4.0][].
 
 [maaike-mail]: mailto:m.van.cruchten@hva.nl?subject=frontend-3:%20
 
-[website]: https://cmda-fe3x3.github.io/course-17-18/
+[website]: https://cmda-tt.github.io/course-17-18/
 
 [cmda]: https://github.com/cmda
 
@@ -319,7 +319,7 @@ Docs and images: [CC-BY-NC-SA-4.0][].
 
 [infographic]: images/information-design.png
 
-[issue]: https://github.com/cmda-fe3x3/course-17-18/issues/new
+[issue]: https://github.com/cmda-tt/course-17-18/issues/new
 
 [stackoverflow]: https://stackoverflow.com/questions/tagged/d3.js
 

@@ -150,9 +150,9 @@ Hand in your description in a new [issue][] to our repo.  Use the title
 
 [slides]: https://docs.google.com/presentation/d/1eKq-PmOYPOVWey4G-1tuU6vDcBUrhd7Og14nXv30ARQ
 
-[examples]: https://cmda-fe3x3.github.io/course-17-18/class-4/
+[examples]: https://cmda-tt.github.io/course-17-18/class-4/
 
-[interaction-gallery]: https://cmda-fe3x3.github.io/course-17-18/class-4-interaction/
+[interaction-gallery]: https://cmda-tt.github.io/course-17-18/class-4-interaction/
 
 [c2readme]: class-2.md#do-you-read-me
 
@@ -184,6 +184,6 @@ Hand in your description in a new [issue][] to our repo.  Use the title
 
 [a3goals]: assessment-3/#goals
 
-[issue]: https://github.com/cmda-fe3x3/course-17-18/issues
+[issue]: https://github.com/cmda-tt/course-17-18/issues
 
-[source-gallery]: https://github.com/cmda-fe3x3/course-17-18/issues?q=is%3Aissue%20label%3Aclass-4%3Asource%20
+[source-gallery]: https://github.com/cmda-tt/course-17-18/issues?q=is%3Aissue%20label%3Aclass-4%3Asource%20

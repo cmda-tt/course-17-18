@@ -6,7 +6,7 @@ In this assignment, we apply interaction in d3.
 
 I've taken one of my earlier assignments (barchart) and applied a 'sort' interaction to this, meaning that when the checkbox is clicked, the highest column is shown first.
 
-I've done this by taking the [sort example](https://github.com/cmda-fe3x3/course-17-18/blob/master/site/class-4/sort/index.js) from the course's repo, and applying it to my [bar chart](https://cmda-fe3x3.github.io/course-17-18/class-1-bar/jensorsel/) from class 1.
+I've done this by taking the [sort example](https://github.com/cmda-tt/course-17-18/blob/master/site/class-4/sort/index.js) from the course's repo, and applying it to my [bar chart](https://cmda-tt.github.io/course-17-18/class-1-bar/jensorsel/) from class 1.
 
 To make this work, I had to change some variables around. I've also updated the data, to include more (recent) days.
 

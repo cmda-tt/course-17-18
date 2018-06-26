@@ -22,7 +22,7 @@ d3.csv("index.csv", function(d) {
   x.domain(data.map(function(d) { return d.Datum; }));
   y.domain([0, d3.max(data, function(d) { return d.Uren; })]);
 
-  /* Sorting code used from the example from Woorm: https://github.com/cmda-fe3x3/course-17-18/tree/master/site/class-4/sort */
+  /* Sorting code used from the example from Woorm: https://github.com/cmda-tt/course-17-18/tree/master/site/class-4/sort */
 
   d3.select('input').on('change', onchange);
 

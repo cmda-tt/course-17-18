@@ -1,6 +1,6 @@
 # Transistions
 
-[An assignment about transistions](https://github.com/cmda-fe3x3/course-17-18/blob/master/class-3.md) to fix the the line chart!
+[An assignment about transistions](https://github.com/cmda-tt/course-17-18/blob/master/class-3.md) to fix the the line chart!
 
 ## Background
 

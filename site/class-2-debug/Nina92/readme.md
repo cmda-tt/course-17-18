@@ -1,7 +1,7 @@
 # Debugging Code
 
 ## Description
-I debugged the code from [`site/class-2/debug`](https://github.com/cmda-fe3x3/course-17-18/blob/master/site/class-2/debug).
+I debugged the code from [`site/class-2/debug`](https://github.com/cmda-tt/course-17-18/blob/master/site/class-2/debug).
 
 ## Background
 This are the bugs I fixed:

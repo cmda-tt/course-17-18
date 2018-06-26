@@ -2,13 +2,13 @@
 
 A simple responsive donut chart visualizing the populations of various age
 groups with pretty colors original from [`bl.ock`][block]
-by [**@mbostock**][block-author] (GPL-3.0) and based on the [**Donut chart**](https://github.com/cmda-fe3x3/course-17-18/tree/master/site/class-2/style) from [**@wooorm**](https://github.com/wooorm).
+by [**@mbostock**][block-author] (GPL-3.0) and based on the [**Donut chart**](https://github.com/cmda-tt/course-17-18/tree/master/site/class-2/style) from [**@wooorm**](https://github.com/wooorm).
 
 ![Alt text](preview.png)
 
 ## Background
 
-For a style assignment I reformatted the code from the [**Donut chart**](https://github.com/cmda-fe3x3/course-17-18/tree/master/site/class-2/style) and made it in my own style.
+For a style assignment I reformatted the code from the [**Donut chart**](https://github.com/cmda-tt/course-17-18/tree/master/site/class-2/style) and made it in my own style.
 My following changes where:
 ### HTML:
 * I gave it a basic HTML structure.

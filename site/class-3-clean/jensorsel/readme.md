@@ -1,6 +1,6 @@
 # Cleaning up data
 
-This is the deliverable for the ['clean' assignment](https://github.com/cmda-fe3x3/course-17-18/blob/master/class-3.md#clean).
+This is the deliverable for the ['clean' assignment](https://github.com/cmda-tt/course-17-18/blob/master/class-3.md#clean).
 
 ## Background
 
@@ -29,7 +29,7 @@ The point of this assignment is to 'clean up' a dataset using JavaScript. Most d
     }
   }
 ```
-* Finally, this piece of code is used to group the values per weather station, since the data is going to be used in a multi-line chart. It's taken from [@dipsaus9's code](https://github.com/cmda-fe3x3/course-17-18/blob/master/site/class-3-clean/dipsaus9/index.html), since I didn't initially know what to do. The `d3.nest()` function is used to group the data that was previously stored in `var places` together. The weather stations' names are used as the keys, the data in places is used as their values. All of these changes combined resulted in working code.
+* Finally, this piece of code is used to group the values per weather station, since the data is going to be used in a multi-line chart. It's taken from [@dipsaus9's code](https://github.com/cmda-tt/course-17-18/blob/master/site/class-3-clean/dipsaus9/index.html), since I didn't initially know what to do. The `d3.nest()` function is used to group the data that was previously stored in `var places` together. The weather stations' names are used as the keys, the data in places is used as their values. All of these changes combined resulted in working code.
  ```
  places = d3.nest()
    .key(function(d) { return d.name; })

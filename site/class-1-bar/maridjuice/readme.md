@@ -42,4 +42,4 @@ Tab-Seperated Values with 12 values en 2 columns.
 
 [cover]: preview.png
 
-[url]: https://cmda-fe3x3.github.io/course-17-18/class-1-bar/maridjuice/
+[url]: https://cmda-tt.github.io/course-17-18/class-1-bar/maridjuice/

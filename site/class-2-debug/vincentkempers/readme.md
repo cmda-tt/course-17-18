@@ -1,6 +1,6 @@
 # Bugs
 
-[An assignment](https://github.com/cmda-fe3x3/course-17-18/tree/master/site/class-2/debug) to fix some bugs that @wooorm made.
+[An assignment](https://github.com/cmda-tt/course-17-18/tree/master/site/class-2/debug) to fix some bugs that @wooorm made.
 
 ## Background
 
@@ -63,6 +63,6 @@ function myStyle() {
 ### License
 
 [The chart @wooorm used](https://bl.ocks.org/mbostock/3887118) is made by @mbostock (GPL-3.0).
-The [The donut chart @wooorm](https://github.com/cmda-fe3x3/course-17-18/tree/master/site/class-2/debug) is made by @wooorm (GPL-3.0).
+The [The donut chart @wooorm](https://github.com/cmda-tt/course-17-18/tree/master/site/class-2/debug) is made by @wooorm (GPL-3.0).
 
 [GPLv3](https://choosealicense.com/licenses/gpl-3.0/) Vincent Kempers 👨🏽‍💻

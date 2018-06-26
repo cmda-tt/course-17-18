@@ -8,7 +8,7 @@ For practice I had a assignment to add some interactivity to chart of choosing. 
 ## What i did to make this work
 I wanted to aim high so I found a chart in the gallary on github from [Mike Bostock](https://bl.ocks.org/mbostock/3887051). I want to make that chart sortable but I couldn't figure out how. I started to read to code and tried to understand it. I have tried many options but I didn't succeed. That's when i made a new plan.  
 
-I used the a basic chart from [Mike Bostock's](https://bl.ocks.org/mbostock/3885304) and changed so it would match my preference. After that I looked at the code from Titus Wormer the [sort example](https://github.com/cmda-fe3x3/course-17-18/tree/master/site/class-4/sort) and used some code to make it sortable. To match my data I had to change some labels.
+I used the a basic chart from [Mike Bostock's](https://bl.ocks.org/mbostock/3885304) and changed so it would match my preference. After that I looked at the code from Titus Wormer the [sort example](https://github.com/cmda-tt/course-17-18/tree/master/site/class-4/sort) and used some code to make it sortable. To match my data I had to change some labels.
 
 ## To do
 It works for the most part but there are still some bugs I can't figure out due the deadline. Whats still wrong about it:
@@ -18,4 +18,4 @@ It works for the most part but there are still some bugs I can't figure out due 
 
 
 ## License
-[GNU General Public License, version 3](https://github.com/cmda-fe3x3/course-17-18/tree/master/site/class-4/sort) 
+[GNU General Public License, version 3](https://github.com/cmda-tt/course-17-18/tree/master/site/class-4/sort) 

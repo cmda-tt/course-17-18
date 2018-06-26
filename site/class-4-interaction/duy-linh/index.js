@@ -26,7 +26,7 @@ y.domain([0, d3.max(data, frequency)]);
 
 
 
-/* +++ Gebaseerd op de example in de slides. @wooorm https://github.com/cmda-fe3x3/course-17-18/tree/master/site/class-4/sort +++ */
+/* +++ Gebaseerd op de example in de slides. @wooorm https://github.com/cmda-tt/course-17-18/tree/master/site/class-4/sort +++ */
 
 
 

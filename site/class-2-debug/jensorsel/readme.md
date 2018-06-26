@@ -1,6 +1,6 @@
 # Debugging a scatter plot
 
-This assignment is about debugging the code that is found [here](https://github.com/cmda-fe3x3/course-17-18/tree/master/site/class-2/debug) to make the broken scatter plot work.
+This assignment is about debugging the code that is found [here](https://github.com/cmda-tt/course-17-18/tree/master/site/class-2/debug) to make the broken scatter plot work.
 
 ## Background
 
@@ -34,4 +34,4 @@ There were fixes of different kinds to be made.
 
 ## License
 
-GPL-3.0 © Titus Wormer (from [assignment](https://github.com/cmda-fe3x3/course-17-18/blob/master/site/class-2/debug/readme.md))
+GPL-3.0 © Titus Wormer (from [assignment](https://github.com/cmda-tt/course-17-18/blob/master/site/class-2/debug/readme.md))

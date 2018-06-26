@@ -19,7 +19,7 @@ cd yourdirectory
 ```
 
 ```
-git clone https://github.com/cmda-fe3x3/course-17-18/tree/master/site/class-3-clean/danoszz
+git clone https://github.com/cmda-tt/course-17-18/tree/master/site/class-3-clean/danoszz
 
 ```
 
@@ -71,7 +71,7 @@ GPL-3.0 © Titus Wormer and extended by Daan van der Zwaag MIT ©
 
 [cover]: preview.png
 
-[url]: https://cmda-fe3x3.github.io/course-17-18/class-3/clean
+[url]: https://cmda-tt.github.io/course-17-18/class-3/clean
 
 [data-source]: https://projects.knmi.nl/klimatologie/uurgegevens/selectie.cgi
 

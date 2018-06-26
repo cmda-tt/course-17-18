@@ -1,6 +1,6 @@
 # Stacked Bar Chart
 
-This stacked bar chart was created for [Class 1: Bar chart](https://github.com/cmda-fe3x3/course-17-18/blob/master/class-1.md#bar-chart) using [D3.js](https://d3js.org/)
+This stacked bar chart was created for [Class 1: Bar chart](https://github.com/cmda-tt/course-17-18/blob/master/class-1.md#bar-chart) using [D3.js](https://d3js.org/)
 
 ![Alt text](preview.png "Preview image of the Stacked Bar Chart").
 > This is how the visualization should look like

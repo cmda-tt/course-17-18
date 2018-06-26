@@ -27,7 +27,7 @@ occurs in the English language
 — 'd3.timeout'
 
 ## changes made
-The sort changes I used [this code](https://github.com/cmda-fe3x3/course-17-18/tree/master/site/class-1-bar/wooorm#readme) as a reference
+The sort changes I used [this code](https://github.com/cmda-tt/course-17-18/tree/master/site/class-1-bar/wooorm#readme) as a reference
 * I made 2 sort functions.
 - One to sort it by the value, so from high to low
 ```

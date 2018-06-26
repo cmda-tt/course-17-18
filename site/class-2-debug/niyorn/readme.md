@@ -45,4 +45,4 @@ GPL-3.0 © Chanakarn Niyornram
 
 [cover]: preview.png
 
-[url]: https://cmda-fe3x3.github.io/course-17-18/class-2-debug/niyorn
+[url]: https://cmda-tt.github.io/course-17-18/class-2-debug/niyorn

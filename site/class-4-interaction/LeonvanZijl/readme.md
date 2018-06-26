@@ -1,7 +1,7 @@
 # **Interactivity**
 
 ### **Source**
-1. [Bar Chart with Sorting by Titus](https://cmda-fe3x3.github.io/course-17-18/class-4/sort/)
+1. [Bar Chart with Sorting by Titus](https://cmda-tt.github.io/course-17-18/class-4/sort/)
 2. [Simple Bar Graph in v4 by d3noob](https://bl.ocks.org/d3noob/bdf28027e0ce70bd132edc64f1dd7ea4)
 
 ## **Description**

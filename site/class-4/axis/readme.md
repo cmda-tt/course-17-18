@@ -49,7 +49,7 @@ Tab-separated values (TSV) with 204 rows and 13 columns:
 
 GPL-3.0 © Titus Wormer
 
-[original]: https://github.com/cmda-fe3x3/course-17-18/tree/master/site/class-1-bar/wooorm#readme
+[original]: https://github.com/cmda-tt/course-17-18/tree/master/site/class-1-bar/wooorm#readme
 
 [block]: https://bl.ocks.org/mbostock/3885304
 
@@ -61,4 +61,4 @@ GPL-3.0 © Titus Wormer
 
 [cover]: preview.png
 
-[url]: https://cmda-fe3x3.github.io/course-17-18/class-4/axis/
+[url]: https://cmda-tt.github.io/course-17-18/class-4/axis/

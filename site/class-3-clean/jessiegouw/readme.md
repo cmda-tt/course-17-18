@@ -46,7 +46,7 @@ GPL-3.1 © Jessie Gouw
 
 [cover]: preview.png
 
-[url]: https://cmda-fe3x3.github.io/course-17-18/class-3/clean
+[url]: https://cmda-tt.github.io/course-17-18/class-3/clean
 
 [data-source]: https://projects.knmi.nl/klimatologie/uurgegevens/selectie.cgi
 

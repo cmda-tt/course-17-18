@@ -30,7 +30,7 @@ It’s important that you show how you clean data and use data joins (enter,
 update, exit).  Understanding is measured through comments.
 
 For this assessment you’ll build a project in a fork of
-[`cmda-fe3x3/fe3-assessment-2`][starter-code] (**not our course repo**) and
+[`cmda-tt/fe3-assessment-2`][starter-code] (**not our course repo**) and
 host the project through [GitHub Pages][pages].  First, fork the repo.  Then,
 work on your project and upload the final results to your fork either using
 Git or the GitHub interface as covered in [class 1][c1].  You do not need
@@ -144,7 +144,7 @@ You _may not_ use random data.
 
 <!--lint enable no-html maximum-line-length-->
 
-[banner]: https://cdn.rawgit.com/cmda-fe3x3/logo/a4b0614/banner-assessment-2.svg
+[banner]: https://cdn.rawgit.com/cmda-tt/logo/a4b0614/banner-assessment-2.svg
 
 [interactive]: #interactive
 
@@ -168,8 +168,8 @@ You _may not_ use random data.
 
 [recommended-data]: ../assessment-1/readme.md#other-data
 
-[starter-code]: https://github.com/cmda-fe3x3/fe3-assessment-2
+[starter-code]: https://github.com/cmda-tt/fe3-assessment-2
 
-[results]: https://github.com/cmda-fe3x3/course-17-18/tree/master/site/assessment-2#readme
+[results]: https://github.com/cmda-tt/course-17-18/tree/master/site/assessment-2#readme
 
-[grades]: https://cmda-fe3x3.github.io/grades-17-18/
+[grades]: https://cmda-tt.github.io/grades-17-18/

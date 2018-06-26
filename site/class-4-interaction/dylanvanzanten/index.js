@@ -1,5 +1,5 @@
 // Original: https://bl.ocks.org/d3noob/bdf28027e0ce70bd132edc64f1dd7ea4
-// Inspiration: https://cmda-fe3x3.github.io/course-17-18/class-4/sort/
+// Inspiration: https://cmda-tt.github.io/course-17-18/class-4/sort/
 
 // Set the width, height and the margins of the svg.
 var margin = {

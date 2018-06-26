@@ -1,7 +1,7 @@
 # Reformat Code
 
 ## Description
-I reformatted the code from [site/class-2/style](https://github.com/cmda-fe3x3/course-17-18/tree/master/site/class-2/style) to make it more readable for humans.
+I reformatted the code from [site/class-2/style](https://github.com/cmda-tt/course-17-18/tree/master/site/class-2/style) to make it more readable for humans.
 
 ## Background
 This are the adjustments I made:

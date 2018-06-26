@@ -1,5 +1,5 @@
 # My spent hours
-This is a multi-series line chart visualising the temperature of several places in the Netherlands. The [chart](https://github.com/cmda-fe3x3/course-17-18/tree/master/site/class-3/clean) was made by [@titus](https://github.com/wooorm) and original based on [**bl.ock**](https://bl.ocks.org/mbostock/3884955) by [@mbostock](https://github.com/mbostock)(GPL-3.0). 
+This is a multi-series line chart visualising the temperature of several places in the Netherlands. The [chart](https://github.com/cmda-tt/course-17-18/tree/master/site/class-3/clean) was made by [@titus](https://github.com/wooorm) and original based on [**bl.ock**](https://bl.ocks.org/mbostock/3884955) by [@mbostock](https://github.com/mbostock)(GPL-3.0). 
 
 ![Alt text](preview.png)
 

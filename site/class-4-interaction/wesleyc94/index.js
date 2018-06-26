@@ -1,5 +1,5 @@
 //Gebaseerd op code van https://bl.ocks.org/mbostock/3885304 van Mike Bostocks, 
-//https://github.com/cmda-fe3x3/course-17-18/tree/master/site/class-4/axis van Titus Wormer. (Werkcolleges + Lesmateriaal)
+//https://github.com/cmda-tt/course-17-18/tree/master/site/class-4/axis van Titus Wormer. (Werkcolleges + Lesmateriaal)
 
 //Hier zijn de variabelen aangemaakt om svg te gaan selecteren met de breedte en hoogte aangegeven.
 var svg = d3.select("svg"),

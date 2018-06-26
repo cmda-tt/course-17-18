@@ -4,7 +4,7 @@
 Cleaning a datafile to be used in a data visualisation.
 
 ### **Source**
-[Multi-Series Line Chart](https://github.com/cmda-fe3x3/course-17-18/tree/master/site/class-3/clean)
+[Multi-Series Line Chart](https://github.com/cmda-tt/course-17-18/tree/master/site/class-3/clean)
 
 ## **Description**
 In this assignment I needed to download some "dirty" data from the KNMI website. This included tempratures, windspeeds, names of places, etc.. From this huge list of data we had to filter out a couple of important data subjects and clean it up. This meant removing unnecessary spaces

@@ -6,7 +6,7 @@ This assignment is about reformatting code, changing the way it looks without ch
 
 This assignment is part of the course "Front-end development 3".
 
-Any changes made to the [original code](https://github.com/cmda-fe3x3/course-17-18/tree/master/site/class-2-style/wooorm) were made as my personal preferences.
+Any changes made to the [original code](https://github.com/cmda-tt/course-17-18/tree/master/site/class-2-style/wooorm) were made as my personal preferences.
 Changes include adding extra whitespace, both between and in the lines. I've also moved the variables to the top, leaving the functions at the bottom.
 
 Extra semicolons were added, also out of personal preference.
@@ -36,4 +36,4 @@ GPL-3.0 © Titus Wormer
 
 [cover]: preview.png
 
-[url]: https://cmda-fe3x3.github.io/course-17-18/class-2-style/jensorsel
+[url]: https://cmda-tt.github.io/course-17-18/class-2-style/jensorsel

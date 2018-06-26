@@ -29,7 +29,7 @@ We’ll check how you apply d3, whether you understand what’s happening, how w
 data is represented, and quality of your code and documentation.
 
 For this assessment you’ll build a project in a fork of
-[`cmda-fe3x3/fe3-assessment-1`][starter-code] (**not our course repo**) and
+[`cmda-tt/fe3-assessment-1`][starter-code] (**not our course repo**) and
 host the project through [GitHub Pages][pages].  First, fork the repo.  Then,
 work on your project and upload the final results to your fork either using
 Git or the GitHub interface as covered in [class 1][c1].  You do not need
@@ -281,11 +281,11 @@ JavaScript Object Notation (JSON) with 34 rows and 2+ columns:
 
 <!--lint enable no-html maximum-line-length-->
 
-[banner]: https://cdn.rawgit.com/cmda-fe3x3/logo/3b150735/banner-assessment-1.svg
+[banner]: https://cdn.rawgit.com/cmda-tt/logo/3b150735/banner-assessment-1.svg
 
 [basic]: https://github.com/d3/d3/wiki/Gallery#basic-charts
 
-[starter-code]: https://github.com/cmda-fe3x3/fe3-assessment-1
+[starter-code]: https://github.com/cmda-tt/fe3-assessment-1
 
 [data]: #data
 
@@ -325,6 +325,6 @@ JavaScript Object Notation (JSON) with 34 rows and 2+ columns:
 
 [pages]: https://pages.github.com
 
-[results]: https://github.com/cmda-fe3x3/course-17-18/tree/master/site/assessment-1#readme
+[results]: https://github.com/cmda-tt/course-17-18/tree/master/site/assessment-1#readme
 
-[grades]: https://cmda-fe3x3.github.io/grades-17-18/
+[grades]: https://cmda-tt.github.io/grades-17-18/

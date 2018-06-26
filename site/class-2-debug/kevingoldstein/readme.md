@@ -50,6 +50,6 @@ GPL-3.0 © Kevin Goldstein
 
 [cover]: preview.png
 
-[url]: https://cmda-fe3x3.github.io/course-17-18/class-2-debug/kevingoldstein
+[url]: https://cmda-tt.github.io/course-17-18/class-2-debug/kevingoldstein
 
 https://stackoverflow.com/questions/40465283/what-is-d3-svg-axis-in-d3-version-4

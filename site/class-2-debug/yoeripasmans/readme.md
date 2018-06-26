@@ -45,4 +45,4 @@ GPL-3.0 © Titus Wormer Added changes by Yoeri Pasmans
 [block]: https://bl.ocks.org/mbostock/3887118
 [block-author]: https://github.com/mbostock
 [cover]: preview.png
-[url]: https://cmda-fe3x3.github.io/course-17-18/class-2-debug/yoeripasmans
+[url]: https://cmda-tt.github.io/course-17-18/class-2-debug/yoeripasmans

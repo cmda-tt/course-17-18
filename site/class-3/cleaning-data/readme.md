@@ -30,4 +30,4 @@ MIT © Titus Wormer
 
 [cover]: preview.png
 
-[url]: https://cmda-fe3x3.github.io/course-17-18/class-3/cleaning-data
+[url]: https://cmda-tt.github.io/course-17-18/class-3/cleaning-data

@@ -27,7 +27,7 @@ d3.tsv("data.tsv", function(d) {
   //SET EVENT HANDLER ON CHANGE
   d3.select('#checkbox').on('change', onchange);
 
-  // ONCHANGE FUNCTION FROM TITUS WORMER - https://cmda-fe3x3.github.io/course-17-18/class-4/sort/
+  // ONCHANGE FUNCTION FROM TITUS WORMER - https://cmda-tt.github.io/course-17-18/class-4/sort/
   function onchange() {
     /* Based on if the button is checked it will launch "sortOnfrequency" or "sortOnletter"*/
     var sort = this.checked ? sortOnfrequency : sortOnletter;
@@ -83,7 +83,7 @@ d3.tsv("data.tsv", function(d) {
       .attr("height", function(d) { return height - y(d.frequency); });
 });
 
-// sort functions from Titus Wormer - https://cmda-fe3x3.github.io/course-17-18/class-4/sort/
+// sort functions from Titus Wormer - https://cmda-tt.github.io/course-17-18/class-4/sort/
 function sortOnfrequency(a, b) {
   return frequency(b) - frequency(a);
 }
