@@ -1,0 +1,32 @@
+.bar {
+  fill: pink;
+  transition: 0.4s all ease;
+  animation: fade-in-bottom ease 0.4s forwards;
+}
+
+.bar:hover {
+  fill: black;
+}
+
+.axis--x path {
+  display: none;
+}
+@keyframes fadeUp {
+  from   {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+  }
+}
+
+@keyframes fade-in-bottom {
+  from {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

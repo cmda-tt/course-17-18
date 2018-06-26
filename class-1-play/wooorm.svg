@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="300" viewBox="0 0 140 140">
+  <title>@wooorm</title>
+  <g stroke="#feca2f" stroke-width="10">
+    <circle opacity="0.25" fill="white" cx="60" cy="50" r="10" />
+    <rect fill="white" x="10" y="10" width="20" height="20" />
+  </g>
+  <line x1="80" y1="70" x2="130" y2="90" stroke-width="10" stroke="black" />
+  <polygon transform="translate(60 -150)" points="50 160, 55 180, 70 180, 60 190, 65 205, 50 195, 35 205, 40 190, 30 180, 45 180" />
+  <path d="M 10 70 L 50 70 L 30 110 z" />
+  <text font-size="60" font-family="Comic Sans MS" x="60" y="130">🤔</text>
+</svg>

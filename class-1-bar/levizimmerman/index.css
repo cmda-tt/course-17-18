@@ -1,0 +1,26 @@
+body {
+    background: #f0f0f0;
+    padding: 1rem;
+}
+
+h1 {
+    font-family: "Roboto", sans-serif;
+    margin-top: 0;
+}
+
+.node text {
+    fill: #fff;
+    text-shadow: 0px 1px 3px rgba(0,0,0,0.3);
+    text-transform: capitalize;
+}
+
+.node circle {
+    stroke: #fff;
+    stroke-width: 5px;
+}
+
+.legend-item text {
+    font-size: 12px;
+    text-transform: capitalize;
+    font-weight: bold;
+}

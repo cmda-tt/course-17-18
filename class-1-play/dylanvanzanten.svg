@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 20" >
+<title>@dylanvanzanten</title>
+  <circle cx="400" cy="400" r="200" fill="#EEE" opacity="0.5" />
+  <rect x="200" y="200" width="150" height="150" />
+  <path d="M400 0 L75 200 L225 200 Z" fill="white" opacity="0.7" />
+  <text x="400" y="300" fill="white" font-family="Roboto" font-size="35">Dylan van Zanten</text>
+  <line x1="403" y1="310" x2="855" y2="310" stroke="white" stroke-width="5" />
+  <polygon points="150,10 250,20 140,50" fill="red" opacity="0.6" />
+  <g fill="blue"  stroke="white" stroke-width="5" >
+    <path d="M150 0 L75 200 L225 200 Z" />
+    <path d="M250 0 L135 200 L250 250 Z" />
+    <path d="M75 0 L80 135 L200 20 Z" />
+  </g>
+  <rect x="20" y="10" viewBox="0 0 50 20" width="10" height="5" />
+</svg>

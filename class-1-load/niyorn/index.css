@@ -1,0 +1,14 @@
+
+table {
+  border: 3px solid purple;
+  text-align: left;
+  border-spacing: 1rem;
+}
+
+thead{
+  background-color: #42A5F5;
+}
+
+th, td {
+  padding: 20px;
+}

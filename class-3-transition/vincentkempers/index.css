@@ -1,0 +1,15 @@
+body {
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+h1 {
+	font-family: sans-serif;
+	font-size: 3em;
+}
+
+tspan {
+	font-size: 1.2em;
+}

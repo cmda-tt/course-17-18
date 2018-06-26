@@ -1,0 +1,14 @@
+<!doctype html>
+<meta charset=utf8>
+<title>Debug: Case Sensitivity</title>
+<h1 id=title style=color:red>🔥🐶☕️ This is fine… 🔥</h1>
+<p>Variables and function names are case sensitive.</p>
+<details>
+  <summary>Fix</summary>
+  <p>Use <code>getElementById</code> instead of <code>getElementByID</code>.</p>
+</details>
+<script>
+var title = document.getElementByID('title');
+title.textContent = 'Fixed! 🎉';
+title.style.color = 'green';
+</script>

@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang=en>
+<meta charset=utf8>
+<title>Loading CSV with d3</title>
+<meta content=width=device-width,initial-scale=1 name=viewport>
+<link rel="shortcut icon" type=image/x-icon href=data:image/x-icon;,>
+<h1>CSV</h1>
+<script src=https://d3js.org/d3.v4.min.js></script>
+<script>
+d3.csv('./index.csv', function (err, questions) {
+  if (err) throw err;
+
+  questions.forEach(function (q) {
+    var details = document.createElement('details');
+    var summary = document.createElement('summary');
+    var paragraph = document.createElement('p');
+
+    details.appendChild(summary).textContent = q.question;
+    details.appendChild(paragraph).textContent = q.answer;
+
+    document.body.appendChild(details);
+  })
+})
+</script>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<title>@duy-linh</title>
+<link rel="stylesheet" href="index.css">
+
+<form>
+    <label><input type="radio" name="mode" value="grouped"> Grouped</label>
+    <label><input type="radio" name="mode" value="stacked" checked> Stacked</label>
+</form>
+
+<h1>My deep feelings in October</h1>
+
+<svg width="960" height="500">
+<!-- Legenda -->
+    <rect fill='#3774b1' x="25" y="450" width="20" height="20"/>
+    <text x="55" y="465" font-size="12" font-family="Helvetica Neue">= Ambivalent</text> 
+
+    <rect fill='#f18627' x="200" y="450" width="20" height="20"/> <text x="230" y="465" font-size="12" font-family="Helvetica Neue">= Melancholy</text> 
+ 
+    <rect fill='#4f9f39' x='375' y="450" width="20" height="20"/> <text x="410" y="465" font-size="12" font-family="Helvetica Neue">= Apathetic</text> 
+ 
+    <rect fill='#c7382c' x="550" y="450" width="20" height="20"/>
+    <text x="585" y="465" font-size="12" font-family="Helvetica Neue">= Nostalgic</text> 
+
+    <rect fill='#8d66ba' x="725" y="450" width="20" height="20"/> <text x='760' y="465" font-size="12" font-family="Helvetica Neue">= Agitated</text>
+</svg> 
+
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<script src="index.js"></script>

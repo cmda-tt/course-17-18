@@ -1,0 +1,18 @@
+<!doctype html>
+<meta charset=utf8>
+<title>Debug: Conditional</title>
+<h1 style=color:green>Fixed! 🎉</h1>
+<p>Assigning a value (<code>=</code> instead of <code>==</code> or <code>===</code>) always returns that value in the expression.</p>
+<details>
+  <summary>Fix</summary>
+  <p>Use <code>==</code> or <code>===</code> instead of <code>=</code>.</p>
+</details>
+<script>
+var fine = false;
+var title = document.querySelector('h1');
+/* `fine` is not true right? So we won’t go in this branch. Or are we? */
+if (fine = true) {
+  title.textContent = '🔥🐶☕️ This is fine… 🔥';
+  title.style.color = 'red';
+}
+</script>

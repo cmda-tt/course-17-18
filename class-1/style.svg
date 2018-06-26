@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+  <title>SVG `&lt;style&gt;` element</title>
+  <style>
+    circle {
+      fill: #feca2f;
+      stroke: black;
+      stroke-width: 10
+    }
+  </style>
+  <circle cx="60" cy="60" r="40" />
+  <circle cx="90" cy="60" r="40" />
+  <circle cx="120" cy="60" r="40" />
+  <circle cx="150" cy="60" r="40" />
+</svg>

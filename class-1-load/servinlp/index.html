@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset=utf8>
+
+		<title>@servinlp</title>
+		<meta content=width=device-width,initial-scale=1 name=viewport>
+
+		<link rel="stylesheet" href="index.css">
+
+		<script src="https://d3js.org/d3.v4.min.js"></script>
+		<script src="https://d3js.org/d3-request.v1.min.js"></script>
+	</head>
+	<body>
+
+		<h1>Dinners</h1>
+
+		<script>
+
+			d3.csv( 'index.csv', function( error, data ) {
+
+				if ( error ) throw error
+
+				const table = document.createElement( 'table' )
+
+				createRow( { Day: 'Day', Dinner: 'Dinner' }, table )
+
+				data.forEach( el => {
+
+					createRow( el, table )
+
+				})
+
+				document.body.appendChild( table )
+
+			})
+
+			d3.json( 'index.json', function( error, data ) {
+
+				if ( error ) throw error
+
+				const table = document.createElement( 'table' )
+
+				createRow( { Day: 'Day', Dinner: 'Dinner' }, table )
+
+				data.forEach( el => {
+
+					createRow( el, table )
+
+				})
+
+				document.body.appendChild( table )
+
+			})
+
+			function createRow( el, output ) {
+
+				const tr = document.createElement( 'tr' ),
+					day = document.createElement( 'td' ),
+					dinner = document.createElement( 'td' )
+
+				day.textContent = el.Day
+				dinner.textContent = el.Dinner
+
+				tr.appendChild( day )
+				tr.appendChild( dinner )
+
+				output.appendChild( tr )
+
+			}
+
+		</script>
+
+	</body>
+</html>

@@ -1,0 +1,49 @@
+<!doctype html>
+<meta charset=utf8>
+<title>@mymphy</title>
+<meta content=width=device-width,initial-scale=1 name=viewport>
+<link rel="stylesheet" href="index.css">
+
+<script src="https://d3js.org/d3.v4.min.js"></script>
+
+<h1>Dinners</h1>
+
+<div id="js-csv"></div>
+<div id="js-json"></div>
+
+<table>
+</table>
+<script>
+  var divCsv = document.getElementById("js-csv");
+  var divJson = document.getElementById("js-json");
+
+  d3.csv("./index.csv", csv);
+  d3.json("./index.json", json);
+
+  function csv(err, csv) {
+    if (err) throw err;
+    renderC("CSV", csv);
+  };
+
+  function json(err, json) {
+      if (err) throw err;
+      renderJ("JSON", json);
+  };
+
+  function renderC(source, data) {
+    divCsv.appendChild(document.createElement("h2")).textContent = source;
+    data.forEach(function (row) {
+      divCsv.appendChild(document.createElement("h3")).textContent = row.Day;
+      divCsv.appendChild(document.createElement("p")).textContent = row.Dinner;
+    });
+  }
+
+  function renderJ(source, data) {
+    divJson.appendChild(document.createElement("h2")).textContent = source;
+    data.forEach(function (row) {
+      divJson.appendChild(document.createElement("h3")).textContent = row.Day;
+      divJson.appendChild(document.createElement("p")).textContent = row.Dinner;
+    });
+  }
+
+</script>

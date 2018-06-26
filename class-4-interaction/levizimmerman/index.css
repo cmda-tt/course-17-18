@@ -1,0 +1,111 @@
+body {
+  overflow: hidden;
+  width: 100vw;
+  font-family: 'Droid Sans', 'Roboto', sans-serif;
+}
+
+.legend {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 200px;
+  max-height: 100vh;
+  overflow: hidden;
+}
+
+.legend-container {
+  height: 100vh;
+  width: calc(100% + 17px);
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding-right: 17px;
+}
+
+.legend-item {
+  color: #fff;
+  padding: 0.5rem 0.5rem 0.5rem 2rem;
+  text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  font-size: 12px;
+  z-index: 1;
+  position: relative;
+  opacity: 0.5;
+}
+
+.legend-item:before {
+  content: ' ';
+  position: absolute;
+  transform: translateY(-50%);
+  top: 50%;
+  left: 0.5rem;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: 1px solid #fff;
+}
+
+.legend-item.active:before {
+  background-color: #fff;
+}
+
+.legend-item.active {
+  opacity: 1;
+}
+
+.legend-item:hover {
+  transform: scale(1.1);
+  transform-origin: 0 100%;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+  z-index: 2;
+  opacity: 1;
+}
+
+.sort {
+  background: #f0f0f0;
+  padding: 0.5rem;
+}
+
+.sort button {
+  padding: 0.3rem 1rem;
+  border: none;
+  outline: none;
+  background: #333;
+  color: #fff;
+  border-radius: 2px;
+  display: inline-block;
+  position: relative;
+  top: -2px;
+  transition: transform 0.1s ease-in-out;
+  transform: scale(1);
+  cursor: pointer;
+}
+
+.sort button:hover {
+  transform: scale(1.1);
+}
+
+.sort button:active {
+  transform: scale(1.04);
+}
+
+circle {
+  transform: scale(1);
+  transform-origin: 50% 50%;
+  transition: transform 0.1s ease-in-out;
+  cursor: pointer;
+}
+
+circle.highlight {
+  transform: scale(1.1);
+  transform-origin: 50% 50%;
+}
+
+svg {
+  /*left: 50px;*/
+  /*position: relative;*/
+}
+
+svg text {
+  fill: #fff;
+  text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
+}

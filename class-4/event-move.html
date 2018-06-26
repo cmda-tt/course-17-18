@@ -1,0 +1,74 @@
+<!doctype html>
+<!--Based on https://bl.ocks.org/mbostock/3127661b6f13f9316be745e77fdfb084 by Mike Bostock-->
+<meta charset=utf8>
+<title>Event: mousemove</title>
+<meta content=width=device-width,initial-scale=1 name=viewport>
+<style>
+html {
+  font-family: Roboto, -apple-system, BlinkMacSystemFont, Helvetica Neue, Segoe UI, Oxygen, Ubuntu, Cantarell, Open Sans, sans-serif;
+  height: 100%;
+  background-color: black;
+  color: white;
+}
+body { margin: 0; height: 100% }
+svg { width: 100%; height: 100% }
+circle { fill: currentcolor }
+.active { fill: #feca2f }
+</style>
+<svg></svg>
+<script src=https://d3js.org/d3.v4.min.js></script>
+<script>
+/* Based on https://bl.ocks.org/mbostock/3127661b6f13f9316be745e77fdfb084 by Mike Bostock. */
+var svg = d3.select('svg');
+var width = parseInt(svg.style('width'), 10);
+var height = parseInt(svg.style('height'), 10);
+
+var PI = Math.PI;
+var sqrt = Math.sqrt;
+var cos = Math.cos;
+var sin = Math.sin;
+
+var points = d3.range(100).map(phyllotaxis(30));
+
+var g = svg
+  .append('g')
+  .selectAll('g')
+  .data(points)
+  .enter()
+  .append('circle')
+  .attr('cx', x)
+  .attr('cy', y)
+  .attr('r', 15)
+  .on('mousemove', onmove)
+  .on('mouseout', onexit);
+
+function onmove() {
+  var circle = d3.select(this);
+  circle.attr('r', Number(circle.attr('r')) + 2);
+}
+
+function onexit() {
+  d3.select(this).transition().attr('r', 15);
+}
+
+function x(d) {
+  return d.x;
+}
+
+function y(d) {
+  return d.y;
+}
+
+function phyllotaxis(radius) {
+  var theta = PI * (3 - sqrt(10));
+  return factory;
+  function factory(index) {
+    var r = radius * sqrt(index);
+    var a = theta * index;
+    return {
+      x: width / 2 + r * cos(a),
+      y: height / 2 + r * sin(a)
+    };
+  }
+}
+</script>

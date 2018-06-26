@@ -1,0 +1,52 @@
+
+#sort {
+  opacity: 1;
+  background: #f89521;
+  padding: 1em;
+  border: none;
+  font-size: 1em;
+  color: #fff;
+  margin-right: 0.5em;
+}
+
+#sort:focus {
+  outline: 0;
+}
+
+#sort:hover {
+  transition: 0.5s;
+  opacity: 0.7;
+}
+#reset {
+  opacity: 1;
+  background: red;
+  padding: 1em;
+  border: none;
+  font-size: 1em;
+  color: #fff;
+}
+
+#reset:focus {
+  outline: 0;
+}
+
+#reset:hover {
+  transition: 0.5s;
+  opacity: 0.7;
+}
+
+.body{
+  background-color: #002c45;
+}
+
+.bar {
+  fill: #ebebeb;
+}
+
+.bar:hover {
+  fill: #009999;
+}
+
+.axis--x path {
+  display: none;
+}

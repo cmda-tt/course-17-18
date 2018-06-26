@@ -1,0 +1,43 @@
+body {
+	background: #1D2F49;
+}
+
+main[role=main] {
+	position: absolute;
+	width: 50em;
+	height: 25em;
+	left: 50%;
+	top: 50%;
+	margin: -12.5em 0 0 -25em;
+}
+
+main label {
+	display: block;
+	width: 10em;
+	margin: 0 auto;
+}
+
+
+main[role=main] h1 {
+	font-family: 'PT Sans', sans-serif;
+	font-weight: 400;
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	margin: 0 0 1.8em 0;
+}
+
+
+.axis {
+	font-family: 'PT Sans', sans-serif;
+    font-size: 0.8em;
+    fill: #ffffff;
+}
+
+.axis path,
+.axis line {
+	fill: none;
+	stroke: #ffffff;
+	stroke-width: 2px;
+	shape-rendering: crispEdges;
+}

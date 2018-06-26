@@ -1,0 +1,81 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	justify-content: center;
+	align-items: center;
+	text-align: left;
+	margin: 0;
+	background-color: white;
+
+}
+main {
+	padding: 3rem;
+	transition: transform 165ms ease-in-out;
+	font-family: 'Helvetica Neue', 'Helvetica', sans-serif;
+}
+
+footer {
+	width: 100%;
+	padding: 3rem;
+	background-color: #f2f2f2;
+}
+
+h1 {
+	margin: 0;
+	font-family: 'Georgia', 'Times New Roman', serif;
+	font-size: 2.5rem;
+	color: black;
+}
+ a {
+	text-decoration: underline;
+	text-decoration-skip: ink;
+	color: #002CFC;
+}
+ul {
+	list-style: none;
+	padding: 0;
+}
+ul li {
+	margin-bottom: 0.5rem;
+}
+.axis .domain {
+  display: none;
+}
+
+/* For kek.js */
+
+.superusefuldiv {
+	z-index: 999;
+	width: 100vw;
+	height: 100vh;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: white;
+	display: none;
+}
+.superusefuldiv.visible {
+	display: block;
+}
+.superusefuldiv::after,
+.superusefuldiv::before {
+	width: 100%;
+	height: 33%;
+	position: absolute;
+	left: 0;
+	content: '';
+}
+
+.superusefuldiv::before {
+	background-color: red;
+	top: 0;
+}
+.superusefuldiv::after {
+	background-color: blue;
+	bottom: 0;
+}

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+  <title>Variable: value</title>
+  <defs>
+    <pattern id="p" x="0" y="0" width="2" height="2" patternUnits="userSpaceOnUse">
+      <rect x="0" y="0" width="2" height="2" fill="white"/>
+      <rect x="0" y="0" width="1" height="2"/>
+      <rect x="0" y="0" width="2" height="1"/>
+    </pattern>
+  </defs>
+  <circle fill="black" cx="75" cy="50" r="25"/>
+  <circle fill="url(#p)" cx="75" cy="110" r="25"/>
+  <circle fill="white" cx="75" cy="170" r="25"/>
+</svg>

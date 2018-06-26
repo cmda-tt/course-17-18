@@ -1,0 +1,57 @@
+<!doctype html>
+<meta charset=utf8>
+<title>@nina92</title>
+<meta content=width=device-width,initial-scale=1 name=viewport>
+
+<link rel="stylesheet" type="text/css" href="index.css">
+
+<script src="https://d3js.org/d3.v4.min.js"></script>
+
+<h1>Dinners</h1>
+
+<script>
+
+    d3.json("index.json", function (err, data) {
+        if (err) throw err;
+
+        var h2 = document.createElement('h2');
+        document.body.appendChild(h2);
+
+        var h2content = document.querySelectorAll('h2');
+        h2content[0].textContent = "JSON";
+
+        data.forEach(function(dinner) {
+            var h3 = document.createElement('h3');
+            document.body.appendChild(h3);
+
+            var p = document.createElement('p');
+            document.body.appendChild(p);
+
+            h3.textContent = dinner.Date;
+            p.textContent = dinner.Dinner;
+        })
+    });
+
+
+    d3.csv("index.csv", function(err, data) {
+        if (err) throw err;
+
+        var h2 = document.createElement('h2');
+        document.body.appendChild(h2);
+
+        var h2content = document.querySelectorAll('h2');
+        h2content[1].textContent = "CSV";
+
+        data.forEach(function(dinner) {
+            var h3 = document.createElement('h3');
+            document.body.appendChild(h3);
+
+            var p = document.createElement('p');
+            document.body.appendChild(p);
+
+            h3.textContent = dinner.date;
+            p.textContent = dinner.dinner;
+        })
+    });
+
+</script>

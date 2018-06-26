@@ -1,0 +1,37 @@
+html {
+  max-width: 100%
+}
+
+body {
+  margin: 0;
+  font-family: Roboto, Helvetica, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  color: #000;
+  font-weight: 600;
+  font-size: 2em;
+  margin-top: 1em;
+  text-transform: uppercase;
+}
+
+svg {
+  display: block;
+  margin: auto;
+  text-anchor: middle;
+      padding: 0 7rem;
+}
+
+circle {
+  transition: linear 0.1s;
+}
+
+text {
+  fill: #fff;
+  user-select: none;
+  cursor: default;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 16px;
+}

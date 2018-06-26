@@ -1,0 +1,35 @@
+#legenda {
+    top: 0;
+    position: absolute;
+}
+
+div {
+    width: 1em;
+    height: 1em;
+    display: block;
+}
+
+#vr {
+    background-color: salmon;
+}
+
+#za {
+    background-color: cadetblue;
+}
+
+#zo {
+    background-color: burlywood;
+}
+
+p {
+    font-family: helvetica;
+    margin-left: 2em;
+}
+
+svg {
+    width: 960px;
+    height: 960px;
+    font-family: helvetica;
+    font-size: 20px;
+    text-anchor: middle;
+}

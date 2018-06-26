@@ -1,0 +1,13 @@
+.svg-container {
+	font-family: 'open sans', arial, helvetica, sans-serif;
+}
+
+.node {
+
+}
+
+.node-label {
+	font-weight: 700;
+	font-size: 1.5em;
+	fill: #fff;
+}

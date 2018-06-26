@@ -1,0 +1,12 @@
+/*original chart made by Mike Bostock: https://bl.ocks.org/mbostock/6fead6d1378d6df5ae77bb6a719afcb2*/
+svg {
+    display: block;
+    margin:auto;
+}
+html{
+    background-color: #a76f04;
+}
+
+text{
+    fill:white;
+}

@@ -1,0 +1,83 @@
+<!doctype html>
+<meta charset=utf8>
+
+<title>@leoniesmits</title>
+<meta content=width=device-width,initial-scale=1 name=viewport>
+<link rel="stylesheet" href="index.css">
+<script src="https://d3js.org/d3.v4.min.js"></script>
+
+
+
+<script>
+
+	//laadt de csv data uit de file
+	d3.csv("index.csv", function(err, data) {
+
+		//maak in de body een table met een thead en tbody aan
+		var table = d3.select("body").append("table");
+		var title = table.append("thead");
+		var body = table.append("tbody");
+
+		//laadt in de thead de  titel
+		title.append("tr")
+		.selectAll("th")
+		.data(d3.keys(data[1]))
+		.enter()
+		.append("th")
+		.text(function (d) {
+			return d;
+		});
+
+		//laadt de rest in tbody
+		var rows = body.selectAll("tr")
+			.data(data)
+			.enter()
+			.append("tr");
+
+			rows.selectAll("td")
+			.data(function(d) {
+				return d3.values(d);
+			})
+			.enter()
+			.append("td")
+			.text(function(d) {
+				return d;
+			})
+
+	});
+
+	//doe hetzelfde voor de json file
+	d3.json("index.json", function(err, data) {
+
+		var table = d3.select("body").append("table");
+		var title = table.append("thead");
+		var body = table.append("tbody");
+
+		title.append("tr")
+		.selectAll("th")
+		.data(d3.keys(data[1]))
+		.enter()
+		.append("th")
+		.text(function (d) {
+			return d;
+		});
+
+		var rows = body.selectAll("tr")
+			.data(data)
+			.enter()
+			.append("tr");
+
+			rows.selectAll("td")
+			.data(function(d) {
+				return d3.values(d);
+			})
+			.enter()
+			.append("td")
+			.text(function(d) {
+				return d;
+			})
+	});
+
+
+
+</script>

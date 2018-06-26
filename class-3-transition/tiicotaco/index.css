@@ -1,0 +1,50 @@
+svg {
+  font: 10px Helvetica;
+}
+body{
+  background-color:#2A2D34;
+}
+.y.axis path {
+  display: none;
+}
+
+.y.axis line {
+  stroke: #2A2D34;
+  stroke-opacity: .2;
+  shape-rendering: crispEdges;
+}
+
+.y.axis .zero line {
+  stroke: #000;
+  stroke-opacity: 1;
+}
+
+.title {
+  font: 300 78px Helvetica Neue;
+  fill: #F44336;
+  font-weight:500;
+}
+
+.birthyear,
+.age {
+  text-anchor: middle;
+}
+.age, .tick{
+    fill:white;
+}
+
+.birthyear {
+  fill: white;
+  font-weight:600;
+  fill-opacity:.5;
+}
+
+rect {
+  fill-opacity: .4;
+  fill: #F44336;
+}
+
+rect:first-child {
+  fill-opacity: .2;
+  fill: #08A4BD;
+}

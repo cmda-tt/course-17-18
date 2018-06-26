@@ -1,0 +1,41 @@
+<html>
+<head>
+	<title>@spaarwt001</title>
+	<meta charset="utf-8">
+	<meta content="IE=edge" http-equiv="X-UA-Compatible">
+	<meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
+	<link href="./style.css" rel="stylesheet">
+	<script src="https://d3js.org/d3.v4.min.js"></script>
+</head>
+<body>
+
+<h1>Dinners</h1>
+<script>
+	var body = document.body; 
+	var CSVsection = document.createElement("section"); 
+	var JSONsection = document.createElement("section"); 
+
+	d3.csv('./index.csv', csv); 
+	d3.json('./index.json', json); 
+
+	function csv(csv) {  
+	    body.append(CSVsection) 
+	    CSVsection.appendChild(document.createElement('h2')).textContent = "CSV"
+	    csv.forEach(function(d) {
+	        CSVsection.appendChild(document.createElement('h3')).textContent = d.Date;
+	        CSVsection.appendChild(document.createElement('p')).textContent = d.Dinner;
+	    })
+	};
+
+	function json(json) {
+	    body.append(JSONsection)
+	    JSONsection.appendChild(document.createElement('h2')).textContent = "JSON"
+	    json.forEach(function(d) {
+	        JSONsection.appendChild(document.createElement('h3')).textContent = d.Date;
+	        JSONsection.appendChild(document.createElement('p')).textContent = d.Dinner;
+	    })
+	};
+</script>
+
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!doctype html>
+<meta charset=utf8>
+<title>Debug: Async & Loops</title>
+<h1></h1>
+<p>
+  Async functions defined in loops are called after the loop is finished.
+  So if they use a value that changes on each iteration (such as
+  <code>index</code> in <code>var index = 0; index < 2; index++</code>), those
+  functions will be called with the last value of <code>index</code> (in this
+  case <code>2</code>).
+</p>
+<details>
+  <summary>Fix</summary>
+  <p>
+    Wrap the async part in a function and pass <code>index</code> to that as a
+    parameter.
+  </p>
+</details>
+<script>
+var title = document.querySelector('h1');
+
+/* This loop will first set the not-ok message, and a second later
+ * show the ok message. Right? */
+for (var index = 0; index < 2; index++) {
+  setTimeout(function () {
+    if (index === 1) {
+      title.textContent = 'Fixed! 🎉';
+      title.style.color = 'green';
+    } else {
+      title.textContent = '🔥🐶☕️ This is fine… 🔥';
+      title.style.color = 'red';
+    }
+  }, index * 1000);
+}
+
+/* No. Yes, we set two functions with `setTimeout`. But they’ll be
+ * called when the loop is finished. The loop is finished when
+ * `index` is `2`, so we go into the `else` branch. */
+</script>

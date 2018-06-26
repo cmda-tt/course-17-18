@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0, 0, 700, 500" width="700" height="500">
+    
+  <!--Update the title with your username-->
+  <title>@JeffreyKuik</title>
+
+  <!--Add stuff here-->
+
+    <circle
+            cx="420"
+            cy="120"
+            r="100"
+            opacity=".60"
+        />
+    
+    <rect
+          x="200"
+          y="200"
+          height="100"
+          width="100"
+          />
+    
+<g stroke="purple" stroke-width="10" fill="yellow">  
+    
+    <line
+          x1="200"
+          x2="300"
+          y1="20"
+          y2="100"
+          stroke="black"
+          stroke-width="10"
+          />
+    
+    <polygon 
+             points="100,10 40,198 190,78 10,78 160,198"
+             />
+        
+</g>
+    
+    <path 
+          d="M420 60 C 40 20, 120 30, 180 10" stroke="black"
+          stroke-width="2px"
+          fill="transparent"
+          />
+    
+    <text 
+          x="150"
+          y="195"
+          fill="black"
+          transform="rotate(30 20,40)"
+          font-family="Roboto"
+          font-size="16px"
+          >SVG!!!</text>
+    
+</svg>

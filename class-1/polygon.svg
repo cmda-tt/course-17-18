@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+  <title>SVG `&lt;polygon&gt;` element</title>
+  <polygon
+    points="120,63.3 95,106.7 45,106.7 20,63.3 45,20 95,20"
+  />
+</svg>

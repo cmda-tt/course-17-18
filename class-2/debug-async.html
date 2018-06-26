@@ -1,0 +1,31 @@
+<!doctype html>
+<meta charset=utf8>
+<title>Debug: Async</title>
+<h1></h1>
+<p>
+  Async functions are called somewhere in the future, so even if you hoist
+  values from the async function to the outer scope, they won’t be defined.
+</p>
+<details>
+  <summary>Fix</summary>
+  <p>Move all stuff needing access to the async part into the async function.</p>
+</details>
+<script>
+var title = document.querySelector('h1');
+var image = document.createElement('img');
+var width;
+
+image.onload = function () {
+  width = this.width;
+};
+
+image.src = '../cmd.png';
+
+if (width) {
+  title.textContent = 'Fixed! 🎉';
+  title.style.color = 'green';
+} else {
+  title.textContent = '🔥🐶☕️ This is fine… 🔥';
+  title.style.color = 'red';
+}
+</script>

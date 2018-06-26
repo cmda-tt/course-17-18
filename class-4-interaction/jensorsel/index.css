@@ -1,0 +1,42 @@
+* {
+    font-family: Roboto;
+}
+
+.bar {
+    fill: rgba(255, 255, 255, .2);
+    stroke: rgb(75,0,130);
+    stroke-width: 5px;
+    transition: .5s all;
+}
+
+.bar:hover {
+    fill: rgb(75,0,130);
+}
+
+.axis--y path, .axis--x path {
+    display: none;
+}
+
+body {
+    text-align: center;
+    background-image: url(background.jpg);
+    background-size: cover;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+g line {
+    display: none;
+}
+
+g {
+    font-size: 10px;
+    color: white;
+}
+
+text {
+    fill: white;
+}

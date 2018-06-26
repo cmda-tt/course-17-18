@@ -1,0 +1,28 @@
+h1 {
+    text-align: center;
+}
+
+h2 {
+    background: white;
+    padding: 10px;
+    margin: 10px;
+}
+
+h3 {
+    width: 60%;
+    display: inline-block;
+}
+
+p {
+    float: right;
+    width: 40%;
+    text-align: left;
+}
+
+section {
+	float: left;
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+	background: lightcoral;
+}

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+  <title>Variable: shape</title>
+  <rect fill="black" x="55" y="35" width="40" height="40"/>
+  <circle fill="black" cx="75" cy="110" r="25"/>
+  <path d="M 50 145 L 100 145 L 75 185 z" />
+</svg>

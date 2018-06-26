@@ -1,0 +1,65 @@
+<!doctype html>
+<meta charset=utf8>
+<title>@danoszz</title>
+<meta content=width=device-width,initial-scale=1 name=viewport>
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<link rel="stylesheet" type="text/css" href="index.css">
+
+<body>
+	<main>
+		<h1>Dinners</h1>
+		<div id="container"></div>
+	</main>
+	<script>
+
+
+		d3.csv("index.csv", function(error, data) {
+			if (error) throw error;
+			display('Week 1 (CSV)', data);
+		});
+
+		d3.json("index.json", function(error, data) {
+			if (error) throw error;
+			display('Week 2 (JSON)', data);
+		});
+
+		function display(title, data) {
+			var container = document.getElementById('container'),
+				table = document.createElement('table'),
+				tbody = document.createElement('tbody'),
+				header = document.createElement('th'),
+				fragment = document.createDocumentFragment();
+
+
+			if (data.length > 0) {
+				header.textContent = title;
+				tbody.appendChild(header);
+
+			data.forEach(function(data) {
+
+				var row = document.createElement('tr'),
+					cell = document.createElement('td'),
+					cellDay = document.createElement('td'),
+					cellDinner = document.createElement('td');
+
+
+				cellDay.textContent = data.Day;
+				row.appendChild(cellDay);
+
+				cellDinner.textContent = data.Dinner;
+				row.appendChild(cellDinner);
+
+				tbody.appendChild(row);
+
+			});
+
+			table.appendChild(tbody);
+			container.appendChild(table);
+		}
+
+	else {
+		// console.log('Oops your CSV or JSON file seems empty 👀')
+	}
+}
+	</script>
+</body>

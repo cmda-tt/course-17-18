@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+  <title>SVG `&lt;path&gt;` element</title>
+  <path d="M 20 20 L 120 20 L 70 100 z" />
+</svg>

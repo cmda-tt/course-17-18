@@ -1,0 +1,358 @@
+html {
+  font-family: Roboto, -apple-system, BlinkMacSystemFont, Helvetica Neue, Segoe UI, Oxygen, Ubuntu, Cantarell, Open Sans, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+* {
+  line-height: calc(1em + 1ex);
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+h1 {
+  font-family: courier new, courier, monospace;
+}
+
+p {
+  margin-top: calc(1em + 1ex);
+  margin-bottom: calc(1em + 1ex);
+}
+
+a {
+  font-weight: bolder;
+  text-decoration: none;
+  color: #feca2f;
+  transition: color 200ms;
+}
+
+a:focus,
+a:hover {
+  color: inherit;
+}
+
+code,
+pre {
+  font-family: Consolas, Liberation Mono, Menlo, Courier, monospace;
+  font-size: small;
+}
+
+li code,
+p code,
+figcaption code {
+  border-radius: 3px;
+  background-color: rgba(0, 0, 0, 0.04);
+  padding: 0.2em 0.4em;
+  font-weight: bold;
+}
+
+header,
+footer {
+  background-color: #feca2f;
+  box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.04);
+  height: 20em;
+  padding: 2em;
+}
+
+header {
+  display: flex;
+}
+
+header h1 {
+  margin: 0;
+}
+
+header a,
+footer a {
+  color: white;
+}
+
+header div {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header p {
+  margin-left: 2rem;
+}
+
+header p,
+footer p {
+  font-weight: 300;
+}
+
+nav ol {
+  max-width: 20em;
+  margin: 0 auto;
+  padding: 2em 0;
+  list-style: none;
+}
+
+nav li {
+  margin: 2em;
+  height: 16em;
+  width: 16em;
+}
+
+nav a {
+  font-size: 2em;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.04);
+  transition: 200ms background-color, 200ms color;
+  border-radius: 100%;
+  color: white;
+}
+
+nav .assignment {
+  background-color: white;
+  color: black;
+}
+
+nav .assessment {
+  background-color: #ca2ffe;
+}
+
+nav .assignment[href^="https://github.com"] div::after {
+  content: "";
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  background-image: url(gh.png);
+  background-size: 100%;
+  margin-top: 0.5em;
+}
+
+nav a:hover,
+nav a:focus {
+  background-color: #feca2f;
+}
+
+nav small {
+  display: block;
+  font-size: 1em;
+}
+
+main {
+  min-height: 100vh;
+  padding: 1em;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.figure-container {
+  position: relative;
+  margin: 1em;
+  padding: 0;
+  float: left;
+}
+
+.figure-link {
+  display: block;
+}
+
+figure {
+  background-color: rgba(0, 0, 0, 0.04);
+  box-shadow: 0 0 0 3px transparent;
+  transition: background-color 200ms, box-shadow 200ms;
+  padding: 3em;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  overflow: scroll;
+  -webkit-overflow-scrolling: touch;
+}
+
+.figure-link {
+  color: inherit;
+}
+
+.figure-link:hover figure,
+.figure-link:focus figure {
+  background-color: #feca2f;
+  color: black;
+  box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.04);
+}
+
+.github-corner .octo-bg,
+.github-corner .octo-bg {
+  fill: black;
+  transition: fill 200ms;
+}
+
+.github-corner:hover .octo-bg,
+.github-corner:focus .octo-bg {
+  fill: #feca2f;
+}
+
+.figure-link:hover + .github-corner svg,
+.figure-link:focus + .github-corner svg {
+  color: #feca2f !important;
+}
+
+.figure-link:focus + .github-corner:hover .octo-bg {
+  fill: white;
+}
+
+figure img,
+figure iframe {
+  display: block;
+  height: 16em;
+  width: 100%;
+  background-image: url(bg.gif);
+}
+
+figure iframe {
+  border: 0;
+}
+
+figcaption {
+  margin-top: 1.5em;
+  margin-bottom: -1.5em;
+  font-weight: normal;
+  text-align: center;
+}
+
+figcaption > :first-child {
+  margin-top: 0;
+}
+
+figcaption > :last-child {
+  margin-bottom: 0;
+}
+
+footer {
+  text-align: center;
+}
+
+footer img {
+  display: block;
+  width: 100%;
+}
+
+footer .image-link {
+  display: block;
+  width: 32px;
+  margin: 0 auto;
+}
+
+.image-link {
+  transition: opacity 200ms;
+}
+
+.image-link:hover,
+.image-link:focus {
+  opacity: 0.75;
+}
+
+main p {
+  text-align: center;
+}
+
+@media (min-width: 30em) {
+  header h1 {
+    font-size: 4em;
+  }
+
+  header p,
+  footer p {
+    font-size: 1.5em;
+  }
+
+  main {
+    width: 26em;
+  }
+}
+
+@media (min-width: 44em) {
+  nav ol {
+    padding: 2em;
+    overflow: hidden;
+  }
+
+  .main-github-corner svg {
+    width: 150px;
+    height: 150px;
+  }
+
+  header div {
+    padding: 4em;
+  }
+
+  header div,
+  nav ol {
+    max-width: 44rem;
+  }
+
+  nav li {
+    float: left;
+    margin: 2em;
+  }
+
+  main {
+    width: 44em;
+  }
+
+  figure {
+    width: 18.66em;
+  }
+}
+
+@media (min-width: 64em) {
+  header div,
+  nav ol {
+    max-width: 64em;
+  }
+
+  main {
+    width: 64em;
+  }
+}
+
+/* http://tholman.com/github-corners/ */
+.github-corner {
+  display: block;
+  position: absolute;
+  top: 0;
+  border: 0;
+  right: 0;
+}
+
+.github-corner svg {
+  transition: color 200ms;
+}
+
+.octo-arm {
+  transform-origin: 130px 106px;
+}
+
+.github-corner:hover .octo-arm,
+.github-corner:focus .octo-arm {
+  animation: octocat-wave 560ms ease-in-out;
+}
+
+@keyframes octocat-wave {
+  0%,
+  100% {
+    transform: rotate(0);
+  }
+
+  20%,
+  60% {
+    transform: rotate(-25deg);
+  }
+
+  40%,
+  80% {
+    transform: rotate(10deg);
+  }
+}

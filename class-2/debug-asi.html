@@ -1,0 +1,20 @@
+<!doctype html>
+<meta charset=utf8>
+<title>Debug: ASI</title>
+<h1 style=color:red>🔥🐶☕️ This is fine… 🔥</h1>
+<p>Semicolons are optional and automatically inserted (Automatic Semicolon Insertion).</p>
+<details>
+  <summary>Fix</summary>
+  <p>Do not use line breaks directly after <code>return</code>.</p>
+</details>
+<script>
+var title = document.querySelector('h1');
+
+title.textContent = update() || '🔥🐶☕️ This is fine… 🔥';
+
+function update() {
+  return
+    'Fixed!' +
+    '🎉';
+}
+</script>

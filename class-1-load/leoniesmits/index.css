@@ -1,0 +1,16 @@
+body {
+	background-color: #6ed9ff;
+}
+
+th, td {
+	background-color: white;
+	border: 1px solid black;
+	width: 150px;
+	height: 16px;
+	padding: 15px;
+}
+
+table {
+	margin-bottom: 40px;
+}
+

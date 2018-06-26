@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+  <title>Variable: lightness</title>
+  <circle fill="hsl(45, 99%, 90%)" cx="75" cy="50" r="25"/>
+  <circle fill="hsl(45, 99%, 59%)" cx="75" cy="110" r="25"/>
+  <circle fill="hsl(45, 99%, 30%)" cx="75" cy="170" r="25"/>
+</svg>

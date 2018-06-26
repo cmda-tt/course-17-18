@@ -1,0 +1,18 @@
+html {
+    background-color: black;
+    color: white;
+    font-family: Lato;
+}
+
+body {
+    margin: 0;
+}
+
+.bar {
+    fill: currentcolor;
+    fill-opacity: 0.9;
+}
+
+text {
+    fill: currentcolor;
+}
